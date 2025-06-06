@@ -1,0 +1,37 @@
+DOV_KOD,Tanim,SEMBOLU,ATanim,AltKurLn,TCMB_Kod,AlDovTip,DBName
+AL,Altın Hesabı,ALT,Gram,8,,S,Antrepo20
+EU,Euro,EUR,Cent,8,EUR,S,Antrepo20
+IF,İsviçre Frangı,CHF,Cent,8,CHF,S,Antrepo20
+RB,Rus Rublesi,RUB,Cent,8,RUB,S,Antrepo20
+TL,Türk Lirası,TL,Kuruş,8,TRY,S,Antrepo20
+US,Dolar,USD,Cent,8,USD,S,Antrepo20
+AL,Altın Hesabı,ALT,Gram,8,,S,Cabani20
+EU,Euro,EUR,Cent,8,EUR,S,Cabani20
+IF,İsviçre Frangı,CHF,Cent,8,CHF,S,Cabani20
+RB,Rus Rublesi,RUB,Cent,8,RUB,S,Cabani20
+TL,Türk Lirası,TL,Kuruş,8,TRY,S,Cabani20
+US,Dolar,USD,Cent,8,USD,S,Cabani20
+AL,Altın Hesabı,ALT,Gram,8,,S,KORGUNYAZILIM1910
+EU,Euro,EUR,Cent,8,EUR,S,KORGUNYAZILIM1910
+IF,İsviçre Frangı,CHF,Cent,8,CHF,S,KORGUNYAZILIM1910
+RB,Rus Rublesi,RUB,Cent,8,RUB,S,KORGUNYAZILIM1910
+TL,Türk Lirası,TL,Kuruş,8,TRY,S,KORGUNYAZILIM1910
+US,Dolar,USD,Cent,8,USD,S,KORGUNYAZILIM1910
+AL,Altın Hesabı,ALT,Gram,8,,S,KORGUNYAZILIM2210
+EU,Euro,EUR,Cent,8,EUR,S,KORGUNYAZILIM2210
+IF,İsviçre Frangı,CHF,Cent,8,CHF,S,KORGUNYAZILIM2210
+RB,Rus Rublesi,RUB,Cent,8,RUB,S,KORGUNYAZILIM2210
+TL,Türk Lirası,TL,Kuruş,8,TRY,S,KORGUNYAZILIM2210
+US,Dolar,USD,Cent,8,USD,S,KORGUNYAZILIM2210
+AL,Altın Hesabı,ALT,Gram,8,,S,KORGUNYAZILIM2310
+EU,Euro,EUR,Cent,8,EUR,S,KORGUNYAZILIM2310
+IF,İsviçre Frangı,CHF,Cent,8,CHF,S,KORGUNYAZILIM2310
+RB,Rus Rublesi,RUB,Cent,8,RUB,S,KORGUNYAZILIM2310
+TL,Türk Lirası,TL,Kuruş,8,TRY,S,KORGUNYAZILIM2310
+US,Dolar,USD,Cent,8,USD,S,KORGUNYAZILIM2310
+AL,Altın Hesabı,ALT,Gram,8,,S,Uretim20
+EU,Euro,EUR,Cent,8,EUR,S,Uretim20
+IF,İsviçre Frangı,CHF,Cent,8,CHF,S,Uretim20
+RB,Rus Rublesi,RUB,Cent,8,RUB,S,Uretim20
+TL,Türk Lirası,TL,Kuruş,8,TRY,S,Uretim20
+US,Dolar,USD,Cent,8,USD,S,Uretim20

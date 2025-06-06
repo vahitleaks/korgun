@@ -1,0 +1,8 @@
+id,Kimden,Kime,Bilgi,Gizli,GercekKime,Konu,Onem,Tarih,Mail,Okundu,Rapor,Silindi,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,1,,,,,,
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,3,,,,,,
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,4,,,,,,
+5,k,2310Tedarikci,,,2310Tedarikci,,1,2024-03-19 12:20:17.927000,,,,,5,k,2024-03-19 12:20:14.180000,KGShop,,,
+6,k,alex,,,alex,NEDİR YANİ,1,2024-03-19 12:20:40.980000,NEDİR YANİ,,,,6,k,2024-03-19 12:20:37.283000,KGShop,,,
+7,OZKAN,harun,,,harun,Deneme,0,2025-05-29 12:08:21.200000,Önemli deneme mesajı,,*,,7,OZKAN,2025-05-29 12:08:21.227000,KGShop,,,
+8,OZKAN,harun,,,harun,dfsafdsf,1,2025-05-29 12:13:38.517000,hfdhghd,,,,8,OZKAN,2025-05-29 12:13:38.527000,KGShop,,,

@@ -1,0 +1,42 @@
+inx,UserName,TarihSaat,Modul,MOption,CheckValue,OldCheckValue
+1,dbo,2024-07-25 10:46:37.003000,GENEL,AsortiSave,Evet,Hayir
+2,dbo,2024-07-25 11:00:34.103000,GENEL,MaxAsorFrmt,70,
+3,dbo,2024-07-25 12:21:54.853000,Stok,DefaultBirim,CIFT,ADET
+4,dbo,2024-07-25 12:21:54.860000,Stok,DefaultKDV,10,8
+5,dbo,2024-07-25 14:48:52.593000,GENEL,DovizUyar,Hayir,Evet
+6,dbo,2024-07-25 15:43:17.723000,SipFis,SipOzKod1,MARKA,Özel Kod 1
+7,dbo,2024-07-25 15:45:23.650000,SipFis,NoOzKod1,Evet,Hayir
+8,dbo,2024-08-05 10:59:47.873000,Stok,DefaultKDV,,10
+9,dbo,2024-08-05 12:29:09.810000,SipFis,NoOzKod1,Hayir,Evet
+10,dbo,2024-08-05 12:38:15.940000,FatFis,eksistock2,Evet,Hayir
+11,dbo,2024-08-15 11:06:42.777000,GENEL,DefaultPC,US,TL
+12,dbo,2024-08-15 12:18:38.203000,Cari,CEkstreBasTar,01/01/2024,01/01/2015
+13,dbo,2024-08-26 12:57:59.237000,SipFis,AutoTip,SonNo,EnBuyukNo
+14,dbo,2024-08-26 12:57:59.250000,SipFis,CopyBelNo,Evet,Hayir
+15,dbo,2024-08-26 13:01:47.487000,SipFis,SipCopyLot,Evet,Hayir
+16,ONUR,2024-08-29 19:13:29.550000,Cari,OzKod1,Para Cinsi,Özel Kod 1
+17,ONUR,2024-08-29 19:13:29.550000,Cari,OzKod2,Cari Tipi,Özel Kod 2
+18,ONUR,2024-08-29 19:13:29.550000,Cari,OzKod4,Bölgesi,Özel Kod 4
+19,ONUR,2024-08-29 19:13:29.550000,Cari,OzKod5,Temsilcisi,Özel Kod 5
+20,ONUR,2024-12-03 12:52:02.107000,GENEL,AsortiBCGen,5,8
+21,ONUR,2024-12-03 12:52:05.360000,GENEL,AsortiBCGen,6,5
+22,ONUR,2024-12-03 13:04:38.113000,SipFis,AutoBelgeNo,Evet,Hayir
+23,ONUR,2024-12-03 13:10:36.773000,SipFis,SatOzKod1T,Astar,Özel Kod 1
+24,dbo,2024-12-05 13:17:14.223000,SipFis,SipYazSort,Stok,Yok
+25,dbo,2024-12-05 13:17:14.223000,SipFis,YazSortYaz,Evet,Hayir
+26,dbo,2024-12-10 17:29:47.200000,GENEL,ScreenOpenMultiple,Evet,Hayir
+27,ONUR,2024-12-11 16:37:00.803000,GENEL,BcinUseMikLotLn,6,1
+28,Suat,2025-01-08 09:58:05.867000,SipFis,SipOzKod2,Satıcı,Özel Kod 2
+29,Suat,2025-01-08 09:58:15.530000,SipFis,NoOzKod2,Evet,Hayir
+30,dbo,2025-01-08 14:21:18.240000,SipFis,NoOzKod2,Hayir,Evet
+31,Suat,2025-01-17 15:57:16.933000,CariFis,HarOzKod3,KARGO,Özel Kod 3
+32,Suat,2025-01-17 15:58:05.350000,CariFis,HarOzKod3,Özel Kod 3,KARGO
+33,Suat,2025-01-17 16:00:29.180000,SipFis,SipOzKod3,Kargo,Özel Kod 3
+34,Suat,2025-01-31 15:14:29.587000,Cari,OzKod3,Kargo,Özel Kod 3
+35,Suat,2025-01-31 20:03:50.680000,Cari,OzKod4,Kargo Kodu,Bölgesi
+36,Suat,2025-02-07 13:15:57.317000,Cari,OzKod4,Kod,Kargo Kodu
+37,Suat,2025-02-07 13:19:31.110000,SipFis,SipOzKod4,Kod,Özel Kod 4
+38,Suat,2025-02-07 13:20:51.633000,SipFis,SipOzKod4,Kargo Kodu,Kod
+39,dbo,2025-02-18 14:33:45.840000,FatFis,AutoFatNo,Hayir,Evet
+40,dbo,2025-02-18 14:33:45.840000,FatFis,AutoBelLoc,Hayir,Evet
+41,dbo,2025-02-18 14:33:45.843000,FatFis,AutoTip,SonNo,EnBuyukNo

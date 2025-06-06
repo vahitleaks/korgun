@@ -1,0 +1,853 @@
+STOK_Tip,Tanim,DBName
+008,İş Ayakkabı,Antrepo20
+009,Outlet Ayakkabı,Antrepo20
+010,Loafer Ayakkabı,Antrepo20
+011,Casual Ayakkabı,Antrepo20
+012,Günlük Ayakkabı,Antrepo20
+013,Abiye Ayakkabı,Antrepo20
+014,Stiletto Ayakkabı,Antrepo20
+015,Sneaker Ayakkabı,Antrepo20
+016,Spor Ayakkabı,Antrepo20
+017,Dolgu Topuk Ayakkabı,Antrepo20
+018,Klasik Ayakkabı,Antrepo20
+019,Promosyon Ayakkabı,Antrepo20
+020,Loafer Bot,Antrepo20
+021,Klasik Bot,Antrepo20
+022,Günlük Bot,Antrepo20
+023,Topuklu Ayakkabı,Antrepo20
+024,loafer & makosen,Antrepo20
+025,Sneaker Bot,Antrepo20
+026,Outdoor Bot,Antrepo20
+027,sneaker &spor,Antrepo20
+028,tekne boat ,Antrepo20
+029,babet,Antrepo20
+031,Klasik Çizme,Antrepo20
+032,Günlük Çizme,Antrepo20
+041,Klasik Babet,Antrepo20
+042,Günlük Babet,Antrepo20
+051,Klasik Terlik,Antrepo20
+052,Parmak Arası Terlik,Antrepo20
+053,Plaj Terlik,Antrepo20
+054,Ev İçi Terlik,Antrepo20
+055,Günlük Terlik,Antrepo20
+056,Dolgu Topuk,Antrepo20
+057,Loafer Terlik,Antrepo20
+061,Klasik Sandalet,Antrepo20
+062,Parmak Arası,Antrepo20
+065,Günlük,Antrepo20
+066,Dolgu Topuk,Antrepo20
+071,Klasik Kemer,Antrepo20
+072,Spor Kemer,Antrepo20
+080,Günlük Çanta,Antrepo20
+081,El Çantası,Antrepo20
+082,Omuz Çantası,Antrepo20
+083,Evrak Çantası,Antrepo20
+084,Postacı Çantası,Antrepo20
+085,Sırt Çantası,Antrepo20
+086,Bel Çantası,Antrepo20
+087,Portföy Çantası,Antrepo20
+088,Laptop Cantası,Antrepo20
+091,Valiz,Antrepo20
+092,Bere,Antrepo20
+093,Eldiven,Antrepo20
+101,Cüzdan,Antrepo20
+102,Kartlık,Antrepo20
+103,Saat Kordonu,Antrepo20
+111,Günlük Çorap,Antrepo20
+112,Babet Çorap,Antrepo20
+121,Parfüm,Antrepo20
+122,Anahtarlık,Antrepo20
+123,Bileklik,Antrepo20
+124,Set,Antrepo20
+202,Sünger,Antrepo20
+203,Su İtici,Antrepo20
+204,Sprey,Antrepo20
+205,Cila,Antrepo20
+206,Boya,Antrepo20
+207,Astar,Antrepo20
+208,Bağcık,Antrepo20
+209,Fırça,Antrepo20
+210,Kalıp,Antrepo20
+211,Genişletici,Antrepo20
+212,Pet,Antrepo20
+213,Silgi,Antrepo20
+214,Telefon Kılıfı,Antrepo20
+280,,Antrepo20
+301,Tabanlık,Antrepo20
+302,Mostra,Antrepo20
+400,Kalıp,Antrepo20
+401,Çekecek,Antrepo20
+402,Büyük Çekecek,Antrepo20
+501,Poşetler,Antrepo20
+A01,Deri Astar,Antrepo20
+A02,Kürt Astar,Antrepo20
+A03,Bez Astar ,Antrepo20
+A04,Streç Astar,Antrepo20
+A05,ÇORAPLIK,Antrepo20
+B01,Mumlu Bağ,Antrepo20
+B02,Mumsuz Bağ,Antrepo20
+B03,Örgülü Bağ,Antrepo20
+B04,Spor Bağ,Antrepo20
+B05,Az Mumlu bağ,Antrepo20
+C01,Çelikli - Çeliksiz Taban,Antrepo20
+D01,Doğal Deri,Antrepo20
+D02,Suni Deri,Antrepo20
+D03,Triko,Antrepo20
+D04,Bez Grubu,Antrepo20
+E01,Mostrateknika Etiket,Antrepo20
+F01,Metal Fermuar,Antrepo20
+F02,Plastik Fermuar,Antrepo20
+G01,Boyalar,Antrepo20
+I01,Yapıştırıcılar,Antrepo20
+I02,Silme Suları,Antrepo20
+I03,Yapıştırıc ve İlaçlar,Antrepo20
+I04,Ayırıcı,Antrepo20
+I05,Kalıp salpa birlesimi,Antrepo20
+J01,Kutu,Antrepo20
+J02,Koli,Antrepo20
+J03,Pelur,Antrepo20
+J04,Sticker Amblem,Antrepo20
+J05,Kutu Sıvama,Antrepo20
+J06,Çuval,Antrepo20
+J07,Bantlar ,Antrepo20
+J08,Bez Torba,Antrepo20
+J09,Cekecek,Antrepo20
+K01,Toka,Antrepo20
+K02,Halka,Antrepo20
+K03,Rivet,Antrepo20
+K04,Trok,Antrepo20
+K06,Kanca,Antrepo20
+K07,Kapsül,Antrepo20
+K08,Bağ Ucu,Antrepo20
+L01,Ahşap Kalıp,Antrepo20
+L02,Kalıp (Model Kalıbı),Antrepo20
+M01,Mostara Pet Mesın,Antrepo20
+M02,Pet cıplak,Antrepo20
+M03,Jelli Mostra,Antrepo20
+M04,Keten Mostra ,Antrepo20
+O01,LASTIK,Antrepo20
+R01,Bombe,Antrepo20
+R02,Fort,Antrepo20
+R03,Kesim Regapta,Antrepo20
+S01,Saya İpi,Antrepo20
+T01,Tpu Taban,Antrepo20
+T02,Eva Taban,Antrepo20
+T03,Termo Taban,Antrepo20
+T04,Kauçuk Taban,Antrepo20
+T05,Micro Light Taban,Antrepo20
+T06,Poli Taban,Antrepo20
+T07,Pvc Taban,Antrepo20
+T08,Neolit Taban,Antrepo20
+T09,Kösele Taban,Antrepo20
+T10,Saya,Antrepo20
+X01,Yardımcı Malzemeler,Antrepo20
+008,İş Ayakkabı,Cabani20
+009,Outlet Ayakkabı,Cabani20
+010,Loafer Ayakkabı,Cabani20
+011,Casual Ayakkabı,Cabani20
+012,Günlük Ayakkabı,Cabani20
+013,Abiye Ayakkabı,Cabani20
+014,Stiletto Ayakkabı,Cabani20
+015,Sneaker Ayakkabı,Cabani20
+016,Spor Ayakkabı,Cabani20
+017,Dolgu Topuk Ayakkabı,Cabani20
+018,Klasik Ayakkabı,Cabani20
+019,Promosyon Ayakkabı,Cabani20
+020,Loafer Bot,Cabani20
+021,Klasik Bot,Cabani20
+022,Günlük Bot,Cabani20
+023,Topuklu Ayakkabı,Cabani20
+024,loafer & makosen,Cabani20
+025,Sneaker Bot,Cabani20
+026,Outdoor Bot,Cabani20
+027,sneaker &spor,Cabani20
+028,tekne boat ,Cabani20
+029,babet,Cabani20
+031,Klasik Çizme,Cabani20
+032,Günlük Çizme,Cabani20
+041,Klasik Babet,Cabani20
+042,Günlük Babet,Cabani20
+051,Klasik Terlik,Cabani20
+052,Parmak Arası Terlik,Cabani20
+053,Plaj Terlik,Cabani20
+054,Ev İçi Terlik,Cabani20
+055,Günlük Terlik,Cabani20
+056,Dolgu Topuk,Cabani20
+057,Loafer Terlik,Cabani20
+061,Klasik Sandalet,Cabani20
+062,Parmak Arası,Cabani20
+065,Günlük,Cabani20
+066,Dolgu Topuk,Cabani20
+071,Klasik Kemer,Cabani20
+072,Spor Kemer,Cabani20
+080,Günlük Çanta,Cabani20
+081,El Çantası,Cabani20
+082,Omuz Çantası,Cabani20
+083,Evrak Çantası,Cabani20
+084,Postacı Çantası,Cabani20
+085,Sırt Çantası,Cabani20
+086,Bel Çantası,Cabani20
+087,Portföy Çantası,Cabani20
+088,Laptop Cantası,Cabani20
+091,Valiz,Cabani20
+092,Bere,Cabani20
+093,Eldiven,Cabani20
+101,Cüzdan,Cabani20
+102,Kartlık,Cabani20
+103,Saat Kordonu,Cabani20
+111,Günlük Çorap,Cabani20
+112,Babet Çorap,Cabani20
+121,Parfüm,Cabani20
+122,Anahtarlık,Cabani20
+123,Bileklik,Cabani20
+124,Set,Cabani20
+202,Sünger,Cabani20
+203,Su İtici,Cabani20
+204,Sprey,Cabani20
+205,Cila,Cabani20
+206,Boya,Cabani20
+207,Astar,Cabani20
+208,Bağcık,Cabani20
+209,Fırça,Cabani20
+210,Kalıp,Cabani20
+211,Genişletici,Cabani20
+212,Pet,Cabani20
+213,Silgi,Cabani20
+214,Telefon Kılıfı,Cabani20
+280,,Cabani20
+301,Tabanlık,Cabani20
+302,Mostra,Cabani20
+400,Kalıp,Cabani20
+401,Çekecek,Cabani20
+402,Büyük Çekecek,Cabani20
+501,Poşetler,Cabani20
+A01,Deri Astar,Cabani20
+A02,Kürt Astar,Cabani20
+A03,Bez Astar ,Cabani20
+A04,Streç Astar,Cabani20
+A05,ÇORAPLIK,Cabani20
+B01,Mumlu Bağ,Cabani20
+B02,Mumsuz Bağ,Cabani20
+B03,Örgülü Bağ,Cabani20
+B04,Spor Bağ,Cabani20
+B05,Az Mumlu bağ,Cabani20
+C01,Çelikli - Çeliksiz Taban,Cabani20
+D01,Doğal Deri,Cabani20
+D02,Suni Deri,Cabani20
+D03,Triko,Cabani20
+D04,Bez Grubu,Cabani20
+E01,Mostrateknika Etiket,Cabani20
+F01,Metal Fermuar,Cabani20
+F02,Plastik Fermuar,Cabani20
+G01,Boyalar,Cabani20
+I01,Yapıştırıcılar,Cabani20
+I02,Silme Suları,Cabani20
+I03,Yapıştırıc ve İlaçlar,Cabani20
+I04,Ayırıcı,Cabani20
+I05,Kalıp salpa birlesimi,Cabani20
+J01,Kutu,Cabani20
+J02,Koli,Cabani20
+J03,Pelur,Cabani20
+J04,Sticker Amblem,Cabani20
+J05,Kutu Sıvama,Cabani20
+J06,Çuval,Cabani20
+J07,Bantlar ,Cabani20
+J08,Bez Torba,Cabani20
+J09,Cekecek,Cabani20
+K01,Toka,Cabani20
+K02,Halka,Cabani20
+K03,Rivet,Cabani20
+K04,Trok,Cabani20
+K06,Kanca,Cabani20
+K07,Kapsül,Cabani20
+K08,Bağ Ucu,Cabani20
+L01,Ahşap Kalıp,Cabani20
+L02,Kalıp (Model Kalıbı),Cabani20
+M01,Mostara Pet Mesın,Cabani20
+M02,Pet cıplak,Cabani20
+M03,Jelli Mostra,Cabani20
+M04,Keten Mostra ,Cabani20
+O01,LASTIK,Cabani20
+R01,Bombe,Cabani20
+R02,Fort,Cabani20
+R03,Kesim Regapta,Cabani20
+S01,Saya İpi,Cabani20
+T01,Tpu Taban,Cabani20
+T02,Eva Taban,Cabani20
+T03,Termo Taban,Cabani20
+T04,Kauçuk Taban,Cabani20
+T05,Micro Light Taban,Cabani20
+T06,Poli Taban,Cabani20
+T07,Pvc Taban,Cabani20
+T08,Neolit Taban,Cabani20
+T09,Kösele Taban,Cabani20
+T10,Saya,Cabani20
+X01,Yardımcı Malzemeler,Cabani20
+008,İş Ayakkabı,KORGUNYAZILIM1910
+009,Outlet Ayakkabı,KORGUNYAZILIM1910
+010,Loafer Ayakkabı,KORGUNYAZILIM1910
+011,Casual Ayakkabı,KORGUNYAZILIM1910
+012,Günlük Ayakkabı,KORGUNYAZILIM1910
+013,Abiye Ayakkabı,KORGUNYAZILIM1910
+014,Stiletto Ayakkabı,KORGUNYAZILIM1910
+015,Sneaker Ayakkabı,KORGUNYAZILIM1910
+016,Spor Ayakkabı,KORGUNYAZILIM1910
+017,Dolgu Topuk Ayakkabı,KORGUNYAZILIM1910
+018,Klasik Ayakkabı,KORGUNYAZILIM1910
+019,Promosyon Ayakkabı,KORGUNYAZILIM1910
+020,Loafer Bot,KORGUNYAZILIM1910
+021,Klasik Bot,KORGUNYAZILIM1910
+022,Günlük Bot,KORGUNYAZILIM1910
+023,Topuklu Ayakkabı,KORGUNYAZILIM1910
+024,loafer & makosen,KORGUNYAZILIM1910
+025,Sneaker Bot,KORGUNYAZILIM1910
+026,Outdoor Bot,KORGUNYAZILIM1910
+027,sneaker &spor,KORGUNYAZILIM1910
+028,tekne boat ,KORGUNYAZILIM1910
+029,babet,KORGUNYAZILIM1910
+031,Klasik Çizme,KORGUNYAZILIM1910
+032,Günlük Çizme,KORGUNYAZILIM1910
+041,Klasik Babet,KORGUNYAZILIM1910
+042,Günlük Babet,KORGUNYAZILIM1910
+051,Klasik Terlik,KORGUNYAZILIM1910
+052,Parmak Arası Terlik,KORGUNYAZILIM1910
+053,Plaj Terlik,KORGUNYAZILIM1910
+054,Ev İçi Terlik,KORGUNYAZILIM1910
+055,Günlük Terlik,KORGUNYAZILIM1910
+056,Dolgu Topuk,KORGUNYAZILIM1910
+057,Loafer Terlik,KORGUNYAZILIM1910
+061,Klasik Sandalet,KORGUNYAZILIM1910
+062,Parmak Arası,KORGUNYAZILIM1910
+065,Günlük,KORGUNYAZILIM1910
+066,Dolgu Topuk,KORGUNYAZILIM1910
+071,Klasik Kemer,KORGUNYAZILIM1910
+072,Spor Kemer,KORGUNYAZILIM1910
+080,Günlük Çanta,KORGUNYAZILIM1910
+081,El Çantası,KORGUNYAZILIM1910
+082,Omuz Çantası,KORGUNYAZILIM1910
+083,Evrak Çantası,KORGUNYAZILIM1910
+084,Postacı Çantası,KORGUNYAZILIM1910
+085,Sırt Çantası,KORGUNYAZILIM1910
+086,Bel Çantası,KORGUNYAZILIM1910
+087,Portföy Çantası,KORGUNYAZILIM1910
+088,Laptop Cantası,KORGUNYAZILIM1910
+091,Valiz,KORGUNYAZILIM1910
+092,Bere,KORGUNYAZILIM1910
+093,Eldiven,KORGUNYAZILIM1910
+101,Cüzdan,KORGUNYAZILIM1910
+102,Kartlık,KORGUNYAZILIM1910
+103,Saat Kordonu,KORGUNYAZILIM1910
+111,Günlük Çorap,KORGUNYAZILIM1910
+112,Babet Çorap,KORGUNYAZILIM1910
+121,Parfüm,KORGUNYAZILIM1910
+122,Anahtarlık,KORGUNYAZILIM1910
+123,Bileklik,KORGUNYAZILIM1910
+124,Set,KORGUNYAZILIM1910
+202,Sünger,KORGUNYAZILIM1910
+203,Su İtici,KORGUNYAZILIM1910
+204,Sprey,KORGUNYAZILIM1910
+205,Cila,KORGUNYAZILIM1910
+206,Boya,KORGUNYAZILIM1910
+207,Astar,KORGUNYAZILIM1910
+208,Bağcık,KORGUNYAZILIM1910
+209,Fırça,KORGUNYAZILIM1910
+210,Kalıp,KORGUNYAZILIM1910
+211,Genişletici,KORGUNYAZILIM1910
+212,Pet,KORGUNYAZILIM1910
+213,Silgi,KORGUNYAZILIM1910
+214,Telefon Kılıfı,KORGUNYAZILIM1910
+280,,KORGUNYAZILIM1910
+301,Tabanlık,KORGUNYAZILIM1910
+302,Mostra,KORGUNYAZILIM1910
+400,Kalıp,KORGUNYAZILIM1910
+401,Çekecek,KORGUNYAZILIM1910
+402,Büyük Çekecek,KORGUNYAZILIM1910
+501,Poşetler,KORGUNYAZILIM1910
+A01,Deri Astar,KORGUNYAZILIM1910
+A02,Kürt Astar,KORGUNYAZILIM1910
+A03,Bez Astar ,KORGUNYAZILIM1910
+A04,Streç Astar,KORGUNYAZILIM1910
+A05,ÇORAPLIK,KORGUNYAZILIM1910
+B01,Mumlu Bağ,KORGUNYAZILIM1910
+B02,Mumsuz Bağ,KORGUNYAZILIM1910
+B03,Örgülü Bağ,KORGUNYAZILIM1910
+B04,Spor Bağ,KORGUNYAZILIM1910
+B05,Az Mumlu bağ,KORGUNYAZILIM1910
+C01,Çelikli - Çeliksiz Taban,KORGUNYAZILIM1910
+D01,Doğal Deri,KORGUNYAZILIM1910
+D02,Suni Deri,KORGUNYAZILIM1910
+D03,Triko,KORGUNYAZILIM1910
+D04,Bez Grubu,KORGUNYAZILIM1910
+E01,Mostrateknika Etiket,KORGUNYAZILIM1910
+F01,Metal Fermuar,KORGUNYAZILIM1910
+F02,Plastik Fermuar,KORGUNYAZILIM1910
+G01,Boyalar,KORGUNYAZILIM1910
+I01,Yapıştırıcılar,KORGUNYAZILIM1910
+I02,Silme Suları,KORGUNYAZILIM1910
+I03,Yapıştırıc ve İlaçlar,KORGUNYAZILIM1910
+I04,Ayırıcı,KORGUNYAZILIM1910
+I05,Kalıp salpa birlesimi,KORGUNYAZILIM1910
+J01,Kutu,KORGUNYAZILIM1910
+J02,Koli,KORGUNYAZILIM1910
+J03,Pelur,KORGUNYAZILIM1910
+J04,Sticker Amblem,KORGUNYAZILIM1910
+J05,Kutu Sıvama,KORGUNYAZILIM1910
+J06,Çuval,KORGUNYAZILIM1910
+J07,Bantlar ,KORGUNYAZILIM1910
+J08,Bez Torba,KORGUNYAZILIM1910
+J09,Cekecek,KORGUNYAZILIM1910
+K01,Toka,KORGUNYAZILIM1910
+K02,Halka,KORGUNYAZILIM1910
+K03,Rivet,KORGUNYAZILIM1910
+K04,Trok,KORGUNYAZILIM1910
+K06,Kanca,KORGUNYAZILIM1910
+K07,Kapsül,KORGUNYAZILIM1910
+K08,Bağ Ucu,KORGUNYAZILIM1910
+L01,Ahşap Kalıp,KORGUNYAZILIM1910
+L02,Kalıp (Model Kalıbı),KORGUNYAZILIM1910
+M01,Mostara Pet Mesın,KORGUNYAZILIM1910
+M02,Pet cıplak,KORGUNYAZILIM1910
+M03,Jelli Mostra,KORGUNYAZILIM1910
+M04,Keten Mostra ,KORGUNYAZILIM1910
+O01,LASTIK,KORGUNYAZILIM1910
+R01,Bombe,KORGUNYAZILIM1910
+R02,Fort,KORGUNYAZILIM1910
+R03,Kesim Regapta,KORGUNYAZILIM1910
+S01,Saya İpi,KORGUNYAZILIM1910
+T01,Tpu Taban,KORGUNYAZILIM1910
+T02,Eva Taban,KORGUNYAZILIM1910
+T03,Termo Taban,KORGUNYAZILIM1910
+T04,Kauçuk Taban,KORGUNYAZILIM1910
+T05,Micro Light Taban,KORGUNYAZILIM1910
+T06,Poli Taban,KORGUNYAZILIM1910
+T07,Pvc Taban,KORGUNYAZILIM1910
+T08,Neolit Taban,KORGUNYAZILIM1910
+T09,Kösele Taban,KORGUNYAZILIM1910
+T10,Saya,KORGUNYAZILIM1910
+X01,Yardımcı Malzemeler,KORGUNYAZILIM1910
+008,İş Ayakkabı,KORGUNYAZILIM2210
+009,Outlet Ayakkabı,KORGUNYAZILIM2210
+010,Loafer Ayakkabı,KORGUNYAZILIM2210
+011,Casual Ayakkabı,KORGUNYAZILIM2210
+012,Günlük Ayakkabı,KORGUNYAZILIM2210
+013,Abiye Ayakkabı,KORGUNYAZILIM2210
+014,Stiletto Ayakkabı,KORGUNYAZILIM2210
+015,Sneaker Ayakkabı,KORGUNYAZILIM2210
+016,Spor Ayakkabı,KORGUNYAZILIM2210
+017,Dolgu Topuk Ayakkabı,KORGUNYAZILIM2210
+018,Klasik Ayakkabı,KORGUNYAZILIM2210
+019,Promosyon Ayakkabı,KORGUNYAZILIM2210
+020,Loafer Bot,KORGUNYAZILIM2210
+021,Klasik Bot,KORGUNYAZILIM2210
+022,Günlük Bot,KORGUNYAZILIM2210
+023,Topuklu Ayakkabı,KORGUNYAZILIM2210
+024,loafer & makosen,KORGUNYAZILIM2210
+025,Sneaker Bot,KORGUNYAZILIM2210
+026,Outdoor Bot,KORGUNYAZILIM2210
+027,sneaker &spor,KORGUNYAZILIM2210
+028,tekne boat ,KORGUNYAZILIM2210
+029,babet,KORGUNYAZILIM2210
+031,Klasik Çizme,KORGUNYAZILIM2210
+032,Günlük Çizme,KORGUNYAZILIM2210
+041,Klasik Babet,KORGUNYAZILIM2210
+042,Günlük Babet,KORGUNYAZILIM2210
+051,Klasik Terlik,KORGUNYAZILIM2210
+052,Parmak Arası Terlik,KORGUNYAZILIM2210
+053,Plaj Terlik,KORGUNYAZILIM2210
+054,Ev İçi Terlik,KORGUNYAZILIM2210
+055,Günlük Terlik,KORGUNYAZILIM2210
+056,Dolgu Topuk,KORGUNYAZILIM2210
+057,Loafer Terlik,KORGUNYAZILIM2210
+061,Klasik Sandalet,KORGUNYAZILIM2210
+062,Parmak Arası,KORGUNYAZILIM2210
+065,Günlük,KORGUNYAZILIM2210
+066,Dolgu Topuk,KORGUNYAZILIM2210
+071,Klasik Kemer,KORGUNYAZILIM2210
+072,Spor Kemer,KORGUNYAZILIM2210
+080,Günlük Çanta,KORGUNYAZILIM2210
+081,El Çantası,KORGUNYAZILIM2210
+082,Omuz Çantası,KORGUNYAZILIM2210
+083,Evrak Çantası,KORGUNYAZILIM2210
+084,Postacı Çantası,KORGUNYAZILIM2210
+085,Sırt Çantası,KORGUNYAZILIM2210
+086,Bel Çantası,KORGUNYAZILIM2210
+087,Portföy Çantası,KORGUNYAZILIM2210
+088,Laptop Cantası,KORGUNYAZILIM2210
+091,Valiz,KORGUNYAZILIM2210
+092,Bere,KORGUNYAZILIM2210
+093,Eldiven,KORGUNYAZILIM2210
+101,Cüzdan,KORGUNYAZILIM2210
+102,Kartlık,KORGUNYAZILIM2210
+103,Saat Kordonu,KORGUNYAZILIM2210
+111,Günlük Çorap,KORGUNYAZILIM2210
+112,Babet Çorap,KORGUNYAZILIM2210
+121,Parfüm,KORGUNYAZILIM2210
+122,Anahtarlık,KORGUNYAZILIM2210
+123,Bileklik,KORGUNYAZILIM2210
+124,Set,KORGUNYAZILIM2210
+202,Sünger,KORGUNYAZILIM2210
+203,Su İtici,KORGUNYAZILIM2210
+204,Sprey,KORGUNYAZILIM2210
+205,Cila,KORGUNYAZILIM2210
+206,Boya,KORGUNYAZILIM2210
+207,Astar,KORGUNYAZILIM2210
+208,Bağcık,KORGUNYAZILIM2210
+209,Fırça,KORGUNYAZILIM2210
+210,Kalıp,KORGUNYAZILIM2210
+211,Genişletici,KORGUNYAZILIM2210
+212,Pet,KORGUNYAZILIM2210
+213,Silgi,KORGUNYAZILIM2210
+214,Telefon Kılıfı,KORGUNYAZILIM2210
+280,,KORGUNYAZILIM2210
+301,Tabanlık,KORGUNYAZILIM2210
+302,Mostra,KORGUNYAZILIM2210
+400,Kalıp,KORGUNYAZILIM2210
+401,Çekecek,KORGUNYAZILIM2210
+402,Büyük Çekecek,KORGUNYAZILIM2210
+501,Poşetler,KORGUNYAZILIM2210
+A01,Deri Astar,KORGUNYAZILIM2210
+A02,Kürt Astar,KORGUNYAZILIM2210
+A03,Bez Astar ,KORGUNYAZILIM2210
+A04,Streç Astar,KORGUNYAZILIM2210
+A05,ÇORAPLIK,KORGUNYAZILIM2210
+B01,Mumlu Bağ,KORGUNYAZILIM2210
+B02,Mumsuz Bağ,KORGUNYAZILIM2210
+B03,Örgülü Bağ,KORGUNYAZILIM2210
+B04,Spor Bağ,KORGUNYAZILIM2210
+B05,Az Mumlu bağ,KORGUNYAZILIM2210
+C01,Çelikli - Çeliksiz Taban,KORGUNYAZILIM2210
+D01,Doğal Deri,KORGUNYAZILIM2210
+D02,Suni Deri,KORGUNYAZILIM2210
+D03,Triko,KORGUNYAZILIM2210
+D04,Bez Grubu,KORGUNYAZILIM2210
+E01,Mostrateknika Etiket,KORGUNYAZILIM2210
+F01,Metal Fermuar,KORGUNYAZILIM2210
+F02,Plastik Fermuar,KORGUNYAZILIM2210
+G01,Boyalar,KORGUNYAZILIM2210
+I01,Yapıştırıcılar,KORGUNYAZILIM2210
+I02,Silme Suları,KORGUNYAZILIM2210
+I03,Yapıştırıc ve İlaçlar,KORGUNYAZILIM2210
+I04,Ayırıcı,KORGUNYAZILIM2210
+I05,Kalıp salpa birlesimi,KORGUNYAZILIM2210
+J01,Kutu,KORGUNYAZILIM2210
+J02,Koli,KORGUNYAZILIM2210
+J03,Pelur,KORGUNYAZILIM2210
+J04,Sticker Amblem,KORGUNYAZILIM2210
+J05,Kutu Sıvama,KORGUNYAZILIM2210
+J06,Çuval,KORGUNYAZILIM2210
+J07,Bantlar ,KORGUNYAZILIM2210
+J08,Bez Torba,KORGUNYAZILIM2210
+J09,Cekecek,KORGUNYAZILIM2210
+K01,Toka,KORGUNYAZILIM2210
+K02,Halka,KORGUNYAZILIM2210
+K03,Rivet,KORGUNYAZILIM2210
+K04,Trok,KORGUNYAZILIM2210
+K06,Kanca,KORGUNYAZILIM2210
+K07,Kapsül,KORGUNYAZILIM2210
+K08,Bağ Ucu,KORGUNYAZILIM2210
+L01,Ahşap Kalıp,KORGUNYAZILIM2210
+L02,Kalıp (Model Kalıbı),KORGUNYAZILIM2210
+M01,Mostara Pet Mesın,KORGUNYAZILIM2210
+M02,Pet cıplak,KORGUNYAZILIM2210
+M03,Jelli Mostra,KORGUNYAZILIM2210
+M04,Keten Mostra ,KORGUNYAZILIM2210
+O01,LASTIK,KORGUNYAZILIM2210
+R01,Bombe,KORGUNYAZILIM2210
+R02,Fort,KORGUNYAZILIM2210
+R03,Kesim Regapta,KORGUNYAZILIM2210
+S01,Saya İpi,KORGUNYAZILIM2210
+T01,Tpu Taban,KORGUNYAZILIM2210
+T02,Eva Taban,KORGUNYAZILIM2210
+T03,Termo Taban,KORGUNYAZILIM2210
+T04,Kauçuk Taban,KORGUNYAZILIM2210
+T05,Micro Light Taban,KORGUNYAZILIM2210
+T06,Poli Taban,KORGUNYAZILIM2210
+T07,Pvc Taban,KORGUNYAZILIM2210
+T08,Neolit Taban,KORGUNYAZILIM2210
+T09,Kösele Taban,KORGUNYAZILIM2210
+T10,Saya,KORGUNYAZILIM2210
+X01,Yardımcı Malzemeler,KORGUNYAZILIM2210
+008,İş Ayakkabı,KORGUNYAZILIM2310
+009,Outlet Ayakkabı,KORGUNYAZILIM2310
+010,Loafer Ayakkabı,KORGUNYAZILIM2310
+011,Casual Ayakkabı,KORGUNYAZILIM2310
+012,Günlük Ayakkabı,KORGUNYAZILIM2310
+013,Abiye Ayakkabı,KORGUNYAZILIM2310
+014,Stiletto Ayakkabı,KORGUNYAZILIM2310
+015,Sneaker Ayakkabı,KORGUNYAZILIM2310
+016,Spor Ayakkabı,KORGUNYAZILIM2310
+017,Dolgu Topuk Ayakkabı,KORGUNYAZILIM2310
+018,Klasik Ayakkabı,KORGUNYAZILIM2310
+019,Promosyon Ayakkabı,KORGUNYAZILIM2310
+020,Loafer Bot,KORGUNYAZILIM2310
+021,Klasik Bot,KORGUNYAZILIM2310
+022,Günlük Bot,KORGUNYAZILIM2310
+023,Topuklu Ayakkabı,KORGUNYAZILIM2310
+024,loafer & makosen,KORGUNYAZILIM2310
+025,Sneaker Bot,KORGUNYAZILIM2310
+026,Outdoor Bot,KORGUNYAZILIM2310
+027,sneaker &spor,KORGUNYAZILIM2310
+028,tekne boat ,KORGUNYAZILIM2310
+029,babet,KORGUNYAZILIM2310
+031,Klasik Çizme,KORGUNYAZILIM2310
+032,Günlük Çizme,KORGUNYAZILIM2310
+041,Klasik Babet,KORGUNYAZILIM2310
+042,Günlük Babet,KORGUNYAZILIM2310
+051,Klasik Terlik,KORGUNYAZILIM2310
+052,Parmak Arası Terlik,KORGUNYAZILIM2310
+053,Plaj Terlik,KORGUNYAZILIM2310
+054,Ev İçi Terlik,KORGUNYAZILIM2310
+055,Günlük Terlik,KORGUNYAZILIM2310
+056,Dolgu Topuk,KORGUNYAZILIM2310
+057,Loafer Terlik,KORGUNYAZILIM2310
+061,Klasik Sandalet,KORGUNYAZILIM2310
+062,Parmak Arası,KORGUNYAZILIM2310
+065,Günlük,KORGUNYAZILIM2310
+066,Dolgu Topuk,KORGUNYAZILIM2310
+071,Klasik Kemer,KORGUNYAZILIM2310
+072,Spor Kemer,KORGUNYAZILIM2310
+080,Günlük Çanta,KORGUNYAZILIM2310
+081,El Çantası,KORGUNYAZILIM2310
+082,Omuz Çantası,KORGUNYAZILIM2310
+083,Evrak Çantası,KORGUNYAZILIM2310
+084,Postacı Çantası,KORGUNYAZILIM2310
+085,Sırt Çantası,KORGUNYAZILIM2310
+086,Bel Çantası,KORGUNYAZILIM2310
+087,Portföy Çantası,KORGUNYAZILIM2310
+088,Laptop Cantası,KORGUNYAZILIM2310
+091,Valiz,KORGUNYAZILIM2310
+092,Bere,KORGUNYAZILIM2310
+093,Eldiven,KORGUNYAZILIM2310
+101,Cüzdan,KORGUNYAZILIM2310
+102,Kartlık,KORGUNYAZILIM2310
+103,Saat Kordonu,KORGUNYAZILIM2310
+111,Günlük Çorap,KORGUNYAZILIM2310
+112,Babet Çorap,KORGUNYAZILIM2310
+121,Parfüm,KORGUNYAZILIM2310
+122,Anahtarlık,KORGUNYAZILIM2310
+123,Bileklik,KORGUNYAZILIM2310
+124,Set,KORGUNYAZILIM2310
+202,Sünger,KORGUNYAZILIM2310
+203,Su İtici,KORGUNYAZILIM2310
+204,Sprey,KORGUNYAZILIM2310
+205,Cila,KORGUNYAZILIM2310
+206,Boya,KORGUNYAZILIM2310
+207,Astar,KORGUNYAZILIM2310
+208,Bağcık,KORGUNYAZILIM2310
+209,Fırça,KORGUNYAZILIM2310
+210,Kalıp,KORGUNYAZILIM2310
+211,Genişletici,KORGUNYAZILIM2310
+212,Pet,KORGUNYAZILIM2310
+213,Silgi,KORGUNYAZILIM2310
+214,Telefon Kılıfı,KORGUNYAZILIM2310
+280,,KORGUNYAZILIM2310
+301,Tabanlık,KORGUNYAZILIM2310
+302,Mostra,KORGUNYAZILIM2310
+400,Kalıp,KORGUNYAZILIM2310
+401,Çekecek,KORGUNYAZILIM2310
+402,Büyük Çekecek,KORGUNYAZILIM2310
+501,Poşetler,KORGUNYAZILIM2310
+A01,Deri Astar,KORGUNYAZILIM2310
+A02,Kürt Astar,KORGUNYAZILIM2310
+A03,Bez Astar ,KORGUNYAZILIM2310
+A04,Streç Astar,KORGUNYAZILIM2310
+A05,ÇORAPLIK,KORGUNYAZILIM2310
+B01,Mumlu Bağ,KORGUNYAZILIM2310
+B02,Mumsuz Bağ,KORGUNYAZILIM2310
+B03,Örgülü Bağ,KORGUNYAZILIM2310
+B04,Spor Bağ,KORGUNYAZILIM2310
+B05,Az Mumlu bağ,KORGUNYAZILIM2310
+C01,Çelikli - Çeliksiz Taban,KORGUNYAZILIM2310
+D01,Doğal Deri,KORGUNYAZILIM2310
+D02,Suni Deri,KORGUNYAZILIM2310
+D03,Triko,KORGUNYAZILIM2310
+D04,Bez Grubu,KORGUNYAZILIM2310
+E01,Mostrateknika Etiket,KORGUNYAZILIM2310
+F01,Metal Fermuar,KORGUNYAZILIM2310
+F02,Plastik Fermuar,KORGUNYAZILIM2310
+G01,Boyalar,KORGUNYAZILIM2310
+I01,Yapıştırıcılar,KORGUNYAZILIM2310
+I02,Silme Suları,KORGUNYAZILIM2310
+I03,Yapıştırıc ve İlaçlar,KORGUNYAZILIM2310
+I04,Ayırıcı,KORGUNYAZILIM2310
+I05,Kalıp salpa birlesimi,KORGUNYAZILIM2310
+J01,Kutu,KORGUNYAZILIM2310
+J02,Koli,KORGUNYAZILIM2310
+J03,Pelur,KORGUNYAZILIM2310
+J04,Sticker Amblem,KORGUNYAZILIM2310
+J05,Kutu Sıvama,KORGUNYAZILIM2310
+J06,Çuval,KORGUNYAZILIM2310
+J07,Bantlar ,KORGUNYAZILIM2310
+J08,Bez Torba,KORGUNYAZILIM2310
+J09,Cekecek,KORGUNYAZILIM2310
+K01,Toka,KORGUNYAZILIM2310
+K02,Halka,KORGUNYAZILIM2310
+K03,Rivet,KORGUNYAZILIM2310
+K04,Trok,KORGUNYAZILIM2310
+K06,Kanca,KORGUNYAZILIM2310
+K07,Kapsül,KORGUNYAZILIM2310
+K08,Bağ Ucu,KORGUNYAZILIM2310
+L01,Ahşap Kalıp,KORGUNYAZILIM2310
+L02,Kalıp (Model Kalıbı),KORGUNYAZILIM2310
+M01,Mostara Pet Mesın,KORGUNYAZILIM2310
+M02,Pet cıplak,KORGUNYAZILIM2310
+M03,Jelli Mostra,KORGUNYAZILIM2310
+M04,Keten Mostra ,KORGUNYAZILIM2310
+O01,LASTIK,KORGUNYAZILIM2310
+R01,Bombe,KORGUNYAZILIM2310
+R02,Fort,KORGUNYAZILIM2310
+R03,Kesim Regapta,KORGUNYAZILIM2310
+S01,Saya İpi,KORGUNYAZILIM2310
+T01,Tpu Taban,KORGUNYAZILIM2310
+T02,Eva Taban,KORGUNYAZILIM2310
+T03,Termo Taban,KORGUNYAZILIM2310
+T04,Kauçuk Taban,KORGUNYAZILIM2310
+T05,Micro Light Taban,KORGUNYAZILIM2310
+T06,Poli Taban,KORGUNYAZILIM2310
+T07,Pvc Taban,KORGUNYAZILIM2310
+T08,Neolit Taban,KORGUNYAZILIM2310
+T09,Kösele Taban,KORGUNYAZILIM2310
+T10,Saya,KORGUNYAZILIM2310
+X01,Yardımcı Malzemeler,KORGUNYAZILIM2310
+008,İş Ayakkabı,Uretim20
+009,Outlet Ayakkabı,Uretim20
+010,Loafer Ayakkabı,Uretim20
+011,Casual Ayakkabı,Uretim20
+012,Günlük Ayakkabı,Uretim20
+013,Abiye Ayakkabı,Uretim20
+014,Stiletto Ayakkabı,Uretim20
+015,Sneaker Ayakkabı,Uretim20
+016,Spor Ayakkabı,Uretim20
+017,Dolgu Topuk Ayakkabı,Uretim20
+018,Klasik Ayakkabı,Uretim20
+019,Promosyon Ayakkabı,Uretim20
+020,Loafer Bot,Uretim20
+021,Klasik Bot,Uretim20
+022,Günlük Bot,Uretim20
+023,Topuklu Ayakkabı,Uretim20
+024,loafer & makosen,Uretim20
+025,Sneaker Bot,Uretim20
+026,Outdoor Bot,Uretim20
+027,sneaker &spor,Uretim20
+028,tekne boat ,Uretim20
+029,babet,Uretim20
+031,Klasik Çizme,Uretim20
+032,Günlük Çizme,Uretim20
+041,Klasik Babet,Uretim20
+042,Günlük Babet,Uretim20
+051,Klasik Terlik,Uretim20
+052,Parmak Arası Terlik,Uretim20
+053,Plaj Terlik,Uretim20
+054,Ev İçi Terlik,Uretim20
+055,Günlük Terlik,Uretim20
+056,Dolgu Topuk,Uretim20
+057,Loafer Terlik,Uretim20
+061,Klasik Sandalet,Uretim20
+062,Parmak Arası,Uretim20
+065,Günlük,Uretim20
+066,Dolgu Topuk,Uretim20
+071,Klasik Kemer,Uretim20
+072,Spor Kemer,Uretim20
+080,Günlük Çanta,Uretim20
+081,El Çantası,Uretim20
+082,Omuz Çantası,Uretim20
+083,Evrak Çantası,Uretim20
+084,Postacı Çantası,Uretim20
+085,Sırt Çantası,Uretim20
+086,Bel Çantası,Uretim20
+087,Portföy Çantası,Uretim20
+088,Laptop Cantası,Uretim20
+091,Valiz,Uretim20
+092,Bere,Uretim20
+093,Eldiven,Uretim20
+101,Cüzdan,Uretim20
+102,Kartlık,Uretim20
+103,Saat Kordonu,Uretim20
+111,Günlük Çorap,Uretim20
+112,Babet Çorap,Uretim20
+121,Parfüm,Uretim20
+122,Anahtarlık,Uretim20
+123,Bileklik,Uretim20
+124,Set,Uretim20
+202,Sünger,Uretim20
+203,Su İtici,Uretim20
+204,Sprey,Uretim20
+205,Cila,Uretim20
+206,Boya,Uretim20
+207,Astar,Uretim20
+208,Bağcık,Uretim20
+209,Fırça,Uretim20
+210,Kalıp,Uretim20
+211,Genişletici,Uretim20
+212,Pet,Uretim20
+213,Silgi,Uretim20
+214,Telefon Kılıfı,Uretim20
+280,,Uretim20
+301,Tabanlık,Uretim20
+302,Mostra,Uretim20
+400,Kalıp,Uretim20
+401,Çekecek,Uretim20
+402,Büyük Çekecek,Uretim20
+501,Poşetler,Uretim20
+A01,Deri Astar,Uretim20
+A02,Kürt Astar,Uretim20
+A03,Bez Astar ,Uretim20
+A04,Streç Astar,Uretim20
+A05,ÇORAPLIK,Uretim20
+B01,Mumlu Bağ,Uretim20
+B02,Mumsuz Bağ,Uretim20
+B03,Örgülü Bağ,Uretim20
+B04,Spor Bağ,Uretim20
+B05,Az Mumlu bağ,Uretim20
+C01,Çelikli - Çeliksiz Taban,Uretim20
+D01,Doğal Deri,Uretim20
+D02,Suni Deri,Uretim20
+D03,Triko,Uretim20
+D04,Bez Grubu,Uretim20
+E01,Mostrateknika Etiket,Uretim20
+F01,Metal Fermuar,Uretim20
+F02,Plastik Fermuar,Uretim20
+G01,Boyalar,Uretim20
+I01,Yapıştırıcılar,Uretim20
+I02,Silme Suları,Uretim20
+I03,Yapıştırıc ve İlaçlar,Uretim20
+I04,Ayırıcı,Uretim20
+I05,Kalıp salpa birlesimi,Uretim20
+J01,Kutu,Uretim20
+J02,Koli,Uretim20
+J03,Pelur,Uretim20
+J04,Sticker Amblem,Uretim20
+J05,Kutu Sıvama,Uretim20
+J06,Çuval,Uretim20
+J07,Bantlar ,Uretim20
+J08,Bez Torba,Uretim20
+J09,Cekecek,Uretim20
+K01,Toka,Uretim20
+K02,Halka,Uretim20
+K03,Rivet,Uretim20
+K04,Trok,Uretim20
+K06,Kanca,Uretim20
+K07,Kapsül,Uretim20
+K08,Bağ Ucu,Uretim20
+L01,Ahşap Kalıp,Uretim20
+L02,Kalıp (Model Kalıbı),Uretim20
+M01,Mostara Pet Mesın,Uretim20
+M02,Pet cıplak,Uretim20
+M03,Jelli Mostra,Uretim20
+M04,Keten Mostra ,Uretim20
+O01,LASTIK,Uretim20
+R01,Bombe,Uretim20
+R02,Fort,Uretim20
+R03,Kesim Regapta,Uretim20
+S01,Saya İpi,Uretim20
+T01,Tpu Taban,Uretim20
+T02,Eva Taban,Uretim20
+T03,Termo Taban,Uretim20
+T04,Kauçuk Taban,Uretim20
+T05,Micro Light Taban,Uretim20
+T06,Poli Taban,Uretim20
+T07,Pvc Taban,Uretim20
+T08,Neolit Taban,Uretim20
+T09,Kösele Taban,Uretim20
+T10,Saya,Uretim20
+X01,Yardımcı Malzemeler,Uretim20

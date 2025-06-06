@@ -1,0 +1,4 @@
+inx,FormName,CompName,Langid,Original,Translated,Hint,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,FormFatura,btnYazdir,2,Yazdır,Print,,1,k,2024-02-02 20:16:19.590000,Microsoft SQL Server Management Studio - Query,,,
+2,FormFatura,btnTaslak,2,Taslak Oluştur,create draft,,2,k,2024-02-02 20:17:18.180000,Microsoft SQL Server Management Studio - Query,,,
+3,FormCari,btnCari,2,CariListe,CustomerList,,3,k,2024-02-02 20:17:47.403000,Microsoft SQL Server Management Studio - Query,,,

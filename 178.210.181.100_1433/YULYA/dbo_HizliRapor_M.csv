@@ -1,0 +1,173 @@
+inx,Tanim,Bolum,Ayarlar,UserName,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,Sipairiş_Kalan,miSiparisYon1,"--
+-- Created Date and Time 17/01/2025 - 12:04:46
+-- Created Name Sipairiş_Kalan
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miSipNo
+miBelgeNo
+miSipHarinx
+miSipTanim
+miRKod
+miAsorti
+miKoliMik
+miLotNo
+[END]
+[Visible Fileds]
+Asorti_Tanim2
+Gireniade
+Cikaniade
+SipHarinx
+SipHarinxB
+Asorti
+bag_cari
+Asorti_Dag
+Asorti_icMik
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+CariKod_Tanim	184
+SKod	64
+SKod_Tanim	184
+SipNo	64
+BelgeNo	184
+SipHarinx	64
+SipTanim	184
+SipHarinxB	64
+RKod_Tanim	184
+Asorti_Tanim	159
+bag_cari	64
+BagCari_Name	184
+RKod	64
+Siparis_Miktari	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+Stok_Mevcudu	64
+Giren	64
+Cikan	64
+Asorti	64
+Satinalma_Top	64
+Satinalma_kalan	64
+Asorti_Tanim2	184
+KoliMik	64
+Tutar	64
+ParaCinsi	64
+Fiyat	64
+LotNo	184
+Gireniade	64
+Cikaniade	64
+Asorti_Dag	64
+Asorti_icMik	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",yulya,1,,,,yulya,2025-01-17 12:04:46.847000,KGShop
+3,Üretici_Kalan,miSiparisYon2,"--
+-- Created Date and Time 14/11/2024 - 16:40:26
+-- Created Name Üretici_Kalan
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miSipHarinx
+miRKod
+miSipNo
+miBelgeNo
+miSipTanim
+miAsorti
+[END]
+[Visible Fileds]
+SipHarinx
+Asorti_Tanim2
+SipHarinxB
+Asorti
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+CariKod_Tanim	184
+SKod	64
+SKod_Tanim	184
+SipHarinx	64
+SipHarinxB	64
+SipNo	64
+BelgeNo	89
+bag_cari	64
+BagCari_Name	184
+RKod	64
+RKod_Tanim	184
+SipTanim	184
+Asorti	64
+Asorti_Tanim	184
+Siparis_Miktari	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Net_Kalan	64
+Stok_Mevcudu	64
+Giren	64
+Cikan	64
+Gireniade	64
+Cikaniade	64
+Asorti_Tanim2	184
+Tutar	64
+ParaCinsi	64
+Fiyat	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",yulya,3,,,,yulya,2024-11-14 16:40:26.090000,KGShop
+4,Lot_No,Sipariş S Lot Biçimi,"--
+-- Created Date and Time 20/08/2024 - 13:34:38
+-- Created Name Lot_No
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Lot biçimleri
+[Grouped Fileds]
+Sinx
+[END]
+[Visible Fileds]
+6
+[END]
+",yulya,4,,,,,,

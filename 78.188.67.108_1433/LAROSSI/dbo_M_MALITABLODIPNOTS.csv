@@ -1,0 +1,188 @@
+ID,TABLOTIP,ACK
+1,2,1. Dönemin bütün amortisman giderleri ile itfa ve tükenme payları
+2,2,a) Amortisman giderleri :
+3,2,    aa) Normal amortisman giderleri                     :      TL
+4,2,    bb) Yeniden değerlemeden doğan amortisman giderleri :      TL
+5,2,b) İtfa ve tükenme payları                              :      TL 
+6,2,
+7,2,2. Dönemin karşılık giderleri                           :      TL 
+8,2,
+9,2,3. Dönemin tüm finansman giderleri                      :      TL 
+10,2,a) Üretim maliyetine verilenler                         :      TL
+11,2,b) Sabit varlıkların maliyetine verilenler              :      TL       
+12,2,c) Doğrudan gider yazılanlar                            :      TL
+13,2,
+14,2,"4. Dönemin  finansman giderlerinden ana kuruluş, ana ortaklık,"
+15,2,"   müessese, bağlı ortaklık ve iştiraklerle ilgili kısmın tutarı"
+16,2,   (Toplam tutar içindeki payları %20'yi aşanlar ayrıca 
+17,2,   gösterilecektir ) :                                         TL
+18,2,
+19,2,"5. Ana kuruluş, ana ortaklık, müessese, bağlı ortaklık ve iştiraklerle"
+20,2,   yapılan satışlar (Toplam tutar içindeki payları %20'yi  aşanlar
+21,2,   ayrıca gösterilecektir) :                                   TL
+22,2,
+23,2,"6. Ana kuruluş, ana ortaklık, müessese, bağlı ortaklık ve iştiraklerden"
+24,2,"   alınan ve bunlara ödenen faiz, kira ve benzerleri (Toplam tutar"
+25,2,   içindeki payları %20'yi aşanlar ayrıca gösterilecektir ) :  TL 
+26,2,
+27,2,"7. Yönetim kurulu başkan ve üyeleriyle genel müdür, genel koordinator,"
+28,2,   genel müdür yardımcıları gibi üst yöneticilere cari dönemde sağlanan 
+29,2,   ücret ve benzeri menfaatlerin toplam tutarı :               TL 
+30,2,
+31,2,8. Amortisman hesaplama yöntemleri ile bu yöntemlerde yapılan
+32,2,   değişikliklerin dönemin amortisman giderlerinde meydana getirdiği
+33,2,   artış (+) veya azalış (-) :                                 TL 
+34,2,
+35,2,9. Maliyet hesaplama sistemleri (safha veya sipariş) ve stok değerleme
+36,2,"   yöntemleri (ağırlıklı ortalama maliyet, ilk giren ilk çıkar,  "
+37,2,   hareketli ortalama maliyet vs. gibi)
+38,2,   :
+39,2,
+40,2,"10.Varsa, tamamen veya kısmen fiili stok sayımı yapılamamasının "
+41,2,   gerekçeleri
+42,2,   :
+43,2,
+44,2,11.Yurt içi ve yurt dışı satışlar hesap kalemi içinde yer alan yan
+45,2,"   ürün, hurda, döküntü gibi maddelerin satışları ile hizmet "
+46,2,   satışlarının ayrı ayrı toplamlarının brüt satışların yüzde yirmisini
+47,2,   aşması halinde bu madde ve hizmetlere ilişkin tutarları :   TL  
+48,2,
+49,2,12.Önceki döneme ilişkin gelir ve giderler ile önceki döneme ait gider
+50,2,   ve zararların tutarlarını ve kaynaklarını gösteren açıklayıcı not
+51,2,   :
+52,2,
+53,2,"13.Adi ve imtiyazlı hisse senetleri için ayrı ayrı gösterilmek koşuluyla,"
+54,2,   hisse başına kar ve kar payı oranları
+55,2,   :
+56,1,   DİPNOTLAR
+57,1,1. Kayıtlı sermaye sistemini kabul etmiş bulunan ortaklıklarda kayıtlı
+58,1,   sermaye tavanı :.................................................TL
+59,1,"2. Yönetim Kurulu Başkan ve üyeleri ile genel müdür, genel koordinatör,"
+60,1,   genel müdür yardımcıları ve genel sekreter gibi üst yöneticilere :
+61,1,   a) Cari dönemde verilen her çeşit avans ve borcun toplam 
+62,1,      tutarı :......................................................TL
+63,1,   b) Cari dönem sonundaki avans veya borcun bakiyesi :.............TL
+64,1,3. Aktif değerlerin toplam sigorta tutarı :.........................TL
+65,1,4. Alacaklar için alınmış ipotek ve diğer teminatların toplam
+66,1,   tutarı :.........................................................TL
+67,1,5. Yabancı kaynaklar için verilmiş ipotek ve diğer teminatların 
+68,1,   toplam tutarı :..................................................TL
+69,1,6. Pasifte yer almayan taahhütlerin toplam tutarı :.................TL
+70,1,7. Kasa ve bankalardaki döviz mevcuatları :
+71,1,
+72,1,   Döviz Cinsi        Miktarı         TL Kuru          Toplam Tutar    
+73,1,   ...........        .......         ........         .............TL
+74,1,   ...........        .......         ........         .............TL
+75,1,   ...........        .......         ........         .............TL
+76,1,   ...........        .......         ........         .............TL
+77,1,   ...........        .......         ........         .............TL
+78,1,
+79,1,8. Yurt dışından alacaklar (Avanslar dahil) :
+80,1,
+81,1,   Döviz Cinsi        Miktarı         TL Kuru          Toplam Tutar
+82,1,   ...........        .......         ........         .............TL
+83,1,   ...........        .......         ........         .............TL
+84,1,   ...........        .......         ........         .............TL
+85,1,   ...........        .......         ........         .............TL
+86,1,   ...........        .......         ........         .............TL
+87,1,
+88,1,9. Yurt dışına borçlar (Avanslar dahil) :
+89,1,
+90,1,   Döviz Cinsi        Miktarı         TL Kuru          Toplam Tutar
+91,1,   ...........        .......         ........         .............TL
+92,1,   ...........        .......         ........         .............TL
+93,1,   ...........        .......         ........         .............TL
+94,1,   ...........        .......         ........         .............TL
+95,1,   ...........        .......         ........         .............TL
+96,1,
+97,1,10.Tedavüldeki tahvil ve finansman bonolarından banka garantili 
+98,1,   olanların tutarı :...............................................TL
+99,1,11.Cari ve gelecek dönemlerde yararlanılacak yatırım indiriminin 
+100,1,   toplam tutarı :..................................................TL
+101,1,12.Tedavüldeki tahvillerden hisse senedine dönüştürülebilir
+102,1,   niteliktekilerin tutarı :........................................TL
+103,1,13.Sermayeyi temsil eden hisse senetlerinin dökümü :
+104,1,
+105,1,   Türü       Tertibi       Adedi        Üsleri        Toplam Tutar   
+106,1,   ......     .........     ........     .........     .............TL  
+107,1,   ......     .........     ........     .........     .............TL
+108,1,   ......     .........     ........     .........     .............TL
+109,1,   ......     .........     ........     .........     .............TL
+110,1,   ......     .........     ........     .........     .............TL
+111,1,
+112,1,14.Cari dönemde ihraç edilmiş hisse senedi tutarı :.................TL
+113,1,15.İşletme sahibinin veya sermayesinin %10 veya daha fazlasına sahip
+114,1,   ortaklarının :
+115,1,
+116,1,   Adı                     Pay Oranı                   Pay Tutarı
+117,1,   .............           .................           .............TL
+118,1,   .............           .................           .............TL
+119,1,   .............           .................           .............TL
+120,1,   .............           .................           .............TL
+121,1,   .............           .................           .............TL
+122,1,
+123,1,16.Sermayesinin %10 ve daha fazlasına sahip olunan iştirakler ile
+124,1,   müessese ve bağlı ortaklıkların :
+125,1,
+126,1,   Adı        Pay Oranı       Toplam Sermayesi        Son Dönem Karı   
+127,1,   .......    ..........      ................        ..............TL
+128,1,   .......    ..........      ................        ..............TL
+129,1,   .......    ..........      ................        ..............TL
+130,1,   .......    ..........      ................        ..............TL
+131,1,   .......    ..........      ................        ..............TL
+132,1,
+133,1,17.Stok değerleme yöntemi
+134,1,   a) Cari dönemde uygulanan yöntem   :.............................
+135,1,   b) Önceki dönemde uygulanan yöntem :.............................
+136,1,"   c) Varsa, cari dönemdeki yöntem değişikliğinin stoklarda meydana "
+137,1,      getirdiği artış (+) veya azalış (-) tutarı :..................
+138,1,18.Cari dönemdeki maddi duran varlık hareketleri
+139,1,"   a) Satın alınan, imal veya inşa edilen maddi duran varlıkların"
+140,1,      maliyeti                        :.............................TL
+141,1,   b) Elden çıkarılan veya hurdaya ayrılan maddi duran varlıkların
+142,1,      maliyeti                        :.............................TL
+143,1,   c) Cari dönemde ortaya çıkan yeniden değerleme artışları
+144,1,      - Varlık maliyetlerinde (+)     :.............................TL  
+145,1,      - Birikmiş amortismanlarda (-)  :.............................TL
+146,1,"19.Ana kuruluş, bağlı ortaklık ve iştiraklerin ticari alacak ve ticari"
+147,1,   borçlar içindeki payları :
+148,1,
+149,1,                         Ticari Alacak               Ticari Borç   
+150,1, 1- Ana kuruluş          ..................          ................. 
+151,1, 2- Bağlı ortaklık       ..................          .................
+152,1, 3- İştirakler           ..................          .................
+153,1,
+154,1,20.Cari dönemdeki ortalama toplam personel sayısı :...................
+155,1,21.Bilanço tarihinden sonra ortaya çıkan ve açıklamayı gerektiren 
+156,1,   hususlara ilişkin bilgi 
+157,1,  :
+158,1,  :
+159,1,"22.Belli bir öneme sahip olan, ancak tutarları tahmin edilemeyen şarta"
+160,1,   bağlı zararlar ile her türlü şarta bağlı kazançlara ilişkin bilgi
+161,1,  :
+162,1,  :
+163,1,23.İşletmenin gayri safi kar oranları üzerinde önemli ölçüde etkide 
+164,1,   bulunan muhasebe tahminlerinde değişikliklere ilişkin bilgi ve
+165,1,   bunların parasal etkileri
+166,1,  :
+167,1,  :
+168,1,24.Bankalardaki mevduatın bloke olanına ilişkin tutarlar :..........TL
+169,1,25.Menkul kıymetler ve bağlı menkul kıymetler grubu içinde yer alıp
+170,1,"   işletmenin ortakları, iştirakleri ve bağlı ortaklar tarafından"
+171,1,   çıkarılmış bulunan menkul kıymet tutarları ve bunları çıkaran 
+172,1,   ortaklıklar :....................................................TL
+173,1,26.İştirakler ve bağlı ortaklıklarda içsel kaynaklardan yapılan sermaye
+174,1,   artırımı nedeniyle elde edilen bedelsiz hisse senedi
+175,1,   tutarları :......................................................TL
+176,1,27.Kısa ve uzun vadeli kredilerle ilgili olarak alınan kredilerin ve
+177,1,   çıkarılmış menkul kıymetlerin (katılma intifa senedi dahil) kredi ve
+178,1,   menkul kıymet türleri itibariyle tahakkuk etmemiş gelecek döneme
+179,1,   ilişkin faiz borçları tutarları :................................TL
+180,1,"28.Ortaklar, iştirakler ve bağlı ortaklıklar lehine verilen garanti,"
+181,1,"   taahhüt, kefalet, aval, ciro gibi yükümlülüklerin tutarı :.......TL"
+182,1,"29.Mali tabloları önemli ölçüde etkileyen ya da mali tabloların açık,"
+183,1,   yorumlanabilir ve anlaşılabilir olması açısından açıklanması gerekli
+184,1,   olan diğer hususlar
+185,1,   :
+186,1,   :
+187,1,30.Bilançonun onaylanarak kesinleştiği tarih : ... / ... / ...

@@ -1,0 +1,2187 @@
+ISOCODE,Tanim,DBName
+04,small spray,LINDON
+05,lift,LINDON
+08,heat lot,LINDON
+10,group,LINDON
+11,outfit,LINDON
+13,ration,LINDON
+14,shot,LINDON
+15,stick,LINDON
+16,hundred fifteen kg drum,LINDON
+17,hundred lb drum,LINDON
+18,fiftyfive gallon (US) drum,LINDON
+19,tank truck,LINDON
+1A,car mile,LINDON
+1B,car count,LINDON
+1C,locomotive count,LINDON
+1D,caboose count,LINDON
+1E,empty car,LINDON
+1F,train mile,LINDON
+1G,fuel usage gallon (US),LINDON
+1H,caboose mile,LINDON
+1I,fixed rate,LINDON
+1J,ton mile,LINDON
+1K,locomotive mile,LINDON
+1L,total car count,LINDON
+1M,total car mile,LINDON
+1X,quarter mile,LINDON
+20,twenty foot container,LINDON
+21,forty foot container,LINDON
+22,decilitre per gram,LINDON
+23,gram per cubic centimetre,LINDON
+24,theoretical pound,LINDON
+25,gram per square centimetre,LINDON
+26,actual ton,LINDON
+27,theoretical ton,LINDON
+28,kilogram per square metre,LINDON
+29,pound per thousand square feet,LINDON
+2A,radian per second,LINDON
+2B,radian per second squared,LINDON
+2C,rÇôntgen,LINDON
+2I,British thermal unit per hour,LINDON
+2J,cubic centimetre per second,LINDON
+2K,cubic foot per hour,LINDON
+2L,cubic foot per minute,LINDON
+2M,centimetre per second,LINDON
+2N,decibel,LINDON
+2P,kilobyte,LINDON
+2Q,kilobecquerel,LINDON
+2R,kilocurie,LINDON
+2U,megagram,LINDON
+2V,megagram per hour,LINDON
+2W,bin,LINDON
+2X,metre per minute,LINDON
+2Y,millirÇôntgen,LINDON
+2Z,millivolt,LINDON
+30,horse power day per air dry metric ton,LINDON
+31,catch weight,LINDON
+32,kilogram per air dry metric ton,LINDON
+33,kilopascal square metres per gram,LINDON
+34,kilopascals per millimetre,LINDON
+35,millilitres per square centimetre second,LINDON
+36,cubic feet per minute per square foot,LINDON
+37,ounce per square foot,LINDON
+38,"ounces per square foot per 0,01 inch",LINDON
+3B,megajoule,LINDON
+3C,manmonth,LINDON
+3E,pound per pound of product,LINDON
+3G,pound per piece of product,LINDON
+3H,kilogram per kilogram of product,LINDON
+3I,kilogram per piece of product,LINDON
+40,millilitre per second,LINDON
+41,millilitre per minute,LINDON
+43,super bulk bag,LINDON
+44,fivehundred kg bulk bag,LINDON
+45,threehundred kg bulk bag,LINDON
+46,fifty lb bulk bag,LINDON
+47,fifty lb bag,LINDON
+48,bulk car load,LINDON
+4A,bobbin,LINDON
+4B,cap,LINDON
+4C,centistokes,LINDON
+4E,twenty pack,LINDON
+4G,microlitre,LINDON
+4H,micrometre (micron),LINDON
+4K,milliampere,LINDON
+4L,megabyte,LINDON
+4M,milligram per hour,LINDON
+4N,megabecquerel,LINDON
+4O,microfarad,LINDON
+4P,newton per metre,LINDON
+4Q,ounce inch,LINDON
+4R,ounce foot,LINDON
+4T,picofarad,LINDON
+4U,pound per hour,LINDON
+4W,ton(US) per hour,LINDON
+4X,kilolitre per hour,LINDON
+53,theoretical kilograms,LINDON
+54,theoretical tonne,LINDON
+56,sitas,LINDON
+57,mesh,LINDON
+58,net kilogram,LINDON
+59,part per million,LINDON
+5A,barrel per minute,LINDON
+5B,batch,LINDON
+5C,gallon(US) per thousand,LINDON
+5E,MMSCF/day,LINDON
+5F,pounds per thousand,LINDON
+5G,pump,LINDON
+5H,stage,LINDON
+5I,standard cubic foot,LINDON
+5J,hydraulic horse power,LINDON
+5K,count per minute,LINDON
+5P,seismic level,LINDON
+5Q,seismic line,LINDON
+60,percent weight,LINDON
+61,part per billion (US),LINDON
+62,percent per 1000 hour,LINDON
+63,failure rate in time,LINDON
+64,"pound per square inch, gauge",LINDON
+66,oersted,LINDON
+69,test specific scale,LINDON
+71,volt ampere per pound,LINDON
+72,watt per pound,LINDON
+73,ampere tum per centimetre,LINDON
+74,millipascal,LINDON
+76,gauss,LINDON
+77,milli-inch,LINDON
+78,kilogauss,LINDON
+80,pounds per square inch absolute,LINDON
+81,henry,LINDON
+84,kilopound per square inch,LINDON
+85,foot pound-force,LINDON
+87,pound per cubic foot,LINDON
+89,poise,LINDON
+90,Saybold universal second,LINDON
+91,stokes,LINDON
+92,calorie per cubic centimetre,LINDON
+93,calorie per gram,LINDON
+94,curl unit,LINDON
+95,twenty thousand gallon (US) tankcar,LINDON
+96,ten thousand gallon (US) tankcar,LINDON
+97,ten kg drum,LINDON
+98,fifteen kg drum,LINDON
+A1,15  C calorie,LINDON
+A10,ampere square metre per joule second,LINDON
+A11,Ç¾ngstrÇôm,LINDON
+A12,astronomical unit,LINDON
+A13,attojoule,LINDON
+A14,barn,LINDON
+A15,barn per electron volt,LINDON
+A16,"barn per steradian electron volt,",LINDON
+A17,barn per sterdian,LINDON
+A18,becquerel per kilogram,LINDON
+A19,becquerel per metre cubed,LINDON
+A2,ampere per centimetre,LINDON
+A20,British thermal unit per second square foot degree Rankin,LINDON
+A21,British thermal unit per pound degree Rankin,LINDON
+A22,British thermal unit per second foot degree Rankin,LINDON
+A23,British thermal unit per hour square foot degree Rankin,LINDON
+A24,candela per square metre,LINDON
+A25,cheval vapeur,LINDON
+A26,coulomb metre,LINDON
+A27,coulomb metre squared per volt,LINDON
+A28,coulomb per cubic centimetre,LINDON
+A29,coulomb per cubic metre,LINDON
+A3,ampere per millimetre,LINDON
+A30,coulomb per cubic millimetre,LINDON
+A31,coulomb per kilogram second,LINDON
+A32,coulomb per mole,LINDON
+A33,coulomb per square centimetre,LINDON
+A34,coulomb per square metre,LINDON
+A35,coulomb per square millimetre,LINDON
+A36,cubic centimetre per mole,LINDON
+A37,cubic decimetre per mole,LINDON
+A38,cubic metre per coulomb,LINDON
+A39,cubic metre per kilogram,LINDON
+A4,ampere per square centimetre,LINDON
+A40,cubic metre per mole,LINDON
+A41,ampere per square metre,LINDON
+A42,curie per kilogram,LINDON
+A43,deadweight tonnage,LINDON
+A44,decalitre,LINDON
+A45,decametre,LINDON
+A47,decitex,LINDON
+A48,degree Rankin,LINDON
+A49,denier,LINDON
+A5,ampere square metre,LINDON
+A50,dyn second per cubic centimetre,LINDON
+A51,dyne second per centimetre,LINDON
+A52,dyne second per centimetre to the fifth,LINDON
+A53,electronvolt,LINDON
+A54,electronvolt  per metre,LINDON
+A55,electronvolt square metre,LINDON
+A56,electronvolt square metre per kilogram,LINDON
+A57,erg,LINDON
+A58,erg per centimetre,LINDON
+A6,ampere per square metre kelvin squared,LINDON
+A60,erg per cubic centimetre,LINDON
+A61,erg per gram,LINDON
+A62,erg per gram second,LINDON
+A63,erg per second,LINDON
+A64,erg per second square centimetre,LINDON
+A65,erg per square centimetre second,LINDON
+A66,erg square centimetre,LINDON
+A67,erg square centimetre per gram,LINDON
+A68,exajoule,LINDON
+A69,farad per metre,LINDON
+A7,ampere per square millimetre,LINDON
+A70,femtojoule,LINDON
+A71,femtometre,LINDON
+A73,foot per second squared,LINDON
+A74,foot pound-force per second,LINDON
+A75,freight ton,LINDON
+A76,gal,LINDON
+A77,Gaussian CGS unit of displacement,LINDON
+A78,Gaussian CGS unit of electic current,LINDON
+A79,Gaussian CGS unit of electric charge,LINDON
+A8,ampere second,LINDON
+A80,Gaussian CGS unit of electric field strength,LINDON
+A81,Gaussian CGS unit of electric polarization,LINDON
+A82,Gaussian CGS unit of electric potential,LINDON
+A83,Gaussian CGS unit of magnetization,LINDON
+A84,gigacoulomb per cubic metre,LINDON
+A85,gigaelectronvolt,LINDON
+A86,gigahertz,LINDON
+A87,gigaohm,LINDON
+A88,gigaohm metre,LINDON
+A89,gigapascal,LINDON
+A9,rate,LINDON
+A90,gigawatt,LINDON
+A91,gon,LINDON
+A93,gram per cubic metre,LINDON
+A94,gram per mole,LINDON
+A95,gray,LINDON
+A96,gray per second,LINDON
+A97,hectopascal,LINDON
+A98,henry per metre,LINDON
+AA,ball,LINDON
+AB,bulk pack,LINDON
+ACR,acre,LINDON
+AD,byte,LINDON
+AE,ampere per metre,LINDON
+AH,additional minute,LINDON
+AI,average minute per call,LINDON
+AJ,cop,LINDON
+AK,fathom,LINDON
+AL,access line,LINDON
+AM,ampoule,LINDON
+AMH,ampere hour,LINDON
+AMP,ampere,LINDON
+ANN,year,LINDON
+AP,aluminium pound only,LINDON
+APZ,troy ounce or apothecaries' ounce,LINDON
+AQ,anti-hemophilic factor (AHF) unit,LINDON
+AR,suppository,LINDON
+ARE,are,LINDON
+AS,assortment,LINDON
+ASM,alcoholic strength by mass,LINDON
+ASU,alcoholic strength by volume,LINDON
+ATM,standard atmosphere,LINDON
+ATT,technical atmosphere,LINDON
+AV,capsule,LINDON
+AW,powder filled vial,LINDON
+AY,assembly,LINDON
+AZ,British thermal unit per pound,LINDON
+B0,Btu per cubic foot,LINDON
+B1,barrel (US) per day,LINDON
+B11,joule per kilogram kelvin,LINDON
+B12,joule per metre,LINDON
+B13,joule per square metre,LINDON
+B14,joule per metre to the fourth power,LINDON
+B15,joule per mole,LINDON
+B16,joule per mole kelvin,LINDON
+B18,joule second,LINDON
+B2,bunk,LINDON
+B20,joule square metre per kilogram,LINDON
+B21,kelvin per watt,LINDON
+B22,kiloampere,LINDON
+B23,kiloampere per square metre,LINDON
+B24,kiloampere per metre,LINDON
+B25,kilobecquerel per kilogram,LINDON
+B26,kilocoulomb,LINDON
+B27,kilocoulomb per cubic metre,LINDON
+B28,kilocoulomb per square metre,LINDON
+B29,kiloelectronvolt,LINDON
+B3,batting pound,LINDON
+B31,kilogram metre per second,LINDON
+B32,kilogram metre squared,LINDON
+B33,kilogram metre squared per second,LINDON
+B34,kilogram per cubic decimetre,LINDON
+B35,kilogram per litre,LINDON
+B36,thermochemical calorie per gram,LINDON
+B37,kilogram-force,LINDON
+B38,kilogram-force metre,LINDON
+B39,kilogram-force metre per second,LINDON
+B4,"barrel, imperial",LINDON
+B40,kilogram-force per square metre,LINDON
+B41,kilojoule per kelvin,LINDON
+B42,kilojoule per kilogram,LINDON
+B43,kilojoule per kilogram kelvin,LINDON
+B44,kilojoule per mole,LINDON
+B45,kilomole,LINDON
+B46,kilomole per cubic metre,LINDON
+B47,kilonewton,LINDON
+B48,kilonewton metre,LINDON
+B49,kiloohm,LINDON
+B5,billet,LINDON
+B50,kiloohm metre,LINDON
+B51,kilopond,LINDON
+B52,kilosecond,LINDON
+B53,kilosiemens,LINDON
+B54,kilosiemens per metre,LINDON
+B55,kilovolt per metre,LINDON
+B56,kiloweber per metre,LINDON
+B57,light year,LINDON
+B58,litre per mole,LINDON
+B59,lumen hour,LINDON
+B6,bun,LINDON
+B60,lumen per square metre,LINDON
+B61,lumen per watt,LINDON
+B62,lumen second,LINDON
+B63,lux hour,LINDON
+B64,lux second,LINDON
+B65,maxwell,LINDON
+B66,megaampere per square metre,LINDON
+B67,megabecquerel per kilogram,LINDON
+B69,megacoulomb per cubic metre,LINDON
+B7,cycle,LINDON
+B70,megacoulomb per square metre,LINDON
+B71,megaelectronvolt,LINDON
+B72,megagram per cubic metre,LINDON
+B73,meganewton,LINDON
+B74,meganewton metre,LINDON
+B75,megaohm,LINDON
+B76,megaohm metre,LINDON
+B77,megasiemens per metre,LINDON
+B78,megavolt,LINDON
+B79,megavolt per metre,LINDON
+B8,joule per cubic metre,LINDON
+B81,reciprocal metre squared reciprocal second,LINDON
+B83,metre to the fourth power,LINDON
+B84,microampere,LINDON
+B85,microbar,LINDON
+B86,microcoulomb,LINDON
+B87,microcoulomb per cubic metre,LINDON
+B88,microcoulomb per square metre,LINDON
+B89,microfarad per metre,LINDON
+B9,batt,LINDON
+B90,microhenry,LINDON
+B91,microhenry per metre,LINDON
+B92,micronewton,LINDON
+B93,micronewton metre,LINDON
+B94,microohm,LINDON
+B95,microohm metre,LINDON
+B96,micropascal,LINDON
+B97,microradian,LINDON
+B98,microsecond,LINDON
+B99,microsiemens,LINDON
+BAR,bar,LINDON
+BB,base box,LINDON
+BD,board,LINDON
+BE,bundle,LINDON
+BFT,board foot,LINDON
+BG,bag,LINDON
+BH,brush,LINDON
+BHP,brake horse power,LINDON
+BIL,trillion (US),LINDON
+BJ,bucket,LINDON
+BK,basket,LINDON
+BL,bale,LINDON
+BLD,dry barrel (US),LINDON
+BLL,barrel (US) (petroleum etc.),LINDON
+BO,bottle,LINDON
+BP,hundred board feet,LINDON
+BQL,becquerel,LINDON
+BR,bar,LINDON
+BT,bolt,LINDON
+BTU,British thermal unit,LINDON
+BUA,bushel  (US),LINDON
+BUI,bushel (UK),LINDON
+BW,base weight,LINDON
+BX,box,LINDON
+BZ,million BTUs,LINDON
+C0,call,LINDON
+C1,composite product pound (total weight),LINDON
+C10,millifarad,LINDON
+C11,milligal,LINDON
+C12,milligram per metre,LINDON
+C13,milligray,LINDON
+C14,millihenry,LINDON
+C15,millijoule,LINDON
+C16,millimetre per second,LINDON
+C17,millimetre squared per second,LINDON
+C18,millimole,LINDON
+C19,mole per kilogram,LINDON
+C2,carset,LINDON
+C20,millinewton,LINDON
+C22,millinewton per metre,LINDON
+C23,milliohm metre,LINDON
+C24,millipascal second,LINDON
+C25,milliradian,LINDON
+C26,millisecond,LINDON
+C27,millisiemens,LINDON
+C28,millisievert,LINDON
+C29,millitesla,LINDON
+C3,microvolt per metre,LINDON
+C30,millivolt per metre,LINDON
+C31,milliwatt,LINDON
+C32,milliwatt per square metre,LINDON
+C33,milliweber,LINDON
+C34,mole,LINDON
+C35,mole per cubic decimetre,LINDON
+C36,mole per cubic metre,LINDON
+C38,mole per litre,LINDON
+C39,nanoampere,LINDON
+C4,carload,LINDON
+C40,nanocoulomb,LINDON
+C41,nanofarad,LINDON
+C42,nanofarad per metre,LINDON
+C43,nanohenry,LINDON
+C44,nanohenry per metre,LINDON
+C45,nanometre,LINDON
+C46,nanoohm metre,LINDON
+C47,nanosecond,LINDON
+C48,nanotesla,LINDON
+C49,nanowatt,LINDON
+C5,cost,LINDON
+C50,neper,LINDON
+C51,neper per second,LINDON
+C52,picometre,LINDON
+C53,newton metre second,LINDON
+C54,newton metre squared  kilogram squared,LINDON
+C55,newton per square metre,LINDON
+C56,newton per square millimetre,LINDON
+C57,newton second,LINDON
+C58,newton second per metre,LINDON
+C59,octave,LINDON
+C6,cell,LINDON
+C60,ohm centimetre,LINDON
+C61,ohm metre,LINDON
+C62,one,LINDON
+C63,parsec,LINDON
+C64,pascal per kelvin,LINDON
+C65,pascal second,LINDON
+C66,pascal second per cubic metre,LINDON
+C67,pascal second per metre,LINDON
+C68,petajoule,LINDON
+C69,phon,LINDON
+C7,centipoise,LINDON
+C70,picoampere,LINDON
+C71,picocoulomb,LINDON
+C72,picofarad per metre,LINDON
+C73,picohenry,LINDON
+C75,picowatt,LINDON
+C76,picowatt per square metre,LINDON
+C77,pound gage,LINDON
+C78,pound-force,LINDON
+C8,millicoulomb per kilogram,LINDON
+C80,rad,LINDON
+C81,radian,LINDON
+C82,radian meter squared per mole,LINDON
+C83,radian metre squared per kilogram,LINDON
+C84,radian per metre,LINDON
+C85,"""reciprocal ƒ?ÿngstr""""m""",LINDON
+C86,reciprocal cubic metre,LINDON
+C87,reciprocal cubic metre per second,LINDON
+C88,reciprocal electron volt per cubic metre,LINDON
+C89,reciprocal henry,LINDON
+C9,coil group,LINDON
+C90,reciprocal joule per cubic metre,LINDON
+C91,reciprocal kelvin or kelvin to the power minus one,LINDON
+C92,reciprocal metre,LINDON
+C93,reciprocal square metre,LINDON
+C94,reciprocal minute,LINDON
+C95,reciprocal mole,LINDON
+C96,reciprocal pascal or pascal to the power minus one,LINDON
+C97,reciprocal second,LINDON
+C98,reciprocal second per cubic metre,LINDON
+C99,reciprocal second per metre squared,LINDON
+CA,can,LINDON
+CCT,carrying capacity in metric ton,LINDON
+CDL,candela,LINDON
+CEL,degree Celsius,LINDON
+CEN,hundred,LINDON
+CG,card,LINDON
+CGM,centigram,LINDON
+CH,container,LINDON
+CJ,cone,LINDON
+CK,connector,LINDON
+CKG,coulomb per kilogram,LINDON
+CL,coil,LINDON
+CLF,hundred leave,LINDON
+CLT,centilitre,LINDON
+CMK,square centimetre,LINDON
+CMQ,cubic centimetre,LINDON
+CMT,centimetre,LINDON
+CNP,hundred pack,LINDON
+CNT,cental (UK),LINDON
+CO,carboy,LINDON
+COU,coulomb,LINDON
+CQ,cartridge,LINDON
+CR,crate,LINDON
+CS,case,LINDON
+CT,carton,LINDON
+CTM,metric carat,LINDON
+CU,cup,LINDON
+CUR,curie,LINDON
+CV,cover,LINDON
+CWA,hundred pounds (cwt)/hundred weight (US),LINDON
+CWI,hundred weight (UK),LINDON
+CY,cylinder,LINDON
+CZ,combo,LINDON
+D1,reciprocal second per steradian,LINDON
+D10,siemens per metre,LINDON
+D12,siemens square metre per mole,LINDON
+D13,sievert,LINDON
+D14,thousand linear yard,LINDON
+D15,sone,LINDON
+D16,square centimetre per erg,LINDON
+D17,square centimetre per steradian erg,LINDON
+D18,metre kelvin,LINDON
+D19,square metre kelvin per watt,LINDON
+D2,reciprocal second per steradian metre squared,LINDON
+D20,square metre per joule,LINDON
+D21,square metre per kilogram,LINDON
+D22,square metre per mole,LINDON
+D23,pen gram (protein),LINDON
+D24,square metre per steradian,LINDON
+D25,square metre per steradian joule,LINDON
+D26,square metre per volt second,LINDON
+D27,steradian,LINDON
+D28,syphon,LINDON
+D29,terahertz,LINDON
+D30,terajoule,LINDON
+D31,terawatt,LINDON
+D32,terawatt hour,LINDON
+D33,tesla,LINDON
+D34,tex,LINDON
+D35,thermochemical calorie,LINDON
+D37,thermochemical calorie per gram kelvin,LINDON
+D38,thermochemical calorie per second centimetre kelvin,LINDON
+D39,thermochemical calorie per second square centimetre kelvin,LINDON
+D40,thousand litre,LINDON
+D41,tonne per cubic metre,LINDON
+D42,tropical year,LINDON
+D43,unified atomic mass unit,LINDON
+D44,var,LINDON
+D45,volt  squared per kelvin squared,LINDON
+D46,volt - ampere,LINDON
+D47,volt per centimetre,LINDON
+D48,volt per kelvin,LINDON
+D49,millivolt per kelvin,LINDON
+D5,kilogram per square centimeter,LINDON
+D50,volt per metre,LINDON
+D51,volt per millimetre,LINDON
+D52,watt per kelvin,LINDON
+D53,watt per metre kelvin,LINDON
+D54,watt per square metre,LINDON
+D55,watt per square metre kelvin,LINDON
+D56,watt per square metre kelvin to the fourth power,LINDON
+D57,watt per steradian,LINDON
+D58,watt per steradian square metre,LINDON
+D59,weber per metre,LINDON
+D6,rÇôntgen per second,LINDON
+D60,weber per millimetre,LINDON
+D61,minute,LINDON
+D62,second,LINDON
+D63,book,LINDON
+D64,block,LINDON
+D65,round,LINDON
+D66,cassette,LINDON
+D67,dollar per hour,LINDON
+D69,inch to the fourth power,LINDON
+D7,sandwich,LINDON
+D70,International Table (IT) calorie,LINDON
+D71,International Table (IT) calorie per second centimetre kelvin,LINDON
+D72,International Table (IT) calorie per second square centimetre kelvin,LINDON
+D73,joule square metre,LINDON
+D74,kilogram per mole,LINDON
+D75,International Table (IT) calorie per gram,LINDON
+D76,International Table (IT) calorie per gram kelvin,LINDON
+D77,megacoulomb,LINDON
+D79,beam,LINDON
+D8,draize score,LINDON
+D80,microwatt,LINDON
+D81,microtesla,LINDON
+D82,microvolt,LINDON
+D83,millinewton metre,LINDON
+D85,microwatt per square metre,LINDON
+D86,millicoulomb,LINDON
+D87,millimole per kilogram,LINDON
+D88,millicoulomb per cubic metre,LINDON
+D89,millicoulomb per square metre,LINDON
+D9,dyne per square centimeter,LINDON
+D90,cubic metre (net),LINDON
+D91,rem,LINDON
+D92,band,LINDON
+D93,second per cubic metre,LINDON
+D94,second per radian cubic metre,LINDON
+D95,joule per gram,LINDON
+D96,pound gross,LINDON
+D97,pallet/unit load,LINDON
+D98,mass pound,LINDON
+D99,sleeve,LINDON
+DAA,decare,LINDON
+DAD,ten day,LINDON
+DAY,day,LINDON
+DB,dry pound,LINDON
+DC,disk (disc),LINDON
+DD,degree,LINDON
+DE,deal,LINDON
+DEC,decade,LINDON
+DG,decigram,LINDON
+DI,dispenser,LINDON
+DJ,decagram,LINDON
+DLT,decilitre,LINDON
+DMK,square decimetre,LINDON
+DMQ,cubic decimetre,LINDON
+DMT,decimetre,LINDON
+DN,decinewton metre,LINDON
+DPC,dozen piece,LINDON
+DPR,dozen pair,LINDON
+DPT,displacement tonnage,LINDON
+DQ,data record,LINDON
+DR,drum,LINDON
+DRA,dram (US),LINDON
+DRI,dram (UK),LINDON
+DRL,dozen roll,LINDON
+DRM,drachm (UK),LINDON
+DS,display,LINDON
+DT,dry ton,LINDON
+DTN,decitonne,LINDON
+DU,dyne,LINDON
+DWT,pennyweight,LINDON
+DX,dyne per centimetre,LINDON
+DY,directory book,LINDON
+DZN,dozen,LINDON
+DZP,dozen pack,LINDON
+E2,belt,LINDON
+E3,trailer,LINDON
+E4,gross kilogram,LINDON
+E5,metric long ton,LINDON
+EA,each,LINDON
+EB,electronic mail box,LINDON
+EC,each per month,LINDON
+EP,eleven pack,LINDON
+EQ,equivalent gallon,LINDON
+EV,envelope,LINDON
+F1,thousand cubic feet per day,LINDON
+F9,fibre per cubic centimetre of air,LINDON
+FAH,degree Fahrenheit,LINDON
+FAR,farad,LINDON
+FB,field,LINDON
+FC,thousand cubic feet,LINDON
+FD,million particle per cubic foot,LINDON
+FE,track foot,LINDON
+FF,hundred cubic metre,LINDON
+FG,transdermal patch,LINDON
+FH,micromole,LINDON
+FL,flake ton,LINDON
+FM,million cubic feet,LINDON
+FOT,foot,LINDON
+FP,pound per square foot,LINDON
+FR,foot per minute,LINDON
+FS,foot per second,LINDON
+FTK,square foot,LINDON
+FTQ,cubic foot,LINDON
+G2,US gallon per minute,LINDON
+G3,Imperial gallon per minute,LINDON
+G7,microfiche sheet,LINDON
+GB,gallon (US) per day,LINDON
+GBQ,gigabecquerel,LINDON
+GC,gram per 100 gram,LINDON
+GD,gross barrel,LINDON
+GE,pound per gallon (US),LINDON
+GF,gram per metre (gram per 100 centimetres),LINDON
+GFI,gram of fissile isotope,LINDON
+GGR,great gross,LINDON
+GH,half gallon (US),LINDON
+GIA,gill (US),LINDON
+GII,gill (UK),LINDON
+GJ,gram per millilitre,LINDON
+GK,gram per kilogram,LINDON
+GL,gram per litre,LINDON
+GLD,dry gallon (US),LINDON
+GLI,gallon (UK),LINDON
+GLL,gallon (US),LINDON
+GM,gram per square metre,LINDON
+GN,gross gallon,LINDON
+GO,milligrams per square metre,LINDON
+GP,milligram per cubic metre,LINDON
+GQ,microgram per cubic meter,LINDON
+GRM,gram,LINDON
+GRN,grain,LINDON
+GRO,gross,LINDON
+GRT,gross register ton,LINDON
+GT,gross ton,LINDON
+GV,gigajoule,LINDON
+GW,gallon per thousand cubic feet,LINDON
+GWH,gigawatt hour,LINDON
+GY,gross yard,LINDON
+GZ,gage system,LINDON
+H1,half page - electronic,LINDON
+H2,half litre,LINDON
+HA,hank,LINDON
+HAR,hectare,LINDON
+HBA,hectobar,LINDON
+HBX,hundred boxe,LINDON
+HC,hundred count,LINDON
+HD,half dozen,LINDON
+HE,hundredth of a carat,LINDON
+HF,hundred feet,LINDON
+HGM,hectogram,LINDON
+HH,hundred cubic feet,LINDON
+HI,hundred sheet,LINDON
+HIU,hundred international unit,LINDON
+HJ,metric horse power,LINDON
+HK,hundred kilogram,LINDON
+HL,hundred feet (linear),LINDON
+HLT,hectolitre,LINDON
+HM,mile per hour,LINDON
+HMQ,million cubic metre,LINDON
+HMT,hectometre,LINDON
+HN,conventional millimetre of mercury,LINDON
+HO,hundred troy ounce,LINDON
+HP,conventional millimetre of water,LINDON
+HPA,hectolitre of pure alcohol,LINDON
+HS,hundred square feet,LINDON
+HT,half hour,LINDON
+HTZ,hertz,LINDON
+HUR,hour,LINDON
+HY,hundred yard,LINDON
+IA,inch pound (pound inch),LINDON
+IC,count per inch,LINDON
+IE,person,LINDON
+IF,inches of water,LINDON
+II,column inch,LINDON
+IL,inch per minute,LINDON
+IM,impression,LINDON
+INH,inch,LINDON
+INK,square inch,LINDON
+INQ,inch cubed,LINDON
+IP,insurance policy,LINDON
+IT,count per centimetre,LINDON
+IU,inch per second (linear speed),LINDON
+IV,inch per second squared (acceleration),LINDON
+J2,joule per kilogram,LINDON
+JB,jumbo,LINDON
+JE,joule per kelvin,LINDON
+JG,jug,LINDON
+JK,megajoule per kilogram,LINDON
+JM,megajoule per cubic metre,LINDON
+JO,joint,LINDON
+JOU,joule,LINDON
+JR,jar,LINDON
+K1,kilowatt demand,LINDON
+K2,kilovolt ampere reactive demand,LINDON
+K3,kilovolt ampere reactive hour,LINDON
+K5,kilovolt ampere (reactive),LINDON
+K6,kilolitre,LINDON
+KA,cake,LINDON
+KB,kilocharacter,LINDON
+KBA,kilobar,LINDON
+KD,kilogram decimal,LINDON
+KEL,kelvin,LINDON
+KF,kilopacket,LINDON
+KG,keg,LINDON
+KGM,kilogram,LINDON
+KGS,kilogram per second,LINDON
+KHZ,kilohertz,LINDON
+KI,kilogram per millimetre width,LINDON
+KJ,kilosegment,LINDON
+KJO,kilojoule,LINDON
+KL,kilogram per metre,LINDON
+KMH,kilometre per hour,LINDON
+KMK,square kilometre,LINDON
+KMQ,kilogram per cubic metre,LINDON
+KNI,kilogram of nitrogen,LINDON
+KNS,kilogram named substance,LINDON
+KNT,knot,LINDON
+KO,milliequivalence caustic potash per gram of product,LINDON
+KPA,kilopascal,LINDON
+KPH,kilogram of potassium hydroxide (caustic potash),LINDON
+KPO,kilogram of potassium oxide,LINDON
+KPP,kilogram of phosphorus pentoxide (phosphoric anhydride),LINDON
+KR,kilorÇôntgen,LINDON
+KS,thousand pound per square inch,LINDON
+KSD,kilogram of substance 90 % dry,LINDON
+KSH,kilogram of sodium hydroxide (caustic soda),LINDON
+KT,kit,LINDON
+KTM,kilometre,LINDON
+KTN,kilotonne,LINDON
+KUR,kilogram of uranium,LINDON
+KVA,kilovolt - ampere,LINDON
+KVR,kilovar,LINDON
+KVT,kilovolt,LINDON
+KW,kilograms per millimeter,LINDON
+KWH,kilowatt hour,LINDON
+KWT,kilowatt,LINDON
+KX,millilitre per kilogram,LINDON
+L2,litre per minute,LINDON
+LA,pound per cubic inch,LINDON
+LBR,pound,LINDON
+LBT,troy pound (US),LINDON
+LC,linear centimetre,LINDON
+LD,litre per day,LINDON
+LE,lite,LINDON
+LEF,leaf,LINDON
+LF,linear foot,LINDON
+LH,labour hour,LINDON
+LI,linear inch,LINDON
+LJ,large spray,LINDON
+LK,link,LINDON
+LM,linear metre,LINDON
+LN,length,LINDON
+LO,lot,LINDON
+LP,liquid pound,LINDON
+LPA,litre of pure alcohol,LINDON
+LR,layer,LINDON
+LS,lump sum,LINDON
+LTN,ton (UK) or longton (US),LINDON
+LTR,litre,LINDON
+LUM,lumen,LINDON
+LUX,lux,LINDON
+LX,linear yard per pound,LINDON
+LY,linear yard,LINDON
+M0,magnetic tape,LINDON
+M1,milligrams per litre,LINDON
+M4,monetary value,LINDON
+M5,microcurie,LINDON
+M7,micro-inch,LINDON
+M9,million Btu per 1000 cubic feet,LINDON
+MA,machine per unit,LINDON
+MAL,mega litre,LINDON
+MAM,megametre,LINDON
+MAW,megawatt,LINDON
+MBE,thousand standard brick equivalent,LINDON
+MBF,thousand board feet,LINDON
+MBR,millibar,LINDON
+MC,microgram,LINDON
+MCU,millicurie,LINDON
+MD,air dry metric ton,LINDON
+MF,milligram per square foot per side,LINDON
+MGM,milligram,LINDON
+MHZ,megahertz,LINDON
+MIK,square mile,LINDON
+MIL,thousand,LINDON
+MIN,minute,LINDON
+MIO,million,LINDON
+MIU,million international unit,LINDON
+MK,milligram per square inch,LINDON
+MLD,milliard,LINDON
+MLT,millilitre,LINDON
+MMK,square millimetre,LINDON
+MMQ,cubic millimetre,LINDON
+MMT,millimetre,LINDON
+MON,month,LINDON
+MPA,megapascal,LINDON
+MQ,thousand metre,LINDON
+MQH,cubic metre per hour,LINDON
+MQS,cubic metre per second,LINDON
+MSK,metre per second squared,LINDON
+MT,mat,LINDON
+MTK,square metre,LINDON
+MTQ,cubic metre,LINDON
+MTR,metre,LINDON
+MTS,metre per second,LINDON
+MV,number of mults,LINDON
+MVA,megavolt - ampere,LINDON
+MWH,megawatt hour (1000 kW.h),LINDON
+N1,pen calorie,LINDON
+N2,number of lines,LINDON
+N3,print point,LINDON
+NA,milligram per kilogram,LINDON
+NAR,number of  articles,LINDON
+NB,barge,LINDON
+NBB,number of bobbins,LINDON
+NC,car,LINDON
+NCL,number of cells,LINDON
+ND,net barrel,LINDON
+NE,net litre,LINDON
+NEW,newton,LINDON
+NF,message,LINDON
+NG,net gallon (us),LINDON
+NH,message hour,LINDON
+NI,net imperial gallon,LINDON
+NIU,number of international units,LINDON
+NJ,number of screens,LINDON
+NL,load,LINDON
+NMI,nautical mile,LINDON
+NMP,number of packs,LINDON
+NN,train,LINDON
+NPL,number of parcels,LINDON
+NPR,number of pairs,LINDON
+NPT,number of parts,LINDON
+NQ,mho,LINDON
+NR,micromho,LINDON
+NRL,number of rolls,LINDON
+NT,net ton,LINDON
+NTT,net register ton,LINDON
+NU,newton metre,LINDON
+NV,vehicle,LINDON
+NX,part per thousand,LINDON
+NY,pound per air dry metric ton,LINDON
+OA,panel,LINDON
+OHM,ohm,LINDON
+ON,ounce per square yard,LINDON
+ONZ,ounce,LINDON
+OP,two pack,LINDON
+OT,overtime hour,LINDON
+OZ,ounce av,LINDON
+OZA,fluid ounce (US),LINDON
+OZI,fluid ounce (UK),LINDON
+P0,page - electronic,LINDON
+P1,percent,LINDON
+P2,pound per foot,LINDON
+P3,three pack,LINDON
+P4,four pack,LINDON
+P5,five pack,LINDON
+P6,six pack,LINDON
+P7,seven pack,LINDON
+P8,eight pack,LINDON
+P9,nine pack,LINDON
+PA,packet,LINDON
+PAL,pascal,LINDON
+PB,pair inch,LINDON
+PD,pad,LINDON
+PE,pound equivalent,LINDON
+PF,pallet (lift),LINDON
+PG,plate,LINDON
+PGL,proof gallon,LINDON
+PI,pitch,LINDON
+PK,package,LINDON
+PL,pail,LINDON
+PM,pound percentage,LINDON
+PN,pound net,LINDON
+PO,pound per inch of length,LINDON
+PQ,page per inch,LINDON
+PR,pair,LINDON
+PS,pound-force per square inch,LINDON
+PT,pint (US),LINDON
+PTD,dry pint (US),LINDON
+PTI,pint  (UK),LINDON
+PTL,liquid pint (US),LINDON
+PU,tray / tray pack,LINDON
+PV,half pint (US),LINDON
+PW,pound per inch of width,LINDON
+PY,peck dry (US),LINDON
+PZ,peck dry (UK),LINDON
+Q3,meal,LINDON
+QA,page - facsimile,LINDON
+QAN,quarter (of a year),LINDON
+QB,page - hardcopy,LINDON
+QD,quarter dozen,LINDON
+QH,quarter hour,LINDON
+QK,quarter kilogram,LINDON
+QR,quire,LINDON
+QT,quart (US),LINDON
+QTD,dry quart (US),LINDON
+QTI,quart (UK),LINDON
+QTL,liquid quart (US),LINDON
+QTR,quarter (UK),LINDON
+R1,pica,LINDON
+R4,calorie,LINDON
+R9,thousand cubic metre,LINDON
+RA,rack,LINDON
+RD,rod,LINDON
+RG,ring,LINDON
+RH,running or operating hour,LINDON
+RK,roll metric measure,LINDON
+RL,reel,LINDON
+RM,ream,LINDON
+RN,ream metric measure,LINDON
+RO,roll,LINDON
+RP,pound per ream,LINDON
+RPM,revolutions per minute,LINDON
+RPS,revolutions per second,LINDON
+RS,reset,LINDON
+RT,revenue ton mile,LINDON
+RU,run,LINDON
+S3,square foot per second,LINDON
+S4,square metre per second,LINDON
+S5,sixty fourths of an inch,LINDON
+S6,session,LINDON
+S7,storage unit,LINDON
+S8,standard advertising unit,LINDON
+SA,sack,LINDON
+SAN,half year (6 months),LINDON
+SCO,score,LINDON
+SCR,scruple,LINDON
+SD,solid pound,LINDON
+SE,section,LINDON
+SEC,second,LINDON
+SET,set,LINDON
+SG,segment,LINDON
+SHT,shipping ton,LINDON
+SIE,siemens,LINDON
+SK,split tanktruck,LINDON
+SL,slipsheet,LINDON
+SMI,mile (statute mile),LINDON
+SN,square rod,LINDON
+SO,spool,LINDON
+SP,shelf package,LINDON
+SQ,square,LINDON
+SR,strip,LINDON
+SS,sheet  metric measure,LINDON
+SST,short standard (7200 matches),LINDON
+ST,sheet,LINDON
+STI,stone (UK),LINDON
+STN,ton (US) or short ton (UK/US),LINDON
+SV,skid,LINDON
+SW,skein,LINDON
+SX,shipment,LINDON
+T0,telecommunication line in service,LINDON
+T1,thousand pound gross,LINDON
+T3,thousand piece,LINDON
+T4,thousand bag,LINDON
+T5,thousand casing,LINDON
+T6,thousand gallon (US),LINDON
+T7,thousand impression,LINDON
+T8,thousand linear inch,LINDON
+TA,tenth cubic foot,LINDON
+TAH,kiloampere hour (thousand ampere hour),LINDON
+TC,truckload,LINDON
+TD,therm,LINDON
+TE,tote,LINDON
+TF,ten square yard,LINDON
+TI,thousand square inch,LINDON
+TJ,thousand square centimetre,LINDON
+TK,"tank, rectangular",LINDON
+TL,thousand feet (linear),LINDON
+TN,tin,LINDON
+TNE,tonne (metric ton),LINDON
+TP,ten pack,LINDON
+TPR,ten pair,LINDON
+TQ,thousand feet,LINDON
+TQD,thousand cubic metre per day,LINDON
+TR,ten square feet,LINDON
+TRL,trillion (EUR),LINDON
+TS,thousand square feet,LINDON
+TSD,tonne of substance 90 % dry,LINDON
+TSH,ton of steam per hour,LINDON
+TT,thousand linear metre,LINDON
+TU,tube,LINDON
+TV,thousand kilogram,LINDON
+TW,thousand sheet,LINDON
+TY,"tank, cylindrical",LINDON
+U1,treatment,LINDON
+U2,tablet,LINDON
+UA,torr,LINDON
+UB,telecommunication  line in service average,LINDON
+UC,telecommunication port,LINDON
+UD,tenth minute,LINDON
+UE,tenth hour,LINDON
+UF,usage per telecommunication line average,LINDON
+UH,ten thousand yard,LINDON
+UM,million unit,LINDON
+VA,volt ampere per kilogram,LINDON
+VI,vial,LINDON
+VLT,volt,LINDON
+VQ,bulk,LINDON
+VS,visit,LINDON
+W2,wet kilo,LINDON
+W4,two week,LINDON
+WA,watt per kilogram,LINDON
+WB,wet pound,LINDON
+WCD,cord,LINDON
+WE,wet ton,LINDON
+WEB,weber,LINDON
+WEE,week,LINDON
+WG,wine gallon,LINDON
+WH,wheel,LINDON
+WHR,watt hour,LINDON
+WI,weight per square inch,LINDON
+WM,working month,LINDON
+WR,wrap,LINDON
+WSD,standard,LINDON
+WTT,watt,LINDON
+WW,millilitre of water,LINDON
+X1,chain,LINDON
+YDK,square yard,LINDON
+YDQ,cubic yard,LINDON
+YL,hundred linear yard,LINDON
+YRD,yard,LINDON
+YT,ten yard,LINDON
+Z1,lift van,LINDON
+Z2,chest,LINDON
+Z3,cask,LINDON
+Z4,hogshead,LINDON
+Z5,lug,LINDON
+Z6,conference point,LINDON
+Z8,newspage agate line,LINDON
+ZP,page,LINDON
+ZZ,mutually defined,LINDON
+04,small spray,LINDONSENTOS
+05,lift,LINDONSENTOS
+08,heat lot,LINDONSENTOS
+10,group,LINDONSENTOS
+11,outfit,LINDONSENTOS
+13,ration,LINDONSENTOS
+14,shot,LINDONSENTOS
+15,stick,LINDONSENTOS
+16,hundred fifteen kg drum,LINDONSENTOS
+17,hundred lb drum,LINDONSENTOS
+18,fiftyfive gallon (US) drum,LINDONSENTOS
+19,tank truck,LINDONSENTOS
+1A,car mile,LINDONSENTOS
+1B,car count,LINDONSENTOS
+1C,locomotive count,LINDONSENTOS
+1D,caboose count,LINDONSENTOS
+1E,empty car,LINDONSENTOS
+1F,train mile,LINDONSENTOS
+1G,fuel usage gallon (US),LINDONSENTOS
+1H,caboose mile,LINDONSENTOS
+1I,fixed rate,LINDONSENTOS
+1J,ton mile,LINDONSENTOS
+1K,locomotive mile,LINDONSENTOS
+1L,total car count,LINDONSENTOS
+1M,total car mile,LINDONSENTOS
+1X,quarter mile,LINDONSENTOS
+20,twenty foot container,LINDONSENTOS
+21,forty foot container,LINDONSENTOS
+22,decilitre per gram,LINDONSENTOS
+23,gram per cubic centimetre,LINDONSENTOS
+24,theoretical pound,LINDONSENTOS
+25,gram per square centimetre,LINDONSENTOS
+26,actual ton,LINDONSENTOS
+27,theoretical ton,LINDONSENTOS
+28,kilogram per square metre,LINDONSENTOS
+29,pound per thousand square feet,LINDONSENTOS
+2A,radian per second,LINDONSENTOS
+2B,radian per second squared,LINDONSENTOS
+2C,rÇôntgen,LINDONSENTOS
+2I,British thermal unit per hour,LINDONSENTOS
+2J,cubic centimetre per second,LINDONSENTOS
+2K,cubic foot per hour,LINDONSENTOS
+2L,cubic foot per minute,LINDONSENTOS
+2M,centimetre per second,LINDONSENTOS
+2N,decibel,LINDONSENTOS
+2P,kilobyte,LINDONSENTOS
+2Q,kilobecquerel,LINDONSENTOS
+2R,kilocurie,LINDONSENTOS
+2U,megagram,LINDONSENTOS
+2V,megagram per hour,LINDONSENTOS
+2W,bin,LINDONSENTOS
+2X,metre per minute,LINDONSENTOS
+2Y,millirÇôntgen,LINDONSENTOS
+2Z,millivolt,LINDONSENTOS
+30,horse power day per air dry metric ton,LINDONSENTOS
+31,catch weight,LINDONSENTOS
+32,kilogram per air dry metric ton,LINDONSENTOS
+33,kilopascal square metres per gram,LINDONSENTOS
+34,kilopascals per millimetre,LINDONSENTOS
+35,millilitres per square centimetre second,LINDONSENTOS
+36,cubic feet per minute per square foot,LINDONSENTOS
+37,ounce per square foot,LINDONSENTOS
+38,"ounces per square foot per 0,01 inch",LINDONSENTOS
+3B,megajoule,LINDONSENTOS
+3C,manmonth,LINDONSENTOS
+3E,pound per pound of product,LINDONSENTOS
+3G,pound per piece of product,LINDONSENTOS
+3H,kilogram per kilogram of product,LINDONSENTOS
+3I,kilogram per piece of product,LINDONSENTOS
+40,millilitre per second,LINDONSENTOS
+41,millilitre per minute,LINDONSENTOS
+43,super bulk bag,LINDONSENTOS
+44,fivehundred kg bulk bag,LINDONSENTOS
+45,threehundred kg bulk bag,LINDONSENTOS
+46,fifty lb bulk bag,LINDONSENTOS
+47,fifty lb bag,LINDONSENTOS
+48,bulk car load,LINDONSENTOS
+4A,bobbin,LINDONSENTOS
+4B,cap,LINDONSENTOS
+4C,centistokes,LINDONSENTOS
+4E,twenty pack,LINDONSENTOS
+4G,microlitre,LINDONSENTOS
+4H,micrometre (micron),LINDONSENTOS
+4K,milliampere,LINDONSENTOS
+4L,megabyte,LINDONSENTOS
+4M,milligram per hour,LINDONSENTOS
+4N,megabecquerel,LINDONSENTOS
+4O,microfarad,LINDONSENTOS
+4P,newton per metre,LINDONSENTOS
+4Q,ounce inch,LINDONSENTOS
+4R,ounce foot,LINDONSENTOS
+4T,picofarad,LINDONSENTOS
+4U,pound per hour,LINDONSENTOS
+4W,ton(US) per hour,LINDONSENTOS
+4X,kilolitre per hour,LINDONSENTOS
+53,theoretical kilograms,LINDONSENTOS
+54,theoretical tonne,LINDONSENTOS
+56,sitas,LINDONSENTOS
+57,mesh,LINDONSENTOS
+58,net kilogram,LINDONSENTOS
+59,part per million,LINDONSENTOS
+5A,barrel per minute,LINDONSENTOS
+5B,batch,LINDONSENTOS
+5C,gallon(US) per thousand,LINDONSENTOS
+5E,MMSCF/day,LINDONSENTOS
+5F,pounds per thousand,LINDONSENTOS
+5G,pump,LINDONSENTOS
+5H,stage,LINDONSENTOS
+5I,standard cubic foot,LINDONSENTOS
+5J,hydraulic horse power,LINDONSENTOS
+5K,count per minute,LINDONSENTOS
+5P,seismic level,LINDONSENTOS
+5Q,seismic line,LINDONSENTOS
+60,percent weight,LINDONSENTOS
+61,part per billion (US),LINDONSENTOS
+62,percent per 1000 hour,LINDONSENTOS
+63,failure rate in time,LINDONSENTOS
+64,"pound per square inch, gauge",LINDONSENTOS
+66,oersted,LINDONSENTOS
+69,test specific scale,LINDONSENTOS
+71,volt ampere per pound,LINDONSENTOS
+72,watt per pound,LINDONSENTOS
+73,ampere tum per centimetre,LINDONSENTOS
+74,millipascal,LINDONSENTOS
+76,gauss,LINDONSENTOS
+77,milli-inch,LINDONSENTOS
+78,kilogauss,LINDONSENTOS
+80,pounds per square inch absolute,LINDONSENTOS
+81,henry,LINDONSENTOS
+84,kilopound per square inch,LINDONSENTOS
+85,foot pound-force,LINDONSENTOS
+87,pound per cubic foot,LINDONSENTOS
+89,poise,LINDONSENTOS
+90,Saybold universal second,LINDONSENTOS
+91,stokes,LINDONSENTOS
+92,calorie per cubic centimetre,LINDONSENTOS
+93,calorie per gram,LINDONSENTOS
+94,curl unit,LINDONSENTOS
+95,twenty thousand gallon (US) tankcar,LINDONSENTOS
+96,ten thousand gallon (US) tankcar,LINDONSENTOS
+97,ten kg drum,LINDONSENTOS
+98,fifteen kg drum,LINDONSENTOS
+A1,15  C calorie,LINDONSENTOS
+A10,ampere square metre per joule second,LINDONSENTOS
+A11,Ç¾ngstrÇôm,LINDONSENTOS
+A12,astronomical unit,LINDONSENTOS
+A13,attojoule,LINDONSENTOS
+A14,barn,LINDONSENTOS
+A15,barn per electron volt,LINDONSENTOS
+A16,"barn per steradian electron volt,",LINDONSENTOS
+A17,barn per sterdian,LINDONSENTOS
+A18,becquerel per kilogram,LINDONSENTOS
+A19,becquerel per metre cubed,LINDONSENTOS
+A2,ampere per centimetre,LINDONSENTOS
+A20,British thermal unit per second square foot degree Rankin,LINDONSENTOS
+A21,British thermal unit per pound degree Rankin,LINDONSENTOS
+A22,British thermal unit per second foot degree Rankin,LINDONSENTOS
+A23,British thermal unit per hour square foot degree Rankin,LINDONSENTOS
+A24,candela per square metre,LINDONSENTOS
+A25,cheval vapeur,LINDONSENTOS
+A26,coulomb metre,LINDONSENTOS
+A27,coulomb metre squared per volt,LINDONSENTOS
+A28,coulomb per cubic centimetre,LINDONSENTOS
+A29,coulomb per cubic metre,LINDONSENTOS
+A3,ampere per millimetre,LINDONSENTOS
+A30,coulomb per cubic millimetre,LINDONSENTOS
+A31,coulomb per kilogram second,LINDONSENTOS
+A32,coulomb per mole,LINDONSENTOS
+A33,coulomb per square centimetre,LINDONSENTOS
+A34,coulomb per square metre,LINDONSENTOS
+A35,coulomb per square millimetre,LINDONSENTOS
+A36,cubic centimetre per mole,LINDONSENTOS
+A37,cubic decimetre per mole,LINDONSENTOS
+A38,cubic metre per coulomb,LINDONSENTOS
+A39,cubic metre per kilogram,LINDONSENTOS
+A4,ampere per square centimetre,LINDONSENTOS
+A40,cubic metre per mole,LINDONSENTOS
+A41,ampere per square metre,LINDONSENTOS
+A42,curie per kilogram,LINDONSENTOS
+A43,deadweight tonnage,LINDONSENTOS
+A44,decalitre,LINDONSENTOS
+A45,decametre,LINDONSENTOS
+A47,decitex,LINDONSENTOS
+A48,degree Rankin,LINDONSENTOS
+A49,denier,LINDONSENTOS
+A5,ampere square metre,LINDONSENTOS
+A50,dyn second per cubic centimetre,LINDONSENTOS
+A51,dyne second per centimetre,LINDONSENTOS
+A52,dyne second per centimetre to the fifth,LINDONSENTOS
+A53,electronvolt,LINDONSENTOS
+A54,electronvolt  per metre,LINDONSENTOS
+A55,electronvolt square metre,LINDONSENTOS
+A56,electronvolt square metre per kilogram,LINDONSENTOS
+A57,erg,LINDONSENTOS
+A58,erg per centimetre,LINDONSENTOS
+A6,ampere per square metre kelvin squared,LINDONSENTOS
+A60,erg per cubic centimetre,LINDONSENTOS
+A61,erg per gram,LINDONSENTOS
+A62,erg per gram second,LINDONSENTOS
+A63,erg per second,LINDONSENTOS
+A64,erg per second square centimetre,LINDONSENTOS
+A65,erg per square centimetre second,LINDONSENTOS
+A66,erg square centimetre,LINDONSENTOS
+A67,erg square centimetre per gram,LINDONSENTOS
+A68,exajoule,LINDONSENTOS
+A69,farad per metre,LINDONSENTOS
+A7,ampere per square millimetre,LINDONSENTOS
+A70,femtojoule,LINDONSENTOS
+A71,femtometre,LINDONSENTOS
+A73,foot per second squared,LINDONSENTOS
+A74,foot pound-force per second,LINDONSENTOS
+A75,freight ton,LINDONSENTOS
+A76,gal,LINDONSENTOS
+A77,Gaussian CGS unit of displacement,LINDONSENTOS
+A78,Gaussian CGS unit of electic current,LINDONSENTOS
+A79,Gaussian CGS unit of electric charge,LINDONSENTOS
+A8,ampere second,LINDONSENTOS
+A80,Gaussian CGS unit of electric field strength,LINDONSENTOS
+A81,Gaussian CGS unit of electric polarization,LINDONSENTOS
+A82,Gaussian CGS unit of electric potential,LINDONSENTOS
+A83,Gaussian CGS unit of magnetization,LINDONSENTOS
+A84,gigacoulomb per cubic metre,LINDONSENTOS
+A85,gigaelectronvolt,LINDONSENTOS
+A86,gigahertz,LINDONSENTOS
+A87,gigaohm,LINDONSENTOS
+A88,gigaohm metre,LINDONSENTOS
+A89,gigapascal,LINDONSENTOS
+A9,rate,LINDONSENTOS
+A90,gigawatt,LINDONSENTOS
+A91,gon,LINDONSENTOS
+A93,gram per cubic metre,LINDONSENTOS
+A94,gram per mole,LINDONSENTOS
+A95,gray,LINDONSENTOS
+A96,gray per second,LINDONSENTOS
+A97,hectopascal,LINDONSENTOS
+A98,henry per metre,LINDONSENTOS
+AA,ball,LINDONSENTOS
+AB,bulk pack,LINDONSENTOS
+ACR,acre,LINDONSENTOS
+AD,byte,LINDONSENTOS
+AE,ampere per metre,LINDONSENTOS
+AH,additional minute,LINDONSENTOS
+AI,average minute per call,LINDONSENTOS
+AJ,cop,LINDONSENTOS
+AK,fathom,LINDONSENTOS
+AL,access line,LINDONSENTOS
+AM,ampoule,LINDONSENTOS
+AMH,ampere hour,LINDONSENTOS
+AMP,ampere,LINDONSENTOS
+ANN,year,LINDONSENTOS
+AP,aluminium pound only,LINDONSENTOS
+APZ,troy ounce or apothecaries' ounce,LINDONSENTOS
+AQ,anti-hemophilic factor (AHF) unit,LINDONSENTOS
+AR,suppository,LINDONSENTOS
+ARE,are,LINDONSENTOS
+AS,assortment,LINDONSENTOS
+ASM,alcoholic strength by mass,LINDONSENTOS
+ASU,alcoholic strength by volume,LINDONSENTOS
+ATM,standard atmosphere,LINDONSENTOS
+ATT,technical atmosphere,LINDONSENTOS
+AV,capsule,LINDONSENTOS
+AW,powder filled vial,LINDONSENTOS
+AY,assembly,LINDONSENTOS
+AZ,British thermal unit per pound,LINDONSENTOS
+B0,Btu per cubic foot,LINDONSENTOS
+B1,barrel (US) per day,LINDONSENTOS
+B11,joule per kilogram kelvin,LINDONSENTOS
+B12,joule per metre,LINDONSENTOS
+B13,joule per square metre,LINDONSENTOS
+B14,joule per metre to the fourth power,LINDONSENTOS
+B15,joule per mole,LINDONSENTOS
+B16,joule per mole kelvin,LINDONSENTOS
+B18,joule second,LINDONSENTOS
+B2,bunk,LINDONSENTOS
+B20,joule square metre per kilogram,LINDONSENTOS
+B21,kelvin per watt,LINDONSENTOS
+B22,kiloampere,LINDONSENTOS
+B23,kiloampere per square metre,LINDONSENTOS
+B24,kiloampere per metre,LINDONSENTOS
+B25,kilobecquerel per kilogram,LINDONSENTOS
+B26,kilocoulomb,LINDONSENTOS
+B27,kilocoulomb per cubic metre,LINDONSENTOS
+B28,kilocoulomb per square metre,LINDONSENTOS
+B29,kiloelectronvolt,LINDONSENTOS
+B3,batting pound,LINDONSENTOS
+B31,kilogram metre per second,LINDONSENTOS
+B32,kilogram metre squared,LINDONSENTOS
+B33,kilogram metre squared per second,LINDONSENTOS
+B34,kilogram per cubic decimetre,LINDONSENTOS
+B35,kilogram per litre,LINDONSENTOS
+B36,thermochemical calorie per gram,LINDONSENTOS
+B37,kilogram-force,LINDONSENTOS
+B38,kilogram-force metre,LINDONSENTOS
+B39,kilogram-force metre per second,LINDONSENTOS
+B4,"barrel, imperial",LINDONSENTOS
+B40,kilogram-force per square metre,LINDONSENTOS
+B41,kilojoule per kelvin,LINDONSENTOS
+B42,kilojoule per kilogram,LINDONSENTOS
+B43,kilojoule per kilogram kelvin,LINDONSENTOS
+B44,kilojoule per mole,LINDONSENTOS
+B45,kilomole,LINDONSENTOS
+B46,kilomole per cubic metre,LINDONSENTOS
+B47,kilonewton,LINDONSENTOS
+B48,kilonewton metre,LINDONSENTOS
+B49,kiloohm,LINDONSENTOS
+B5,billet,LINDONSENTOS
+B50,kiloohm metre,LINDONSENTOS
+B51,kilopond,LINDONSENTOS
+B52,kilosecond,LINDONSENTOS
+B53,kilosiemens,LINDONSENTOS
+B54,kilosiemens per metre,LINDONSENTOS
+B55,kilovolt per metre,LINDONSENTOS
+B56,kiloweber per metre,LINDONSENTOS
+B57,light year,LINDONSENTOS
+B58,litre per mole,LINDONSENTOS
+B59,lumen hour,LINDONSENTOS
+B6,bun,LINDONSENTOS
+B60,lumen per square metre,LINDONSENTOS
+B61,lumen per watt,LINDONSENTOS
+B62,lumen second,LINDONSENTOS
+B63,lux hour,LINDONSENTOS
+B64,lux second,LINDONSENTOS
+B65,maxwell,LINDONSENTOS
+B66,megaampere per square metre,LINDONSENTOS
+B67,megabecquerel per kilogram,LINDONSENTOS
+B69,megacoulomb per cubic metre,LINDONSENTOS
+B7,cycle,LINDONSENTOS
+B70,megacoulomb per square metre,LINDONSENTOS
+B71,megaelectronvolt,LINDONSENTOS
+B72,megagram per cubic metre,LINDONSENTOS
+B73,meganewton,LINDONSENTOS
+B74,meganewton metre,LINDONSENTOS
+B75,megaohm,LINDONSENTOS
+B76,megaohm metre,LINDONSENTOS
+B77,megasiemens per metre,LINDONSENTOS
+B78,megavolt,LINDONSENTOS
+B79,megavolt per metre,LINDONSENTOS
+B8,joule per cubic metre,LINDONSENTOS
+B81,reciprocal metre squared reciprocal second,LINDONSENTOS
+B83,metre to the fourth power,LINDONSENTOS
+B84,microampere,LINDONSENTOS
+B85,microbar,LINDONSENTOS
+B86,microcoulomb,LINDONSENTOS
+B87,microcoulomb per cubic metre,LINDONSENTOS
+B88,microcoulomb per square metre,LINDONSENTOS
+B89,microfarad per metre,LINDONSENTOS
+B9,batt,LINDONSENTOS
+B90,microhenry,LINDONSENTOS
+B91,microhenry per metre,LINDONSENTOS
+B92,micronewton,LINDONSENTOS
+B93,micronewton metre,LINDONSENTOS
+B94,microohm,LINDONSENTOS
+B95,microohm metre,LINDONSENTOS
+B96,micropascal,LINDONSENTOS
+B97,microradian,LINDONSENTOS
+B98,microsecond,LINDONSENTOS
+B99,microsiemens,LINDONSENTOS
+BAR,bar,LINDONSENTOS
+BB,base box,LINDONSENTOS
+BD,board,LINDONSENTOS
+BE,bundle,LINDONSENTOS
+BFT,board foot,LINDONSENTOS
+BG,bag,LINDONSENTOS
+BH,brush,LINDONSENTOS
+BHP,brake horse power,LINDONSENTOS
+BIL,trillion (US),LINDONSENTOS
+BJ,bucket,LINDONSENTOS
+BK,basket,LINDONSENTOS
+BL,bale,LINDONSENTOS
+BLD,dry barrel (US),LINDONSENTOS
+BLL,barrel (US) (petroleum etc.),LINDONSENTOS
+BO,bottle,LINDONSENTOS
+BP,hundred board feet,LINDONSENTOS
+BQL,becquerel,LINDONSENTOS
+BR,bar,LINDONSENTOS
+BT,bolt,LINDONSENTOS
+BTU,British thermal unit,LINDONSENTOS
+BUA,bushel  (US),LINDONSENTOS
+BUI,bushel (UK),LINDONSENTOS
+BW,base weight,LINDONSENTOS
+BX,box,LINDONSENTOS
+BZ,million BTUs,LINDONSENTOS
+C0,call,LINDONSENTOS
+C1,composite product pound (total weight),LINDONSENTOS
+C10,millifarad,LINDONSENTOS
+C11,milligal,LINDONSENTOS
+C12,milligram per metre,LINDONSENTOS
+C13,milligray,LINDONSENTOS
+C14,millihenry,LINDONSENTOS
+C15,millijoule,LINDONSENTOS
+C16,millimetre per second,LINDONSENTOS
+C17,millimetre squared per second,LINDONSENTOS
+C18,millimole,LINDONSENTOS
+C19,mole per kilogram,LINDONSENTOS
+C2,carset,LINDONSENTOS
+C20,millinewton,LINDONSENTOS
+C22,millinewton per metre,LINDONSENTOS
+C23,milliohm metre,LINDONSENTOS
+C24,millipascal second,LINDONSENTOS
+C25,milliradian,LINDONSENTOS
+C26,millisecond,LINDONSENTOS
+C27,millisiemens,LINDONSENTOS
+C28,millisievert,LINDONSENTOS
+C29,millitesla,LINDONSENTOS
+C3,microvolt per metre,LINDONSENTOS
+C30,millivolt per metre,LINDONSENTOS
+C31,milliwatt,LINDONSENTOS
+C32,milliwatt per square metre,LINDONSENTOS
+C33,milliweber,LINDONSENTOS
+C34,mole,LINDONSENTOS
+C35,mole per cubic decimetre,LINDONSENTOS
+C36,mole per cubic metre,LINDONSENTOS
+C38,mole per litre,LINDONSENTOS
+C39,nanoampere,LINDONSENTOS
+C4,carload,LINDONSENTOS
+C40,nanocoulomb,LINDONSENTOS
+C41,nanofarad,LINDONSENTOS
+C42,nanofarad per metre,LINDONSENTOS
+C43,nanohenry,LINDONSENTOS
+C44,nanohenry per metre,LINDONSENTOS
+C45,nanometre,LINDONSENTOS
+C46,nanoohm metre,LINDONSENTOS
+C47,nanosecond,LINDONSENTOS
+C48,nanotesla,LINDONSENTOS
+C49,nanowatt,LINDONSENTOS
+C5,cost,LINDONSENTOS
+C50,neper,LINDONSENTOS
+C51,neper per second,LINDONSENTOS
+C52,picometre,LINDONSENTOS
+C53,newton metre second,LINDONSENTOS
+C54,newton metre squared  kilogram squared,LINDONSENTOS
+C55,newton per square metre,LINDONSENTOS
+C56,newton per square millimetre,LINDONSENTOS
+C57,newton second,LINDONSENTOS
+C58,newton second per metre,LINDONSENTOS
+C59,octave,LINDONSENTOS
+C6,cell,LINDONSENTOS
+C60,ohm centimetre,LINDONSENTOS
+C61,ohm metre,LINDONSENTOS
+C62,one,LINDONSENTOS
+C63,parsec,LINDONSENTOS
+C64,pascal per kelvin,LINDONSENTOS
+C65,pascal second,LINDONSENTOS
+C66,pascal second per cubic metre,LINDONSENTOS
+C67,pascal second per metre,LINDONSENTOS
+C68,petajoule,LINDONSENTOS
+C69,phon,LINDONSENTOS
+C7,centipoise,LINDONSENTOS
+C70,picoampere,LINDONSENTOS
+C71,picocoulomb,LINDONSENTOS
+C72,picofarad per metre,LINDONSENTOS
+C73,picohenry,LINDONSENTOS
+C75,picowatt,LINDONSENTOS
+C76,picowatt per square metre,LINDONSENTOS
+C77,pound gage,LINDONSENTOS
+C78,pound-force,LINDONSENTOS
+C8,millicoulomb per kilogram,LINDONSENTOS
+C80,rad,LINDONSENTOS
+C81,radian,LINDONSENTOS
+C82,radian meter squared per mole,LINDONSENTOS
+C83,radian metre squared per kilogram,LINDONSENTOS
+C84,radian per metre,LINDONSENTOS
+C85,"""reciprocal ƒ?ÿngstr""""m""",LINDONSENTOS
+C86,reciprocal cubic metre,LINDONSENTOS
+C87,reciprocal cubic metre per second,LINDONSENTOS
+C88,reciprocal electron volt per cubic metre,LINDONSENTOS
+C89,reciprocal henry,LINDONSENTOS
+C9,coil group,LINDONSENTOS
+C90,reciprocal joule per cubic metre,LINDONSENTOS
+C91,reciprocal kelvin or kelvin to the power minus one,LINDONSENTOS
+C92,reciprocal metre,LINDONSENTOS
+C93,reciprocal square metre,LINDONSENTOS
+C94,reciprocal minute,LINDONSENTOS
+C95,reciprocal mole,LINDONSENTOS
+C96,reciprocal pascal or pascal to the power minus one,LINDONSENTOS
+C97,reciprocal second,LINDONSENTOS
+C98,reciprocal second per cubic metre,LINDONSENTOS
+C99,reciprocal second per metre squared,LINDONSENTOS
+CA,can,LINDONSENTOS
+CCT,carrying capacity in metric ton,LINDONSENTOS
+CDL,candela,LINDONSENTOS
+CEL,degree Celsius,LINDONSENTOS
+CEN,hundred,LINDONSENTOS
+CG,card,LINDONSENTOS
+CGM,centigram,LINDONSENTOS
+CH,container,LINDONSENTOS
+CJ,cone,LINDONSENTOS
+CK,connector,LINDONSENTOS
+CKG,coulomb per kilogram,LINDONSENTOS
+CL,coil,LINDONSENTOS
+CLF,hundred leave,LINDONSENTOS
+CLT,centilitre,LINDONSENTOS
+CMK,square centimetre,LINDONSENTOS
+CMQ,cubic centimetre,LINDONSENTOS
+CMT,centimetre,LINDONSENTOS
+CNP,hundred pack,LINDONSENTOS
+CNT,cental (UK),LINDONSENTOS
+CO,carboy,LINDONSENTOS
+COU,coulomb,LINDONSENTOS
+CQ,cartridge,LINDONSENTOS
+CR,crate,LINDONSENTOS
+CS,case,LINDONSENTOS
+CT,carton,LINDONSENTOS
+CTM,metric carat,LINDONSENTOS
+CU,cup,LINDONSENTOS
+CUR,curie,LINDONSENTOS
+CV,cover,LINDONSENTOS
+CWA,hundred pounds (cwt)/hundred weight (US),LINDONSENTOS
+CWI,hundred weight (UK),LINDONSENTOS
+CY,cylinder,LINDONSENTOS
+CZ,combo,LINDONSENTOS
+D1,reciprocal second per steradian,LINDONSENTOS
+D10,siemens per metre,LINDONSENTOS
+D12,siemens square metre per mole,LINDONSENTOS
+D13,sievert,LINDONSENTOS
+D14,thousand linear yard,LINDONSENTOS
+D15,sone,LINDONSENTOS
+D16,square centimetre per erg,LINDONSENTOS
+D17,square centimetre per steradian erg,LINDONSENTOS
+D18,metre kelvin,LINDONSENTOS
+D19,square metre kelvin per watt,LINDONSENTOS
+D2,reciprocal second per steradian metre squared,LINDONSENTOS
+D20,square metre per joule,LINDONSENTOS
+D21,square metre per kilogram,LINDONSENTOS
+D22,square metre per mole,LINDONSENTOS
+D23,pen gram (protein),LINDONSENTOS
+D24,square metre per steradian,LINDONSENTOS
+D25,square metre per steradian joule,LINDONSENTOS
+D26,square metre per volt second,LINDONSENTOS
+D27,steradian,LINDONSENTOS
+D28,syphon,LINDONSENTOS
+D29,terahertz,LINDONSENTOS
+D30,terajoule,LINDONSENTOS
+D31,terawatt,LINDONSENTOS
+D32,terawatt hour,LINDONSENTOS
+D33,tesla,LINDONSENTOS
+D34,tex,LINDONSENTOS
+D35,thermochemical calorie,LINDONSENTOS
+D37,thermochemical calorie per gram kelvin,LINDONSENTOS
+D38,thermochemical calorie per second centimetre kelvin,LINDONSENTOS
+D39,thermochemical calorie per second square centimetre kelvin,LINDONSENTOS
+D40,thousand litre,LINDONSENTOS
+D41,tonne per cubic metre,LINDONSENTOS
+D42,tropical year,LINDONSENTOS
+D43,unified atomic mass unit,LINDONSENTOS
+D44,var,LINDONSENTOS
+D45,volt  squared per kelvin squared,LINDONSENTOS
+D46,volt - ampere,LINDONSENTOS
+D47,volt per centimetre,LINDONSENTOS
+D48,volt per kelvin,LINDONSENTOS
+D49,millivolt per kelvin,LINDONSENTOS
+D5,kilogram per square centimeter,LINDONSENTOS
+D50,volt per metre,LINDONSENTOS
+D51,volt per millimetre,LINDONSENTOS
+D52,watt per kelvin,LINDONSENTOS
+D53,watt per metre kelvin,LINDONSENTOS
+D54,watt per square metre,LINDONSENTOS
+D55,watt per square metre kelvin,LINDONSENTOS
+D56,watt per square metre kelvin to the fourth power,LINDONSENTOS
+D57,watt per steradian,LINDONSENTOS
+D58,watt per steradian square metre,LINDONSENTOS
+D59,weber per metre,LINDONSENTOS
+D6,rÇôntgen per second,LINDONSENTOS
+D60,weber per millimetre,LINDONSENTOS
+D61,minute,LINDONSENTOS
+D62,second,LINDONSENTOS
+D63,book,LINDONSENTOS
+D64,block,LINDONSENTOS
+D65,round,LINDONSENTOS
+D66,cassette,LINDONSENTOS
+D67,dollar per hour,LINDONSENTOS
+D69,inch to the fourth power,LINDONSENTOS
+D7,sandwich,LINDONSENTOS
+D70,International Table (IT) calorie,LINDONSENTOS
+D71,International Table (IT) calorie per second centimetre kelvin,LINDONSENTOS
+D72,International Table (IT) calorie per second square centimetre kelvin,LINDONSENTOS
+D73,joule square metre,LINDONSENTOS
+D74,kilogram per mole,LINDONSENTOS
+D75,International Table (IT) calorie per gram,LINDONSENTOS
+D76,International Table (IT) calorie per gram kelvin,LINDONSENTOS
+D77,megacoulomb,LINDONSENTOS
+D79,beam,LINDONSENTOS
+D8,draize score,LINDONSENTOS
+D80,microwatt,LINDONSENTOS
+D81,microtesla,LINDONSENTOS
+D82,microvolt,LINDONSENTOS
+D83,millinewton metre,LINDONSENTOS
+D85,microwatt per square metre,LINDONSENTOS
+D86,millicoulomb,LINDONSENTOS
+D87,millimole per kilogram,LINDONSENTOS
+D88,millicoulomb per cubic metre,LINDONSENTOS
+D89,millicoulomb per square metre,LINDONSENTOS
+D9,dyne per square centimeter,LINDONSENTOS
+D90,cubic metre (net),LINDONSENTOS
+D91,rem,LINDONSENTOS
+D92,band,LINDONSENTOS
+D93,second per cubic metre,LINDONSENTOS
+D94,second per radian cubic metre,LINDONSENTOS
+D95,joule per gram,LINDONSENTOS
+D96,pound gross,LINDONSENTOS
+D97,pallet/unit load,LINDONSENTOS
+D98,mass pound,LINDONSENTOS
+D99,sleeve,LINDONSENTOS
+DAA,decare,LINDONSENTOS
+DAD,ten day,LINDONSENTOS
+DAY,day,LINDONSENTOS
+DB,dry pound,LINDONSENTOS
+DC,disk (disc),LINDONSENTOS
+DD,degree,LINDONSENTOS
+DE,deal,LINDONSENTOS
+DEC,decade,LINDONSENTOS
+DG,decigram,LINDONSENTOS
+DI,dispenser,LINDONSENTOS
+DJ,decagram,LINDONSENTOS
+DLT,decilitre,LINDONSENTOS
+DMK,square decimetre,LINDONSENTOS
+DMQ,cubic decimetre,LINDONSENTOS
+DMT,decimetre,LINDONSENTOS
+DN,decinewton metre,LINDONSENTOS
+DPC,dozen piece,LINDONSENTOS
+DPR,dozen pair,LINDONSENTOS
+DPT,displacement tonnage,LINDONSENTOS
+DQ,data record,LINDONSENTOS
+DR,drum,LINDONSENTOS
+DRA,dram (US),LINDONSENTOS
+DRI,dram (UK),LINDONSENTOS
+DRL,dozen roll,LINDONSENTOS
+DRM,drachm (UK),LINDONSENTOS
+DS,display,LINDONSENTOS
+DT,dry ton,LINDONSENTOS
+DTN,decitonne,LINDONSENTOS
+DU,dyne,LINDONSENTOS
+DWT,pennyweight,LINDONSENTOS
+DX,dyne per centimetre,LINDONSENTOS
+DY,directory book,LINDONSENTOS
+DZN,dozen,LINDONSENTOS
+DZP,dozen pack,LINDONSENTOS
+E2,belt,LINDONSENTOS
+E3,trailer,LINDONSENTOS
+E4,gross kilogram,LINDONSENTOS
+E5,metric long ton,LINDONSENTOS
+EA,each,LINDONSENTOS
+EB,electronic mail box,LINDONSENTOS
+EC,each per month,LINDONSENTOS
+EP,eleven pack,LINDONSENTOS
+EQ,equivalent gallon,LINDONSENTOS
+EV,envelope,LINDONSENTOS
+F1,thousand cubic feet per day,LINDONSENTOS
+F9,fibre per cubic centimetre of air,LINDONSENTOS
+FAH,degree Fahrenheit,LINDONSENTOS
+FAR,farad,LINDONSENTOS
+FB,field,LINDONSENTOS
+FC,thousand cubic feet,LINDONSENTOS
+FD,million particle per cubic foot,LINDONSENTOS
+FE,track foot,LINDONSENTOS
+FF,hundred cubic metre,LINDONSENTOS
+FG,transdermal patch,LINDONSENTOS
+FH,micromole,LINDONSENTOS
+FL,flake ton,LINDONSENTOS
+FM,million cubic feet,LINDONSENTOS
+FOT,foot,LINDONSENTOS
+FP,pound per square foot,LINDONSENTOS
+FR,foot per minute,LINDONSENTOS
+FS,foot per second,LINDONSENTOS
+FTK,square foot,LINDONSENTOS
+FTQ,cubic foot,LINDONSENTOS
+G2,US gallon per minute,LINDONSENTOS
+G3,Imperial gallon per minute,LINDONSENTOS
+G7,microfiche sheet,LINDONSENTOS
+GB,gallon (US) per day,LINDONSENTOS
+GBQ,gigabecquerel,LINDONSENTOS
+GC,gram per 100 gram,LINDONSENTOS
+GD,gross barrel,LINDONSENTOS
+GE,pound per gallon (US),LINDONSENTOS
+GF,gram per metre (gram per 100 centimetres),LINDONSENTOS
+GFI,gram of fissile isotope,LINDONSENTOS
+GGR,great gross,LINDONSENTOS
+GH,half gallon (US),LINDONSENTOS
+GIA,gill (US),LINDONSENTOS
+GII,gill (UK),LINDONSENTOS
+GJ,gram per millilitre,LINDONSENTOS
+GK,gram per kilogram,LINDONSENTOS
+GL,gram per litre,LINDONSENTOS
+GLD,dry gallon (US),LINDONSENTOS
+GLI,gallon (UK),LINDONSENTOS
+GLL,gallon (US),LINDONSENTOS
+GM,gram per square metre,LINDONSENTOS
+GN,gross gallon,LINDONSENTOS
+GO,milligrams per square metre,LINDONSENTOS
+GP,milligram per cubic metre,LINDONSENTOS
+GQ,microgram per cubic meter,LINDONSENTOS
+GRM,gram,LINDONSENTOS
+GRN,grain,LINDONSENTOS
+GRO,gross,LINDONSENTOS
+GRT,gross register ton,LINDONSENTOS
+GT,gross ton,LINDONSENTOS
+GV,gigajoule,LINDONSENTOS
+GW,gallon per thousand cubic feet,LINDONSENTOS
+GWH,gigawatt hour,LINDONSENTOS
+GY,gross yard,LINDONSENTOS
+GZ,gage system,LINDONSENTOS
+H1,half page - electronic,LINDONSENTOS
+H2,half litre,LINDONSENTOS
+HA,hank,LINDONSENTOS
+HAR,hectare,LINDONSENTOS
+HBA,hectobar,LINDONSENTOS
+HBX,hundred boxe,LINDONSENTOS
+HC,hundred count,LINDONSENTOS
+HD,half dozen,LINDONSENTOS
+HE,hundredth of a carat,LINDONSENTOS
+HF,hundred feet,LINDONSENTOS
+HGM,hectogram,LINDONSENTOS
+HH,hundred cubic feet,LINDONSENTOS
+HI,hundred sheet,LINDONSENTOS
+HIU,hundred international unit,LINDONSENTOS
+HJ,metric horse power,LINDONSENTOS
+HK,hundred kilogram,LINDONSENTOS
+HL,hundred feet (linear),LINDONSENTOS
+HLT,hectolitre,LINDONSENTOS
+HM,mile per hour,LINDONSENTOS
+HMQ,million cubic metre,LINDONSENTOS
+HMT,hectometre,LINDONSENTOS
+HN,conventional millimetre of mercury,LINDONSENTOS
+HO,hundred troy ounce,LINDONSENTOS
+HP,conventional millimetre of water,LINDONSENTOS
+HPA,hectolitre of pure alcohol,LINDONSENTOS
+HS,hundred square feet,LINDONSENTOS
+HT,half hour,LINDONSENTOS
+HTZ,hertz,LINDONSENTOS
+HUR,hour,LINDONSENTOS
+HY,hundred yard,LINDONSENTOS
+IA,inch pound (pound inch),LINDONSENTOS
+IC,count per inch,LINDONSENTOS
+IE,person,LINDONSENTOS
+IF,inches of water,LINDONSENTOS
+II,column inch,LINDONSENTOS
+IL,inch per minute,LINDONSENTOS
+IM,impression,LINDONSENTOS
+INH,inch,LINDONSENTOS
+INK,square inch,LINDONSENTOS
+INQ,inch cubed,LINDONSENTOS
+IP,insurance policy,LINDONSENTOS
+IT,count per centimetre,LINDONSENTOS
+IU,inch per second (linear speed),LINDONSENTOS
+IV,inch per second squared (acceleration),LINDONSENTOS
+J2,joule per kilogram,LINDONSENTOS
+JB,jumbo,LINDONSENTOS
+JE,joule per kelvin,LINDONSENTOS
+JG,jug,LINDONSENTOS
+JK,megajoule per kilogram,LINDONSENTOS
+JM,megajoule per cubic metre,LINDONSENTOS
+JO,joint,LINDONSENTOS
+JOU,joule,LINDONSENTOS
+JR,jar,LINDONSENTOS
+K1,kilowatt demand,LINDONSENTOS
+K2,kilovolt ampere reactive demand,LINDONSENTOS
+K3,kilovolt ampere reactive hour,LINDONSENTOS
+K5,kilovolt ampere (reactive),LINDONSENTOS
+K6,kilolitre,LINDONSENTOS
+KA,cake,LINDONSENTOS
+KB,kilocharacter,LINDONSENTOS
+KBA,kilobar,LINDONSENTOS
+KD,kilogram decimal,LINDONSENTOS
+KEL,kelvin,LINDONSENTOS
+KF,kilopacket,LINDONSENTOS
+KG,keg,LINDONSENTOS
+KGM,kilogram,LINDONSENTOS
+KGS,kilogram per second,LINDONSENTOS
+KHZ,kilohertz,LINDONSENTOS
+KI,kilogram per millimetre width,LINDONSENTOS
+KJ,kilosegment,LINDONSENTOS
+KJO,kilojoule,LINDONSENTOS
+KL,kilogram per metre,LINDONSENTOS
+KMH,kilometre per hour,LINDONSENTOS
+KMK,square kilometre,LINDONSENTOS
+KMQ,kilogram per cubic metre,LINDONSENTOS
+KNI,kilogram of nitrogen,LINDONSENTOS
+KNS,kilogram named substance,LINDONSENTOS
+KNT,knot,LINDONSENTOS
+KO,milliequivalence caustic potash per gram of product,LINDONSENTOS
+KPA,kilopascal,LINDONSENTOS
+KPH,kilogram of potassium hydroxide (caustic potash),LINDONSENTOS
+KPO,kilogram of potassium oxide,LINDONSENTOS
+KPP,kilogram of phosphorus pentoxide (phosphoric anhydride),LINDONSENTOS
+KR,kilorÇôntgen,LINDONSENTOS
+KS,thousand pound per square inch,LINDONSENTOS
+KSD,kilogram of substance 90 % dry,LINDONSENTOS
+KSH,kilogram of sodium hydroxide (caustic soda),LINDONSENTOS
+KT,kit,LINDONSENTOS
+KTM,kilometre,LINDONSENTOS
+KTN,kilotonne,LINDONSENTOS
+KUR,kilogram of uranium,LINDONSENTOS
+KVA,kilovolt - ampere,LINDONSENTOS
+KVR,kilovar,LINDONSENTOS
+KVT,kilovolt,LINDONSENTOS
+KW,kilograms per millimeter,LINDONSENTOS
+KWH,kilowatt hour,LINDONSENTOS
+KWT,kilowatt,LINDONSENTOS
+KX,millilitre per kilogram,LINDONSENTOS
+L2,litre per minute,LINDONSENTOS
+LA,pound per cubic inch,LINDONSENTOS
+LBR,pound,LINDONSENTOS
+LBT,troy pound (US),LINDONSENTOS
+LC,linear centimetre,LINDONSENTOS
+LD,litre per day,LINDONSENTOS
+LE,lite,LINDONSENTOS
+LEF,leaf,LINDONSENTOS
+LF,linear foot,LINDONSENTOS
+LH,labour hour,LINDONSENTOS
+LI,linear inch,LINDONSENTOS
+LJ,large spray,LINDONSENTOS
+LK,link,LINDONSENTOS
+LM,linear metre,LINDONSENTOS
+LN,length,LINDONSENTOS
+LO,lot,LINDONSENTOS
+LP,liquid pound,LINDONSENTOS
+LPA,litre of pure alcohol,LINDONSENTOS
+LR,layer,LINDONSENTOS
+LS,lump sum,LINDONSENTOS
+LTN,ton (UK) or longton (US),LINDONSENTOS
+LTR,litre,LINDONSENTOS
+LUM,lumen,LINDONSENTOS
+LUX,lux,LINDONSENTOS
+LX,linear yard per pound,LINDONSENTOS
+LY,linear yard,LINDONSENTOS
+M0,magnetic tape,LINDONSENTOS
+M1,milligrams per litre,LINDONSENTOS
+M4,monetary value,LINDONSENTOS
+M5,microcurie,LINDONSENTOS
+M7,micro-inch,LINDONSENTOS
+M9,million Btu per 1000 cubic feet,LINDONSENTOS
+MA,machine per unit,LINDONSENTOS
+MAL,mega litre,LINDONSENTOS
+MAM,megametre,LINDONSENTOS
+MAW,megawatt,LINDONSENTOS
+MBE,thousand standard brick equivalent,LINDONSENTOS
+MBF,thousand board feet,LINDONSENTOS
+MBR,millibar,LINDONSENTOS
+MC,microgram,LINDONSENTOS
+MCU,millicurie,LINDONSENTOS
+MD,air dry metric ton,LINDONSENTOS
+MF,milligram per square foot per side,LINDONSENTOS
+MGM,milligram,LINDONSENTOS
+MHZ,megahertz,LINDONSENTOS
+MIK,square mile,LINDONSENTOS
+MIL,thousand,LINDONSENTOS
+MIN,minute,LINDONSENTOS
+MIO,million,LINDONSENTOS
+MIU,million international unit,LINDONSENTOS
+MK,milligram per square inch,LINDONSENTOS
+MLD,milliard,LINDONSENTOS
+MLT,millilitre,LINDONSENTOS
+MMK,square millimetre,LINDONSENTOS
+MMQ,cubic millimetre,LINDONSENTOS
+MMT,millimetre,LINDONSENTOS
+MON,month,LINDONSENTOS
+MPA,megapascal,LINDONSENTOS
+MQ,thousand metre,LINDONSENTOS
+MQH,cubic metre per hour,LINDONSENTOS
+MQS,cubic metre per second,LINDONSENTOS
+MSK,metre per second squared,LINDONSENTOS
+MT,mat,LINDONSENTOS
+MTK,square metre,LINDONSENTOS
+MTQ,cubic metre,LINDONSENTOS
+MTR,metre,LINDONSENTOS
+MTS,metre per second,LINDONSENTOS
+MV,number of mults,LINDONSENTOS
+MVA,megavolt - ampere,LINDONSENTOS
+MWH,megawatt hour (1000 kW.h),LINDONSENTOS
+N1,pen calorie,LINDONSENTOS
+N2,number of lines,LINDONSENTOS
+N3,print point,LINDONSENTOS
+NA,milligram per kilogram,LINDONSENTOS
+NAR,number of  articles,LINDONSENTOS
+NB,barge,LINDONSENTOS
+NBB,number of bobbins,LINDONSENTOS
+NC,car,LINDONSENTOS
+NCL,number of cells,LINDONSENTOS
+ND,net barrel,LINDONSENTOS
+NE,net litre,LINDONSENTOS
+NEW,newton,LINDONSENTOS
+NF,message,LINDONSENTOS
+NG,net gallon (us),LINDONSENTOS
+NH,message hour,LINDONSENTOS
+NI,net imperial gallon,LINDONSENTOS
+NIU,number of international units,LINDONSENTOS
+NJ,number of screens,LINDONSENTOS
+NL,load,LINDONSENTOS
+NMI,nautical mile,LINDONSENTOS
+NMP,number of packs,LINDONSENTOS
+NN,train,LINDONSENTOS
+NPL,number of parcels,LINDONSENTOS
+NPR,number of pairs,LINDONSENTOS
+NPT,number of parts,LINDONSENTOS
+NQ,mho,LINDONSENTOS
+NR,micromho,LINDONSENTOS
+NRL,number of rolls,LINDONSENTOS
+NT,net ton,LINDONSENTOS
+NTT,net register ton,LINDONSENTOS
+NU,newton metre,LINDONSENTOS
+NV,vehicle,LINDONSENTOS
+NX,part per thousand,LINDONSENTOS
+NY,pound per air dry metric ton,LINDONSENTOS
+OA,panel,LINDONSENTOS
+OHM,ohm,LINDONSENTOS
+ON,ounce per square yard,LINDONSENTOS
+ONZ,ounce,LINDONSENTOS
+OP,two pack,LINDONSENTOS
+OT,overtime hour,LINDONSENTOS
+OZ,ounce av,LINDONSENTOS
+OZA,fluid ounce (US),LINDONSENTOS
+OZI,fluid ounce (UK),LINDONSENTOS
+P0,page - electronic,LINDONSENTOS
+P1,percent,LINDONSENTOS
+P2,pound per foot,LINDONSENTOS
+P3,three pack,LINDONSENTOS
+P4,four pack,LINDONSENTOS
+P5,five pack,LINDONSENTOS
+P6,six pack,LINDONSENTOS
+P7,seven pack,LINDONSENTOS
+P8,eight pack,LINDONSENTOS
+P9,nine pack,LINDONSENTOS
+PA,packet,LINDONSENTOS
+PAL,pascal,LINDONSENTOS
+PB,pair inch,LINDONSENTOS
+PD,pad,LINDONSENTOS
+PE,pound equivalent,LINDONSENTOS
+PF,pallet (lift),LINDONSENTOS
+PG,plate,LINDONSENTOS
+PGL,proof gallon,LINDONSENTOS
+PI,pitch,LINDONSENTOS
+PK,package,LINDONSENTOS
+PL,pail,LINDONSENTOS
+PM,pound percentage,LINDONSENTOS
+PN,pound net,LINDONSENTOS
+PO,pound per inch of length,LINDONSENTOS
+PQ,page per inch,LINDONSENTOS
+PR,pair,LINDONSENTOS
+PS,pound-force per square inch,LINDONSENTOS
+PT,pint (US),LINDONSENTOS
+PTD,dry pint (US),LINDONSENTOS
+PTI,pint  (UK),LINDONSENTOS
+PTL,liquid pint (US),LINDONSENTOS
+PU,tray / tray pack,LINDONSENTOS
+PV,half pint (US),LINDONSENTOS
+PW,pound per inch of width,LINDONSENTOS
+PY,peck dry (US),LINDONSENTOS
+PZ,peck dry (UK),LINDONSENTOS
+Q3,meal,LINDONSENTOS
+QA,page - facsimile,LINDONSENTOS
+QAN,quarter (of a year),LINDONSENTOS
+QB,page - hardcopy,LINDONSENTOS
+QD,quarter dozen,LINDONSENTOS
+QH,quarter hour,LINDONSENTOS
+QK,quarter kilogram,LINDONSENTOS
+QR,quire,LINDONSENTOS
+QT,quart (US),LINDONSENTOS
+QTD,dry quart (US),LINDONSENTOS
+QTI,quart (UK),LINDONSENTOS
+QTL,liquid quart (US),LINDONSENTOS
+QTR,quarter (UK),LINDONSENTOS
+R1,pica,LINDONSENTOS
+R4,calorie,LINDONSENTOS
+R9,thousand cubic metre,LINDONSENTOS
+RA,rack,LINDONSENTOS
+RD,rod,LINDONSENTOS
+RG,ring,LINDONSENTOS
+RH,running or operating hour,LINDONSENTOS
+RK,roll metric measure,LINDONSENTOS
+RL,reel,LINDONSENTOS
+RM,ream,LINDONSENTOS
+RN,ream metric measure,LINDONSENTOS
+RO,roll,LINDONSENTOS
+RP,pound per ream,LINDONSENTOS
+RPM,revolutions per minute,LINDONSENTOS
+RPS,revolutions per second,LINDONSENTOS
+RS,reset,LINDONSENTOS
+RT,revenue ton mile,LINDONSENTOS
+RU,run,LINDONSENTOS
+S3,square foot per second,LINDONSENTOS
+S4,square metre per second,LINDONSENTOS
+S5,sixty fourths of an inch,LINDONSENTOS
+S6,session,LINDONSENTOS
+S7,storage unit,LINDONSENTOS
+S8,standard advertising unit,LINDONSENTOS
+SA,sack,LINDONSENTOS
+SAN,half year (6 months),LINDONSENTOS
+SCO,score,LINDONSENTOS
+SCR,scruple,LINDONSENTOS
+SD,solid pound,LINDONSENTOS
+SE,section,LINDONSENTOS
+SEC,second,LINDONSENTOS
+SET,set,LINDONSENTOS
+SG,segment,LINDONSENTOS
+SHT,shipping ton,LINDONSENTOS
+SIE,siemens,LINDONSENTOS
+SK,split tanktruck,LINDONSENTOS
+SL,slipsheet,LINDONSENTOS
+SMI,mile (statute mile),LINDONSENTOS
+SN,square rod,LINDONSENTOS
+SO,spool,LINDONSENTOS
+SP,shelf package,LINDONSENTOS
+SQ,square,LINDONSENTOS
+SR,strip,LINDONSENTOS
+SS,sheet  metric measure,LINDONSENTOS
+SST,short standard (7200 matches),LINDONSENTOS
+ST,sheet,LINDONSENTOS
+STI,stone (UK),LINDONSENTOS
+STN,ton (US) or short ton (UK/US),LINDONSENTOS
+SV,skid,LINDONSENTOS
+SW,skein,LINDONSENTOS
+SX,shipment,LINDONSENTOS
+T0,telecommunication line in service,LINDONSENTOS
+T1,thousand pound gross,LINDONSENTOS
+T3,thousand piece,LINDONSENTOS
+T4,thousand bag,LINDONSENTOS
+T5,thousand casing,LINDONSENTOS
+T6,thousand gallon (US),LINDONSENTOS
+T7,thousand impression,LINDONSENTOS
+T8,thousand linear inch,LINDONSENTOS
+TA,tenth cubic foot,LINDONSENTOS
+TAH,kiloampere hour (thousand ampere hour),LINDONSENTOS
+TC,truckload,LINDONSENTOS
+TD,therm,LINDONSENTOS
+TE,tote,LINDONSENTOS
+TF,ten square yard,LINDONSENTOS
+TI,thousand square inch,LINDONSENTOS
+TJ,thousand square centimetre,LINDONSENTOS
+TK,"tank, rectangular",LINDONSENTOS
+TL,thousand feet (linear),LINDONSENTOS
+TN,tin,LINDONSENTOS
+TNE,tonne (metric ton),LINDONSENTOS
+TP,ten pack,LINDONSENTOS
+TPR,ten pair,LINDONSENTOS
+TQ,thousand feet,LINDONSENTOS
+TQD,thousand cubic metre per day,LINDONSENTOS
+TR,ten square feet,LINDONSENTOS
+TRL,trillion (EUR),LINDONSENTOS
+TS,thousand square feet,LINDONSENTOS
+TSD,tonne of substance 90 % dry,LINDONSENTOS
+TSH,ton of steam per hour,LINDONSENTOS
+TT,thousand linear metre,LINDONSENTOS
+TU,tube,LINDONSENTOS
+TV,thousand kilogram,LINDONSENTOS
+TW,thousand sheet,LINDONSENTOS
+TY,"tank, cylindrical",LINDONSENTOS
+U1,treatment,LINDONSENTOS
+U2,tablet,LINDONSENTOS
+UA,torr,LINDONSENTOS
+UB,telecommunication  line in service average,LINDONSENTOS
+UC,telecommunication port,LINDONSENTOS
+UD,tenth minute,LINDONSENTOS
+UE,tenth hour,LINDONSENTOS
+UF,usage per telecommunication line average,LINDONSENTOS
+UH,ten thousand yard,LINDONSENTOS
+UM,million unit,LINDONSENTOS
+VA,volt ampere per kilogram,LINDONSENTOS
+VI,vial,LINDONSENTOS
+VLT,volt,LINDONSENTOS
+VQ,bulk,LINDONSENTOS
+VS,visit,LINDONSENTOS
+W2,wet kilo,LINDONSENTOS
+W4,two week,LINDONSENTOS
+WA,watt per kilogram,LINDONSENTOS
+WB,wet pound,LINDONSENTOS
+WCD,cord,LINDONSENTOS
+WE,wet ton,LINDONSENTOS
+WEB,weber,LINDONSENTOS
+WEE,week,LINDONSENTOS
+WG,wine gallon,LINDONSENTOS
+WH,wheel,LINDONSENTOS
+WHR,watt hour,LINDONSENTOS
+WI,weight per square inch,LINDONSENTOS
+WM,working month,LINDONSENTOS
+WR,wrap,LINDONSENTOS
+WSD,standard,LINDONSENTOS
+WTT,watt,LINDONSENTOS
+WW,millilitre of water,LINDONSENTOS
+X1,chain,LINDONSENTOS
+YDK,square yard,LINDONSENTOS
+YDQ,cubic yard,LINDONSENTOS
+YL,hundred linear yard,LINDONSENTOS
+YRD,yard,LINDONSENTOS
+YT,ten yard,LINDONSENTOS
+Z1,lift van,LINDONSENTOS
+Z2,chest,LINDONSENTOS
+Z3,cask,LINDONSENTOS
+Z4,hogshead,LINDONSENTOS
+Z5,lug,LINDONSENTOS
+Z6,conference point,LINDONSENTOS
+Z8,newspage agate line,LINDONSENTOS
+ZP,page,LINDONSENTOS
+ZZ,mutually defined,LINDONSENTOS

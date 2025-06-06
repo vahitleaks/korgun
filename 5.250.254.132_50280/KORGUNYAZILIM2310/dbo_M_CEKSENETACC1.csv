@@ -1,0 +1,17 @@
+ID,TYPE,EXPLANATION,ACCOUNTID,MMID,Location,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+0,1,Eldeki Çekler,374,,,0,,,,,,
+1,2,Kesilen Çekler,363,,,1,,,,harun,2024-06-03 13:16:13.043000,KGShop
+2,3,Eldeki Senetler,1002,,,2,,,,,,
+3,4,Borç Senetleri,2656,,,3,,,,harun,2024-06-03 18:05:26.923000,KGShop2
+4,5,Protestolu Senetler,1022,,,4,,,,,,
+5,6,Karşılıksız Çekler,371,,,5,,,,,,
+6,7,Provizyon Masrafları,629,,,6,,,,,,
+7,8,Protesto Masrafları,629,,,7,,,,,,
+8,1,Eldeki Çekler,,,CA001,8,harun,2024-06-03 15:47:38.150000,KGShop,,,
+9,2,Kesilen Çekler,,,CA001,9,harun,2024-06-03 15:47:38.157000,KGShop,,,
+10,3,Eldeki Senetler,,,CA001,10,harun,2024-06-03 15:47:38.160000,KGShop,,,
+11,4,Borç Senetleri,,,CA001,11,harun,2024-06-03 15:47:38.160000,KGShop,,,
+12,5,Protestolu Senetler,,,CA001,12,harun,2024-06-03 15:47:38.163000,KGShop,,,
+13,6,Karşılıksız Çekler,365,,CA001,13,harun,2024-06-03 15:47:38.167000,KGShop,,,
+14,7,Provizyon Masrafları,,,CA001,14,harun,2024-06-03 15:47:38.170000,KGShop,,,
+15,8,Protesto Masrafları,,,CA001,15,harun,2024-06-03 15:47:38.170000,KGShop,,,

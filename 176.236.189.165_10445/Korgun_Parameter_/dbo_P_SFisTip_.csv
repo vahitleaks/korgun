@@ -1,0 +1,8 @@
+FisTur,FisTip,Tanim,DBName
+1,1,Sayım Giriş Fişi,TANCA
+2,2,Sayım Çıkış Fişi,TANCA
+3,1,Fire Giriş Fişi,TANCA
+4,2,Fire Çıkış Fişi,TANCA
+5,1,Üretim Giriş Fişi,TANCA
+6,2,Sarf Çıkış Fişi,TANCA
+7,2,Promosyon Çıkış Fişi,TANCA

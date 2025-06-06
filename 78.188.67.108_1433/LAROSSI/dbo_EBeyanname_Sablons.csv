@@ -1,0 +1,17 @@
+ID,BEYANNAMETYPE,TABLOTIP,SATIRTIP,TANIMKODU,USTGRUP,SEVIYE,TANIMADI,ACCCONTCODES,RAPORLAMA,TERSBAKIYE,HESAPTUTARI,ISLEMTURU,HESAPKAREKTERI,FORMULTANIM,SIRANO,TUTAR,AP,EBYNCODE
+1,KGECICI,21,1,01,,1,KVK m.11 hükümlerine göre kabul edilmeyen indirimler (KVK m. 11/1-i finansman gider kısıtlaması hariç),,0,0,0,0,0,,1.0000000000,0,,1
+2,KGECICI,21,1,01,,1,KVK m.11 hükümlerine göre kabul edilmeyen indirimler (KVK m. 11/1-i finansman gider kısıtlaması),,0,0,0,0,0,,2.0000000000,0,,18
+3,KGECICI,21,1,01,,1,VUK hükümlerine aykırı olarak ayrılan karşılıklar,,0,0,0,0,0,,3.0000000000,0,,2
+4,KGECICI,21,1,01,,1,VUK hükümlerine aykırı olarak ayrılan reeskontlar,,0,0,0,0,0,,4.0000000000,0,,3
+5,KGECICI,21,1,01,,1,VUK hükümlerine aykırı olarak ayrılan amortismanlar,,0,0,0,0,0,,5.0000000000,0,,4
+6,KGECICI,21,1,01,,1,5510 sayılı Kanun m.88 kapsamındaki kanunen kabul edilmeyen giderler,,0,0,0,0,0,,6.0000000000,0,,5
+7,KGECICI,21,1,01,,1,Bağış ve yardımlar,,0,0,0,0,0,,7.0000000000,0,,7
+8,KGECICI,21,1,01,,1,GVK m.75 uyarınca yönetim kurulu üyelerine ödenen kar payları,,0,0,0,0,0,,8.0000000000,0,,8
+9,KGECICI,21,1,01,,1,KDV Kanunu m.30/d uyarınca indirilemeyen KDV tutarı,,0,0,0,0,0,,9.0000000000,0,,9
+10,KGECICI,21,1,01,,1,6802 sayılı Gider Vergileri Kanunu uyarınca gider yazılan özel iletişim vergisi,,0,0,0,0,0,,10.0000000000,0,,10
+11,KGECICI,21,1,01,,1,MTV Kanunu m.14 uyarınca gider kaydedilen MTV'ler,,0,0,0,0,0,,11.0000000000,0,,11
+12,KGECICI,21,1,01,,1,İstisna faaliyetlerden/işlemlerden doğan zararlar,,0,0,0,0,0,,12.0000000000,0,,12
+13,KGECICI,21,1,01,,1,"G.V.K 40. Mad. gereği binek otomobil gider, amortisman ve kiralarının gider yazılmasına ilişkin sınırlama kapsamında oluşan KKEG",,0,0,0,0,0,,13.0000000000,0,,17
+14,KGECICI,21,1,01,,1,7326 sayılı Kanun kapsamında oluşan KKEG,,0,0,0,0,0,,14.0000000000,0,,19
+15,KGECICI,21,1,01,,1,7440 s.K. kapsamında oluşan KKEG,,0,0,0,0,0,,15.0000000000,0,,20
+16,KGECICI,21,1,01,,1,TOPLAM,,0,0,0,0,0,,16.0000000000,0,,14

@@ -1,0 +1,740 @@
+ModulName,ModulParent,ModulLevel,ModulCaption
+miSystem,,0,Sistem
+miLocation,miSystem,1,Lokasyon Seçimi ...
+miSParam,miSystem,1,Stok Parametreleri ...
+miGDovGir,miSystem,1,Günlük Döviz Girişleri ...
+mieXit,miSystem,1,Programdan Çıkış
+miStokMenu,,0,Stok
+miStok,miStokMenu,1,Stok Kartı Tanımları ...
+miStokHar,miStokMenu,1,Stok İşlemleri ...
+miStokYonetim,miStokMenu,1,Stok Yönetimi ...
+miStokislemYon,miStokMenu,1,Stok İşlemleri Yönetimi ...
+miStokGCYon,miStokMenu,1,Stok Giriş Çıkış Yönetimi
+miEn_Filter,miStokMenu,1,Envanter Yönetimi...
+miStokKZYon,miStokMenu,1,Kar Zarar Yönetimi...
+miFifoLifo,miStokMenu,1,Stok Değerleme Raporları...
+miFiyatYonet,miStokMenu,1,Fiyat Yönetimi ...
+miAlterFilter,miStokMenu,1,Alternatif Kod Yönetimi...
+miStokSay,miStokMenu,1,Stok Sayım Yönetimi ...
+miBarkodYonet,miStokMenu,1,Barkod Yonetimi
+miBarkodCreate,miBarkodYonet,2,Stok Kartlarına Barkod Oluştur ...
+miSpeedBarCode,miBarkodYonet,2,Stok Kartlarında Hızlı Barkod işlemleri ...
+miTamirTakip,,0,Tamir Takip
+miTamirFis,miTamirTakip,1,Tamir Takip Fişi
+miTamirYonetim,miTamirTakip,1,Tamir Takip Yönetimi
+miSpeedTT,miTamirTakip,1,Hızlı Tamir Takip Kaydı Bulma
+miCariMenu,,0,Cari
+miCari,miCariMenu,1,Cari Kart Tanımları ...
+miCariFis,miCariMenu,1,Cari İşlemleri ...
+miCariYonet,miCariMenu,1,Cari Yönetim ...
+miCariYon,miCariMenu,1,Cari İşlem Yönetimi ...
+miKapaYonet,miCariMenu,1,Borç Alacak Kapama Yönetimi
+miBorcYonet,miCariMenu,1,Borçlanma Yönetimi
+miCariYasYonet,miCariMenu,1,Cari Yaşlandırma Yönetimi
+miKasaMenu,,0,Kasa
+miKasa,miKasaMenu,1,Kasa Tanımları ...
+miKasaFis,miKasaMenu,1,Kasa İşlemleri ...
+miKasaYon,miKasaMenu,1,Kasa İşlem Yönetimi ...
+miKasaYonet,miKasaMenu,1,Kasa Yönetimi ...
+mibanka,,0,Banka
+miBankaKart,mibanka,1,Banka Kartları ...
+miBankais,mibanka,1,Banka işlemleri ...
+miBankTakip,mibanka,1,Takip
+miBankaTakip,miBankTakip,2,Banka Bazında Takip ...
+miSubeTakip,miBankTakip,2,Şube Bazında Takip ...
+miHesapTakip,miBankTakip,2,Hesap Bazında Takip ...
+miBankaYon,mibanka,1,Banka Yönetimi ...
+miKrediMenu,,0,Kredi Kartı
+miKrediFis,miKrediMenu,1,Kredi Kartı İşlemleri...
+miKrediYon,miKrediMenu,1,Kredi Kart Yönetimi...
+miirsFat,,0,İrsaliye / Fatura
+miirsaliyemenu,miirsFat,1,İrsaliye
+miirs_A,miirsaliyemenu,2,Alış İrsaliye
+miirs_A_Fat,miirs_A,3,Alış İrsaliye ...
+miirs_A_Kon,miirs_A,3,Alış Konsinye İrsaliye ...
+miirs_A_Dah,miirs_A,3,Alış Dahili İrsaliye ...
+miirs_A_Pro,miirs_A,3,Alış Promosyon İrsaliye ...
+miirs_S,miirsaliyemenu,2,Satış İrsaliye
+miirs_S_Fat,miirs_S,3,Satış İrsaliye ...
+miirs_S_Kon,miirs_S,3,Satış Konsinye İrsaliye ...
+miirs_S_Dah,miirs_S,3,Satış Dahili İrsaliye ...
+miirs_S_Pro,miirs_S,3,Satış Promosyon İrsaliye ...
+miirsaliyeYon,miirsaliyemenu,2,İrsaliye Yönetimi ...
+miFaturaMenu,miirsFat,1,Fatura
+miFat_A,miFaturaMenu,2,Alış Fatura
+miFat_A_Fat,miFat_A,3,Alış Fatura ...
+miFat_A_Kon,miFat_A,3,Alış Konsinye Fatura ...
+miFat_A_Hiz,miFat_A,3,Alış Hizmet Fatura ...
+miFat_A_Pro,miFat_A,3,Alış Promosyon Fatura ...
+miFFA,miFat_A,3,Alış Fiyat Farkı Faturası
+miFat_S,miFaturaMenu,2,Satış Fatura
+miFat_S_Fat,miFat_S,3,Satış Fatura ...
+miFat_S_Kon,miFat_S,3,Satış Konsinye Fatura ...
+miFat_S_Hiz,miFat_S,3,Satış Hizmet Fatura ...
+miFat_S_Pro,miFat_S,3,Satış Promosyon Fatura ...
+miFFS,miFat_S,3,Satış Fiyat Farkı Faturası
+miFaturaYon,miFaturaMenu,2,Fatura Yönetimi ...
+miFatRaporu,miFaturaMenu,2,Fatura / KDV Raporu
+miBABS,miFaturaMenu,2,BA - BS Formları
+miFinansTanim,,0,Finans Tanımlamaları
+miGidKart,miFinansTanim,1,Gider Kartları
+miGelKart,miFinansTanim,1,Gelir Kartları
+miAlHizmetKart,miFinansTanim,1,Alınan Hizmet Kartları
+miVerHizmetKart,miFinansTanim,1,Verilen Hizmet Kartları
+miGidHizYonet,miFinansTanim,1,GiderGelirHizmet Yönetimi
+miisOnay,miFinansTanim,1,İşlem Kapama
+miPerGenGid,miFinansTanim,1,Finans Genel Gider Dağıtımı...
+miYonKonsol,miFinansTanim,1,Yönetici Konsolu
+miMMuhasebe,,0,Genel Muhasebe
+miMAnaKayit,miMMuhasebe,1,Ana Kayıtlar
+miMHesapPlan,miMAnaKayit,2,Hesap Planı
+miMCekMKod,miMAnaKayit,2,Çek Senet Muhasebe Kodları
+miMKDVMKod,miMAnaKayit,2,KDV Muhasebe Kodları
+miMKDVMKodA,miMKDVMKod,3,Alış KDV Muhasebe Kodları
+miMKDVMKodS,miMKDVMKod,3,Satış KDV Muhasebe Kodları
+miMKDVMKodAi,miMKDVMKod,3,Alış İade KDV Muhasebe Kodları
+miMKDVMKodSi,miMKDVMKod,3,Satış İade KDV Muhasebe Kodları
+miMTKDVMKod,miMAnaKayit,2,Tevkifatlı İşlemlerdeki KDV Muhasebe Kodları
+miMTKDVMKodA,miMTKDVMKod,3,Tevkifatlı İşlemlerdeki Alış KDV Muhasebe Kodları
+miMTKDVMKodS,miMTKDVMKod,3,Tevkifatlı İşlemlerdeki Satış KDV Muhasebe Kodları
+miMTKDVMKodAi,miMTKDVMKod,3,Tevkifatlı İşlemlerdeki Alış İade KDV Muhasebe Kod
+miMTKDVMKodSi,miMTKDVMKod,3,Tevkifatlı İşlemlerdeki Satış İade KDV Muhasebe Ko
+miMTevMKod,miMAnaKayit,2,Tevkifat Muhasebe Kodları
+miMTevMKodA,miMTevMKod,3,Alış Muhasebe Kodları
+miMTevMKodAi,miMTevMKod,3,Alış İade Muhasebe Kodları
+miMOTVMKod,miMAnaKayit,2,ÖTV Muhasebe Kodları
+miMOTVMKodS,miMOTVMKod,3,Satış ÖTV Muhasebe Kodları
+miMOTVMKodSi,miMOTVMKod,3,Satış İade ÖTV Muhasebe Kodları
+miMPOdeTipMKod,miMAnaKayit,2,Parekende Satış Tipleri Muhasebe Kodları
+miMPOdeTipKMKod,miMAnaKayit,2,Parekende Satış Tipleri Kapora Muhasebe Kodları
+miMSMMMuhKod,miMAnaKayit,2,SMM Muhasebe Kodları
+miMSMMSt,miMSMMMuhKod,3,SMM Stopaj Muhasebe Kodları
+miMSMMKdv,miMSMMMuhKod,3,SMM KDV Muhasebe Kodları
+miStokMuhBag,miMAnaKayit,2,Stok Özel Grup Muhasebe Bağlantıları
+miMTemMKod,miMAnaKayit,2,Teminat Mektubu Muhasebe Kodları
+miMHareketler,miMMuhasebe,1,Hareketler
+miMMuhFis,miMHareketler,2,Muhasebe Fişleri
+miMislemler,miMMuhasebe,1,İşlemler
+miEnt,miMislemler,2,Entegrasyon
+miMDetayEnt,miEnt,3,Detaylı Entegrasyon
+miMHizliEnt,miEnt,3,Hızlı Entegrasyon
+miMSetFisNo,miMislemler,2,Fiş Numaralandırma
+miMSetMaddeNo,miMislemler,2,Yevmiye Madde Numaralandırma
+miMHesapAktar,miMislemler,2,Hesaplar Arası Aktarım
+miMGidKapat,miMislemler,2,Gider Hesaplarının Kapatılması
+miMGelKapat,miMislemler,2,Gelir Hesaplarınn Kapatılması
+miMKapaFis,miMislemler,2,Kapanış Fişi Oluştur
+miMuhKodAta,miMislemler,2,İşlemlere Hızlı Muhasebe Kodu Ata
+miMRaporlar,miMMuhasebe,1,Raporlar
+miMizan,miMRaporlar,2,Mizan
+miMFisList,miMRaporlar,2,Özet Fiş Listesi
+miMAFisList,miMRaporlar,2,Ayrıntılı Fiş Listesi
+miMMuavin,miMRaporlar,2,Muavin Defter
+miMDefKebir,miMRaporlar,2,Defteri Kebir
+miMYevmiye,miMRaporlar,2,Yevmiye Defteri
+miMMaliTablo,miMMuhasebe,1,Mali Tablolar
+miMBilanco,miMMaliTablo,2,Bilanço
+miMKarZarar,miMMaliTablo,2,Kar Zarar Tablosu
+miMSatisMaliyet,miMMaliTablo,2,Satışların Maliyeti Tablosu
+miMFonAkim,miMMaliTablo,2,Fon Akım Tablosu
+miMNakitAkis,miMMaliTablo,2,Nakit Akış Tablosu
+miMKarDagitim,miMMaliTablo,2,Kar Dağıtım Tablosu
+miMKDVBeyan,miMMaliTablo,2,KDV Beyannamesi
+miMMuhtasar,miMMaliTablo,2,Muhtasar Beyanname
+miMGeciciVer,miMMaliTablo,2,Geçici Vergi Beyannamesi
+mieBeyan,miMMuhasebe,1,e-Beyannameler
+miKDVeBeyan,mieBeyan,2,KDV e-Beyanname
+miMuheBeyan,mieBeyan,2,Muhtasar e-Beyanname
+miMagaza,,0,Mağaza
+miPos,miMagaza,1,Perakende Satış İşlemleri
+miMusteri,miMagaza,1,Müşteriler
+miPerYonetim,miMagaza,1,Perakende Satış Yönetimi
+miSatTakip,miMagaza,1,Mağaza Satış Kasa Takip
+miPerKZYon,miMagaza,1,Perakende Satış Kar Zarar Yönetimi ...
+miBankaKrediTak,miMagaza,1,Banka Kredi Takip
+miMusteriYon,miMagaza,1,Müşteri Yönetimi
+miPSatisRapor,miMagaza,1,Satış Raporları
+Rapor_9,miPSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Miktarına
+Rapor_298,miPSatisRapor,2,Metrekare Bazında Lokasyona Göre Satış Raporu (298
+Rapor_308,miPSatisRapor,2,Personel Sayısı Bazında Lokasyona Göre Satış Rapor
+Rapor_299,miPSatisRapor,2,Lokasyon Bazında Belirlenen Ciro Hedeflerin Gerçek
+Rapor_300,miPSatisRapor,2,Lokasyon Bazında Belirlenen Miktar Hedeflerin Gerç
+Rapor_1,miPSatisRapor,2,En Çok Satan Ürün Raporu (Satış Miktarına Göre) (r
+Rapor_2,miPSatisRapor,2,Üreticiye Göre En Çok Satan Ürün Raporu (Satış Mik
+Rapor_7,miPSatisRapor,2,Lokasyona Göre En Çok Satan Ürün Raporu (Satış Tut
+Rapor_16,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Miktar
+Rapor_18,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Tutarı
+Rapor_26,miPSatisRapor,2,Haftalık Satış Analizi (Satış Miktarına Göre) (r26
+Rapor_27,miPSatisRapor,2,Aylık Satış Analizi (Satış Miktarına Göre) (r27)
+Rapor_29,miPSatisRapor,2,Yıllık Satış Analizi (Satış Miktarına Göre) (r29)
+Rapor_31,miPSatisRapor,2,Haftalık Satış Analizi (Satış Tutarına Göre) (r31)
+Rapor_32,miPSatisRapor,2,Aylık Satış Analizi (Satış Tutarına Göre) (r32)
+Rapor_34,miPSatisRapor,2,Yıllık Satış Analizi (Satış Tutarına Göre) (r34)
+Rapor_119,miPSatisRapor,2,Üretici Bazlı Mağaza Performans Takip (r119)
+Rapor_38,miPSatisRapor,2,Satmayan Ürün Raporu (r38)
+Rapor_39,miPSatisRapor,2,Lokasyona Göre Satmayan Ürün Raporu (r39)
+Rapor_169,miPSatisRapor,2,Merkez-Şube Stok Durum Raporu (Özet) (r169)
+Help1,,0,Yardım
+ools1,Help1,1,Araçlar
+miResim,ools1,2,Resim Penceresi
+miKayDelete,ools1,2,Silinen Kayıtlar
+miMail,ools1,2,Çevrimiçi Mail
+TopHamHes,ools1,2,Toplam Hammadde Hesaplama
+Birdahagster1,Help1,1,Bir Daha Göster
+tmntmzl,Birdahagster1,2,Tümünü Temizle
+kasaSifre,Birdahagster1,2,Kasa Şifresini Temizle
+rkys,Help1,1,Rapor Kriterleri Yazdırma Seçimi...
+De2,Help1,1,Yerleştir
+De1,Help1,1,Düzenle
+ArkaResim1,Help1,1,Arka Resim
+Ayarlar1,ArkaResim1,2,Ayarlar
+miBitBlt,Ayarlar1,3,Döşe
+miStrecthBlt,Ayarlar1,3,Yerleştir
+miSRCCOPY,Ayarlar1,3,Normal Renlerinde
+miNOTSRCCOPY,Ayarlar1,3,Negatif
+miStandart,ArkaResim1,2,Standart
+miMavi,ArkaResim1,2,Mavi
+miStar,ArkaResim1,2,Yıldız
+miFire,ArkaResim1,2,Ateş
+miQMARKS,ArkaResim1,2,Soru
+miPapatya,ArkaResim1,2,Papatya
+miStone,ArkaResim1,2,Taşlar
+ArkaResDegis,ArkaResim1,2,Seç ...
+miKgWeb,Help1,1,Korgun Web Haberler ...
+About2,Help1,1,Hakkında...
+TSFiyatlar,miStok,0,Fiyatlar
+TSExstre,miStok,0,Ekstre
+TSAF,TSFiyatlar,1,Alış Fiyatları
+TSAI,TSFiyatlar,1,Alış iskontosu
+TSSF,TSFiyatlar,1,Satış Fiyatları
+TSSI,TSFiyatlar,1,Satış iskontosu
+TSBarCode,miStok,0,Barkod Tanımları
+miUrTakip1_G,miUrTakip1,1,Emir Geriçekme
+miUrTakip2_G,miUrTakip2,1,Emir Geriçekme
+miUrTakip3_G,miUrTakip3,1,Emir Geriçekme
+miUrTakip1_i,miUrTakip1,1,Emir ilerletme
+miUrTakip2_i,miUrTakip2,1,Emir ilerletme
+miUrTakip3_i,miUrTakip3,1,Emir ilerletme
+Korgun_Haberler,Birdahagster1,2,Korgun_Haberler
+miSMS,ools1,2,SMS
+miCRMHatirlat,Help1,1,CRM Hatırlatma Açık
+miAppColorMain,Help1,1,Program Rengi
+miAppColor1,miAppColorMain,2,Sarı Tonlar
+miAppColor2,miAppColorMain,2,Yeşil Tonlar
+miAppColor3,miAppColorMain,2,Mor Tonlar
+miAppColor4,miAppColorMain,2,Mavi Tonlar
+TSMevcut,miStok,0,Stok Mevcutları
+TSDlocation,TSMevcut,1,Lokasyon Detay
+Rapor_701,miPSatisRapor,2,Lokasyon Bazında Stok Satış Oranı (r701)
+Rapor_702,miPSatisRapor,2,Lokasyon Stok Grubu Bazında Satış Oranı Raporu (r7
+Rapor_703,miPSatisRapor,2,Stok Grubuna Göre Satış Performansı  (r703)
+Rapor_704,miPSatisRapor,2,RPT Değerlendirme Raporu (r704)
+Rapor_705,miPSatisRapor,2,Satış İndirim Değerlendirme Raporu (705)
+Rapor_706,miPSatisRapor,2,Sipariş ve İrsaliye Miktar Analizi  (r706)
+miOtoMail,Help1,1,Otomatik Mail Kontrolü Açık
+miListeClear,Help1,1,Liste kolon ayarlarını temizle
+miEnvanter,,0,Envanter
+miFinans,,0,Finans
+miCSFTakip,miKasaMenu,2,Çek Senet Takibi ...
+miGunKazRap,miKasaMenu,2,Finans Durum Raporu
+miCek,miFinans,1,Çek
+miCekGir,miCek,2,Çek Bordroları
+miMusCekGir,miCekGir,3,Müşteri Çek Girişleri ...
+miFirCekCik,miCekGir,3,Firma Çek Çıkışları ...
+miMusCekDevir,miCekGir,3,Müşteri Devir Çekleri
+miFirCekDevir,miCekGir,3,Firma Devir Çekleri
+miCekis,miCek,2,Çek işlemleri
+miMusCekis,miCekis,3,Müşteri Çek işlemleri ...
+miFirCekis,miCekis,3,Firma Çek işlemleri ...
+miMusCekDeviris,miCekis,3,Müşteri Devir Çek İşlemleri ...
+miFirCekDeviris,miCekis,3,Firma Çek Devir İşlemleri ...
+miCekTakip,miCek,2,Çek Takip İşlemleri
+miCekTakipMu,miCekTakip,3,Müşteri Çekleri Takip ...
+miCekTakipFi,miCekTakip,3,Firma Çekleri Takip ...
+miCekTakipMuD,miCekTakip,3,Müşteri Devir Çekleri Takip ...
+miCekTakipFiD,miCekTakip,3,Firma Devir Çekleri Takip ...
+miCekYon,miCek,2,Çek Yönetimi ...
+miSenet,miFinans,1,Senet
+miSenetGir,miSenet,2,Senet Bordroları
+miMusSenetGir,miSenetGir,3,Müşteri Senet Girişleri ...
+miFirSenetCik,miSenetGir,3,Firma Senet Çıkışları ...
+miMusSenetDevir,miSenetGir,3,Müşteri Devir Senetleri ...
+miFirSenetDevir,miSenetGir,3,Firma Devir Senetleri
+miSenetis,miSenet,2,Senet işlemleri
+miMusSenetis,miSenetis,3,Müşteri Senet işlemleri ...
+miFirSenetis,miSenetis,3,Firma Senet işlemleri ...
+miMusSenetDis,miSenetis,3,Müşteri Devir Senet işlemleri ...
+miFirSenetDis,miSenetis,3,Firma Devir Senet işlemleri ...
+miSenetTakip,miSenet,2,Senet Takip işlemleri
+miSenetTakipMu,miSenetTakip,3,Müşteri Senetleri Takip ...
+miSenetTakipFi,miSenetTakip,3,Firma Senetleri Takip ...
+miSenetTakipMuD,miSenetTakip,3,Müşteri Devir Senetleri Takip ...
+miSenetTakipFiD,miSenetTakip,3,Firma Devir Senetleri Takip ...
+miSenetYon,miSenet,2,Senet Yönetimi ...
+miTeminat,miFinans,1,Teminat Mektubu
+miTemGir,miTeminat,2,Teminat Giriş Bordları
+miAlTemGir,miTemGir,3,Alınan Teminat Mektubu
+miVerTemGir,miTemGir,3,Verilen Teminat Mektubu
+miTemHar,miTeminat,2,Teminat Hareket Bordroları
+miAlTemHar,miTemHar,3,Alınan Teminat Mektubu Hareketleri
+miVerTemHar,miTemHar,3,Verilen Teminat Mektubu Hareketleri
+miTemYon,miTeminat,2,Teminat Mektubu Yönetimi ...
+miTSatisRapor,miFinans,1,Raporlar
+Rapor_80,miTSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Miktarına
+Rapor_81,miTSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Tutarına 
+Rapor_90,miTSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Miktar
+Rapor_105,miTSatisRapor,2,Haftalık Satış Analizi (Satış Miktarına Göre) (r10
+Rapor_106,miTSatisRapor,2,Aylık Satış Analizi (Satış Miktarına Göre) (r106)
+Rapor_108,miTSatisRapor,2,Yıllık Satış Analizi (Satış Miktarına Göre) (r108)
+Rapor_110,miTSatisRapor,2,Haftalık Satış Analizi (Satış Tutarına Göre) (r110
+Rapor_111,miTSatisRapor,2,Aylık Satış Analizi (Satış Tutarına Göre) (r111)
+Rapor_113,miTSatisRapor,2,Yıllık Satış Analizi (Satış Tutarına Göre) (r113)
+Rapor_116,miTSatisRapor,2,Müşteri Toptan Satış Raporu (Satış Miktarına Göre)
+Rapor_117,miTSatisRapor,2,Müşteri Toptan Satış Raporu (Satış Tutarına Göre) 
+miLojistic,,0,Lojistik
+miSatTeklif,miLojistic,1,Pazarlama Teklifleri
+miSiparisYon3,miLojistic,1,Pazarlama Teklif Yönetimi ...
+miSatSiparis,miLojistic,1,Pazarlama Siparişleri ...
+miSiparisYon1,miLojistic,1,Pazarlama Analiz ve Sipariş Yönetimi ...
+miAlTeklif,miLojistic,1,Satınalma Teklifleri
+miSiparisYon4,miLojistic,1,Satınalma Teklif Yönetimi ...
+miAlSiparis,miLojistic,1,Satınalma Siparişleri ...
+miSiparisYon2,miLojistic,1,Satınalma Analiz ve Sipariş Yönetimi ...
+Stok,Birdahagster1,2,Stok
+,Birdahagster1,2,
+irsaliye,Birdahagster1,2,irsaliye
+Siparis,Birdahagster1,2,Siparis
+TSGenel,miCari,3,Genel Durum
+TSDetay,miCari,3,Hesap Detayları
+TSAylik,miCari,3,Aylık Durum
+TSSiparis,miCari,3,Siparişleri
+TS_RiskRaporu,miCari,3,Risk Raporu
+TS_FiyatListe,miCari,3,Fiyat Listesi
+TS_OpenBorc,miCari,3,Kapanmamış Borçlar
+SBSendAltoA,miirs_A_Dah,4,Sevk Et
+SBSendAltoS,miirs_S_Dah,4,Sevk Et
+DetayGiris,Birdahagster1,2,DetayGiris
+Fatura,Birdahagster1,2,Fatura
+Cari,Birdahagster1,2,Cari
+miHamChange,miSatSiparis,2,Hammadde Detaylarını düzenleme ekranı
+miMuhBABS,miMRaporlar,2,BA - BS Formları (Muhasebe)
+miPuanYukle,miMagaza,2,Müşterilere Elle Puan Ekleme
+miPuanSil,miMagaza,2,Müşterilere Elle Eklenen Puanı Silme
+miSpeedBarcode2,miBarkodYonet,2,Hızlı Barkod Basım Ekranı
+Rapor_801,miTSatisRapor,2,Lokasyon Bazında Stok Satış Oranı (801)
+Rapor_802,miTSatisRapor,2,Lokasyon-Stok Grubu Bazında  Stok Satış Oranı (802
+Rapor_809,miTSatisRapor,2,Gerçekleşen Ciro-Hedefler Karşılaştırma Raporu (r8
+Rapor_811,miTSatisRapor,2,Gerçekleşen Tahmini Ciro Raporu (r811)
+miAsortiTanim,ools1,2,Asorti Tanımlama...
+miDahiliUyari,miirsaliyemenu,2,Dahili İrsaliye Kontrol Modülü
+Rapor_120,miPSatisRapor,2,Üretici Bazlı Merkez Alış Mağaza Satış Performans 
+Rapor_707,miPSatisRapor,2,Stok Grubuna Göre Satış Performansı-2  (r707)
+Rapor_708,miPSatisRapor,2,Gönderilen-Alınan Dahili İrsaliye Analizi (r708)
+Rapor_709,miPSatisRapor,2,Gerçekleşen Ciro-Hedefler Karşılaştırma Raporu (r7
+Rapor_710,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu ( 1 Aylık Sat
+Rapor_711,miPSatisRapor,2,Gerçekleşen Tahmini Ciro Raporu (r711)
+Rapor_712,miPSatisRapor,2,Mağaza Satış - Net Kar Raporu (r712)
+Rapor_713,miPSatisRapor,2,Mağaza Gider Detaylı Net Kar Raporu (r713)
+Rapor_714,miPSatisRapor,2,Müşteri Puan Raporu (r714)
+Rapor_725,miPSatisRapor,2,Resimli ve Renk-Beden Raporu (r725)
+miSatDahSip,miLojistic,1,Dahili Pazarlama Siparişleri ...
+miAlDahSip,miLojistic,1,Dahili Satınalma Siparişleri ...
+miUyari_Ayar,Help1,1,Uyarı Ayarları...
+Perakende_Satis,Birdahagster1,2,Perakende_Satis
+TS_Siparis,miStok,2,Siparişleri
+miScreenLock,miSystem,1,Ekranı Kilitle...
+mi_KurFarkiFis,miCariMenu,2,Toplu Kur Farkı Fişi Oluşturma
+miTopCekPtint,miCek,2,Toplu Çek  Yazdırma Listesi
+miTopSenetPtint,miSenet,2,Toplu Senet Yazdırma Listesi
+miSpeedHavale,mibanka,2,Hızlı İşlem Girişi
+miHazirRaporlar,,0,Hazır Raporlar
+miHR_1,miSiparisYon1_H,2,TAKIP
+miHR_6,miSiparisYon1_H,2,OZET
+miHR_7,miSiparisYon1_H,2,MUSTERI
+miHR_18,miSiparisYon1_H,2,RAPOR_01
+miHR_21,miSiparisYon1_H,2,DEPO
+miHR_23,miSiparisYon1_H,2,RPR_1
+miHR_32,miSiparisYon1_H,2,SATIS_FIYATI
+miHR_33,miSiparisYon1_H,2,SATIS_FIYATI
+miHR_34,miSiparisYon2_H,2,URETICI_TARIHLI_KALAN
+miHR_26,miSiparisYon2_H,2,URETICI_NET_KALAN
+miHR_29,miSiparisYon2_H,2,SIPARISDURUM1
+miHR_22,miSiparisYon2_H,2,URETICI_KALAN
+miHR_19,miSiparisYon2_H,2,KALAN
+miHR_17,miSiparisYon2_H,2,GELMESI_GEREKEN
+miScrSvr,ools1,2,Ekran Kilidi...
+miirs_A_Fat_i,miirs_A,3,Alış İade İrsaliye ...
+miirs_A_Kon_i,miirs_A,3,Alış İade Konsinye İrsaliye ...
+miirs_A_Dah_i,miirs_A,3,Alış İade Dahili İrsaliye ...
+miirs_A_Pro_i,miirs_A,3,Alış İade Promosyon İrsaliye ...
+miirs_S_Fat_i,miirs_S,3,Satış İade İrsaliye ...
+miirs_S_Kon_i,miirs_S,3,Satış İade Konsinye İrsaliye ...
+miirs_S_Dah_i,miirs_S,3,Satış İade Dahili İrsaliye ...
+miirs_S_Pro_i,miirs_S,3,Satış İade Promosyon İrsaliye ...
+miFat_A_Fat_i,miFat_A,3,Alış İade Fatura ...
+miFat_A_Kon_i,miFat_A,3,Alış İade Konsinye Fatura ...
+miFat_A_Dah_i,miFat_A,3,Alış İade Dahili Fatura ...
+miFat_A_Hiz_i,miFat_A,3,Alış İade Hizmet Fatura ...
+miFat_A_Pro_i,miFat_A,3,Alış İade Promosyon Fatura ...
+miFat_S_Fat_i,miFat_S,3,Satış İade Fatura ...
+miFat_S_Kon_i,miFat_S,3,Satış İade Konsinye Fatura ...
+miFat_S_Dah_i,miFat_S,3,Satış İade Dahili Fatura ...
+miFat_S_Hiz_i,miFat_S,3,Satış İade Hizmet Fatura ...
+miFat_S_Pro_i,miFat_S,3,Satış İade Promosyon Fatura ...
+miHR_25,miSiparisYon1_H,2,RPR_01
+miCariYonet_HR,miHazirRaporlar,1,Cari Yönetim ...
+miHR_15,miCariYonet_HR,2,SIPARISLI
+miHR_16,miCariYonet_HR,2,CARI_RAPOR
+miHR_20,miSiparisYon1_H,2,RPR_1
+miHR_28,miSiparisYon2_H,2,ATOLYEKALAN
+miHR_35,miSiparisYon2_H,2,SATIS
+miKasaYon_HR,miHazirRaporlar,1,Kasa İşlem Yönetimi ...
+miHR_37,miKasaYon_HR,2,ASANSOR
+miHR_38,miStokYonetim_H,2,STOKKALAN
+StokKart,Birdahagster1,2,StokKart
+miHR_41,miSiparisYon1_H,2,DEPO
+miHR_42,miSiparisYon1_H,2,DEPO
+miHR_43,miSiparisYon1_H,2,DEPO
+miHR_44,miCariYonet_HR,2,IMALATCI
+miHR_45,miSiparisYon2_H,2,KRITER
+miHR_46,miSiparisYon2_H,2,TARIHLIKALAN
+miHR_47,miSiparisYon1_H,2,KRITER_STOKMEVCUT_MODEL
+miHR_48,miirsaliyeYon_H,2,MODEL
+miHR_49,miirsaliyeYon_H,2,KRITER01
+miHR_50,miSiparisYon2_H,2,SONDURUM
+miHR_52,miSiparisYon1_H,2,BI
+miAlHizmetSip,miFinansTanim,2,Alınan Hizmet Siparişi
+miUIMalHes,miPlanlama,1,İleri Maliyet Hesaplama...
+miUMalPlnFinans,miPlanlama,1,Üretim Senaryo Çalışmaları...
+TSRenk,miSParam,1,Renk Tanımları
+TSBeden,miSParam,1,Beden Tanımları
+TSReyon,miSParam,2,Reyon Tanımları
+TSSKGrup,miSParam,2,Stok Grubu Tanımları
+TSSKTip,miSParam,2,Stok Tip Tanımları
+TSKFiyTip,miSParam,2,Fiyat Tanımları
+TSKSekil,miSParam,2,Stok Şekil Tanımları
+TCinsiyet,miSParam,2,Cinsiyet Tanımları
+TSBirim,miSParam,2,Birim Tanımları
+TSBirimGrp,miSParam,2,Birim Grubu Tanımları
+TSUretici,miSParam,2,Üretici Tanımları
+TSAlternatifKod,miSParam,2,Alternatif Kod Grubu
+TGtip,miSParam,2,GTip Tanımları
+miMainMenu,,0,
+miChangeCatalog,miSystem,1,Katalog değiştir...
+miSpeedKasa,miKasaMenu,2,Hızlı Kasa İşlemleri
+miBankaListesi,mibanka,2,Banka Listesi...
+miKredi,mibanka,2,Kredi
+miKrediTanim,miKredi,3,Kredi Tanim...
+miKrediOdeme,miKredi,3,Kredi Ödeme Takip...
+miBankaKrediYon,miKredi,3,Kredi Yönetimi...
+miMuhPeriyot,miFinansTanim,2,Periyot Tanımlama...
+miMasrafCenter,miFinans,1,Masraf Merkezi
+miMasrafMerKart,miMasrafCenter,2,Masraf Merkezi Tanımları...
+miMasrafMRapor1,miMasrafCenter,2,Masraf Merkezi Raporları
+miMasrafMDurumx,miMasrafMRapor1,3,Masraf Merkezi Durum Raporu...
+miMasrafEkstrex,miMasrafMRapor1,3,Masraf Merkezi Ekstre Raporu...
+miMasrafMYon,miMasrafCenter,2,Masraf Merkezi Yönetimi...
+miUrtMasDag,miMasrafCenter,2,Masraf Merkezi - Üretim Maliyet Dağıtımı
+miGVirman,miFinans,1,Genel Virman
+miMOTVMKodA,miMOTVMKod,3,Alış KDV Muhasebe Kodları
+miMOTVMKodAi,miMOTVMKod,3,Alış İade ÖTV Muhasebe Kodları
+miFisBirlestir,miMislemler,2,Fiş Birleştir
+miMuhEnvanter,miMRaporlar,2,Envanter Defteri
+miEdefterCreate,miMRaporlar,2,E-Defter Taslak Oluşturma
+Rapor_726,miPSatisRapor,2,Ödeme Tipine Göre Tutar Dağılım Raporu (r726)
+Rapor_727,miPSatisRapor,2,Resimli ve Renk-Beden Raporu Merkez Alış Mağaza Sa
+miKalite,,0,Kalite
+Parametreler1,miKalite,1,Parametreler
+miKalParam,Parametreler1,2,Kalite Parametreleri...
+miKaliteGrp,Parametreler1,2,Kalite Grupları...
+miUretim,,0,Üretim
+miKGAjanda,ools1,2,KG Ajanda...
+miKGMessenger,ools1,2,KG Messenger...
+miKGCells,ools1,2,KGCells...
+miUyari,ools1,2,Uyarı Ekranı...
+miTeamViewer,ools1,2,Korgün Destek Uygulaması...
+miSipOzDur,Help1,1,Sipariş Özel Durumları
+miglobalAdress,Help1,1,Genel Adres Tanımları
+miMDITabbed,Help1,1,Form Sayfalama
+miMenuOtom,Help1,1,Menü Otomatik Açılsın
+BBBBB1,Help1,1,Menüde Bul...
+miParamsRefresh,Help1,1,Parametreleri yenile
+miTema,Help1,1,Tema Değiştir
+miMcSkin,miTema,2,Tema 2
+miStardust,miTema,2,Tema 3
+miValentine,miTema,2,Tema 4
+miXMas2008Blue,miTema,2,Tema 5
+miSharpPlus,miTema,2,Tema 6
+NativeStyle1,miTema,2,NativeStyle
+EmptySkinName1,miTema,2,EmptySkinName
+miUserChange,miSystem,1,Kullanıcı değiştir...
+miKasaUyari,miKasaMenu,2,Kasalar Arası Transfer Kontrol Modülü...
+miFat_A_KFF,miFat_A,3,Kur Farkı Faturası
+miFat_S_KFF,miFat_S,3,Kur Farkı Faturası
+miProcessMuhKod,miMAnaKayit,2,İşlem Tiplerine Özel Muhasebe Kod Tanımlamaları
+mimOtoFis,miMislemler,2,Otomatik Fiş Oluşturma
+miMEnvKapat,mimOtoFis,3,Yıl Sonu Envanter İşlemleri
+miEDefterMain,miMMuhasebe,1,E-Defter
+miRaporOs,ools1,2,Rapor Oluşturma Sihirbazı
+miOdeme,ools1,2,
+miMutabakatList,Help1,1,Mutabakat Sonuç Listesi...
+miHR_57,miCariYonet_HR,2,CARIHESAPRPR
+miHR_56,miirsaliyeYon_H,2,HAFTAURTGELNRPR
+miHR_55,miSiparisYon2_H,2,ATOLYEKALAN
+miHR_60,miSiparisYon1_H,2,BITENMALLAR
+HizliStok,Birdahagster1,2,HizliStok
+miHR_61,miSiparisYon2_H,2,KRITER(459
+miHR_62,miSiparisYon2_H,2,KRITER(55)
+miHR_68,miSiparisYon1_H,2,KRITER
+miHR_75,miirsaliyeYon_H,2,HAFTAURTGELNRPR56
+miHR_80,miCariYonet_HR,2,CARIHESAPRPR(57)
+miHR_79,miirsaliyeYon_H,2,HAFTAURTGELN(56)
+miKDVTahakkuk,miMislemler,2,KDV Tahakkuk Fişi Oluştur...
+miHR_85,miCariYonet_HR,2,KRITERGML
+miHR_84,miirsaliyeYon_H,2,KRITER2
+miHR_83,miSiparisYon2_H,2,KRITER
+miHR_86,miCariYonet_HR,2,KRITER1
+miHR_87,miSiparisYon1_H,2,PAZARLAMAANALIZ
+miHR_88,miCariYonet_HR,2,MUSTERIKIZLAR
+miHR_13,miSiparisYon1_H,2,KRITER
+miHR_14,miSiparisYon1_H,2,KRITER
+miHR_24,miSiparisYon1_H,2,RPR_1
+miHR_27,miSiparisYon1_H,2,DEPO_KOLI
+miHR_31,miSiparisYon1_H,2,BITEN_MALLAR
+miHR_5,miSiparisYon1_H,2,TAKIP
+miHR_10,miSiparisYon2_H,2,LOT_TAKIP
+miHR_11,miCariYonet_HR,2,RAPOR_1
+miHR_12,miCariYonet_HR,2,RAPOR_2
+miHR_4,miSiparisYon1_H,2,TAKIP
+ReadBarcodeSip,Birdahagster1,2,ReadBarcodeSip
+miHR_54,miSiparisYon1_H,2,DEPO_KOLI_YENI
+miHR_65,miSiparisYon2_H,2,KRITER(45)
+miHR_66,miirsaliyeYon_H,2,HAFTAURTGELNRPR(56)
+miHR_71,miirsaliyeYon_H,2,HAFTAURTGELNRPR(56)
+miHR_67,miCariYonet_HR,2,CARIHESAPRPR(57)
+miHR_89,miCariYonet_HR,2,MUSTERIKIZLAR
+miHR_90,miSiparisYon1_H,2,ALINAN_SIPARIS
+miHR_91,miKasaYon_HR,2,GMLKASA
+miHR_92,miSiparisYon2_H,2,KALANSIPARISLER
+miHR_93,miCariYonet_HR,2,CARIHESAPSULTAN
+miHR_94,miCariYonet_HR,2,GMLCARIHSPSLT
+miHR_95,miCariYonet_HR,2,MUSTERIBORCKIZLAR
+miHR_96,miCariYonet_HR,2,CARIHSRP200
+miCariRiskYon,miCariMenu,2,Cari Risk Limit Raporu
+TS_MFinans,miMusteri,0,Finans
+miHR_97,miirsaliyeYon_H,2,GELENLERHFTLKHAZIR
+miFaturaYon_HR,miHazirRaporlar,1,Fatura Yönetimi ...
+miHR_98,miFaturaYon_HR,2,GMLALISTOPLAM
+miHR_99,miSiparisYon2_H,2,RENK
+miHR_100,miFaturaYon_HR,2,ALISLARTUM
+miHR_101,miFaturaYon_HR,2,SATISTUM
+miHR_102,miKasaYon_HR,2,KASATUM
+miHR_103,miSiparisYon2_H,2,ATOLYEKALANSIPARISLER
+miHR_104,miSiparisYon1_H,2,DEPO
+miHR_106,miSiparisYon1_H,2,DEPOO
+miHR_107,miirsaliyeYon_H,2,KRITER
+miHR_108,miFaturaYon_HR,2,CARI_SATIS
+miHR_109,miFaturaYon_HR,2,GRUP_SATIS
+miCRM,,0,Crm
+miCRM_Firmalar,miCRM,1,Firmalar
+miCRMFirmaList,miCRM_Firmalar,2,Firma Tanımları...
+miFirmaFilter,miCRM_Firmalar,2,Firma Yönetimi...
+miCRM_FromCari,miCRM_Firmalar,2,Cari'den Al
+miCRM_FromCust,miCRM_Firmalar,2,Müşteri'den Al
+miCRMGorusmeler,miCRM,1,Görüşmeler
+miCRM_GKayit,miCRMGorusmeler,2,Görüşme Kayıtları...
+miCRM_GFilter,miCRMGorusmeler,2,Görüşme Yönetimi...
+miCRM_Kisiler,miCRM,1,Kişiler
+miCRM_KisiKart,miCRM_Kisiler,2,Kişi Kartları...
+miCRM_Servis,miCRM_ServisMai,2,Servis Girişi...
+miPlanlama,,0,Planlama
+miUretMCrt,miPlanlama,1,Ürün Ağacı
+miUretModCreate,miUretMCrt,2,Mamül  Yarı Mamul Reçeteleri ...
+miNonModelList,miUretMCrt,2,Reçetesi olmayan ürünler ...
+miModelList,miUretMCrt,2,Reçetesi olan ürünler ...
+miUrModelList,miUretMCrt,2,Ürünlere Bağlı Model ağaçları ...
+miUretPlanlaYon,miPlanlama,1,Pazarlamadan Üretime Talepler ...
+miMrpMain,miPlanlama,1,Üretim kaynakları planlama (MRP)
+miMRPGlb,miMrpMain,2,Malzeme İhtiyaç Planı (MRP) ...
+miMrpCrp,miMrpMain,2,Kapasite ihtiyaç planı (CRP) ...
+miMrpDayPln,miMrpMain,2,Üretim Çizelgeleme 1...
+miMrpDayPln1,miMrpMain,2,Üretim Çizelgeleme 2...
+miymDegYon,miPlanlama,1,Yarımamül Değerlendirme Yönetimi ...
+miSanalUretim,miPlanlama,1,Sanal Üretim...
+miKalipYonetimi,miPlanlama,1,Kalıp Durum Yönetimi
+miURaporlar,miPlanlama,1,Raporlar
+Rapor_200,miURaporlar,2,Planlanan/Gerçekleşen Üretim Karşılaştırması (r200
+Rapor_199,miURaporlar,2,Sipariş Tarihine Göre Üretim Durum Raporu (r199)
+Rapor_217,miURaporlar,2,Ürün-Renk Cari Bazlı Sipariş Üretim Durumu Raporu 
+Rapor_204,miURaporlar,2,Model-Kalıp Durum Raporu (r204)
+Rapor_207,miURaporlar,2,Detaylı Kalıp Durum Raporu (r207)
+miUrLojistic,,0,Üretim Lojistiği
+miUretEmirM,miUrLojistic,1,Bütünleşik Üretim Emri
+miYUretEmir,miUretEmirM,2,Başlamamış İş Emirleri ...
+miDUretEmir,miUretEmirM,2,Devam Eden İş Emirleri ...
+miEUretEmir,miUretEmirM,2,Tamamlanmış İş Emirleri ...
+miUrTakip,miUrLojistic,1,Üretim Emiri Bazında Process Takip 
+miUrTakip1,miUrTakip,2,Üretimi Bekleyen Takipler ...
+miUrTakip2,miUrTakip,2,Üretimi Devam Eden Takipler ...
+miUrTakip3,miUrTakip,2,Üretimi Biten Takipler ...
+miSmi_Urt,miUrLojistic,1,Sanal Maliyet İşletme Üretimi ...
+miYenDeg,miUrLojistic,1,Yeniden Değerleme ...
+miGenGid,miUrLojistic,1,Ürünlere Genel Gider Dağitımı...
+miTERap,miUrLojistic,1,Tamamlanmış Emirler Raporu...
+miHR_113,miCariYonet_HR,2,MUSTERIBORCDURUMU
+miHR_111,miFaturaYon_HR,2,GMLALISRAPOR
+miHR_112,miSiparisYon1_H,2,DEPOMUSTERIKALAN
+miHR_110,miSiparisYon2_H,2,ATOLYEKALAN
+miHR_114,miSiparisYon1_H,2,KAPANANSIPARISLER
+miHR_115,miSiparisYon1_H,2,TUMUATOLYEDENGELENSIPARISLER
+miHR_116,miSiparisYon1_H,2,BITENMALLAR
+miHR_117,miStokYonetim_H,2,STOKYONETIMI
+miHR_118,miFaturaYon_HR,2,DEPODANCIKAN
+miHR_119,miSiparisYon1_H,2,PERSONELSIPARIS
+miHR_120,miSiparisYon1_H,2,SIPARISYONETIM
+miHR_121,miStokYonetim_H,2,STOKRAPORU
+miChangePassword,miSystem,1,Şifre Değiştir...
+MiTedarikiPuanlama,miCariMenu,2,Tedarikiçi Puanlama
+miDahFiyDeg,miirsaliyemenu,2,Dahili İrsaliye Fiyat Değerleme
+miFatOdePlanFilter,miFaturaMenu,2,Fatura Ödeme Planı Analizi...
+miGeriyeOdemePlanlama,miFaturaMenu,2,Geriye Dönük Ödeme Planlama
+miAlHizmetSipYon,miFinansTanim,2,Alınan Hizmet Sipariş Yönetimi
+miMuhPeriyotDetay,miFinansTanim,2,Periyot Atama...
+miMasrafSablonTanim,miMasrafCenter,2,Masraf Merkezi Şablon Tanımlama...
+miMasrafHspOzetx,miMasrafMRapor1,3,Masraf Merkezi Hesap Özeti...
+miMasrafDetayListe,miMasrafCenter,2,Masraf Merkezi Detay Listesi...
+miKurFarkDegerleme,miFinans,1,Kur Farkı Değerleme İşlemleri
+miCSKurFarkiDegerleme,miKurFarkDegerleme,2,Çek-Senet Kur Farkı Değerleme
+miGelGidYKMuhKod,miMAnaKayit,2,Gider-Gelir Hesapları Yansıma ve Kapama Hızlı Muhasebe Kodu Atama
+miMNumaralandirma,miMislemler,2,Numaralandırma İşlemleri
+miKDV2eBeyan,mieBeyan,2,KDV2 e-Beyanname
+miSipOdePlanFilter,miLojistic,1,Sipariş Ödeme Planı Analizi...
+miSiparisYon1_HR,miHazirRaporlar,1,Pazarlama Analiz ve Sipariş Yönetimi ...
+miSiparisYon2_HR,miHazirRaporlar,1,Satınalma Analiz ve Sipariş Yönetimi ...
+miKorgunOnlineOdeme,ools1,2,Korgün Online Ödeme...
+irsaliye_Alis_Yazdir_RaporListeFR,Birdahagster1,2,irsaliye_Alis_Yazdir_RaporListeFR
+irsaliye_Alis_Yazdir_EkrandaGor,Birdahagster1,2,irsaliye_Alis_Yazdir_EkrandaGor
+irsaliye_Alis_Yazdir_MevBedenKaldir,Birdahagster1,2,irsaliye_Alis_Yazdir_MevBedenKaldir
+irsaliye_Alis_Yazdir_LotaGoreGruplama,Birdahagster1,2,irsaliye_Alis_Yazdir_LotaGoreGruplama
+miHR_58,miSiparisYon1_H,2,03_BITENMALLAR
+miHR_59,miSiparisYon2_H,2,URETICIKALAN
+irsaliye_Alis_Yazdir_RaporSekli,Birdahagster1,2,irsaliye_Alis_Yazdir_RaporSekli
+irsaliye_Satis_Yazdir_RaporListeFR,Birdahagster1,2,irsaliye_Satis_Yazdir_RaporListeFR
+irsaliye_Satis_Yazdir_EkrandaGor,Birdahagster1,2,irsaliye_Satis_Yazdir_EkrandaGor
+irsaliye_Satis_Yazdir_RaporSekli,Birdahagster1,2,irsaliye_Satis_Yazdir_RaporSekli
+Fatura_Satis_Yazdir_EkrandaGor,Birdahagster1,2,Fatura_Satis_Yazdir_EkrandaGor
+irsaliye_Satis_Yazdir_LotaGoreGruplama,Birdahagster1,2,irsaliye_Satis_Yazdir_LotaGoreGruplama
+Siparis_SatialmaSiparis_Yazdir_BedenSorgusu,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_BedenSorgusu
+Siparis_PazarlamaSiparis_Yazdir_BedenSorgusu,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_BedenSorgusu
+Siparis_PazarlamaSiparis_YazdirAltTopGrup,Birdahagster1,2,Siparis_PazarlamaSiparis_YazdirAltTopGrup
+Siparis_SatialmaSiparis_Yazdir_RaporSekil,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_RaporSekil
+Siparis_SatialmaSiparis_YazdirAltTopGrup,Birdahagster1,2,Siparis_SatialmaSiparis_YazdirAltTopGrup
+Siparis_PazarlamaSiparis_Barkod_SatirlarToplansinMi,Birdahagster1,2,Siparis_PazarlamaSiparis_Barkod_SatirlarToplansinMi
+Siparis_SatialmaSiparis_Barkod_SatirlarToplansinMi,Birdahagster1,2,Siparis_SatialmaSiparis_Barkod_SatirlarToplansinMi
+miLondonLiquidSky,miTema,2,Tema 1
+miCustomerFeedback,Help1,1,Müşteri Geri Bildirim Sistemi...
+miConnectingPeople,Help1,1,Bağlı Kullanıcılar...
+miHesapla,Help1,1,Hesapla...
+Siparis_PazarlamaSiparis_UrtSASip_Sekli,Birdahagster1,2,Siparis_PazarlamaSiparis_UrtSASip_Sekli
+Siparis_PazarlamaSiparis_UrtSASip_LocDeg,Birdahagster1,2,Siparis_PazarlamaSiparis_UrtSASip_LocDeg
+Siparis_PazarlamaSiparis_UrtSASip_FiyDeg,Birdahagster1,2,Siparis_PazarlamaSiparis_UrtSASip_FiyDeg
+Siparis_PazarlamaSiparis_Yazdir_RaporSekil,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_RaporSekil
+Siparis_PazarlamaSiparis_YazdirGrup,Birdahagster1,2,Siparis_PazarlamaSiparis_YazdirGrup
+Siparis_PazarlamaSiparis_Yazdir_RaporListeFR,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_RaporListeFR
+Siparis_SatialmaSiparis_Yazdir_RaporListeFR,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_RaporListeFR
+Siparis_SatialmaSiparis_YazdirGrup,Birdahagster1,2,Siparis_SatialmaSiparis_YazdirGrup
+Cari_ekstre_Muya1410,Birdahagster1,2,Cari_ekstre_Muya1410
+Fatura_Satis_Yazdir_RaporListeFR,Birdahagster1,2,Fatura_Satis_Yazdir_RaporListeFR
+Fatura_Satis_Yazdir_RaporSekli,Birdahagster1,2,Fatura_Satis_Yazdir_RaporSekli
+Fatura_Satis_Yazdir_LotaGoreGruplama,Birdahagster1,2,Fatura_Satis_Yazdir_LotaGoreGruplama
+Fatura_Satis_Yazdir_MevBedenKaldir,Birdahagster1,2,Fatura_Satis_Yazdir_MevBedenKaldir
+miirsaliyeYon_HR,miHazirRaporlar,1,İrsaliye Yönetimi ...
+miStokYonetim_HR,miHazirRaporlar,1,Stok Yönetimi ...
+Siparis__Yazdir_RaporListeFR,Birdahagster1,2,Siparis__Yazdir_RaporListeFR
+Siparis__Yazdir_RaporSekil,Birdahagster1,2,Siparis__Yazdir_RaporSekil
+Siparis__YazdirGrup,Birdahagster1,2,Siparis__YazdirGrup
+Siparis__Yazdir_BedenSorgusu,Birdahagster1,2,Siparis__Yazdir_BedenSorgusu
+Siparis__YazdirAltTopGrup,Birdahagster1,2,Siparis__YazdirAltTopGrup
+miHR_127,miSiparisYon1_HR,2,DEPOSTOKKALAN
+FormatliExcelAktarimKasa,Birdahagster1,2,FormatliExcelAktarimKasa
+Genel_Excel_Gonderim_Sekli,Birdahagster1,2,Genel_Excel_Gonderim_Sekli
+Siparis_SatialmaSiparis_Barkod_Detay_Fiyat_Tipleri,Birdahagster1,2,Siparis_SatialmaSiparis_Barkod_Detay_Fiyat_Tipleri
+Fatura_Alis_iade_Yazdir_RaporListeFR,Birdahagster1,2,Fatura_Alis_iade_Yazdir_RaporListeFR
+Fatura_Alis_iade_Yazdir_RaporSekli,Birdahagster1,2,Fatura_Alis_iade_Yazdir_RaporSekli
+Fatura_Alis_iade_Yazdir_LotaGoreGruplama,Birdahagster1,2,Fatura_Alis_iade_Yazdir_LotaGoreGruplama
+Fatura_Alis_iade_Yazdir_MevBedenKaldir,Birdahagster1,2,Fatura_Alis_iade_Yazdir_MevBedenKaldir
+Fatura_Alis_iade_Yazdir_EkrandaGor,Birdahagster1,2,Fatura_Alis_iade_Yazdir_EkrandaGor
+Fatura_Alis_Yazdir_RaporListeFR,Birdahagster1,2,Fatura_Alis_Yazdir_RaporListeFR
+Fatura_Alis_Yazdir_RaporSekli,Birdahagster1,2,Fatura_Alis_Yazdir_RaporSekli
+Fatura_Alis_Yazdir_LotaGoreGruplama,Birdahagster1,2,Fatura_Alis_Yazdir_LotaGoreGruplama
+Fatura_Alis_Yazdir_MevBedenKaldir,Birdahagster1,2,Fatura_Alis_Yazdir_MevBedenKaldir
+Fatura_Alis_Yazdir_EkrandaGor,Birdahagster1,2,Fatura_Alis_Yazdir_EkrandaGor
+miHR_128,miSiparisYon2_HR,2,SATINALMA_SIPARISLERI
+miHR_130,miSiparisYon2_HR,2,SATINALMA_DEMIR
+miHR_131,miSiparisYon1_HR,2,ACIK_OLAN_SIPARISLER
+Cariislem_BD_FR_Dizayni,Birdahagster1,2,Cariislem_BD_FR_Dizayni
+miHR_132,miStokislemYon_HR,2,PERAKENDE_STOGUNDAN
+miStokislemYon_HR,miHazirRaporlar,1,Stok İşlemleri Yönetimi ...
+Siparis_SatialmaSiparis_Barkod_Asorti_Fiyat_Tipleri,Birdahagster1,2,Siparis_SatialmaSiparis_Barkod_Asorti_Fiyat_Tipleri
+Siparis_PazarlamaSiparis_Barkod_Asorti_Fiyat_Tipleri,Birdahagster1,2,Siparis_PazarlamaSiparis_Barkod_Asorti_Fiyat_Tipleri
+Siparis_PazarlamaSiparis_Barkod_Detay_Fiyat_Tipleri,Birdahagster1,2,Siparis_PazarlamaSiparis_Barkod_Detay_Fiyat_Tipleri
+irsaliye_Alis_YazdirRenkGrup,Birdahagster1,2,irsaliye_Alis_YazdirRenkGrup
+irsaliye_Satis_YazdirRenkGrup,Birdahagster1,2,irsaliye_Satis_YazdirRenkGrup
+irsaliye_Satis_Yazdir_MevBedenKaldir,Birdahagster1,2,irsaliye_Satis_Yazdir_MevBedenKaldir
+miDemirbas,miFinans,1,Demirbaş
+miDemirbasKart,miDemirbas,2,Demirbaş Kartı...
+miDemirbasHar,miDemirbas,2,Demirbaş Hareketi...
+miDemirbasYon,miDemirbas,2,Demirbaş Yönetimi...
+miAmortismanYon,miDemirbas,2,Amortisman Yönetimi...
+Siparis_SatialmaSiparis_BarkodYaz,Birdahagster1,2,Siparis_SatialmaSiparis_BarkodYaz
+miCRM_KisiFilter,miCRM_Kisiler,2,Kişi Yönetimi...
+miCRM_ServisMain,miCRM,1,Servis
+miCRM_Servis_Talep,miCRM_ServisMain,2,Talep Girişi...
+miCRM_ServisFilter,miCRM_ServisMain,2,Servis Yönetimi...
+miUretAlimPlanlaYon,miPlanlama,1,Üretimden Satınalmaya Talepler....
+miOdPlGiris,miOdemePlanlama,3,Ödeme Planları (Giriş)
+miOdPlBekleyen,miOdemePlanlama,3,Ödeme Planları (Onay Bekleyen)
+miOdPlOnaylanan,miOdemePlanlama,3,Ödeme Planları (Onaylanan)
+miOdPlGercek,miOdemePlanlama,3,Ödeme Planları (Gerçekleşen)
+Fatura_Satis_iade_Yazdir_RaporListeFR,Birdahagster1,2,Fatura_Satis_iade_Yazdir_RaporListeFR
+Fatura_Satis_iade_Yazdir_RaporSekli,Birdahagster1,2,Fatura_Satis_iade_Yazdir_RaporSekli
+Fatura_Satis_iade_Yazdir_LotaGoreGruplama,Birdahagster1,2,Fatura_Satis_iade_Yazdir_LotaGoreGruplama
+Fatura_Satis_iade_Yazdir_MevBedenKaldir,Birdahagster1,2,Fatura_Satis_iade_Yazdir_MevBedenKaldir
+miHR_73,miSiparisYon2_H,2,ATOLYEKALAN(55)
+miHR_74,miSiparisYon2_H,2,KRITER55
+miHR_133,miSiparisYon1_HR,2,DEPO_KALAN_YENI
+miESMMList,miCariMenu,2,E-SMM Makbuz Listesi
+miOdemePlanlama,miFaturaMenu,2,Ödeme Planlama
+Fatura_Satis_iade_Yazdir_EkrandaGor,Birdahagster1,2,Fatura_Satis_iade_Yazdir_EkrandaGor
+miHR_136,miSiparisYon2_HR,2,ACIK_SATINALMA_SIPARISLERI
+Siparis_PazarlamaSiparis_SiparisCogalt,Birdahagster1,2,Siparis_PazarlamaSiparis_SiparisCogalt
+miHR_139,miSiparisYon2_HR,2,SATINALMAANALIZ
+miHR_140,miSiparisYon2_HR,2,ACIK_OLAN_SIPARISLER
+Siparis_PazarlamaSiparis_BarkodYaz,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz
+Kasaislem_GG_FR_Dizayni,Birdahagster1,2,Kasaislem_GG_FR_Dizayni
+miHR_141,miSiparisYon1_HR,2,KRITER
+irsaliye_Alis_iade_Yazdir_RaporListeFR,Birdahagster1,2,irsaliye_Alis_iade_Yazdir_RaporListeFR
+irsaliye_Alis_iade_Yazdir_RaporSekli,Birdahagster1,2,irsaliye_Alis_iade_Yazdir_RaporSekli
+irsaliye_Alis_iade_Yazdir_LotaGoreGruplama,Birdahagster1,2,irsaliye_Alis_iade_Yazdir_LotaGoreGruplama
+irsaliye_Alis_iade_Yazdir_MevBedenKaldir,Birdahagster1,2,irsaliye_Alis_iade_Yazdir_MevBedenKaldir
+irsaliye_Alis_iade_Yazdir_EkrandaGor,Birdahagster1,2,irsaliye_Alis_iade_Yazdir_EkrandaGor
+miHR_142,miCariYonet_HR,2,MUSTERI_LISTESI
+miHR_143,miCariYonet_HR,2,MUSTERI_LISTESI
+miHR_145,miFaturaYon_HR,2,TOPTAN_PRIM_HESAPLAMA
+miHR_146,miSiparisYon1_HR,2,GECILMEYEN_SIPARISLER
+miHR_147,miSiparisYon1_HR,2,GECILMEYEN_SIPARISLER
+miHR_148,miSiparisYon1_HR,2,GECILMEYEN_SIPARISLER
+Siparis_PazarlamaSiparis_BarkodYaz_DetayAsorti,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_DetayAsorti
+Siparis_PazarlamaSiparis_BarkodYaz_AsortiDizayn,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_AsortiDizayn
+Siparis_PazarlamaSiparis_Barkod,Birdahagster1,2,Siparis_PazarlamaSiparis_Barkod
+miHR_149,miSiparisYon2_HR,2,ATOLYE_KALAN
+Siparis_PazarlamaSiparis_BarkodYaz_DetayDizayn,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_DetayDizayn
+Siparis_PazarlamaSiparis_Barkod_Detay_Siralama_Sekli,Birdahagster1,2,Siparis_PazarlamaSiparis_Barkod_Detay_Siralama_Sekli
+miHR_150,miFaturaYon_HR,2,SATIS_TUM
+Siparis_SatialmaSiparis_BarkodYaz_DetayAsorti,Birdahagster1,2,Siparis_SatialmaSiparis_BarkodYaz_DetayAsorti
+Siparis_SatialmaSiparis_BarkodYaz_DetayDizayn,Birdahagster1,2,Siparis_SatialmaSiparis_BarkodYaz_DetayDizayn
+Siparis_SatialmaSiparis_Barkod_Detay_Siralama_Sekli,Birdahagster1,2,Siparis_SatialmaSiparis_Barkod_Detay_Siralama_Sekli
+SiparisYazdirAltTopGrup,Birdahagster1,2,SiparisYazdirAltTopGrup
+miHR_134,miFaturaYon_HR,2,TOPTAN_PRIM_HESAPLAMA
+miHR_135,miSiparisYon2_HR,2,ACIK_SATINALMA_SIPARISLERI
+miHR_137,miSiparisYon2_HR,2,ACIK_OLAN_SIPARISLER

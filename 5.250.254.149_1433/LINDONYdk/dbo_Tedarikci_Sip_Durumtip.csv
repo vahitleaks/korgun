@@ -1,0 +1,5 @@
+id,renkkod,tanim,company_id,kod,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,#FF0000,Çok Acil,90.0,,1,,,,,,
+2,#990000,Acil,90.0,,2,,,,,,
+3,#FF9900,Normal,90.0,,3,,,,,,
+4,#0033CC,Beklemede,90.0,,4,,,,,,

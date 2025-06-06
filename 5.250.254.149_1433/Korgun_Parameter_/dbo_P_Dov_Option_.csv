@@ -1,0 +1,7 @@
+DOV_KOD,FisFormat,FisTopFormat,RapFormat,RapTopFormat,BarkodFormat,TopYuv,TopYuvKat,isocode,VERA_ParaCinsi_ID,Ingenico_ID,DBName
+EU,"#,##0.00####","#,##0.00","#,##0.00","#,##0.00","#,##0.00",,,EUR,,,LINDON
+TL,"#,##0.00####","#,##0.00","#,##0.00","#,##0.00","#,##0.00",,,TRY,,,LINDON
+US,"#,##0.00####","#,##0.00","#,##0.00","#,##0.00","#,##0.00",,,USD,,,LINDON
+EU,"#,##0.00####","#,##0.00","#,##0.00","#,##0.00","#,##0.00",,,EUR,,,LINDONSENTOS
+TL,"#,##0.00####","#,##0.00","#,##0.00","#,##0.00","#,##0.00",,,TRY,,,LINDONSENTOS
+US,"#,##0.00####","#,##0.00","#,##0.00","#,##0.00","#,##0.00",,,USD,,,LINDONSENTOS

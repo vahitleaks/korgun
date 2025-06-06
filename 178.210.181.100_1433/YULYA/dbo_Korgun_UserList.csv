@@ -1,0 +1,7 @@
+UserName,UserRealName,UserTel,UserMail,UserAddress,Location,UserLevel,islemkapamama,islemCloser,islemOpener,PerPrimTip,ChangePassword,PassChangeDT,Kase,WDefCtlg,WDefLoc,UiLang,WAccess,insUN,insDT,updUN,updDT,CariKri,AlFiyChg,SatFiyChg,FatiskOrLimit,RezOnay,PerRapTarSin,MaxSessionCount,GiderKri,LokBulYet,PeriyotAta,PeriyotAtamama,PerSipSea,MasrafKri,PasifUser,onay1,onay2,PerSipStateChange,islemOzKod1,islemOzKod2,islemOzKod3,islemOzKod4,islemOzKod5,SpBEntryVisible,MuhHesapAktarim,UseKapaliFatura,ChangePriceInvoice,ChangeStateEInvoice,UnifreeTopluIslem,AuthMuhasebe,ChangePriceDespatch,ChangeCariRiskGrup,YonVisible,kgid,insApp,updApp,ChangeFaturaPc
+dbo,dbo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,
+Depo,Depo,,,,,0, ,,,0, ,,,,,0,,sa,2024-11-07 11:54:05.437000,dbo,2024-11-07 11:54:05.460000,,*,*,0.000000,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,,,6,Paramet,Paramet,
+Korgun_Admin,Korgun Yonetici,02122744635,info@Korgun.com.tr,yildizposta cd. muzaffertug sk. 58/2 esentepe,,1,,,,,,,,,,0,,,,sa,2022-01-31 11:23:06.510000,,*,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,,,
+sa,Sistem Yöneticisi,,,,,1,,,,,,,,,,0,,,,sa,2022-01-31 11:23:06.510000,,*,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,
+Tedarikci,Tedarikci,,,,,0, ,,,0, ,,,,,0,,sa,2024-10-31 12:13:23.690000,dbo,2024-11-07 16:21:00.360000,,*,*,0.000000,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,,,5,Paramet,Paramet,
+yulya,yulya,,,,,1, ,,,0, ,,,,,0,,sa,2023-09-18 12:54:19.283000,dbo,2024-10-31 11:48:56.857000,,*,*,0.000000,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,,,4,,Paramet,

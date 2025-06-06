@@ -1,0 +1,4 @@
+OdSekil,Tanim,ISOCODE,EDMCode,Aras_Kod,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+P-01,Peşin Ödeme,,,,1,,,,,,
+V-01,Vadeli Ödeme 30 / 60,,,,2,,,,,,
+V-02,Vadeli Ödeme 60 / 90,,,,3,dbo,2023-12-06 11:52:29.307000,,,,

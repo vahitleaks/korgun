@@ -1,0 +1,8 @@
+PARAD,MCTable,COLPLACE,FieldName,COLNAME,COLWidth,ColDispFormat,ToplamGoster
+EN_COK_SATAN_STOK,0,0,SKod,Stok Kodu,94,,
+EN_COK_SATAN_STOK,0,1,SKod_Tanim,Stok Kodu Tanım,185,,
+EN_COK_SATAN_STOK,0,2,Fatura_Miktari,Fatura Miktarı,110,"#,###.##",*
+EN_COK_SATAN_STOK,0,3,Birim,Birim,64,,
+EN_COK_SATAN_STOK,0,4,FToplam,Fiş Toplamı,104,"#,##0.00",*
+EN_COK_SATAN_STOK,0,5,Tutar,Tutar,106,"#,##0.00",*
+EN_COK_SATAN_STOK,0,6,ParaCinsi,Kur,23,,

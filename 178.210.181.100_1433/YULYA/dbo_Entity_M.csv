@@ -1,0 +1,911 @@
+id,Name,Title,Parentid,NoLog,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,akinon_kay,akinon_kay,,False,1,,,,,,
+2,akinon_log,akinon_log,,False,2,,,,,,
+3,Alter_CodeBlock,Alter_CodeBlock,,False,3,,,,,,
+4,Alternatif_dKod,Alternatif_dKod,510,False,4,,,,dbo,2024-11-13 11:25:14.037000,Update
+5,Amortisman,Amortisman,,False,5,,,,,,
+6,AsortiBarCode,AsortiBarCode,510,False,6,,,,dbo,2024-11-13 11:25:14.037000,Update
+7,AylikNetSatis,AylikNetSatis,,False,7,,,,,,
+8,BABS_D,BABS_D,,False,8,,,,,,
+9,BABS_M,BABS_M,,False,9,,,,,,
+10,BABS_TMP,BABS_TMP,,False,10,,,,,,
+11,Banka_Dov,Banka_Dov,16,False,11,,,,dbo,2024-11-13 11:25:14.037000,Update
+12,Banka_Har,Banka_Har,16,False,12,,,,dbo,2024-11-13 11:25:14.037000,Update
+13,Banka_Har_Proje_D,Banka_Har_Proje_D,,False,13,,,,,,
+14,Banka_Har_Tmp,Banka_Har_Tmp,,False,14,,,,,,
+15,Banka_Kart,Banka Kartı,,False,15,,,,dbo,2024-11-13 11:24:52.297000,Update
+16,Banka_Kay,Banka_Kay,,False,16,,,,,,
+17,Banka_Kay_Tmp,Banka_Kay_Tmp,,False,17,,,,,,
+18,BankaEntegrasyonIslemTip,BankaEntegrasyonIslemTip,,False,18,,,,,,
+19,BankaEntegrasyonLog,BankaEntegrasyonLog,,False,19,,,,,,
+20,BankaEntegrasyonu_Har,BankaEntegrasyonu_Har,,False,20,,,,,,
+21,BankaEntegrasyonu_Kay,BankaEntegrasyonu_Kay,,False,21,,,,,,
+22,BankaEntegrasyonu_Log,BankaEntegrasyonu_Log,,False,22,,,,,,
+23,BankaSube_Kart,BankaSube Kartı,15,False,23,,,,dbo,2024-11-13 11:25:14.037000,Update
+24,BankaTutar,BankaTutar,12,True,24,,,,,,
+25,BankList,BankList,,False,25,,,,,,
+26,BarkodKontrolVisible,BarkodKontrolVisible,,False,26,,,,,,
+27,BSCek_Def,BSCek_Def,,False,27,,,,,,
+28,BSHesap_Kart,BSHesap Kartı,23,False,28,,,,dbo,2024-11-13 11:25:14.037000,Update
+29,BSKredi_Detail,BSKredi_Detail,,False,29,,,,,,
+30,BSKredi_Dov,BSKredi_Dov,,False,30,,,,,,
+31,BSKredi_Kay,BSKredi_Kay,,False,31,,,,,,
+32,BSPos_Kart,BSPos Kartı,,False,32,,,,dbo,2024-11-13 11:24:52.297000,Update
+33,BSube_Yet,BSube_Yet,23,False,33,,,,dbo,2024-11-13 11:25:14.037000,Update
+34,C_Fis_Dov,C_Fis_Dov,38,False,34,,,,dbo,2024-11-13 11:25:14.037000,Update
+35,C_Fis_Har,C_Fis_Har,38,False,35,,,,dbo,2024-11-13 11:25:14.037000,Update
+36,C_Fis_Har_Proje_D,C_Fis_Har_Proje_D,,False,36,,,,,,
+37,C_Fis_Har_Tmp,C_Fis_Har_Tmp,40,False,37,,,,dbo,2024-11-13 11:25:14.037000,Update
+38,C_Fis_Kay,C_Fis_Kay,,False,38,,,,,,
+39,C_Fis_Kay_Proje_D,C_Fis_Kay_Proje_D,,False,39,,,,,,
+40,C_Fis_Kay_Tmp,C_Fis_Kay_Tmp,,False,40,,,,,,
+41,C2CBankaFisList,C2CBankaFisList,,False,41,,,,,,
+42,C2CBankaKodList,C2CBankaKodList,,False,42,,,,,,
+43,C2CBKodList,C2CBKodList,,False,43,,,,,,
+44,C2CCariFisList,C2CCariFisList,,False,44,,,,,,
+45,C2CCariKodList,C2CCariKodList,,False,45,,,,,,
+46,C2CCSFisList,C2CCSFisList,,False,46,,,,,,
+47,C2CCSKodList,C2CCSKodList,,False,47,,,,,,
+48,C2CFaturaList,C2CFaturaList,,False,48,,,,,,
+49,C2CGelTipList,C2CGelTipList,,False,49,,,,,,
+50,C2CGidTipList,C2CGidTipList,,False,50,,,,,,
+51,C2CGVirmanFisList,C2CGVirmanFisList,,False,51,,,,,,
+52,C2CHizmetKList,C2CHizmetKList,,False,52,,,,,,
+53,C2CKasaFisList,C2CKasaFisList,,False,53,,,,,,
+54,C2CKasaList,C2CKasaList,,False,54,,,,,,
+55,C2CKrKList,C2CKrKList,,False,55,,,,,,
+56,C2CMuhasebeList,C2CMuhasebeList,,False,56,,,,,,
+57,C2CPosList,C2CPosList,,False,57,,,,,,
+58,C2CRKodList,C2CRKodList,,False,58,,,,,,
+59,C2CSiparisList,C2CSiparisList,,False,59,,,,,,
+60,C2CSKodList,C2CSKodList,,False,60,,,,,,
+61,C2CStokFisList,C2CStokFisList,,False,61,,,,,,
+62,C2CTmpBTbl,C2CTmpBTbl,,False,62,,,,,,
+63,Cari_Adres,Cari_Adres,72,False,63,,,,dbo,2024-11-13 11:25:14.037000,Update
+64,Cari_AlterCode_Connect,Cari_AlterCode_Connect,72,False,64,,,,dbo,2024-11-13 11:25:14.037000,Update
+65,Cari_Asorties,Cari_Asorties,72,False,65,,,,dbo,2024-11-13 11:25:14.037000,Update
+66,Cari_BankaKart,CariBanka Kartı,72,False,66,,,,dbo,2024-11-13 11:25:14.037000,Update
+67,Cari_BankaKart_Entegrasyon,Cari_BankaKart_Entegrasyon,,False,67,,,,,,
+68,Cari_Doc,Cari_Doc,72,False,68,,,,dbo,2024-11-13 11:25:14.037000,Update
+69,Cari_Fason,Cari_Fason,72,False,69,,,,dbo,2024-11-13 11:25:14.037000,Update
+70,Cari_FReportsDesign,Cari_FReportsDesign,72,False,70,,,,dbo,2024-11-13 11:25:14.037000,Update
+71,Cari_isks,Cari_isks,72,False,71,,,,dbo,2024-11-13 11:25:14.037000,Update
+72,Cari_Kart,Cari Kartı,,False,72,,,,dbo,2024-11-13 11:24:52.297000,Update
+73,Cari_MutabakatHistory,Cari_MutabakatHistory,72,False,73,,,,dbo,2024-11-13 11:25:14.037000,Update
+74,Cari_OPlan,Cari_OPlan,72,False,74,,,,dbo,2024-11-13 11:25:14.037000,Update
+75,Cari_OzFiyTip,Cari_OzFiyTip,72,False,75,,,,dbo,2024-11-13 11:25:14.037000,Update
+76,Cari_OzFiyTip2,Cari_OzFiyTip2,72,False,76,,,,dbo,2024-11-13 11:25:14.037000,Update
+77,Cari_Proje_D,Cari_Proje_D,72,False,77,,,,dbo,2024-11-13 11:25:14.037000,Update
+78,Cari_Ref,Cari_Ref,72,False,78,,,,dbo,2024-11-13 11:25:14.037000,Update
+79,Cari_Uyari,Cari_Uyari,72,False,79,,,,dbo,2024-11-13 11:25:14.037000,Update
+80,Cari_Yetkili,Cari_Yetkili,72,False,80,,,,dbo,2024-11-13 11:25:14.037000,Update
+81,CariFilterLog,CariFilterLog,,False,81,,,,,,
+82,CariStokluEkstreFields,CariStokluEkstreFields,,False,82,,,,,,
+83,Cek_Har,Cek_Har,86,False,83,,,,dbo,2024-11-13 11:25:14.037000,Update
+84,Cek_Har_Dovv,Cek_Har_Dovv,,False,84,,,,,,
+85,Cek_Har_Proje_D,Cek_Har_Proje_D,,False,85,,,,,,
+86,cek_Kart,cek Kartı,,False,86,,,,dbo,2024-11-13 11:24:52.297000,Update
+87,Cek_Kart_Dov,Cek_Kart_Dov,,False,87,,,,,,
+88,Cek_Kart_Dovv,Cek_Kart_Dovv,,False,88,,,,,,
+89,cek_Kart_Proje_D,cek_Kart_Proje_D,,False,89,,,,,,
+90,Cek_Par_Har,Cek_Par_Har,,False,90,,,,,,
+91,CekHarTutar,CekHarTutar,813,True,91,,,,dbo,2024-11-13 11:25:14.037000,Update
+92,CekSenKurFarkBag,CekSenKurFarkBag,,False,92,,,,,,
+93,CekTutar,CekTutar,813,True,93,,,,dbo,2024-11-13 11:25:14.037000,Update
+94,Cell_Active,Cell_Active,,False,94,,,,,,
+95,Cell_Block,Cell_Block,,False,95,,,,,,
+96,Cell_Blok_Prop,Cell_Blok_Prop,95,False,96,,,,dbo,2024-11-13 11:25:14.037000,Update
+97,Cell_Detail,Cell_Detail,95,False,97,,,,dbo,2024-11-13 11:25:14.037000,Update
+98,Cell_info,Cell_info,,False,98,,,,,,
+99,Cell_Passive,Cell_Passive,,False,99,,,,,,
+100,Cell_Reserve,Cell_Reserve,,False,100,,,,,,
+101,CFisTutar,CFisTutar,35,True,101,,,,,,
+102,ChangedStok,ChangedStok,510,False,102,,,,dbo,2024-11-13 11:25:14.037000,Update
+103,ChangeHistory,ChangeHistory,,True,103,,,,,,
+104,Closed_Con,Closed_Con,,False,104,,,,,,
+105,CoLoBa,CoLoBa,,True,105,,,,,,
+106,CoLoCe,CoLoCe,72,False,106,,,,dbo,2024-11-13 11:25:14.037000,Update
+107,CoLoDb,CoLoDb,,True,107,,,,,,
+108,CoLoGe,CoLoGe,,True,108,,,,,,
+109,CoLoGi,CoLoGi,,True,109,,,,,,
+110,CoLoHi,CoLoHi,186,True,110,,,,dbo,2024-11-13 11:25:14.037000,Update
+111,CoLoMasrafM,CoLoMasrafM,,True,111,,,,,,
+112,CoLoMH,CoLoMH,,True,112,,,,,,
+113,CoLoMo,CoLoMo,336,False,113,,,,dbo,2024-11-13 11:25:14.037000,Update
+114,CoLoSo,CoLoSo,510,False,114,,,,dbo,2024-11-13 11:25:14.037000,Update
+115,CoLoTe,CoLoTe,,True,115,,,,,,
+116,Company,Company,,False,116,,,,,,
+117,CrossLocationProp,CrossLocationProp,,False,117,,,,,,
+118,Dagitim_Param_D,Dagitim_Param_D,119,False,118,,,,dbo,2024-11-13 11:25:14.037000,Update
+119,Dagitim_Param_M,Dagitim_Param_M,,False,119,,,,,,
+120,DagitimSonuc_D,DagitimSonuc_D,121,True,120,,,,dbo,2024-11-13 11:25:14.037000,Update
+121,DagitimSonuc_M,DagitimSonuc_M,,False,121,,,,,,
+122,DahiliUyari,DahiliUyari,,False,122,,,,,,
+123,Demirbas_Dov,Demirbas_Dov,125,False,123,,,,dbo,2024-11-13 11:25:14.037000,Update
+124,DemirbasHar,DemirbasHar,,False,124,,,,,,
+125,DemirbasKart,Demirbas Kartı,,False,125,,,,dbo,2024-11-13 11:24:52.297000,Update
+126,DevSipCon,DevSipCon,,False,126,,,,,,
+127,DevTakBag,DevTakBag,,False,127,,,,,,
+128,EBeyanname_Sablons,EBeyanname_Sablons,,False,128,,,,,,
+129,ED_gchar,ED_gchar,130,False,129,,,,dbo,2024-11-13 11:25:14.037000,Update
+130,ED_Har,ED_Har,131,False,130,,,,dbo,2024-11-13 11:25:14.037000,Update
+131,ED_Kay,ED_Kay,,False,131,,,,,,
+132,ED_XML,ED_XML,131,False,132,,,,dbo,2024-11-13 11:25:14.037000,Update
+133,EF_Gelen,EF_Gelen,,False,133,,,,,,
+134,EF_GelenKontrol,EF_GelenKontrol,,False,134,,,,,,
+135,EF_Log,EF_Log,,False,135,,,,,,
+136,EF_Mukellef,EF_Mukellef,,True,136,,,,,,
+137,EF_Taslak,EF_Taslak,,False,137,,,,,,
+138,EF_Zarf,EF_Zarf,,False,138,,,,,,
+139,EFGelenLog,EFGelenLog,,False,139,,,,,,
+140,EFGelenLogDetail,EFGelenLogDetail,139,False,140,,,,dbo,2024-11-13 11:25:14.037000,Update
+141,EFProduct2Product,EFProduct2Product,,False,141,,,,,,
+142,EIRS_GelenYanit,EIRS_GelenYanit,,False,142,,,,,,
+143,EmaarApiLogInfo,EmaarApiLogInfo,,False,143,,,,,,
+144,Entity_D,Entity_D,145,False,144,,,,dbo,2024-11-13 11:25:14.037000,Update
+145,Entity_M,Entity_M,,False,145,,,,,,
+146,ESMM_Log,ESMM_Log,,False,146,,,,,,
+147,ESMM_Taslak,ESMM_Taslak,,False,147,,,,,,
+148,ETic_PosSat_Kay,ETic_PosSat_Kay,384,False,148,,,,dbo,2024-11-13 11:25:14.037000,Update
+149,expquery,expquery,,False,149,,,,,,
+150,F_DetFiles,F_DetFiles,,False,150,,,,,,
+151,Fat_Cost,Fat_Cost,165,False,151,,,,dbo,2024-11-13 11:25:14.037000,Update
+152,Fat_Har_KT,Fat_Har_KT,,False,152,,,,,,
+153,Fat_Hiz_Har,Fat_Hiz_Har,,False,153,,,,,,
+154,Fat_Ode_Plan,Fat_Ode_Plan,165,False,154,,,,dbo,2024-11-13 11:25:14.037000,Update
+155,FatDocInvest,FatDocInvest,,False,155,,,,,,
+156,fatirs,fatirs,,True,156,,,,,,
+157,Fatura_Asorti,Fatura_Asorti,161,False,157,,,,dbo,2024-11-13 11:25:14.037000,Update
+158,Fatura_Dov,Fatura_Dov,165,False,158,,,,dbo,2024-11-13 11:25:14.037000,Update
+159,Fatura_FinansCon,Fatura_FinansCon,,False,159,,,,,,
+160,fatura_getList,fatura_getList,,False,160,,,,,,
+161,Fatura_Har,Fatura_Har,165,False,161,,,,dbo,2024-11-13 11:25:14.037000,Update
+162,Fatura_Har_isk,Fatura_Har_isk,,False,162,,,,,,
+163,Fatura_Iade_Inf,Fatura_Iade_Inf,,False,163,,,,,,
+164,Fatura_isk,Fatura_isk,,False,164,,,,,,
+165,Fatura_Kay,Fatura_Kay,,False,165,,,,,,
+166,FaturaTutar,FaturaTutar,,True,166,,,,,,
+167,FFFatura_Dov,FFFatura_Dov,,False,167,,,,,,
+168,FFFatura_Har,FFFatura_Har,,False,168,,,,,,
+169,FFFatura_Kay,FFFatura_Kay,,False,169,,,,,,
+170,FFFaturaTutar,FFFaturaTutar,813,True,170,,,,dbo,2024-11-13 11:25:14.037000,Update
+171,Gider_GTip,Gider_GTip,,False,171,,,,,,
+172,Global_Adress,Global_Adress,,False,172,,,,,,
+173,GunlukNetSatis,GunlukNetSatis,,False,173,,,,,,
+174,GVirman_Har,GVirman_Har,176,False,174,,,,dbo,2024-11-13 11:25:14.037000,Update
+175,GVirman_Har_Proje_D,GVirman_Har_Proje_D,,False,175,,,,,,
+176,GVirman_Kay,GVirman_Kay,,False,176,,,,,,
+177,GVirmanTutar,GVirmanTutar,174,True,177,,,,,,
+178,H_AlFiy,H_AlFiy,,False,178,,,,,,
+179,H_SatFiy,H_SatFiy,,False,179,,,,,,
+180,HC_Har,HC_Har,,False,180,,,,,,
+181,HC_Kart,HC Kartı,,False,181,,,,dbo,2024-11-13 11:24:52.297000,Update
+182,HesapMuavinRapor,HesapMuavinRapor,,False,182,,,,,,
+183,HizliUrun,HizliUrun,,False,183,,,,,,
+184,Hizmet_GTip,Hizmet_GTip,,False,184,,,,,,
+185,HizmetFatCon,HizmetFatCon,,False,185,,,,,,
+186,HizmetKart,Hizmet Kartı,,False,186,,,,dbo,2024-11-13 11:24:52.297000,Update
+187,HizmetSip_Avans,HizmetSip_Avans,191,False,187,,,,dbo,2024-11-13 11:25:14.037000,Update
+188,HizmetSip_Avans_Con,HizmetSip_Avans_Con,,False,188,,,,,,
+189,HizmetSip_D,HizmetSip_D,,False,189,,,,,,
+190,HizmetSip_Dov,HizmetSip_Dov,191,False,190,,,,dbo,2024-11-13 11:25:14.037000,Update
+191,HizmetSip_M,HizmetSip_M,,False,191,,,,,,
+192,HizmetSipFat_Temp,HizmetSipFat_Temp,,False,192,,,,,,
+193,HR_M,HR_M,,False,193,,,,,,
+194,HS_Ode_Plan,HS_Ode_Plan,191,False,194,,,,dbo,2024-11-13 11:25:14.037000,Update
+195,IDTakibi,IDTakibi,,False,195,,,,,,
+196,IrsFat2CezaDekont,IrsFat2CezaDekont,,False,196,,,,,,
+197,islemOnay,islemOnay,,False,197,,,,,,
+198,K_BarFisAsortiList,K_BarFisAsortiList,,False,198,,,,,,
+199,K_FisAsortiList,K_FisAsortiList,,False,199,,,,,,
+200,k_gchar,k_gchar,,False,200,,,,,,
+201,K_ResAsortiList,K_ResAsortiList,,False,201,,,,,,
+202,K_RezAsortiList,K_RezAsortiList,,False,202,,,,,,
+203,K_Rezerv,K_Rezerv,,False,203,,,,,,
+204,K_RezervAsortiList,K_RezervAsortiList,,False,204,,,,,,
+205,K_SevkAsortiList,K_SevkAsortiList,,False,205,,,,,,
+206,K_SevkAsortiList_Tmp,K_SevkAsortiList_Tmp,,False,206,,,,,,
+207,K_SipAsortiList,K_SipAsortiList,,False,207,,,,,,
+208,Kamp_Gunler,Kamp_Gunler,216,False,208,,,,dbo,2024-11-13 11:25:14.037000,Update
+209,Kamp_HediyeListe,Kamp_HediyeListe,216,True,209,,,,dbo,2024-11-13 11:25:14.037000,Update
+210,Kamp_Kasa,Kamp_Kasa,216,False,210,,,,dbo,2024-11-13 11:25:14.037000,Update
+211,Kamp_Kasiyer,Kamp_Kasiyer,216,False,211,,,,dbo,2024-11-13 11:25:14.037000,Update
+212,Kamp_Location,Kamp_Location,216,False,212,,,,dbo,2024-11-13 11:25:14.037000,Update
+213,Kamp_OdemeTipi,Kamp_OdemeTipi,216,False,213,,,,dbo,2024-11-13 11:25:14.037000,Update
+214,Kamp_SatisListe,Kamp_SatisListe,216,True,214,,,,dbo,2024-11-13 11:25:14.037000,Update
+215,Kamp_SatTip,Kamp_SatTip,216,False,215,,,,dbo,2024-11-13 11:25:14.037000,Update
+216,Kampanya_M,Kampanya_M,,False,216,,,,,,
+217,Kasa,Kasa,,False,217,,,,,,
+218,KasaFoyu_D,KasaFoyu_D,,False,218,,,,,,
+219,KasaFoyu_M,KasaFoyu_M,,False,219,,,,,,
+220,KasaUyari,KasaUyari,,False,220,,,,,,
+221,KayBilgi_Delete,KayBilgi_Delete,,True,221,,,,,,
+222,KDVBeyan_D,KDVBeyan_D,,False,222,,,,,,
+223,KDVBeyan_M,KDVBeyan_M,,False,223,,,,,,
+224,Kefil_kart,Kefil Kartı,336,False,224,,,,dbo,2024-11-13 11:25:14.037000,Update
+225,KGAjanda,KGAjanda,,False,225,,,,,,
+226,KgDeriPrjTbl,KgDeriPrjTbl,,False,226,,,,,,
+227,KGMessenger_Log,KGMessenger_Log,,False,227,,,,,,
+228,KGPPRPlan_D,KGPPRPlan_D,229,False,228,,,,dbo,2024-11-13 11:25:14.037000,Update
+229,KGPPRPlan_M,KGPPRPlan_M,,False,229,,,,,,
+230,KGVitrin_D,KGVitrin_D,231,False,230,,,,dbo,2024-11-13 11:25:14.037000,Update
+231,KGVitrin_M,KGVitrin_M,,False,231,,,,,,
+232,KK_Dov,KK_Dov,234,False,232,,,,dbo,2024-11-13 11:25:14.037000,Update
+233,KK_Har,KK_Har,,False,233,,,,,,
+234,KK_Kay,KK_Kay,,False,234,,,,,,
+235,KK_Kay_Proje_D,KK_Kay_Proje_D,,False,235,,,,,,
+236,KKTutar,KKTutar,233,True,236,,,,,,
+237,Koli_List,Koli_List,,False,237,,,,,,
+238,Kon_FisAsortiList,Kon_FisAsortiList,,False,238,,,,,,
+239,Kon_GCHar,Kon_GCHar,,False,239,,,,,,
+240,Kons2Irs,Kons2Irs,,False,240,,,,,,
+241,KriterVisibles,KriterVisibles,,False,241,,,,,,
+242,Location,Location,,False,242,,,,,,
+243,Location_Gider,Location_Gider,242,False,243,,,,dbo,2024-11-13 11:25:14.037000,Update
+244,Location_Hedef,Location_Hedef,242,False,244,,,,dbo,2024-11-13 11:25:14.037000,Update
+245,Location_PersCount,Location_PersCount,242,False,245,,,,dbo,2024-11-13 11:25:14.037000,Update
+246,Location_Process,Location_Process,242,False,246,,,,dbo,2024-11-13 11:25:14.037000,Update
+247,Lot_Property,Lot_Property,,False,247,,,,,,
+248,M_BABS_D,M_BABS_D,,False,248,,,,,,
+249,M_BABS_M,M_BABS_M,,False,249,,,,,,
+250,M_BANKAACC1,M_BANKAACC1,,False,250,,,,,,
+251,M_CARDACC1,M_CARDACC1,,False,251,,,,,,
+252,M_CEKSENACC1_D,M_CEKSENACC1_D,,False,252,,,,,,
+253,M_CEKSENETACC1,M_CEKSENETACC1,,False,253,,,,,,
+254,M_CODES1,M_CODES1,,False,254,,,,,,
+255,M_CODES1_National,M_CODES1_National,,False,255,,,,,,
+256,M_FICHE_Log,M_FICHE_Log,,False,256,,,,,,
+257,M_FICHE1,M_FICHE1,,False,257,,,,,,
+258,M_FICHEEXCHANGE,M_FICHEEXCHANGE,,False,258,,,,,,
+259,M_FICHELINE1,M_FICHELINE1,257,False,259,,,,dbo,2024-11-13 11:25:14.037000,Update
+260,M_GenGidCreate_D,M_GenGidCreate_D,261,False,260,,,,dbo,2024-11-13 11:25:14.037000,Update
+261,M_GenGidCreate_M,M_GenGidCreate_M,,False,261,,,,,,
+262,M_INTLOG,M_INTLOG,,False,262,,,,,,
+263,M_KASAACC1,M_KASAACC1,,False,263,,,,,,
+264,M_KDVACC1,M_KDVACC1,,False,264,,,,,,
+265,M_KDVBagi,M_KDVBagi,,False,265,,,,,,
+266,M_MALITABLO,M_MALITABLO,,False,266,,,,,,
+267,M_MALITABLOALT,M_MALITABLOALT,,False,267,,,,,,
+268,M_MALITABLOALTS,M_MALITABLOALTS,,False,268,,,,,,
+269,M_MALITABLOALTS_BYNKODS,M_MALITABLOALTS_BYNKODS,,False,269,,,,,,
+270,M_MALITABLODIPNOT,M_MALITABLODIPNOT,,False,270,,,,,,
+271,M_MALITABLODIPNOTS,M_MALITABLODIPNOTS,,False,271,,,,,,
+272,M_MALITABLOFILTREALT,M_MALITABLOFILTREALT,,False,272,,,,,,
+273,M_MALITABLOFILTREUST,M_MALITABLOFILTREUST,,False,273,,,,,,
+274,M_Maliyet,M_Maliyet,,False,274,,,,,,
+275,M_Masraf,M_Masraf,,False,275,,,,,,
+276,M_Masraf_Detail,M_Masraf_Detail,,False,276,,,,,,
+277,M_MM1,M_MM1,,False,277,,,,,,
+278,M_OTVACC1,M_OTVACC1,,False,278,,,,,,
+279,M_Per_GenGid_Tmp,M_Per_GenGid_Tmp,,False,279,,,,,,
+280,M_Periyot,M_Periyot,,False,280,,,,,,
+281,M_Pro_GenGid_Tmp,M_Pro_GenGid_Tmp,,False,281,,,,,,
+282,M_SMMACC1,M_SMMACC1,,False,282,,,,,,
+283,M_Stk_GenGid_Tmp,M_Stk_GenGid_Tmp,,False,283,,,,,,
+284,M_STOKKDVACC1,M_STOKKDVACC1,,False,284,,,,,,
+285,M_TEMINATACC1,M_TEMINATACC1,,False,285,,,,,,
+286,M_TEVACC1,M_TEVACC1,,False,286,,,,,,
+287,M_TKDVACC1,M_TKDVACC1,,False,287,,,,,,
+288,M_UserMainParameter,M_UserMainParameter,,False,288,,,,,,
+289,MakfineReportAuth,MakfineReportAuth,,False,289,,,,,,
+290,Masraf_Detail,Masraf_Detail,,False,290,,,,,,
+291,Masraf_KartDagilim,Masraf_KartDagilim,,False,291,,,,,,
+292,Masraf_M_Kart,MasrafM Kartı,,False,292,,,,dbo,2024-11-13 11:24:52.297000,Update
+293,Masraf_Sablon,Masraf_Sablon,,False,293,,,,,,
+294,Masraf_SablonDetay,Masraf_SablonDetay,,False,294,,,,,,
+295,MasrafFisFatCon,MasrafFisFatCon,,False,295,,,,,,
+296,Migration,Migration,,False,296,,,,,,
+297,Model_APln,Model_APln,,False,297,,,,,,
+298,Model_B2B,Model_B2B,304,False,298,,,,dbo,2024-11-13 11:25:14.037000,Update
+299,Model_Doc,Model_Doc,301,False,299,,,,dbo,2024-11-13 11:25:14.037000,Update
+300,Model_Gider,Model_Gider,302,False,300,,,,dbo,2024-11-13 11:25:14.037000,Update
+301,Model_M,Model_M,,False,301,,,,,,
+302,Model_P,Model_P,301,False,302,,,,dbo,2024-11-13 11:25:14.037000,Update
+303,Model_ParList,Model_ParList,301,False,303,,,,dbo,2024-11-13 11:25:14.037000,Update
+304,Model_PD,Model_PD,302,False,304,,,,dbo,2024-11-13 11:25:14.037000,Update
+305,Model_PDA,Model_PDA,304,False,305,,,,dbo,2024-11-13 11:25:14.037000,Update
+306,Model_PDB,Model_PDB,304,False,306,,,,dbo,2024-11-13 11:25:14.037000,Update
+307,Model_PDM,Model_PDM,304,False,307,,,,dbo,2024-11-13 11:25:14.037000,Update
+308,Model_PDP,Model_PDP,304,False,308,,,,dbo,2024-11-13 11:25:14.037000,Update
+309,Model_PDR,Model_PDR,304,False,309,,,,dbo,2024-11-13 11:25:14.037000,Update
+310,Model_PDS,Model_PDS,304,False,310,,,,dbo,2024-11-13 11:25:14.037000,Update
+311,Model_PDS2R,Model_PDS2R,304,False,311,,,,dbo,2024-11-13 11:25:14.037000,Update
+312,Model_PDS2X,Model_PDS2X,304,False,312,,,,dbo,2024-11-13 11:25:14.037000,Update
+313,Model_PDX,Model_PDX,304,False,313,,,,dbo,2024-11-13 11:25:14.037000,Update
+314,Model_ProDet,Model_ProDet,302,False,314,,,,dbo,2024-11-13 11:25:14.037000,Update
+315,Model_PY,Model_PY,302,False,315,,,,dbo,2024-11-13 11:25:14.037000,Update
+316,Model_PYB2B,Model_PYB2B,315,False,316,,,,dbo,2024-11-13 11:25:14.037000,Update
+317,Model_PYM,Model_PYM,315,False,317,,,,dbo,2024-11-13 11:25:14.037000,Update
+318,Model_PYR,Model_PYR,315,False,318,,,,dbo,2024-11-13 11:25:14.037000,Update
+319,Model_PYR2R,Model_PYR2R,315,False,319,,,,dbo,2024-11-13 11:25:14.037000,Update
+320,Model_PYS,Model_PYS,315,False,320,,,,dbo,2024-11-13 11:25:14.037000,Update
+321,Model_PYS2R,Model_PYS2R,315,False,321,,,,dbo,2024-11-13 11:25:14.037000,Update
+322,Model_PYS2X,Model_PYS2X,315,False,322,,,,dbo,2024-11-13 11:25:14.037000,Update
+323,Model_PYX,Model_PYX,315,False,323,,,,dbo,2024-11-13 11:25:14.037000,Update
+324,Model_R,Model_R,301,False,324,,,,dbo,2024-11-13 11:25:14.037000,Update
+325,Model_R2R,Model_R2R,304,False,325,,,,dbo,2024-11-13 11:25:14.037000,Update
+326,Model_RBO,Model_RBO,,False,326,,,,,,
+327,Model_WMac,Model_WMac,302,False,327,,,,dbo,2024-11-13 11:25:14.037000,Update
+328,MuavinExcelRapor,MuavinExcelRapor,,False,328,,,,,,
+329,MuhBeyan_D,MuhBeyan_D,,False,329,,,,,,
+330,MuhBeyan_M,MuhBeyan_M,,False,330,,,,,,
+331,MuhCurrencyBalance,MuhCurrencyBalance,,False,331,,,,,,
+332,MuhVergi_Takvimi,MuhVergi_Takvimi,,False,332,,,,,,
+333,Musteri_Aile,Musteri_Aile,,False,333,,,,,,
+334,Musteri_Doc,Musteri_Doc,336,False,334,,,,dbo,2024-11-13 11:25:14.037000,Update
+335,Musteri_Goz,Musteri_Goz,,False,335,,,,,,
+336,Musteri_Kart,Musteri Kartı,,False,336,,,,dbo,2024-11-13 11:24:52.297000,Update
+337,Musteri_Servis,Musteri_Servis,,False,337,,,,,,
+338,NACE_Kart,NACE Kartı,,False,338,,,,dbo,2024-11-13 11:24:52.297000,Update
+339,Ode_Plan,Ode_Plan,473,False,339,,,,dbo,2024-11-13 11:25:14.037000,Update
+340,Odeme_Tipi,Odeme_Tipi,386,False,340,,,,dbo,2024-11-13 11:25:14.037000,Update
+341,OdemePlanlama_D,OdemePlanlama_D,342,False,341,,,,dbo,2024-11-13 11:25:14.037000,Update
+342,OdemePlanlama_M,OdemePlanlama_M,,False,342,,,,,,
+343,OdEmir_kay,OdEmir_kay,16,False,343,,,,dbo,2024-11-13 11:25:14.037000,Update
+344,OnekList,OnekList,,False,344,,,,,,
+345,OptionMaxTbl,OptionMaxTbl,,False,345,,,,,,
+346,OzKod_Deger,OzKod_Deger,,False,346,,,,,,
+347,P_Gel_Tip,P_Gel_Tip,,False,347,,,,,,
+348,P_Gid_Tip,P_Gid_Tip,,False,348,,,,,,
+349,P_Kal_Sec_Tip,P_Kal_Sec_Tip,,False,349,,,,,,
+350,P_Kal_Tip_D,P_Kal_Tip_D,,False,350,,,,,,
+351,P_Kal_Tip_M,P_Kal_Tip_M,,False,351,,,,,,
+352,P_PerPrimParam,P_PerPrimParam,,False,352,,,,,,
+353,P_PerPrimParamOran,P_PerPrimParamOran,,False,353,,,,,,
+354,P_PerPrimTipHistory,P_PerPrimTipHistory,,False,354,,,,,,
+355,P_Puan_Ek,P_Puan_Ek,,False,355,,,,,,
+356,P_Puan_M,P_Puan_M,386,False,356,,,,dbo,2024-11-13 11:25:14.037000,Update
+357,P_Puan_Servis,P_Puan_Servis,,False,357,,,,,,
+358,P_PuanLog,P_PuanLog,,False,358,,,,,,
+359,P_Stok_Y,P_Stok_Y,,False,359,,,,,,
+360,PaabCocinxBarcodeLog,PaabCocinxBarcodeLog,,False,360,,,,,,
+361,Par_DBirim,Par_DBirim,,False,361,,,,,,
+362,Par_EF_DeliverytermsType,Par_EF_DeliverytermsType,,False,362,,,,,,
+363,Par_EF_PackagingTypeCode,Par_EF_PackagingTypeCode,,False,363,,,,,,
+364,Par_EF_TransportModeCode,Par_EF_TransportModeCode,,False,364,,,,,,
+365,Par_SevkSekil,Par_SevkSekil,,False,365,,,,,,
+366,Par_Sip_OzDur,Par_Sip_OzDur,,False,366,,,,,,
+367,Pck_Active,Pck_Active,,False,367,,,,,,
+368,Pck_Barcode,Pck_Barcode,,False,368,,,,,,
+369,Pck_D,Pck_D,371,False,369,,,,dbo,2024-11-13 11:25:14.037000,Update
+370,Pck_Koli,Pck_Koli,373,False,370,,,,dbo,2024-11-13 11:25:14.037000,Update
+371,Pck_M,Pck_M,,False,371,,,,,,
+372,Pck_Passive,Pck_Passive,,False,372,,,,,,
+373,Pck_Siparis,Pck_Siparis,,False,373,,,,,,
+374,Pck_ToEmir,Pck_ToEmir,,False,374,,,,,,
+375,PER_BIL,PER_BIL,,False,375,,,,,,
+376,Per_PDKS,Per_PDKS,,False,376,,,,,,
+377,Periyot,Periyot,,False,377,,,,,,
+378,PeriyotD,PeriyotD,,False,378,,,,,,
+379,PerMuhTransfer,PerMuhTransfer,,False,379,,,,,,
+380,PerOdeTipLocation,PerOdeTipLocation,834,False,380,,,,dbo,2024-11-13 11:25:14.037000,Update
+381,Ping,Ping,,False,381,,,,,,
+382,PlannedQueryList,PlannedQueryList,,False,382,,,,,,
+383,Possat_Discount,Possat_Discount,,False,383,,,,,,
+384,PosSat_Har,PosSat_Har,386,False,384,,,,dbo,2024-11-13 11:25:14.037000,Update
+385,Possat_HizliOde,Possat_HizliOde,,False,385,,,,,,
+386,PosSat_Kay,PosSat_Kay,,False,386,,,,,,
+387,PosSat_Teslim,PosSat_Teslim,,False,387,,,,,,
+388,PosSat_UpdateReason,PosSat_UpdateReason,,False,388,,,,,,
+389,PosSatTutar,PosSatTutar,384,True,389,,,,,,
+390,PP_InsertHistory,PP_InsertHistory,,False,390,,,,,,
+391,PP_SecurityCode,PP_SecurityCode,,False,391,,,,,,
+392,PP_UpdateHistory,PP_UpdateHistory,390,False,392,,,,dbo,2024-11-13 11:25:14.037000,Update
+393,Product2Product,Product2Product,,False,393,,,,,,
+394,Proje_D,Proje_D,395,False,394,,,,dbo,2024-11-13 11:25:14.037000,Update
+395,Proje_M,Proje_M,,False,395,,,,,,
+396,Proses_ProDet,Proses_ProDet,,False,396,,,,,,
+397,PUstu_Tipi,PUstu_Tipi,386,False,397,,,,dbo,2024-11-13 11:25:14.037000,Update
+398,r_gchar,r_gchar,,False,398,,,,,,
+399,Raf_D,Raf_D,,False,399,,,,,,
+400,Raf_Kontor,Raf_Kontor,,False,400,,,,,,
+401,Raf_Rez,Raf_Rez,,False,401,,,,,,
+402,RafKoli_D,RafKoli_D,,False,402,,,,,,
+403,RafKoli_M,RafKoli_M,,False,403,,,,,,
+404,RaporOS_Fields,RaporOS_Fields,406,False,404,,,,dbo,2024-11-13 11:25:14.037000,Update
+405,RaporOS_Groups,RaporOS_Groups,,False,405,,,,,,
+406,RaporOS_M,RaporOS_M,,False,406,,,,,,
+407,RaporOSFilters_D,RaporOSFilters_D,408,False,407,,,,dbo,2024-11-13 11:25:14.037000,Update
+408,RaporOSFilters_M,RaporOSFilters_M,406,False,408,,,,dbo,2024-11-13 11:25:14.037000,Update
+409,ReadInvoices,ReadInvoices,,False,409,,,,,,
+410,Receive_BankaFis,Receive_BankaFis,,False,410,,,,,,
+411,Receive_CariFis,Receive_CariFis,,False,411,,,,,,
+412,Receive_CekHar,Receive_CekHar,,False,412,,,,,,
+413,Receive_CekList,Receive_CekList,,False,413,,,,,,
+414,Receive_FaturaFis,Receive_FaturaFis,,False,414,,,,,,
+415,Receive_PosSatFis,Receive_PosSatFis,,False,415,,,,,,
+416,Receive_SayimFis,Receive_SayimFis,,False,416,,,,,,
+417,Receive_SiparisFis,Receive_SiparisFis,,False,417,,,,,,
+418,Receive_SiparisFisDetay,Receive_SiparisFisDetay,,False,418,,,,,,
+419,Receive_StokFis,Receive_StokFis,,False,419,,,,,,
+420,Receive_TamirFis,Receive_TamirFis,,False,420,,,,,,
+421,Res_GCHar,Res_GCHar,,False,421,,,,,,
+422,Rezerv_GCHar,Rezerv_GCHar,,False,422,,,,,,
+423,Rezerv_Har,Rezerv_Har,424,False,423,,,,dbo,2024-11-13 11:25:14.037000,Update
+424,Rezerv_Kay,Rezerv_Kay,,False,424,,,,,,
+425,RezervClosedCon,RezervClosedCon,,False,425,,,,,,
+426,S_Agirlik,S_Agirlik,510,False,426,,,,dbo,2024-11-13 11:25:14.037000,Update
+427,S_AlFiy,S_AlFiy,510,False,427,,,,dbo,2024-11-13 11:25:14.037000,Update
+428,S_AliskFiy,S_AliskFiy,510,False,428,,,,dbo,2024-11-13 11:25:14.037000,Update
+429,S_BarFis_Har,S_BarFis_Har,430,True,429,,,,dbo,2024-11-13 11:25:14.037000,Update
+430,S_BarFis_Kay,S_BarFis_Kay,,False,430,,,,,,
+431,S_BarGCHar,S_BarGCHar,510,True,431,,,,dbo,2024-11-13 11:25:14.037000,Update
+432,S_DetPicture,S_DetPicture,510,False,432,,,,dbo,2024-11-13 11:25:14.037000,Update
+433,S_Fis_Asorti,S_Fis_Asorti,435,False,433,,,,dbo,2024-11-13 11:25:14.037000,Update
+434,S_Fis_Dov,S_Fis_Dov,,False,434,,,,,,
+435,S_Fis_Har,S_Fis_Har,437,False,435,,,,dbo,2024-11-13 11:25:14.037000,Update
+436,S_Fis_Har_ggmd,S_Fis_Har_ggmd,,False,436,,,,,,
+437,S_Fis_Kay,S_Fis_Kay,,False,437,,,,,,
+438,S_GCHar,S_GCHar,,True,438,,,,,,
+439,S_GTip,S_GTip,510,False,439,,,,dbo,2024-11-13 11:25:14.037000,Update
+440,S_KdvOranlari,S_KdvOranlari,510,False,440,,,,dbo,2024-11-13 11:25:14.037000,Update
+441,S_Koli_L,S_Koli_L,,False,441,,,,,,
+442,S_MatCode,S_MatCode,,False,442,,,,,,
+443,S_SatFiy,S_SatFiy,510,False,443,,,,dbo,2024-11-13 11:25:14.037000,Update
+444,S_SatiskFiy,S_SatiskFiy,510,False,444,,,,dbo,2024-11-13 11:25:14.037000,Update
+445,Sayim_tbl_D,Sayim_tbl_D,446,False,445,,,,dbo,2024-11-13 11:25:14.037000,Update
+446,Sayim_tbl_M,Sayim_tbl_M,,False,446,,,,,,
+447,Send_BankaFis,Send_BankaFis,,False,447,,,,,,
+448,Send_CariFis,Send_CariFis,,False,448,,,,,,
+449,Send_CekHar,Send_CekHar,,False,449,,,,,,
+450,Send_CekList,Send_CekList,,False,450,,,,,,
+451,Send_FaturaFis,Send_FaturaFis,,False,451,,,,,,
+452,Send_PosSatFis,Send_PosSatFis,,False,452,,,,,,
+453,Send_SiparisFis,Send_SiparisFis,,False,453,,,,,,
+454,Send_StokFis,Send_StokFis,,False,454,,,,,,
+455,Seri_Bargchar,Seri_Bargchar,,False,455,,,,,,
+456,Seri_gchar,Seri_gchar,,False,456,,,,,,
+457,Sevk_D,Sevk_D,463,False,457,,,,dbo,2024-11-13 11:25:14.037000,Update
+458,Sevk_D_Ydk,Sevk_D_Ydk,,False,458,,,,,,
+459,Sevk_GCHar,Sevk_GCHar,,False,459,,,,,,
+460,sevk_gchar_Locdistribution,sevk_gchar_Locdistribution,,False,460,,,,,,
+461,Sevk_GCHar_Tmp,Sevk_GCHar_Tmp,,False,461,,,,,,
+462,Sevk_GetList,Sevk_GetList,,False,462,,,,,,
+463,Sevk_M,Sevk_M,,False,463,,,,,,
+464,SevkKoli,SevkKoli,,False,464,,,,,,
+465,SFisTutar,SFisTutar,435,True,465,,,,,,
+466,Si_GCHar,Si_GCHar,510,True,466,,,,dbo,2024-11-13 11:25:14.037000,Update
+467,Sip_Avans,Sip_Avans,473,False,467,,,,dbo,2024-11-13 11:25:14.037000,Update
+468,Sip_Avans_Con,Sip_Avans_Con,,False,468,,,,,,
+469,Sip_OzDur,Sip_OzDur,,False,469,,,,,,
+470,Siparis_Har,Siparis_Har,473,False,470,,,,dbo,2024-11-13 11:25:14.037000,Update
+471,Siparis_Har_isk,Siparis_Har_isk,470,False,471,,,,dbo,2024-11-13 11:25:14.037000,Update
+472,Siparis_isk,Siparis_isk,,False,472,,,,,,
+473,Siparis_Kay,Siparis_Kay,,False,473,,,,,,
+474,Siparis_Property,Siparis_Property,473,False,474,,,,dbo,2024-11-13 11:25:14.037000,Update
+475,SiparisTutar,SiparisTutar,470,True,475,,,,,,
+476,SipSkodAlternate,SipSkodAlternate,,False,476,,,,,,
+477,SipTah_D,SipTah_D,,False,477,,,,,,
+478,SipTah_M,SipTah_M,,False,478,,,,,,
+479,SKLokBulYet,SKLokBulYet,510,False,479,,,,dbo,2024-11-13 11:25:14.037000,Update
+480,SKLokMikYet,SKLokMikYet,,False,480,,,,,,
+481,SMS_History,SMS_History,,False,481,,,,,,
+482,SMS_Sablon,SMS_Sablon,,False,482,,,,,,
+483,SoapMessageLog,SoapMessageLog,,False,483,,,,,,
+484,ST_Firma_Gorusme,ST_Firma_Gorusme,,False,484,,,,,,
+485,ST_Firma_Kart,STFirma Kartı,,False,485,,,,dbo,2024-11-13 11:24:52.297000,Update
+486,ST_Firma_Sozlesme,ST_Firma_Sozlesme,,False,486,,,,,,
+487,ST_Firma_Teklif,ST_Firma_Teklif,,False,487,,,,,,
+488,ST_Firma_Urunler,ST_Firma_Urunler,,False,488,,,,,,
+489,ST_Hatirlatma,ST_Hatirlatma,,False,489,,,,,,
+490,ST_Kisi_Aile,ST_Kisi_Aile,492,False,490,,,,dbo,2024-11-13 11:25:14.037000,Update
+491,ST_Kisi_Baglanti,ST_Kisi_Baglanti,,False,491,,,,,,
+492,ST_Kisi_Kart,STKisi Kartı,,False,492,,,,dbo,2024-11-13 11:24:52.297000,Update
+493,ST_OzKod_Deger,ST_OzKod_Deger,,False,493,,,,,,
+494,ST_Servis,ST_Servis,,False,494,,,,,,
+495,ST_Servis_Talep,ST_Servis_Talep,,False,495,,,,,,
+496,Stok_Alternatif,Stok_Alternatif,510,False,496,,,,dbo,2024-11-13 11:25:14.037000,Update
+497,Stok_Asortileri,Stok_Asortileri,510,False,497,,,,dbo,2024-11-13 11:25:14.037000,Update
+498,Stok_B2b,Stok_B2b,510,False,498,,,,dbo,2024-11-13 11:25:14.037000,Update
+499,Stok_Birim,Stok_Birim,510,False,499,,,,dbo,2024-11-13 11:25:14.037000,Update
+500,Stok_CariSKod,Stok_CariSKod,510,False,500,,,,dbo,2024-11-13 11:25:14.037000,Update
+501,Stok_DBirim,Stok_DBirim,510,False,501,,,,dbo,2024-11-13 11:25:14.037000,Update
+502,Stok_Doc,Stok_Doc,510,False,502,,,,dbo,2024-11-13 11:25:14.037000,Update
+503,Stok_Kritik,Stok_Kritik,510,True,503,,,,dbo,2024-11-13 11:25:14.037000,Update
+504,Stok_Optimum,Stok_Optimum,510,True,504,,,,dbo,2024-11-13 11:25:14.037000,Update
+505,Stok_Prim,Stok_Prim,510,False,505,,,,dbo,2024-11-13 11:25:14.037000,Update
+506,Stok_Proje_D,Stok_Proje_D,510,False,506,,,,dbo,2024-11-13 11:25:14.037000,Update
+507,Stok_Seviye,Stok_Seviye,510,False,507,,,,dbo,2024-11-13 11:25:14.037000,Update
+508,StokBarCode,StokBarCode,510,False,508,,,,dbo,2024-11-13 11:25:14.037000,Update
+509,StokHareket,StokHareket,510,True,509,,,,dbo,2024-11-13 11:25:14.170000,Update
+510,StokKart,Stok Kartı,,False,510,,,,dbo,2024-11-13 11:24:52.297000,Update
+511,StokMevcut,StokMevcut,510,True,511,,,,dbo,2024-11-13 11:25:14.170000,Update
+512,StokModel_C,StokModel_C,301,False,512,,,,dbo,2024-11-13 11:25:14.037000,Update
+513,StokSonFiy_Tmp,StokSonFiy_Tmp,510,False,513,,,,dbo,2024-11-13 11:25:14.037000,Update
+514,Su_GCHar,Su_GCHar,,False,514,,,,,,
+515,Sue_GCHar,Sue_GCHar,,False,515,,,,,,
+516,Sup_GCHar,Sup_GCHar,573,False,516,,,,dbo,2024-11-13 11:25:14.037000,Update
+517,Takim_Har,Takim_Har,,False,517,,,,,,
+518,Taksit_Har,Taksit_Har,520,False,518,,,,dbo,2024-11-13 11:25:14.037000,Update
+519,Taksit_iade,Taksit_iade,386,False,519,,,,dbo,2024-11-13 11:25:14.037000,Update
+520,Taksit_Kay,Taksit_Kay,386,False,520,,,,dbo,2024-11-13 11:25:14.037000,Update
+521,Taksit_Ode,Taksit_Ode,,False,521,,,,,,
+522,Talep_gch,Talep_gch,,False,522,,,,,,
+523,Tamir_D,Tamir_D,,False,523,,,,,,
+524,Tamir_Dosya,Tamir_Dosya,,False,524,,,,,,
+525,Tamir_Har,Tamir_Har,,False,525,,,,,,
+526,Tamir_iadeNeden,Tamir_iadeNeden,,False,526,,,,,,
+527,Tamir_M,Tamir_M,,False,527,,,,,,
+528,Tamir_Resim,Tamir_Resim,,False,528,,,,,,
+529,TD_AhpProfil,TD_AhpProfil,,True,529,,,,,,
+530,TD_Donem,TD_Donem,,True,530,,,,,,
+531,TD_Kriter_A,TD_Kriter_A,,True,531,,,,,,
+532,TD_Kriter_D,TD_Kriter_D,533,True,532,,,,dbo,2024-11-13 11:25:14.037000,Update
+533,TD_Kriter_M,TD_Kriter_M,,True,533,,,,,,
+534,TD_Kriter_MA,TD_Kriter_MA,,True,534,,,,,,
+535,TD_Profil,TD_Profil,,True,535,,,,,,
+536,TD_Tedarikci,TD_Tedarikci,,True,536,,,,,,
+537,TD_TedKri,TD_TedKri,,True,537,,,,,,
+538,Tedarikci_Sipno,Tedarikci_Sipno,,False,538,,,,,,
+539,TedarikciSiparisMailInfo,TedarikciSiparisMailInfo,,False,539,,,,,,
+540,Teminat_Har,Teminat_Har,,False,540,,,,,,
+541,Teminat_Kart,Teminat Kartı,,False,541,,,,dbo,2024-11-13 11:24:52.297000,Update
+542,Tmp_Fattocom2kg,Tmp_Fattocom2kg,,True,542,,,,,,
+543,tmpClosed_Con,tmpClosed_Con,,True,543,,,,,,
+544,tmpGetAlSatFiyKz,tmpGetAlSatFiyKz,,True,544,,,,,,
+545,tmpGetBeyanMizan,tmpGetBeyanMizan,,True,545,,,,,,
+546,tmpGetRezGMik,tmpGetRezGMik,,True,546,,,,,,
+547,tmpGetRezGMikAsorti,tmpGetRezGMikAsorti,,True,547,,,,,,
+548,tmpGetStkeTicMikAst,tmpGetStkeTicMikAst,,True,548,,,,,,
+549,tmpGetStkGMik,tmpGetStkGMik,,True,549,,,,,,
+550,tmpGetStkGMikAsorti,tmpGetStkGMikAsorti,,True,550,,,,,,
+551,TmpSevkList,TmpSevkList,,True,551,,,,,,
+552,tmpSipBirles,tmpSipBirles,,True,552,,,,,,
+553,TmpSipDetayList,TmpSipDetayList,,True,553,,,,,,
+554,TmpSiptoEmir,TmpSiptoEmir,,True,554,,,,,,
+555,U_Emir2Emir,U_Emir2Emir,,False,555,,,,,,
+556,U_s_gchar,U_s_gchar,573,False,556,,,,dbo,2024-11-13 11:25:14.037000,Update
+557,U_Use_Ham,U_Use_Ham,573,False,557,,,,dbo,2024-11-13 11:25:14.037000,Update
+558,UniFreeGumrukLog,UniFreeGumrukLog,386,False,558,,,,dbo,2024-11-13 11:25:14.037000,Update
+559,UnifreeLog,UnifreeLog,386,False,559,,,,dbo,2024-11-13 11:25:14.037000,Update
+560,UnqID,UnqID,,True,560,,,,,,
+561,Ur_CFis_Con,Ur_CFis_Con,,False,561,,,,,,
+562,Ur_FOut_Con,Ur_FOut_Con,,False,562,,,,,,
+563,Ur_Ham_Ted,Ur_Ham_Ted,573,False,563,,,,dbo,2024-11-13 11:25:14.037000,Update
+564,Ur_HFO_Con,Ur_HFO_Con,,False,564,,,,,,
+565,Ur_HFOut_Con,Ur_HFOut_Con,,False,565,,,,,,
+566,Ur_HOut_Con,Ur_HOut_Con,,False,566,,,,,,
+567,Ur_hout_detail,Ur_hout_detail,,False,567,,,,,,
+568,Ur_Out_Con,Ur_Out_Con,,False,568,,,,,,
+569,Ur_PFis_Con,Ur_PFis_Con,,False,569,,,,,,
+570,Ur_Rezerv_Con,Ur_Rezerv_Con,,False,570,,,,,,
+571,Ur_YFOut_Con,Ur_YFOut_Con,,False,571,,,,,,
+572,Ur_YOut_Con,Ur_YOut_Con,,False,572,,,,,,
+573,Uretim_Emir,Uretim_Emir,,False,573,,,,,,
+574,Urt_AnaPlan,Urt_AnaPlan,581,False,574,,,,dbo,2024-11-13 11:25:14.037000,Update
+575,Urt_con_DetDur,Urt_con_DetDur,577,False,575,,,,dbo,2024-11-13 11:25:14.037000,Update
+576,Urt_con_gch,Urt_con_gch,596,False,576,,,,dbo,2024-11-13 11:25:14.037000,Update
+577,Urt_con_gch_Det,Urt_con_gch_Det,576,False,577,,,,dbo,2024-11-13 11:25:14.037000,Update
+578,Urt_con_HizFat,Urt_con_HizFat,,False,578,,,,,,
+579,Urt_con_MasrafDag,Urt_con_MasrafDag,,False,579,,,,,,
+580,Urt_CW_Pinx,Urt_CW_Pinx,,False,580,,,,,,
+581,Urt_Donem_D,Urt_Donem_D,582,False,581,,,,dbo,2024-11-13 11:25:14.037000,Update
+582,Urt_Donem_M,Urt_Donem_M,,False,582,,,,,,
+583,Urt_Dur_Har,Urt_Dur_Har,,False,583,,,,,,
+584,Urt_Durus,Urt_Durus,,False,584,,,,,,
+585,Urt_Em_gch,Urt_Em_gch,596,False,585,,,,dbo,2024-11-13 11:25:14.037000,Update
+586,Urt_Em_Ham,Urt_Em_Ham,596,False,586,,,,dbo,2024-11-13 11:25:14.037000,Update
+587,Urt_Em_HamA,Urt_Em_HamA,596,False,587,,,,dbo,2024-11-13 11:25:14.037000,Update
+588,Urt_Em_HF,Urt_Em_HF,596,False,588,,,,dbo,2024-11-13 11:25:14.037000,Update
+589,Urt_Em_OzDur,Urt_Em_OzDur,,False,589,,,,,,
+590,Urt_Em_Property,Urt_Em_Property,,False,590,,,,,,
+591,Urt_Em_Ter,Urt_Em_Ter,,False,591,,,,,,
+592,Urt_Em_wmac,Urt_Em_wmac,596,False,592,,,,dbo,2024-11-13 11:25:14.037000,Update
+593,Urt_Em_Yan,Urt_Em_Yan,596,False,593,,,,dbo,2024-11-13 11:25:14.037000,Update
+594,Urt_Em2Em,Urt_Em2Em,,False,594,,,,,,
+595,Urt_em2fat2sip,Urt_em2fat2sip,,False,595,,,,,,
+596,Urt_Emir,Urt_Emir,,False,596,,,,,,
+597,Urt_Emir_ProDet,Urt_Emir_ProDet,,False,597,,,,,,
+598,urt_ExtLocation,urt_ExtLocation,,False,598,,,,,,
+599,Urt_fin_gch,Urt_fin_gch,596,False,599,,,,dbo,2024-11-13 11:25:14.037000,Update
+600,Urt_fin_gch_ydk,Urt_fin_gch_ydk,,False,600,,,,,,
+601,Urt_fin_LotSeri,Urt_fin_LotSeri,,False,601,,,,,,
+602,Urt_gch_KT,Urt_gch_KT,,False,602,,,,,,
+603,Urt_GPlan_Detail,Urt_GPlan_Detail,,False,603,,,,,,
+604,Urt_GPlanWMKlp,Urt_GPlanWMKlp,,False,604,,,,,,
+605,Urt_KlpHes1_D,Urt_KlpHes1_D,606,False,605,,,,dbo,2024-11-13 11:25:14.037000,Update
+606,Urt_KlpHes1_M,Urt_KlpHes1_M,,False,606,,,,,,
+607,Urt_KlpHes1_S,Urt_KlpHes1_S,605,False,607,,,,dbo,2024-11-13 11:25:14.037000,Update
+608,Urt_KlpHes2_D,Urt_KlpHes2_D,609,False,608,,,,dbo,2024-11-13 11:25:14.037000,Update
+609,Urt_KlpHes2_M,Urt_KlpHes2_M,,False,609,,,,,,
+610,Urt_KlpHes2_S,Urt_KlpHes2_S,608,False,610,,,,dbo,2024-11-13 11:25:14.037000,Update
+611,Urt_Mod_Parca,Urt_Mod_Parca,,False,611,,,,,,
+612,Urt_Mrp_Crp,Urt_Mrp_Crp,618,False,612,,,,dbo,2024-11-13 11:25:14.037000,Update
+613,Urt_Mrp_gch,Urt_Mrp_gch,618,False,613,,,,dbo,2024-11-13 11:25:14.037000,Update
+614,Urt_Mrp_gcx,Urt_Mrp_gcx,618,False,614,,,,dbo,2024-11-13 11:25:14.037000,Update
+615,Urt_Mrp_GRes,Urt_Mrp_GRes,618,False,615,,,,dbo,2024-11-13 11:25:14.037000,Update
+616,Urt_Mrp_Ham,Urt_Mrp_Ham,613,False,616,,,,dbo,2024-11-13 11:25:14.037000,Update
+617,Urt_Mrp_HRes,Urt_Mrp_HRes,618,False,617,,,,dbo,2024-11-13 11:25:14.037000,Update
+618,Urt_Mrp_M,Urt_Mrp_M,,False,618,,,,,,
+619,Urt_Mrp_YCon,Urt_Mrp_YCon,620,False,619,,,,dbo,2024-11-13 11:25:14.037000,Update
+620,Urt_Mrp_YRes,Urt_Mrp_YRes,618,False,620,,,,dbo,2024-11-13 11:25:14.037000,Update
+621,Urt_Oz_Gider,Urt_Oz_Gider,,False,621,,,,,,
+622,Urt_OzDur,Urt_OzDur,,False,622,,,,,,
+623,Urt_Plan_gch,Urt_Plan_gch,,False,623,,,,,,
+624,Urt_Plan_Model,Urt_Plan_Model,,False,624,,,,,,
+625,Urt_Plan_OzDur,Urt_Plan_OzDur,,False,625,,,,,,
+626,Urt_Plan_OzDur_kkk,Urt_Plan_OzDur_kkk,,False,626,,,,,,
+627,Urt_Plan_Pid,Urt_Plan_Pid,,False,627,,,,,,
+628,Urt_Plan_Prinfo,Urt_Plan_Prinfo,624,False,628,,,,dbo,2024-11-13 11:25:14.037000,Update
+629,Urt_Plan_WMak,Urt_Plan_WMak,,False,629,,,,,,
+630,Urt_Process_Person,Urt_Process_Person,,False,630,,,,,,
+631,Urt_ProDet,Urt_ProDet,,False,631,,,,,,
+632,Urt_Sa_Gider,Urt_Sa_Gider,,False,632,,,,,,
+633,Urt_Sanal_D,Urt_Sanal_D,635,False,633,,,,dbo,2024-11-13 11:25:14.037000,Update
+634,Urt_Sanal_HC,Urt_Sanal_HC,635,False,634,,,,dbo,2024-11-13 11:25:14.037000,Update
+635,Urt_Sanal_M,Urt_Sanal_M,,False,635,,,,,,
+636,Urt_Sanal_MG,Urt_Sanal_MG,635,False,636,,,,dbo,2024-11-13 11:25:14.037000,Update
+637,Urt_Sip2Sip_ast,Urt_Sip2Sip_ast,,False,637,,,,,,
+638,Urt_Sip2Sip_gch,Urt_Sip2Sip_gch,,False,638,,,,,,
+639,Urt_Smi_Gider,Urt_Smi_Gider,642,False,639,,,,dbo,2024-11-13 11:25:14.037000,Update
+640,Urt_Smi_Ham,Urt_Smi_Ham,644,False,640,,,,dbo,2024-11-13 11:25:14.037000,Update
+641,Urt_Smi_HC,Urt_Smi_HC,642,False,641,,,,dbo,2024-11-13 11:25:14.037000,Update
+642,Urt_Smi_Kay,Urt_Smi_Kay,,False,642,,,,,,
+643,Urt_Smi_MG,Urt_Smi_MG,642,False,643,,,,dbo,2024-11-13 11:25:14.037000,Update
+644,Urt_Smi_Ur,Urt_Smi_Ur,642,False,644,,,,dbo,2024-11-13 11:25:14.037000,Update
+645,Urt_TabanPlan_BD,Urt_TabanPlan_BD,,False,645,,,,,,
+646,Urt_TabanPlan_D,Urt_TabanPlan_D,647,False,646,,,,dbo,2024-11-13 11:25:14.037000,Update
+647,Urt_TabanPlan_M,Urt_TabanPlan_M,,False,647,,,,,,
+648,Urt_UMGroup,Urt_UMGroup,650,False,648,,,,dbo,2024-11-13 11:25:14.037000,Update
+649,Urt_UPGDetail,Urt_UPGDetail,648,False,649,,,,dbo,2024-11-13 11:25:14.037000,Update
+650,Urt_UPlan,Urt_UPlan,,False,650,,,,,,
+651,Urt_UseWMak,Urt_UseWMak,,False,651,,,,,,
+652,Urt_Visual_FC,Urt_Visual_FC,,False,652,,,,,,
+653,Urt_Visual_G,Urt_Visual_G,656,False,653,,,,dbo,2024-11-13 11:25:14.037000,Update
+654,Urt_Visual_H,Urt_Visual_H,656,False,654,,,,dbo,2024-11-13 11:25:14.037000,Update
+655,Urt_Visual_HC,Urt_Visual_HC,,False,655,,,,,,
+656,Urt_Visual_M,Urt_Visual_M,,False,656,,,,,,
+657,Urt_Visual_MC,Urt_Visual_MC,,False,657,,,,,,
+658,Urt_Visual_Y,Urt_Visual_Y,656,False,658,,,,dbo,2024-11-13 11:25:14.037000,Update
+659,Urt_Visual_YC,Urt_Visual_YC,,False,659,,,,,,
+660,Urt_wait_gch,Urt_wait_gch,596,False,660,,,,dbo,2024-11-13 11:25:14.037000,Update
+661,Urt_WM_BakimTip,Urt_WM_BakimTip,,False,661,,,,,,
+662,Urt_WMakPlan,Urt_WMakPlan,,False,662,,,,,,
+663,Urt_WMBakimPln,Urt_WMBakimPln,,False,663,,,,,,
+664,Urt_WMCall_D,Urt_WMCall_D,,False,664,,,,,,
+665,Urt_WMCall_H,Urt_WMCall_H,,False,665,,,,,,
+666,Urt_WMCall_M,Urt_WMCall_M,,False,666,,,,,,
+667,Urt_WMDoc,Urt_WMDoc,676,False,667,,,,dbo,2024-11-13 11:25:14.037000,Update
+668,Urt_WMKalip,Urt_WMKalip,676,False,668,,,,dbo,2024-11-13 11:25:14.037000,Update
+669,Urt_WMModel,Urt_WMModel,676,False,669,,,,dbo,2024-11-13 11:25:14.037000,Update
+670,Urt_WMProDet,Urt_WMProDet,676,False,670,,,,dbo,2024-11-13 11:25:14.037000,Update
+671,Urt_WMProses,Urt_WMProses,676,False,671,,,,dbo,2024-11-13 11:25:14.037000,Update
+672,Urt_WMWorkDay,Urt_WMWorkDay,,False,672,,,,,,
+673,Urt_WMWorkTimeDetail,Urt_WMWorkTimeDetail,672,False,673,,,,dbo,2024-11-13 11:25:14.037000,Update
+674,Urt_WMWorkTimeGlobal,Urt_WMWorkTimeGlobal,,False,674,,,,,,
+675,Urt_WorkDay,Urt_WorkDay,,False,675,,,,,,
+676,Urt_WorkMain,Urt_WorkMain,,False,676,,,,,,
+677,Urt_WorkStation,Urt_WorkStation,,False,677,,,,,,
+678,Urt_WorkTimeDetail,Urt_WorkTimeDetail,675,False,678,,,,dbo,2024-11-13 11:25:14.037000,Update
+679,Urt_WorkTimeGlobal,Urt_WorkTimeGlobal,,False,679,,,,,,
+680,Urt_xxx_gch,Urt_xxx_gch,,False,680,,,,,,
+681,UrtPln_myUDayList,UrtPln_myUDayList,,False,681,,,,,,
+682,UrtPln_Resources,UrtPln_Resources,,False,682,,,,,,
+683,UrtPln_Resources_G,UrtPln_Resources_G,,False,683,,,,,,
+684,UrtPln_WorkDetail,UrtPln_WorkDetail,,False,684,,,,,,
+685,UrtPln_WorkPlan,UrtPln_WorkPlan,,False,685,,,,,,
+686,Urtx_con_gch,Urtx_con_gch,694,False,686,,,,dbo,2024-11-13 11:25:14.037000,Update
+687,Urtx_con_gch_Det,Urtx_con_gch_Det,686,False,687,,,,dbo,2024-11-13 11:25:14.037000,Update
+688,Urtx_Em_gch,Urtx_Em_gch,694,False,688,,,,dbo,2024-11-13 11:25:14.037000,Update
+689,Urtx_Em_Ham,Urtx_Em_Ham,694,False,689,,,,dbo,2024-11-13 11:25:14.037000,Update
+690,Urtx_Em_HF,Urtx_Em_HF,694,False,690,,,,dbo,2024-11-13 11:25:14.037000,Update
+691,Urtx_Em_Ter,Urtx_Em_Ter,,False,691,,,,,,
+692,Urtx_Em_wmac,Urtx_Em_wmac,694,False,692,,,,dbo,2024-11-13 11:25:14.037000,Update
+693,Urtx_Em_Yan,Urtx_Em_Yan,694,False,693,,,,dbo,2024-11-13 11:25:14.037000,Update
+694,Urtx_Emir,Urtx_Emir,,False,694,,,,,,
+695,Urtx_Emir_ProDet,Urtx_Emir_ProDet,,False,695,,,,,,
+696,Urtx_fin_gch,Urtx_fin_gch,694,False,696,,,,dbo,2024-11-13 11:25:14.037000,Update
+697,Urtx_wait_gch,Urtx_wait_gch,694,False,697,,,,dbo,2024-11-13 11:25:14.037000,Update
+698,UyariListe,UyariListe,,False,698,,,,,,
+699,vCountHourly,vCountHourly,,False,699,,,,,,
+700,vCountHourlyGender,vCountHourlyGender,,False,700,,,,,,
+701,VERA_KDV,VERA_KDV,,False,701,,,,,,
+702,VERA_KISIM,VERA_KISIM,701,False,702,,,,dbo,2024-11-13 11:25:14.037000,Update
+703,Vera_RefNo,Vera_RefNo,,False,703,,,,,,
+704,WH_Dah_Kontrol,WH_Dah_Kontrol,,False,704,,,,,,
+705,WR_BCYazPar,WR_BCYazPar,,False,705,,,,,,
+706,WR_Rapor,WR_Rapor,,False,706,,,,,,
+707,WR_Rapor_Param,WR_Rapor_Param,,False,707,,,,,,
+708,WRH_UEmirhHamFisCon,WRH_UEmirhHamFisCon,,False,708,,,,,,
+709,Zarf_Taslak,Zarf_Taslak,,False,709,,,,,,
+710,zzLocation_1910_Gecis,zzLocation_1910_Gecis,,False,710,,,,,,
+711,BSKredi_Detail_OdemeBag,BSKredi_Detail_OdemeBag,,False,711,,,,,,
+712,ChangeLog,ChangeLog,,True,712,,,,,,
+713,ChangeLogPreTbl,ChangeLogPreTbl,,True,713,,,,,,
+714,Fatura_Gchar,Fatura_Gchar,161,False,714,,,,dbo,2024-11-13 11:25:14.037000,Update
+715,KgFieldsException,KgFieldsException,,True,715,,,,,,
+716,Registry,Registry,782,True,716,,,,dbo,2024-11-13 11:25:14.037000,Update
+717,S_Fis_Gchar,S_Fis_Gchar,435,False,717,,,,dbo,2024-11-13 11:25:14.037000,Update
+718,Stok_Renk,Stok_Renk,,False,718,,,,,,
+719,WRBCPrintLog,WRBCPrintLog,,False,719,,,,,,
+720,Alarm_KGTranslate,Alarm_KGTranslate,,False,720,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+721,C2CAsortiList,C2CAsortiList,,False,721,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+722,C2CGelTip,C2CGelTip,,False,722,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+723,C2CGidTip,C2CGidTip,,False,723,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+724,C2CHizmetK,C2CHizmetK,,False,724,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+725,CariBakiye,CariBakiye,72,True,725,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.157000,Update
+726,CReports,CReports,,True,726,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-10-28 17:45:10.937000,Microsoft SQL Server Management Studio - Query
+727,Donem_Mal_Tip,Donem_Mal_Tip,,False,727,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+728,ExeBlob,ExeBlob,,False,728,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+729,Fat_OzKod1,Fat_OzKod1,,False,729,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+730,Fat_OzKod10,Fat_OzKod10,,False,730,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+731,Fat_OzKod2,Fat_OzKod2,,False,731,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+732,Fat_OzKod3,Fat_OzKod3,,False,732,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+733,Fat_OzKod4,Fat_OzKod4,,False,733,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+734,Fat_OzKod5,Fat_OzKod5,,False,734,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+735,Fat_OzKod6,Fat_OzKod6,,False,735,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+736,Fat_OzKod7,Fat_OzKod7,,False,736,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+737,Fat_OzKod8,Fat_OzKod8,,False,737,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+738,Fat_OzKod9,Fat_OzKod9,,False,738,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+739,Fiyat_Tip,Fiyat_Tip,,False,739,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+740,FReports,FReports,,True,740,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-10-28 17:45:10.937000,Microsoft SQL Server Management Studio - Query
+741,FReports_Det,FReports_Det,740,True,741,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+742,FReports_History,FReports_History,782,True,742,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+743,FReports_KGRapor,FReports_KGRapor,,True,743,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-10-28 17:45:10.937000,Microsoft SQL Server Management Studio - Query
+744,Grup_D,Grup_D,,False,744,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+745,Grup_M,Grup_M,,False,745,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+746,Hiz_SipOnayCompName,Hiz_SipOnayCompName,,False,746,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+747,Hiz_SipOnayKul,Hiz_SipOnayKul,,False,747,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+748,HizliRapor_M,HizliRapor_M,782,False,748,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+749,KaraListe,KaraListe,,False,749,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+750,KGDahIrsSatirAck,KGDahIrsSatirAck,,False,750,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+751,KGMsgList,KGMsgList,,False,751,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+752,kgsys,kgsys,,False,752,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+753,KGTranslate,KGTranslate,,False,753,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+754,Korgun_Catalog,Korgun_Catalog,,False,754,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+755,Korgun_User_AlFiy,Korgun_User_AlFiy,782,False,755,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+756,Korgun_User_AlFiyisk,Korgun_User_AlFiyisk,,False,756,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+757,Korgun_User_BakiyeLocationList,Korgun_User_BakiyeLocationList,782,False,757,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+758,Korgun_User_BiList,Korgun_User_BiList,782,False,758,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+759,Korgun_User_CiList,Korgun_User_CiList,782,False,759,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+760,Korgun_User_DahirsLocationList,Korgun_User_DahirsLocationList,782,False,760,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+761,Korgun_User_DahSipLocationList,Korgun_User_DahSipLocationList,782,False,761,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+762,Korgun_User_FatList,Korgun_User_FatList,782,False,762,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+763,Korgun_User_HRList,Korgun_User_HRList,782,False,763,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+764,Korgun_User_IrsList,Korgun_User_IrsList,782,False,764,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+765,Korgun_User_invUreticiList,Korgun_User_invUreticiList,782,False,765,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+766,Korgun_User_KasaList,Korgun_User_KasaList,,False,766,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+767,Korgun_User_KiList,Korgun_User_KiList,782,False,767,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+768,Korgun_User_LocationList,Korgun_User_LocationList,,False,768,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+769,Korgun_User_MailList,Korgun_User_MailList,782,False,769,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+770,Korgun_User_MevLocationList,Korgun_User_MevLocationList,782,False,770,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+771,Korgun_User_MsktLocationList,Korgun_User_MsktLocationList,782,False,771,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+772,Korgun_User_OtherApplications,Korgun_User_OtherApplications,782,False,772,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+773,Korgun_User_POdeTip,Korgun_User_POdeTip,782,False,773,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+774,Korgun_User_RKriterList,Korgun_User_RKriterList,782,False,774,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+775,Korgun_User_SatFiy,Korgun_User_SatFiy,,False,775,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+776,Korgun_User_SatFiyisk,Korgun_User_SatFiyisk,782,False,776,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+777,Korgun_User_SiList,Korgun_User_SiList,782,False,777,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+778,Korgun_User_TTList,Korgun_User_TTList,782,False,778,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+779,Korgun_User_UreticiList,Korgun_User_UreticiList,782,False,779,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+780,Korgun_UserAccess,Korgun_UserAccess,,False,780,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+781,Korgun_UserGrup,Korgun_UserGrup,782,False,781,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+782,Korgun_UserList,Korgun_UserList,,False,782,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+783,Location_Level,Location_Level,,False,783,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+784,Location_Vitrin,Location_Vitrin,242,False,784,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+785,MailEkGelen,MailEkGelen,,False,785,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+786,MailEkGiden,MailEkGiden,,False,786,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+787,MailGelen,MailGelen,,False,787,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+788,MailGiden,MailGiden,,False,788,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+789,MaliyetMuh2StokSekli,MaliyetMuh2StokSekli,,False,789,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+790,Mas2Var,Mas2Var,,False,790,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+791,ModulNames,ModulNames,,False,791,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+792,ModulParList,ModulParList,,False,792,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+793,ModulParListHistory,ModulParListHistory,,False,793,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+794,OldAsBarCode,OldAsBarCode,,False,794,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+795,OldBarCode,OldBarCode,,False,795,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+796,P_BarCode_Tip,P_BarCode_Tip,,False,796,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+797,P_BarCodeGen_D,P_BarCodeGen_D,,False,797,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+798,P_BarCodeGen_M,P_BarCodeGen_M,,False,798,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+799,P_Beden_D,P_Beden_D,800,False,799,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+800,P_Beden_M,P_Beden_M,,False,800,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+801,P_Birim_D,P_Birim_D,,False,801,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+802,P_Birim_ISO,P_Birim_ISO,,False,802,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+803,P_Birim_M,P_Birim_M,,False,803,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+804,P_BirimGrup,P_BirimGrup,,False,804,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+805,P_Ceki_KoliTip,P_Ceki_KoliTip,,False,805,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+806,P_CK_Zorunlu,P_CK_Zorunlu,,False,806,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+807,P_CNS_Tip,P_CNS_Tip,,False,807,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+808,P_Country_ISO,P_Country_ISO,,False,808,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+809,P_Departman_Tip,P_Departman_Tip,,False,809,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+810,P_DOV_Gir,P_DOV_Gir,,False,810,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+811,P_DOV_ISO,P_DOV_ISO,,False,811,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+812,P_Dov_Option,P_Dov_Option,,False,812,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+813,P_DOV_Tip,P_DOV_Tip,,False,813,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+814,P_FatIrs_iadeNeden,P_FatIrs_iadeNeden,,False,814,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+815,P_FatirsOzTip,P_FatirsOzTip,,False,815,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+816,P_GTip,P_GTip,,False,816,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+817,P_HC_MinSatTut,P_HC_MinSatTut,,False,817,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+818,P_Kalip_Tip_D,P_Kalip_Tip_D,,False,818,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+819,P_Kalip_Tip_M,P_Kalip_Tip_M,,False,819,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+820,P_KKOdTip_D,P_KKOdTip_D,,False,820,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+821,P_KKOdTip_M,P_KKOdTip_M,,False,821,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+822,P_KOL_Tip_D,P_KOL_Tip_D,,False,822,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+823,P_KOL_Tip_M,P_KOL_Tip_M,,False,823,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+824,P_Koli_D,P_Koli_D,,False,824,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+825,P_Koli_M,P_Koli_M,,False,825,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+826,P_KulGrup,P_KulGrup,,False,826,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+827,P_MK_Zorunlu,P_MK_Zorunlu,,False,827,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+828,P_ODE_Tip,P_ODE_Tip,,False,828,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+829,P_OdSekil_D,P_OdSekil_D,,False,829,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+830,P_OdSekil_M,P_OdSekil_M,,False,830,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+831,P_Ozeliskonto,P_Ozeliskonto,,False,831,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+832,P_OzKod_D,P_OzKod_D,,False,832,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+833,P_OzKod_M,P_OzKod_M,,False,833,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+834,P_Par_Ode_Tip,P_Par_Ode_Tip,,False,834,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+835,P_PerPrimTip,P_PerPrimTip,,False,835,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+836,P_Posiade_Tip,P_Posiade_Tip,,False,836,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+837,P_PrimGrup_D,P_PrimGrup_D,,False,837,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+838,P_PrimGrup_M,P_PrimGrup_M,,False,838,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+839,P_RapKolPar,P_RapKolPar,,False,839,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+840,P_RapParam,P_RapParam,,False,840,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+841,P_Reyon,P_Reyon,,False,841,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+842,P_RNK_Tip,P_RNK_Tip,,False,842,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+843,P_SehirPlaka,P_SehirPlaka,,False,843,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+844,P_SFisTip,P_SFisTip,,False,844,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+845,P_SK_Zorunlu,P_SK_Zorunlu,,False,845,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+846,P_ST_OzKod_B,P_ST_OzKod_B,,False,846,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+847,P_ST_OzKod_D,P_ST_OzKod_D,,False,847,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+848,P_ST_OzKod_M,P_ST_OzKod_M,,False,848,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+849,P_ST_Sehir,P_ST_Sehir,,False,849,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+850,P_STK_GRP,P_STK_GRP,,False,850,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+851,P_STK_Tip,P_STK_Tip,,False,851,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+852,P_TT_HarTip,P_TT_HarTip,,False,852,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+853,P_TT_iadeNeden,P_TT_iadeNeden,,False,853,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+854,P_TT_Magaza,P_TT_Magaza,,False,854,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+855,P_Ulke,P_Ulke,,False,855,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+856,P_UlkeSehir,P_UlkeSehir,855,False,856,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+857,P_UlkeSehirilce,P_UlkeSehirilce,856,False,857,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+858,P_UlkeSehirilceSemt,P_UlkeSehirilceSemt,857,False,858,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,dbo,2024-11-13 11:25:14.037000,Update
+859,P_URT_MARKA,P_URT_MARKA,,False,859,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+860,P_URT_Tip,P_URT_Tip,,False,860,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+861,P_Vitrin_M,P_Vitrin_M,,False,861,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+862,Par_Donem,Par_Donem,,False,862,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+863,Par_EF_exceptionList,Par_EF_exceptionList,,False,863,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+864,Par_RiskGrubu,Par_RiskGrubu,,False,864,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+865,Par_Stok_OzKod1,Par_Stok_OzKod1,,False,865,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+866,Par_Tedar,Par_Tedar,,False,866,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+867,Par_TevKodList,Par_TevKodList,,False,867,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+868,ParOptionList,ParOptionList,,False,868,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+869,ParTableList,ParTableList,,False,869,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+870,PosUpdateReason,PosUpdateReason,,False,870,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+871,Proses_D,Proses_D,,False,871,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+872,Proses_M,Proses_M,,False,872,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+873,RaporKriter_D,RaporKriter_D,,False,873,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+874,RaporKriter_M,RaporKriter_M,,False,874,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+875,RDesign_D,RDesign_D,,False,875,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+876,RDesign_M,RDesign_M,,False,876,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+877,RestartLog,RestartLog,,False,877,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+878,Sablon_M,Sablon_M,,False,878,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+879,Sablon_P,Sablon_P,,False,879,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+880,Sablon_PD,Sablon_PD,,False,880,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+881,SendReceive_Option,SendReceive_Option,,False,881,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+882,Sip_OzKod1,Sip_OzKod1,,False,882,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+883,Sip_OzKod10,Sip_OzKod10,,False,883,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+884,Sip_OzKod2,Sip_OzKod2,,False,884,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+885,Sip_OzKod3,Sip_OzKod3,,False,885,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+886,Sip_OzKod4,Sip_OzKod4,,False,886,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+887,Sip_OzKod5,Sip_OzKod5,,False,887,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+888,Sip_OzKod6,Sip_OzKod6,,False,888,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+889,Sip_OzKod7,Sip_OzKod7,,False,889,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+890,Sip_OzKod8,Sip_OzKod8,,False,890,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+891,Sip_OzKod9,Sip_OzKod9,,False,891,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+892,SipOnayCompName,SipOnayCompName,,False,892,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+893,SipOnayKul,SipOnayKul,,False,893,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+894,Stk_OzKod1,Stk_OzKod1,,False,894,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+895,Stk_OzKod2,Stk_OzKod2,,False,895,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+896,Stk_OzKod3,Stk_OzKod3,,False,896,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+897,Stk_OzKod4,Stk_OzKod4,,False,897,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+898,Stk_OzKod5,Stk_OzKod5,,False,898,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+899,StokSekil,StokSekil,,False,899,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+900,Ups_Area,Ups_Area,,False,900,dbo,2024-10-28 17:44:26.070000,Microsoft SQL Server Management Studio - Query,,,
+901,Tedarikci_Atolyeler,Tedarikci_Atolyeler,,False,901,dbo,2024-11-13 10:52:50.447000,Update,,,
+902,Tedarikci_Sip_Durumlari,Tedarikci_Sip_Durumlari,,False,902,dbo,2024-11-13 10:52:50.447000,Update,,,
+903,Tedarikci_Sip_Durumtip,Tedarikci_Sip_Durumtip,,False,903,dbo,2024-11-13 10:52:50.447000,Update,,,
+904,Tedarikci_Sip_Onay,Tedarikci_Sip_Onay,,False,904,dbo,2024-11-13 10:52:50.447000,Update,,,
+905,Tedarikci_Users,Tedarikci_Users,,False,905,dbo,2024-11-13 10:52:50.447000,Update,,,
+906,P_ppr_Fields,P_ppr_Fields,,False,906,dbo,2024-11-13 11:24:52.057000,Update,,,
+907,P_ppr_kDet,P_ppr_kDet,908,False,907,dbo,2024-11-13 11:24:52.057000,Update,dbo,2024-11-13 11:25:14.037000,Update
+908,P_ppr_kMst,P_ppr_kMst,,False,908,dbo,2024-11-13 11:24:52.057000,Update,,,
+909,P_ppr_sDet,P_ppr_sDet,910,False,909,dbo,2024-11-13 11:24:52.057000,Update,dbo,2024-11-13 11:25:14.037000,Update
+910,P_ppr_sMst,P_ppr_sMst,,False,910,dbo,2024-11-13 11:24:52.057000,Update,,,

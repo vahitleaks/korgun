@@ -1,0 +1,10 @@
+Od_Kod,Tanim,Vade,iskonto,Komisyon,Banka,Kasa,Prim,TaksitGun,MuhKod,MM,KKOdTip,MaxVisk,P_Katsayi,P_Omru,P_SKT,Komisyon2,ECuzdan,VERA_Banka_ID,Banka_Taksit,ISOCode,Ingenico_ID,Bkm_ID,Yurtici_Kod,Mng_Kod,Infoteks_ID,Unifree_Kod,Aras_Kod,Surat_Kod,EDMCode,Hugin_PaymetType,Hugin_subPaymetType,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+0,Online PayTr Kredi Kartı,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,1,,,,,,
+1,Online PayTr Kredi Kartı,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,2,,,,,,
+15,Trendyol Havale,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,3,,,,,,
+2,Online PayTr Kredi Kartı,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,4,,,,,,
+20,Morhipo Havale,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,5,,,,,,
+22,ÇiçekSepeti Havale,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,6,,,,,,
+7,Hepsiburada Havale,,,,,,,,,,,,,,,,,,,48,,,,,,,,,,,,7,,,,,,
+GP,Gider Pusulası,,,,,H,,,,,,,,,,,,,,,,,,,,,,,,,,8,,,,,,
+N,Nakit,,,,,E,,,,,,,,,,,,,,10,,,,,,,,,,,,9,,,,,,

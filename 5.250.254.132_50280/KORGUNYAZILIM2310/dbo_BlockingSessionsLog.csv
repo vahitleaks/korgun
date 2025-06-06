@@ -1,0 +1,1594 @@
+kgid,BlockingSPID,BlockingUser,BlockingHost,BlockingApp,BlockingSQL,BlockedSPID,BlockedUser,BlockedHost,BlockedApp,BlockedSQL,LockStartTime,TotalWaitTimeSec,ObjectName,insUN,insDT,insApp,updUN,updDT,updApp
+1,63,Samet,KgShop-KORGUNDC-231001.0585-30060,KGShop,"
+CREATE   TRIGGER [dbo].[s_gchar_StokHareket_update] ON [dbo].[S_GCHar] 
+FOR UPDATE
+AS
+  SET XACT_ABORT ON
+  DECLARE @Tries tinyint = 0, @TRNCNT int = 0, @MaxTry tinyint = 25
+  WHILE 1=1 BEGIN
+    BEGIN TRY
+      SET @TRNCNT = @@TRANCOUNT 
+      IF @TRNCNT>0
+        SAVE TRAN DLTR 
+      ELSE
+        BEGIN TRAN
+      IF UPDATE(SKod) OR UPDATE(RKod) OR UPDATE(BedKod) OR UPDATE(Giren) OR UPDATE(Cikan) OR UPDATE(Birim) BEGIN
+
+        DELETE sh FROM StokHareket sh
+          WHERE sh.FisTip='Fatura' AND EXISTS(SELECT TOP 1 1 FROM deleted d WHERE d.Modul = 'F' and d.FisNo = sh.FisNo AND d.FisHarInx = sh.FisHarinx AND d.RKOD = sh.RKod AND d.BedKod = sh.BedKod)
+        DELETE sh FROM StokHareket sh
+          WHERE sh.FisTip='SFis' AND EXISTS(SELECT TOP 1 1 FROM deleted d WHERE d.Modul = 'S' and d.FisNo = sh.FisNo AND d.FisHarInx = sh.FisHarinx AND d.RKOD = sh.RKod AND d.BedKod = sh.BedKod)
+        
+        INSERT INTO StokHareket (FisTip, FisTur, FisTurid, FisNo, Fisharinx, Skod, rkod, bedkod, location, LotNo, FisTar, HarMiktar, HarBirim, Miktar, Birim)
+          Select 'Fatura', k.FaturaTip, (CASE SUBSTRING(FaturaTip, 2, 2) WHEN 'al' THEN 1 WHEN 'sa' THEN 2 WHEN 'si' THEN 3 WHEN 'ai' THEN 4 END), k.BelgeNo, h.FatHarinx, h.Skod, g.Rkod, g.BedKod, k.Location, ISNULL(h.LotNo, ''), k.FatTar, (CASE WHEN k.iptal='*' THEN 0 ELSE ISNULL(g.Giren, 0)-ISNULL(g.Cikan, 0) END), h.Birim, mik.Sonuc, stk.Birim
+          FROM inserted g 
+          LEFT JOIN Fatura_Kay k ON g.FisNo=k.belgeNo
+          LEFT JOIN Fatura_Har h ON k.BelgeNo=h.BelgeNo AND g.FisHarInx=h.FatHarinx
+          LEFT JOIN StokKart stk ON h.Skod=stk.SKOD
+          CROSS APPLY dbo.kg_ifn_GetConvStkMik(h.SKOD, (CASE WHEN k.iptal='*' THEN 0 ELSE ISNULL(g.Giren, 0)-ISNULL(g.Cikan, 0) END), h.Birim, stk.Birim) mik
+          WHERE g.Modul='F' AND SUBSTRING(FaturaTip, 1, 1) <> 'h'
+    
+        INSERT INTO StokHareket (FisTip, FisTur, FisTurid, FisNo, Fisharinx, Skod, rkod, bedkod, location, LotNo, FisTar, HarMiktar, HarBirim, Miktar, Birim)
+          Select 'SFis', k.FisTip, (CASE k.FisTip WHEN 0 THEN 1 WHEN 1 THEN 1 WHEN 4 THEN 3 WHEN 2 THEN 2 WHEN 3 THEN 4 END), k.FisNo, h.FisHarInx, h.Skod, g.Rkod, g.BedKod, k.Location, ISNULL(h.LotNo, ''), k.FisTar, (CASE WHEN k.iptal='*' THEN 0 ELSE ISNULL(g.Giren, 0)-ISNULL(g.Cikan, 0) END), h.Birim, mik.Sonuc, stk.Birim
+          FROM inserted g 
+          LEFT JOIN S_Fis_Kay k ON g.FisNo=k.FisNo
+          LEFT JOIN S_Fis_Har h ON k.FisNo=h.FisNo AND g.FisHarInx=h.FisHarInx
+          LEFT JOIN StokKart stk ON h.Skod=stk.SKOD
+          CROSS APPLY dbo.kg_ifn_GetConvStkMik(h.SKOD, (CASE WHEN k.iptal='*' THEN 0 ELSE ISNULL(g.Giren, 0)-ISNULL(g.Cikan, 0) END), h.Birim, stk.Birim) mik
+          WHERE g.Modul='S'
+
+      --  UPDATE sh 
+      --  SET 
+      --    --sh.SKod = k.SKod,
+      --    --sh.RKod = k.RKOD,
+      --    --sh.BedKod = k.BedKod,
+      --    sh.HarBirim = k.Birim,
+      --    sh.HarMiktar = (CASE WHEN COALESCE(fk.iptal, sk.iptal, '') = '*' THEN 0 ELSE (ISNULL(k.Giren, 0) - ISNULL(k.Cikan, 0)) END),
+      --    sh.Miktar = (CASE WHEN COALESCE(fk.iptal, sk.iptal, '') = '*' THEN 0 ELSE cm.Sonuc END)
+      --  FROM StokHareket sh
+      --  LEFT JOIN (SELECT FisNo, FisHarInx, Skod, Rkod, BedKod, Birim, Giren, Cikan, (CASE Modul WHEN 'F' THEN 'Fatura' WHEN 'S' THEN 'SFis' ELSE '' END) as FisTip from inserted) k ON k.FisTip = sh.FisTip AND k.FisNo = sh.FisNo AND k.FisHarInx = sh.FisHarinx and k.SKOD = sh.SKod and k.RKOD = sh.RKod and k.BedKOD = sh.BedKod
+      --  CROSS APPLY dbo.kg_ifn_GetConvStkMik(k.SKod, (ISNULL(k.Giren, 0) - ISNULL(k.Cikan, 0)), k.Birim, sh.Birim) cm
+      --  LEFT JOIN Fatura_Kay fk ON sh.FisTip='Fatura' AND fk.BelgeNo = sh.FisNo
+      --  LEFT JOIN S_Fis_Kay sk ON sh.FisTip='SFis' AND sk.FisNo = sh.FisNo
+      --  WHERE ISNULL(k.FisNo, 0) > 0 --sh.FisTip = 'Fatura' AND k.Modul='F' 
+
+
+      END
+
+      IF @TRNCNT=0 
+        COMMIT WITH (DELAYED_DURABILITY = ON)
+      BREAK
+    END TRY
+    BEGIN CATCH
+      Set @Tries += 1 
+      IF (ERROR_NUMBER() = 1205) AND (@Tries < @MaxTry) BEGIN -- 1205 : Deadlock
+        IF @TRNCNT = 0
+          ROLLBACK TRAN 
+        ELSE IF XACT_STATE() <> -1 
+          ROLLBACK TRAN DLTR; 
+      END 
+      ELSE BEGIN 
+        IF @TRNCNT = 0
+          ROLLBACK TRAN
+        ELSE IF XACT_STATE() <> -1 BEGIN
+          ROLLBACK TRAN DLTR; 
+        END;
+        THROW
+      END
+    END CATCH
+  END
+",57,sa,KGEntegrator-TutarHesaplama-1.0.9218.23220,KGEntegrator,SELECT TOP 100 CAST(kgid as varchar) FROM ChangeLogPreTbl ORDER BY kgid,2025-04-08 16:29:43.447000,16,[KORGUNYAZILIM2310].[dbo].[ChangeLogPreTbl],dbo,2025-04-08 16:29:53.067000,KGEntegrator,dbo,2025-04-08 16:29:59.773000,KGEntegrator
+2,63,Samet,KgShop-KORGUNDC-231001.0585-30060,KGShop,"
+CREATE   FUNCTION [dbo].[kg_fn_GetAlSatFiyB] (@SKOD VarChar(15),@Rkod int,@BedKod int, @FiyTip varchar(3) ,
+     @Opti varChar(2), @Date Datetime , @ParaCinsi VarChar(3), @Birim VarChar(10) , @Location NVarChar(MAX) , @AlSat VarChar(1))
+RETURNS numeric(25, 10)
+ 
+AS BEGIN
+-- a aktif fiyat
+-- t tarihe en yakin tanimli fiyat
+-- s secilen fiyat tipine gore fiyat
+-- o Agirlikli ortalama Fiyat
+-- o2 Agirlikli ortalama Fiyat - iadeler dahil
+-- u ortalama fiyat
+--if @Opti<>'o' begin
+  declare @LocationX Table(Locx varchar(50))
+  declare @langid int , @ReFiyat numeric(25, 10)
+  Declare @zzRkod int , @zzBedKod int , @Fiyat numeric(25, 10), @pc VarChar(3) ,@tip varchar(3) ,@br varchar(10)
+  select @langid = 103 , @Fiyat=(0) , @rkod = isNull(@rkod,0) , @bedkod = isnull(@bedkod,0)
+  select @pc=CheckValue from dbo.Modulparlist Where (Modul='GENEL')and(MOption='DefaultPC')
+  Declare @AllLok nvarchar(20)
+  Select @AllLok = CheckValue from dbo.Modulparlist Where (Modul='StkFis')and(MOption='FiyTumLok')
+  DECLARE @FiyHesDonemBasUse NVARCHAR(10)
+  Select @FiyHesDonemBasUse = CheckValue from dbo.Modulparlist Where (Modul='GENEL')and(MOption='FiyHesDonemBasUse')
+  declare @DonemBas Date
+  IF(@FiyHesDonemBasUse='Evet') BEGIN  --- Baymel Agirlikli ortalama
+  --  Fiyat hesaplama fonksiyonlarinda donem baslangic tarihi onemsensin mi?
+    Select @DonemBas = Baslangic  From dbo.Par_Donem d Where Katalog=db_Name()
+  END ELSE set @DonemBas=NULL;
+   
+  if isNull(@AllLok, '')='Evet'
+    Set @Location=''
+  declare @Fiyat_1 numeric(25, 10),@miktar_1 numeric(25, 10), @DocumentCount int ,
+          @Fiyat_2 numeric(25, 10),@miktar_2 numeric(25, 10),
+          @Fiyat_3 numeric(25, 10),@miktar_3 numeric(25, 10)
+  declare @Modul_x VarChar(1),@Tutar_x numeric(25, 10), @Miktar_x numeric(25, 10), @Birim_x varchar(15)
+  select @br = Birim From StokKart Where SKod=@SKod
+  if (@Opti=N'o') or (@Opti=N'o2')or (@Opti=N'o3') or (@Opti=N'u') or (@Opti=N'b') or (@Opti=N'b2') Begin
+    if @Location='' Begin
+      insert @LocationX select AccessLocation from dbo.Korgun_User_LocationList Where (UserName=USER_NAME() ) and (catalogname=db_name())
+    end else if @Location<>'' Begin  
+      While Charindex(',',@Location)>0 Begin
+        insert @LocationX (Locx) values (Substring(@Location,1,Charindex(',',@Location)-1 ) )
+        set @Location = Substring(@Location,Charindex(',',@Location)+1,len(@Location) )
+      end  
+      insert @LocationX (Locx) values (@Location)
+    end
+  end
+  if (@Opti=N'a') or (@Opti=N't') or (@Opti=N's') Begin
+      if @AlSat='S' Begin 
+        if exists (select skod from s_SatFiy Where (skod=@SKod)and(rkod=@rkod)and(BedKod=@BedKod) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           select @zzRkod =@rkod , @zzBedKod =@BedKod
+        else if exists(select skod from s_satFiy Where (skod=@SKod)and(rkod=@rkod)and(BedKod=0) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =@rkod , @zzBedKod =0
+        else if exists(select skod from s_satFiy Where (skod=@SKod)and(rkod=0)and(BedKod=@BedKod) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =0 , @zzBedKod =@BedKod
+        else if exists(select skod from s_satFiy Where (skod=@SKod)and(rkod=0)and(BedKod=0) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =0 , @zzBedKod =0
+      end else if @AlSat='A' Begin 
+        if exists(select skod from s_AlFiy Where (skod=@SKod)and(rkod=@rkod)and(BedKod=@BedKod) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =@rkod , @zzBedKod =@BedKod
+        else  if exists(select skod from s_AlFiy Where (skod=@SKod)and(rkod=@rkod)and(BedKod=0) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =@rkod , @zzBedKod =0
+        else  if exists(select skod from s_AlFiy Where (skod=@SKod)and(rkod=0)and(BedKod=@BedKod) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =0 , @zzBedKod =@BedKod
+        else  if exists(select skod from s_AlFiy Where (skod=@SKod)and(rkod=0)and(BedKod=0) and ((@Opti=N'a') or ((@Opti=N't')and(FTarih <= @Date))or((@Opti=N's')and(Tip = @FiyTip))) ) 
+           Select @zzRkod =0 , @zzBedKod =0
+      end
+  end 
+  if @Opti='a' Begin
+      if @AlSat='S' Begin 
+        if exists(select SKod from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(a.exCheck='*')) Begin
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(a.exCheck='*')
+        end else if exists(select SKod from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)) Begin
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)
+        end
+        select @pc=ParaCinsi From dbo.Fiyat_Tip Where (Tip = @Tip) and (Bolum='SF') 
+      end else if @AlSat='A' Begin 
+        if exists(select SKod from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(a.exCheck='*')) Begin
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(a.exCheck='*')
+        end else if exists(select SKod from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)) Begin
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)
+        end 
+        select @pc=ParaCinsi From dbo.Fiyat_Tip Where (Tip = @Tip) and (Bolum='AF') 
+      end
+      if @pc <> @ParaCinsi 
+        select @ReFiyat = dbo.kg_fn_DovHes(@pc,@ParaCinsi,cast(CONVERT(varchar(10),@Date,@langid) as datetime),@Fiyat)
+      else if @pc = @ParaCinsi   set @ReFiyat = @Fiyat
+  end else if @Opti='t' Begin
+      if @AlSat='S' Begin 
+        if exists(select SKod from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(FTarih <= @Date)) 
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(FTarih <= @Date)
+        if isnull(@Tip,'')<>''
+          select @pc=ParaCinsi From dbo.Fiyat_Tip Where (Tip = @Tip) and (Bolum='SF') 
+      end else if @AlSat='A' Begin 
+        if exists(select SKod from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(FTarih <= @Date)) 
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(FTarih <= @Date)
+        if isnull(@Tip,'')<>''
+          select @pc=ParaCinsi From dbo.Fiyat_Tip Where (Tip = @Tip) and (Bolum='AF') 
+      end
+      if @pc <> @ParaCinsi 
+        select @ReFiyat = dbo.kg_fn_DovHes(@pc,@ParaCinsi,cast(CONVERT(varchar(10),@Date,@langid) as datetime),@Fiyat)
+      else if @pc = @ParaCinsi   set @ReFiyat = @Fiyat
+  end else if @Opti='s' Begin
+      if @AlSat='S' Begin 
+        if exists(select SKod from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(Tip = @FiyTip)) 
+          select @Fiyat=a.Fiyat , @tip=a.Tip from s_SatFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(Tip = @FiyTip)
+        if isnull(@Tip,'')<>''
+          select @pc=ParaCinsi From dbo.Fiyat_Tip Where (Tip = @Tip) and (Bolum='SF') 
+      end else if @AlSat='A' Begin 
+        if exists(select SKod from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(Tip = @FiyTip)) 
+          select @Fiyat=a.Fiyat, @tip=a.Tip from s_AlFiy a  Where (a.skod=@SKod)and(a.rkod=@zzRkod)and(a.BedKod=@zzBedKod)and(Tip = @FiyTip)
+        if isnull(@Tip,'')<>''
+          select @pc=ParaCinsi From dbo.Fiyat_Tip Where (Tip = @Tip) and (Bolum='AF') 
+      end
+      if @pc <> @ParaCinsi 
+        select @ReFiyat = dbo.kg_fn_DovHes(@pc,@ParaCinsi,cast(CONVERT(varchar(10),@Date,@langid) as datetime),@Fiyat)
+      else if @pc = @ParaCinsi   set @ReFiyat = @Fiyat
+
+  end else if (@Opti='go') or (@Opti='g2') Begin  -- Girislerden elde kalanlarin ortalama fiyati
+
+--   
+--
+     declare @basitOrtKalan Table( id int identity(1,1), Modul varchar(1),FisNo int,FHarinx int,FisTar datetime,Gtutar numeric(25, 10),CTutar numeric(25, 10),giren numeric(25, 10),cikan numeric(25, 10),birim varchar(10) ,Kalan numeric(25, 10) )
+		declare @mevcut numeric(25, 10) , @maxid int
+        insert @basitOrtKalan (  Modul ,FisTar,FisNo ,FHarinx ,Gtutar,CTutar,giren ,cikan ,birim )
+        select Modul,Fattar,Belgeno,FatHarinx,GTutar,CTutar,Giren,Cikan, Birim from (
+          select 'F' as Modul,k.FatTar,k.BelgeNo ,h.FatHarinx,0 as GTutar , CAST(0 as numeric(25, 10)) CTutar, isnull(sum(sgc.Giren),0) as Giren, cast(0 as numeric(25, 10)) as Cikan,h.Birim 
+          From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.BelgeNo) and (sgc.FisHarInx=h.FatHarinx) and (Modul=N'F')
+           Where ((substring(k.FaturaTip,2,2)='al') or (substring(k.FaturaTip,2,2)='si'))
+              and (sgc.SKod=@SKod)  and exists(select locx from @LocationX Where locx=k.location )  
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and -- uretim sirasinda gelmiu olan urunlerin fatura tarihleri daha sonraki bir tarihte. bu yuzden fiyat hesaplarken irsaliye tarihi kullanilmali b2 secenegi
+               (( (@Opti='go') and
+            ( (@Date is null) or ((k.Fatura=N'*')and (k.FatTar < @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                ) or  
+                ( (@Opti='g2') and
+            ( (@Date is null) or ((isnull(k.irsaliye,'')=N'')and(k.Fatura=N'*')and (k.FatTar < @Date)) or( (k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                ))
+				and ((@DonemBas is null) or (@DonemBas <= k.irsaliyeTar))
+              and (isNull(k.iptal, '')='')
+          Group by k.FatTar,k.BelgeNo,h.FatHarinx,h.Birim
+          union all
+          select 'S',k.FisTar,k.FisNo,h.FisHarInx , 0 ,0, isnull(sum(sgc.Giren),0) ,0 ,h.Birim
+            From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+              left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+            Where  ((k.FisTip='0')or(k.FisTip='1')or(k.FisTip='4'))
+              and (sgc.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar < @Date) )
+			  and ((@DonemBas is null) or (@DonemBas <= k.FisTar))
+              and (isNull(k.iptal, '')='')
+          Group by k.FisTar,k.FisNo,h.FisHarInx,h.Birim
+		  union all
+          Select 'F',k.FatTar,k.BelgeNo,h.FatHarinx, 0,0 , 0,isnull(sum(sgc.Cikan),0)  ,h.Birim
+          From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.BelgeNo) and (sgc.FisHarInx=h.FatHarinx) and (Modul=N'F')
+            Where ((substring(k.FaturaTip,2,2)='sa')or(substring(k.FaturaTip,2,2)='ai'))
+              and (sgc.SKod=@SKod)  and exists(select locx from @LocationX Where locx=k.location )  
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              --and ((@Date is null) or ((k.Fatura=N'*')and (k.FatTar <= @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+              and -- uretim sirasinda gelmiu olan urunlerin fatura tarihleri daha sonraki bir tarihte. bu yuzden fiyat hesaplarken irsaliye tarihi kullanilmali b2 secenegi
+               (( (@Opti='go') and
+            ( (@Date is null) or ((k.Fatura=N'*')and (k.FatTar < @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                ) or  
+                ( (@Opti='g2') and
+            ( (@Date is null) or ((isnull(k.irsaliye,'')=N'')and(k.Fatura=N'*')and (k.FatTar < @Date)) or( (k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                ))
+				and ((@DonemBas is null) or (@DonemBas <= k.irsaliyeTar))
+--              and (isnull(sgc.Cikan,0)>0)
+          Group by k.FatTar,k.BelgeNo,h.FatHarinx,h.Birim
+          union all
+          Select 'S' , k.FisTar,k.FisNo,h.FisHarInx,0 ,0,0, isnull(sum(sgc.Cikan),0) ,h.Birim
+          From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+           Where  ((k.FisTip='2')or(k.FisTip='3'))
+              and (sgc.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar < @Date) ) and (isNull(k.iptal, '')='')
+			  and ((@DonemBas is null) or (@DonemBas <= k.FisTar ))
+--              and (isnull(sgc.Cikan,0)>0)
+          Group by k.FisTar,k.FisNo,h.FisHarInx,h.Birim
+		  ) xxx 
+		  order by Fattar,Belgeno
+
+		 select @mevcut = SUM(giren)-SUM(cikan) from @basitOrtKalan
+		 if @mevcut > 0 begin
+		    update x  set Kalan = (select SUM(ISNULL(giren,0) )  from @basitOrtKalan xx Where xx.id>=x.id ) from @basitOrtKalan x
+			select @maxid=MAX(id) from @basitOrtKalan y Where y.Kalan > @mevcut
+	                if @maxid is null begin
+			  select @maxid=min(id) from @basitOrtKalan y Where y.Kalan <= @mevcut
+			end
+			update x set Giren=   Giren- (Kalan-@mevcut) from @basitOrtKalan x Where id=@maxid
+	        update x set GTutar= isnull(
+               (CASE WHEN isnull(k.iskMuh,'')='*' THEN (tut.Tutar) ELSE (tut.OTVMatrah) END)
+                 * (1+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_HizFatOran(k.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_BFisFatOran(k.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('K', k.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('C', k.BelgeNo, @Paracinsi))
+                   ) 
+               + dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi, h.Miktar,'F')*isnull(x.Giren,0)
+             , 0) / h.Miktar * x.Giren
+           
+    --       isnull(  (
+    --       case when isnull(k.KDVCheck,N'')=N'*' Then
+   --          (Case when isnull(k.iskMuh,'')='*' then -- iskonolar muhasebe hesabina gitsin
+   --              (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+   --               dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),0, 0, isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+   --                )) 
+   --                * (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi)) 
+   --             else  
+   --              (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+   --               dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+   --                )) 
+   --                * (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi)) 
+   --             end)
+   --        else (Case when isnull(k.iskMuh,'')='*' then --iskonolar muhasebe hesabina gitsin
+   --                (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+   --                 dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),0, 0, 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+   --                 )) 
+   --                * (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+   --              else              
+   --                (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+   --                 dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+   --                 )) 
+   --                * (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+   --              end)
+   --        end            
+   --        +dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi,h.Miktar,'F')*isnull(x.Giren,0)
+   --        ) ,0) 
+		   from @basitOrtKalan x 
+                       left  join Fatura_Kay k on k.BelgeNo=x.FisNo 
+                       left  join Fatura_Har h on h.BelgeNo=k.BelgeNo and h.FatHarinx=x.FHarinx
+               LEFT JOIN FaturaTutar tut ON tut.FisNo=k.BelgeNo AND tut.FisHarinx=h.FatHarinx AND tut.ParaCinsi=@ParaCinsi AND tut.LineType = 'S'
+		   Where x.id>=@maxid and x.giren>0 and x.Modul='F'
+		   update x set Gtutar=
+            isnull(tut.OTVMatrah, 0)  / h.Miktar * x.Giren
+--		      isnull(  ( (dbo.kg_fn_DovHesX('S', k.FisNo, h.ParaCinsi, @paracinsi , cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime) ,
+--            dbo.kg_fn_FindTutar(isnull(x.Giren,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0) ,'*') * (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+--             )) ) ,0) 
+		   from @basitOrtKalan x left  join S_Fis_Kay k on k.fisno=x.FisNo left  join S_Fis_Har h on h.fisno=k.FisNo and h.FisHarInx=x.FHarinx
+           LEFT JOIN SFisTutar tut ON tut.FisNo=k.Fisno  AND tut.FisHarinx=h.FisHarInx AND tut.ParaCinsi=@ParaCinsi AND tut.LineType = 'S'
+		   Where x.id>=@maxid and x.giren>0 and x.Modul='S'
+		    select   @ReFiyat = sum(isnull(Gtutar,0) ) / SUM(isnull(Giren,0)) from @basitOrtKalan x where id>=@maxid
+		 end else begin
+		    select @maxid=MAX(id) from @basitOrtKalan b Where b.giren>0
+			if (select modul from @basitOrtKalan Where id=@maxid )='F' begin
+				Select @ReFiyat = 
+            isnull(
+               (CASE WHEN isnull(k.iskMuh,'')='*' THEN (tut.Tutar) ELSE (tut.OTVMatrah) END)
+                 * (1+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_HizFatOran(k.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_BFisFatOran(k.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('K', k.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('C', k.BelgeNo, @Paracinsi))
+                   ) 
+               + dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi, x.Giren,'F')*isnull(x.Giren,0)
+             , 0)  / h.Miktar * x.Giren
+--                        isnull(   (
+--				case when isnull(k.KDVCheck,N'')=N'*' Then
+--					(Case when isnull(k.iskMuh,'')='*' then -- iskonolar muhasebe hesabina gitsin
+--						(dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+--						dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),0, 0, isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+--						)) 
+--						* (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi)) 
+--					else  
+--						(dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+--						dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+--						)) 
+--						* (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi)) 
+--					end)
+--				else (Case when isnull(k.iskMuh,'')='*' then --iskonolar muhasebe hesabina gitsin
+--						(dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+--						dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),0, 0, 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+--						)) 
+--						* (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+--						else              
+--						(dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+--						dbo.kg_fn_FindTutarX(isnull(x.Giren,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+--						)) 
+--						* (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+--						end)
+--				end            
+--				+dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi,h.Miktar,'F')*isnull(x.Giren,0)
+--				) ,0)  / x.giren
+				from @basitOrtKalan x left join Fatura_Kay k on k.BelgeNo=x.FisNo left join Fatura_Har h on h.BelgeNo=k.BelgeNo and h.FatHarinx=x.FHarinx
+                                   LEFT JOIN FaturaTutar tut ON tut.FisNo=k.BelgeNo AND tut.FisHarinx=h.FatHarinx AND tut.ParaCinsi=@ParaCinsi AND tut.LineType = 'S'
+				Where x.id>=@maxid and x.giren>0 and x.Modul='F'
+			end else begin
+				select @ReFiyat =
+            isnull(tut.OTVMatrah, 0)
+--				  isnull( ( (dbo.kg_fn_DovHesX('S', k.FisNo, h.ParaCinsi, @paracinsi , cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime) ,
+--				dbo.kg_fn_FindTutar(isnull(x.Giren,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0) ,'*') * (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+--				 )) ) ,0)   / x.giren
+                                 / h.Miktar * x.Giren
+			   from @basitOrtKalan x left join S_Fis_Kay k on k.fisno=x.FisNo left join S_Fis_Har h on h.fisno=k.FisNo and h.FisHarInx=x.FHarinx
+             LEFT JOIN SFisTutar tut ON tut.FisNo=k.Fisno  AND tut.FisHarinx=h.FisHarInx AND tut.ParaCinsi=@ParaCinsi AND tut.LineType = 'S'
+			   Where x.id>=@maxid and x.giren>0 and x.Modul='S'
+			end
+		 end
+
+
+
+  end else if (@Opti='b') or (@Opti='b2') Begin  -- Basit agirlikli ortalama fiyat
+
+
+       select @Fiyat_1 = 0 ,@DocumentCount=0  , @Fiyat_2 = 0 , @miktar_1 = 0 , @miktar_2 = 0 
+-- @Date tarih filtrelemesinde esit olma durumu kaldirildi. atama yapilan tarihte ve islemdeki fiyat ve miktar etkilemesin diye
+       DECLARE xBOrt_1 CURSOR Local FOR 
+         select modul , sum (Tutar) , sum(giren) , birim from (
+         select modul, ( case when modul='F' then sum(Tutar) * (1+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_HizFatOran(aa.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_BFisFatOran(aa.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('K', aa.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('C', aa.BelgeNo, @Paracinsi))
+                   ) 
+                else sum(tutar) 
+                end + sum(FFark) ) as tutar
+                , sum(Giren) as Giren, birim
+              from (
+         select 'F' as Modul,k.belgeno, isnull(sum(
+           case when isnull(k.KDVCheck,N'')=N'*' Then
+             (Case when isnull(k.iskMuh,'')='*' then --iskonolar muhasebe hesabina gitsin
+                 (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                  dbo.kg_fn_FindTutarX(isnull(sgc.Giren,0), isnull(h.Fiyat,0),0, 0, isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+                   )) 
+              
+                  -- * (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))
+                    
+                else  
+                 (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                  dbo.kg_fn_FindTutarX(isnull(sgc.Giren,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+                   )) 
+--                   * (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi)) 
+                end)
+               --asagidakiler iskontonun yanina koyuldu..yanlis hesaplamadan dolayi..tugi..08.04.2005
+                --* (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,h.ParaCinsi))
+               --* (1+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,h.ParaCinsi))
+           else (Case when isnull(k.iskMuh,'')='*' then --iskonolar muhasebe hesabina gitsin
+                   --(dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                   -- dbo.kg_fn_FindTutarX(isnull(sgc.Giren,0), isnull(h.Fiyat,0),0, 0, 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+                   -- )) 
+--                   * (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+                    ISNULL(tut.Tutar,0)
+                 else              
+                   --(dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                   -- dbo.kg_fn_FindTutarX(isnull(sgc.Giren,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+                   -- )) 
+                   ISNULL(tut.OTVMatrah,0)/ h.Miktar * sgc.Giren
+--                   * (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+                 end)
+               --asagidakiler iskontonun yanina koyuldu..yanlis hesaplamadan dolayi..tugi..08.04.2005
+               --* (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,h.ParaCinsi))           
+               --* (1+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,h.ParaCinsi))
+           end            
+           ) ,0) as Tutar
+           , sum( dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi,h.Miktar,'F')*isnull(sgc.Giren,0) ) as ffark
+          , isnull(sum(sgc.Giren),0) as Giren ,h.Birim 
+            From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+              left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.BelgeNo) and (sgc.FisHarInx=h.FatHarinx) and (Modul=N'F')
+              LEFT JOIN faturaTutar tut ON tut.FisNo=h.BelgeNo AND tut.FisHarinx=h.FatHarinx AND tut.ParaCinsi=ISNULL(@ParaCinsi,h.ParaCinsi) AND tut.LineType='S'
+              Where ((substring(k.FaturaTip,2,2)='al') or (substring(k.FaturaTip,2,2)='si'))
+                and (sgc.SKod=@SKod)  and exists(select locx from @LocationX Where locx=k.location )  
+                and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+                and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+                and -- uretim sirasinda gelmis olan urunlerin fatura tarihleri daha sonraki bir tarihte. bu yuzden fiyat hesaplarken irsaliye tarihi kullanilmali b2 secenegi
+                 (( (@Opti='b') and
+                ( (@Date is null) or ((k.Fatura=N'*')and (k.FatTar < @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                    ) or  
+                    ( (@Opti='b2') and
+                ( (@Date is null) or ((isnull(k.irsaliye,'')=N'')and(k.Fatura=N'*')and (k.FatTar < @Date)) or( (k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                    ))
+               and ((@DonemBas is null) or (@DonemBas <= k.irsaliyeTar))
+                and (isNull(k.iptal, '')='')
+          Group by k.belgeno,h.Birim
+          union all
+         select 'S' ,k.fisno,isnull(sum( 
+            dbo.kg_fn_FindTutar(isnull(sgc.Giren,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0) ,'*') * (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+              ) ,0) 
+             , 0 as FFark
+          , isnull(sum(sgc.Giren),0) ,h.Birim
+            From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+            Where  ((k.FisTip='0')or(k.FisTip='1')or(k.FisTip='4'))
+              and (sgc.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar < @Date) )
+              and ((@DonemBas is null) or (@DonemBas <= k.FisTar))
+              and (isNull(k.iptal, '')='')
+			   and h.ParaCinsi= @paracinsi
+--              and (isnull(sgc.Giren,0)>0)
+         Group by k.fisno,h.Birim
+          union all
+         select 'S' ,k.fisno,isnull(sum( (dbo.kg_fn_DovHesX('S', k.FisNo, h.ParaCinsi, @paracinsi , cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime) ,
+            dbo.kg_fn_FindTutar(isnull(sgc.Giren,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0) ,'*') * (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+             )) ) ,0) 
+             , 0 as FFark
+          , isnull(sum(sgc.Giren),0) ,h.Birim
+            From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+            Where  ((k.FisTip='0')or(k.FisTip='1')or(k.FisTip='4'))
+              and (sgc.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar < @Date) )
+              and ((@DonemBas is null) or (@DonemBas <= k.FisTar))
+              and (isNull(k.iptal, '')='')
+			  and h.ParaCinsi<> @paracinsi
+--              and (isnull(sgc.Giren,0)>0)
+         Group by k.fisno,h.Birim
+         ) aa group by belgeno,Modul,Birim 
+         ) bb group by Modul,Birim 
+         
+       OPEN xBOrt_1
+       FETCH NEXT FROM xBOrt_1
+       INTO @Modul_x ,@Tutar_x , @Miktar_x , @Birim_x 
+       WHILE (@@FETCH_STATUS = 0)  BEGIN
+         set @Fiyat_1 = @Fiyat_1 + @Tutar_x
+         set @DocumentCount = @DocumentCount+1
+         if @Birim_x = @Birim Begin
+           set @miktar_1 = @miktar_1 + @Miktar_x
+         end else begin
+           set @miktar_1 = @miktar_1 + Dbo.kg_fn_GetConvStkMik (@SKod,@Miktar_x,@Birim_x,@Birim )
+         end
+         FETCH NEXT FROM xBOrt_1
+         INTO @Modul_x ,@Tutar_x , @Miktar_x , @Birim_x 
+       end
+       CLOSE xBOrt_1
+       DEALLOCATE xBOrt_1
+
+       DECLARE xBOrt_2 CURSOR Local FOR 
+       
+                select modul , sum (Tutar) , sum(cikan) , birim from (
+         select modul, ( case when modul='F' then sum(Tutar) * (1+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_HizFatOran(aa.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_BFisFatOran(aa.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('K', aa.BelgeNo, @Paracinsi))+
+                     (SELECT TOP 1 Sonuc FROM dbo.kg_ifn_CFisFatOran('C', aa.BelgeNo, @Paracinsi))
+                   ) 
+                else sum(tutar) 
+                end + sum(FFark) ) as tutar
+                , sum(cikan) as cikan, birim
+              from (
+         select 'F' as Modul,k.belgeno, isnull(sum(
+           case when isnull(k.KDVCheck,N'')=N'*' Then
+             (Case when isnull(k.iskMuh,'')='*' then --iskonolar muhasebe hesabina gitsin
+                 (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                  dbo.kg_fn_FindTutarX(isnull(sgc.cikan,0), isnull(h.Fiyat,0),0, 0, isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+                   )) 
+              
+                  -- * (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))
+                    
+                else  
+                 (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                  dbo.kg_fn_FindTutarX(isnull(sgc.cikan,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', h.OTVOran,h.FatHarinx,0,'F') 
+                   )) 
+--                   * (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi)) 
+                end)
+               --asagidakiler iskontonun yanina koyuldu..yanlis hesaplamadan dolayi..tugi..08.04.2005
+               --* (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,h.ParaCinsi))
+               --* (1+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,h.ParaCinsi))
+           else (Case when isnull(k.iskMuh,'')='*' then --iskonolar muhasebe hesabina gitsin
+                   (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                    dbo.kg_fn_FindTutarX(isnull(sgc.cikan,0), isnull(h.Fiyat,0),0, 0, 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+                    )) 
+--                   * (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+                 else              
+                   (dbo.kg_fn_DovHesX('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+                    dbo.kg_fn_FindTutarX(isnull(sgc.cikan,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), 0 ,k.KDVCheck, '', 0,h.FatHarinx,0,'F') 
+                    )) 
+--                   * (1-(Dbo.kg_fn_FindiskOran(h.BelgeNo)/100 )+dbo.kg_fn_FindCHizOran(k.BelgeNo,@Paracinsi)+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,@Paracinsi))  
+                 end)
+               --asagidakiler iskontonun yanina koyuldu..yanlis hesaplamadan dolayi..tugi..08.04.2005
+               --* (1+dbo.kg_fn_FindCHizOran(k.BelgeNo,h.ParaCinsi))           
+               --* (1+dbo.kg_fn_FatMasrafOran('*',k.BelgeNo,h.ParaCinsi))
+           end            
+           ) ,0) as Tutar
+           , sum( dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi,h.Miktar,'F')*isnull(sgc.cikan,0) ) as ffark
+          , isnull(sum(sgc.cikan),0) as cikan ,h.Birim 
+            From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+              left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.BelgeNo) and (sgc.FisHarInx=h.FatHarinx) and (Modul=N'F')
+           Where ((substring(k.FaturaTip,2,2)='sa')or(substring(k.FaturaTip,2,2)='ai'))
+              and (sgc.SKod=@SKod)  and exists(select locx from @LocationX Where locx=k.location )  
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              --and ((@Date is null) or ((k.Fatura=N'*')and (k.FatTar <= @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+              and -- uretim sirasinda gelmis olan urunlerin fatura tarihleri daha sonraki bir tarihte. bu yuzden fiyat hesaplarken irsaliye tarihi kullanilmali b2 secenegi
+               (( (@Opti='b') and
+            ( (@Date is null) or ((k.Fatura=N'*')and (k.FatTar < @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                ) or  
+                ( (@Opti='b2') and
+            ( (@Date is null) or ((isnull(k.irsaliye,'')=N'')and(k.Fatura=N'*')and (k.FatTar < @Date)) or( (k.irsaliye=N'*')and(k.irsaliyeTar < @Date)) )
+                ))
+               and ((@DonemBas is null) or (@DonemBas <= k.irsaliyeTar))
+--              and (isnull(sgc.Cikan,0)>0)
+           Group by k.belgeno,h.Birim
+          union all
+         select 'S' ,k.fisno,isnull(sum( 
+            dbo.kg_fn_FindTutar(isnull(sgc.cikan,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0) ,'*') * (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+              ) ,0) 
+             , 0 as FFark
+          , isnull(sum(sgc.cikan),0) ,h.Birim
+            From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+           Where  ((k.FisTip='2')or(k.FisTip='3'))
+              and (sgc.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar < @Date) ) and (isNull(k.iptal, '')='')
+              and ((@DonemBas is null) or (@DonemBas <= k.FisTar ))
+			  	  and h.ParaCinsi= @paracinsi      
+--              and (isnull(sgc.Cikan,0)>0)
+         Group by k.fisno,h.Birim
+		 Union All
+         select 'S' ,k.fisno,isnull(sum( (dbo.kg_fn_DovHesX('S', k.FisNo, h.ParaCinsi, @paracinsi , cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime) ,
+            dbo.kg_fn_FindTutar(isnull(sgc.cikan,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0) ,'*') * (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+             )) ) ,0) 
+             , 0 as FFark
+          , isnull(sum(sgc.cikan),0) ,h.Birim
+            From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+           Where  ((k.FisTip='2')or(k.FisTip='3'))
+              and (sgc.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar < @Date) ) and (isNull(k.iptal, '')='')
+              and ((@DonemBas is null) or (@DonemBas <= k.FisTar ))
+			  and h.ParaCinsi<> @paracinsi
+--              and (isnull(sgc.Cikan,0)>0)
+         Group by k.fisno,h.Birim
+         ) aa group by belgeno,Modul,Birim 
+         ) bb group by Modul,Birim 
+
+       OPEN xBOrt_2
+       FETCH NEXT FROM xBOrt_2
+       INTO @Modul_x ,@Tutar_x , @Miktar_x , @Birim_x 
+       WHILE (@@FETCH_STATUS = 0)  BEGIN
+         set @Fiyat_2 = @Fiyat_2 + @Tutar_x
+         if @Birim_x = @Birim Begin
+           set @miktar_2 = @miktar_2 + @Miktar_x
+         end else begin
+           set @miktar_2 = @miktar_2 + Dbo.kg_fn_GetConvStkMik (@SKod,@Miktar_x,@Birim_x,@Birim )
+         end
+         FETCH NEXT FROM xBOrt_2
+         INTO @Modul_x ,@Tutar_x , @Miktar_x , @Birim_x 
+       end
+       CLOSE xBOrt_2
+       DEALLOCATE xBOrt_2
+    if (@Fiyat_1>0) and (@Miktar_1>@Miktar_2) and (@Fiyat_1>@Fiyat_2) begin
+      set @ReFiyat = ((isnull(@Fiyat_1,0)-isnull(@Fiyat_2,0))/(isnull(@Miktar_1,0)-isnull(@Miktar_2,0)))
+   -- end else if (@Fiyat_1>0) and (@Miktar_1>@Miktar_2) and (@Fiyat_1<@Fiyat_2) begin
+   --   set @ReFiyat =  (isnull(@Fiyat_1,0) / isnull(@Miktar_1,0) )  +   ( (isnull(@Fiyat_2,0)-isnull(@Fiyat_1,0))/(isnull(@Miktar_1,0)-isnull(@Miktar_2,0)) )
+    end else if  (isnull(@Miktar_1,0)>0 ) --@Miktar_1<=@Miktar_2  and
+      set @ReFiyat= isnull(@Fiyat_1,0) / isnull(@Miktar_1,0)
+    else if ((@Fiyat_1*@Miktar_1)=0)and((@Fiyat_2*@Miktar_2)=0)
+      set @ReFiyat= 0
+
+
+
+
+  end else if (@Opti='o') or (@Opti='o2')or (@Opti='o3') Begin  -- agirlikli ortalama fiyat - agirlikli ortalama fiyat(iadeler dahil)
+    if (@AlSat=N'A') Begin
+      select @Fiyat_1=isNull(Sum((tutar.OTVMatrah)/h.Miktar*sgc.Giren), 0) -- eski kod vergisiz tutardan hesapliyordu, ayni olsun diye boyle yaptim
+          , @Miktar_1=isnull(sum(sgc.Giren),0) 
+         From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.BelgeNo) and (sgc.FisHarInx=h.FatHarinx) and (Modul=N'F')
+            LEFT JOIN FaturaTutar tutar on tutar.FisNo=k.BelgeNo and  tutar.FisHarinx=h.FatHarinx and tutar.LineType='S' and tutar.ParaCinsi=@Paracinsi
+           Where ((substring(k.FaturaTip,2,2)='al') or (@Opti='o2' and substring(k.FaturaTip,2,2)='si'))
+              and (h.SKod=@SKod)  and exists(select locx from @LocationX Where locx=k.location )  
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              --and ((@Date is null) or ((k.Fatura=N'*')and (k.FatTar <= @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+              and -- uretim sirasinda gelmis olan urunlerin fatura tarihleri daha sonraki bir tarihte. bu yuzden fiyat hesaplarken irsaliye tarihi kullanilmali b2 secenegi
+               (( ((@Opti='o') or (@Opti='o2')) and
+            ( (@Date is null) or ((k.Fatura=N'*')and (k.FatTar <= @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+                ) or  
+                ( (@Opti='o3') and
+            ( (@Date is null) or ((isnull(k.irsaliye,'')=N'')and(k.Fatura=N'*')and (k.FatTar <= @Date)) or( (k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+                ))
+               and ((@DonemBas is null) or (@DonemBas <= k.irsaliyeTar))
+              and (isnull(sgc.Giren,0)>0) and (isNull(k.iptal, '')='')
+      select @Fiyat_2=isNull(Sum((tutar.OTVMatrah)/h.Miktar*sgc.Giren), 0) -- eski kod vergisiz tutardan hesapliyordu, ayni olsun diye boyle yaptim
+      --isnull(sum( (dbo.kg_fn_DovHesXDeger('S', k.FisNo, h.ParaCinsi, @paracinsi , cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime) ,
+      --  dbo.kg_fn_FindTutarDeger(isnull(sgc.Giren,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0)*(-1), isNull(k.kdvCheck, ''))* (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+      --  h.Fiyat   --k.KDVCheck deco
+      --  )) ) ,0) --/sum(sgc.Giren)
+          , @Miktar_2=isnull(sum(sgc.Giren),0) 
+         From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+            LEFT JOIN SFisTutar tutar on tutar.FisNo=k.FisNo and  tutar.FisHarinx=h.FisHarInx and tutar.LineType='S' and tutar.ParaCinsi=@Paracinsi
+           Where  ( ((@AlSat=N'A')and((k.FisTip='0')or(k.FisTip='1')or(@Opti='o2' and k.FisTip='4')))  ) 
+              and (h.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar <= @Date) )
+              and ((@DonemBas is null) or (@DonemBas <= k.FisTar))
+              and (isnull(sgc.Giren,0)>0) and (isNull(k.iptal, '')='')
+      if (@Opti='o2') begin
+    select @Fiyat_3=isNull(Sum(tutar.OTVMatrah), 0) -- eski kod vergisiz tutardan hesapliyordu, ayni olsun diye boyle yaptim
+  --  isnull(sum( (dbo.kg_fn_DovHesDeger(h.ParaCinsi, @paracinsi, cast(CONVERT(varchar(10),k.SatTar,@langid) as datetime), 
+   --   (dbo.kg_fn_FindTutar ( h.Miktar , h.Fiyat, h.iskontotut, h.iskonto, h.kdvoran ,'*') * (1-(Dbo.kg_fn_PSFindiskOran(h.SatNo)/100)) ))
+    --) ) ,0)
+      , @Miktar_3=isnull(sum(h.Miktar),0) 
+     From possat_kay k join possat_har h on k.Satno = h.Satno 
+        LEFT JOIN PosSatTutar tutar on tutar.FisNo=k.SatNo and  tutar.FisHarinx=h.SatHarinx and tutar.LineType='S' and tutar.ParaCinsi=@Paracinsi
+       Where ((SatTip='1'))
+        and (h.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+        and ((isnull(@Rkod,0)=0) or (isnull(h.rkod,0)=isnull(@Rkod,0)) )
+        and ((isnull(@Bedkod,0)=0) or (isnull(h.Bedkod,0)=isnull(@Bedkod,0)) )
+        and ((@Date is null) or (k.SatTar <= @Date) )
+        and ((@DonemBas is null) or (@DonemBas <= k.SatTar))
+        and (isnull(h.Miktar,0)>0) and (isNull(k.iptal, '')='')      
+      end else begin
+        select @Fiyat_3=0,@Miktar_3=0
+      end
+    end else if (@AlSat=N'S') Begin
+      select @Fiyat_1=isnull(sum( (dbo.kg_fn_DovHesXDeger('F',k.BelgeNo,h.ParaCinsi,@Paracinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime)  ,
+            dbo.kg_fn_FindTutarXDeger(isnull(sgc.Cikan,0), isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), isnull(h.kdvoran,0)*(-1) ,k.KDVCheck, '', 0, h.FatHarinx, h.BelgeNo, 'F') --/ (1+(isnull(h.kdvoran,0)/100))
+*
+(
+  1 
+  +
+  dbo.kg_fn_FindCHizOran(k.BelgeNo, @ParaCinsi)
+  +
+  dbo.kg_fn_FatMasrafOran('H,C,K,B',k.BelgeNo, @ParaCinsi)
+)
+             )) 
++dbo.kg_fn_GetFiyatFarki(h.FatHarinx,@Paracinsi,h.Miktar,'F')*isnull(sgc.Cikan,0)
+) ,0) 
+          , @Miktar_1=isnull(sum(sgc.Cikan),0) 
+         From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.BelgeNo) and (sgc.FisHarInx=h.FatHarinx) and (Modul=N'F')
+           Where --((@AlSat='S')and(substring(k.FaturaTip,2,2)='sa'))
+              ((substring(k.FaturaTip,2,2)='sa') or (@Opti='o2' and substring(k.FaturaTip,2,2)='sa'))
+              and (h.SKod=@SKod)  and exists(select locx from @LocationX Where locx=k.location )  
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              --and ((@Date is null) or ((k.Fatura=N'*')and (k.FatTar <= @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+              and -- uretim sirasinda gelmis olan urunlerin fatura tarihleri daha sonraki bir tarihte. bu yuzden fiyat hesaplarken irsaliye tarihi kullanilmali b2 secenegi
+               (( ((@Opti='o') or (@Opti='o2')) and
+            ( (@Date is null) or ((k.Fatura=N'*')and (k.FatTar <= @Date)) or((isnull(k.Fatura,'')=N'')and(k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+                ) or  
+                ( (@Opti='o3') and
+            ( (@Date is null) or ((isnull(k.irsaliye,'')=N'')and(k.Fatura=N'*')and (k.FatTar <= @Date)) or( (k.irsaliye=N'*')and(k.irsaliyeTar <= @Date)) )
+                ))
+                and ((@DonemBas is null) or (@DonemBas <= k.irsaliyeTar))
+              and (isnull(sgc.Cikan,0)>0) and (isNull(k.iptal, '')='')
+      select @Fiyat_2=isnull(sum( (dbo.kg_fn_DovHesXDeger('S', k.FisNo, h.ParaCinsi, @paracinsi , cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime) ,
+        dbo.kg_fn_FindTutarDeger(isnull(sgc.Cikan,0), isnull(h.Fiyat,0),isnull(h.Iskontotut,0), isnull(h.Iskonto,0), isnull(h.kdvoran,0)*(-1) , isNull(k.KDVCheck, ''))* (1-(Dbo.kg_fn_stFindiskOran(h.FisNo)/100 )) --/ (1+(isnull(h.kdvoran,0)/100))
+        --h.Fiyat   --k.KDVCheck deco
+        )) ) ,0) -- /sum(sgc.Cikan)
+          , @Miktar_2=isnull(sum(sgc.Cikan),0) 
+         From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+            left outer join s_gchar sgc on (sgc.skod=h.skod) and (sgc.FisNo=h.FisNo) and (sgc.FisHarInx=h.FisHarInx) and (Modul=N'S')
+           Where  ((@AlSat=N'S')and((k.FisTip='2') or (@Opti='o2' and k.FisTip='3')))
+              and (h.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+              and ((isnull(@Rkod,0)=0) or (isnull(sgc.rkod,0)=isnull(@Rkod,0)) )
+              and ((isnull(@Bedkod,0)=0) or (isnull(sgc.Bedkod,0)=isnull(@Bedkod,0)) )
+              and ((@Date is null) or (k.FisTar <= @Date) )
+              and ((@DonemBas is null) or (@DonemBas <= k.FisTar))
+              and (isnull(sgc.Cikan,0)>0) and (isNull(k.iptal, '')='')
+
+      if (@Opti='o2') begin
+    select @Fiyat_3=isnull(sum( (dbo.kg_fn_DovHesDeger(h.ParaCinsi, @paracinsi, cast(CONVERT(varchar(10),k.SatTar,@langid) as datetime), 
+      (dbo.kg_fn_FindTutar ( h.Miktar , h.Fiyat, h.iskontotut, h.iskonto, h.kdvoran ,'*') * (1-(Dbo.kg_fn_PSFindiskOran(h.SatNo)/100)) ))
+    ) ) ,0)
+      , @Miktar_3=isnull(sum(h.Miktar),0) 
+     From possat_kay k join possat_har h on k.Satno = h.Satno 
+       Where ((SatTip='0') or (SatTip='2') or (SatTip='3') or (SatTip='4'))
+        and (h.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location )
+        and ((isnull(@Rkod,0)=0) or (isnull(h.rkod,0)=isnull(@Rkod,0)) )
+        and ((isnull(@Bedkod,0)=0) or (isnull(h.Bedkod,0)=isnull(@Bedkod,0)) )
+        and ((@Date is null) or (k.SatTar <= @Date) )
+        and ((@DonemBas is null) or (@DonemBas <= k.SatTar))
+        and (isnull(h.Miktar,0)>0) and (isNull(k.iptal, '')='')      
+      end else begin
+        select @Fiyat_3=0,@Miktar_3=0
+      end
+    end
+    --burda mesela stok fisi varsa ama fiyat yoksa bunu hesaplamaya katmiyor..bence fiyat olsada olmasada hesaplamaya katmali..degistiriyorum..tugi.080912
+    /*
+    if ((@Fiyat_1*@Miktar_1)>0)and((@Fiyat_2*@Miktar_2)>0)
+      set @ReFiyat= ((@Fiyat_1)+(@Fiyat_2)) /(@Miktar_1+@Miktar_2)
+    else if ((@Fiyat_1*@Miktar_1)>0)and((@Fiyat_2*@Miktar_2)=0)
+      set @ReFiyat= @Fiyat_1/@Miktar_1
+    else if ((@Fiyat_1*@Miktar_1)=0)and((@Fiyat_2*@Miktar_2)>0)
+      set @ReFiyat= @Fiyat_2/@Miktar_2
+    else if ((@Fiyat_1*@Miktar_1)=0)and((@Fiyat_2*@Miktar_2)=0)
+      set @ReFiyat= 0
+    */
+    if @Miktar_1+@Miktar_2+@Miktar_3=0 
+      set @ReFiyat=0
+    else
+      set @ReFiyat= ((@Fiyat_1)+(@Fiyat_2)+(@Fiyat_3)) /(@Miktar_1+@Miktar_2+@Miktar_3)
+      --set @ReFiyat= ((@Fiyat_1)+(@Fiyat_2)) /(@Miktar_1+@Miktar_2)
+  end else if @Opti='u' Begin  -- ortalama fiyat
+    select @Fiyat_1=sum( dbo.kg_fn_DovHes(h.ParaCinsi, @ParaCinsi, cast(CONVERT(varchar(10),k.FatTar,@langid) as datetime),
+             dbo.kg_fn_FindTutarX(1, isnull(h.Fiyat,0),isnull(h.iskontotut,0), isnull(h.iskonto,0), isnull(h.kdvoran,0) ,k.KDVCheck, '', 0, h.FatHarinx, h.BelgeNo, 'F') / (1+(isnull(h.kdvoran,0)/100))
+          ) ), @Miktar_1=Count(*)
+         From Fatura_Kay k join Fatura_Har h on k.belgeno = h.belgeno 
+           Where (substring(k.FaturaTip,2,2)='al') and (h.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location ) and (isNull(k.iptal, '')='')
+    select @Fiyat_2=sum( dbo.kg_fn_DovHesX('S', k.FisNo, h.ParaCinsi, @ParaCinsi ,cast(CONVERT(varchar(10),k.FisTar,@langid) as datetime),h.Fiyat) ), @Miktar_2=Count(*) -- /Count(*)
+         From S_Fis_Kay k join S_Fis_Har h on k.Fisno = h.Fisno 
+           Where ((k.FisTip='0')or(k.FisTip='1')) and (h.SKod=@SKod) and exists(select locx from @LocationX Where locx=k.location ) and (isNull(k.iptal, '')='')
+    if ((@Fiyat_2 >0)and(@Fiyat_2 is not null))and((@Fiyat_1 >0)and(@Fiyat_1 is not null))
+      set @ReFiyat= (@Fiyat_1+@Fiyat_2)/(@Miktar_1+@Miktar_2)
+--      set @ReFiyat= (@Fiyat_1+@Fiyat_2)/2
+    else if ((@Fiyat_2 >0)and(@Fiyat_2 is not null))and((@Fiyat_1 =0)or(@Fiyat_1 is null)) 
+      set @ReFiyat= @Fiyat_2 / @Miktar_2
+    else if ((@Fiyat_2 =0)or(@Fiyat_2 is null))and((@Fiyat_1 >0)and(@Fiyat_1 is not null))
+      set @ReFiyat= @Fiyat_1 / @Miktar_1
+    if ((@Fiyat_2 =0)or(@Fiyat_2 is null))and((@Fiyat_1 =0)and(@Fiyat_1 is null))
+      set @ReFiyat= 0
+  end else if @Opti='f' Begin  -- fifo
+    set @ReFiyat = 0 --yeni fifolifo function ini kullansin direk..dbo.kg_fn_FifoLifo (@SKod,@rkod,@bedkod, @Location ,@Date,@ParaCinsi, 1 ,'11' , 1)
+  end else if @Opti='l' Begin  -- lifo
+    set @ReFiyat = 0 --yeni fifolifo function ini kullansin direk..dbo.kg_fn_FifoLifo (@SKod,@rkod,@bedkod, @Location ,@Date,@ParaCinsi, 1 ,'1' , 0)
+  end
+  if (@Opti<>'b') and (@Opti<>'b2')
+  if (@Birim is not null)and (@br is not null) and (@Birim<>@br) and (Dbo.kg_fn_GetConvStkMik (@SKod,1,@br,@Birim )>0) Begin
+    set @ReFiyat = @ReFiyat / Dbo.kg_fn_GetConvStkMik (@SKod,1,@br,@Birim )
+  end
+  Return (@ReFiyat)
+
+end
+",57,sa,KGEntegrator-TutarHesaplama-1.0.9218.23220,KGEntegrator,SELECT TOP 100 CAST(kgid as varchar) FROM ChangeLogPreTbl ORDER BY kgid,2025-04-08 16:40:09.423000,12,[KORGUNYAZILIM2310].[dbo].[ChangeLogPreTbl],dbo,2025-04-08 16:40:19.443000,KGEntegrator,dbo,2025-04-08 16:40:21.630000,KGEntegrator
+3,60,sa,KGEntegrator-PlannedQueryListExecute-1.0.9218.23220,KGEntegrator,SELECT MIN(kgid) FROM PlannedQueryList WHERE PlanDT < GETDATE() AND ExecuteCount > 0,85,sa,KORGUNDC,Microsoft SQL Server Management Studio,DBCC DETACHDB ([BAMBI25]),2025-04-25 23:11:31,19,N/A,dbo,2025-04-25 23:11:41.597000,KGEntegrator,dbo,2025-04-25 23:11:50.737000,KGEntegrator
+4,83,sa,KORGUNDC,Microsoft SQL Server Management Studio,"(@_msparam_0 nvarchar(4000),@_msparam_1 nvarchar(4000),@_msparam_2 nvarchar(4000),@_msparam_3 nvarchar(4000),@_msparam_4 nvarchar(4000))SELECT
+p.name AS [Name]
+FROM
+sys.tables AS tbl
+INNER JOIN sys.objects AS tr ON (tr.type in (@_msparam_0, @_msparam_1)) AND (tr.parent_object_id=tbl.object_id)
+LEFT OUTER JOIN sys.assembly_modules AS mod ON mod.object_id = tr.object_id
+INNER JOIN sys.extended_properties AS p ON p.major_id=tr.object_id AND p.minor_id=0 AND p.class=1
+WHERE
+(tr.name=@_msparam_2)and((tbl.name=@_msparam_3 and SCHEMA_NAME(tbl.schema_id)=@_msparam_4))
+ORDER BY
+[Name] ASC",84,sa,KORGUNDC,Microsoft SQL Server Management Studio,DBCC DETACHDB ([BAMBI25]),2025-04-25 23:12:20.247000,19,N/A,dbo,2025-04-25 23:12:30.820000,KGEntegrator,dbo,2025-04-25 23:12:39.957000,KGEntegrator
+5,61,sa,KGEntegrator-TutarHesaplama-1.0.9256.30572,KGEntegrator,"
+CREATE   FUNCTION [dbo].[kg_fn_CariHesToplam] (@Options VarChar(1),@CKod VarChar(15),@Location VarChar(1000)
+      ,@FisTar1 datetime,@FisTar2 datetime,@PC varchar(3),@ParaCinsi VarChar(3), @ParType varchar(1), @SbtTar Datetime, @OzKod1 varchar(30),@OzKod2 varchar(30),@AdresAdi varchar(30),@OptiX varchar(50))
+RETURNS @CariHesTop TABLE (FisTur VarChar(2),Borc numeric(25, 10),Alacak numeric(25, 10))
+ 
+AS BEGIN
+  DECLARE @KC_Temp TABLE (FisTur VarChar(2), Borc Float,Alacak Float )
+  declare @LocationX Table(Locx varchar(5) COLLATE Turkish_ci_as)
+  declare @Fason int
+  Set @Fason = 0
+  if 'F' = (Select top 1 CariTip from Cari_Kart where CKod = @CKod) begin Set @Fason = 1 end
+   if isnull(@Location,'')='' BEGIN
+  	IF   ((SELECT  ISNULL(COUNT(*),0)  from dbo.Korgun_User_BakiyeLocationList Where (UserName=isnull(suser_name(),user_name()) ) and (catalogname=db_name()))>0)
+         insert @LocationX select AccessLocation from dbo.Korgun_User_BakiyeLocationList Where (UserName=isnull(suser_name(),user_name()) ) and (catalogname=db_name())
+   ELSE       insert @LocationX select AccessLocation from dbo.Korgun_User_LocationList  Where (UserName=isnull(suser_name(),user_name()) ) and (catalogname=db_name())
+ 
+  end else begin
+    while (@Location<>'') begin
+      if charindex(',',@Location,0)>0 begin
+        insert @LocationX (Locx) Values (SubString(@Location,0,charindex(',',@Location,0)))
+        set @Location=SubString(@Location,charindex(',',@Location,0)+1,LEN(@Location))
+      end else begin
+        insert into @LocationX (Locx) Values (@Location)
+        Set @Location=''
+      end
+    end
+--    insert @LocationX (Locx) values (@Location)
+  END
+
+  declare @OptiTbl Table(Opx varchar(5) COLLATE Turkish_ci_as)
+  if isnull(@OptiX,'')<>N'' begin
+    while (@OptiX<>'') begin
+      if charindex(',',@OptiX,0)>0 begin
+        insert @OptiTbl (OpX) Values (SubString(@OptiX,0,charindex(',',@OptiX,0)))
+        set @OptiX=SubString(@OptiX,charindex(',',@OptiX,0)+1,LEN(@OptiX))
+      end else begin
+        insert into @OptiTbl (OpX) Values (@OptiX)
+        Set @OptiX=''
+      end
+    end
+  end
+
+  declare @CariPB varchar(3)
+  select @CariPB=DefPC from Cari_Kart where CKod=@CKod
+  IF @CariPB='' SET @CariPB=NULL
+  if @FisTar1 is null set @FisTar1 = N''
+  if @FisTar2 is null set @FisTar2 = N''
+  if @ParaCinsi is null set @ParaCinsi = N''
+  declare @langid int
+  set @langid=103 --110
+  if @PC is null set @PC = N''
+
+   insert @KC_Temp -- Demirbas borclar       
+     SELECT 'DE', sum(
+     --	dbo.kg_fn_DovHesTG('DE',0,'TL',@ParaCinsi,cast(CONVERT(varchar(10),SatisTar,@langid) as datetime), 
+	     --   (isnull(SatisTutar,0)+ISNULL(SatisKDV,0)) , @ParType,@SbtTar,@CariPB)
+	     dbo.kg_fn_DovHesDeger('TL',@ParaCinsi,cast(CONVERT(varchar(10),SatisTar,@langid) as datetime),(isnull(SatisTutar,0)+ISNULL(SatisKDV,0)))
+     ),0
+            FROM DemirbasKart dk
+            WHERE (satiscarikod=@CKod)  and (isnull(BDevir,'')='')--and(exists(select locx From @LocationX Where locx=dk.SLocation))
+            and((SatisTar>=@FisTar1)or(@FisTar1=N'')) and ((SatisTar<=@FisTar2)or(@FisTar2=''))
+    union all -- Demirbas alacaklar
+          SELECT 'DE', 0,sum(
+          --	dbo.kg_fn_DovHesTG('DE',0,'TL',@ParaCinsi,cast(CONVERT(varchar(10),AlisTar,@langid) as datetime), 
+	        --(isnull(AlisTopMaliyet,0)+ISNULL(AlisKDV,0)) , @ParType,@SbtTar,@CariPB)
+           dbo.kg_fn_DovHesDeger('TL',@ParaCinsi,cast(CONVERT(varchar(10),SatisTar,@langid) as datetime),(isnull(AlisTopMaliyet,0)+ISNULL(AlisKDV,0)))
+          )
+            FROM DemirbasKart dk
+            WHERE   (Aliscarikod=@CKod)  and (isnull(ADevir,'')='')--and(exists(select locx From @LocationX Where locx=dk.ALocation))
+            and((AlisTar>=@FisTar1)or(@FisTar1=N'')) and ((AlisTar<=@FisTar2)or(@FisTar2=''))
+
+    insert @KC_Temp -- nakit borclar       
+     SELECT 'K', 0,isnull(sum(dbo.kg_fn_DovHesTG('C',ck.FisNo,(case  FisTip when 'FA' then fkk.KasaKur else ch.PAraCinsi end),@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime), 
+	        (case  FisTip when 'FA' then fkk.KasaOdeme else tutar.NetTutar end) , @ParType,@SbtTar,@CariPB)),0)
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+			left join fatura_kay fkk on fkk.FisNo=ck.FisNo
+			LEFT JOIN fatura_har fh  ON fh.BelgeNo=fkk.BelgeNo
+			--LEFT JOIN FaturaTutar tutar on tutar.FisNo=ch.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=ch.ParaCinsi
+			LEFT JOIN FaturaTutar tutar on tutar.FisNo=fh.BelgeNo and tutar.FisHarinx=fh.FatHarinx and tutar.ParaCinsi=fh.ParaCinsi
+            WHERE (isnull(ck.iptal,'')<>'*') and ( ((ck.Bolum = 'K')and(FisTip='NT'))or ((ck.Bolum in ('FK'))and(FisTip='FA') --) )      
+                                and (exists(select fisno From fatura_kay fk Where (fatura=N'*') and ((Charindex('K', isnull(fk.KFaturaTip,''))>0) or (Charindex('R', isnull(fk.KFaturaTip,''))>0) )and (fk.FisNo=ck.FisNo)))  ) )      
+               and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+               and(exists(select locx From @LocationX Where locx=ck.Location) )        
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    
+    
+   -- UNION ALL 
+    
+     insert @KC_Temp -- nakit ksasa işlemleri borç       
+     SELECT 'K', 0,isnull(sum(dbo.kg_fn_DovHesTG('C',ck.FisNo,tutar.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime), 
+	         tutar.NetTutar  , @ParType,@SbtTar,@CariPB)),0)
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+			LEFT JOIN CFisTutar tutar on tutar.FisNo=ch.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=ch.ParaCinsi
+            WHERE (isnull(ck.iptal,'')<>'*') and ( ((ck.Bolum = 'K')and(FisTip='NT')))
+           -- or ((ck.Bolum in ('FK'))and(FisTip='FA') --) )      
+          --                      and (exists(select fisno From fatura_kay fk Where (fatura=N'*') and ((Charindex('K', isnull(fk.KFaturaTip,''))>0) or (Charindex('R', isnull(fk.KFaturaTip,''))>0) )and (fk.FisNo=ck.FisNo)))  ) )      
+               and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+               and(exists(select locx From @LocationX Where locx=ck.Location) )        
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+               
+    union all -- nakit alacaklar
+      SELECT 'K', sum(TUTAR.NetTutar),0
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+			LEFT JOIN CFisTutar  tutar on tutar.FisNo=ch.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=(CASE WHEN isnull(@ParaCinsi,'')<>'' then @ParaCinsi  when ISNULL(@CariPB,'')<>'' THEN @CariPB ELSE ch.ParaCinsi END)
+            WHERE (isnull(ck.iptal,'')<>'*') and (((ck.Bolum = 'K')and((FisTip='NO')or(FisTip='HF'))) 
+                   
+            
+            ) 
+               and(ch.cbpg=@CKod)  --,'FC'
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+               and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+               
+         
+      
+                  UNION ALL ---kapalı fatura alış -satış.
+         
+            SELECT 'K', CASE WHEN SUBSTRING(fkk.FaturaTip,2,2) IN('al','si') THEN  sum(tutar.NetTutar) ELSE 0 END
+            ,CASE WHEN SUBSTRING(fkk.FaturaTip,2,2) IN('sa','ai') THEN  sum(tutar.NetTutar) ELSE 0 end
+            FROM   fatura_kay fkk
+            LEFT JOIN Fatura_Har fh ON fh.BelgeNo=fkk.BelgeNo
+			LEFT JOIN FaturaTutar tutar on tutar.FisNo=fh.BelgeNo and tutar.FisHarinx=fh.FatHarinx and tutar.ParaCinsi=(CASE WHEN ISNULL(@ParaCinsi,'')<>'' THEN @ParaCinsi when ISNULL(@CariPB,'')<>'' THEN @CariPB ELSE fh.Paracinsi END )
+            WHERE (isnull(fkk.iptal,'')<>'*')  
+                                     and (exists(SELECT TOP  1 1  From fatura_kay fk WHERE fk.BelgeNo=fkk.BelgeNo and (fatura=N'*') and ((Charindex('K', isnull(fk.KFaturaTip,''))>0)
+                                     --or (Charindex('R', isnull(fk.KFaturaTip,''))>0) 
+                                     )))    
+               and(fkk.CariKod=@CKod)  --,'FC'
+			   and isnull(fkk.KFatura,'')='*'
+               and((@FisTar1=N'')or(fkk.FatTar>=@FisTar1))and((@FisTar2=N'')or(fkk.FatTar<=@FisTar2)) 
+               and(exists(select locx From @LocationX Where locx=fkk.Location) )
+               and ((@PC='') or (fh.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=fkk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fkk.OzKod2))
+              
+            GROUP BY fkk.FaturaTip
+               
+   --         union all -- nakit kasa işlem alacaklar   --kapalı faturanın üstüne taşıdım. 
+   --   SELECT 'K', sum(dbo.kg_fn_DovHestg('C',ck.FisNo,tutar.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),
+	  --  Tutar.NetTutar ,@ParType,@SbtTar,@CariPB)),0
+   --         FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+			--LEFT JOIN CFisTutar tutar on tutar.FisNo=ch.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=ch.ParaCinsi
+   --         WHERE (isnull(ck.iptal,'')<>'*') and (((ck.Bolum = 'K')and((FisTip='NO')or(FisTip='HF'))))
+   --            and(ch.cbpg=@CKod)  --,'FC'
+   --            and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+   --            and(exists(select locx From @LocationX Where locx=ck.Location) )
+   --            and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+   --            and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+                      
+               
+               
+               
+    Union All  -- banka işlemleri borclar
+      select 'B',SUM(tutar.Tutar),0--sum(dbo.kg_fn_DovHestg('B',a.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),Tarih,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)),0       
+             From Banka_Kay a join Banka_Har b on a.FisNo=b.fisNo 
+             LEFT JOIN BankaTutar tutar on tutar.FisNo=a.FisNo and tutar.FisHarinx=b.FisHarinx and tutar.ParaCinsi=isnull(@ParaCinsi, b.ParaCinsi) and tutar.LineType='S'
+             Where (isnull(a.iptal,'')<>'*') and (FisTur in ('1','2')) and (cmb='C') and (FisTip='1')  and(cmbKod=@CKod)  
+                 and((@FisTar1=N'')or(Tarih>=@FisTar1))and((@FisTar2=N'')or(Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+                 and ((@PC='') or (b.ParaCinsi=@PC Collate Turkish_ci_as))
+                 and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2))
+    Union All -- banka işlemleri alacaklar
+      select 'B',0,SUM(tutar.Tutar)--sum(dbo.kg_fn_DovHestg('B',a.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),Tarih,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))       
+              From Banka_Kay a join Banka_Har b on a.FisNo=b.fisNo 
+              LEFT JOIN BankaTutar tutar on tutar.FisNo=a.FisNo and tutar.FisHarinx=b.FisHarinx and tutar.ParaCinsi=isnull(@ParaCinsi, b.ParaCinsi) and tutar.LineType='S'
+              Where (isnull(a.iptal,'')<>'*') and (FisTur in ('1','2')) and (cmb='C') and (FisTip='0')  and(cmbKod=@CKod)  
+                 and((@FisTar1=N'')or(Tarih>=@FisTar1))and((@FisTar2=N'')or(Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+                 and ((@PC='') or (b.ParaCinsi=@PC Collate Turkish_ci_as))
+                 and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2))
+    union all -- Kur Farkı-giren
+      SELECT 'KF',SUM(tutar.NetTutar),0--sum(dbo.kg_fn_dovhestg('C',c_Fis_Kay.FisNo,c_Fis_Har.Paracinsi,@ParaCinsi,FisTar,Tutar,@ParType,@SbtTar,@CariPB)),0
+            FROM c_Fis_Kay JOiN C_Fis_Har ON c_Fis_Kay.FisNo = C_Fis_Har.FisNo and (@ParaCinsi ='' or @ParaCinsi is Null or c_Fis_Har.Paracinsi=@ParaCinsi)
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=c_fis_kay.FisNo and tutar.FisHarinx=c_fis_har.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, c_fis_har.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(c_Fis_Kay.iptal,'')<>'*') and (c_Fis_Kay.Bolum = 'C')and(@ParaCinsi=c_fis_har.ParaCinsi) and (FisTip='KF') and(C_Fis_Har.cbpg=@CKod) 
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2))and(Location  in (select locx From @LocationX) )
+               and ((@PC='') or (c_Fis_Har.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=c_Fis_Kay.OzKod1)) and ((@OzKod2='') or (@OzKod2=c_Fis_Kay.OzKod2))
+    union all -- Kur Farkı-çıkan
+      SELECT 'KF',0,SUM(tutar.NetTutar)--sum(dbo.kg_fn_dovhestg('C',c_Fis_Kay.FisNo,c_Fis_Har.Paracinsi,@ParaCinsi,FisTar,Tutar,@ParType,@SbtTar,@CariPB))
+            FROM c_Fis_Kay JOiN C_Fis_Har ON c_Fis_Kay.FisNo = C_Fis_Har.FisNo and (@ParaCinsi ='' or @ParaCinsi is Null or c_Fis_Har.Paracinsi=@ParaCinsi)
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=c_fis_kay.FisNo and tutar.FisHarinx=c_fis_har.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, c_fis_har.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(c_Fis_Kay.iptal,'')<>'*') and (c_Fis_Kay.Bolum = 'C')and(@ParaCinsi=c_fis_har.ParaCinsi) and (FisTip='KG') and(C_Fis_Har.cbpg=@CKod) 
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2))and(Location  in (select locx From @LocationX) )
+               and ((@PC='') or (c_Fis_Har.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=c_Fis_Kay.OzKod1)) and ((@OzKod2='') or (@OzKod2=c_Fis_Kay.OzKod2))
+    union all -- Devir Borclar
+      SELECT 'CD', SUM(tutar.NetTutar),0--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)),0
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S' 
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='DB')) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Devir Alacaklar
+      SELECT 'CD',0,SUM(tutar.NetTutar)--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S' 
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='DA')) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Borc Dekontu
+      SELECT 'CE', SUM(tutar.NetTutar),0--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)),0
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='BD') ) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Alacak Dekontu
+      SELECT 'CE', 0 ,SUM(tutar.NetTutar) --sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='AD') ) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Borc Virman
+      SELECT 'CV',SUM(tutar.NetTutar),0 --sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)),0
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='CV') ) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Alacak Virman
+      SELECT 'CV', 0 ,SUM(tutar.NetTutar) --sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='CV') ) and(ck.CariKod=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Alacak Gider
+      SELECT 'Gi', 0, SUM(tutar.NetTutar)--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='BG') ) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Borç Gider
+      SELECT 'Gi', SUM(tutar.NetTutar),0--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)), 0
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='AG') ) and(ch.cbpg=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Verilen Serbest Meslek Makbuzu
+--      SELECT 'SV', sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),(isNull(Tutar,0)/(1-isNull(StpjOran,0)/100+isNull(KdvOran,0)/100)),@ParType,@SbtTar,@CariPB)), 0
+      SELECT 'SV',SUM(tutar.NetTutar),0 --sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),isNull(Tutar,0),@ParType,@SbtTar,@CariPB)), 0
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='SV') ) and(ck.CariKod=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Alınan Serbest Meslek Makbuzu
+--      SELECT 'SA', 0, sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),(isNull(Tutar,0)/(1-isNull(StpjOran,0)/100+isNull(KdvOran,0)/100)),@ParType,@SbtTar,@CariPB))
+      SELECT 'SA', 0,SUM(tutar.NetTutar)-- sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),isNull(Tutar,0),@ParType,@SbtTar,@CariPB))
+            FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.Bolum = 'C')and( (FisTip='SA') ) and(ck.CariKod=@CKod)  
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    
+    
+    union all -- Fatura Borc    -- 21 05 2001 faturaların nakitlerin konumunun değişmesini istedi
+         SELECT 'FA',SUM(case when ((SUBSTRING(fk.FaturaTip,2,2)='ai') and (isnull(tutar.TevkifatTutar,0)>0)) THEN (isnull(tutar.KDVMatrah,0)+isnull(tutar.TevkifatTutar,0)) else tutar.NetTutar end),0--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+          -- FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            --LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+      from Fatura_Kay fk--on (fk.FisNo=ck.FisNo)
+              CROSS APPLY dbo.kg_ifn_FaturaTutar(fk.BelgeNo, Null, isnull(@ParaCinsi, fk.FaturaPc), null) tutar
+             WHERE (fk.Fatura='*') and (SUBSTRING(fk.FaturaTip, 2, 2) in ('sa', 'ai'))  and (fk.fatura='*') and (isnull(fk.iptal,'')<>'*') and fk.CariKod=@CKod
+               --and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+               and(((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)>=@FisTar1)or(@FisTar1=N'')) 
+               and (((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)<=@FisTar2)or(@FisTar2=''))
+                 and(exists(select locx From @LocationX Where locx=fk.Location) )
+                 AND SUBSTRING(ISNULL(fk.FaturaTip,''),1,1)<>'t'         ---TalepNo:20317
+               -- and isNull(@ParaCinsi, fk.FaturaPc)=fk.FaturaPc
+               and ((@OzKod1='') or (@OzKod1=fk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fk.OzKod2)) and ((@AdresAdi='') or (@AdresAdi=fk.AdresAdi))
+               
+           UNION ALL    ---Kur farkı satış 
+              SELECT 'FA',SUM(tutar.NetTutar),0--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+          -- FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            --LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+      from Fatura_Kay fk--on (fk.FisNo=ck.FisNo)
+              CROSS APPLY dbo.kg_ifn_FaturaTutar(fk.BelgeNo, Null, isnull(@ParaCinsi, fk.FaturaPc), null) tutar
+             WHERE (fk.Fatura='*') and (SUBSTRING(fk.FaturaTip, 2, 2) in ('sa', 'ai'))  and (fk.fatura='*') and (isnull(fk.iptal,'')<>'*') and fk.CariKod=@CKod
+               --and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+               and(((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)>=@FisTar1)or(@FisTar1=N'')) 
+               and (((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)<=@FisTar2)or(@FisTar2=''))
+                 and(exists(select locx From @LocationX Where locx=fk.Location) )
+                 AND SUBSTRING(ISNULL(fk.FaturaTip,''),1,1)='t'         ---TalepNo:20317
+                 and isNull(@ParaCinsi, fk.FaturaPc)=fk.FaturaPc
+               -- and isNull(@ParaCinsi, fk.FaturaPc)=fk.FaturaPc
+               and ((@OzKod1='') or (@OzKod1=fk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fk.OzKod2)) and ((@AdresAdi='') or (@AdresAdi=fk.AdresAdi))
+      union all -- Fatura Alacak
+      SELECT  'FA',0,SUM(tutar.NetTutar) -- sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)) ,0
+           -- FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            --LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+             from Fatura_Kay fk --on (fk.FisNo=ck.FisNo)
+              CROSS APPLY dbo.kg_ifn_FaturaTutar(fk.BelgeNo, Null, isnull(@ParaCinsi, fk.FaturaPc), null) tutar
+           -- WHERE (ck.Bolum in ('FK','FC'))and((FisTip='FA')) and(ch.cbpg=@CKod)  and (fk.fatura='*') and (isnull(fk.iptal,'')<>'*')
+             WHERE (fk.Fatura='*') and (SUBSTRING(fk.FaturaTip, 2, 2) in ('al', 'si'))
+              and(fk.CariKod=@CKod)  and (fk.fatura='*') and (isnull(fk.iptal,'')<>'*') 
+              -- and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+                and(((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)>=@FisTar1)or(@FisTar1=N'')) and (((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)<=@FisTar2)or(@FisTar2=''))
+                 and(exists(select locx From @LocationX Where locx=fk.Location) )
+                 AND SUBSTRING(ISNULL(fk.FaturaTip,''),1,1)<>'t'         ---TalepNo:20317
+              -- and isNull(@ParaCinsi, fk.FaturaPc)=fk.FaturaPc
+               and ((@OzKod1='') or (@OzKod1=fk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fk.OzKod2)) and ((@AdresAdi='') or (@AdresAdi=fk.AdresAdi))
+    
+    UNION ALL  ---Kur farkı alış 
+     SELECT  'FA',0,SUM(tutar.NetTutar) -- sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)) ,0
+           -- FROM c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            --LEFT JOIN CFisTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.Fisinx and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+             from Fatura_Kay fk --on (fk.FisNo=ck.FisNo)
+              CROSS APPLY dbo.kg_ifn_FaturaTutar(fk.BelgeNo, Null, isnull(@ParaCinsi, fk.FaturaPc), null) tutar
+           -- WHERE (ck.Bolum in ('FK','FC'))and((FisTip='FA')) and(ch.cbpg=@CKod)  and (fk.fatura='*') and (isnull(fk.iptal,'')<>'*')
+             WHERE (fk.Fatura='*') and (SUBSTRING(fk.FaturaTip, 2, 2) in ('al', 'si'))
+              and(fk.CariKod=@CKod)  and (fk.fatura='*') and (isnull(fk.iptal,'')<>'*') 
+              -- and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=ck.Location) )
+                and(((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)>=@FisTar1)or(@FisTar1=N'')) and (((case when Fatura='*' then fk.FatTar else fk.irsaliyeTar end)<=@FisTar2)or(@FisTar2=''))
+                 and(exists(select locx From @LocationX Where locx=fk.Location) )
+                 AND SUBSTRING(ISNULL(fk.FaturaTip,''),1,1)='t'         ---TalepNo:20317
+               and isNull(@ParaCinsi, fk.FaturaPc)=fk.FaturaPc
+               and ((@OzKod1='') or (@OzKod1=fk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fk.OzKod2)) and ((@AdresAdi='') or (@AdresAdi=fk.AdresAdi))    
+    union all -- Fiyat Farkı Fatura Borc 
+      SELECT 'FF', 0,SUM(tutar.NetTutar)--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+            FROM --c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo left outer join 
+                 FFFatura_Kay fk --on (fk.FisNo=ck.FisNo)
+              CROSS APPLY dbo.kg_ifn_FFFaturaTutar(fk.BelgeNo, Null, @ParaCinsi, null) tutar
+            WHERE  (((fk.Tip='S') AND(fk.YansimaTip='-')) or ((fk.Tip='A') AND (fk.YansimaTip='+'))) and(fk.CariKod=@CKod) and (isnull(fk.iptal,'')<>'*') 
+               and((@FisTar1=N'')or(fk.FatTar>=@FisTar1))and((@FisTar2=N'')or(fk.FatTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=fk.Location) )
+              -- and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=fk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fk.OzKod2)) and ((@AdresAdi='') or (@AdresAdi=fk.AdresAdi))
+    union all -- Fiyat Farkı Fatura Alacak
+      SELECT 'FF', SUM(tutar.NetTutar),0--sum(dbo.kg_fn_DovHestg('C',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)), 0
+            FROM --c_Fis_Kay ck JOiN C_Fis_Har ch ON ck.FisNo = ch.FisNo left outer join 
+            FFFatura_Kay fk --on (fk.FisNo=ck.FisNo)
+              CROSS APPLY dbo.kg_ifn_FFFaturaTutar(fk.BelgeNo, Null, @ParaCinsi, null) tutar
+            WHERE  (((fk.Tip='S') AND(fk.YansimaTip='+')) or ((fk.Tip='A') AND (fk.YansimaTip='-'))) and(fk.CariKod=@CKod) and (isnull(fk.iptal,'')<>'*') 
+               and((@FisTar1=N'')or(fk.FatTar>=@FisTar1))and((@FisTar2=N'')or(fk.FatTar<=@FisTar2)) and(exists(select locx From @LocationX Where locx=fk.Location) )
+               --and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=fk.OzKod1)) and ((@OzKod2='') or (@OzKod2=fk.OzKod2)) and ((@AdresAdi='') or (@AdresAdi=fk.AdresAdi))
+    union all -- Cek Borc
+        select 'C',SUM(tutar.Tutar),0--sum(dbo.kg_fn_DovHestg('CK',a.Cekinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),a.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB)),0
+             From cek_Kart a 
+             LEFT JOIN CekTutar tutar on tutar.FisNo=a.cekinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'  
+               Where ((a.CekTip='F') ) and(a.CMKod=@CKod)and(a.CM='C')  
+               and((@FisTar1=N'')or(a.Tarih>=@FisTar1))and((@FisTar2=N'')or(a.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2)) 
+      union all
+        select 'C',SUM(tutar.Tutar),0--sum(dbo.kg_fn_DovHestg('CH',b.Harinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),b.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB)),0
+             FROM Cek_Har b JOIN cek_Kart a ON a.Cekinx = b.Cekinx
+             LEFT JOIN CekHarTutar tutar on tutar.FisNo=b.Harinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+             Where ((b.HarTip='0')or(b.HarTip='ki')or(b.HarTip='ci'))and((a.CekTip='M') or (a.CekTip='MX'))
+--               and(b.cmb_Kod=@CKod)and(b.cmb='C')
+               and (((b.cmb_Kod=@CKod)and(b.cmb='C')and(b.HarTip<>'ci')) or ((a.CMKod=@CKod) and ((b.HarTip='ci'))))
+               and((@FisTar1=N'')or(b.Tarih>=@FisTar1))and((@FisTar2=N'')or(b.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=b.OzKod1)) and ((@OzKod2='') or (@OzKod2=b.OzKod2)) 
+      union all --çek gider
+      select 'C',SUM(tutar.Tutar),0--,sum(dbo.kg_fn_DovHestg('CH',b.Harinx,b.GiderParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),b.Tarih,@langid) as datetime),b.isTut,@ParType,@SbtTar,@CariPB)),0
+             FROM Cek_Har b JOIN cek_Kart a ON a.Cekinx = b.Cekinx
+             LEFT JOIN CekHarTutar tutar on tutar.FisNo=b.Harinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+             Where (b.istut>0) and (ProGiderKod=@CKod)and(GiderTip='CM')--(b.HarTip='0')and((a.CekTip='M') or (a.CekTip='MX')) 
+              and((a.CekTip='M') or (a.CekTip='MX')or (a.CekTip='F')or (a.CekTip='FX'))
+              and(exists(select locx From @LocationX Where locx=a.Location))
+--              and ((@ParaCinsi='') or (b.GiderParaCinsi=@ParaCinsi Collate Turkish_ci_as))
+              and((b.Tarih>=@FisTar1)or(@FisTar1=N'')) and ((b.Tarih<=@FisTar2)or(@FisTar2=''))
+              and ((@PC='') or (b.GiderParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=b.OzKod1)) and ((@OzKod2='') or (@OzKod2=b.OzKod2)) 
+    union all -- Cek Alacak
+        select 'C',0,SUM(tutar.Tutar)--sum(dbo.kg_fn_DovHestg('CK',a.Cekinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),a.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB))
+             From cek_Kart a
+             LEFT JOIN CekTutar tutar on tutar.FisNo=a.cekinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+              Where ((a.CekTip='M')) and(a.CMKod=@CKod)and(a.CM='C')  
+               and((@FisTar1=N'')or(a.Tarih>=@FisTar1))and((@FisTar2=N'')or(a.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2))
+               and (not exists(Select top 1 1 from @OptiTbl where Opx='CX') or (a.vade<=GetDate())) 
+      union all
+        select 'C',0,SUM(tutar.Tutar)--sum(dbo.kg_fn_DovHestg('CH',b.Harinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),b.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB))
+             FROM Cek_Har b JOIN cek_Kart a ON a.Cekinx = b.Cekinx
+              LEFT JOIN CekHarTutar tutar on tutar.FisNo=b.Harinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+             Where (((b.HarTip='4')and((a.CekTip='F') or (a.CekTip='FX'))) or ((b.HarTip='3' or b.HarTip='MP')and((a.CekTip='M') or (a.CekTip='MX'))) )  --(a.SDurum='4')and      (a.SDurum='3')and
+               and(b.cmb_Kod=@CKod)and(b.cmb='C')  
+               and((@FisTar1=N'')or(b.Tarih>=@FisTar1))and((@FisTar2=N'')or(b.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=b.OzKod1)) and ((@OzKod2='') or (@OzKod2=b.OzKod2)) 
+    union all -- Senet Borc
+        select 'S',SUM(tutar.Tutar),0--sum(dbo.kg_fn_DovHestg('CK',a.Cekinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),a.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB)),0
+             From cek_Kart a
+              LEFT JOIN CekTutar tutar on tutar.FisNo=a.cekinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+              Where ((a.CekTip='SF')) and(a.CMKod=@CKod)and(a.CM='C')  
+               and((@FisTar1=N'')or(a.Tarih>=@FisTar1))and((@FisTar2=N'')or(a.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2)) 
+      union all
+        select 'S',SUM(tutar.Tutar),0--sum(dbo.kg_fn_DovHestg('CH',b.Harinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),b.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB)),0
+             FROM Cek_Har b JOIN cek_Kart a ON a.Cekinx = b.Cekinx
+              LEFT JOIN CekHarTutar tutar on tutar.FisNo=b.Harinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+             Where ((b.HarTip='0')or(b.HarTip='ki')or(b.HarTip='ci'))and((a.CekTip='SM') or (a.CekTip='SX')) 
+              and (((b.cmb_Kod=@CKod)and(b.cmb='C')and(b.HarTip<>'ci')) or ((a.CMKod=@CKod) and ((b.HarTip='ci'))))
+               and((@FisTar1=N'')or(b.Tarih>=@FisTar1))and((@FisTar2=N'')or(b.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=b.OzKod1)) and ((@OzKod2='') or (@OzKod2=b.OzKod2)) 
+      union all --senet gider
+      select 'S',SUM(tutar.Tutar),0--sum(dbo.kg_fn_DovHestg('CH',b.Harinx,b.GiderParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),b.Tarih,@langid) as datetime),b.isTut,@ParType,@SbtTar,@CariPB)),0
+             FROM Cek_Har b JOIN cek_Kart a ON a.Cekinx = b.Cekinx
+              LEFT JOIN CekHarTutar tutar on tutar.FisNo=b.Harinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+             Where (b.istut>0) and (ProGiderKod=@CKod)and(GiderTip='CM')--(b.HarTip='0')and((a.CekTip='M') or (a.CekTip='MX')) 
+              and((a.CekTip='SM') or (a.CekTip='SX')or (a.CekTip='SF')or (a.CekTip='XS'))
+              and(exists(select locx From @LocationX Where locx=a.Location))
+--              and ((@ParaCinsi='') or (b.GiderParaCinsi=@ParaCinsi Collate Turkish_ci_as))
+              and((b.Tarih>=@FisTar1)or(@FisTar1=N'')) and ((b.Tarih<=@FisTar2)or(@FisTar2=''))
+              and ((@PC='') or (b.GiderParaCinsi=@PC Collate Turkish_ci_as))
+              and ((@OzKod1='') or (@OzKod1=b.OzKod1)) and ((@OzKod2='') or (@OzKod2=b.OzKod2)) 
+    union all -- Senet Alacak
+        select 'S',0,SUM(tutar.Tutar)--sum(dbo.kg_fn_DovHestg('CK',a.Cekinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),a.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB))
+             From cek_Kart a 
+               LEFT JOIN CekTutar tutar on tutar.FisNo=a.cekinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+              Where ((a.CekTip='SM')) and(a.CMKod=@CKod)and(a.CM='C')  
+               and((@FisTar1=N'')or(a.Tarih>=@FisTar1))and((@FisTar2=N'')or(a.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2)) 
+               and (not exists(Select top 1 1 from @OptiTbl where Opx='CX') or (a.vade<=GetDate())) 
+      union all
+        select 'S',0,SUM(tutar.Tutar)--sum(dbo.kg_fn_DovHestg('CH',b.Harinx,a.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),b.Tarih,@langid) as datetime),a.Tutar,@ParType,@SbtTar,@CariPB))
+             FROM Cek_Har b JOIN cek_Kart a ON a.Cekinx = b.Cekinx
+              LEFT JOIN CekHarTutar tutar on tutar.FisNo=b.Harinx and tutar.FisHarinx=a.Cekinx and tutar.ParaCinsi=isnull(@ParaCinsi, a.ParaCinsi) and tutar.LineType='S'
+             Where (((b.HarTip='4' or b.HarTip='FP')and((a.CekTip='SF') or (a.CekTip='XS'))) or ((b.HarTip='3' or b.HarTip='MP')and((a.CekTip='SM') or (a.CekTip='SX'))) )  --(a.SDurum='4')and  (a.SDurum='3')and
+               and(b.cmb_Kod=@CKod)and(b.cmb='C')  
+               and((@FisTar1=N'')or(b.Tarih>=@FisTar1))and((@FisTar2=N'')or(b.Tarih<=@FisTar2)) and(exists(select locx From @LocationX Where locx=a.Location) )
+               and ((@PC='') or (a.ParaCinsi=@PC Collate Turkish_ci_as))
+               and ((@OzKod1='') or (@OzKod1=b.OzKod1)) and ((@OzKod2='') or (@OzKod2=b.OzKod2)) 
+    Union All  -- KK işlemleri borclar
+      select 'KK',SUM(tutar.NetTutar),0--sum(dbo.kg_fn_DovHestg('R',a.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB)),0       
+             From KK_Kay a join KK_Har b on a.FisNo=b.fisNo 
+             LEFT JOIN KKTutar tutar on tutar.FisNo=a.FisNo and tutar.FisHarinx=b.FisHarinx and tutar.LineType='S' and tutar.ParaCinsi=isnull(@ParaCinsi, b.ParaCinsi)
+             Where (isnull(a.iptal,'')<>'*') and (FisTip='V') and (cm='C') and(cmKod=@CKod)  
+                 and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+                 and(exists(select locx From @LocationX Where locx=a.Location) )
+                 and ((@PC='') or (b.ParaCinsi=@PC Collate Turkish_ci_as)) --and modul<>'F' //12.06.2015 kapalı fatura kk ile ödenmişse KK bölümüne aldık selim istedi
+                 and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2)) 
+    Union All  -- KK işlemleri alacak
+      select 'KK',0,SUM(tutar.NetTutar)--sum(dbo.kg_fn_DovHestg('R',a.FisNo,ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),FisTar,@langid) as datetime),Tutar,@ParType,@SbtTar,@CariPB))
+             From KK_Kay a join KK_Har b on a.FisNo=b.fisNo 
+             LEFT JOIN KKTutar tutar on tutar.FisNo=a.FisNo and tutar.FisHarinx=b.FisHarinx and tutar.LineType='S' and tutar.ParaCinsi=isnull(@ParaCinsi, b.ParaCinsi)
+             Where (isnull(a.iptal,'')<>'*') and (FisTip='A') and (cm='C') and(cmKod=@CKod)  
+                 and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2)) 
+                 and(exists(select locx From @LocationX Where locx=a.Location) )
+                 and ((@PC='') or (b.ParaCinsi=@PC Collate Turkish_ci_as))--and modul<>'F' //12.06.2015 kapalı fatura kk ile ödenmişse KK bölümüne aldık selim istedi
+                 and ((@OzKod1='') or (@OzKod1=a.OzKod1)) and ((@OzKod2='') or (@OzKod2=a.OzKod2)) 
+   union all -- Genel Virman borc
+      SELECT 'GV',SUM(tutar.NetTutar),0 --sum(dbo.kg_fn_DovHestg('GV',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),ck.Tarih,@langid) as datetime), Borc ,@ParType,@SbtTar,@CariPB)),0
+            FROM Gvirman_Kay ck JOiN Gvirman_Har ch ON ck.FisNo = ch.FisNo 
+            LEFT JOIN GVirmanTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.ID and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+			WHERE  (ch.Hartip='C') and (ch.KartKod=@CKod) 
+               and((@FisTar1=N'')or(ck.Tarih>=@FisTar1))and((@FisTar2=N'')or(ck.Tarih<=@FisTar2)) 
+               and(exists(select locx From @LocationX Where locx=ck.Location) )
+                AND ISNULL(ch.Borc,0)>0
+             --  and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+             --  and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+    union all -- Genel Virman Alacak
+      SELECT 'GV' ,0,SUM(tutar.NetTutar)--sum(dbo.kg_fn_DovHestg('GV',ck.FisNo,ch.ParaCinsi,@ParaCinsi,cast(CONVERT(varchar(10),ck.Tarih,@langid) as datetime),
+	                    --   Alacak ,@ParType,@SbtTar,@CariPB))
+            FROM Gvirman_Kay ck JOiN Gvirman_Har ch ON ck.FisNo = ch.FisNo 
+             LEFT JOIN GVirmanTutar tutar on tutar.FisNo=ck.FisNo and tutar.FisHarinx=ch.ID and tutar.ParaCinsi=isnull(@ParaCinsi, ch.ParaCinsi) and tutar.LineType='S'
+	         WHERE  (ch.Hartip='C') and (ch.KartKod=@CKod) 
+               and((@FisTar1=N'')or(ck.Tarih>=@FisTar1))and((@FisTar2=N'')or(ck.Tarih<=@FisTar2)) 
+               and(exists(select locx From @LocationX Where locx=ck.Location) )
+               AND ISNULL(ch.Alacak,0)>0
+              -- and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+             --  and ((@OzKod1='') or (@OzKod1=ck.OzKod1)) and ((@OzKod2='') or (@OzKod2=ck.OzKod2))
+
+    if exists(select OpX From @OptiTbl Where OpX=N'Si')begin
+      insert @KC_Temp -- Sipariş borclar
+      select 'Si'
+        ,sum(
+          dbo.kg_fn_DovHes(sh.Paracinsi,@ParaCinsi,cast(CONVERT(varchar(10), si.SipTar, @langid) as datetime),
+           dbo.kg_fn_FindTutarX(isNull(sg.Giren,0)-isnull(sg.Cikan,0), sh.Fiyat, isnull(sh.iskontotut,0), isnull(sh.iskonto,0), isnull(sh.kdvoran,0) ,si.KDVCheck,'',sh.OTVOran,sh.SipHarinx,si.SipNo,'S'))
+         )  as Tutar,0
+      From Siparis_Kay si join siparis_har sh on (si.sipno=sh.sipno)
+      join si_Gchar sg on (si.SipNo=sg.FisNo) and (sg.FisHarInx=sh.SipHarinx)
+      Where (si.CariKod=@CKod)and(sg.Modul='i')and(si.SipTip='S')and(isnull(si.Durum,'')<>'*')and(isnull(sh.Durum,'')<>'*')and(isnull(sg.Giren,0)-isNull(sg.Cikan,0)>0)
+                and(exists(select locx From @LocationX Where locx=si.Location))
+                and ((@PC='') or (sh.ParaCinsi=@PC Collate Turkish_ci_as))
+                and ((@OzKod1='') or (@OzKod1=si.OzKod1)) and ((@OzKod2='') or (@OzKod2=si.OzKod2)) 
+                and((SipTar>=@FisTar1)or(@FisTar1=N'')) and ((SipTar<=@FisTar2)or(@FisTar2=''))
+      Union All  -- Sipariş Alacaklar
+      select 'Si'
+        ,0,sum(
+          dbo.kg_fn_DovHes(sh.Paracinsi,@ParaCinsi,cast(CONVERT(varchar(10), si.SipTar, @langid) as datetime),
+           dbo.kg_fn_FindTutarX(isNull(sg.Cikan,0)-isnull(sg.Giren,0), sh.Fiyat, isnull(sh.iskontotut,0), isnull(sh.iskonto,0), isnull(sh.kdvoran,0) ,si.KDVCheck,'',sh.OTVOran,sh.SipHarinx,si.SipNo,'S'))
+         )  as Tutar
+      From Siparis_Kay si join siparis_har sh on (si.sipno=sh.sipno)
+      join si_Gchar sg on (si.SipNo=sg.FisNo) and (sg.FisHarInx=sh.SipHarinx)
+      Where (si.CariKod=@CKod)and(sg.Modul='i')and(si.SipTip='A')and(isnull(si.Durum,'')<>'*')and(isnull(sh.Durum,'')<>'*')and(isnull(sg.Cikan,0)-isNull(sg.Giren,0)>0)
+                and(exists(select locx From @LocationX Where locx=si.Location))
+                and ((@PC='') or (sh.ParaCinsi=@PC Collate Turkish_ci_as))
+                and ((@OzKod1='') or (@OzKod1=si.OzKod1)) and ((@OzKod2='') or (@OzKod2=si.OzKod2)) 
+                and((SipTar>=@FisTar1)or(@FisTar1=N'')) and ((SipTar<=@FisTar2)or(@FisTar2=''))
+    end
+  
+  if @Fason=1 begin 
+    insert @KC_Temp 
+      SELECT 'Sf', (Select Sum(dbo.kg_fn_DovHesX('S',ckk.FisNo,chh.ParaCinsi, @ParaCinsi, cast(CONVERT(varchar(10), ckk.FisTar, @langid) as datetime),
+        dbo.kg_fn_FindTutar(  chh.Miktar, chh.Fiyat, isnull(chh.Iskontotut,0), isnull(chh.Iskonto,0), isnull(chh.kdvoran,0), ckk.KDVCheck)  * (1-(Dbo.kg_fn_stFindiskOran(chh.FisNo)/100 ))
+          )) from s_Fis_Kay ckk left join s_Fis_Har chh on ckk.FisNo=chh.FisNo where chh.FisNo = ck.FisNo), 0
+            FROM S_Fis_Kay ck JOiN S_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.FisTip > 0) and (ck.FisTip % 2 = 0) and (ck.CariKod=@CKod) and (exists(select locx From @LocationX Where locx=ck.Location))
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2))
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+    union all 
+      SELECT 'Sf',0 , (Select Sum(dbo.kg_fn_DovHesX('S',ckk.FisNo,chh.ParaCinsi, @ParaCinsi, cast(CONVERT(varchar(10), ckk.FisTar, @langid) as datetime),
+        dbo.kg_fn_FindTutar(  chh.Miktar, chh.Fiyat, isnull(chh.Iskontotut,0), isnull(chh.Iskonto,0), isnull(chh.kdvoran,0), ckk.KDVCheck)  * (1-(Dbo.kg_fn_stFindiskOran(chh.FisNo)/100 ))
+        )) from s_Fis_Kay ckk left join s_Fis_Har chh on ckk.FisNo=chh.FisNo where chh.FisNo = ck.FisNo)
+        
+            FROM S_Fis_Kay ck JOiN S_Fis_Har ch ON ck.FisNo = ch.FisNo 
+            WHERE (isnull(ck.iptal,'')<>'*') and (ck.FisTip > 0) and (ck.FisTip % 2 = 1) and (ck.CariKod=@CKod) and (exists(select locx From @LocationX Where locx=ck.Location))
+               and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2))
+               and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+  end
+  --insert @KC_Temp 
+   -- select 'CK',0,0 from cari_kart ck
+	--WHERE  (ck.CKod=@CKod) --and (exists(select locx From @LocationX Where locx=ck.Location))
+              -- and((@FisTar1=N'')or(FisTar>=@FisTar1))and((@FisTar2=N'')or(FisTar<=@FisTar2))
+              -- and ((@PC='') or (ch.ParaCinsi=@PC Collate Turkish_ci_as))
+
+  if @Options ='D' -- detay
+    insert @CariHesTop select FisTur , sum(Borc) ,sum(Alacak) From @KC_Temp group by FisTur
+  if @Options ='G' -- Genel toplam
+    insert @CariHesTop select 'G' , sum(Borc) ,sum(Alacak) From @KC_Temp 
+  RETURN
+END
+
+",143,Samet,KgShop-KORGUNDC-231001.0624-50089,KGShop_efatdeneme,"
+CREATE   PROCEDURE [dbo].[spr_CariBakiyeUpdate](@CKod varchar(15),@Location varchar(5))
+AS 
+BEGIN
+  IF EXISTS(SELECT TOP 1 1 FROM Cari_Kart c WHERE c.CKod = @CKod) AND EXISTS(SELECT TOP 1 1 FROM Location l WHERE l.Location = @Location) BEGIN
+    IF EXISTS(SELECT TOP 1 1 FROM CariBakiye cb WHERE cb.CKod = @CKod AND cb.Location = @Location)
+      UPDATE cb SET 
+        LastUpdate = GETDATE()
+      FROM CariBakiye cb
+      WHERE cb.Ckod = @CKod AND cb.Location = @Location
+    ELSE BEGIN
+      DECLARE @DefPC varchar(3) = ''
+      SELECT @DefPC = CheckValue FROM ModulParList WHERE MOption = 'DefaultPC'
+      INSERT INTO CariBakiye (CKod, Location, ParaCinsi, Tutar, LastUpdate, LastCalculate)
+        SELECT @CKod, @Location, dbo.kg_fn_isEmpty((CASE WHEN ISNULL(DefPc,'')='' THEN @DefPC ELSE DefPc END), NULL), 0, GETDATE(), 0 FROM Cari_Kart WHERE CKod = @CKod
+    END
+  END
+END
+",2025-05-22 12:33:26.367000,17,[KORGUNYAZILIM2310].[dbo].[CariBakiye],dbo,2025-05-22 12:33:36.830000,KGEntegrator,dbo,2025-05-22 12:33:43.027000,KGEntegrator
+6,104,sa,LENOVOM,Microsoft SQL Server Management Studio - Query,ROLLBACK TRAN,160,sa,LENOVOM,Microsoft SQL Server Management Studio - Query,"RESTORE DATABASE [Erpa20RafYedek] FROM  DISK = N'C:\2310\Data\erpa20-140525\erpa20-140525.bak' WITH  FILE = 1,  MOVE N'Kur_Paleimon_Data' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.KG2310\MSSQL\DATA\Erpa20RafYedek_Data.Mdf',  MOVE N'Kur_Paleimon_Log' TO N'C:\Program Files\Microsoft SQL Server\MSSQL15.KG2310\MSSQL\DATA\Erpa20RafYedek_Log.Ldf',  NOUNLOAD,  REPLACE,  STATS = 5",2025-05-23 15:00:16.413000,20,N/A,dbo,2025-05-23 15:00:26.077000,KGEntegrator,dbo,2025-05-23 15:00:36.250000,KGEntegrator
+7,83,sa,KGEntegrator-BlockingSessionsLog-1.0.9278.22701,KGEntegrator,"
+
+
+CREATE   PROCEDURE [dbo].[sp_ListBlockingSessions]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Temporary table to store the blocking information
+    CREATE TABLE #BlockingDetails
+    (
+        BlockingSPID INT,
+        BlockingUser NVARCHAR(128),
+        BlockingHost NVARCHAR(128),
+        BlockingApp NVARCHAR(128),
+        BlockingSQL NVARCHAR(MAX),
+        BlockedSPID INT,
+        BlockedUser NVARCHAR(128),
+        BlockedHost NVARCHAR(128),
+        BlockedApp NVARCHAR(128),
+        BlockedSQL NVARCHAR(MAX),
+        LockStartTime DATETIME,
+        ObjectName NVARCHAR(MAX)
+    );
+
+    WITH BlockingInfo AS
+    (
+        SELECT
+            blocking_session_id AS BlockingSPID,
+            session_id AS BlockedSPID
+        FROM sys.dm_exec_requests r
+        WHERE blocking_session_id <> 0
+        AND blocking_session_id <> session_id
+        AND blocking_session_id > 50 AND session_id > 50 
+    )
+    INSERT INTO #BlockingDetails
+    SELECT
+        bi.BlockingSPID,
+        SBlocking.login_name AS BlockingUser,
+        SBlocking.host_name AS BlockingHost,
+        SBlocking.program_name AS BlockingApp,
+        COALESCE(
+            (SELECT TOP 1 text FROM sys.dm_exec_requests er
+             CROSS APPLY sys.dm_exec_sql_text(er.sql_handle) AS est
+             WHERE er.session_id = r.blocking_session_id AND text IS NOT NULL),
+            (SELECT TOP 1 text FROM sys.dm_exec_connections ec
+             CROSS APPLY sys.dm_exec_sql_text(ec.most_recent_sql_handle) AS est
+             WHERE ec.session_id = r.blocking_session_id AND text IS NOT NULL),
+            'N/A'
+        ) AS BlockingSQL,
+        bi.BlockedSPID,
+        SBlocked.login_name AS BlockedUser,
+        SBlocked.host_name AS BlockedHost,
+        SBlocked.program_name AS BlockedApp,
+        COALESCE(
+            (SELECT TOP 1 text FROM sys.dm_exec_requests br
+             CROSS APPLY sys.dm_exec_sql_text(br.sql_handle) AS bst
+             WHERE br.session_id = r.session_id AND text IS NOT NULL),
+            (SELECT TOP 1 text FROM sys.dm_exec_connections bc
+             CROSS APPLY sys.dm_exec_sql_text(bc.most_recent_sql_handle) AS bst
+             WHERE bc.session_id = r.session_id AND text IS NOT NULL),
+            'N/A'
+        ) AS BlockedSQL,
+        r.start_time AS LockStartTime,
+        COALESCE(
+            (SELECT TOP 1 QUOTENAME(DB_NAME(l.resource_database_id)) + '.' +
+                    QUOTENAME(OBJECT_SCHEMA_NAME(l.resource_associated_entity_id, l.resource_database_id)) + '.' +
+                    QUOTENAME(OBJECT_NAME(l.resource_associated_entity_id, l.resource_database_id))
+             FROM (SELECT * FROM sys.dm_tran_locks l WHERE l.resource_type = 'OBJECT') l
+             WHERE l.request_session_id = r.session_id),
+            'N/A'
+        ) AS ObjectName
+    FROM BlockingInfo bi
+    LEFT JOIN sys.dm_exec_sessions SBlocking ON bi.BlockingSPID = SBlocking.session_id
+    LEFT JOIN sys.dm_exec_sessions SBlocked ON bi.BlockedSPID = SBlocked.session_id
+    LEFT JOIN sys.dm_exec_requests r ON bi.BlockedSPID = r.session_id
+    WHERE ISNULL(SBlocking.host_name, '') + ISNULL(SBlocking.program_name, '') + ISNULL(SBlocked.host_name, '') + ISNULL(SBlocked.program_name, '') <> ''
+
+    -- Recursively find all chained blocking relationships
+    ;WITH RecursiveBlocking AS
+    (
+        SELECT
+            BlockingSPID,
+            BlockingUser,
+            BlockingHost,
+            BlockingApp,
+            BlockingSQL,
+            BlockedSPID,
+            BlockedUser,
+            BlockedHost,
+            BlockedApp,
+            BlockedSQL,
+            LockStartTime,
+            ObjectName
+        FROM #BlockingDetails
+        UNION ALL
+        SELECT
+            r.BlockingSPID,
+            r.BlockingUser,
+            r.BlockingHost,
+            r.BlockingApp,
+            r.BlockingSQL,
+            d.BlockedSPID,
+            d.BlockedUser,
+            d.BlockedHost,
+            d.BlockedApp,
+            d.BlockedSQL,
+            d.LockStartTime,
+            d.ObjectName
+        FROM RecursiveBlocking r
+        INNER JOIN #BlockingDetails d ON r.BlockedSPID = d.BlockingSPID
+    )
+    SELECT DISTINCT
+        BlockingSPID,
+        BlockingUser,
+        BlockingHost,
+        BlockingApp,
+        BlockingSQL,
+        BlockedSPID,
+        BlockedUser,
+        BlockedHost,
+        BlockedApp,
+        BlockedSQL,
+        LockStartTime,
+        DATEDIFF(SECOND, LockStartTime, GETDATE()) as [TotalWaitTimeSec],
+        ObjectName
+    FROM RecursiveBlocking r
+    WHERE NOT EXISTS(SELECT TOP 1 1 FROM RecursiveBlocking r2 WHERE r.BlockingSPID = r2.BlockedSPID)
+    ORDER BY LockStartTime;
+
+    DROP TABLE #BlockingDetails;
+END
+",78,sa,KGEntegrator-RafDagitim-1.0.9278.22701,KGEntegrator,"
+-- =============================================
+-- Author:		Ercüment EŞKAR
+-- Create date: 23.12.2021 Thursday, Sunny Phuket day
+-- Description:	Dışarıdan gelen #Result tablosunun içindeki @AmountField isimli alandaki miktara bakar ve o satırı o tablo içinde o sayıda çoğaltır. 
+--              (1) #Result tablosunda Primary Key varsa PK Constraint kaldırılacaktır. Ayrıca FieldName isimli alan NULLABLE olmalıdır.
+--              (2) #Result tablosunda seq isimli alanı olmamalıdır. SP tarafından yaratılır ve içine her satırın grup sıra numarası konulur.
+-- Update     : 30.12.2021 Thursday akşam akşam
+--              @OtherFields parametresi eklendi. Bu parametre ile gönderilen integer alanlardaki rakamlar da 1 er 1 er dağıtılacak... (Bu miktarlar @AmountField alanındaki miktardan küçük olmak zorunda. Yoksa @AmountField alanındaki miktar kadarı dağıtılır)
+-- Usage :
+
+-- IF OBJECT_ID('tempdb.dbo.#Result') IS NOT NULL Drop Table #Result;
+-- GO
+-- Create table #Result (Ad nvarchar(50), M int, R int, T int);
+-- insert into #Result Values ('Domates', 1, 0, 1), ('Biber', 2, 1, 2), ('Patlıcan', 3, 2, 1), ('Patates', 4, 2, 3)
+-- EXEC dbo.kg_sp_MultipleByAmount 'Result', 'M', 'R,T'
+-- SELECT * FROM #Result
+
+-- =============================================
+
+CREATE   PROCEDURE [dbo].[kg_sp_MultipleByAmount] @TableName VarChar(50) = 'Satis', @AmountField nvarchar(50) = 'Miktar', @OtherFields nvarchar(MAX) = ''
+AS BEGIN
+/* Bu yöntem çok çok daha hızlı, müsait zamanda bu yönteme geçir
+
+IF OBJECT_ID('tempdb.dbo.#Satis') IS NOT NULL DROP TABLE #Satis;
+CREATE TABLE #Satis (lot_no varchar(20), exp_dt varchar(20), Miktar int)
+INSERT INTO #Satis
+SELECT * 
+FROM (VALUES ('002133191','20281203',0),('2161411','20311015',20000)) T(lot_no,exp_dt,Miktar)
+
+;WITH myTable as (
+SELECT *
+FROM #Satis )
+
+SELECT ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) row_no, t.lot_no, t.exp_dt, ISNULL(x.qty,0) Miktar
+FROM myTable t
+OUTER APPLY (SELECT TOP(t.Miktar) 1 qty FROM syscolumns) X
+ORDER BY t.exp_dt
+*/
+  IF OBJECT_ID('tempdb.dbo.#'+@TableName) IS NOT NULL BEGIN
+      IF (ISNULL(@TableName, '')='') SET @TableName = 'Satis'
+      IF (ISNULL(@AmountField, '')='') SET @AmountField = 'Miktar'
+      SET @AmountField = ISNULL(@AmountField, 'Miktar')
+      SET @OtherFields = ISNULL(@OtherFields, '')
+
+      Declare @Sql nvarchar(max)=''
+      SELECT @Sql = @Sql + 'ALTER TABLE #'+@TableName+' DROP CONSTRAINT '+name+'; ' FROM tempdb.sys.key_constraints where parent_object_id = OBJECT_ID('tempdb.dbo.#'+@TableName)
+      --PRINT CAST(@SQL as TEXT)
+      Exec(@Sql)
+      Declare @Columns nvarchar(max)='', @OF nvarchar(max)=''
+      --SELECT @Columns = @Columns + name+', ' FROM tempdb.sys.all_columns where object_id = OBJECT_ID('tempdb.dbo.#'+@TableName) and is_identity=0 and name <> @AmountField and not exists(SELECT top 1 1 FROM dbo.kg_ifn_StrToTable(@OtherFields, ',') where Sonuc=name)
+      SELECT @Columns = @Columns + name+', ' FROM tempdb.sys.all_columns where object_id = OBJECT_ID('tempdb.dbo.#'+@TableName) and is_identity=0 and name <> @AmountField and not exists(SELECT top 1 1 FROM dbo.kg_ifn_StrToTable(@OtherFields, ',') where Sonuc=name)
+      --EXEC sp_help 'sys.all_columns'
+      --EXEC sp_help 'dbo.kg_ifn_StrToTable'
+      SELECT @OF = @OF  + '(CASE WHEN ' + Sonuc +' >= n.n THEN 1 ELSE 0 END) as ' + Sonuc + ', ' FROM dbo.kg_ifn_StrToTable(@OtherFields, ',') WHERE LTRIM(RTRIM(Sonuc))<>''
+      SET @Columns = SUBSTRING(@Columns, 1, LEN(@Columns)-1)
+      IF @OtherFields<>''
+        SET @OtherFields = @OtherFields+', '
+      --Set @OF = SUBSTRING(@OF, 1, LEN(@OF)-1)
+      Set @Sql = '
+      Declare @nc int
+      SELECT @nc = Sum('+@AmountField+') FROM #'+@TableName+'
+      ALTER TABLE #'+@TableName+' ADD seq int NULL
+      IF (isNull(@nc, 0)>0) BEGIN
+        IF OBJECT_ID(''tempdb.dbo.#n'') IS NOT NULL Drop Table #n
+        SELECT TOP (@nc) IDENTITY(int,1,1) AS n INTO #n FROM sys.objects s1 CROSS JOIN sys.objects s2 CROSS JOIN sys.objects s3 
+        insert into #'+@TableName+' ('+@Columns+', '+@OtherFields+' seq) SELECT '+@Columns+', '+@OF+' n.n FROM #'+@TableName+' r LEFT JOIN #n n on n.n<=isNull(r.'+@AmountField+', 0) WHERE n.n IS NOT NULL ORDER BY '+@Columns+'
+      END
+      DELETE #'+@TableName+' where '+@AmountField+' IS NOT NULL
+      '
+      PRINT CAST(@SQL as TEXT)
+      Exec(@Sql)
+    END
+END
+",2025-05-27 17:07:47.060000,12,[tempdb].[sys].[sysrowsets],dbo,2025-05-27 17:07:59.207000,KGEntegrator,,,

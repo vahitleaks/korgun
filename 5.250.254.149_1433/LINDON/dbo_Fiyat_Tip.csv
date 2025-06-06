@@ -1,0 +1,10 @@
+Bolum,tip,Tanim,ParaCinsi,Taksit,OzKod1,OzKod2,Pasif,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+AF,A01,Toptan Alış TL,TL,0,,,,1,,,,,,
+SF,S01,Satış TL,TL,0,,,,2,,,,,,
+SF,S02,WEB,TL,0,,,,3,,,,,,
+SF,S03,Trendyol,TL,0,,,,4,,,,,,
+SF,S04,N11,TL,0,,,,5,,,,,,
+SF,S05,Hepsiburada,TL,0,,,,6,,,,,,
+SF,S06,Shopify,TL,0,,,,7,,,,Zeki,2025-03-12 15:14:36.177000,KGShop
+SF,S07,Shopify,TL,0,,,,9,Zeki,2025-03-07 13:02:51.603000,KGShop,,,
+SF,S11,Toptan Satış TL,TL,0,,,,8,,,,,,

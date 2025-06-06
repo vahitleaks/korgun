@@ -1,0 +1,34 @@
+inx,UserName,TarihSaat,Modul,MOption,CheckValue,OldCheckValue
+1,dbo,2020-12-22 16:19:43.003000,Stok,DefaultBirim,CIFT,ADET
+2,dbo,2020-12-22 16:19:52.823000,GENEL,AsortiSave,Evet,Hayir
+3,dbo,2020-12-22 16:20:33.647000,GENEL,MaxAsorFrmt,869,
+4,dbo,2020-12-28 10:48:40.993000,Stok,DefaultKDV,0,8
+5,dbo,2021-01-11 16:49:49.077000,FatFis,StokReadonly,Evet,Hayir
+6,dbo,2021-01-13 10:31:25.347000,SipFis,SatOzKod1T,Marka,Özel Kod 1
+7,dbo,2021-01-13 13:10:39.093000,SipFis,SipOzKod10,Marj,Özel Kod 10
+8,dbo,2021-01-13 14:08:17.043000,GENEL,DefaultPC,US,TL
+9,dbo,2021-01-13 14:11:03.353000,SipFis,SSipRefresh,Evet,Hayir
+10,dbo,2021-01-13 14:11:03.370000,SipFis,ASipRefresh,Evet,Hayir
+11,dbo,2021-01-13 14:11:03.370000,SipFis,BagTeklifColor,Evet,Hayir
+12,dbo,2021-01-13 14:19:01.520000,SipFis,KayDurum,Evet,Hayir
+13,dbo,2021-01-13 14:51:42.580000,SipFis,SipSSBelgeNo,Pazarlama,Hayir
+14,dbo,2021-01-13 14:51:42.597000,SipFis,BelgeNoCheck,Evet,Hayir
+15,dbo,2021-01-13 14:51:42.597000,SipFis,AutoBelgeNo,Evet,Hayir
+16,dbo,2021-01-13 14:54:42.727000,SipFis,CopyBelNo,Evet,Hayir
+17,dbo,2021-01-13 14:54:42.740000,SipFis,CopyNotlar,Hayır,Evet
+18,dbo,2021-01-13 14:54:42.757000,SipFis,SipCopyLot,Evet,Hayir
+19,dbo,2021-01-18 12:30:29.050000,GENEL,MailUser,planlama@ozkanshoes.com,
+20,dbo,2021-01-18 12:33:18.530000,GENEL,MailSMTP,smtp@ozkanshoes.com,
+21,dbo,2021-01-18 12:33:18.543000,GENEL,MailPass,tutku004425,
+22,dbo,2021-01-18 12:33:18.543000,GENEL,Mail_Silme,Evet,Hayir
+23,dbo,2021-01-20 17:14:39.273000,SipFis,FiyReadOnly,Evet,Hayir
+24,dbo,2021-02-01 12:14:55.893000,SipFis,StokReadonly,Evet,Hayir
+25,dbo,2021-02-24 13:32:24.513000,SipFis,Cpyisk,Evet,Hayir
+26,dbo,2021-03-12 11:41:59.740000,SipFis,TeklifSipChange,Evet,Hayir
+27,dbo,2021-03-25 18:08:09.490000,SipFis,SatOzKod2T,Astar,
+28,dbo,2021-03-25 18:10:12.687000,SipFis,Donisk,Evet,Hayir
+29,dbo,2021-04-16 15:11:46.870000,GENEL,MtxBedOrd,Beden,BedenKod
+30,dbo,2021-04-19 16:53:24.157000,SipFis,SipBagMikChange,Evet,Hayir
+31,dbo,2021-04-19 16:53:24.157000,SipFis,SipFrMikChange,Evet,Hayir
+32,dbo,2021-04-29 11:24:26.300000,SipFis,FiyReadOnly,Hayir,Evet
+33,dbo,2025-01-08 12:21:11.877000,SipFis,CopyNotlar,Evet,Hayır

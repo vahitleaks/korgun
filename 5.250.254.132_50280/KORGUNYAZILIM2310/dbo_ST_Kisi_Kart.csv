@@ -1,0 +1,11 @@
+KKod,Ad,Gobek,Soyad,Unvan,GoruntuAd,email,Adr1,Adr2,ilce,PKod,Sehir,Ulke,Tel1Tip,Tel1,Tel2Tip,Tel2,Tel3Tip,Tel3,Tel4Tip,Tel4,WWW,Resim,DogTar,MedDur,Cinsiyeti,EsAd,EsDT,EvlilikT,Notu,TCKimlikNo,WorkName,WorkUnvan,WorkBolum,Workemail,WorkAdr1,WorkAdr2,Workilce,WorkPKod,WorkSehir,WorkUlke,WorkWWW,WorkTel1Tip,WorkTel1,WorkTel2Tip,WorkTel2,WorkTel3Tip,WorkTel3,WorkTel4Tip,WorkTel4,FirmaYetkili,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+2,KAAN,,ACAR,,KAAN ACAR,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,2,k,2024-06-03 16:54:14.227000,Microsoft SQL Server Management Studio - Query,,,
+3,AYŞE,,ÇIKLI,,AYŞE ÇIKLI,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,3,k,2024-06-03 16:58:59.410000,KGShop,,,
+4,TEMEL,,KARAMOLLA,BAŞKAN,TEMEL KARAMOLLA,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,4,k,2024-06-03 17:08:32.743000,KGShop,Samet,2024-06-04 16:58:59.630000,Microsoft SQL Server Management Studio - Query
+5,ahmet,,ahmet,,ahmet ahmet,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,*,5,Samet,2024-06-05 14:05:31.677000,KGShop,,,
+6,mehmet,,mehmet,,mehmet mehmet,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,6,Samet,2024-06-05 14:05:46.080000,KGShop,,,
+7,hüseyin,,ahmet,,hüseyin ahmet,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,7,Samet,2024-06-05 14:06:12.397000,KGShop,,,
+8,umut,,aksu,umut aksu,umut aksu,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,8,Samet,2024-06-05 14:14:10.827000,KGShop,,,
+9,enver,,,,enver,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,9,Samet,2024-06-05 14:38:34.380000,KGShop,,,
+10,samet,,samet,,samet samet,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,*,10,Samet,2024-06-05 14:40:22.290000,KGShop,,,
+11,enver,,demircioğlu,,enver demircioğlu,,,,,,,,1,,2,,3,,4,,,,,0,0,,,,,,,,,,,,,,,,,5,,6,,7,,8,,,11,Samet,2024-06-05 15:10:37.527000,KGShop,,,

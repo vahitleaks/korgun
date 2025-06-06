@@ -1,0 +1,15 @@
+Dep_KOD,Tanim,DBName
+A,Satınalma,TANCA
+B,Bilgi Islem,TANCA
+BM,Bölge Müdürü,TANCA
+D,Depo Sorumlusu,TANCA
+DS,Depo/Satış,TANCA
+İK,İnsan Kaynakları,TANCA
+K,Kasiyer,TANCA
+KS,Kasa/Satış,TANCA
+M,Muhasebe,TANCA
+MM,Mağaza Müdürü,TANCA
+MS,Mağaza Sorumlusu,TANCA
+MY,Mağaza Müdür Yardımcısı,TANCA
+S,Satıcı,TANCA
+Y,Yönetici,TANCA

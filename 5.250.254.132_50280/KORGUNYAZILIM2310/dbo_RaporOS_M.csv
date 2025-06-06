@@ -1,0 +1,3 @@
+Id,Baslik,Aciklama,Sorgu,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+4,test,test,select * from stokkart,4,Samet,2025-01-23 14:04:26.703000,KGShop,harun,2025-05-28 12:17:31.877000,KGShop_RAPORS
+5,test,test,,5,harun,2025-05-28 12:16:23.163000,KGShop_RAPORS,,,

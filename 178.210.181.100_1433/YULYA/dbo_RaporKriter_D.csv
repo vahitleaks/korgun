@@ -1,0 +1,543 @@
+inx,CompName,CompType,Deger,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,e_AsortiBit,TcxTextEdit,,1,,,,yulya,2025-01-17 12:04:40.003000,KGShop
+1,xcb_NoAsorti,TcxCheckBox,,2,,,,yulya,2025-01-17 12:04:40.007000,KGShop
+1,rg_ConvertBirim,TcxRadioGroup,0,3,,,,yulya,2025-01-17 12:04:40.010000,KGShop
+1,rg_NetKalan,TcxRadioGroup,0,4,,,,yulya,2025-01-17 12:04:40.013000,KGShop
+1,rg_TutarHesTip,TcxRadioGroup,0,5,,,,yulya,2025-01-17 12:04:40.017000,KGShop
+1,CB_MDPLocation,TcxComboBox,1,6,,,,yulya,2025-01-17 12:04:40.020000,KGShop
+1,xcb_StokKalan,TcxCheckBox,,7,,,,yulya,2025-01-17 12:04:40.023000,KGShop
+1,xcb_BagliSiparisler,TcxCheckBox,*,8,,,,yulya,2025-01-17 12:04:40.023000,KGShop
+1,E_sOzKod1,TcxTextEdit,,9,,,,yulya,2025-01-17 12:04:40.027000,KGShop
+1,E_sOzKod2,TcxTextEdit,,10,,,,yulya,2025-01-17 12:04:40.030000,KGShop
+1,E_sOzKod3,TcxTextEdit,,11,,,,yulya,2025-01-17 12:04:40.033000,KGShop
+1,E_sOzKod4,TcxTextEdit,,12,,,,yulya,2025-01-17 12:04:40.037000,KGShop
+1,E_sOzKod5,TcxTextEdit,,13,,,,yulya,2025-01-17 12:04:40.040000,KGShop
+1,E_sSevkSekil,TcxTextEdit,,14,,,,yulya,2025-01-17 12:04:40.043000,KGShop
+1,E_SevkNum,TcxTextEdit,,15,,,,yulya,2025-01-17 12:04:40.047000,KGShop
+1,E_sCloseTitle,TcxTextEdit,,16,,,,yulya,2025-01-17 12:04:40.050000,KGShop
+1,rg_SipUrKonum,TcxRadioGroup,0,17,,,,yulya,2025-01-17 12:04:40.053000,KGShop
+1,E_SipOzDur_2,TcxTextEdit,,18,,,,yulya,2025-01-17 12:04:40.057000,KGShop
+1,xcb_BagSipCari,TcxCheckBox,*,19,,,,yulya,2025-01-17 12:04:40.060000,KGShop
+1,es_SipNo_1,TcxTextEdit,,20,,,,yulya,2025-01-17 12:04:40.063000,KGShop
+1,es_SipNo_2,TcxTextEdit,,21,,,,yulya,2025-01-17 12:04:40.067000,KGShop
+1,es_SipNo_3,TcxTextEdit,,22,,,,yulya,2025-01-17 12:04:40.070000,KGShop
+1,es_BelgeNo,TcxTextEdit,,23,,,,yulya,2025-01-17 12:04:40.070000,KGShop
+1,E_OdSekil,TcxTextEdit,,24,,,,yulya,2025-01-17 12:04:40.073000,KGShop
+1,e_AdresAdi,TcxTextEdit,,25,,,,yulya,2025-01-17 12:04:40.077000,KGShop
+1,e_AdresAdi2,TcxTextEdit,,26,,,,yulya,2025-01-17 12:04:40.080000,KGShop
+1,cb_OnayKademe,TcxComboBox,-1,27,,,,yulya,2025-01-17 12:04:40.083000,KGShop
+1,rg_SipBagOp,TcxRadioGroup,2,28,,,,yulya,2025-01-17 12:04:40.087000,KGShop
+1,xcb_Resim,TcxCheckBox,,29,,,,yulya,2025-01-17 12:04:40.090000,KGShop
+1,xcb_ShowPicture,TcxCheckBox,,30,,,,yulya,2025-01-17 12:04:40.093000,KGShop
+1,se_showPicture,TSpinEdit,50,31,,,,yulya,2025-01-17 12:04:40.097000,KGShop
+1,E_sOzKod6,TcxTextEdit,,32,,,,yulya,2025-01-17 12:04:40.100000,KGShop
+1,E_sOzKod7,TcxTextEdit,,33,,,,yulya,2025-01-17 12:04:40.100000,KGShop
+1,E_sOzKod8,TcxTextEdit,,34,,,,yulya,2025-01-17 12:04:40.103000,KGShop
+1,E_sOzKod9,TcxTextEdit,,35,,,,yulya,2025-01-17 12:04:40.107000,KGShop
+1,E_sOzKod10,TcxTextEdit,,36,,,,yulya,2025-01-17 12:04:40.110000,KGShop
+1,rg_LockCheck,TcxRadioGroup,0,37,,,,yulya,2025-01-17 12:04:40.113000,KGShop
+1,rgUretimSekil,TcxRadioGroup,0,38,,,,yulya,2025-01-17 12:04:40.117000,KGShop
+1,rg_SipPrintOp,TcxRadioGroup,0,39,,,,yulya,2025-01-17 12:04:40.120000,KGShop
+1,E_cSehir,TcxTextEdit,,40,,,,yulya,2025-01-17 12:04:40.120000,KGShop
+1,E_cUlke,TcxTextEdit,,41,,,,yulya,2025-01-17 12:04:40.123000,KGShop
+1,ce_RiskLimit_1,TcxTextEdit,,42,,,,yulya,2025-01-17 12:04:40.127000,KGShop
+1,ce_RiskLimit_2,TcxTextEdit,,43,,,,yulya,2025-01-17 12:04:40.130000,KGShop
+1,ce_Riski_1,TcxTextEdit,,44,,,,yulya,2025-01-17 12:04:40.133000,KGShop
+1,ce_Riski_2,TcxTextEdit,,45,,,,yulya,2025-01-17 12:04:40.137000,KGShop
+1,ce_KrediLimit_1,TcxTextEdit,,46,,,,yulya,2025-01-17 12:04:40.140000,KGShop
+1,ce_KrediLimit_2,TcxTextEdit,,47,,,,yulya,2025-01-17 12:04:40.140000,KGShop
+1,ce_Kredisi_1,TcxTextEdit,,48,,,,yulya,2025-01-17 12:04:40.143000,KGShop
+1,ce_Kredisi_2,TcxTextEdit,,49,,,,yulya,2025-01-17 12:04:40.147000,KGShop
+1,E_AlFiyTip,TcxTextEdit,,50,,,,yulya,2025-01-17 12:04:40.150000,KGShop
+1,E_SatFiyTip,TcxTextEdit,,51,,,,yulya,2025-01-17 12:04:40.153000,KGShop
+1,E_cilce,TcxTextEdit,,52,,,,yulya,2025-01-17 12:04:40.157000,KGShop
+1,E_cOzKod1_1,TcxTextEdit,,53,,,,yulya,2025-01-17 12:04:40.157000,KGShop
+1,E_cOzKod2_1,TcxTextEdit,,54,,,,yulya,2025-01-17 12:04:40.160000,KGShop
+1,E_cOzKod3_1,TcxTextEdit,,55,,,,yulya,2025-01-17 12:04:40.163000,KGShop
+1,E_cOzKod4_1,TcxTextEdit,,56,,,,yulya,2025-01-17 12:04:40.167000,KGShop
+1,E_cOzKod5_1,TcxTextEdit,,57,,,,yulya,2025-01-17 12:04:40.170000,KGShop
+1,E_cOzKod1_2,TcxTextEdit,,58,,,,yulya,2025-01-17 12:04:40.173000,KGShop
+1,E_cOzKod2_2,TcxTextEdit,,59,,,,yulya,2025-01-17 12:04:40.177000,KGShop
+1,E_cOzKod3_2,TcxTextEdit,,60,,,,yulya,2025-01-17 12:04:40.180000,KGShop
+1,E_cOzKod4_2,TcxTextEdit,,61,,,,yulya,2025-01-17 12:04:40.180000,KGShop
+1,E_cOzKod5_2,TcxTextEdit,,62,,,,yulya,2025-01-17 12:04:40.183000,KGShop
+1,E_cOzKod6_1,TcxTextEdit,,63,,,,yulya,2025-01-17 12:04:40.187000,KGShop
+1,E_cOzKod6_2,TcxTextEdit,,64,,,,yulya,2025-01-17 12:04:40.190000,KGShop
+1,E_cOzKod7_1,TcxTextEdit,,65,,,,yulya,2025-01-17 12:04:40.193000,KGShop
+1,E_cOzKod7_2,TcxTextEdit,,66,,,,yulya,2025-01-17 12:04:40.197000,KGShop
+1,E_cOzKod8_1,TcxTextEdit,,67,,,,yulya,2025-01-17 12:04:40.200000,KGShop
+1,E_cOzKod8_2,TcxTextEdit,,68,,,,yulya,2025-01-17 12:04:40.200000,KGShop
+1,E_cOzKod9_1,TcxTextEdit,,69,,,,yulya,2025-01-17 12:04:40.203000,KGShop
+1,E_cOzKod9_2,TcxTextEdit,,70,,,,yulya,2025-01-17 12:04:40.207000,KGShop
+1,E_cOzKod10_1,TcxTextEdit,,71,,,,yulya,2025-01-17 12:04:40.210000,KGShop
+1,E_cOzKod10_2,TcxTextEdit,,72,,,,yulya,2025-01-17 12:04:40.213000,KGShop
+1,rg_YurticDis,TcxRadioGroup,0,73,,,,yulya,2025-01-17 12:04:40.217000,KGShop
+1,rg_CariPasif,TcxRadioGroup,0,74,,,,yulya,2025-01-17 12:04:40.220000,KGShop
+1,rg_CariKaraliste,TcxRadioGroup,0,75,,,,yulya,2025-01-17 12:04:40.220000,KGShop
+1,xcb_cAlFiyat_Tip,TcxCheckBox,,76,,,,yulya,2025-01-17 12:04:40.223000,KGShop
+1,xcb_cSatFiyat_Tip,TcxCheckBox,,77,,,,yulya,2025-01-17 12:04:40.227000,KGShop
+1,cxTextEdit1,TcxTextEdit,,78,,,,yulya,2025-01-17 12:04:40.230000,KGShop
+1,clb_SevkDurum,TCheckListBox,"0,1,2,3",79,,,,yulya,2025-01-17 12:04:40.233000,KGShop
+1,es_SevkNo_1,TcxTextEdit,,80,,,,yulya,2025-01-17 12:04:40.237000,KGShop
+1,es_SevkNo_2,TcxTextEdit,,81,,,,yulya,2025-01-17 12:04:40.240000,KGShop
+1,es_SevkBelgeNo,TcxTextEdit,,82,,,,yulya,2025-01-17 12:04:40.240000,KGShop
+1,es_Gonderilecek1,TcxTextEdit,,83,,,,yulya,2025-01-17 12:04:40.243000,KGShop
+1,es_Gonderilecek2,TcxTextEdit,,84,,,,yulya,2025-01-17 12:04:40.247000,KGShop
+1,xcb_SevkEmirliOnly,TcxCheckBox,,85,,,,yulya,2025-01-17 12:04:40.250000,KGShop
+1,xcb_UrBekleyen,TcxCheckBox,,86,,,,yulya,2025-01-17 12:04:40.253000,KGShop
+1,rgx_ProsesDetType,TcxRadioGroup,0,87,,,,yulya,2025-01-17 12:04:40.257000,KGShop
+1,RGX_RapKriter,TcxRadioGroup,0,88,,,,yulya,2025-01-17 12:04:40.260000,KGShop
+1,xcbx_RnkMev,TcxCheckBox,,89,,,,yulya,2025-01-17 12:04:40.260000,KGShop
+1,xcbx_BedMev,TcxCheckBox,,90,,,,yulya,2025-01-17 12:04:40.263000,KGShop
+1,E_CKod,TcxTextEdit,,91,,,,yulya,2025-01-17 12:04:40.267000,KGShop
+1,DateTimePicker1,TDateTimePicker,0,92,,,,yulya,2025-01-17 12:04:40.270000,KGShop
+1,DateTimePicker2,TDateTimePicker,0,93,,,,yulya,2025-01-17 12:04:40.273000,KGShop
+1,cbx_Klp_KodList,TcxComboBox,-1,94,,,,yulya,2025-01-17 12:04:40.277000,KGShop
+1,cb_KlpLocation,TcxComboBox,1,95,,,,yulya,2025-01-17 12:04:40.280000,KGShop
+1,se_TurCnt,TSpinEdit,5,96,,,,yulya,2025-01-17 12:04:40.283000,KGShop
+1,xcb_Script,TcxCheckBox,*,97,,,,yulya,2025-01-17 12:04:40.287000,KGShop
+1,CBX_Script,TcxComboBox,0,98,,,,yulya,2025-01-17 12:04:40.290000,KGShop
+1,CB_SipTip,TcxComboBox,0,99,,,,yulya,2025-01-17 12:04:39.473000,KGShop
+1,CLB_Location,TCheckListBox,0,100,,,,yulya,2025-01-17 12:04:39.477000,KGShop
+1,clb_SumFieldList,TCheckListBox,"0,1,6,7,8,9,10,11,14,15,16",101,,,,yulya,2025-01-17 12:04:39.483000,KGShop
+1,CB_ParaC,TcxComboBox,3,102,,,,yulya,2025-01-17 12:04:39.487000,KGShop
+1,cbCevir,TcxCheckBox,,103,,,,yulya,2025-01-17 12:04:39.490000,KGShop
+1,cb_ParaC2,TcxComboBox,2,104,,,,yulya,2025-01-17 12:04:39.493000,KGShop
+1,E_CKod1,TcxTextEdit,120.037,105,,,,yulya,2025-01-17 12:04:39.497000,KGShop
+1,E_CKod2,TcxTextEdit,120.037,106,,,,yulya,2025-01-17 12:04:39.500000,KGShop
+1,dtp_SipTime_1,TDateTimePicker,0,107,,,,yulya,2025-01-17 12:04:39.503000,KGShop
+1,dtp_SipTime_2,TDateTimePicker,0,108,,,,yulya,2025-01-17 12:04:39.507000,KGShop
+1,dtp_SendTime_1,TDateTimePicker,0,109,,,,yulya,2025-01-17 12:04:39.510000,KGShop
+1,dtp_SendTime_2,TDateTimePicker,0,110,,,,yulya,2025-01-17 12:04:39.510000,KGShop
+1,cbStokMevcuduOlanlar,TcxCheckBox,,111,,,,yulya,2025-01-17 12:04:39.513000,KGShop
+1,CBKapa,TcxCheckBox,*,112,,,,yulya,2025-01-17 12:04:39.517000,KGShop
+1,xrg_sipKapa,TcxRadioGroup,0,113,,,,yulya,2025-01-17 12:04:39.520000,KGShop
+1,cbBagSipVisible,TcxCheckBox,*,114,,,,yulya,2025-01-17 12:04:39.523000,KGShop
+1,cbPazKalanToplam,TcxCheckBox,,115,,,,yulya,2025-01-17 12:04:39.527000,KGShop
+1,E_SKod1,TcxTextEdit,,116,,,,yulya,2025-01-17 12:04:39.530000,KGShop
+1,E_SKod2,TcxTextEdit,,117,,,,yulya,2025-01-17 12:04:39.530000,KGShop
+1,cbGrupKod,TcxCheckBox,,118,,,,yulya,2025-01-17 12:04:39.533000,KGShop
+1,cbStokTip,TcxCheckBox,,119,,,,yulya,2025-01-17 12:04:39.540000,KGShop
+1,cbBEDGrp,TcxCheckBox,,120,,,,yulya,2025-01-17 12:04:39.540000,KGShop
+1,cbRKod,TcxCheckBox,,121,,,,yulya,2025-01-17 12:04:39.543000,KGShop
+1,cbCinsKod,TcxCheckBox,,122,,,,yulya,2025-01-17 12:04:39.547000,KGShop
+1,cbReyon,TcxCheckBox,,123,,,,yulya,2025-01-17 12:04:39.550000,KGShop
+1,e_rkod,TcxTextEdit,,124,,,,yulya,2025-01-17 12:04:39.553000,KGShop
+1,cbUreticiKodu,TcxCheckBox,,125,,,,yulya,2025-01-17 12:04:39.557000,KGShop
+1,cbUMarka,TcxCheckBox,,126,,,,yulya,2025-01-17 12:04:39.560000,KGShop
+1,CB_StokSekli,TcxComboBox,0,127,,,,yulya,2025-01-17 12:04:39.560000,KGShop
+1,E_GrupKod,TcxTextEdit,,128,,,,yulya,2025-01-17 12:04:39.563000,KGShop
+1,E_StokTip,TcxTextEdit,,129,,,,yulya,2025-01-17 12:04:39.567000,KGShop
+1,E_UreticiKodu,TcxTextEdit,,130,,,,yulya,2025-01-17 12:04:39.570000,KGShop
+1,E_Renk,TcxTextEdit,,131,,,,yulya,2025-01-17 12:04:39.573000,KGShop
+1,E_CinsKod,TcxTextEdit,,132,,,,yulya,2025-01-17 12:04:39.577000,KGShop
+1,E_Reyon,TcxTextEdit,,133,,,,yulya,2025-01-17 12:04:39.580000,KGShop
+1,E_UMarka,TcxTextEdit,,134,,,,yulya,2025-01-17 12:04:39.583000,KGShop
+1,E_BEDGrp,TcxTextEdit,,135,,,,yulya,2025-01-17 12:04:39.587000,KGShop
+1,cbOzKod1,TcxCheckBox,,136,,,,yulya,2025-01-17 12:04:39.590000,KGShop
+1,cbOzKod2,TcxCheckBox,,137,,,,yulya,2025-01-17 12:04:39.593000,KGShop
+1,cbOzKod3,TcxCheckBox,,138,,,,yulya,2025-01-17 12:04:39.597000,KGShop
+1,cbOzKod4,TcxCheckBox,,139,,,,yulya,2025-01-17 12:04:39.600000,KGShop
+1,cbOzKod5,TcxCheckBox,,140,,,,yulya,2025-01-17 12:04:39.600000,KGShop
+1,cbOzKod6,TcxCheckBox,,141,,,,yulya,2025-01-17 12:04:39.603000,KGShop
+1,cbOzKod7,TcxCheckBox,,142,,,,yulya,2025-01-17 12:04:39.610000,KGShop
+1,cbOzKod8,TcxCheckBox,,143,,,,yulya,2025-01-17 12:04:39.610000,KGShop
+1,cbOzKod9,TcxCheckBox,,144,,,,yulya,2025-01-17 12:04:39.613000,KGShop
+1,cbOzKod10,TcxCheckBox,,145,,,,yulya,2025-01-17 12:04:39.617000,KGShop
+1,E_OzKod1,TcxTextEdit,,146,,,,yulya,2025-01-17 12:04:39.620000,KGShop
+1,E_OzKod2,TcxTextEdit,,147,,,,yulya,2025-01-17 12:04:39.623000,KGShop
+1,E_OzKod3,TcxTextEdit,,148,,,,yulya,2025-01-17 12:04:39.627000,KGShop
+1,E_OzKod4,TcxTextEdit,,149,,,,yulya,2025-01-17 12:04:39.630000,KGShop
+1,E_OzKod5,TcxTextEdit,,150,,,,yulya,2025-01-17 12:04:39.633000,KGShop
+1,E_OzKod6,TcxTextEdit,,151,,,,yulya,2025-01-17 12:04:39.637000,KGShop
+1,E_OzKod7,TcxTextEdit,,152,,,,yulya,2025-01-17 12:04:39.640000,KGShop
+1,E_OzKod8,TcxTextEdit,,153,,,,yulya,2025-01-17 12:04:39.640000,KGShop
+1,E_OzKod9,TcxTextEdit,,154,,,,yulya,2025-01-17 12:04:39.643000,KGShop
+1,E_OzKod10,TcxTextEdit,,155,,,,yulya,2025-01-17 12:04:39.647000,KGShop
+1,cbOzKod11,TcxCheckBox,,156,,,,yulya,2025-01-17 12:04:39.650000,KGShop
+1,cbOzKod12,TcxCheckBox,,157,,,,yulya,2025-01-17 12:04:39.653000,KGShop
+1,cbOzKod13,TcxCheckBox,,158,,,,yulya,2025-01-17 12:04:39.657000,KGShop
+1,cbOzKod14,TcxCheckBox,,159,,,,yulya,2025-01-17 12:04:39.660000,KGShop
+1,cbOzKod15,TcxCheckBox,,160,,,,yulya,2025-01-17 12:04:39.660000,KGShop
+1,cbOzKod16,TcxCheckBox,,161,,,,yulya,2025-01-17 12:04:39.663000,KGShop
+1,cbOzKod17,TcxCheckBox,,162,,,,yulya,2025-01-17 12:04:39.667000,KGShop
+1,cbOzKod18,TcxCheckBox,,163,,,,yulya,2025-01-17 12:04:39.670000,KGShop
+1,cbOzKod19,TcxCheckBox,,164,,,,yulya,2025-01-17 12:04:39.673000,KGShop
+1,cbOzKod20,TcxCheckBox,,165,,,,yulya,2025-01-17 12:04:39.677000,KGShop
+1,E_OzKod11,TcxTextEdit,,166,,,,yulya,2025-01-17 12:04:39.680000,KGShop
+1,E_OzKod12,TcxTextEdit,,167,,,,yulya,2025-01-17 12:04:39.683000,KGShop
+1,E_OzKod13,TcxTextEdit,,168,,,,yulya,2025-01-17 12:04:39.687000,KGShop
+1,E_OzKod14,TcxTextEdit,,169,,,,yulya,2025-01-17 12:04:39.690000,KGShop
+1,E_OzKod15,TcxTextEdit,,170,,,,yulya,2025-01-17 12:04:39.693000,KGShop
+1,E_OzKod16,TcxTextEdit,,171,,,,yulya,2025-01-17 12:04:39.697000,KGShop
+1,E_OzKod17,TcxTextEdit,,172,,,,yulya,2025-01-17 12:04:39.700000,KGShop
+1,E_OzKod18,TcxTextEdit,,173,,,,yulya,2025-01-17 12:04:39.700000,KGShop
+1,E_OzKod19,TcxTextEdit,,174,,,,yulya,2025-01-17 12:04:39.703000,KGShop
+1,E_OzKod20,TcxTextEdit,,175,,,,yulya,2025-01-17 12:04:39.707000,KGShop
+1,E_Lot1,TcxTextEdit,,176,,,,yulya,2025-01-17 12:04:39.897000,KGShop
+1,E_Lot2,TcxTextEdit,,177,,,,yulya,2025-01-17 12:04:39.900000,KGShop
+1,xcb_renkiptalWrite,TcxCheckBox,,178,,,,yulya,2025-01-17 12:04:39.900000,KGShop
+1,RG_STAktif,TcxRadioGroup,0,179,,,,yulya,2025-01-17 12:04:39.903000,KGShop
+1,E_BSKod,TcxTextEdit,,180,,,,yulya,2025-01-17 12:04:39.907000,KGShop
+1,rg_miktar,TcxRadioGroup,0,181,,,,yulya,2025-01-17 12:04:39.910000,KGShop
+1,rg_Model,TcxRadioGroup,2,182,,,,yulya,2025-01-17 12:04:39.913000,KGShop
+1,RG_OzKodBag,TcxRadioGroup,0,183,,,,yulya,2025-01-17 12:04:39.917000,KGShop
+1,xcb_OzKodShow,TcxCheckBox,,184,,,,yulya,2025-01-17 12:04:39.920000,KGShop
+1,xcb_Fiyat_Tip,TcxCheckBox,,185,,,,yulya,2025-01-17 12:04:39.923000,KGShop
+1,CoBFiyat_Tip,TcxComboBox,1,186,,,,yulya,2025-01-17 12:04:39.927000,KGShop
+1,xcb_FiyatTipCevir,TcxCheckBox,,187,,,,yulya,2025-01-17 12:04:39.930000,KGShop
+1,xcb_SatFiyat_Tip,TcxCheckBox,,188,,,,yulya,2025-01-17 12:04:39.930000,KGShop
+1,CoBSatFiyat_Tip,TcxComboBox,1,189,,,,yulya,2025-01-17 12:04:39.933000,KGShop
+1,xcb_SatFiyatTipCevir,TcxCheckBox,,190,,,,yulya,2025-01-17 12:04:39.937000,KGShop
+1,CB_ParaC3,TcxComboBox,-1,191,,,,yulya,2025-01-17 12:04:39.940000,KGShop
+1,CB_ParaC4,TcxComboBox,1,192,,,,yulya,2025-01-17 12:04:39.943000,KGShop
+1,CB_ParaC5,TcxComboBox,1,193,,,,yulya,2025-01-17 12:04:39.947000,KGShop
+1,xcb_BaglisizSip,TcxCheckBox,,194,,,,yulya,2025-01-17 12:04:39.950000,KGShop
+1,rg_SipCreated,TcxRadioGroup,0,195,,,,yulya,2025-01-17 12:04:39.953000,KGShop
+1,cbx_Mevcut,TcxCheckBox,,196,,,,yulya,2025-01-17 12:04:39.957000,KGShop
+1,E_SipAlan_1,TcxTextEdit,,197,,,,yulya,2025-01-17 12:04:39.960000,KGShop
+1,E_SipAlan_2,TcxTextEdit,,198,,,,yulya,2025-01-17 12:04:39.960000,KGShop
+1,E_Yet1_1,TcxTextEdit,,199,,,,yulya,2025-01-17 12:04:39.963000,KGShop
+1,E_Yet1_2,TcxTextEdit,,200,,,,yulya,2025-01-17 12:04:39.967000,KGShop
+1,E_Yet2_1,TcxTextEdit,,201,,,,yulya,2025-01-17 12:04:39.970000,KGShop
+1,E_Yet2_2,TcxTextEdit,,202,,,,yulya,2025-01-17 12:04:39.973000,KGShop
+1,E_Satici1,TcxTextEdit,,203,,,,yulya,2025-01-17 12:04:39.977000,KGShop
+1,E_Satici2,TcxTextEdit,,204,,,,yulya,2025-01-17 12:04:39.980000,KGShop
+1,cbSipOzDur_1,TcxCheckBox,,205,,,,yulya,2025-01-17 12:04:39.983000,KGShop
+1,E_SipOzDur_1,TcxTextEdit,,206,,,,yulya,2025-01-17 12:04:39.987000,KGShop
+1,cbSipOzDur_2,TcxCheckBox,,207,,,,yulya,2025-01-17 12:04:39.990000,KGShop
+1,cbx_Asorti_Dag,TcxCheckBox,*,208,,,,yulya,2025-01-17 12:04:39.990000,KGShop
+1,cbx_AsoricMik,TcxCheckBox,*,209,,,,yulya,2025-01-17 12:04:39.993000,KGShop
+1,cbx_SipMik,TcxCheckBox,,210,,,,yulya,2025-01-17 12:04:39.997000,KGShop
+1,e_AsortiBas,TcxTextEdit,,211,,,,yulya,2025-01-17 12:04:40,KGShop
+4,CB_SipTip,TcxComboBox,0,212,,,,yulya,2024-11-14 16:40:20.083000,KGShop
+4,CLB_Location,TCheckListBox,0,213,,,,yulya,2024-11-14 16:40:20.097000,KGShop
+4,clb_SumFieldList,TCheckListBox,"0,1,6,7,8,9,11,14",214,,,,yulya,2024-11-14 16:40:20.100000,KGShop
+4,CB_ParaC,TcxComboBox,3,215,,,,yulya,2024-11-14 16:40:20.103000,KGShop
+4,cbCevir,TcxCheckBox,,216,,,,yulya,2024-11-14 16:40:20.107000,KGShop
+4,cb_ParaC2,TcxComboBox,2,217,,,,yulya,2024-11-14 16:40:20.110000,KGShop
+4,E_CKod1,TcxTextEdit,,218,,,,yulya,2024-11-14 16:40:20.110000,KGShop
+4,E_CKod2,TcxTextEdit,,219,,,,yulya,2024-11-14 16:40:20.113000,KGShop
+4,dtp_SipTime_1,TDateTimePicker,0,220,,,,yulya,2024-11-14 16:40:20.117000,KGShop
+4,dtp_SipTime_2,TDateTimePicker,0,221,,,,yulya,2024-11-14 16:40:20.120000,KGShop
+4,dtp_SendTime_1,TDateTimePicker,0,222,,,,yulya,2024-11-14 16:40:20.123000,KGShop
+4,dtp_SendTime_2,TDateTimePicker,0,223,,,,yulya,2024-11-14 16:40:20.127000,KGShop
+4,cbStokMevcuduOlanlar,TcxCheckBox,,224,,,,yulya,2024-11-14 16:40:20.130000,KGShop
+4,CBKapa,TcxCheckBox,*,225,,,,yulya,2024-11-14 16:40:20.133000,KGShop
+4,xrg_sipKapa,TcxRadioGroup,0,226,,,,yulya,2024-11-14 16:40:20.137000,KGShop
+4,cbBagSipVisible,TcxCheckBox,*,227,,,,yulya,2024-11-14 16:40:20.140000,KGShop
+4,cbPazKalanToplam,TcxCheckBox,,228,,,,yulya,2024-11-14 16:40:20.140000,KGShop
+4,E_SKod1,TcxTextEdit,,229,,,,yulya,2024-11-14 16:40:20.143000,KGShop
+4,E_SKod2,TcxTextEdit,,230,,,,yulya,2024-11-14 16:40:20.147000,KGShop
+4,cbGrupKod,TcxCheckBox,,231,,,,yulya,2024-11-14 16:40:20.150000,KGShop
+4,cbStokTip,TcxCheckBox,,232,,,,yulya,2024-11-14 16:40:20.153000,KGShop
+4,cbBEDGrp,TcxCheckBox,,233,,,,yulya,2024-11-14 16:40:20.157000,KGShop
+4,cbRKod,TcxCheckBox,,234,,,,yulya,2024-11-14 16:40:20.160000,KGShop
+4,cbCinsKod,TcxCheckBox,,235,,,,yulya,2024-11-14 16:40:20.160000,KGShop
+4,cbReyon,TcxCheckBox,,236,,,,yulya,2024-11-14 16:40:20.163000,KGShop
+4,e_rkod,TcxTextEdit,,237,,,,yulya,2024-11-14 16:40:20.167000,KGShop
+4,cbUreticiKodu,TcxCheckBox,,238,,,,yulya,2024-11-14 16:40:20.170000,KGShop
+4,cbUMarka,TcxCheckBox,,239,,,,yulya,2024-11-14 16:40:20.173000,KGShop
+4,CB_StokSekli,TcxComboBox,0,240,,,,yulya,2024-11-14 16:40:20.177000,KGShop
+4,E_GrupKod,TcxTextEdit,,241,,,,yulya,2024-11-14 16:40:20.180000,KGShop
+4,E_StokTip,TcxTextEdit,,242,,,,yulya,2024-11-14 16:40:20.183000,KGShop
+4,E_UreticiKodu,TcxTextEdit,,243,,,,yulya,2024-11-14 16:40:20.187000,KGShop
+4,E_Renk,TcxTextEdit,,244,,,,yulya,2024-11-14 16:40:20.190000,KGShop
+4,E_CinsKod,TcxTextEdit,,245,,,,yulya,2024-11-14 16:40:20.190000,KGShop
+4,E_Reyon,TcxTextEdit,,246,,,,yulya,2024-11-14 16:40:20.193000,KGShop
+4,E_UMarka,TcxTextEdit,,247,,,,yulya,2024-11-14 16:40:20.197000,KGShop
+4,E_BEDGrp,TcxTextEdit,,248,,,,yulya,2024-11-14 16:40:20.203000,KGShop
+4,cbOzKod1,TcxCheckBox,,249,,,,yulya,2024-11-14 16:40:20.207000,KGShop
+4,cbOzKod2,TcxCheckBox,,250,,,,yulya,2024-11-14 16:40:20.210000,KGShop
+4,cbOzKod3,TcxCheckBox,,251,,,,yulya,2024-11-14 16:40:20.213000,KGShop
+4,cbOzKod4,TcxCheckBox,,252,,,,yulya,2024-11-14 16:40:20.217000,KGShop
+4,cbOzKod5,TcxCheckBox,,253,,,,yulya,2024-11-14 16:40:20.220000,KGShop
+4,cbOzKod6,TcxCheckBox,,254,,,,yulya,2024-11-14 16:40:20.220000,KGShop
+4,cbOzKod7,TcxCheckBox,,255,,,,yulya,2024-11-14 16:40:20.223000,KGShop
+4,cbOzKod8,TcxCheckBox,,256,,,,yulya,2024-11-14 16:40:20.227000,KGShop
+4,cbOzKod9,TcxCheckBox,,257,,,,yulya,2024-11-14 16:40:20.230000,KGShop
+4,cbOzKod10,TcxCheckBox,,258,,,,yulya,2024-11-14 16:40:20.233000,KGShop
+4,E_OzKod1,TcxTextEdit,,259,,,,yulya,2024-11-14 16:40:20.233000,KGShop
+4,E_OzKod2,TcxTextEdit,,260,,,,yulya,2024-11-14 16:40:20.237000,KGShop
+4,E_OzKod3,TcxTextEdit,,261,,,,yulya,2024-11-14 16:40:20.240000,KGShop
+4,E_OzKod4,TcxTextEdit,,262,,,,yulya,2024-11-14 16:40:20.243000,KGShop
+4,E_OzKod5,TcxTextEdit,,263,,,,yulya,2024-11-14 16:40:20.247000,KGShop
+4,E_OzKod6,TcxTextEdit,,264,,,,yulya,2024-11-14 16:40:20.250000,KGShop
+4,E_OzKod7,TcxTextEdit,,265,,,,yulya,2024-11-14 16:40:20.250000,KGShop
+4,E_OzKod8,TcxTextEdit,,266,,,,yulya,2024-11-14 16:40:20.253000,KGShop
+4,E_OzKod9,TcxTextEdit,,267,,,,yulya,2024-11-14 16:40:20.257000,KGShop
+4,E_OzKod10,TcxTextEdit,,268,,,,yulya,2024-11-14 16:40:20.260000,KGShop
+4,cbOzKod11,TcxCheckBox,,269,,,,yulya,2024-11-14 16:40:20.263000,KGShop
+4,cbOzKod12,TcxCheckBox,,270,,,,yulya,2024-11-14 16:40:20.267000,KGShop
+4,cbOzKod13,TcxCheckBox,,271,,,,yulya,2024-11-14 16:40:20.270000,KGShop
+4,cbOzKod14,TcxCheckBox,,272,,,,yulya,2024-11-14 16:40:20.270000,KGShop
+4,cbOzKod15,TcxCheckBox,,273,,,,yulya,2024-11-14 16:40:20.273000,KGShop
+4,cbOzKod16,TcxCheckBox,,274,,,,yulya,2024-11-14 16:40:20.277000,KGShop
+4,cbOzKod17,TcxCheckBox,,275,,,,yulya,2024-11-14 16:40:20.280000,KGShop
+4,cbOzKod18,TcxCheckBox,,276,,,,yulya,2024-11-14 16:40:20.283000,KGShop
+4,cbOzKod19,TcxCheckBox,,277,,,,yulya,2024-11-14 16:40:20.287000,KGShop
+4,cbOzKod20,TcxCheckBox,,278,,,,yulya,2024-11-14 16:40:20.290000,KGShop
+4,E_OzKod11,TcxTextEdit,,279,,,,yulya,2024-11-14 16:40:20.290000,KGShop
+4,E_OzKod12,TcxTextEdit,,280,,,,yulya,2024-11-14 16:40:20.293000,KGShop
+4,E_OzKod13,TcxTextEdit,,281,,,,yulya,2024-11-14 16:40:20.297000,KGShop
+4,E_OzKod14,TcxTextEdit,,282,,,,yulya,2024-11-14 16:40:20.300000,KGShop
+4,E_OzKod15,TcxTextEdit,,283,,,,yulya,2024-11-14 16:40:20.303000,KGShop
+4,E_OzKod16,TcxTextEdit,,284,,,,yulya,2024-11-14 16:40:20.307000,KGShop
+4,E_OzKod17,TcxTextEdit,,285,,,,yulya,2024-11-14 16:40:20.310000,KGShop
+4,E_OzKod18,TcxTextEdit,,286,,,,yulya,2024-11-14 16:40:20.313000,KGShop
+4,E_OzKod19,TcxTextEdit,,287,,,,yulya,2024-11-14 16:40:20.317000,KGShop
+4,E_OzKod20,TcxTextEdit,,288,,,,yulya,2024-11-14 16:40:20.320000,KGShop
+4,E_Lot1,TcxTextEdit,,289,,,,yulya,2024-11-14 16:40:20.490000,KGShop
+4,E_Lot2,TcxTextEdit,,290,,,,yulya,2024-11-14 16:40:20.493000,KGShop
+4,xcb_renkiptalWrite,TcxCheckBox,,291,,,,yulya,2024-11-14 16:40:20.497000,KGShop
+4,RG_STAktif,TcxRadioGroup,0,292,,,,yulya,2024-11-14 16:40:20.500000,KGShop
+4,E_BSKod,TcxTextEdit,,293,,,,yulya,2024-11-14 16:40:20.503000,KGShop
+4,rg_miktar,TcxRadioGroup,0,294,,,,yulya,2024-11-14 16:40:20.507000,KGShop
+4,rg_Model,TcxRadioGroup,2,295,,,,yulya,2024-11-14 16:40:20.510000,KGShop
+4,RG_OzKodBag,TcxRadioGroup,0,296,,,,yulya,2024-11-14 16:40:20.513000,KGShop
+4,xcb_OzKodShow,TcxCheckBox,,297,,,,yulya,2024-11-14 16:40:20.517000,KGShop
+4,xcb_Fiyat_Tip,TcxCheckBox,,298,,,,yulya,2024-11-14 16:40:20.520000,KGShop
+4,CoBFiyat_Tip,TcxComboBox,1,299,,,,yulya,2024-11-14 16:40:20.520000,KGShop
+4,xcb_FiyatTipCevir,TcxCheckBox,,300,,,,yulya,2024-11-14 16:40:20.523000,KGShop
+4,xcb_SatFiyat_Tip,TcxCheckBox,,301,,,,yulya,2024-11-14 16:40:20.527000,KGShop
+4,CoBSatFiyat_Tip,TcxComboBox,1,302,,,,yulya,2024-11-14 16:40:20.530000,KGShop
+4,xcb_SatFiyatTipCevir,TcxCheckBox,,303,,,,yulya,2024-11-14 16:40:20.533000,KGShop
+4,CB_ParaC3,TcxComboBox,-1,304,,,,yulya,2024-11-14 16:40:20.537000,KGShop
+4,CB_ParaC4,TcxComboBox,1,305,,,,yulya,2024-11-14 16:40:20.540000,KGShop
+4,CB_ParaC5,TcxComboBox,1,306,,,,yulya,2024-11-14 16:40:20.543000,KGShop
+4,xcb_BaglisizSip,TcxCheckBox,,307,,,,yulya,2024-11-14 16:40:20.547000,KGShop
+4,rg_SipCreated,TcxRadioGroup,0,308,,,,yulya,2024-11-14 16:40:20.550000,KGShop
+4,cbx_Mevcut,TcxCheckBox,,309,,,,yulya,2024-11-14 16:40:20.550000,KGShop
+4,E_SipAlan_1,TcxTextEdit,,310,,,,yulya,2024-11-14 16:40:20.553000,KGShop
+4,E_SipAlan_2,TcxTextEdit,,311,,,,yulya,2024-11-14 16:40:20.557000,KGShop
+4,E_Yet1_1,TcxTextEdit,,312,,,,yulya,2024-11-14 16:40:20.560000,KGShop
+4,E_Yet1_2,TcxTextEdit,,313,,,,yulya,2024-11-14 16:40:20.563000,KGShop
+4,E_Yet2_1,TcxTextEdit,,314,,,,yulya,2024-11-14 16:40:20.563000,KGShop
+4,E_Yet2_2,TcxTextEdit,,315,,,,yulya,2024-11-14 16:40:20.567000,KGShop
+4,E_Satici1,TcxTextEdit,,316,,,,yulya,2024-11-14 16:40:20.570000,KGShop
+4,E_Satici2,TcxTextEdit,,317,,,,yulya,2024-11-14 16:40:20.573000,KGShop
+4,cbSipOzDur_1,TcxCheckBox,,318,,,,yulya,2024-11-14 16:40:20.577000,KGShop
+4,E_SipOzDur_1,TcxTextEdit,,319,,,,yulya,2024-11-14 16:40:20.580000,KGShop
+4,cbSipOzDur_2,TcxCheckBox,,320,,,,yulya,2024-11-14 16:40:20.583000,KGShop
+4,cbx_Asorti_Dag,TcxCheckBox,,321,,,,yulya,2024-11-14 16:40:20.583000,KGShop
+4,cbx_AsoricMik,TcxCheckBox,,322,,,,yulya,2024-11-14 16:40:20.587000,KGShop
+4,cbx_SipMik,TcxCheckBox,,323,,,,yulya,2024-11-14 16:40:20.590000,KGShop
+4,e_AsortiBas,TcxTextEdit,,324,,,,yulya,2024-11-14 16:40:20.593000,KGShop
+4,e_AsortiBit,TcxTextEdit,,325,,,,yulya,2024-11-14 16:40:20.597000,KGShop
+4,xcb_NoAsorti,TcxCheckBox,,326,,,,yulya,2024-11-14 16:40:20.600000,KGShop
+4,rg_ConvertBirim,TcxRadioGroup,0,327,,,,yulya,2024-11-14 16:40:20.600000,KGShop
+4,rg_NetKalan,TcxRadioGroup,0,328,,,,yulya,2024-11-14 16:40:20.603000,KGShop
+4,rg_TutarHesTip,TcxRadioGroup,0,329,,,,yulya,2024-11-14 16:40:20.607000,KGShop
+4,CB_MDPLocation,TcxComboBox,1,330,,,,yulya,2024-11-14 16:40:20.610000,KGShop
+4,xcb_StokKalan,TcxCheckBox,,331,,,,yulya,2024-11-14 16:40:20.610000,KGShop
+4,xcb_BagliSiparisler,TcxCheckBox,*,332,,,,yulya,2024-11-14 16:40:20.613000,KGShop
+4,E_sOzKod1,TcxTextEdit,,333,,,,yulya,2024-11-14 16:40:20.617000,KGShop
+4,E_sOzKod2,TcxTextEdit,,334,,,,yulya,2024-11-14 16:40:20.620000,KGShop
+4,E_sOzKod3,TcxTextEdit,,335,,,,yulya,2024-11-14 16:40:20.623000,KGShop
+4,E_sOzKod4,TcxTextEdit,,336,,,,yulya,2024-11-14 16:40:20.627000,KGShop
+4,E_sOzKod5,TcxTextEdit,,337,,,,yulya,2024-11-14 16:40:20.630000,KGShop
+4,E_sSevkSekil,TcxTextEdit,,338,,,,yulya,2024-11-14 16:40:20.633000,KGShop
+4,E_SevkNum,TcxTextEdit,,339,,,,yulya,2024-11-14 16:40:20.633000,KGShop
+4,E_sCloseTitle,TcxTextEdit,,340,,,,yulya,2024-11-14 16:40:20.637000,KGShop
+4,rg_SipUrKonum,TcxRadioGroup,0,341,,,,yulya,2024-11-14 16:40:20.640000,KGShop
+4,E_SipOzDur_2,TcxTextEdit,,342,,,,yulya,2024-11-14 16:40:20.643000,KGShop
+4,xcb_BagSipCari,TcxCheckBox,*,343,,,,yulya,2024-11-14 16:40:20.647000,KGShop
+4,es_SipNo_1,TcxTextEdit,,344,,,,yulya,2024-11-14 16:40:20.650000,KGShop
+4,es_SipNo_2,TcxTextEdit,,345,,,,yulya,2024-11-14 16:40:20.650000,KGShop
+4,es_SipNo_3,TcxTextEdit,,346,,,,yulya,2024-11-14 16:40:20.653000,KGShop
+4,es_BelgeNo,TcxTextEdit,,347,,,,yulya,2024-11-14 16:40:20.657000,KGShop
+4,E_OdSekil,TcxTextEdit,,348,,,,yulya,2024-11-14 16:40:20.660000,KGShop
+4,e_AdresAdi,TcxTextEdit,,349,,,,yulya,2024-11-14 16:40:20.663000,KGShop
+4,e_AdresAdi2,TcxTextEdit,,350,,,,yulya,2024-11-14 16:40:20.667000,KGShop
+4,cb_OnayKademe,TcxComboBox,-1,351,,,,yulya,2024-11-14 16:40:20.670000,KGShop
+4,rg_SipBagOp,TcxRadioGroup,2,352,,,,yulya,2024-11-14 16:40:20.670000,KGShop
+4,xcb_Resim,TcxCheckBox,,353,,,,yulya,2024-11-14 16:40:20.673000,KGShop
+4,xcb_ShowPicture,TcxCheckBox,,354,,,,yulya,2024-11-14 16:40:20.677000,KGShop
+4,se_showPicture,TSpinEdit,50,355,,,,yulya,2024-11-14 16:40:20.680000,KGShop
+4,E_sOzKod6,TcxTextEdit,,356,,,,yulya,2024-11-14 16:40:20.680000,KGShop
+4,E_sOzKod7,TcxTextEdit,,357,,,,yulya,2024-11-14 16:40:20.683000,KGShop
+4,E_sOzKod8,TcxTextEdit,,358,,,,yulya,2024-11-14 16:40:20.687000,KGShop
+4,E_sOzKod9,TcxTextEdit,,359,,,,yulya,2024-11-14 16:40:20.690000,KGShop
+4,E_sOzKod10,TcxTextEdit,,360,,,,yulya,2024-11-14 16:40:20.693000,KGShop
+4,rg_LockCheck,TcxRadioGroup,0,361,,,,yulya,2024-11-14 16:40:20.697000,KGShop
+4,rgUretimSekil,TcxRadioGroup,0,362,,,,yulya,2024-11-14 16:40:20.700000,KGShop
+4,rg_SipPrintOp,TcxRadioGroup,0,363,,,,yulya,2024-11-14 16:40:20.700000,KGShop
+4,E_cSehir,TcxTextEdit,,364,,,,yulya,2024-11-14 16:40:20.703000,KGShop
+4,E_cUlke,TcxTextEdit,,365,,,,yulya,2024-11-14 16:40:20.707000,KGShop
+4,ce_RiskLimit_1,TcxTextEdit,,366,,,,yulya,2024-11-14 16:40:20.710000,KGShop
+4,ce_RiskLimit_2,TcxTextEdit,,367,,,,yulya,2024-11-14 16:40:20.710000,KGShop
+4,ce_Riski_1,TcxTextEdit,,368,,,,yulya,2024-11-14 16:40:20.713000,KGShop
+4,ce_Riski_2,TcxTextEdit,,369,,,,yulya,2024-11-14 16:40:20.717000,KGShop
+4,ce_KrediLimit_1,TcxTextEdit,,370,,,,yulya,2024-11-14 16:40:20.720000,KGShop
+4,ce_KrediLimit_2,TcxTextEdit,,371,,,,yulya,2024-11-14 16:40:20.723000,KGShop
+4,ce_Kredisi_1,TcxTextEdit,,372,,,,yulya,2024-11-14 16:40:20.727000,KGShop
+4,ce_Kredisi_2,TcxTextEdit,,373,,,,yulya,2024-11-14 16:40:20.730000,KGShop
+4,E_AlFiyTip,TcxTextEdit,,374,,,,yulya,2024-11-14 16:40:20.730000,KGShop
+4,E_SatFiyTip,TcxTextEdit,,375,,,,yulya,2024-11-14 16:40:20.733000,KGShop
+4,E_cilce,TcxTextEdit,,376,,,,yulya,2024-11-14 16:40:20.737000,KGShop
+4,E_cOzKod1_1,TcxTextEdit,,377,,,,yulya,2024-11-14 16:40:20.740000,KGShop
+4,E_cOzKod2_1,TcxTextEdit,,378,,,,yulya,2024-11-14 16:40:20.740000,KGShop
+4,E_cOzKod3_1,TcxTextEdit,,379,,,,yulya,2024-11-14 16:40:20.743000,KGShop
+4,E_cOzKod4_1,TcxTextEdit,,380,,,,yulya,2024-11-14 16:40:20.747000,KGShop
+4,E_cOzKod5_1,TcxTextEdit,,381,,,,yulya,2024-11-14 16:40:20.750000,KGShop
+4,E_cOzKod1_2,TcxTextEdit,,382,,,,yulya,2024-11-14 16:40:20.753000,KGShop
+4,E_cOzKod2_2,TcxTextEdit,,383,,,,yulya,2024-11-14 16:40:20.757000,KGShop
+4,E_cOzKod3_2,TcxTextEdit,,384,,,,yulya,2024-11-14 16:40:20.760000,KGShop
+4,E_cOzKod4_2,TcxTextEdit,,385,,,,yulya,2024-11-14 16:40:20.763000,KGShop
+4,E_cOzKod5_2,TcxTextEdit,,386,,,,yulya,2024-11-14 16:40:20.767000,KGShop
+4,E_cOzKod6_1,TcxTextEdit,,387,,,,yulya,2024-11-14 16:40:20.767000,KGShop
+4,E_cOzKod6_2,TcxTextEdit,,388,,,,yulya,2024-11-14 16:40:20.770000,KGShop
+4,E_cOzKod7_1,TcxTextEdit,,389,,,,yulya,2024-11-14 16:40:20.773000,KGShop
+4,E_cOzKod7_2,TcxTextEdit,,390,,,,yulya,2024-11-14 16:40:20.777000,KGShop
+4,E_cOzKod8_1,TcxTextEdit,,391,,,,yulya,2024-11-14 16:40:20.780000,KGShop
+4,E_cOzKod8_2,TcxTextEdit,,392,,,,yulya,2024-11-14 16:40:20.780000,KGShop
+4,E_cOzKod9_1,TcxTextEdit,,393,,,,yulya,2024-11-14 16:40:20.783000,KGShop
+4,E_cOzKod9_2,TcxTextEdit,,394,,,,yulya,2024-11-14 16:40:20.787000,KGShop
+4,E_cOzKod10_1,TcxTextEdit,,395,,,,yulya,2024-11-14 16:40:20.790000,KGShop
+4,E_cOzKod10_2,TcxTextEdit,,396,,,,yulya,2024-11-14 16:40:20.793000,KGShop
+4,rg_YurticDis,TcxRadioGroup,0,397,,,,yulya,2024-11-14 16:40:20.797000,KGShop
+4,rg_CariPasif,TcxRadioGroup,0,398,,,,yulya,2024-11-14 16:40:20.800000,KGShop
+4,rg_CariKaraliste,TcxRadioGroup,0,399,,,,yulya,2024-11-14 16:40:20.800000,KGShop
+4,xcb_cAlFiyat_Tip,TcxCheckBox,,400,,,,yulya,2024-11-14 16:40:20.803000,KGShop
+4,xcb_cSatFiyat_Tip,TcxCheckBox,,401,,,,yulya,2024-11-14 16:40:20.807000,KGShop
+4,cxTextEdit1,TcxTextEdit,,402,,,,yulya,2024-11-14 16:40:20.810000,KGShop
+4,clb_SevkDurum,TCheckListBox,"0,1,2,3",403,,,,yulya,2024-11-14 16:40:20.813000,KGShop
+4,es_SevkNo_1,TcxTextEdit,,404,,,,yulya,2024-11-14 16:40:20.817000,KGShop
+4,es_SevkNo_2,TcxTextEdit,,405,,,,yulya,2024-11-14 16:40:20.820000,KGShop
+4,es_SevkBelgeNo,TcxTextEdit,,406,,,,yulya,2024-11-14 16:40:20.820000,KGShop
+4,es_Gonderilecek1,TcxTextEdit,,407,,,,yulya,2024-11-14 16:40:20.827000,KGShop
+4,es_Gonderilecek2,TcxTextEdit,,408,,,,yulya,2024-11-14 16:40:20.830000,KGShop
+4,xcb_SevkEmirliOnly,TcxCheckBox,,409,,,,yulya,2024-11-14 16:40:20.830000,KGShop
+4,xcb_UrBekleyen,TcxCheckBox,,410,,,,yulya,2024-11-14 16:40:20.833000,KGShop
+4,rgx_ProsesDetType,TcxRadioGroup,0,411,,,,yulya,2024-11-14 16:40:20.837000,KGShop
+4,RGX_RapKriter,TcxRadioGroup,0,412,,,,yulya,2024-11-14 16:40:20.840000,KGShop
+4,xcbx_RnkMev,TcxCheckBox,,413,,,,yulya,2024-11-14 16:40:20.843000,KGShop
+4,xcbx_BedMev,TcxCheckBox,,414,,,,yulya,2024-11-14 16:40:20.847000,KGShop
+4,E_CKod,TcxTextEdit,,415,,,,yulya,2024-11-14 16:40:20.850000,KGShop
+4,DateTimePicker1,TDateTimePicker,0,416,,,,yulya,2024-11-14 16:40:20.850000,KGShop
+4,DateTimePicker2,TDateTimePicker,0,417,,,,yulya,2024-11-14 16:40:20.853000,KGShop
+4,cbx_Klp_KodList,TcxComboBox,-1,418,,,,yulya,2024-11-14 16:40:20.857000,KGShop
+4,cb_KlpLocation,TcxComboBox,1,419,,,,yulya,2024-11-14 16:40:20.860000,KGShop
+4,se_TurCnt,TSpinEdit,5,420,,,,yulya,2024-11-14 16:40:20.863000,KGShop
+4,xcb_Script,TcxCheckBox,*,421,,,,yulya,2024-11-14 16:40:20.867000,KGShop
+4,CBX_Script,TcxComboBox,0,422,,,,yulya,2024-11-14 16:40:20.870000,KGShop
+4,cbOzkod21,TcxCheckBox,,423,,,,yulya,2024-11-14 16:40:20.320000,KGShop
+4,E_OzKod21,TcxTextEdit,,424,,,,yulya,2024-11-14 16:40:20.323000,KGShop
+4,cbOzkod22,TcxCheckBox,,425,,,,yulya,2024-11-14 16:40:20.327000,KGShop
+4,E_OzKod22,TcxTextEdit,,426,,,,yulya,2024-11-14 16:40:20.330000,KGShop
+4,cbOzkod23,TcxCheckBox,,427,,,,yulya,2024-11-14 16:40:20.333000,KGShop
+4,E_OzKod23,TcxTextEdit,,428,,,,yulya,2024-11-14 16:40:20.337000,KGShop
+4,cbOzkod24,TcxCheckBox,,429,,,,yulya,2024-11-14 16:40:20.340000,KGShop
+4,E_OzKod24,TcxTextEdit,,430,,,,yulya,2024-11-14 16:40:20.343000,KGShop
+4,cbOzkod25,TcxCheckBox,,431,,,,yulya,2024-11-14 16:40:20.347000,KGShop
+4,E_OzKod25,TcxTextEdit,,432,,,,yulya,2024-11-14 16:40:20.350000,KGShop
+4,cbOzkod26,TcxCheckBox,,433,,,,yulya,2024-11-14 16:40:20.353000,KGShop
+4,E_OzKod26,TcxTextEdit,,434,,,,yulya,2024-11-14 16:40:20.353000,KGShop
+4,E_OzKod27,TcxTextEdit,,435,,,,yulya,2024-11-14 16:40:20.357000,KGShop
+4,cbOzkod27,TcxCheckBox,,436,,,,yulya,2024-11-14 16:40:20.360000,KGShop
+4,E_OzKod28,TcxTextEdit,,437,,,,yulya,2024-11-14 16:40:20.363000,KGShop
+4,cbOzkod28,TcxCheckBox,,438,,,,yulya,2024-11-14 16:40:20.367000,KGShop
+4,cbOzkod29,TcxCheckBox,,439,,,,yulya,2024-11-14 16:40:20.370000,KGShop
+4,E_OzKod29,TcxTextEdit,,440,,,,yulya,2024-11-14 16:40:20.370000,KGShop
+4,E_OzKod30,TcxTextEdit,,441,,,,yulya,2024-11-14 16:40:20.373000,KGShop
+4,cbOzkod30,TcxCheckBox,,442,,,,yulya,2024-11-14 16:40:20.377000,KGShop
+4,cbOzkod31,TcxCheckBox,,443,,,,yulya,2024-11-14 16:40:20.380000,KGShop
+4,E_OzKod31,TcxTextEdit,,444,,,,yulya,2024-11-14 16:40:20.383000,KGShop
+4,E_OzKod32,TcxTextEdit,,445,,,,yulya,2024-11-14 16:40:20.387000,KGShop
+4,cbOzkod32,TcxCheckBox,,446,,,,yulya,2024-11-14 16:40:20.390000,KGShop
+4,cbOzkod33,TcxCheckBox,,447,,,,yulya,2024-11-14 16:40:20.390000,KGShop
+4,E_OzKod33,TcxTextEdit,,448,,,,yulya,2024-11-14 16:40:20.393000,KGShop
+4,cbOzkod34,TcxCheckBox,,449,,,,yulya,2024-11-14 16:40:20.397000,KGShop
+4,E_OzKod34,TcxTextEdit,,450,,,,yulya,2024-11-14 16:40:20.400000,KGShop
+4,E_OzKod35,TcxTextEdit,,451,,,,yulya,2024-11-14 16:40:20.400000,KGShop
+4,cbOzkod35,TcxCheckBox,,452,,,,yulya,2024-11-14 16:40:20.403000,KGShop
+4,cbOzkod36,TcxCheckBox,,453,,,,yulya,2024-11-14 16:40:20.407000,KGShop
+4,E_OzKod36,TcxTextEdit,,454,,,,yulya,2024-11-14 16:40:20.410000,KGShop
+4,cbOzkod37,TcxCheckBox,,455,,,,yulya,2024-11-14 16:40:20.413000,KGShop
+4,E_OzKod37,TcxTextEdit,,456,,,,yulya,2024-11-14 16:40:20.413000,KGShop
+4,cbOzkod38,TcxCheckBox,,457,,,,yulya,2024-11-14 16:40:20.417000,KGShop
+4,E_OzKod38,TcxTextEdit,,458,,,,yulya,2024-11-14 16:40:20.420000,KGShop
+4,cbOzkod39,TcxCheckBox,,459,,,,yulya,2024-11-14 16:40:20.423000,KGShop
+4,E_OzKod39,TcxTextEdit,,460,,,,yulya,2024-11-14 16:40:20.427000,KGShop
+4,cbOzkod40,TcxCheckBox,,461,,,,yulya,2024-11-14 16:40:20.430000,KGShop
+4,E_OzKod40,TcxTextEdit,,462,,,,yulya,2024-11-14 16:40:20.430000,KGShop
+4,cbOzkod41,TcxCheckBox,,463,,,,yulya,2024-11-14 16:40:20.433000,KGShop
+4,E_OzKod41,TcxTextEdit,,464,,,,yulya,2024-11-14 16:40:20.437000,KGShop
+4,E_OzKod42,TcxTextEdit,,465,,,,yulya,2024-11-14 16:40:20.440000,KGShop
+4,cbOzkod42,TcxCheckBox,,466,,,,yulya,2024-11-14 16:40:20.443000,KGShop
+4,cbOzkod43,TcxCheckBox,,467,,,,yulya,2024-11-14 16:40:20.447000,KGShop
+4,E_OzKod43,TcxTextEdit,,468,,,,yulya,2024-11-14 16:40:20.450000,KGShop
+4,cbOzkod44,TcxCheckBox,,469,,,,yulya,2024-11-14 16:40:20.453000,KGShop
+4,E_OzKod44,TcxTextEdit,,470,,,,yulya,2024-11-14 16:40:20.457000,KGShop
+4,cbOzkod45,TcxCheckBox,,471,,,,yulya,2024-11-14 16:40:20.460000,KGShop
+4,E_OzKod45,TcxTextEdit,,472,,,,yulya,2024-11-14 16:40:20.460000,KGShop
+4,cbOzkod46,TcxCheckBox,,473,,,,yulya,2024-11-14 16:40:20.463000,KGShop
+4,E_OzKod46,TcxTextEdit,,474,,,,yulya,2024-11-14 16:40:20.467000,KGShop
+4,cbOzkod47,TcxCheckBox,,475,,,,yulya,2024-11-14 16:40:20.470000,KGShop
+4,E_OzKod47,TcxTextEdit,,476,,,,yulya,2024-11-14 16:40:20.473000,KGShop
+4,cbOzkod48,TcxCheckBox,,477,,,,yulya,2024-11-14 16:40:20.477000,KGShop
+4,E_OzKod48,TcxTextEdit,,478,,,,yulya,2024-11-14 16:40:20.480000,KGShop
+4,cbOzkod49,TcxCheckBox,,479,,,,yulya,2024-11-14 16:40:20.480000,KGShop
+4,E_OzKod49,TcxTextEdit,,480,,,,yulya,2024-11-14 16:40:20.483000,KGShop
+4,cbOzkod50,TcxCheckBox,,481,,,,yulya,2024-11-14 16:40:20.487000,KGShop
+4,E_OzKod50,TcxTextEdit,,482,,,,yulya,2024-11-14 16:40:20.490000,KGShop
+1,cbOzkod21,TcxCheckBox,,483,yulya,2024-11-14 17:10:56.433000,KGShop,yulya,2025-01-17 12:04:39.710000,KGShop
+1,E_OzKod21,TcxTextEdit,,484,yulya,2024-11-14 17:10:56.447000,KGShop,yulya,2025-01-17 12:04:39.713000,KGShop
+1,cbOzkod22,TcxCheckBox,,485,yulya,2024-11-14 17:10:56.460000,KGShop,yulya,2025-01-17 12:04:39.717000,KGShop
+1,E_OzKod22,TcxTextEdit,,486,yulya,2024-11-14 17:10:56.473000,KGShop,yulya,2025-01-17 12:04:39.720000,KGShop
+1,cbOzkod23,TcxCheckBox,,487,yulya,2024-11-14 17:10:56.490000,KGShop,yulya,2025-01-17 12:04:39.723000,KGShop
+1,E_OzKod23,TcxTextEdit,,488,yulya,2024-11-14 17:10:56.507000,KGShop,yulya,2025-01-17 12:04:39.727000,KGShop
+1,cbOzkod24,TcxCheckBox,,489,yulya,2024-11-14 17:10:56.523000,KGShop,yulya,2025-01-17 12:04:39.730000,KGShop
+1,E_OzKod24,TcxTextEdit,,490,yulya,2024-11-14 17:10:56.537000,KGShop,yulya,2025-01-17 12:04:39.730000,KGShop
+1,cbOzkod25,TcxCheckBox,,491,yulya,2024-11-14 17:10:56.553000,KGShop,yulya,2025-01-17 12:04:39.733000,KGShop
+1,E_OzKod25,TcxTextEdit,,492,yulya,2024-11-14 17:10:56.567000,KGShop,yulya,2025-01-17 12:04:39.737000,KGShop
+1,cbOzkod26,TcxCheckBox,,493,yulya,2024-11-14 17:10:56.580000,KGShop,yulya,2025-01-17 12:04:39.740000,KGShop
+1,E_OzKod26,TcxTextEdit,,494,yulya,2024-11-14 17:10:56.597000,KGShop,yulya,2025-01-17 12:04:39.743000,KGShop
+1,E_OzKod27,TcxTextEdit,,495,yulya,2024-11-14 17:10:56.613000,KGShop,yulya,2025-01-17 12:04:39.747000,KGShop
+1,cbOzkod27,TcxCheckBox,,496,yulya,2024-11-14 17:10:56.627000,KGShop,yulya,2025-01-17 12:04:39.750000,KGShop
+1,E_OzKod28,TcxTextEdit,,497,yulya,2024-11-14 17:10:56.640000,KGShop,yulya,2025-01-17 12:04:39.753000,KGShop
+1,cbOzkod28,TcxCheckBox,,498,yulya,2024-11-14 17:10:56.657000,KGShop,yulya,2025-01-17 12:04:39.757000,KGShop
+1,cbOzkod29,TcxCheckBox,,499,yulya,2024-11-14 17:10:56.673000,KGShop,yulya,2025-01-17 12:04:39.760000,KGShop
+1,E_OzKod29,TcxTextEdit,,500,yulya,2024-11-14 17:10:56.690000,KGShop,yulya,2025-01-17 12:04:39.763000,KGShop
+1,E_OzKod30,TcxTextEdit,,501,yulya,2024-11-14 17:10:56.703000,KGShop,yulya,2025-01-17 12:04:39.767000,KGShop
+1,cbOzkod30,TcxCheckBox,,502,yulya,2024-11-14 17:10:56.717000,KGShop,yulya,2025-01-17 12:04:39.770000,KGShop
+1,cbOzkod31,TcxCheckBox,,503,yulya,2024-11-14 17:10:56.730000,KGShop,yulya,2025-01-17 12:04:39.773000,KGShop
+1,E_OzKod31,TcxTextEdit,,504,yulya,2024-11-14 17:10:56.743000,KGShop,yulya,2025-01-17 12:04:39.777000,KGShop
+1,E_OzKod32,TcxTextEdit,,505,yulya,2024-11-14 17:10:56.760000,KGShop,yulya,2025-01-17 12:04:39.780000,KGShop
+1,cbOzkod32,TcxCheckBox,,506,yulya,2024-11-14 17:10:56.777000,KGShop,yulya,2025-01-17 12:04:39.783000,KGShop
+1,cbOzkod33,TcxCheckBox,,507,yulya,2024-11-14 17:10:56.793000,KGShop,yulya,2025-01-17 12:04:39.787000,KGShop
+1,E_OzKod33,TcxTextEdit,,508,yulya,2024-11-14 17:10:56.807000,KGShop,yulya,2025-01-17 12:04:39.790000,KGShop
+1,cbOzkod34,TcxCheckBox,,509,yulya,2024-11-14 17:10:56.817000,KGShop,yulya,2025-01-17 12:04:39.793000,KGShop
+1,E_OzKod34,TcxTextEdit,,510,yulya,2024-11-14 17:10:56.830000,KGShop,yulya,2025-01-17 12:04:39.797000,KGShop
+1,E_OzKod35,TcxTextEdit,,511,yulya,2024-11-14 17:10:56.847000,KGShop,yulya,2025-01-17 12:04:39.800000,KGShop
+1,cbOzkod35,TcxCheckBox,,512,yulya,2024-11-14 17:10:56.860000,KGShop,yulya,2025-01-17 12:04:39.803000,KGShop
+1,cbOzkod36,TcxCheckBox,,513,yulya,2024-11-14 17:10:56.873000,KGShop,yulya,2025-01-17 12:04:39.807000,KGShop
+1,E_OzKod36,TcxTextEdit,,514,yulya,2024-11-14 17:10:56.887000,KGShop,yulya,2025-01-17 12:04:39.810000,KGShop
+1,cbOzkod37,TcxCheckBox,,515,yulya,2024-11-14 17:10:56.903000,KGShop,yulya,2025-01-17 12:04:39.813000,KGShop
+1,E_OzKod37,TcxTextEdit,,516,yulya,2024-11-14 17:10:56.920000,KGShop,yulya,2025-01-17 12:04:39.817000,KGShop
+1,cbOzkod38,TcxCheckBox,,517,yulya,2024-11-14 17:10:56.930000,KGShop,yulya,2025-01-17 12:04:39.820000,KGShop
+1,E_OzKod38,TcxTextEdit,,518,yulya,2024-11-14 17:10:56.947000,KGShop,yulya,2025-01-17 12:04:39.820000,KGShop
+1,cbOzkod39,TcxCheckBox,,519,yulya,2024-11-14 17:10:56.960000,KGShop,yulya,2025-01-17 12:04:39.823000,KGShop
+1,E_OzKod39,TcxTextEdit,,520,yulya,2024-11-14 17:10:56.977000,KGShop,yulya,2025-01-17 12:04:39.827000,KGShop
+1,cbOzkod40,TcxCheckBox,,521,yulya,2024-11-14 17:10:56.990000,KGShop,yulya,2025-01-17 12:04:39.830000,KGShop
+1,E_OzKod40,TcxTextEdit,,522,yulya,2024-11-14 17:10:57.003000,KGShop,yulya,2025-01-17 12:04:39.833000,KGShop
+1,cbOzkod41,TcxCheckBox,,523,yulya,2024-11-14 17:10:57.020000,KGShop,yulya,2025-01-17 12:04:39.837000,KGShop
+1,E_OzKod41,TcxTextEdit,,524,yulya,2024-11-14 17:10:57.037000,KGShop,yulya,2025-01-17 12:04:39.840000,KGShop
+1,E_OzKod42,TcxTextEdit,,525,yulya,2024-11-14 17:10:57.050000,KGShop,yulya,2025-01-17 12:04:39.843000,KGShop
+1,cbOzkod42,TcxCheckBox,,526,yulya,2024-11-14 17:10:57.067000,KGShop,yulya,2025-01-17 12:04:39.847000,KGShop
+1,cbOzkod43,TcxCheckBox,,527,yulya,2024-11-14 17:10:57.083000,KGShop,yulya,2025-01-17 12:04:39.850000,KGShop
+1,E_OzKod43,TcxTextEdit,,528,yulya,2024-11-14 17:10:57.097000,KGShop,yulya,2025-01-17 12:04:39.850000,KGShop
+1,cbOzkod44,TcxCheckBox,,529,yulya,2024-11-14 17:10:57.113000,KGShop,yulya,2025-01-17 12:04:39.853000,KGShop
+1,E_OzKod44,TcxTextEdit,,530,yulya,2024-11-14 17:10:57.127000,KGShop,yulya,2025-01-17 12:04:39.857000,KGShop
+1,cbOzkod45,TcxCheckBox,,531,yulya,2024-11-14 17:10:57.140000,KGShop,yulya,2025-01-17 12:04:39.860000,KGShop
+1,E_OzKod45,TcxTextEdit,,532,yulya,2024-11-14 17:10:57.150000,KGShop,yulya,2025-01-17 12:04:39.863000,KGShop
+1,cbOzkod46,TcxCheckBox,,533,yulya,2024-11-14 17:10:57.163000,KGShop,yulya,2025-01-17 12:04:39.867000,KGShop
+1,E_OzKod46,TcxTextEdit,,534,yulya,2024-11-14 17:10:57.177000,KGShop,yulya,2025-01-17 12:04:39.870000,KGShop
+1,cbOzkod47,TcxCheckBox,,535,yulya,2024-11-14 17:10:57.190000,KGShop,yulya,2025-01-17 12:04:39.873000,KGShop
+1,E_OzKod47,TcxTextEdit,,536,yulya,2024-11-14 17:10:57.203000,KGShop,yulya,2025-01-17 12:04:39.877000,KGShop
+1,cbOzkod48,TcxCheckBox,,537,yulya,2024-11-14 17:10:57.220000,KGShop,yulya,2025-01-17 12:04:39.880000,KGShop
+1,E_OzKod48,TcxTextEdit,,538,yulya,2024-11-14 17:10:57.237000,KGShop,yulya,2025-01-17 12:04:39.880000,KGShop
+1,cbOzkod49,TcxCheckBox,,539,yulya,2024-11-14 17:10:57.250000,KGShop,yulya,2025-01-17 12:04:39.883000,KGShop
+1,E_OzKod49,TcxTextEdit,,540,yulya,2024-11-14 17:10:57.267000,KGShop,yulya,2025-01-17 12:04:39.887000,KGShop
+1,cbOzkod50,TcxCheckBox,,541,yulya,2024-11-14 17:10:57.280000,KGShop,yulya,2025-01-17 12:04:39.890000,KGShop
+1,E_OzKod50,TcxTextEdit,,542,yulya,2024-11-14 17:10:57.297000,KGShop,yulya,2025-01-17 12:04:39.893000,KGShop

@@ -1,0 +1,27 @@
+Id,FieldName,Title,VisibleField
+2,Barkod,Barkod,True
+3,SKod,Stok Kodu,True
+4,StokTanim,Stok Tanımı,True
+5,RenkKodu,Renk Kodu,True
+6,Renk,Renk,True
+7,Asorti,Asorti Kodu,True
+8,Dagilim,Asorti Dağılımı,True
+9,Resim,Resim,True
+10,Paz_SipNo,Pazarlama Sipariş No,True
+11,Paz_SipTar,Pazarlama Sipariş Tarihi,True
+12,ulkesehir,Ülke Şehir,True
+13,Paz_TerTar,Paz.Sip Teslim Tarihi,True
+14,Paz_Carikod,Paz.Sip Cari Kodu,True
+15,Paz_CariAdi,Paz.Sip Cari Adı,True
+16,Paz_CariOzKod1,Paz.Sip Cari ÖzelKod1,True
+17,Paz_SipOzKod1,Paz.Sip ÖzelKod1,True
+18,Paz_SipOzKod2,Paz.Sip ÖzelKod2,True
+19,Paz_SipNot,Paz.Sip Notu,True
+20,Paz_SatirAciklama,Paz.Sip Satır Açıklaması,True
+21,Sat_CariKod,Satınalma Sip. Cari Kodu,True
+22,Sat_CariAdi,Satınalma Sip. Cari Adı,True
+23,Sat_SipTar,Satınalma Sipariş Tarihi,True
+24,Sat_SipNo,Satınalma SiparişNo,True
+25,Sat_TerTar,Satınalma Teslim tarihi,True
+26,LotNo,Lot No,True
+27,SipAlan,Siparişi Alan,True

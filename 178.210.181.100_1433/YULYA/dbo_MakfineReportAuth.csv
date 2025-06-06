@@ -1,0 +1,3 @@
+Id,ReportCode,ReportDefinition,Visible,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,Sip,Sipariş Raporu,True,1,,,,,,
+2,Urt,Üretim Raporu,True,2,,,,,,

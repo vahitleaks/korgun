@@ -1,0 +1,5 @@
+Tip_ID,Maliyet_Tip,DBName
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),LINDON
+1,FIFO,LINDON
+3,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),LINDONSENTOS
+4,FIFO,LINDONSENTOS

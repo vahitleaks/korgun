@@ -1,0 +1,12 @@
+UserName,CatalogName,AccessLocation,ReadLoc,WriteLoc,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+dbo,YULYA,,,,1,,,,,,
+Depo,YULYA,,,,10,dbo,2024-11-13 10:54:55.313000,Update,,,
+Depo,YULYA,*,,,8,,,,,,
+Depo,YULYA,L001,,,9,,,,,,
+Korgun_Admin,YULYA,,,,2,,,,,,
+sa,YULYA,,,,3,,,,,,
+Tedarikci,YULYA,,,,11,dbo,2024-11-13 10:54:55.313000,Update,,,
+Tedarikci,YULYA,*,,,7,,,,,,
+yulya,YULYA,,,,4,,,,,,
+yulya,YULYA,*,,,5,,,,,,
+yulya,YULYA,L001,,,6,,,,,,

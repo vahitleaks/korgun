@@ -1,0 +1,66 @@
+Kod,Tanim,Materyal,DBName
+ KOTON, KOTON,,TANCA
+.,.,,TANCA
+ABS,Abs,,TANCA
+AHSAP,Ahşap,,TANCA
+BAMBU,Bambu,,TANCA
+DERI,Hakiki Deri,,TANCA
+DERI/HASIR,Deri Hasır,,TANCA
+DERI/KETEN,Deri Keten,,TANCA
+DERI/KETEN/HASIR,Deri/Keten/Hasır,,TANCA
+DERI/KUMAS/PITON,Deri Kumaş Piton,,TANCA
+DERI/KURK,DERI/KURK,,TANCA
+DERI/STREC,Deri Streç,,TANCA
+DERI/SUNI,Deri & Suni,,TANCA
+DERI/TEKSTIL,Deri & Tekstil,,TANCA
+DERI/TRIKO,Deri Triko,,TANCA
+DERI/VEGAN,Deri/Vegan,,TANCA
+DERİ,Hakiki Deri,,TANCA
+Deri & Tekstil,Deri & Tekstil,,TANCA
+Hakiki Deri,Hakiki Deri,,TANCA
+Hakiki Deri/Tekstil,Hakiki Deri/Tekstil,,TANCA
+Hakiki Deri/Triko,Hakiki Deri/Triko,,TANCA
+HASIR,Hasır,,TANCA
+HEMOTID TAS,Hemotid Taş,,TANCA
+KANVANS,Kanvans,,TANCA
+KECE,Keçe,,TANCA
+KETEN,KETEN,,TANCA
+KOT,Kot,,TANCA
+KOTON,Koton,,TANCA
+KUMAS,Kumaş,,TANCA
+KUMAS/PITON,Kumaş Piton,,TANCA
+KUMAS/PITON/KURK,KUMAS/PITON/KURK,,TANCA
+KUMAS/VEGAN,Kumaş Vegan,,TANCA
+KURK,Kürk,,TANCA
+KURK/DERI/KUMAS,KURK/DERI/KUMAS,,TANCA
+KUZU KURK,Kuzu Kürk,,TANCA
+MASIF CEVIZ,Masif Ceviz,,TANCA
+Masif Ahşap,Masif Ahşap,,TANCA
+Nubuk,Nubuk,,TANCA
+PAMUKLU,Pamuklu,,TANCA
+PARASUT KUMAS,Paraşüt Kumaş,,TANCA
+PELUS,Peluş,,TANCA
+PITON,Piton,,TANCA
+POLİ PROPİLEN,Poli Propilen,,TANCA
+PVC,Pvc,,TANCA
+SATEN,Saten Astar,,TANCA
+SATEN ASTAR,Saten Astar,,TANCA
+SEFFAF,Şeffaf,,TANCA
+STREC,Streç,,TANCA
+SUET DERİ,Süet Deri,,TANCA
+SWAROVSKI TAS,Swarovski Taş,,TANCA
+TANCA HOLOGRAM,Tanca Hologram,,TANCA
+TANCA KUMAS,Tanca Kumaş,,TANCA
+TAS,TAS,,TANCA
+TEKNO/TEKSTIL,Tekno Tekstil,,TANCA
+TEKSTIL,Tekstil,,TANCA
+TEKSTIL/DERI,Tekstil Deri,,TANCA
+TEKSTIL/VEGAN,Tekstil & Vegan,,TANCA
+Tekstil & Deri,Tekstil & Deri,,TANCA
+Tekstil/Hakiki Deri,Tekstil/Hakiki Deri,,TANCA
+TRIKO,Triko,,TANCA
+VEGAN,Vegan,,TANCA
+VEGAN RUGAN,Vegan Rugan,,TANCA
+VEGAN/DERI,Vegan/Deri,,TANCA
+VEGAN/STREC,Vegan Streç,,TANCA
+VEGAN/TRIKO,Vegan Triko,,TANCA

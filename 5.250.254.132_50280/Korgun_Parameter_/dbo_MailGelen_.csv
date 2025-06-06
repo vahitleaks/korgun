@@ -1,0 +1,19 @@
+id,Kimden,Kime,Bilgi,Gizli,GercekKime,Konu,Onem,Tarih,Mail,Okundu,Rapor,Silindi,DBName
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,Antrepo20
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,Antrepo20
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,Antrepo20
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,Cabani20
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,Cabani20
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,Cabani20
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,KORGUNYAZILIM1910
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,KORGUNYAZILIM1910
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,KORGUNYAZILIM1910
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,KORGUNYAZILIM2210
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,KORGUNYAZILIM2210
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,KORGUNYAZILIM2210
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,KORGUNYAZILIM2310
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,KORGUNYAZILIM2310
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,KORGUNYAZILIM2310
+1,erdal.acinir,melek.atli,,,melek.atli,Test,1,2020-01-10 12:12:47.217000,Test,,,,Uretim20
+3,murat.gider,sinan.iscan,,,sinan.iscan,DENEME,1,2021-02-16 09:36:25.727000,DENEMEEE,,*,,Uretim20
+4,murat.gider,paketleme,,,paketleme,DENEME,1,2021-02-16 13:55:35.607000,DENEME,,*,,Uretim20

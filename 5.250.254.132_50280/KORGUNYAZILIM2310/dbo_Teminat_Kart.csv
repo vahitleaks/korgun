@@ -1,0 +1,4 @@
+Teminx,PortfoyNo,Tip,BordroNo,Location,Tarih,BitTar,CariKod,Banka,Sube,HesapNo,Tutar,ParaCinsi,SDurum,OzKod1,OzKod2,CariMuhKod,KarsiMuhKod,CariMM,KarsiMM,MuhFisNo,insUN,insDT,updUN,updDT,BelgeNo,Aciklama,Oran,OzKod3,OzKod4,OzKod5,kgid,insApp,updApp
+1,1,V,0000000001,CA001,2020-01-01 00:00:00,,329.01.005,İş Bankası,İkitelli Sanayi Şb. ,0001467,15000.0000000000,TL,A,01,,329.01.005,,,,,Orbital,2020-02-11 11:01:55.237000,Orbital,2020-02-11 11:01:55.240000,,Kesin ve Süresiz,,,,,1,,
+1002,1,A,0000000001,CA001,2023-12-11 00:00:00,2024-01-01 00:00:00,SAMET,Ak Bank,İkitelli Şb.,AKB-K01,1.0000000000,TL,ci,,,,,,,,Samet,2023-12-11 16:53:28.867000,Samet,2023-12-11 17:07:01.163000,,,,,,,1002,,
+1003,2,V,0000000002,CA001,2024-05-15 00:00:00,2025-11-11 00:00:00,TESTCARI,Deniz Bank,İkitelli Şb.,314303-03,100.0000000000,EU,ci,,,100.01.002,780.01.001,,,,gulsah,2024-05-15 01:04:33.063000,gulsah,2024-05-15 01:06:08.727000,,,,,,,1003,KGShop,KGShop

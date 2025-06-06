@@ -1,0 +1,11 @@
+Kod,Tanim
+0,Transport mode not specified
+1,Maritime transport
+2,Rail transport
+3,Road transport
+4,Air transport
+5,Mail
+6,Multimodal transport
+7,Fixed transport installations
+8,Inland water transport
+9,Transport mode not applicable

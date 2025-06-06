@@ -1,0 +1,3 @@
+FisNo,FisTip,FisTar,Location,CariKod,BelgeNo,BelgeTar,iskonto,iskontoTut,ParaCinsi,GelenDep,GidenDep,SKullanici,KDVCheck,MuhFisNo,iptal,insUN,insDT,updUN,updDT,FisTur,locked,Notlar,OzKod1,OzKod2,OzKod3,OzKod4,OzKod5,LastUpdate,LastCalculate,NeedCalculate,kgid,insApp,updApp
+3,2,2024-12-19 13:02:39,L001,,STOKASORTI,2024-12-19 13:02:39,,,,,,,,,,yulya,2024-12-19 13:02:47.163000,dbo,2024-12-19 13:02:55.007000,0,,,,,,,,2024-12-19 13:02:47.850000,2024-12-19 13:02:54.800000,0,3,KGShop,KGEntegrator
+4,2,2024-12-19 13:16:10,L001,,STOKDETAY,2024-12-19 13:16:10,,,,,,,,,,yulya,2024-12-19 13:16:17.400000,dbo,2024-12-19 13:16:24.590000,0,,,,,,,,2024-12-19 13:16:17.403000,2024-12-19 13:16:24.570000,0,4,KGShop,KGEntegrator

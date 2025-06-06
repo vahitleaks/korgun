@@ -1,0 +1,4 @@
+Id,Nakliyeci,NakliyeciNationalID,DriverName,DriverSurName,DriverNationalityID,Plaka,Nakliyeci_Ulke,Nakliyeci_Sehir,Nakliyeci_Ilce,Nakliyeci_PKod,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,ANKARALILAR TİCARET TAŞIMACILIK,7662333322,,,,,Türkiye,İstanbul,Sarıyer,34553,1,,,,,,
+2,,,Ahmet,Akıncı,2999603223455,34YYZ53,,,,,2,,,,,,
+4,,,Harun,BULUTCU,1111111111,34 MNZ 123,,,,,4,dbo,2025-02-07 15:15:31.080000,Paramet,,,

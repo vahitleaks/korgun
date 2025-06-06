@@ -1,0 +1,1036 @@
+ModulName,ModulParent,ModulLevel,ModulCaption,DBName
+dsa_TextBarkodMevAl,Birdahagster1,2,dsa_TextBarkodMevAl,LINDON
+miHR_28,miStokYonetim_HR,2,STOKGIRENCIKANRAPO,LINDON
+miHR_29,miStokYonetim_HR,2,STOKKODUGIRISCIKIS,LINDON
+miHR_30,miPerYonetim_HR,2,SATANRAPORZB,LINDON
+Siparis_SatialmaSiparis_Yazdir_RaporListeFR,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_RaporListeFR,LINDON
+Siparis_SatialmaSiparis_Yazdir_RaporSekil,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_RaporSekil,LINDON
+Siparis_SatialmaSiparis_YazdirGrup,Birdahagster1,2,Siparis_SatialmaSiparis_YazdirGrup,LINDON
+Siparis_SatialmaSiparis_Yazdir_BedenSorgusu,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_BedenSorgusu,LINDON
+Siparis_SatialmaSiparis_YazdirAltTopGrup,Birdahagster1,2,Siparis_SatialmaSiparis_YazdirAltTopGrup,LINDON
+irsaliye_Dahili_Satis_BarkodYaz_SatirlarToplansinMi,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_SatirlarToplansinMi,LINDON
+miSiparisYon2_HR,miHazirRaporlar,1,Satınalma Analiz ve Sipariş Yönetimi ...,LINDON
+miHR_31,miSiparisYon2_HR,2,KALAN SIPARIS,LINDON
+miMKarZarar,miMMaliTablo,2,Gelir Tablosu,LINDONSENTOS
+miMSatisMaliyet,miMMaliTablo,2,Satışların Maliyeti Tablosu,LINDONSENTOS
+miMFonAkim,miMMaliTablo,2,Fon Akım Tablosu,LINDONSENTOS
+miMNakitAkis,miMMaliTablo,2,Nakit Akış Tablosu,LINDONSENTOS
+miMKarDagitim,miMMaliTablo,2,Kar Dağıtım Tablosu,LINDONSENTOS
+mieBeyan,miMMuhasebe,1,e-Beyannameler,LINDONSENTOS
+miKDVeBeyan,mieBeyan,2,KDV1 e-Beyanname,LINDONSENTOS
+miKDV2eBeyan,mieBeyan,2,KDV2 e-Beyanname,LINDONSENTOS
+miHR_25,miirsaliyeYon_HR,2,TRANSFERKONTROLU,LINDONSENTOS
+miEDefterMain,miMMuhasebe,1,E-Defter,LINDONSENTOS
+miEdefterCreate,miEDefterMain,2,E-Defter Taslak Oluşturma,LINDONSENTOS
+miMagaza,,0,Mağaza,LINDONSENTOS
+miPos,miMagaza,1,Perakende Satış İşlemleri,LINDONSENTOS
+miMusteri,miMagaza,1,Müşteriler,LINDONSENTOS
+miPerYonetim,miMagaza,1,Perakende Satış Yönetimi,LINDONSENTOS
+miSatTakip,miMagaza,1,Mağaza Satış Kasa Takip,LINDONSENTOS
+miPerKZYon,miMagaza,1,Perakende Satış Kar Zarar Yönetimi ...,LINDONSENTOS
+miBankaKrediTak,miMagaza,1,Banka Kredi Takip,LINDONSENTOS
+miMusteriYon,miMagaza,1,Müşteri Yönetimi,LINDONSENTOS
+miPSatisRapor,miMagaza,1,Satış Raporları,LINDONSENTOS
+Rapor_9,miPSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Miktarına Göre) (r9),LINDONSENTOS
+Rapor_298,miPSatisRapor,2,Metrekare Bazında Lokasyona Göre Satış Raporu (298),LINDONSENTOS
+Rapor_308,miPSatisRapor,2,Personel Sayısı Bazında Lokasyona Göre Satış Raporu (308),LINDONSENTOS
+Rapor_299,miPSatisRapor,2,Lokasyon Bazında Belirlenen Ciro Hedeflerin Gerçekleşme Raporu (299),LINDONSENTOS
+Rapor_300,miPSatisRapor,2,Lokasyon Bazında Belirlenen Miktar Hedeflerin Gerçekleşme Raporu (300),LINDONSENTOS
+Rapor_1,miPSatisRapor,2,En Çok Satan Ürün Raporu (Satış Miktarına Göre) (r1),LINDONSENTOS
+Rapor_2,miPSatisRapor,2,Üreticiye Göre En Çok Satan Ürün Raporu (Satış Miktarına Göre) (r2),LINDONSENTOS
+Rapor_7,miPSatisRapor,2,Lokasyona Göre En Çok Satan Ürün Raporu (Satış Tutarına Göre) (r7),LINDONSENTOS
+Rapor_16,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Miktarına Göre) (r16),LINDONSENTOS
+Rapor_18,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Tutarına Göre) (r18),LINDONSENTOS
+Rapor_26,miPSatisRapor,2,Haftalık Satış Analizi (Satış Miktarına Göre) (r26),LINDONSENTOS
+Rapor_27,miPSatisRapor,2,Aylık Satış Analizi (Satış Miktarına Göre) (r27),LINDONSENTOS
+Rapor_29,miPSatisRapor,2,Yıllık Satış Analizi (Satış Miktarına Göre) (r29),LINDONSENTOS
+Rapor_31,miPSatisRapor,2,Haftalık Satış Analizi (Satış Tutarına Göre) (r31),LINDONSENTOS
+Rapor_32,miPSatisRapor,2,Aylık Satış Analizi (Satış Tutarına Göre) (r32),LINDONSENTOS
+Rapor_34,miPSatisRapor,2,Yıllık Satış Analizi (Satış Tutarına Göre) (r34),LINDONSENTOS
+Rapor_119,miPSatisRapor,2,Üretici Bazlı Mağaza Performans Takip (r119),LINDONSENTOS
+Rapor_120,miPSatisRapor,2,Üretici Bazlı Merkez Alış Mağaza Satış Performans Takip (r120),LINDONSENTOS
+Rapor_38,miPSatisRapor,2,Satmayan Ürün Raporu (r38),LINDONSENTOS
+Rapor_39,miPSatisRapor,2,Lokasyona Göre Satmayan Ürün Raporu (r39),LINDONSENTOS
+Rapor_169,miPSatisRapor,2,Merkez-Şube Stok Durum Raporu (Özet) (r169),LINDONSENTOS
+Rapor_701,miPSatisRapor,2,Lokasyon Bazında Stok Satış Oranı (r701),LINDONSENTOS
+Rapor_702,miPSatisRapor,2,Lokasyon Stok Grubu Bazında Satış Oranı Raporu (r702),LINDONSENTOS
+Rapor_703,miPSatisRapor,2,Stok Grubuna Göre Satış Performansı  (r703),LINDONSENTOS
+Rapor_704,miPSatisRapor,2,RPT Değerlendirme Raporu (r704),LINDONSENTOS
+Rapor_705,miPSatisRapor,2,Satış İndirim Değerlendirme Raporu (705),LINDONSENTOS
+Rapor_706,miPSatisRapor,2,Sipariş ve İrsaliye Miktar Analizi  (r706),LINDONSENTOS
+Rapor_707,miPSatisRapor,2,Stok Grubuna Göre Satış Performansı-2  (r707),LINDONSENTOS
+Rapor_708,miPSatisRapor,2,Gönderilen-Alınan Dahili İrsaliye Analizi (r708),LINDONSENTOS
+Rapor_709,miPSatisRapor,2,Gerçekleşen Ciro-Hedefler Karşılaştırma Raporu (r709),LINDONSENTOS
+Rapor_710,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu ( 1 Aylık Satış Miktarına Göre / Grafik) (r710),LINDONSENTOS
+Rapor_711,miPSatisRapor,2,Gerçekleşen Tahmini Ciro Raporu (r711),LINDONSENTOS
+Rapor_712,miPSatisRapor,2,Mağaza Satış - Net Kar Raporu (r712),LINDONSENTOS
+Rapor_713,miPSatisRapor,2,Mağaza Gider Detaylı Net Kar Raporu (r713),LINDONSENTOS
+Rapor_714,miPSatisRapor,2,Müşteri Puan Raporu (r714),LINDONSENTOS
+Rapor_725,miPSatisRapor,2,Resimli ve Renk-Beden Raporu (r725),LINDONSENTOS
+Rapor_726,miPSatisRapor,2,Ödeme Tipine Göre Tutar Dağılım Raporu (r726),LINDONSENTOS
+Rapor_727,miPSatisRapor,2,Resimli ve Renk-Beden Raporu Merkez Alış Mağaza Satış (r727),LINDONSENTOS
+miLojistic,,0,Lojistik,LINDONSENTOS
+miSatTeklif,miLojistic,1,Pazarlama Teklifleri,LINDONSENTOS
+miSiparisYon3,miLojistic,1,Pazarlama Teklif Yönetimi ...,LINDONSENTOS
+miSatSiparis,miLojistic,1,Pazarlama Siparişleri ...,LINDONSENTOS
+miSiparisYon1,miLojistic,1,Pazarlama Analiz ve Sipariş Yönetimi ...,LINDONSENTOS
+miAlTeklif,miLojistic,1,Satınalma Teklifleri,LINDONSENTOS
+miSiparisYon4,miLojistic,1,Satınalma Teklif Yönetimi ...,LINDONSENTOS
+miAlSiparis,miLojistic,1,Satınalma Siparişleri ...,LINDONSENTOS
+miSiparisYon2,miLojistic,1,Satınalma Analiz ve Sipariş Yönetimi ...,LINDONSENTOS
+miSevk,miLojistic,1,Sevkiyat,LINDONSENTOS
+miSevkFis,miSevk,2,Sevkiyat Fişi ...,LINDONSENTOS
+miSevkFisB,miSevk,2,Beklemedeki Sevk Fişleri ...,LINDONSENTOS
+miSevkFisG,miSevk,2,Geri Gönderilen Sevk Fişleri ...,LINDONSENTOS
+miSevkFisT,miSevk,2,Tamamlanmış Sevk Fişleri ...,LINDONSENTOS
+miSevkYon,miSevk,2,Sevkiyat Yönetimi ...,LINDONSENTOS
+miSipOdePlanFilter,miLojistic,1,Sipariş Ödeme Planı Analizi...,LINDONSENTOS
+miUretim,,0,Üretim,LINDONSENTOS
+miHazirRaporlar,,0,Hazır Raporlar,LINDONSENTOS
+Help1,,0,Araçlar,LINDONSENTOS
+ools1,Help1,1,Ek Modüller,LINDONSENTOS
+TSMevcut,miStok,0,Stok Mevcutları,LINDONSENTOS
+TSDlocation,TSMevcut,1,Lokasyon Detay,LINDONSENTOS
+TSGenel,miCari,3,Genel Durum,LINDONSENTOS
+TSDetay,miCari,3,Hesap Detayları,LINDONSENTOS
+TSAylik,miCari,3,Aylık Durum,LINDONSENTOS
+TSSiparis,miCari,3,Siparişleri,LINDONSENTOS
+TS_RiskRaporu,miCari,3,Risk Raporu,LINDONSENTOS
+TS_FiyatListe,miCari,3,Fiyat Listesi,LINDONSENTOS
+TS_OpenBorc,miCari,3,Kapanmamış Borçlar,LINDONSENTOS
+miAlHizmetSip,miFinansTanim,2,Alınan Hizmet Siparişi,LINDONSENTOS
+miUIMalHes,miPlanlama,1,İleri Maliyet Hesaplama...,LINDONSENTOS
+miUMalPlnFinans,miPlanlama,1,Üretim Senaryo Çalışmaları...,LINDONSENTOS
+TSRenk,miSParam,1,Renk Tanımları,LINDONSENTOS
+TSBeden,miSParam,1,Beden Tanımları,LINDONSENTOS
+TSReyon,miSParam,2,Reyon Tanımları,LINDONSENTOS
+TSSKGrup,miSParam,2,Stok Grubu Tanımları,LINDONSENTOS
+TSSKTip,miSParam,2,Stok Tip Tanımları,LINDONSENTOS
+TSKFiyTip,miSParam,2,Fiyat Tanımları,LINDONSENTOS
+TSKSekil,miSParam,2,Stok Şekil Tanımları,LINDONSENTOS
+TCinsiyet,miSParam,2,Cinsiyet Tanımları,LINDONSENTOS
+TSBirim,miSParam,2,Birim Tanımları,LINDONSENTOS
+TSBirimGrp,miSParam,2,Birim Grubu Tanımları,LINDONSENTOS
+TSUretici,miSParam,2,Üretici Tanımları,LINDONSENTOS
+TSAlternatifKod,miSParam,2,Alternatif Kod Grubu,LINDONSENTOS
+TGtip,miSParam,2,GTip Tanımları,LINDONSENTOS
+miMainMenu,,0,,LINDONSENTOS
+miSystem,,0,Sistem,LINDONSENTOS
+miLocation,miSystem,1,Lokasyon Seçimi ...,LINDONSENTOS
+miChangePassword,miSystem,1,Şifre Değiştir...,LINDONSENTOS
+miScreenLock,miSystem,1,Ekranı Kilitle...,LINDONSENTOS
+miSParam,miSystem,1,Stok Parametreleri ...,LINDONSENTOS
+miGDovGir,miSystem,1,Günlük Döviz Girişleri ...,LINDONSENTOS
+miChangeCatalog,miSystem,1,Katalog değiştir...,LINDONSENTOS
+miUserChange,miSystem,1,Kullanıcı değiştir...,LINDONSENTOS
+mieXit,miSystem,1,Programdan Çıkış,LINDONSENTOS
+miEnvanter,,0,Envanter,LINDONSENTOS
+miStokMenu,miEnvanter,1,Stok,LINDONSENTOS
+miStok,miStokMenu,2,Stok Kartı Tanımları ...,LINDONSENTOS
+miStokHar,miStokMenu,2,Stok İşlemleri ...,LINDONSENTOS
+miStokYonetim,miStokMenu,2,Stok Yönetimi ...,LINDONSENTOS
+miStokislemYon,miStokMenu,2,Stok İşlemleri Yönetimi ...,LINDONSENTOS
+miStokGCYon,miStokMenu,2,Stok Giriş Çıkış Yönetimi,LINDONSENTOS
+miEn_Filter,miStokMenu,2,Envanter Yönetimi...,LINDONSENTOS
+miStokKZYon,miStokMenu,2,Kar Zarar Yönetimi...,LINDONSENTOS
+miFifoLifo,miStokMenu,2,Stok Değerleme Raporları...,LINDONSENTOS
+miFiyatYonet,miStokMenu,2,Fiyat Yönetimi ...,LINDONSENTOS
+miStokSay,miStokMenu,2,Stok Sayım Yönetimi ...,LINDONSENTOS
+miSKLokMikAnaliz,miStokMenu,2,Lokasyon Miktar Yetkisi Analizi...,LINDONSENTOS
+miBarkodYonet,miEnvanter,1,Barkod Yonetimi,LINDONSENTOS
+miBarkodCreate,miBarkodYonet,2,Stok Kartlarına Barkod Oluştur ...,LINDONSENTOS
+miSpeedBarCode,miBarkodYonet,2,Stok Kartlarında Hızlı Barkod işlemleri ...,LINDONSENTOS
+miSpeedBarcode2,miBarkodYonet,2,Hızlı Barkod Basım Ekranı,LINDONSENTOS
+miFinans,,0,Finans,LINDONSENTOS
+miCariMenu,miFinans,1,Cari,LINDONSENTOS
+miCari,miCariMenu,2,Cari Kart Tanımları ...,LINDONSENTOS
+miCariFis,miCariMenu,2,Cari İşlemleri ...,LINDONSENTOS
+miCariYonet,miCariMenu,2,Cari Yönetim ...,LINDONSENTOS
+miCariYon,miCariMenu,2,Cari İşlem Yönetimi ...,LINDONSENTOS
+miCariRiskYon,miCariMenu,2,Cari Risk Limit Raporu,LINDONSENTOS
+miKapaYonet,miCariMenu,2,Borç Alacak Kapama Yönetimi,LINDONSENTOS
+miBorcYonet,miCariMenu,2,Borçlanma Yönetimi,LINDONSENTOS
+miCariYasYonet,miCariMenu,2,Cari Yaşlandırma Yönetimi,LINDONSENTOS
+MiTedarikiPuanlama,miCariMenu,2,Tedarikiçi Puanlama,LINDONSENTOS
+miKasaMenu,miFinans,1,Kasa,LINDONSENTOS
+miKasa,miKasaMenu,2,Kasa Tanımları ...,LINDONSENTOS
+miKasaFis,miKasaMenu,2,Kasa İşlemleri ...,LINDONSENTOS
+miKasaYon,miKasaMenu,2,Kasa İşlem Yönetimi ...,LINDONSENTOS
+miKasaYonet,miKasaMenu,2,Kasa Yönetimi ...,LINDONSENTOS
+miSpeedKasa,miKasaMenu,2,Hızlı Kasa İşlemleri,LINDONSENTOS
+miKasaUyari,miKasaMenu,2,Kasalar Arası Transfer Kontrol Modülü...,LINDONSENTOS
+mibanka,miFinans,1,Banka,LINDONSENTOS
+miBankaKart,mibanka,2,Banka Kartları ...,LINDONSENTOS
+miBankais,mibanka,2,Banka işlemleri ...,LINDONSENTOS
+miSpeedHavale,mibanka,2,Hızlı İşlem Girişi,LINDONSENTOS
+miBankaYon,mibanka,2,Banka Yönetimi ...,LINDONSENTOS
+miBankaListesi,mibanka,2,Banka Listesi...,LINDONSENTOS
+miBankTakip,mibanka,2,Takip,LINDONSENTOS
+miBankaTakip,miBankTakip,3,Banka Bazında Takip ...,LINDONSENTOS
+miSubeTakip,miBankTakip,3,Şube Bazında Takip ...,LINDONSENTOS
+miHesapTakip,miBankTakip,3,Hesap Bazında Takip ...,LINDONSENTOS
+miKredi,mibanka,2,Kredi,LINDONSENTOS
+miKrediTanim,miKredi,3,Kredi Tanim...,LINDONSENTOS
+miKrediOdeme,miKredi,3,Kredi Ödeme Takip...,LINDONSENTOS
+miBankaKrediYon,miKredi,3,Kredi Yönetimi...,LINDONSENTOS
+miirsaliyemenu,miFinans,1,İrsaliye,LINDONSENTOS
+miirs_A,miirsaliyemenu,2,Alış İrsaliye,LINDONSENTOS
+miirs_A_Fat,miirs_A,3,Alış İrsaliye ...,LINDONSENTOS
+miirs_A_Kon,miirs_A,3,Alış Konsinye İrsaliye ...,LINDONSENTOS
+miirs_A_Dah,miirs_A,3,Alış Dahili İrsaliye ...,LINDONSENTOS
+miirs_A_Pro,miirs_A,3,Alış Promosyon İrsaliye ...,LINDONSENTOS
+miirs_S,miirsaliyemenu,2,Satış İrsaliye,LINDONSENTOS
+miirs_S_Fat,miirs_S,3,Satış İrsaliye ...,LINDONSENTOS
+miirs_S_Kon,miirs_S,3,Satış Konsinye İrsaliye ...,LINDONSENTOS
+miirs_S_Dah,miirs_S,3,Satış Dahili İrsaliye ...,LINDONSENTOS
+miirs_S_Pro,miirs_S,3,Satış Promosyon İrsaliye ...,LINDONSENTOS
+miirsaliyeYon,miirsaliyemenu,2,İrsaliye Yönetimi ...,LINDONSENTOS
+miDahFiyDeg,miirsaliyemenu,2,Dahili İrsaliye Fiyat Değerleme,LINDONSENTOS
+miFaturaMenu,miFinans,1,Fatura,LINDONSENTOS
+miFat_A,miFaturaMenu,2,Alış Fatura,LINDONSENTOS
+miFat_A_Fat,miFat_A,3,Alış Fatura ...,LINDONSENTOS
+miFat_A_Kon,miFat_A,3,Alış Konsinye Fatura ...,LINDONSENTOS
+miFat_A_Hiz,miFat_A,3,Alış Hizmet Fatura ...,LINDONSENTOS
+miFat_A_Pro,miFat_A,3,Alış Promosyon Fatura ...,LINDONSENTOS
+miFFA,miFat_A,3,Alış Fiyat Farkı Faturası,LINDONSENTOS
+miFat_A_KFF,miFat_A,3,Kur Farkı Faturası,LINDONSENTOS
+miFat_S,miFaturaMenu,2,Satış Fatura,LINDONSENTOS
+miFat_S_Fat,miFat_S,3,Satış Fatura ...,LINDONSENTOS
+miResim,ools1,2,Resim Penceresi,LINDONSENTOS
+miMail,ools1,2,Çevrimiçi Mail,LINDONSENTOS
+miSMS,ools1,2,SMS,LINDONSENTOS
+miKGAjanda,ools1,2,KG Ajanda...,LINDONSENTOS
+miKGMessenger,ools1,2,KG Messenger...,LINDONSENTOS
+miRaporOs,ools1,2,Rapor Oluşturma Sihirbazı,LINDONSENTOS
+miKGCells,ools1,2,KGCells...,LINDONSENTOS
+miTeamViewer,ools1,2,Korgün Destek Uygulaması...,LINDONSENTOS
+miKorgunOnlineOdeme,ools1,2,Korgün Online Ödeme...,LINDONSENTOS
+miOdeme,ools1,2,,LINDONSENTOS
+Birdahagster1,Help1,1,Bir Daha Göster,LINDONSENTOS
+tmntmzl,Birdahagster1,2,Tümünü Temizle,LINDONSENTOS
+kasaSifre,Birdahagster1,2,Kasa Şifresini Temizle,LINDONSENTOS
+miAsortiTanim,Help1,1,Asorti Tanımlama...,LINDONSENTOS
+miSipOzDur,Help1,1,Sipariş Özel Durumları,LINDONSENTOS
+miScrSvr,Help1,1,Ekran Kilidi Zamanlaması...,LINDONSENTOS
+miCRMHatirlat,Help1,1,CRM Hatırlatma Açık,LINDONSENTOS
+miOtoMail,Help1,1,Otomatik Mail Kontrolü Açık,LINDONSENTOS
+miMDITabbed,Help1,1,Form Sayfalama,LINDONSENTOS
+miMenuOtom,Help1,1,Menü Otomatik Açılsın,LINDONSENTOS
+BBBBB1,Help1,1,Menüde Bul...,LINDONSENTOS
+miParamsRefresh,Help1,1,Parametreleri yenile,LINDONSENTOS
+De2,Help1,1,Yerleştir,LINDONSENTOS
+De1,Help1,1,Düzenle,LINDONSENTOS
+ArkaResDegis,Help1,1,Arka Resim...,LINDONSENTOS
+miTema,Help1,1,Tema Değiştir,LINDONSENTOS
+miLondonLiquidSky,miTema,2,Tema 1,LINDONSENTOS
+miMcSkin,miTema,2,Tema 2,LINDONSENTOS
+miStardust,miTema,2,Tema 3,LINDONSENTOS
+miValentine,miTema,2,Tema 4,LINDONSENTOS
+miXMas2008Blue,miTema,2,Tema 5,LINDONSENTOS
+miSharpPlus,miTema,2,Tema 6,LINDONSENTOS
+NativeStyle1,miTema,2,NativeStyle,LINDONSENTOS
+EmptySkinName1,miTema,2,EmptySkinName,LINDONSENTOS
+miKgWeb,Help1,1,Korgun Web Haberler ...,LINDONSENTOS
+miMutabakatList,Help1,1,Mutabakat Sonuç Listesi...,LINDONSENTOS
+miCustomerFeedback,Help1,1,Müşteri Geri Bildirim Sistemi...,LINDONSENTOS
+miConnectingPeople,Help1,1,Bağlı Kullanıcılar...,LINDONSENTOS
+About2,Help1,1,Hakkında...,LINDONSENTOS
+TSFiyatlar,miStok,0,Fiyatlar,LINDONSENTOS
+TSExstre,miStok,0,Ekstre,LINDONSENTOS
+TSAF,TSFiyatlar,1,Alış Fiyatları,LINDONSENTOS
+TSAI,TSFiyatlar,1,Alış iskontosu,LINDONSENTOS
+TSSF,TSFiyatlar,1,Satış Fiyatları,LINDONSENTOS
+TSSI,TSFiyatlar,1,Satış iskontosu,LINDONSENTOS
+TSBarCode,miStok,0,Barkod Tanımları,LINDONSENTOS
+SBSendAltoA,miirs_A_Dah,4,Sevk Et,LINDONSENTOS
+SBSendAltoS,miirs_S_Dah,4,Sevk Et,LINDONSENTOS
+miirs_A_Fat_i,miirs_A,3,Alış İade İrsaliye ...,LINDONSENTOS
+miirs_A_Kon_i,miirs_A,3,Alış İade Konsinye İrsaliye ...,LINDONSENTOS
+miirs_A_Dah_i,miirs_A,3,Alış İade Dahili İrsaliye ...,LINDONSENTOS
+miirs_A_Pro_i,miirs_A,3,Alış İade Promosyon İrsaliye ...,LINDONSENTOS
+miirs_S_Fat_i,miirs_S,3,Satış İade İrsaliye ...,LINDONSENTOS
+miirs_S_Kon_i,miirs_S,3,Satış İade Konsinye İrsaliye ...,LINDONSENTOS
+miirs_S_Dah_i,miirs_S,3,Satış İade Dahili İrsaliye ...,LINDONSENTOS
+miirs_S_Pro_i,miirs_S,3,Satış İade Promosyon İrsaliye ...,LINDONSENTOS
+miFat_A_Fat_i,miFat_A,3,Alış İade Fatura ...,LINDONSENTOS
+miFat_A_Kon_i,miFat_A,3,Alış İade Konsinye Fatura ...,LINDONSENTOS
+miFat_A_Dah_i,miFat_A,3,Alış İade Dahili Fatura ...,LINDONSENTOS
+miFat_A_Hiz_i,miFat_A,3,Alış İade Hizmet Fatura ...,LINDONSENTOS
+miFat_A_Pro_i,miFat_A,3,Alış İade Promosyon Fatura ...,LINDONSENTOS
+miFat_S_Fat_i,miFat_S,3,Satış İade Fatura ...,LINDONSENTOS
+miFat_S_Kon_i,miFat_S,3,Satış İade Konsinye Fatura ...,LINDONSENTOS
+miFat_S_Dah_i,miFat_S,3,Satış İade Dahili Fatura ...,LINDONSENTOS
+miFat_S_Hiz_i,miFat_S,3,Satış İade Hizmet Fatura ...,LINDONSENTOS
+miFat_S_Pro_i,miFat_S,3,Satış İade Promosyon Fatura ...,LINDONSENTOS
+miUrTakip1_G,miUrTakip1,1,Emir Geriçekme,LINDONSENTOS
+miUrTakip2_G,miUrTakip2,1,Emir Geriçekme,LINDONSENTOS
+miUrTakip3_G,miUrTakip3,1,Emir Geriçekme,LINDONSENTOS
+miUrTakip1_i,miUrTakip1,1,Emir ilerletme,LINDONSENTOS
+miUrTakip2_i,miUrTakip2,1,Emir ilerletme,LINDONSENTOS
+miUrTakip3_i,miUrTakip3,1,Emir ilerletme,LINDONSENTOS
+dsa_TextBarkodMevAl,Birdahagster1,2,dsa_TextBarkodMevAl,LINDONSENTOS
+miHR_28,miStokYonetim_HR,2,STOKGIRENCIKANRAPO,LINDONSENTOS
+miHR_29,miStokYonetim_HR,2,STOKKODUGIRISCIKIS,LINDONSENTOS
+miHR_30,miPerYonetim_HR,2,SATANRAPORZB,LINDONSENTOS
+Siparis_SatialmaSiparis_Yazdir_RaporListeFR,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_RaporListeFR,LINDONSENTOS
+Siparis_SatialmaSiparis_Yazdir_RaporSekil,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_RaporSekil,LINDONSENTOS
+Siparis_SatialmaSiparis_YazdirGrup,Birdahagster1,2,Siparis_SatialmaSiparis_YazdirGrup,LINDONSENTOS
+Siparis_SatialmaSiparis_Yazdir_BedenSorgusu,Birdahagster1,2,Siparis_SatialmaSiparis_Yazdir_BedenSorgusu,LINDONSENTOS
+Siparis_SatialmaSiparis_YazdirAltTopGrup,Birdahagster1,2,Siparis_SatialmaSiparis_YazdirAltTopGrup,LINDONSENTOS
+irsaliye_Dahili_Satis_BarkodYaz_SatirlarToplansinMi,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_SatirlarToplansinMi,LINDONSENTOS
+miSiparisYon2_HR,miHazirRaporlar,1,Satınalma Analiz ve Sipariş Yönetimi ...,LINDONSENTOS
+miHR_31,miSiparisYon2_HR,2,KALAN SIPARIS,LINDONSENTOS
+miSiparisYon1_HR,miHazirRaporlar,1,Pazarlama Analiz ve Sipariş Yönetimi ...,LINDONSENTOS
+miHR_26,miSiparisYon1_HR,2,TRENDYOLGLOBAL,LINDONSENTOS
+Fatura_Alis_Yazdir_RaporListeFR,Birdahagster1,2,Fatura_Alis_Yazdir_RaporListeFR,LINDONSENTOS
+miFat_S_Kon,miFat_S,3,Satış Konsinye Fatura ...,LINDONSENTOS
+miFat_S_Hiz,miFat_S,3,Satış Hizmet Fatura ...,LINDONSENTOS
+miFat_S_Pro,miFat_S,3,Satış Promosyon Fatura ...,LINDONSENTOS
+miFFS,miFat_S,3,Satış Fiyat Farkı Faturası,LINDONSENTOS
+miFat_S_KFF,miFat_S,3,Kur Farkı Faturası,LINDONSENTOS
+miFaturaYon,miFaturaMenu,2,Fatura Yönetimi ...,LINDONSENTOS
+miFatRaporu,miFaturaMenu,2,Fatura / KDV Raporu,LINDONSENTOS
+miBABS,miFaturaMenu,2,BA - BS Formları,LINDONSENTOS
+miFatOdePlanFilter,miFaturaMenu,2,Fatura Ödeme Planı Analizi...,LINDONSENTOS
+miGeriyeOdemePlanlama,miFaturaMenu,2,Geriye Dönük Ödeme Planlama,LINDONSENTOS
+miFinansTanim,miFinans,1,Finans Tanımlamaları,LINDONSENTOS
+miGidKart,miFinansTanim,2,Gider Kartları,LINDONSENTOS
+miGelKart,miFinansTanim,2,Gelir Kartları,LINDONSENTOS
+miAlHizmetKart,miFinansTanim,2,Alınan Hizmet Kartları,LINDONSENTOS
+miVerHizmetKart,miFinansTanim,2,Verilen Hizmet Kartları,LINDONSENTOS
+miGidHizYonet,miFinansTanim,2,GiderGelirHizmet Yönetimi,LINDONSENTOS
+miisOnay,miFinansTanim,2,İşlem Kapama,LINDONSENTOS
+miPerGenGid,miFinansTanim,2,Finans Genel Gider Dağıtımı...,LINDONSENTOS
+miYonKonsol,miFinansTanim,2,Yönetici Konsolu,LINDONSENTOS
+miAlHizmetSipYon,miFinansTanim,2,Alınan Hizmet Sipariş Yönetimi,LINDONSENTOS
+miMuhPeriyot,miFinansTanim,2,Periyot Tanımlama...,LINDONSENTOS
+miMuhPeriyotDetay,miFinansTanim,2,Periyot Atama...,LINDONSENTOS
+miKrediMenu,miFinans,1,Kredi Kartı,LINDONSENTOS
+miKrediFis,miKrediMenu,2,Kredi Kartı İşlemleri...,LINDONSENTOS
+miKrediYon,miKrediMenu,2,Kredi Kart Yönetimi...,LINDONSENTOS
+miMasrafCenter,miFinans,1,Masraf Merkezi,LINDONSENTOS
+miMasrafMerKart,miMasrafCenter,2,Masraf Merkezi Tanımları...,LINDONSENTOS
+miMasrafSablonTanim,miMasrafCenter,2,Masraf Merkezi Şablon Tanımlama...,LINDONSENTOS
+miMasrafMRapor1,miMasrafCenter,2,Masraf Merkezi Raporları,LINDONSENTOS
+miMasrafMDurumx,miMasrafMRapor1,3,Masraf Merkezi Durum Raporu...,LINDONSENTOS
+miMasrafHspOzetx,miMasrafMRapor1,3,Masraf Merkezi Hesap Özeti...,LINDONSENTOS
+miMasrafEkstrex,miMasrafMRapor1,3,Masraf Merkezi Ekstre Raporu...,LINDONSENTOS
+miMasrafMYon,miMasrafCenter,2,Masraf Merkezi Yönetimi...,LINDONSENTOS
+miMasrafDetayListe,miMasrafCenter,2,Masraf Merkezi Detay Listesi...,LINDONSENTOS
+miUrtMasDag,miMasrafCenter,2,Masraf Merkezi - Üretim Maliyet Dağıtımı,LINDONSENTOS
+miGVirman,miFinans,1,Genel Virman,LINDONSENTOS
+miKurFarkDegerleme,miFinans,1,Kur Farkı Değerleme İşlemleri,LINDONSENTOS
+mi_KurFarkiFis,miKurFarkDegerleme,2,Toplu Kur Farkı Fişi Oluşturma,LINDONSENTOS
+miCSKurFarkiDegerleme,miKurFarkDegerleme,2,Çek-Senet Kur Farkı Değerleme,LINDONSENTOS
+miMMuhasebe,,0,Genel Muhasebe,LINDONSENTOS
+miMAnaKayit,miMMuhasebe,1,Ana Kayıtlar,LINDONSENTOS
+miMHesapPlan,miMAnaKayit,2,Hesap Planı,LINDONSENTOS
+miStokMuhBag,miMAnaKayit,2,Stok Özel Grup Muhasebe Bağlantıları,LINDONSENTOS
+miProcessMuhKod,miMAnaKayit,2,İşlem Tiplerine Özel Muhasebe Kod Tanımlamaları,LINDONSENTOS
+miGelGidYKMuhKod,miMAnaKayit,2,Gider-Gelir Hesapları Yansıma ve Kapama Hızlı Muhasebe Kodu Atama,LINDONSENTOS
+miMMuhFis,miMMuhasebe,1,Muhasebe Fişleri,LINDONSENTOS
+miMislemler,miMMuhasebe,1,İşlemler,LINDONSENTOS
+miEnt,miMislemler,2,Entegrasyon,LINDONSENTOS
+miMuhKodAta,miMislemler,2,İşlemlere Hızlı Muhasebe Kodu Ata,LINDONSENTOS
+miMNumaralandirma,miMislemler,2,Numaralandırma İşlemleri,LINDONSENTOS
+miMSetMaddeNo,miMNumaralandirma,3,Yevmiye Madde Numaralandırma,LINDONSENTOS
+miMSetFisNo,miMNumaralandirma,3,Fiş Numaralandırma,LINDONSENTOS
+mimOtoFis,miMislemler,2,Otomatik Fiş Oluşturma,LINDONSENTOS
+miMGidKapat,mimOtoFis,3,Gider Hesaplarının Yansıtılması ve  Kapatılması,LINDONSENTOS
+miMGelKapat,mimOtoFis,3,Gelir Hesaplarınn Kapatılması,LINDONSENTOS
+miMEnvKapat,mimOtoFis,3,Yıl Sonu Envanter İşlemleri,LINDONSENTOS
+miMKapaFis,mimOtoFis,3,Kapanış Fişi Oluştur,LINDONSENTOS
+miKDVTahakkuk,miMislemler,2,KDV Tahakkuk Fişi Oluştur...,LINDONSENTOS
+miMRaporlar,miMMuhasebe,1,Raporlar,LINDONSENTOS
+miMizan,miMRaporlar,2,Mizan,LINDONSENTOS
+miMFisList,miMRaporlar,2,Özet Fiş Listesi,LINDONSENTOS
+miMAFisList,miMRaporlar,2,Ayrıntılı Fiş Listesi,LINDONSENTOS
+miMMuavin,miMRaporlar,2,Muavin Defter,LINDONSENTOS
+miMDefKebir,miMRaporlar,2,Defteri Kebir,LINDONSENTOS
+miMYevmiye,miMRaporlar,2,Yevmiye Defteri,LINDONSENTOS
+miMuhBABS,miMRaporlar,2,BA - BS Formları (Muhasebe),LINDONSENTOS
+miMMaliTablo,miMMuhasebe,1,Mali Tablolar,LINDONSENTOS
+miMBilanco,miMMaliTablo,2,Bilanço,LINDONSENTOS
+miSiparisYon1_HR,miHazirRaporlar,1,Pazarlama Analiz ve Sipariş Yönetimi ...,LINDON
+miHR_26,miSiparisYon1_HR,2,TRENDYOLGLOBAL,LINDON
+Fatura_Alis_Yazdir_RaporListeFR,Birdahagster1,2,Fatura_Alis_Yazdir_RaporListeFR,LINDON
+TS_MFinans,miMusteri,0,Finans,LINDONSENTOS
+miLokDetStk,miStokMenu,2,Lokasyon Detaylı Stok Durum Raporu,LINDONSENTOS
+miEFatura,miFaturaMenu,2,E-Fatura,LINDONSENTOS
+miCreateEFatura,miEFatura,3,E-Fatura Oluşturma...,LINDONSENTOS
+miEF_CariKontrol,miEFatura,3,Carilerimi Kontrol Et...,LINDONSENTOS
+miKayDelete,ools1,2,Silinen Kayıtlar,LINDONSENTOS
+miUyari,ools1,2,Uyarı Ekranı...,LINDONSENTOS
+miUyari_Ayar,Help1,1,Uyarı Ayarları...,LINDONSENTOS
+Form_PosGir_X,Birdahagster1,2,Form_PosGir_X,LINDONSENTOS
+Stok,Birdahagster1,2,Stok,LINDONSENTOS
+Korgun_Haberler,Birdahagster1,2,Korgun_Haberler,LINDONSENTOS
+miPerYonetim_HR,miHazirRaporlar,1,Perakende Satış Yönetimi,LINDONSENTOS
+miHR_1,miPerYonetim_HR,2,ACILTAKIP,LINDONSENTOS
+miHR_2,miPerYonetim_HR,2,UPDATEACILTAKIP,LINDONSENTOS
+miHR_3,miPerYonetim_HR,2,ENCOSATAN(ÜRÜN-RENK-BEDEN),LINDONSENTOS
+miHR_4,miPerYonetim_HR,2,ENCOKSATAN(ÜRÜN-RENK),LINDONSENTOS
+miDahiliUyari,miirsaliyemenu,2,Dahili İrsaliye Kontrol Modülü,LINDONSENTOS
+miHR_5,miPerYonetim_HR,2,IADE,LINDONSENTOS
+Siparis_PazarlamaSiparis_Yazdir_RaporListeFR,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_RaporListeFR,LINDONSENTOS
+Siparis_PazarlamaSiparis_YazdirGrup,Birdahagster1,2,Siparis_PazarlamaSiparis_YazdirGrup,LINDONSENTOS
+SevkFisi_Yazdir_RaporListe,Birdahagster1,2,SevkFisi_Yazdir_RaporListe,LINDONSENTOS
+Sevk_Yazdir_MevBedenKaldir,Birdahagster1,2,Sevk_Yazdir_MevBedenKaldir,LINDONSENTOS
+SevkFisi_Yazdir_StokDetaylari,Birdahagster1,2,SevkFisi_Yazdir_StokDetaylari,LINDONSENTOS
+SevkFisi_Yazdir_EkrandaGor,Birdahagster1,2,SevkFisi_Yazdir_EkrandaGor,LINDONSENTOS
+miStokYonetim_HR,miHazirRaporlar,1,Stok Yönetimi ...,LINDONSENTOS
+miHR_6,miStokYonetim_HR,2,TOTALSTOK,LINDONSENTOS
+Perakende_Satis,Birdahagster1,2,Perakende_Satis,LINDONSENTOS
+miHR_7,miPerYonetim_HR,2,ENCOKSTANA,LINDONSENTOS
+miHR_8,miPerYonetim_HR,2,PAZARYERISIPARISSAYISI,LINDONSENTOS
+miHR_10,miStokYonetim_HR,2,BARKODSATISADEDI,LINDONSENTOS
+miHR_11,miPerYonetim_HR,2,GIDERPUSULASI,LINDONSENTOS
+miSatDahSip,miLojistic,1,Dahili Pazarlama Siparişleri ...,LINDONSENTOS
+miAlDahSip,miLojistic,1,Dahili Satınalma Siparişleri ...,LINDONSENTOS
+miHR_12,miStokYonetim_HR,2,KRİTİKSEVİYE,LINDONSENTOS
+miHR_14,miirsaliyeYon_HR,2,MERKEZDAHILI,LINDONSENTOS
+Siparis_PazarlamaSiparis_BarkodYaz_DetayAsorti,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_DetayAsorti,LINDONSENTOS
+HizliStok,Birdahagster1,2,HizliStok,LINDONSENTOS
+Fatura_Satis_BarkodYaz_Detay_Siralama_Sekli,Birdahagster1,2,Fatura_Satis_BarkodYaz_Detay_Siralama_Sekli,LINDONSENTOS
+Fatura_Satis_BarkodYaz_Fiyat_Tipleri,Birdahagster1,2,Fatura_Satis_BarkodYaz_Fiyat_Tipleri,LINDONSENTOS
+Fatura_Satis_BarkodYaz_SatirlarToplansinMi,Birdahagster1,2,Fatura_Satis_BarkodYaz_SatirlarToplansinMi,LINDONSENTOS
+Siparis_PazarlamaSiparis_Yazdir_RaporSekil,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_RaporSekil,LINDONSENTOS
+Siparis_PazarlamaSiparis_Yazdir_BedenSorgusu,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_BedenSorgusu,LINDONSENTOS
+Siparis_PazarlamaSiparis_YazdirAltTopGrup,Birdahagster1,2,Siparis_PazarlamaSiparis_YazdirAltTopGrup,LINDONSENTOS
+miHR_9,miPerYonetim_HR,2,COKSATANLAR,LINDONSENTOS
+Form_PosGir_X_1,Birdahagster1,2,Form_PosGir_X_1,LINDONSENTOS
+miirsaliyeYon_HR,miHazirRaporlar,1,İrsaliye Yönetimi ...,LINDONSENTOS
+miHR_13,miirsaliyeYon_HR,2,GÖNDEREN,LINDONSENTOS
+miCSFTakip,miKasaMenu,2,Çek Senet Takibi ...,LINDONSENTOS
+miCek,miFinans,1,Çek,LINDONSENTOS
+Siparis_PazarlamaSiparis_BarkodYaz_DetayDizayn,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_DetayDizayn,LINDONSENTOS
+miHR_16,miStokYonetim_HR,2,DAHILIHARIC,LINDONSENTOS
+miHR_17,miPerYonetim_HR,2,GIDERPUSULASI,LINDONSENTOS
+miHR_18,miPerYonetim_HR,2,GPYAZDIRMA,LINDONSENTOS
+miHR_19,miPerYonetim_HR,2,GPYAZDIRILANKONTROL,LINDONSENTOS
+miHR_20,miPerYonetim_HR,2,MUAZGP,LINDONSENTOS
+miHR_21,miPerYonetim_HR,2,MUAZGP,LINDONSENTOS
+miTSatisRapor,miFinans,1,Raporlar,LINDONSENTOS
+Rapor_80,miTSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Miktarına Göre) (r80),LINDONSENTOS
+Rapor_81,miTSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Tutarına Göre) (r81),LINDONSENTOS
+Rapor_90,miTSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Miktarına Göre) (r90),LINDONSENTOS
+Rapor_105,miTSatisRapor,2,Haftalık Satış Analizi (Satış Miktarına Göre) (r105),LINDONSENTOS
+Rapor_106,miTSatisRapor,2,Aylık Satış Analizi (Satış Miktarına Göre) (r106),LINDONSENTOS
+Rapor_108,miTSatisRapor,2,Yıllık Satış Analizi (Satış Miktarına Göre) (r108),LINDONSENTOS
+Rapor_110,miTSatisRapor,2,Haftalık Satış Analizi (Satış Tutarına Göre) (r110),LINDONSENTOS
+Rapor_111,miTSatisRapor,2,Aylık Satış Analizi (Satış Tutarına Göre) (r111),LINDONSENTOS
+Rapor_113,miTSatisRapor,2,Yıllık Satış Analizi (Satış Tutarına Göre) (r113),LINDONSENTOS
+Rapor_116,miTSatisRapor,2,Müşteri Toptan Satış Raporu (Satış Miktarına Göre) (r116),LINDONSENTOS
+Rapor_117,miTSatisRapor,2,Müşteri Toptan Satış Raporu (Satış Tutarına Göre) (r117),LINDONSENTOS
+Rapor_801,miTSatisRapor,2,Lokasyon Bazında Stok Satış Oranı (801),LINDONSENTOS
+Rapor_802,miTSatisRapor,2,Lokasyon-Stok Grubu Bazında  Stok Satış Oranı (802),LINDONSENTOS
+Rapor_809,miTSatisRapor,2,Gerçekleşen Ciro-Hedefler Karşılaştırma Raporu (r809),LINDONSENTOS
+Rapor_811,miTSatisRapor,2,Gerçekleşen Tahmini Ciro Raporu (r811),LINDONSENTOS
+miMKDVBeyan,miMMaliTablo,2,KDV Beyannamesi,LINDONSENTOS
+miMMuhtasar,miMMaliTablo,2,Muhtasar Beyanname,LINDONSENTOS
+miMGeciciVer,miMMaliTablo,2,Geçici Vergi Beyannamesi,LINDONSENTOS
+miCRM,,0,Crm,LINDONSENTOS
+miCRM_Firmalar,miCRM,1,Firmalar,LINDONSENTOS
+miCRMFirmaList,miCRM_Firmalar,2,Firma Tanımları...,LINDONSENTOS
+miFirmaFilter,miCRM_Firmalar,2,Firma Yönetimi...,LINDONSENTOS
+miCRM_FromCari,miCRM_Firmalar,2,Cari'den Al,LINDONSENTOS
+miCRM_FromCust,miCRM_Firmalar,2,Müşteri'den Al,LINDONSENTOS
+miCRMGorusmeler,miCRM,1,Görüşmeler,LINDONSENTOS
+miCRM_GKayit,miCRMGorusmeler,2,Görüşme Kayıtları...,LINDONSENTOS
+miCRM_GFilter,miCRMGorusmeler,2,Görüşme Yönetimi...,LINDONSENTOS
+miCRM_Kisiler,miCRM,1,Kişiler,LINDONSENTOS
+miCRM_KisiKart,miCRM_Kisiler,2,Kişi Kartları...,LINDONSENTOS
+miCRM_KisiFilter,miCRM_Kisiler,2,Kişi Yönetimi...,LINDONSENTOS
+miCRM_ServisMain,miCRM,1,Servis,LINDONSENTOS
+miCRM_Servis_Talep,miCRM_ServisMain,2,Talep Girişi...,LINDONSENTOS
+miCRM_Servis,miCRM_ServisMain,2,Servis Girişi...,LINDONSENTOS
+miCRM_ServisFilter,miCRM_ServisMain,2,Servis Yönetimi...,LINDONSENTOS
+miPlanlama,,0,Planlama,LINDONSENTOS
+miUretMCrt,miPlanlama,1,Ürün Ağacı,LINDONSENTOS
+miUretModCreate,miUretMCrt,2,Mamül  Yarı Mamul Reçeteleri ...,LINDONSENTOS
+miNonModelList,miUretMCrt,2,Reçetesi olmayan ürünler ...,LINDONSENTOS
+miModelList,miUretMCrt,2,Reçetesi olan ürünler ...,LINDONSENTOS
+miUrModelList,miUretMCrt,2,Ürünlere Bağlı Model ağaçları ...,LINDONSENTOS
+miUretPlanlaYon,miPlanlama,1,Pazarlamadan Üretime Talepler ...,LINDONSENTOS
+miMrpMain,miPlanlama,1,Üretim kaynakları planlama (MRP),LINDONSENTOS
+miMRPGlb,miMrpMain,2,Malzeme İhtiyaç Planı (MRP) ...,LINDONSENTOS
+miMrpCrp,miMrpMain,2,Kapasite ihtiyaç planı (CRP) ...,LINDONSENTOS
+miMrpDayPln,miMrpMain,2,Üretim Çizelgeleme 1...,LINDONSENTOS
+miMrpDayPln1,miMrpMain,2,Üretim Çizelgeleme 2...,LINDONSENTOS
+miymDegYon,miPlanlama,1,Yarımamül Değerlendirme Yönetimi ...,LINDONSENTOS
+miSanalUretim,miPlanlama,1,Sanal Üretim...,LINDONSENTOS
+miKalipYonetimi,miPlanlama,1,Kalıp Durum Yönetimi,LINDONSENTOS
+miUretAlimPlanlaYon,miPlanlama,1,Üretimden Satınalmaya Talepler....,LINDONSENTOS
+miURaporlar,miPlanlama,1,Raporlar,LINDONSENTOS
+Rapor_200,miURaporlar,2,Planlanan/Gerçekleşen Üretim Karşılaştırması (r200),LINDONSENTOS
+Rapor_199,miURaporlar,2,Sipariş Tarihine Göre Üretim Durum Raporu (r199),LINDONSENTOS
+Rapor_217,miURaporlar,2,Ürün-Renk Cari Bazlı Sipariş Üretim Durumu Raporu (r217),LINDONSENTOS
+Rapor_204,miURaporlar,2,Model-Kalıp Durum Raporu (r204),LINDONSENTOS
+Rapor_207,miURaporlar,2,Detaylı Kalıp Durum Raporu (r207),LINDONSENTOS
+miUrLojistic,,0,Üretim Lojistiği,LINDONSENTOS
+miUretEmirM,miUrLojistic,1,Bütünleşik Üretim Emri,LINDONSENTOS
+miYUretEmir,miUretEmirM,2,Başlamamış İş Emirleri ...,LINDONSENTOS
+miDUretEmir,miUretEmirM,2,Devam Eden İş Emirleri ...,LINDONSENTOS
+miEUretEmir,miUretEmirM,2,Tamamlanmış İş Emirleri ...,LINDONSENTOS
+miUrTakip,miUrLojistic,1,Üretim Emiri Bazında Process Takip ,LINDONSENTOS
+miUrTakip1,miUrTakip,2,Üretimi Bekleyen Takipler ...,LINDONSENTOS
+miUrTakip2,miUrTakip,2,Üretimi Devam Eden Takipler ...,LINDONSENTOS
+miUrTakip3,miUrTakip,2,Üretimi Biten Takipler ...,LINDONSENTOS
+miSmi_Urt,miUrLojistic,1,Sanal Maliyet İşletme Üretimi ...,LINDONSENTOS
+miYenDeg,miUrLojistic,1,Yeniden Değerleme ...,LINDONSENTOS
+miGenGid,miUrLojistic,1,Ürünlere Genel Gider Dağitımı...,LINDONSENTOS
+miTERap,miUrLojistic,1,Tamamlanmış Emirler Raporu...,LINDONSENTOS
+miKalite,,0,Kalite,LINDONSENTOS
+Parametreler1,miKalite,1,Parametreler,LINDONSENTOS
+miKalParam,Parametreler1,2,Kalite Parametreleri...,LINDONSENTOS
+miKaliteGrp,Parametreler1,2,Kalite Grupları...,LINDONSENTOS
+miHR_22,miStokYonetim_HR,2,STOKDETAY,LINDONSENTOS
+irsaliye_Dahili_Satis_BarkodYaz_BarkodTipi,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_BarkodTipi,LINDONSENTOS
+irsaliye_Dahili_Satis_BarkodYaz_DizaynSecimi,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_DizaynSecimi,LINDONSENTOS
+irsaliye_Dahili_Satis_BarkodYaz_Detay_Siralama_Sekli,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_Detay_Siralama_Sekli,LINDONSENTOS
+irsaliye,Birdahagster1,2,irsaliye,LINDONSENTOS
+miHR_23,miPerYonetim_HR,2,111URUNSATISRAPOR,LINDONSENTOS
+miHR_24,miStokYonetim_HR,2,STOKDEVIRLISORGULAMA,LINDONSENTOS
+miCekGir,miCek,2,Çek Bordroları,LINDONSENTOS
+miMusCekGir,miCekGir,3,Müşteri Çek Girişleri ...,LINDONSENTOS
+miFirCekCik,miCekGir,3,Firma Çek Çıkışları ...,LINDONSENTOS
+miCekis,miCek,2,Çek işlemleri,LINDONSENTOS
+miMusCekis,miCekis,3,Müşteri Çek işlemleri ...,LINDONSENTOS
+miFirCekis,miCekis,3,Firma Çek işlemleri ...,LINDONSENTOS
+miCekTakip,miCek,2,Çek Takip İşlemleri,LINDONSENTOS
+miCekTakipMu,miCekTakip,3,Müşteri Çekleri Takip ...,LINDONSENTOS
+miCekTakipFi,miCekTakip,3,Firma Çekleri Takip ...,LINDONSENTOS
+miCekYon,miCek,2,Çek Yönetimi ...,LINDONSENTOS
+miTopCekPtint,miCek,2,Toplu Çek  Yazdırma Listesi,LINDONSENTOS
+miSenet,miFinans,1,Senet,LINDONSENTOS
+miSenetGir,miSenet,2,Senet Bordroları,LINDONSENTOS
+miMusSenetGir,miSenetGir,3,Müşteri Senet Girişleri ...,LINDONSENTOS
+miFirSenetCik,miSenetGir,3,Firma Senet Çıkışları ...,LINDONSENTOS
+miSenetis,miSenet,2,Senet işlemleri,LINDONSENTOS
+miMusSenetis,miSenetis,3,Müşteri Senet işlemleri ...,LINDONSENTOS
+miFirSenetis,miSenetis,3,Firma Senet işlemleri ...,LINDONSENTOS
+miSenetTakip,miSenet,2,Senet Takip işlemleri,LINDONSENTOS
+miSenetTakipMu,miSenetTakip,3,Müşteri Senetleri Takip ...,LINDONSENTOS
+miSenetTakipFi,miSenetTakip,3,Firma Senetleri Takip ...,LINDONSENTOS
+miSenetYon,miSenet,2,Senet Yönetimi ...,LINDONSENTOS
+miTopSenetPtint,miSenet,2,Toplu Senet Yazdırma Listesi,LINDONSENTOS
+Rapor_49,miTSatisRapor,2,Satıcı Belge Fatura Ortalama Analizi (r49),LINDONSENTOS
+Muhasebe_Mizan_Yazdir_Sekli,Birdahagster1,2,Muhasebe_Mizan_Yazdir_Sekli,LINDONSENTOS
+Muhasebe_MuavinDefter_Yazdir_Sekli,Birdahagster1,2,Muhasebe_MuavinDefter_Yazdir_Sekli,LINDONSENTOS
+miFat_S_Kon,miFat_S,3,Satış Konsinye Fatura ...,LINDON
+miFat_S_Hiz,miFat_S,3,Satış Hizmet Fatura ...,LINDON
+miFat_S_Pro,miFat_S,3,Satış Promosyon Fatura ...,LINDON
+miFFS,miFat_S,3,Satış Fiyat Farkı Faturası,LINDON
+miFat_S_KFF,miFat_S,3,Kur Farkı Faturası,LINDON
+miFaturaYon,miFaturaMenu,2,Fatura Yönetimi ...,LINDON
+miFatRaporu,miFaturaMenu,2,Fatura / KDV Raporu,LINDON
+miBABS,miFaturaMenu,2,BA - BS Formları,LINDON
+MaliTablo_2_Yazdir_Sekli,Birdahagster1,2,MaliTablo_2_Yazdir_Sekli,LINDONSENTOS
+miFatOdePlanFilter,miFaturaMenu,2,Fatura Ödeme Planı Analizi...,LINDON
+Muhasebe_DefteriKebir_Yazdir_Sekli,Birdahagster1,2,Muhasebe_DefteriKebir_Yazdir_Sekli,LINDONSENTOS
+miGeriyeOdemePlanlama,miFaturaMenu,2,Geriye Dönük Ödeme Planlama,LINDON
+miFinansTanim,miFinans,1,Finans Tanımlamaları,LINDON
+Muhasebe_YevmiyeDefteri_Yazdir_Sekli,Birdahagster1,2,Muhasebe_YevmiyeDefteri_Yazdir_Sekli,LINDONSENTOS
+miGidKart,miFinansTanim,2,Gider Kartları,LINDON
+,Birdahagster1,2,,LINDONSENTOS
+miGelKart,miFinansTanim,2,Gelir Kartları,LINDON
+miAlHizmetKart,miFinansTanim,2,Alınan Hizmet Kartları,LINDON
+miVerHizmetKart,miFinansTanim,2,Verilen Hizmet Kartları,LINDON
+Fatura_Satis_Yazdir_LotaGoreGruplama,Birdahagster1,2,Fatura_Satis_Yazdir_LotaGoreGruplama,LINDONSENTOS
+miGidHizYonet,miFinansTanim,2,GiderGelirHizmet Yönetimi,LINDON
+miisOnay,miFinansTanim,2,İşlem Kapama,LINDON
+Fatura_Satis_Yazdir_EkrandaGor,Birdahagster1,2,Fatura_Satis_Yazdir_EkrandaGor,LINDONSENTOS
+miPerGenGid,miFinansTanim,2,Finans Genel Gider Dağıtımı...,LINDON
+perakende,Birdahagster1,2,perakende,LINDONSENTOS
+miYonKonsol,miFinansTanim,2,Yönetici Konsolu,LINDON
+miAlHizmetSipYon,miFinansTanim,2,Alınan Hizmet Sipariş Yönetimi,LINDON
+Fatura,Birdahagster1,2,Fatura,LINDONSENTOS
+miMuhPeriyot,miFinansTanim,2,Periyot Tanımlama...,LINDON
+Fatura__EArsivFaturasiMi,Birdahagster1,2,Fatura__EArsivFaturasiMi,LINDONSENTOS
+miMuhPeriyotDetay,miFinansTanim,2,Periyot Atama...,LINDON
+miKrediMenu,miFinans,1,Kredi Kartı,LINDON
+SaticiKodu,Birdahagster1,2,SaticiKodu,LINDONSENTOS
+miKrediFis,miKrediMenu,2,Kredi Kartı İşlemleri...,LINDON
+DetayGiris,Birdahagster1,2,DetayGiris,LINDONSENTOS
+miKrediYon,miKrediMenu,2,Kredi Kart Yönetimi...,LINDON
+miMasrafCenter,miFinans,1,Masraf Merkezi,LINDON
+ReadBarcodeSip,Birdahagster1,2,ReadBarcodeSip,LINDONSENTOS
+miMasrafMerKart,miMasrafCenter,2,Masraf Merkezi Tanımları...,LINDON
+BABS_YazdirmaTipi,Birdahagster1,2,BABS_YazdirmaTipi,LINDONSENTOS
+miMasrafSablonTanim,miMasrafCenter,2,Masraf Merkezi Şablon Tanımlama...,LINDON
+miHR_27,miPerYonetim_HR,2,EKSIKFATURASORGUSU,LINDONSENTOS
+miMasrafMRapor1,miMasrafCenter,2,Masraf Merkezi Raporları,LINDON
+miMasrafMDurumx,miMasrafMRapor1,3,Masraf Merkezi Durum Raporu...,LINDON
+Siparis_PazarlamaSiparis_Barkod_SatirlarToplansinMi,Birdahagster1,2,Siparis_PazarlamaSiparis_Barkod_SatirlarToplansinMi,LINDON
+miMasrafHspOzetx,miMasrafMRapor1,3,Masraf Merkezi Hesap Özeti...,LINDON
+miMasrafEkstrex,miMasrafMRapor1,3,Masraf Merkezi Ekstre Raporu...,LINDON
+miMasrafMYon,miMasrafCenter,2,Masraf Merkezi Yönetimi...,LINDON
+miMasrafDetayListe,miMasrafCenter,2,Masraf Merkezi Detay Listesi...,LINDON
+miUrtMasDag,miMasrafCenter,2,Masraf Merkezi - Üretim Maliyet Dağıtımı,LINDON
+miGVirman,miFinans,1,Genel Virman,LINDON
+miKurFarkDegerleme,miFinans,1,Kur Farkı Değerleme İşlemleri,LINDON
+mi_KurFarkiFis,miKurFarkDegerleme,2,Toplu Kur Farkı Fişi Oluşturma,LINDON
+miCSKurFarkiDegerleme,miKurFarkDegerleme,2,Çek-Senet Kur Farkı Değerleme,LINDON
+miMMuhasebe,,0,Genel Muhasebe,LINDON
+miMAnaKayit,miMMuhasebe,1,Ana Kayıtlar,LINDON
+miMHesapPlan,miMAnaKayit,2,Hesap Planı,LINDON
+miStokMuhBag,miMAnaKayit,2,Stok Özel Grup Muhasebe Bağlantıları,LINDON
+miProcessMuhKod,miMAnaKayit,2,İşlem Tiplerine Özel Muhasebe Kod Tanımlamaları,LINDON
+miGelGidYKMuhKod,miMAnaKayit,2,Gider-Gelir Hesapları Yansıma ve Kapama Hızlı Muhasebe Kodu Atama,LINDON
+miMMuhFis,miMMuhasebe,1,Muhasebe Fişleri,LINDON
+miMislemler,miMMuhasebe,1,İşlemler,LINDON
+miEnt,miMislemler,2,Entegrasyon,LINDON
+miMuhKodAta,miMislemler,2,İşlemlere Hızlı Muhasebe Kodu Ata,LINDON
+miMNumaralandirma,miMislemler,2,Numaralandırma İşlemleri,LINDON
+miMSetMaddeNo,miMNumaralandirma,3,Yevmiye Madde Numaralandırma,LINDON
+miMSetFisNo,miMNumaralandirma,3,Fiş Numaralandırma,LINDON
+mimOtoFis,miMislemler,2,Otomatik Fiş Oluşturma,LINDON
+miMGidKapat,mimOtoFis,3,Gider Hesaplarının Yansıtılması ve  Kapatılması,LINDON
+miMGelKapat,mimOtoFis,3,Gelir Hesaplarınn Kapatılması,LINDON
+miMEnvKapat,mimOtoFis,3,Yıl Sonu Envanter İşlemleri,LINDON
+miMKapaFis,mimOtoFis,3,Kapanış Fişi Oluştur,LINDON
+miKDVTahakkuk,miMislemler,2,KDV Tahakkuk Fişi Oluştur...,LINDON
+miMRaporlar,miMMuhasebe,1,Raporlar,LINDON
+miMizan,miMRaporlar,2,Mizan,LINDON
+miMFisList,miMRaporlar,2,Özet Fiş Listesi,LINDON
+miMAFisList,miMRaporlar,2,Ayrıntılı Fiş Listesi,LINDON
+miMMuavin,miMRaporlar,2,Muavin Defter,LINDON
+miMDefKebir,miMRaporlar,2,Defteri Kebir,LINDON
+miMYevmiye,miMRaporlar,2,Yevmiye Defteri,LINDON
+miMuhBABS,miMRaporlar,2,BA - BS Formları (Muhasebe),LINDON
+miMMaliTablo,miMMuhasebe,1,Mali Tablolar,LINDON
+miMBilanco,miMMaliTablo,2,Bilanço,LINDON
+miMKarZarar,miMMaliTablo,2,Gelir Tablosu,LINDON
+miMSatisMaliyet,miMMaliTablo,2,Satışların Maliyeti Tablosu,LINDON
+miMFonAkim,miMMaliTablo,2,Fon Akım Tablosu,LINDON
+miMNakitAkis,miMMaliTablo,2,Nakit Akış Tablosu,LINDON
+miMKarDagitim,miMMaliTablo,2,Kar Dağıtım Tablosu,LINDON
+mieBeyan,miMMuhasebe,1,e-Beyannameler,LINDON
+miKDVeBeyan,mieBeyan,2,KDV1 e-Beyanname,LINDON
+miKDV2eBeyan,mieBeyan,2,KDV2 e-Beyanname,LINDON
+miHR_25,miirsaliyeYon_HR,2,TRANSFERKONTROLU,LINDON
+miEDefterMain,miMMuhasebe,1,E-Defter,LINDON
+miEdefterCreate,miEDefterMain,2,E-Defter Taslak Oluşturma,LINDON
+miMagaza,,0,Mağaza,LINDON
+miPos,miMagaza,1,Perakende Satış İşlemleri,LINDON
+miMusteri,miMagaza,1,Müşteriler,LINDON
+miPerYonetim,miMagaza,1,Perakende Satış Yönetimi,LINDON
+miSatTakip,miMagaza,1,Mağaza Satış Kasa Takip,LINDON
+miPerKZYon,miMagaza,1,Perakende Satış Kar Zarar Yönetimi ...,LINDON
+miBankaKrediTak,miMagaza,1,Banka Kredi Takip,LINDON
+miMusteriYon,miMagaza,1,Müşteri Yönetimi,LINDON
+miPSatisRapor,miMagaza,1,Satış Raporları,LINDON
+Rapor_9,miPSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Miktarına Göre) (r9),LINDON
+Rapor_298,miPSatisRapor,2,Metrekare Bazında Lokasyona Göre Satış Raporu (298),LINDON
+Rapor_308,miPSatisRapor,2,Personel Sayısı Bazında Lokasyona Göre Satış Raporu (308),LINDON
+Rapor_299,miPSatisRapor,2,Lokasyon Bazında Belirlenen Ciro Hedeflerin Gerçekleşme Raporu (299),LINDON
+Rapor_300,miPSatisRapor,2,Lokasyon Bazında Belirlenen Miktar Hedeflerin Gerçekleşme Raporu (300),LINDON
+Rapor_1,miPSatisRapor,2,En Çok Satan Ürün Raporu (Satış Miktarına Göre) (r1),LINDON
+Rapor_2,miPSatisRapor,2,Üreticiye Göre En Çok Satan Ürün Raporu (Satış Miktarına Göre) (r2),LINDON
+Rapor_7,miPSatisRapor,2,Lokasyona Göre En Çok Satan Ürün Raporu (Satış Tutarına Göre) (r7),LINDON
+Rapor_16,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Miktarına Göre) (r16),LINDON
+Rapor_18,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Tutarına Göre) (r18),LINDON
+Rapor_26,miPSatisRapor,2,Haftalık Satış Analizi (Satış Miktarına Göre) (r26),LINDON
+Rapor_27,miPSatisRapor,2,Aylık Satış Analizi (Satış Miktarına Göre) (r27),LINDON
+Rapor_29,miPSatisRapor,2,Yıllık Satış Analizi (Satış Miktarına Göre) (r29),LINDON
+Rapor_31,miPSatisRapor,2,Haftalık Satış Analizi (Satış Tutarına Göre) (r31),LINDON
+Rapor_32,miPSatisRapor,2,Aylık Satış Analizi (Satış Tutarına Göre) (r32),LINDON
+Rapor_34,miPSatisRapor,2,Yıllık Satış Analizi (Satış Tutarına Göre) (r34),LINDON
+Rapor_119,miPSatisRapor,2,Üretici Bazlı Mağaza Performans Takip (r119),LINDON
+Rapor_120,miPSatisRapor,2,Üretici Bazlı Merkez Alış Mağaza Satış Performans Takip (r120),LINDON
+Rapor_38,miPSatisRapor,2,Satmayan Ürün Raporu (r38),LINDON
+Rapor_39,miPSatisRapor,2,Lokasyona Göre Satmayan Ürün Raporu (r39),LINDON
+Rapor_169,miPSatisRapor,2,Merkez-Şube Stok Durum Raporu (Özet) (r169),LINDON
+Rapor_701,miPSatisRapor,2,Lokasyon Bazında Stok Satış Oranı (r701),LINDON
+Rapor_702,miPSatisRapor,2,Lokasyon Stok Grubu Bazında Satış Oranı Raporu (r702),LINDON
+Rapor_703,miPSatisRapor,2,Stok Grubuna Göre Satış Performansı  (r703),LINDON
+Rapor_704,miPSatisRapor,2,RPT Değerlendirme Raporu (r704),LINDON
+Rapor_705,miPSatisRapor,2,Satış İndirim Değerlendirme Raporu (705),LINDON
+Rapor_706,miPSatisRapor,2,Sipariş ve İrsaliye Miktar Analizi  (r706),LINDON
+Rapor_707,miPSatisRapor,2,Stok Grubuna Göre Satış Performansı-2  (r707),LINDON
+Rapor_708,miPSatisRapor,2,Gönderilen-Alınan Dahili İrsaliye Analizi (r708),LINDON
+Rapor_709,miPSatisRapor,2,Gerçekleşen Ciro-Hedefler Karşılaştırma Raporu (r709),LINDON
+Rapor_710,miPSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu ( 1 Aylık Satış Miktarına Göre / Grafik) (r710),LINDON
+Rapor_711,miPSatisRapor,2,Gerçekleşen Tahmini Ciro Raporu (r711),LINDON
+Rapor_712,miPSatisRapor,2,Mağaza Satış - Net Kar Raporu (r712),LINDON
+Rapor_713,miPSatisRapor,2,Mağaza Gider Detaylı Net Kar Raporu (r713),LINDON
+Rapor_714,miPSatisRapor,2,Müşteri Puan Raporu (r714),LINDON
+Rapor_725,miPSatisRapor,2,Resimli ve Renk-Beden Raporu (r725),LINDON
+Rapor_726,miPSatisRapor,2,Ödeme Tipine Göre Tutar Dağılım Raporu (r726),LINDON
+Rapor_727,miPSatisRapor,2,Resimli ve Renk-Beden Raporu Merkez Alış Mağaza Satış (r727),LINDON
+miLojistic,,0,Lojistik,LINDON
+miSatTeklif,miLojistic,1,Pazarlama Teklifleri,LINDON
+miSiparisYon3,miLojistic,1,Pazarlama Teklif Yönetimi ...,LINDON
+miSatSiparis,miLojistic,1,Pazarlama Siparişleri ...,LINDON
+miSiparisYon1,miLojistic,1,Pazarlama Analiz ve Sipariş Yönetimi ...,LINDON
+miAlTeklif,miLojistic,1,Satınalma Teklifleri,LINDON
+miSiparisYon4,miLojistic,1,Satınalma Teklif Yönetimi ...,LINDON
+miAlSiparis,miLojistic,1,Satınalma Siparişleri ...,LINDON
+miSiparisYon2,miLojistic,1,Satınalma Analiz ve Sipariş Yönetimi ...,LINDON
+miSevk,miLojistic,1,Sevkiyat,LINDON
+miSevkFis,miSevk,2,Sevkiyat Fişi ...,LINDON
+miSevkFisB,miSevk,2,Beklemedeki Sevk Fişleri ...,LINDON
+miSevkFisG,miSevk,2,Geri Gönderilen Sevk Fişleri ...,LINDON
+miSevkFisT,miSevk,2,Tamamlanmış Sevk Fişleri ...,LINDON
+miSevkYon,miSevk,2,Sevkiyat Yönetimi ...,LINDON
+miSipOdePlanFilter,miLojistic,1,Sipariş Ödeme Planı Analizi...,LINDON
+miUretim,,0,Üretim,LINDON
+miHazirRaporlar,,0,Hazır Raporlar,LINDON
+Help1,,0,Araçlar,LINDON
+ools1,Help1,1,Ek Modüller,LINDON
+TSMevcut,miStok,0,Stok Mevcutları,LINDON
+TSDlocation,TSMevcut,1,Lokasyon Detay,LINDON
+TSGenel,miCari,3,Genel Durum,LINDON
+TSDetay,miCari,3,Hesap Detayları,LINDON
+TSAylik,miCari,3,Aylık Durum,LINDON
+TSSiparis,miCari,3,Siparişleri,LINDON
+TS_RiskRaporu,miCari,3,Risk Raporu,LINDON
+TS_FiyatListe,miCari,3,Fiyat Listesi,LINDON
+TS_OpenBorc,miCari,3,Kapanmamış Borçlar,LINDON
+miAlHizmetSip,miFinansTanim,2,Alınan Hizmet Siparişi,LINDON
+miUIMalHes,miPlanlama,1,İleri Maliyet Hesaplama...,LINDON
+miUMalPlnFinans,miPlanlama,1,Üretim Senaryo Çalışmaları...,LINDON
+TSRenk,miSParam,1,Renk Tanımları,LINDON
+TSBeden,miSParam,1,Beden Tanımları,LINDON
+TSReyon,miSParam,2,Reyon Tanımları,LINDON
+TSSKGrup,miSParam,2,Stok Grubu Tanımları,LINDON
+TSSKTip,miSParam,2,Stok Tip Tanımları,LINDON
+TSKFiyTip,miSParam,2,Fiyat Tanımları,LINDON
+TSKSekil,miSParam,2,Stok Şekil Tanımları,LINDON
+TCinsiyet,miSParam,2,Cinsiyet Tanımları,LINDON
+TSBirim,miSParam,2,Birim Tanımları,LINDON
+TSBirimGrp,miSParam,2,Birim Grubu Tanımları,LINDON
+TSUretici,miSParam,2,Üretici Tanımları,LINDON
+TSAlternatifKod,miSParam,2,Alternatif Kod Grubu,LINDON
+TGtip,miSParam,2,GTip Tanımları,LINDON
+miMainMenu,,0,,LINDON
+miSystem,,0,Sistem,LINDON
+miLocation,miSystem,1,Lokasyon Seçimi ...,LINDON
+miChangePassword,miSystem,1,Şifre Değiştir...,LINDON
+miScreenLock,miSystem,1,Ekranı Kilitle...,LINDON
+miSParam,miSystem,1,Stok Parametreleri ...,LINDON
+miGDovGir,miSystem,1,Günlük Döviz Girişleri ...,LINDON
+miChangeCatalog,miSystem,1,Katalog değiştir...,LINDON
+miUserChange,miSystem,1,Kullanıcı değiştir...,LINDON
+mieXit,miSystem,1,Programdan Çıkış,LINDON
+miEnvanter,,0,Envanter,LINDON
+miStokMenu,miEnvanter,1,Stok,LINDON
+miStok,miStokMenu,2,Stok Kartı Tanımları ...,LINDON
+miStokHar,miStokMenu,2,Stok İşlemleri ...,LINDON
+miStokYonetim,miStokMenu,2,Stok Yönetimi ...,LINDON
+miStokislemYon,miStokMenu,2,Stok İşlemleri Yönetimi ...,LINDON
+miStokGCYon,miStokMenu,2,Stok Giriş Çıkış Yönetimi,LINDON
+miEn_Filter,miStokMenu,2,Envanter Yönetimi...,LINDON
+miStokKZYon,miStokMenu,2,Kar Zarar Yönetimi...,LINDON
+miFifoLifo,miStokMenu,2,Stok Değerleme Raporları...,LINDON
+miFiyatYonet,miStokMenu,2,Fiyat Yönetimi ...,LINDON
+miStokSay,miStokMenu,2,Stok Sayım Yönetimi ...,LINDON
+miSKLokMikAnaliz,miStokMenu,2,Lokasyon Miktar Yetkisi Analizi...,LINDON
+miBarkodYonet,miEnvanter,1,Barkod Yonetimi,LINDON
+miBarkodCreate,miBarkodYonet,2,Stok Kartlarına Barkod Oluştur ...,LINDON
+miSpeedBarCode,miBarkodYonet,2,Stok Kartlarında Hızlı Barkod işlemleri ...,LINDON
+miSpeedBarcode2,miBarkodYonet,2,Hızlı Barkod Basım Ekranı,LINDON
+miFinans,,0,Finans,LINDON
+miCariMenu,miFinans,1,Cari,LINDON
+miCari,miCariMenu,2,Cari Kart Tanımları ...,LINDON
+miCariFis,miCariMenu,2,Cari İşlemleri ...,LINDON
+miCariYonet,miCariMenu,2,Cari Yönetim ...,LINDON
+miCariYon,miCariMenu,2,Cari İşlem Yönetimi ...,LINDON
+miCariRiskYon,miCariMenu,2,Cari Risk Limit Raporu,LINDON
+miKapaYonet,miCariMenu,2,Borç Alacak Kapama Yönetimi,LINDON
+miBorcYonet,miCariMenu,2,Borçlanma Yönetimi,LINDON
+miCariYasYonet,miCariMenu,2,Cari Yaşlandırma Yönetimi,LINDON
+MiTedarikiPuanlama,miCariMenu,2,Tedarikiçi Puanlama,LINDON
+miKasaMenu,miFinans,1,Kasa,LINDON
+miKasa,miKasaMenu,2,Kasa Tanımları ...,LINDON
+miKasaFis,miKasaMenu,2,Kasa İşlemleri ...,LINDON
+miKasaYon,miKasaMenu,2,Kasa İşlem Yönetimi ...,LINDON
+miKasaYonet,miKasaMenu,2,Kasa Yönetimi ...,LINDON
+miSpeedKasa,miKasaMenu,2,Hızlı Kasa İşlemleri,LINDON
+miKasaUyari,miKasaMenu,2,Kasalar Arası Transfer Kontrol Modülü...,LINDON
+mibanka,miFinans,1,Banka,LINDON
+miBankaKart,mibanka,2,Banka Kartları ...,LINDON
+miBankais,mibanka,2,Banka işlemleri ...,LINDON
+miSpeedHavale,mibanka,2,Hızlı İşlem Girişi,LINDON
+miBankaYon,mibanka,2,Banka Yönetimi ...,LINDON
+miBankaListesi,mibanka,2,Banka Listesi...,LINDON
+miBankTakip,mibanka,2,Takip,LINDON
+miBankaTakip,miBankTakip,3,Banka Bazında Takip ...,LINDON
+miSubeTakip,miBankTakip,3,Şube Bazında Takip ...,LINDON
+miHesapTakip,miBankTakip,3,Hesap Bazında Takip ...,LINDON
+miKredi,mibanka,2,Kredi,LINDON
+miKrediTanim,miKredi,3,Kredi Tanim...,LINDON
+miKrediOdeme,miKredi,3,Kredi Ödeme Takip...,LINDON
+miBankaKrediYon,miKredi,3,Kredi Yönetimi...,LINDON
+miirsaliyemenu,miFinans,1,İrsaliye,LINDON
+miirs_A,miirsaliyemenu,2,Alış İrsaliye,LINDON
+miirs_A_Fat,miirs_A,3,Alış İrsaliye ...,LINDON
+miirs_A_Kon,miirs_A,3,Alış Konsinye İrsaliye ...,LINDON
+miirs_A_Dah,miirs_A,3,Alış Dahili İrsaliye ...,LINDON
+miirs_A_Pro,miirs_A,3,Alış Promosyon İrsaliye ...,LINDON
+miirs_S,miirsaliyemenu,2,Satış İrsaliye,LINDON
+miirs_S_Fat,miirs_S,3,Satış İrsaliye ...,LINDON
+miirs_S_Kon,miirs_S,3,Satış Konsinye İrsaliye ...,LINDON
+miirs_S_Dah,miirs_S,3,Satış Dahili İrsaliye ...,LINDON
+miirs_S_Pro,miirs_S,3,Satış Promosyon İrsaliye ...,LINDON
+miirsaliyeYon,miirsaliyemenu,2,İrsaliye Yönetimi ...,LINDON
+miDahFiyDeg,miirsaliyemenu,2,Dahili İrsaliye Fiyat Değerleme,LINDON
+miFaturaMenu,miFinans,1,Fatura,LINDON
+miFat_A,miFaturaMenu,2,Alış Fatura,LINDON
+miFat_A_Fat,miFat_A,3,Alış Fatura ...,LINDON
+miFat_A_Kon,miFat_A,3,Alış Konsinye Fatura ...,LINDON
+miFat_A_Hiz,miFat_A,3,Alış Hizmet Fatura ...,LINDON
+miFat_A_Pro,miFat_A,3,Alış Promosyon Fatura ...,LINDON
+miFFA,miFat_A,3,Alış Fiyat Farkı Faturası,LINDON
+miFat_A_KFF,miFat_A,3,Kur Farkı Faturası,LINDON
+miFat_S,miFaturaMenu,2,Satış Fatura,LINDON
+miFat_S_Fat,miFat_S,3,Satış Fatura ...,LINDON
+miResim,ools1,2,Resim Penceresi,LINDON
+miMail,ools1,2,Çevrimiçi Mail,LINDON
+miSMS,ools1,2,SMS,LINDON
+miKGAjanda,ools1,2,KG Ajanda...,LINDON
+miKGMessenger,ools1,2,KG Messenger...,LINDON
+miRaporOs,ools1,2,Rapor Oluşturma Sihirbazı,LINDON
+miKGCells,ools1,2,KGCells...,LINDON
+miTeamViewer,ools1,2,Korgün Destek Uygulaması...,LINDON
+miKorgunOnlineOdeme,ools1,2,Korgün Online Ödeme...,LINDON
+miOdeme,ools1,2,,LINDON
+Birdahagster1,Help1,1,Bir Daha Göster,LINDON
+tmntmzl,Birdahagster1,2,Tümünü Temizle,LINDON
+kasaSifre,Birdahagster1,2,Kasa Şifresini Temizle,LINDON
+miAsortiTanim,Help1,1,Asorti Tanımlama...,LINDON
+miSipOzDur,Help1,1,Sipariş Özel Durumları,LINDON
+miScrSvr,Help1,1,Ekran Kilidi Zamanlaması...,LINDON
+miCRMHatirlat,Help1,1,CRM Hatırlatma Açık,LINDON
+miOtoMail,Help1,1,Otomatik Mail Kontrolü Açık,LINDON
+miMDITabbed,Help1,1,Form Sayfalama,LINDON
+miMenuOtom,Help1,1,Menü Otomatik Açılsın,LINDON
+BBBBB1,Help1,1,Menüde Bul...,LINDON
+miParamsRefresh,Help1,1,Parametreleri yenile,LINDON
+De2,Help1,1,Yerleştir,LINDON
+De1,Help1,1,Düzenle,LINDON
+ArkaResDegis,Help1,1,Arka Resim...,LINDON
+miTema,Help1,1,Tema Değiştir,LINDON
+miLondonLiquidSky,miTema,2,Tema 1,LINDON
+miMcSkin,miTema,2,Tema 2,LINDON
+miStardust,miTema,2,Tema 3,LINDON
+miValentine,miTema,2,Tema 4,LINDON
+miXMas2008Blue,miTema,2,Tema 5,LINDON
+miSharpPlus,miTema,2,Tema 6,LINDON
+NativeStyle1,miTema,2,NativeStyle,LINDON
+EmptySkinName1,miTema,2,EmptySkinName,LINDON
+miKgWeb,Help1,1,Korgun Web Haberler ...,LINDON
+miMutabakatList,Help1,1,Mutabakat Sonuç Listesi...,LINDON
+miCustomerFeedback,Help1,1,Müşteri Geri Bildirim Sistemi...,LINDON
+miConnectingPeople,Help1,1,Bağlı Kullanıcılar...,LINDON
+About2,Help1,1,Hakkında...,LINDON
+TSFiyatlar,miStok,0,Fiyatlar,LINDON
+TSExstre,miStok,0,Ekstre,LINDON
+TSAF,TSFiyatlar,1,Alış Fiyatları,LINDON
+TSAI,TSFiyatlar,1,Alış iskontosu,LINDON
+TSSF,TSFiyatlar,1,Satış Fiyatları,LINDON
+TSSI,TSFiyatlar,1,Satış iskontosu,LINDON
+TSBarCode,miStok,0,Barkod Tanımları,LINDON
+SBSendAltoA,miirs_A_Dah,4,Sevk Et,LINDON
+SBSendAltoS,miirs_S_Dah,4,Sevk Et,LINDON
+miirs_A_Fat_i,miirs_A,3,Alış İade İrsaliye ...,LINDON
+miirs_A_Kon_i,miirs_A,3,Alış İade Konsinye İrsaliye ...,LINDON
+miirs_A_Dah_i,miirs_A,3,Alış İade Dahili İrsaliye ...,LINDON
+miirs_A_Pro_i,miirs_A,3,Alış İade Promosyon İrsaliye ...,LINDON
+miirs_S_Fat_i,miirs_S,3,Satış İade İrsaliye ...,LINDON
+miirs_S_Kon_i,miirs_S,3,Satış İade Konsinye İrsaliye ...,LINDON
+miirs_S_Dah_i,miirs_S,3,Satış İade Dahili İrsaliye ...,LINDON
+miirs_S_Pro_i,miirs_S,3,Satış İade Promosyon İrsaliye ...,LINDON
+miFat_A_Fat_i,miFat_A,3,Alış İade Fatura ...,LINDON
+miFat_A_Kon_i,miFat_A,3,Alış İade Konsinye Fatura ...,LINDON
+miFat_A_Dah_i,miFat_A,3,Alış İade Dahili Fatura ...,LINDON
+miFat_A_Hiz_i,miFat_A,3,Alış İade Hizmet Fatura ...,LINDON
+miFat_A_Pro_i,miFat_A,3,Alış İade Promosyon Fatura ...,LINDON
+miFat_S_Fat_i,miFat_S,3,Satış İade Fatura ...,LINDON
+miFat_S_Kon_i,miFat_S,3,Satış İade Konsinye Fatura ...,LINDON
+miFat_S_Dah_i,miFat_S,3,Satış İade Dahili Fatura ...,LINDON
+miFat_S_Hiz_i,miFat_S,3,Satış İade Hizmet Fatura ...,LINDON
+miFat_S_Pro_i,miFat_S,3,Satış İade Promosyon Fatura ...,LINDON
+miUrTakip1_G,miUrTakip1,1,Emir Geriçekme,LINDON
+miUrTakip2_G,miUrTakip2,1,Emir Geriçekme,LINDON
+miUrTakip3_G,miUrTakip3,1,Emir Geriçekme,LINDON
+miUrTakip1_i,miUrTakip1,1,Emir ilerletme,LINDON
+miUrTakip2_i,miUrTakip2,1,Emir ilerletme,LINDON
+miUrTakip3_i,miUrTakip3,1,Emir ilerletme,LINDON
+TS_MFinans,miMusteri,0,Finans,LINDON
+miLokDetStk,miStokMenu,2,Lokasyon Detaylı Stok Durum Raporu,LINDON
+miEFatura,miFaturaMenu,2,E-Fatura,LINDON
+miCreateEFatura,miEFatura,3,E-Fatura Oluşturma...,LINDON
+miEF_CariKontrol,miEFatura,3,Carilerimi Kontrol Et...,LINDON
+miKayDelete,ools1,2,Silinen Kayıtlar,LINDON
+miUyari,ools1,2,Uyarı Ekranı...,LINDON
+miUyari_Ayar,Help1,1,Uyarı Ayarları...,LINDON
+Form_PosGir_X,Birdahagster1,2,Form_PosGir_X,LINDON
+Stok,Birdahagster1,2,Stok,LINDON
+Korgun_Haberler,Birdahagster1,2,Korgun_Haberler,LINDON
+miPerYonetim_HR,miHazirRaporlar,1,Perakende Satış Yönetimi,LINDON
+miHR_1,miPerYonetim_HR,2,ACILTAKIP,LINDON
+miHR_2,miPerYonetim_HR,2,UPDATEACILTAKIP,LINDON
+miHR_3,miPerYonetim_HR,2,ENCOSATAN(ÜRÜN-RENK-BEDEN),LINDON
+miHR_4,miPerYonetim_HR,2,ENCOKSATAN(ÜRÜN-RENK),LINDON
+miDahiliUyari,miirsaliyemenu,2,Dahili İrsaliye Kontrol Modülü,LINDON
+miHR_5,miPerYonetim_HR,2,IADE,LINDON
+Siparis_PazarlamaSiparis_Yazdir_RaporListeFR,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_RaporListeFR,LINDON
+Siparis_PazarlamaSiparis_YazdirGrup,Birdahagster1,2,Siparis_PazarlamaSiparis_YazdirGrup,LINDON
+SevkFisi_Yazdir_RaporListe,Birdahagster1,2,SevkFisi_Yazdir_RaporListe,LINDON
+Sevk_Yazdir_MevBedenKaldir,Birdahagster1,2,Sevk_Yazdir_MevBedenKaldir,LINDON
+SevkFisi_Yazdir_StokDetaylari,Birdahagster1,2,SevkFisi_Yazdir_StokDetaylari,LINDON
+SevkFisi_Yazdir_EkrandaGor,Birdahagster1,2,SevkFisi_Yazdir_EkrandaGor,LINDON
+miStokYonetim_HR,miHazirRaporlar,1,Stok Yönetimi ...,LINDON
+miHR_6,miStokYonetim_HR,2,TOTALSTOK,LINDON
+Perakende_Satis,Birdahagster1,2,Perakende_Satis,LINDON
+miHR_7,miPerYonetim_HR,2,ENCOKSTANA,LINDON
+miHR_8,miPerYonetim_HR,2,PAZARYERISIPARISSAYISI,LINDON
+miHR_10,miStokYonetim_HR,2,BARKODSATISADEDI,LINDON
+miHR_11,miPerYonetim_HR,2,GIDERPUSULASI,LINDON
+miSatDahSip,miLojistic,1,Dahili Pazarlama Siparişleri ...,LINDON
+miAlDahSip,miLojistic,1,Dahili Satınalma Siparişleri ...,LINDON
+miHR_12,miStokYonetim_HR,2,KRİTİKSEVİYE,LINDON
+miHR_14,miirsaliyeYon_HR,2,MERKEZDAHILI,LINDON
+Siparis_PazarlamaSiparis_BarkodYaz_DetayAsorti,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_DetayAsorti,LINDON
+HizliStok,Birdahagster1,2,HizliStok,LINDON
+Fatura_Satis_BarkodYaz_Detay_Siralama_Sekli,Birdahagster1,2,Fatura_Satis_BarkodYaz_Detay_Siralama_Sekli,LINDON
+Fatura_Satis_BarkodYaz_Fiyat_Tipleri,Birdahagster1,2,Fatura_Satis_BarkodYaz_Fiyat_Tipleri,LINDON
+Fatura_Satis_BarkodYaz_SatirlarToplansinMi,Birdahagster1,2,Fatura_Satis_BarkodYaz_SatirlarToplansinMi,LINDON
+Siparis_PazarlamaSiparis_Yazdir_RaporSekil,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_RaporSekil,LINDON
+Siparis_PazarlamaSiparis_Yazdir_BedenSorgusu,Birdahagster1,2,Siparis_PazarlamaSiparis_Yazdir_BedenSorgusu,LINDON
+Siparis_PazarlamaSiparis_YazdirAltTopGrup,Birdahagster1,2,Siparis_PazarlamaSiparis_YazdirAltTopGrup,LINDON
+miHR_9,miPerYonetim_HR,2,COKSATANLAR,LINDON
+Form_PosGir_X_1,Birdahagster1,2,Form_PosGir_X_1,LINDON
+miirsaliyeYon_HR,miHazirRaporlar,1,İrsaliye Yönetimi ...,LINDON
+miHR_13,miirsaliyeYon_HR,2,GÖNDEREN,LINDON
+miCSFTakip,miKasaMenu,2,Çek Senet Takibi ...,LINDON
+miCek,miFinans,1,Çek,LINDON
+Siparis_PazarlamaSiparis_BarkodYaz_DetayDizayn,Birdahagster1,2,Siparis_PazarlamaSiparis_BarkodYaz_DetayDizayn,LINDON
+miHR_16,miStokYonetim_HR,2,DAHILIHARIC,LINDON
+miHR_17,miPerYonetim_HR,2,GIDERPUSULASI,LINDON
+miHR_18,miPerYonetim_HR,2,GPYAZDIRMA,LINDON
+miHR_19,miPerYonetim_HR,2,GPYAZDIRILANKONTROL,LINDON
+miHR_20,miPerYonetim_HR,2,MUAZGP,LINDON
+miHR_21,miPerYonetim_HR,2,MUAZGP,LINDON
+miTSatisRapor,miFinans,1,Raporlar,LINDON
+Rapor_80,miTSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Miktarına Göre) (r80),LINDON
+Rapor_81,miTSatisRapor,2,Lokasyona Göre Genel Satış Raporu (Satış Tutarına Göre) (r81),LINDON
+Rapor_90,miTSatisRapor,2,Lokasyonlara Göre Aylık Satış Raporu (Satış Miktarına Göre) (r90),LINDON
+Rapor_105,miTSatisRapor,2,Haftalık Satış Analizi (Satış Miktarına Göre) (r105),LINDON
+Rapor_106,miTSatisRapor,2,Aylık Satış Analizi (Satış Miktarına Göre) (r106),LINDON
+Rapor_108,miTSatisRapor,2,Yıllık Satış Analizi (Satış Miktarına Göre) (r108),LINDON
+Rapor_110,miTSatisRapor,2,Haftalık Satış Analizi (Satış Tutarına Göre) (r110),LINDON
+Rapor_111,miTSatisRapor,2,Aylık Satış Analizi (Satış Tutarına Göre) (r111),LINDON
+Rapor_113,miTSatisRapor,2,Yıllık Satış Analizi (Satış Tutarına Göre) (r113),LINDON
+Rapor_116,miTSatisRapor,2,Müşteri Toptan Satış Raporu (Satış Miktarına Göre) (r116),LINDON
+Rapor_117,miTSatisRapor,2,Müşteri Toptan Satış Raporu (Satış Tutarına Göre) (r117),LINDON
+Rapor_801,miTSatisRapor,2,Lokasyon Bazında Stok Satış Oranı (801),LINDON
+Rapor_802,miTSatisRapor,2,Lokasyon-Stok Grubu Bazında  Stok Satış Oranı (802),LINDON
+Rapor_809,miTSatisRapor,2,Gerçekleşen Ciro-Hedefler Karşılaştırma Raporu (r809),LINDON
+Rapor_811,miTSatisRapor,2,Gerçekleşen Tahmini Ciro Raporu (r811),LINDON
+miMKDVBeyan,miMMaliTablo,2,KDV Beyannamesi,LINDON
+miMMuhtasar,miMMaliTablo,2,Muhtasar Beyanname,LINDON
+miMGeciciVer,miMMaliTablo,2,Geçici Vergi Beyannamesi,LINDON
+miCRM,,0,Crm,LINDON
+miCRM_Firmalar,miCRM,1,Firmalar,LINDON
+miCRMFirmaList,miCRM_Firmalar,2,Firma Tanımları...,LINDON
+miFirmaFilter,miCRM_Firmalar,2,Firma Yönetimi...,LINDON
+miCRM_FromCari,miCRM_Firmalar,2,Cari'den Al,LINDON
+miCRM_FromCust,miCRM_Firmalar,2,Müşteri'den Al,LINDON
+miCRMGorusmeler,miCRM,1,Görüşmeler,LINDON
+miCRM_GKayit,miCRMGorusmeler,2,Görüşme Kayıtları...,LINDON
+miCRM_GFilter,miCRMGorusmeler,2,Görüşme Yönetimi...,LINDON
+miCRM_Kisiler,miCRM,1,Kişiler,LINDON
+miCRM_KisiKart,miCRM_Kisiler,2,Kişi Kartları...,LINDON
+miCRM_KisiFilter,miCRM_Kisiler,2,Kişi Yönetimi...,LINDON
+miCRM_ServisMain,miCRM,1,Servis,LINDON
+miCRM_Servis_Talep,miCRM_ServisMain,2,Talep Girişi...,LINDON
+miCRM_Servis,miCRM_ServisMain,2,Servis Girişi...,LINDON
+miCRM_ServisFilter,miCRM_ServisMain,2,Servis Yönetimi...,LINDON
+miPlanlama,,0,Planlama,LINDON
+miUretMCrt,miPlanlama,1,Ürün Ağacı,LINDON
+miUretModCreate,miUretMCrt,2,Mamül  Yarı Mamul Reçeteleri ...,LINDON
+miNonModelList,miUretMCrt,2,Reçetesi olmayan ürünler ...,LINDON
+miModelList,miUretMCrt,2,Reçetesi olan ürünler ...,LINDON
+miUrModelList,miUretMCrt,2,Ürünlere Bağlı Model ağaçları ...,LINDON
+miUretPlanlaYon,miPlanlama,1,Pazarlamadan Üretime Talepler ...,LINDON
+miMrpMain,miPlanlama,1,Üretim kaynakları planlama (MRP),LINDON
+miMRPGlb,miMrpMain,2,Malzeme İhtiyaç Planı (MRP) ...,LINDON
+miMrpCrp,miMrpMain,2,Kapasite ihtiyaç planı (CRP) ...,LINDON
+miMrpDayPln,miMrpMain,2,Üretim Çizelgeleme 1...,LINDON
+miMrpDayPln1,miMrpMain,2,Üretim Çizelgeleme 2...,LINDON
+miymDegYon,miPlanlama,1,Yarımamül Değerlendirme Yönetimi ...,LINDON
+miSanalUretim,miPlanlama,1,Sanal Üretim...,LINDON
+miKalipYonetimi,miPlanlama,1,Kalıp Durum Yönetimi,LINDON
+miUretAlimPlanlaYon,miPlanlama,1,Üretimden Satınalmaya Talepler....,LINDON
+miURaporlar,miPlanlama,1,Raporlar,LINDON
+Rapor_200,miURaporlar,2,Planlanan/Gerçekleşen Üretim Karşılaştırması (r200),LINDON
+Rapor_199,miURaporlar,2,Sipariş Tarihine Göre Üretim Durum Raporu (r199),LINDON
+Rapor_217,miURaporlar,2,Ürün-Renk Cari Bazlı Sipariş Üretim Durumu Raporu (r217),LINDON
+Rapor_204,miURaporlar,2,Model-Kalıp Durum Raporu (r204),LINDON
+Rapor_207,miURaporlar,2,Detaylı Kalıp Durum Raporu (r207),LINDON
+miUrLojistic,,0,Üretim Lojistiği,LINDON
+miUretEmirM,miUrLojistic,1,Bütünleşik Üretim Emri,LINDON
+miYUretEmir,miUretEmirM,2,Başlamamış İş Emirleri ...,LINDON
+miDUretEmir,miUretEmirM,2,Devam Eden İş Emirleri ...,LINDON
+miEUretEmir,miUretEmirM,2,Tamamlanmış İş Emirleri ...,LINDON
+miUrTakip,miUrLojistic,1,Üretim Emiri Bazında Process Takip ,LINDON
+miUrTakip1,miUrTakip,2,Üretimi Bekleyen Takipler ...,LINDON
+miUrTakip2,miUrTakip,2,Üretimi Devam Eden Takipler ...,LINDON
+miUrTakip3,miUrTakip,2,Üretimi Biten Takipler ...,LINDON
+miSmi_Urt,miUrLojistic,1,Sanal Maliyet İşletme Üretimi ...,LINDON
+miYenDeg,miUrLojistic,1,Yeniden Değerleme ...,LINDON
+miGenGid,miUrLojistic,1,Ürünlere Genel Gider Dağitımı...,LINDON
+miTERap,miUrLojistic,1,Tamamlanmış Emirler Raporu...,LINDON
+miKalite,,0,Kalite,LINDON
+Parametreler1,miKalite,1,Parametreler,LINDON
+miKalParam,Parametreler1,2,Kalite Parametreleri...,LINDON
+miKaliteGrp,Parametreler1,2,Kalite Grupları...,LINDON
+miHR_22,miStokYonetim_HR,2,STOKDETAY,LINDON
+irsaliye_Dahili_Satis_BarkodYaz_BarkodTipi,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_BarkodTipi,LINDON
+irsaliye_Dahili_Satis_BarkodYaz_DizaynSecimi,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_DizaynSecimi,LINDON
+irsaliye_Dahili_Satis_BarkodYaz_Detay_Siralama_Sekli,Birdahagster1,2,irsaliye_Dahili_Satis_BarkodYaz_Detay_Siralama_Sekli,LINDON
+irsaliye,Birdahagster1,2,irsaliye,LINDON
+miHR_23,miPerYonetim_HR,2,111URUNSATISRAPOR,LINDON
+miHR_24,miStokYonetim_HR,2,STOKDEVIRLISORGULAMA,LINDON
+miCekGir,miCek,2,Çek Bordroları,LINDON
+miMusCekGir,miCekGir,3,Müşteri Çek Girişleri ...,LINDON
+miFirCekCik,miCekGir,3,Firma Çek Çıkışları ...,LINDON
+miCekis,miCek,2,Çek işlemleri,LINDON
+miMusCekis,miCekis,3,Müşteri Çek işlemleri ...,LINDON
+miFirCekis,miCekis,3,Firma Çek işlemleri ...,LINDON
+miCekTakip,miCek,2,Çek Takip İşlemleri,LINDON
+miCekTakipMu,miCekTakip,3,Müşteri Çekleri Takip ...,LINDON
+miCekTakipFi,miCekTakip,3,Firma Çekleri Takip ...,LINDON
+miCekYon,miCek,2,Çek Yönetimi ...,LINDON
+miTopCekPtint,miCek,2,Toplu Çek  Yazdırma Listesi,LINDON
+miSenet,miFinans,1,Senet,LINDON
+miSenetGir,miSenet,2,Senet Bordroları,LINDON
+miMusSenetGir,miSenetGir,3,Müşteri Senet Girişleri ...,LINDON
+miFirSenetCik,miSenetGir,3,Firma Senet Çıkışları ...,LINDON
+miSenetis,miSenet,2,Senet işlemleri,LINDON
+miMusSenetis,miSenetis,3,Müşteri Senet işlemleri ...,LINDON
+miFirSenetis,miSenetis,3,Firma Senet işlemleri ...,LINDON
+miSenetTakip,miSenet,2,Senet Takip işlemleri,LINDON
+miSenetTakipMu,miSenetTakip,3,Müşteri Senetleri Takip ...,LINDON
+miSenetTakipFi,miSenetTakip,3,Firma Senetleri Takip ...,LINDON
+miSenetYon,miSenet,2,Senet Yönetimi ...,LINDON
+miTopSenetPtint,miSenet,2,Toplu Senet Yazdırma Listesi,LINDON
+Rapor_49,miTSatisRapor,2,Satıcı Belge Fatura Ortalama Analizi (r49),LINDON
+Muhasebe_Mizan_Yazdir_Sekli,Birdahagster1,2,Muhasebe_Mizan_Yazdir_Sekli,LINDON
+Muhasebe_MuavinDefter_Yazdir_Sekli,Birdahagster1,2,Muhasebe_MuavinDefter_Yazdir_Sekli,LINDON
+MaliTablo_2_Yazdir_Sekli,Birdahagster1,2,MaliTablo_2_Yazdir_Sekli,LINDON
+Muhasebe_DefteriKebir_Yazdir_Sekli,Birdahagster1,2,Muhasebe_DefteriKebir_Yazdir_Sekli,LINDON
+Muhasebe_YevmiyeDefteri_Yazdir_Sekli,Birdahagster1,2,Muhasebe_YevmiyeDefteri_Yazdir_Sekli,LINDON
+,Birdahagster1,2,,LINDON
+Fatura_Satis_Yazdir_LotaGoreGruplama,Birdahagster1,2,Fatura_Satis_Yazdir_LotaGoreGruplama,LINDON
+Fatura_Satis_Yazdir_EkrandaGor,Birdahagster1,2,Fatura_Satis_Yazdir_EkrandaGor,LINDON
+perakende,Birdahagster1,2,perakende,LINDON
+Fatura,Birdahagster1,2,Fatura,LINDON
+Fatura__EArsivFaturasiMi,Birdahagster1,2,Fatura__EArsivFaturasiMi,LINDON
+SaticiKodu,Birdahagster1,2,SaticiKodu,LINDON
+DetayGiris,Birdahagster1,2,DetayGiris,LINDON
+ReadBarcodeSip,Birdahagster1,2,ReadBarcodeSip,LINDON
+BABS_YazdirmaTipi,Birdahagster1,2,BABS_YazdirmaTipi,LINDON
+miHR_27,miPerYonetim_HR,2,EKSIKFATURASORGUSU,LINDON

@@ -1,0 +1,8 @@
+Bolum,tip,Tanim,ParaCinsi,Taksit,OzKod1,OzKod2,Pasif
+AF,01,Alış Fiyatı $,US,0,,,
+AF,02,Alış Fiyatı TL,TL,0,,,
+AF,03,Alış Fiyatı €,EU,0,,,
+SF,01,Toptan Satış $,US,0,,,
+SF,02,Toptan Satış TL,TL,0,,,
+SF,03,Toptan Satış €,EU,0,,,
+SF,10,Perakende Satis $,US,0,,,

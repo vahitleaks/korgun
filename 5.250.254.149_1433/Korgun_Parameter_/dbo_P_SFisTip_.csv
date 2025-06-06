@@ -1,0 +1,15 @@
+FisTur,FisTip,Tanim,DBName
+1,1,Sayım Giriş Fişi,LINDON
+2,2,Sayım Çıkış Fişi,LINDON
+3,1,Fire Giriş Fişi,LINDON
+4,2,Fire Çıkış Fişi,LINDON
+5,1,Üretim Giriş Fişi,LINDON
+6,2,Sarf Çıkış Fişi,LINDON
+7,2,Promosyon Çıkış Fişi,LINDON
+8,1,Sayım Giriş Fişi,LINDONSENTOS
+9,2,Sayım Çıkış Fişi,LINDONSENTOS
+10,1,Fire Giriş Fişi,LINDONSENTOS
+11,2,Fire Çıkış Fişi,LINDONSENTOS
+12,1,Üretim Giriş Fişi,LINDONSENTOS
+13,2,Sarf Çıkış Fişi,LINDONSENTOS
+14,2,Promosyon Çıkış Fişi,LINDONSENTOS

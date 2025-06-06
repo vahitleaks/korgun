@@ -1,0 +1,121 @@
+Bolum,tip,Tanim,ParaCinsi,Taksit,OzKod1,OzKod2,Pasif,DBName
+AF,01,Alış Fiyatı TL,TL,0,,,,Antrepo20
+AF,02,Alış Fiyatı US,US,0,,,,Antrepo20
+AF,03,Alış Fiyatı EU,EU,0,,,,Antrepo20
+AF,10,Birim Maliyet ,US,0,,,,Antrepo20
+AF,101,2021 Aralık Maliyet,US,0,,,,Antrepo20
+AF,20,Hammadde Öngörülü Maliyet,US,0,,,,Antrepo20
+AI,02,Alış Iskonto - $,US,0,,,,Antrepo20
+SF,01,Fabrika Toptan TL Fiyatı,TL,0,,,,Antrepo20
+SF,02,Fabrika Toptan US Fiyatı,US,0,,,,Antrepo20
+SF,03,Fabrika Toptan EU Fiyatı,EU,0,,,,Antrepo20
+SF,11,Laleli Toptan TL Fiyatı,TL,0,,,,Antrepo20
+SF,12,Laleli Toptan US Fyatı,US,0,,,,Antrepo20
+SF,13,Laleli Toptan EU Fiyatı,EU,0,,,,Antrepo20
+SF,50,Perakende YTLP Fiyatı,TL,0,,,,Antrepo20
+SF,51,Perakende PSF Fiyatı,TL,0,,,,Antrepo20
+SF,52,Perakende ISF Fiyatı,TL,0,,,,Antrepo20
+SF,53,E_Ticaret MP Fiyatı,TL,0,,,,Antrepo20
+SF,70,Hammade Satış TL Fiyatı,TL,0,,,,Antrepo20
+SI,01,Perakende Satış İskonto,TL,0,,,,Antrepo20
+SI,02,İskonto İptal,TL,0,,,,Antrepo20
+AF,01,Alış Fiyatı TL,TL,0,,,,Cabani20
+AF,02,Alış Fiyatı US,US,0,,,,Cabani20
+AF,03,Alış Fiyatı EU,EU,0,,,,Cabani20
+AF,10,Birim Maliyet ,US,0,,,,Cabani20
+AF,101,2021 Aralık Maliyet,US,0,,,,Cabani20
+AF,20,Hammadde Öngörülü Maliyet,US,0,,,,Cabani20
+AI,02,Alış Iskonto - $,US,0,,,,Cabani20
+SF,01,Fabrika Toptan TL Fiyatı,TL,0,,,,Cabani20
+SF,02,Fabrika Toptan US Fiyatı,US,0,,,,Cabani20
+SF,03,Fabrika Toptan EU Fiyatı,EU,0,,,,Cabani20
+SF,11,Laleli Toptan TL Fiyatı,TL,0,,,,Cabani20
+SF,12,Laleli Toptan US Fyatı,US,0,,,,Cabani20
+SF,13,Laleli Toptan EU Fiyatı,EU,0,,,,Cabani20
+SF,50,Perakende YTLP Fiyatı,TL,0,,,,Cabani20
+SF,51,Perakende PSF Fiyatı,TL,0,,,,Cabani20
+SF,52,Perakende ISF Fiyatı,TL,0,,,,Cabani20
+SF,53,E_Ticaret MP Fiyatı,TL,0,,,,Cabani20
+SF,70,Hammade Satış TL Fiyatı,TL,0,,,,Cabani20
+SI,01,Perakende Satış İskonto,TL,0,,,,Cabani20
+SI,02,İskonto İptal,TL,0,,,,Cabani20
+AF,01,Alış Fiyatı TL,TL,0,,,,KORGUNYAZILIM1910
+AF,02,Alış Fiyatı US,US,0,,,,KORGUNYAZILIM1910
+AF,03,Alış Fiyatı EU,EU,0,,,,KORGUNYAZILIM1910
+AF,10,Birim Maliyet ,US,0,,,,KORGUNYAZILIM1910
+AF,101,2021 Aralık Maliyet,US,0,,,,KORGUNYAZILIM1910
+AF,20,Hammadde Öngörülü Maliyet,US,0,,,,KORGUNYAZILIM1910
+AI,02,Alış Iskonto - $,US,0,,,,KORGUNYAZILIM1910
+SF,01,Fabrika Toptan TL Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SF,02,Fabrika Toptan US Fiyatı,US,0,,,,KORGUNYAZILIM1910
+SF,03,Fabrika Toptan EU Fiyatı,EU,0,,,,KORGUNYAZILIM1910
+SF,11,Laleli Toptan TL Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SF,12,Laleli Toptan US Fyatı,US,0,,,,KORGUNYAZILIM1910
+SF,13,Laleli Toptan EU Fiyatı,EU,0,,,,KORGUNYAZILIM1910
+SF,50,Perakende YTLP Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SF,51,Perakende PSF Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SF,52,Perakende ISF Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SF,53,E_Ticaret MP Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SF,70,Hammade Satış TL Fiyatı,TL,0,,,,KORGUNYAZILIM1910
+SI,01,Perakende Satış İskonto,TL,0,,,,KORGUNYAZILIM1910
+SI,02,İskonto İptal,TL,0,,,,KORGUNYAZILIM1910
+AF,01,Alış Fiyatı TL,TL,0,,,,KORGUNYAZILIM2210
+AF,02,Alış Fiyatı US,US,0,,,,KORGUNYAZILIM2210
+AF,03,Alış Fiyatı EU,EU,0,,,,KORGUNYAZILIM2210
+AF,10,Birim Maliyet ,US,0,,,,KORGUNYAZILIM2210
+AF,101,2021 Aralık Maliyet,US,0,,,,KORGUNYAZILIM2210
+AF,20,Hammadde Öngörülü Maliyet,US,0,,,,KORGUNYAZILIM2210
+AI,02,Alış Iskonto - $,US,0,,,,KORGUNYAZILIM2210
+SF,01,Fabrika Toptan TL Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SF,02,Fabrika Toptan US Fiyatı,US,0,,,,KORGUNYAZILIM2210
+SF,03,Fabrika Toptan EU Fiyatı,EU,0,,,,KORGUNYAZILIM2210
+SF,11,Laleli Toptan TL Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SF,12,Laleli Toptan US Fyatı,US,0,,,,KORGUNYAZILIM2210
+SF,13,Laleli Toptan EU Fiyatı,EU,0,,,,KORGUNYAZILIM2210
+SF,50,Perakende YTLP Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SF,51,Perakende PSF Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SF,52,Perakende ISF Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SF,53,E_Ticaret MP Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SF,70,Hammade Satış TL Fiyatı,TL,0,,,,KORGUNYAZILIM2210
+SI,01,Perakende Satış İskonto,TL,0,,,,KORGUNYAZILIM2210
+SI,02,İskonto İptal,TL,0,,,,KORGUNYAZILIM2210
+AF,01,Alış Fiyatı TL,TL,0,,,,KORGUNYAZILIM2310
+AF,02,Alış Fiyatı US,US,0,,,,KORGUNYAZILIM2310
+AF,03,Alış Fiyatı EU,EU,0,,,,KORGUNYAZILIM2310
+AF,10,Birim Maliyet ,US,0,,,,KORGUNYAZILIM2310
+AF,101,2021 Aralık Maliyet,US,0,,,,KORGUNYAZILIM2310
+AF,20,Hammadde Öngörülü Maliyet,US,0,,,,KORGUNYAZILIM2310
+AI,02,Alış Iskonto - $,US,0,,,,KORGUNYAZILIM2310
+SF,01,Fabrika Toptan TL Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SF,02,Fabrika Toptan US Fiyatı,US,0,,,,KORGUNYAZILIM2310
+SF,03,Fabrika Toptan EU Fiyatı,EU,0,,,,KORGUNYAZILIM2310
+SF,11,Laleli Toptan TL Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SF,12,Laleli Toptan US Fyatı,US,0,,,,KORGUNYAZILIM2310
+SF,13,Laleli Toptan EU Fiyatı,EU,0,,,,KORGUNYAZILIM2310
+SF,50,Perakende YTLP Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SF,51,Perakende PSF Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SF,52,Perakende ISF Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SF,53,E_Ticaret MP Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SF,70,Hammade Satış TL Fiyatı,TL,0,,,,KORGUNYAZILIM2310
+SI,01,Perakende Satış İskonto,TL,0,,,,KORGUNYAZILIM2310
+SI,02,İskonto İptal,TL,0,,,,KORGUNYAZILIM2310
+AF,01,Alış Fiyatı TL,TL,0,,,,Uretim20
+AF,02,Alış Fiyatı US,US,0,,,,Uretim20
+AF,03,Alış Fiyatı EU,EU,0,,,,Uretim20
+AF,10,Birim Maliyet ,US,0,,,,Uretim20
+AF,101,2021 Aralık Maliyet,US,0,,,,Uretim20
+AF,20,Hammadde Öngörülü Maliyet,US,0,,,,Uretim20
+AI,02,Alış Iskonto - $,US,0,,,,Uretim20
+SF,01,Fabrika Toptan TL Fiyatı,TL,0,,,,Uretim20
+SF,02,Fabrika Toptan US Fiyatı,US,0,,,,Uretim20
+SF,03,Fabrika Toptan EU Fiyatı,EU,0,,,,Uretim20
+SF,11,Laleli Toptan TL Fiyatı,TL,0,,,,Uretim20
+SF,12,Laleli Toptan US Fyatı,US,0,,,,Uretim20
+SF,13,Laleli Toptan EU Fiyatı,EU,0,,,,Uretim20
+SF,50,Perakende YTLP Fiyatı,TL,0,,,,Uretim20
+SF,51,Perakende PSF Fiyatı,TL,0,,,,Uretim20
+SF,52,Perakende ISF Fiyatı,TL,0,,,,Uretim20
+SF,53,E_Ticaret MP Fiyatı,TL,0,,,,Uretim20
+SF,70,Hammade Satış TL Fiyatı,TL,0,,,,Uretim20
+SI,01,Perakende Satış İskonto,TL,0,,,,Uretim20
+SI,02,İskonto İptal,TL,0,,,,Uretim20

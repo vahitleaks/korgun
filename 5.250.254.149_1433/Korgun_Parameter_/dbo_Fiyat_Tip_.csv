@@ -1,0 +1,17 @@
+Bolum,tip,Tanim,ParaCinsi,Taksit,OzKod1,OzKod2,Pasif,DBName
+AF,A01,Toptan Alış TL,TL,0,,,,LINDON
+SF,S01,Satış TL,TL,0,,,,LINDON
+SF,S02,Satış İndirimli TL,TL,0,,,,LINDON
+SF,S03,Trendyol,TL,0,,,,LINDON
+SF,S04,N11,TL,0,,,,LINDON
+SF,S05,Hepsiburada,TL,0,,,,LINDON
+SF,S06,Morhipo,TL,0,,,,LINDON
+SF,S11,Toptan Satış TL,TL,0,,,,LINDON
+AF,A01,Toptan Alış TL,TL,0,,,,LINDONSENTOS
+SF,S01,Satış TL,TL,0,,,,LINDONSENTOS
+SF,S02,Satış İndirimli TL,TL,0,,,,LINDONSENTOS
+SF,S03,Trendyol,TL,0,,,,LINDONSENTOS
+SF,S04,N11,TL,0,,,,LINDONSENTOS
+SF,S05,Hepsiburada,TL,0,,,,LINDONSENTOS
+SF,S06,Morhipo,TL,0,,,,LINDONSENTOS
+SF,S11,Toptan Satış TL,TL,0,,,,LINDONSENTOS

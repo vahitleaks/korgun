@@ -1,0 +1,9 @@
+BankaKod,SubeKod,SYetinx,YetName,Unvan,Tel,CepTel,eMail,Notu,kgid,mkgid,insUN,insDT,insApp,updUN,updDT,updApp
+AND,9480,10,Uğur bey ,Müşteri Temsilcisi,,,,,10,2,,,,,,
+DNB,2210,7,Serdar bey ,Müşteri Temsilcisi,0212 671 32 02 ,,serdar.yilmaz@denizbank.com.tr,,7,3,,,,,,
+GAR,0373,1,Müjgan Mutlu ,Müşteri Temsilcisi,0 212 413 18 50 ,,'Mujgan Mutlu ,,1,4,,,,,,
+GAR,0373,2,Duygu Çavuşdağ,Müşteri Temsilcisi,0 212 549 29 08 ,,Duygu Cavusdag ,,2,4,,,,,,
+HLK,1287,6,Akın bey,Müşteri Temsilcisi,,,,,6,5,,,,,,
+ISB,1278,3,Serkan Özçelik ,Müşteri Temsilcisi,0 212 549 38 08 ,,Serkan Özçelik <Serkan.Ozcelik@isbank.com.tr,,3,6,,,,,,
+YKB,0442,9,Fatma Ravcı,Müşteri Temsilcisi,,,,,9,8,,,,,,
+ZER,2406,4,Ayar Çakır,Müşteri Temsilcisi,0212 671 79 56 ,,aycakir@ziraatbank.com.tr,,4,9,,,,,,

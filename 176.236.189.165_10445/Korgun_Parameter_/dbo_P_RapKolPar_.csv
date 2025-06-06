@@ -1,0 +1,138 @@
+PARAD,MCTable,COLPLACE,FieldName,COLNAME,COLWidth,ColDispFormat,ToplamGoster,DBName
+StokRaporu,0,0,SKod,Stok Kodu,94,,,TANCA
+StokRaporu,0,1,SKod_Tanim,Stok Kodu Tanım,143,,,TANCA
+StokRaporu,0,2,RKod_Tanim,Renk Tanımı,79,,,TANCA
+StokRaporu,0,3,Beden,Beden,53,,,TANCA
+StokRaporu,0,4,Stok_Mevcudu,Stok Kalanı,53,"#,###.####",*,TANCA
+StokRaporu,0,5,AlisFiyati,Alış Fiyatı,69,"#,##0.00####",,TANCA
+StokRaporu,0,6,SatisFiyati,Satış Fiyatı,76,"#,##0.00####",,TANCA
+KASIM PERSONEL SATIŞ,0,7,iskontoTut,İskonto Tutarı,83,"#,###.####",,TANCA
+KASIM PERSONEL SATIŞ,0,8,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,TANCA
+KASIM PERSONEL SATIŞ,0,9,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,TANCA
+KASIM PERSONEL SATIŞ,0,10,Tutar,Tutar,64,"#,##0.00",,TANCA
+KASIM PERSONEL SATIŞ,0,11,TYuzde,Tutar %,64,#.000,,TANCA
+<Default>,0,0,SatKod,Satıcı Kodu,94,,,TANCA
+<Default>,0,4,Miktar,Miktar,142,,,TANCA
+<Default>,0,2,MYuzde,Miktar %,64,#.000,,TANCA
+<Default>,0,3,Satici,Satıcı,250,,,TANCA
+<Default>,0,4,StokFiyat,Stok Fiyatı,64,"#,##0.00",,TANCA
+<Default>,0,5,Fiyat,Fiyat,64,"#,##0.00",,TANCA
+<Default>,0,6,ParaCinsi,Kur,23,,,TANCA
+<Default>,0,7,iskontoTut,İskonto Tutarı,83,"#,###.####",,TANCA
+<Default>,0,8,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,TANCA
+<Default>,0,9,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,TANCA
+<Default>,0,10,Tutar,Tutar,64,"#,##0.00",,TANCA
+<Default>,0,11,Kapora,Kapora,64,"#,###.####",,TANCA
+<Default>,0,12,TYuzde,Tutar %,64,#.000,,TANCA
+EEEE,0,0,SKod,Stok Kodu,94,,,TANCA
+EEEE,0,1,SKod_Tanim,Stok Kodu Tanım,304,,,TANCA
+EEEE,0,2,Fatura_Miktari,Fatura Miktarı,82,"#,###.####",,TANCA
+EEEE,0,3,Birim,Birim,64,,,TANCA
+EEEE,0,4,Tutar,Tutar,64,"#,##0.00",,TANCA
+EEEE,0,5,ParaCinsi,Kur,23,,,TANCA
+<Default>,0,0,FisNo,Fiş No,64,,,TANCA
+<Default>,0,1,FisHarinx,FisHarinx,64,,,TANCA
+<Default>,0,2,FisTar,Fiş Tarihi,112,,,TANCA
+<Default>,0,3,BelgeNo,Belge No,94,,,TANCA
+<Default>,0,4,MKod,Müşteri Kodu,94,,,TANCA
+<Default>,0,5,Musteri_Tanim,Müşteri Tanımı,364,,,TANCA
+<Default>,0,2,skod,Stok Kodu,94,,,TANCA
+<Default>,0,3,SKod_Tanim,Stok Kodu Tanım,304,,,TANCA
+<Default>,0,8,RKod,Renk,64,"#,###.####",,TANCA
+<Default>,0,9,RKod_Tanim,Renk Tanımı,304,,,TANCA
+<Default>,0,11,Beden,Beden,52,,,TANCA
+<Default>,0,11,Bedinx,Bedinx,64,"#,###.####",,TANCA
+<Default>,0,14,SonHarKod,Son Hareket Kod,108,,,TANCA
+<Default>,0,15,SonHarKod_Tanim,Son Hareket Tan,304,,,TANCA
+<Default>,0,16,SonHarTarih,Son Hareket Tar,112,,,TANCA
+<Default>,0,17,TarFark,Tarih Farkı,65,"#,###.####",,TANCA
+<Default>,0,1,StokTanim,Stok Tanımı,304,,,TANCA
+<Default>,0,1,Renk,Renk,70,,,TANCA
+<Default>,0,10,BedKod,Bedkod,64,"#,###.####",,TANCA
+<Default>,0,0,Stok,Stok,136,,,TANCA
+<Default>,0,2,cariKod,Lokasyon,94,,,TANCA
+<Default>,0,1,CariKod_Tanim,Sipariş Cari Ko,364,,,TANCA
+<Default>,0,4,Location,Lokasyon,58,,,TANCA
+<Default>,0,5,Location_Tanim,Lokasyon Tanım,304,,,TANCA
+<Default>,0,12,Siparis_Miktari,Sipariş Miktarı,238,"#,###.####",,TANCA
+<Default>,0,0,sipno,Sipariş No,64,"#,###.####",,TANCA
+<Default>,0,3,Loc_Tanim,Lokasyon Tanımı,304,,,TANCA
+<Default>,0,2,Lokasyon,Lokasyon,214,,,TANCA
+<Default>,0,3,_18,18,18,,,TANCA
+<Default>,0,4,_19,19,18,,,TANCA
+<Default>,0,5,_20,20,18,,,TANCA
+<Default>,0,6,_21,21,18,,,TANCA
+<Default>,0,7,_22,22,18,,,TANCA
+<Default>,0,8,_23,23,18,,,TANCA
+<Default>,0,9,_24,24,18,,,TANCA
+<Default>,0,10,_25,25,18,,,TANCA
+<Default>,0,11,_26,26,18,,,TANCA
+<Default>,0,12,_27,27,18,,,TANCA
+<Default>,0,13,_28,28,18,,,TANCA
+<Default>,0,14,_29,29,18,,,TANCA
+<Default>,0,15,_30,30,18,,,TANCA
+<Default>,0,16,_31,31,18,,,TANCA
+<Default>,0,17,_32,32,18,,,TANCA
+<Default>,0,18,_33,33,18,,,TANCA
+<Default>,0,19,_34,34,18,,,TANCA
+<Default>,0,20,_35,35,18,,,TANCA
+<Default>,0,21,_36,36,18,,,TANCA
+<Default>,0,22,_37,37,18,,,TANCA
+<Default>,0,23,_38,38,18,,,TANCA
+<Default>,0,24,_39,39,18,,,TANCA
+<Default>,0,25,Toplam,Toplam,45,,,TANCA
+<Default>,0,1,SipTar,Sipariş Tarihi,112,,,TANCA
+hdcarlist,0,0,CKod,Cari Kod,38,,,TANCA
+hdcarlist,0,1,CName,Cari İsmi,27,,,TANCA
+hdcarlist,0,2,Unvan,Ünvan,44,,,TANCA
+hdcarlist,0,3,Adr1,Adres 1,21,,,TANCA
+hdcarlist,0,4,Adr2,Adres 2,38,,,TANCA
+hdcarlist,0,5,Sehir,Şehir,38,,,TANCA
+hdcarlist,0,6,PKod,Posta Kodu,19,,,TANCA
+hdcarlist,0,7,Tel1,Telefon 1,27,,,TANCA
+hdcarlist,0,8,Tel2,Telefon 2,13,,,TANCA
+hdcarlist,0,9,Fax,Fax,16,,,TANCA
+hdcarlist,0,10,eMail,e-Posta,15,,,TANCA
+hdcarlist,0,11,WWW,Web Sayfası,25,,,TANCA
+hdcarlist,0,12,VDar,Vergi Dairesi,14,,,TANCA
+hdcarlist,0,13,VNo,Vergi Numarası,21,,,TANCA
+hdcarlist,0,14,TicSicilNo,Ticari Sicil No,31,,,TANCA
+hdcarlist,0,15,KartTar,Kart Tarihi,19,,,TANCA
+hdcarlist,0,16,CResim,Resim,21,,,TANCA
+hdcarlist,0,17,OzKod1, Özel Kod 1,23,,,TANCA
+hdcarlist,0,18,OzKod2,Özel Kod 2,23,,,TANCA
+hdcarlist,0,19,OzKod3,Özel Kod 3,27,,,TANCA
+hdcarlist,0,20,OzKod4,Özel Kod 4,14,,,TANCA
+hdcarlist,0,21,OzKod5,Özel Kod 5,16,,,TANCA
+hdcarlist,0,22,OzKod6,Özel Kod 6,21,,,TANCA
+hdcarlist,0,23,OzKod7,Özel Kod 7,20,,,TANCA
+MEVCUT STOK,0,0,GrupKod,Stok Grubu,68,,,TANCA
+MEVCUT STOK,0,1,GrupKod_Tanim,Stok Grubu Tanı,304,,,TANCA
+MEVCUT STOK,0,2,CinsKod,Cinsiyet,48,,,TANCA
+MEVCUT STOK,0,3,CinsKod_Tanim,Cinsiyet Tanımı,304,,,TANCA
+MEVCUT STOK,0,4,Birim,Birim,64,,,TANCA
+MEVCUT STOK,0,5,Giren,Giren,238,"#,###.####",,TANCA
+MEVCUT STOK,0,6,Cikan,Çıkan,238,"#,###.####",,TANCA
+MEVCUT STOK,0,7,Gireniade,Giren İade,238,"#,###.####",,TANCA
+MEVCUT STOK,0,8,Cikaniade,Çıkan İade,238,"#,###.####",,TANCA
+MEVCUT STOK,0,9,Stok_Mevcudu,Stok Kalanı,238,"#,###.####",,TANCA
+<Default>,0,0,CinsKod,Cinsiyet,48,,,TANCA
+<Default>,0,3,CinsKod_Tanim,Cinsiyet Tanımı,304,,,TANCA
+<Default>,0,6,GrupKod,Stok Grubu,68,,,TANCA
+<Default>,0,7,GrupKod_Tanim,Stok Grubu Tanı,304,,,TANCA
+<Default>,0,13,Birim,Birim,34,,,TANCA
+<Default>,0,5,Giren,Giren,238,"#,###.####",,TANCA
+<Default>,0,6,Cikan,Çıkan,238,"#,###.####",,TANCA
+<Default>,0,7,Gireniade,Giren İade,238,"#,###.####",,TANCA
+<Default>,0,8,Cikaniade,Çıkan İade,238,"#,###.####",,TANCA
+<Default>,0,9,Stok_Mevcudu,Stok Kalanı,238,"#,###.####",,TANCA
+KASIM PERSONEL SATIŞ,0,0,SatKod,Satıcı Kodu,94,,,TANCA
+KASIM PERSONEL SATIŞ,0,1,Miktar,Miktar,238,"#,##0.##",,TANCA
+KASIM PERSONEL SATIŞ,0,2,MYuzde,Miktar %,64,#.000,,TANCA
+KASIM PERSONEL SATIŞ,0,3,Satici,Satıcı,250,,,TANCA
+KASIM PERSONEL SATIŞ,0,4,StokFiyat,Stok Fiyatı,64,"#,##0.00",,TANCA
+KASIM PERSONEL SATIŞ,0,5,Fiyat,Fiyat,64,"#,##0.00",,TANCA
+KASIM PERSONEL SATIŞ,0,6,ParaCinsi,Kur,23,,,TANCA
+hdcarlist,0,24,OzKod8,Özel Kod 8,23,,,TANCA
+hdcarlist,0,25,OzKod9,Özel Kod 9,22,,,TANCA
+hdcarlist,0,26,OzKod10,Özel Kod 10,18,,,TANCA

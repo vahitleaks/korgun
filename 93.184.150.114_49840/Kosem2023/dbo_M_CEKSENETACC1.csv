@@ -1,0 +1,9 @@
+ID,TYPE,EXPLANATION,ACCOUNTID,MMID,Location
+1,1,Eldeki Çekler,,,
+2,2,Kesilen Çekler,,,
+3,3,Eldeki Senetler,,,
+4,4,Borç Senetleri,,,
+5,5,Protestolu Senetler,,,
+6,6,Karşılıksız Çekler,,,
+7,7,Provizyon Masrafları,,,
+8,8,Protesto Masrafları,,,

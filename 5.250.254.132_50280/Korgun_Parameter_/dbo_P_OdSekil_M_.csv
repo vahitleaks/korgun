@@ -1,0 +1,13 @@
+OdSekil,Tanim,ISOCODE,EDMCode,DBName,Aras_Kod
+P-01,Peşin Ödeme,,,Antrepo20,
+V-01,Vadeli Ödeme 30 / 60,,,Antrepo20,
+P-01,Peşin Ödeme,,,Cabani20,
+V-01,Vadeli Ödeme 30 / 60,,,Cabani20,
+P-01,Peşin Ödeme,,,KORGUNYAZILIM1910,
+V-01,Vadeli Ödeme 30 / 60,,,KORGUNYAZILIM1910,
+P-01,Peşin Ödeme,,,KORGUNYAZILIM2210,
+V-01,Vadeli Ödeme 30 / 60,,,KORGUNYAZILIM2210,
+P-01,Peşin Ödeme,,,KORGUNYAZILIM2310,
+V-01,Vadeli Ödeme 30 / 60,,,KORGUNYAZILIM2310,
+P-01,Peşin Ödeme,,,Uretim20,
+V-01,Vadeli Ödeme 30 / 60,,,Uretim20,

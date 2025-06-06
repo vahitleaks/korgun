@@ -1,0 +1,4 @@
+DOV_KOD,FisFormat,FisTopFormat,RapFormat,RapTopFormat,BarkodFormat,TopYuv,TopYuvKat,isocode,VERA_ParaCinsi_ID,Ingenico_ID
+EU,"#,##0.00####","#,##0.00","#,##0.00####","#,##0.00","#,##0.00",,,EUR,,
+TL,"#,##0.00####","#,##0.00","#,##0.00####","#,##0.00","#,##0.00",,,TRY,,
+US,"#,##0.00####","#,##0.00","#,##0.00####","#,##0.00","#,##0.00",,,USD,,

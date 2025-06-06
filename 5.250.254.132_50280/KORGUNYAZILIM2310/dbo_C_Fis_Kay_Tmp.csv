@@ -1,0 +1,4 @@
+FisNo,Bolum,FisTip,FisTar,BelgeNo,Kasa,Location,CariKod,OzKod1,OzKod2,MuhKod,MuhFisNo,iptal,MM,insUN,insDT,updUN,updDT,locked,SablonTanim,kgid,insApp,updApp
+1,K,NT,2024-02-13 00:00:00,,f,CA001,,,,,,,,gulsah,2024-02-13 02:04:04.857000,,,,deneme,1,KGShop,
+2,K,NT,2024-02-21 00:00:00,,f,CA001,,,,,,,,k,2024-02-21 18:47:46.127000,,,,test,2,KGShop,
+3,K,NT,2024-03-11 00:00:00,,K001,CA001,,,,100.01.001,,,,mert,2024-03-11 22:24:10.020000,,,,aa,3,KGShop,

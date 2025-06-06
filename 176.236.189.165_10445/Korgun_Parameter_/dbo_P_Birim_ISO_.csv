@@ -1,0 +1,1094 @@
+ISOCODE,Tanim,DBName
+04,small spray,TANCA
+05,lift,TANCA
+08,heat lot,TANCA
+10,group,TANCA
+11,outfit,TANCA
+13,ration,TANCA
+14,shot,TANCA
+15,stick,TANCA
+16,hundred fifteen kg drum,TANCA
+17,hundred lb drum,TANCA
+18,fiftyfive gallon (US) drum,TANCA
+19,tank truck,TANCA
+1A,car mile,TANCA
+1B,car count,TANCA
+1C,locomotive count,TANCA
+1D,caboose count,TANCA
+1E,empty car,TANCA
+1F,train mile,TANCA
+1G,fuel usage gallon (US),TANCA
+1H,caboose mile,TANCA
+1I,fixed rate,TANCA
+1J,ton mile,TANCA
+1K,locomotive mile,TANCA
+1L,total car count,TANCA
+1M,total car mile,TANCA
+1X,quarter mile,TANCA
+20,twenty foot container,TANCA
+21,forty foot container,TANCA
+22,decilitre per gram,TANCA
+23,gram per cubic centimetre,TANCA
+24,theoretical pound,TANCA
+25,gram per square centimetre,TANCA
+26,actual ton,TANCA
+27,theoretical ton,TANCA
+28,kilogram per square metre,TANCA
+29,pound per thousand square feet,TANCA
+2A,radian per second,TANCA
+2B,radian per second squared,TANCA
+2C,rÇôntgen,TANCA
+2I,British thermal unit per hour,TANCA
+2J,cubic centimetre per second,TANCA
+2K,cubic foot per hour,TANCA
+2L,cubic foot per minute,TANCA
+2M,centimetre per second,TANCA
+2N,decibel,TANCA
+2P,kilobyte,TANCA
+2Q,kilobecquerel,TANCA
+2R,kilocurie,TANCA
+2U,megagram,TANCA
+2V,megagram per hour,TANCA
+2W,bin,TANCA
+2X,metre per minute,TANCA
+2Y,millirÇôntgen,TANCA
+2Z,millivolt,TANCA
+30,horse power day per air dry metric ton,TANCA
+31,catch weight,TANCA
+32,kilogram per air dry metric ton,TANCA
+33,kilopascal square metres per gram,TANCA
+34,kilopascals per millimetre,TANCA
+35,millilitres per square centimetre second,TANCA
+36,cubic feet per minute per square foot,TANCA
+37,ounce per square foot,TANCA
+38,"ounces per square foot per 0,01 inch",TANCA
+3B,megajoule,TANCA
+3C,manmonth,TANCA
+3E,pound per pound of product,TANCA
+3G,pound per piece of product,TANCA
+3H,kilogram per kilogram of product,TANCA
+3I,kilogram per piece of product,TANCA
+40,millilitre per second,TANCA
+41,millilitre per minute,TANCA
+43,super bulk bag,TANCA
+44,fivehundred kg bulk bag,TANCA
+45,threehundred kg bulk bag,TANCA
+46,fifty lb bulk bag,TANCA
+47,fifty lb bag,TANCA
+48,bulk car load,TANCA
+4A,bobbin,TANCA
+4B,cap,TANCA
+4C,centistokes,TANCA
+4E,twenty pack,TANCA
+4G,microlitre,TANCA
+4H,micrometre (micron),TANCA
+4K,milliampere,TANCA
+4L,megabyte,TANCA
+4M,milligram per hour,TANCA
+4N,megabecquerel,TANCA
+4O,microfarad,TANCA
+4P,newton per metre,TANCA
+4Q,ounce inch,TANCA
+4R,ounce foot,TANCA
+4T,picofarad,TANCA
+4U,pound per hour,TANCA
+4W,ton(US) per hour,TANCA
+4X,kilolitre per hour,TANCA
+53,theoretical kilograms,TANCA
+54,theoretical tonne,TANCA
+56,sitas,TANCA
+57,mesh,TANCA
+58,net kilogram,TANCA
+59,part per million,TANCA
+5A,barrel per minute,TANCA
+5B,batch,TANCA
+5C,gallon(US) per thousand,TANCA
+5E,MMSCF/day,TANCA
+5F,pounds per thousand,TANCA
+5G,pump,TANCA
+5H,stage,TANCA
+5I,standard cubic foot,TANCA
+5J,hydraulic horse power,TANCA
+5K,count per minute,TANCA
+5P,seismic level,TANCA
+5Q,seismic line,TANCA
+60,percent weight,TANCA
+61,part per billion (US),TANCA
+62,percent per 1000 hour,TANCA
+63,failure rate in time,TANCA
+64,"pound per square inch, gauge",TANCA
+66,oersted,TANCA
+69,test specific scale,TANCA
+71,volt ampere per pound,TANCA
+72,watt per pound,TANCA
+73,ampere tum per centimetre,TANCA
+74,millipascal,TANCA
+76,gauss,TANCA
+77,milli-inch,TANCA
+78,kilogauss,TANCA
+80,pounds per square inch absolute,TANCA
+81,henry,TANCA
+84,kilopound per square inch,TANCA
+85,foot pound-force,TANCA
+87,pound per cubic foot,TANCA
+89,poise,TANCA
+90,Saybold universal second,TANCA
+91,stokes,TANCA
+92,calorie per cubic centimetre,TANCA
+93,calorie per gram,TANCA
+94,curl unit,TANCA
+95,twenty thousand gallon (US) tankcar,TANCA
+96,ten thousand gallon (US) tankcar,TANCA
+97,ten kg drum,TANCA
+98,fifteen kg drum,TANCA
+A1,15  C calorie,TANCA
+A10,ampere square metre per joule second,TANCA
+A11,Ç¾ngstrÇôm,TANCA
+A12,astronomical unit,TANCA
+A13,attojoule,TANCA
+A14,barn,TANCA
+A15,barn per electron volt,TANCA
+A16,"barn per steradian electron volt,",TANCA
+A17,barn per sterdian,TANCA
+A18,becquerel per kilogram,TANCA
+A19,becquerel per metre cubed,TANCA
+A2,ampere per centimetre,TANCA
+A20,British thermal unit per second square foot degree Rankin,TANCA
+A21,British thermal unit per pound degree Rankin,TANCA
+A22,British thermal unit per second foot degree Rankin,TANCA
+A23,British thermal unit per hour square foot degree Rankin,TANCA
+A24,candela per square metre,TANCA
+A25,cheval vapeur,TANCA
+A26,coulomb metre,TANCA
+A27,coulomb metre squared per volt,TANCA
+A28,coulomb per cubic centimetre,TANCA
+A29,coulomb per cubic metre,TANCA
+A3,ampere per millimetre,TANCA
+A30,coulomb per cubic millimetre,TANCA
+A31,coulomb per kilogram second,TANCA
+A32,coulomb per mole,TANCA
+A33,coulomb per square centimetre,TANCA
+A34,coulomb per square metre,TANCA
+A35,coulomb per square millimetre,TANCA
+A36,cubic centimetre per mole,TANCA
+A37,cubic decimetre per mole,TANCA
+A38,cubic metre per coulomb,TANCA
+A39,cubic metre per kilogram,TANCA
+A4,ampere per square centimetre,TANCA
+A40,cubic metre per mole,TANCA
+A41,ampere per square metre,TANCA
+A42,curie per kilogram,TANCA
+A43,deadweight tonnage,TANCA
+A44,decalitre,TANCA
+A45,decametre,TANCA
+A47,decitex,TANCA
+A48,degree Rankin,TANCA
+A49,denier,TANCA
+A5,ampere square metre,TANCA
+A50,dyn second per cubic centimetre,TANCA
+A51,dyne second per centimetre,TANCA
+A52,dyne second per centimetre to the fifth,TANCA
+A53,electronvolt,TANCA
+A54,electronvolt  per metre,TANCA
+A55,electronvolt square metre,TANCA
+A56,electronvolt square metre per kilogram,TANCA
+A57,erg,TANCA
+A58,erg per centimetre,TANCA
+A6,ampere per square metre kelvin squared,TANCA
+A60,erg per cubic centimetre,TANCA
+A61,erg per gram,TANCA
+A62,erg per gram second,TANCA
+A63,erg per second,TANCA
+A64,erg per second square centimetre,TANCA
+A65,erg per square centimetre second,TANCA
+A66,erg square centimetre,TANCA
+A67,erg square centimetre per gram,TANCA
+A68,exajoule,TANCA
+A69,farad per metre,TANCA
+A7,ampere per square millimetre,TANCA
+A70,femtojoule,TANCA
+A71,femtometre,TANCA
+A73,foot per second squared,TANCA
+A74,foot pound-force per second,TANCA
+A75,freight ton,TANCA
+A76,gal,TANCA
+A77,Gaussian CGS unit of displacement,TANCA
+A78,Gaussian CGS unit of electic current,TANCA
+A79,Gaussian CGS unit of electric charge,TANCA
+A8,ampere second,TANCA
+A80,Gaussian CGS unit of electric field strength,TANCA
+A81,Gaussian CGS unit of electric polarization,TANCA
+A82,Gaussian CGS unit of electric potential,TANCA
+A83,Gaussian CGS unit of magnetization,TANCA
+A84,gigacoulomb per cubic metre,TANCA
+A85,gigaelectronvolt,TANCA
+A86,gigahertz,TANCA
+A87,gigaohm,TANCA
+A88,gigaohm metre,TANCA
+A89,gigapascal,TANCA
+A9,rate,TANCA
+A90,gigawatt,TANCA
+A91,gon,TANCA
+A93,gram per cubic metre,TANCA
+A94,gram per mole,TANCA
+A95,gray,TANCA
+A96,gray per second,TANCA
+A97,hectopascal,TANCA
+A98,henry per metre,TANCA
+AA,ball,TANCA
+AB,bulk pack,TANCA
+ACR,acre,TANCA
+AD,byte,TANCA
+AE,ampere per metre,TANCA
+AH,additional minute,TANCA
+AI,average minute per call,TANCA
+AJ,cop,TANCA
+AK,fathom,TANCA
+AL,access line,TANCA
+AM,ampoule,TANCA
+AMH,ampere hour,TANCA
+AMP,ampere,TANCA
+ANN,year,TANCA
+AP,aluminium pound only,TANCA
+APZ,troy ounce or apothecaries' ounce,TANCA
+AQ,anti-hemophilic factor (AHF) unit,TANCA
+AR,suppository,TANCA
+ARE,are,TANCA
+AS,assortment,TANCA
+ASM,alcoholic strength by mass,TANCA
+ASU,alcoholic strength by volume,TANCA
+ATM,standard atmosphere,TANCA
+ATT,technical atmosphere,TANCA
+AV,capsule,TANCA
+AW,powder filled vial,TANCA
+AY,assembly,TANCA
+AZ,British thermal unit per pound,TANCA
+B0,Btu per cubic foot,TANCA
+B1,barrel (US) per day,TANCA
+B11,joule per kilogram kelvin,TANCA
+B12,joule per metre,TANCA
+B13,joule per square metre,TANCA
+B14,joule per metre to the fourth power,TANCA
+B15,joule per mole,TANCA
+B16,joule per mole kelvin,TANCA
+B18,joule second,TANCA
+B2,bunk,TANCA
+B20,joule square metre per kilogram,TANCA
+B21,kelvin per watt,TANCA
+B22,kiloampere,TANCA
+B23,kiloampere per square metre,TANCA
+B24,kiloampere per metre,TANCA
+B25,kilobecquerel per kilogram,TANCA
+B26,kilocoulomb,TANCA
+B27,kilocoulomb per cubic metre,TANCA
+B28,kilocoulomb per square metre,TANCA
+B29,kiloelectronvolt,TANCA
+B3,batting pound,TANCA
+B31,kilogram metre per second,TANCA
+B32,kilogram metre squared,TANCA
+B33,kilogram metre squared per second,TANCA
+B34,kilogram per cubic decimetre,TANCA
+B35,kilogram per litre,TANCA
+B36,thermochemical calorie per gram,TANCA
+B37,kilogram-force,TANCA
+B38,kilogram-force metre,TANCA
+B39,kilogram-force metre per second,TANCA
+B4,"barrel, imperial",TANCA
+B40,kilogram-force per square metre,TANCA
+B41,kilojoule per kelvin,TANCA
+B42,kilojoule per kilogram,TANCA
+B43,kilojoule per kilogram kelvin,TANCA
+B44,kilojoule per mole,TANCA
+B45,kilomole,TANCA
+B46,kilomole per cubic metre,TANCA
+B47,kilonewton,TANCA
+B48,kilonewton metre,TANCA
+B49,kiloohm,TANCA
+B5,billet,TANCA
+B50,kiloohm metre,TANCA
+B51,kilopond,TANCA
+B52,kilosecond,TANCA
+B53,kilosiemens,TANCA
+B54,kilosiemens per metre,TANCA
+B55,kilovolt per metre,TANCA
+B56,kiloweber per metre,TANCA
+B57,light year,TANCA
+B58,litre per mole,TANCA
+B59,lumen hour,TANCA
+B6,bun,TANCA
+B60,lumen per square metre,TANCA
+B61,lumen per watt,TANCA
+B62,lumen second,TANCA
+B63,lux hour,TANCA
+B64,lux second,TANCA
+B65,maxwell,TANCA
+B66,megaampere per square metre,TANCA
+B67,megabecquerel per kilogram,TANCA
+B69,megacoulomb per cubic metre,TANCA
+B7,cycle,TANCA
+B70,megacoulomb per square metre,TANCA
+B71,megaelectronvolt,TANCA
+B72,megagram per cubic metre,TANCA
+B73,meganewton,TANCA
+B74,meganewton metre,TANCA
+B75,megaohm,TANCA
+B76,megaohm metre,TANCA
+B77,megasiemens per metre,TANCA
+B78,megavolt,TANCA
+B79,megavolt per metre,TANCA
+B8,joule per cubic metre,TANCA
+B81,reciprocal metre squared reciprocal second,TANCA
+B83,metre to the fourth power,TANCA
+B84,microampere,TANCA
+B85,microbar,TANCA
+B86,microcoulomb,TANCA
+B87,microcoulomb per cubic metre,TANCA
+B88,microcoulomb per square metre,TANCA
+B89,microfarad per metre,TANCA
+B9,batt,TANCA
+B90,microhenry,TANCA
+B91,microhenry per metre,TANCA
+B92,micronewton,TANCA
+B93,micronewton metre,TANCA
+B94,microohm,TANCA
+B95,microohm metre,TANCA
+B96,micropascal,TANCA
+B97,microradian,TANCA
+B98,microsecond,TANCA
+B99,microsiemens,TANCA
+BAR,bar,TANCA
+BB,base box,TANCA
+BD,board,TANCA
+BE,bundle,TANCA
+BFT,board foot,TANCA
+BG,bag,TANCA
+BH,brush,TANCA
+BHP,brake horse power,TANCA
+BIL,trillion (US),TANCA
+BJ,bucket,TANCA
+BK,basket,TANCA
+BL,bale,TANCA
+BLD,dry barrel (US),TANCA
+BLL,barrel (US) (petroleum etc.),TANCA
+BO,bottle,TANCA
+BP,hundred board feet,TANCA
+BQL,becquerel,TANCA
+BR,bar,TANCA
+BT,bolt,TANCA
+BTU,British thermal unit,TANCA
+BUA,bushel  (US),TANCA
+BUI,bushel (UK),TANCA
+BW,base weight,TANCA
+BX,box,TANCA
+BZ,million BTUs,TANCA
+C0,call,TANCA
+C1,composite product pound (total weight),TANCA
+C10,millifarad,TANCA
+C11,milligal,TANCA
+C12,milligram per metre,TANCA
+C13,milligray,TANCA
+C14,millihenry,TANCA
+C15,millijoule,TANCA
+C16,millimetre per second,TANCA
+C17,millimetre squared per second,TANCA
+C18,millimole,TANCA
+C19,mole per kilogram,TANCA
+C2,carset,TANCA
+C20,millinewton,TANCA
+C22,millinewton per metre,TANCA
+C23,milliohm metre,TANCA
+C24,millipascal second,TANCA
+C25,milliradian,TANCA
+C26,millisecond,TANCA
+C27,millisiemens,TANCA
+C28,millisievert,TANCA
+C29,millitesla,TANCA
+C3,microvolt per metre,TANCA
+C30,millivolt per metre,TANCA
+C31,milliwatt,TANCA
+C32,milliwatt per square metre,TANCA
+C33,milliweber,TANCA
+C34,mole,TANCA
+C35,mole per cubic decimetre,TANCA
+C36,mole per cubic metre,TANCA
+C38,mole per litre,TANCA
+C39,nanoampere,TANCA
+C4,carload,TANCA
+C40,nanocoulomb,TANCA
+C41,nanofarad,TANCA
+C42,nanofarad per metre,TANCA
+C43,nanohenry,TANCA
+C44,nanohenry per metre,TANCA
+C45,nanometre,TANCA
+C46,nanoohm metre,TANCA
+C47,nanosecond,TANCA
+C48,nanotesla,TANCA
+C49,nanowatt,TANCA
+C5,cost,TANCA
+C50,neper,TANCA
+C51,neper per second,TANCA
+C52,picometre,TANCA
+C53,newton metre second,TANCA
+C54,newton metre squared  kilogram squared,TANCA
+C55,newton per square metre,TANCA
+C56,newton per square millimetre,TANCA
+C57,newton second,TANCA
+C58,newton second per metre,TANCA
+C59,octave,TANCA
+C6,cell,TANCA
+C60,ohm centimetre,TANCA
+C61,ohm metre,TANCA
+C62,one,TANCA
+C63,parsec,TANCA
+C64,pascal per kelvin,TANCA
+C65,pascal second,TANCA
+C66,pascal second per cubic metre,TANCA
+C67,pascal second per metre,TANCA
+C68,petajoule,TANCA
+C69,phon,TANCA
+C7,centipoise,TANCA
+C70,picoampere,TANCA
+C71,picocoulomb,TANCA
+C72,picofarad per metre,TANCA
+C73,picohenry,TANCA
+C75,picowatt,TANCA
+C76,picowatt per square metre,TANCA
+C77,pound gage,TANCA
+C78,pound-force,TANCA
+C8,millicoulomb per kilogram,TANCA
+C80,rad,TANCA
+C81,radian,TANCA
+C82,radian meter squared per mole,TANCA
+C83,radian metre squared per kilogram,TANCA
+C84,radian per metre,TANCA
+C85,"""reciprocal ƒ?ÿngstr""""m""",TANCA
+C86,reciprocal cubic metre,TANCA
+C87,reciprocal cubic metre per second,TANCA
+C88,reciprocal electron volt per cubic metre,TANCA
+C89,reciprocal henry,TANCA
+C9,coil group,TANCA
+C90,reciprocal joule per cubic metre,TANCA
+C91,reciprocal kelvin or kelvin to the power minus one,TANCA
+C92,reciprocal metre,TANCA
+C93,reciprocal square metre,TANCA
+C94,reciprocal minute,TANCA
+C95,reciprocal mole,TANCA
+C96,reciprocal pascal or pascal to the power minus one,TANCA
+C97,reciprocal second,TANCA
+C98,reciprocal second per cubic metre,TANCA
+C99,reciprocal second per metre squared,TANCA
+CA,can,TANCA
+CCT,carrying capacity in metric ton,TANCA
+CDL,candela,TANCA
+CEL,degree Celsius,TANCA
+CEN,hundred,TANCA
+CG,card,TANCA
+CGM,centigram,TANCA
+CH,container,TANCA
+CJ,cone,TANCA
+CK,connector,TANCA
+CKG,coulomb per kilogram,TANCA
+CL,coil,TANCA
+CLF,hundred leave,TANCA
+CLT,centilitre,TANCA
+CMK,square centimetre,TANCA
+CMQ,cubic centimetre,TANCA
+CMT,centimetre,TANCA
+CNP,hundred pack,TANCA
+CNT,cental (UK),TANCA
+CO,carboy,TANCA
+COU,coulomb,TANCA
+CQ,cartridge,TANCA
+CR,crate,TANCA
+CS,case,TANCA
+CT,carton,TANCA
+CTM,metric carat,TANCA
+CU,cup,TANCA
+CUR,curie,TANCA
+CV,cover,TANCA
+CWA,hundred pounds (cwt)/hundred weight (US),TANCA
+CWI,hundred weight (UK),TANCA
+CY,cylinder,TANCA
+CZ,combo,TANCA
+D1,reciprocal second per steradian,TANCA
+D10,siemens per metre,TANCA
+D12,siemens square metre per mole,TANCA
+D13,sievert,TANCA
+D14,thousand linear yard,TANCA
+D15,sone,TANCA
+D16,square centimetre per erg,TANCA
+D17,square centimetre per steradian erg,TANCA
+D18,metre kelvin,TANCA
+D19,square metre kelvin per watt,TANCA
+D2,reciprocal second per steradian metre squared,TANCA
+D20,square metre per joule,TANCA
+D21,square metre per kilogram,TANCA
+D22,square metre per mole,TANCA
+D23,pen gram (protein),TANCA
+D24,square metre per steradian,TANCA
+D25,square metre per steradian joule,TANCA
+D26,square metre per volt second,TANCA
+D27,steradian,TANCA
+D28,syphon,TANCA
+D29,terahertz,TANCA
+D30,terajoule,TANCA
+D31,terawatt,TANCA
+D32,terawatt hour,TANCA
+D33,tesla,TANCA
+D34,tex,TANCA
+D35,thermochemical calorie,TANCA
+D37,thermochemical calorie per gram kelvin,TANCA
+D38,thermochemical calorie per second centimetre kelvin,TANCA
+D39,thermochemical calorie per second square centimetre kelvin,TANCA
+D40,thousand litre,TANCA
+D41,tonne per cubic metre,TANCA
+D42,tropical year,TANCA
+D43,unified atomic mass unit,TANCA
+D44,var,TANCA
+D45,volt  squared per kelvin squared,TANCA
+D46,volt - ampere,TANCA
+D47,volt per centimetre,TANCA
+D48,volt per kelvin,TANCA
+D49,millivolt per kelvin,TANCA
+D5,kilogram per square centimeter,TANCA
+D50,volt per metre,TANCA
+D51,volt per millimetre,TANCA
+D52,watt per kelvin,TANCA
+D53,watt per metre kelvin,TANCA
+D54,watt per square metre,TANCA
+D55,watt per square metre kelvin,TANCA
+D56,watt per square metre kelvin to the fourth power,TANCA
+D57,watt per steradian,TANCA
+D58,watt per steradian square metre,TANCA
+D59,weber per metre,TANCA
+D6,rÇôntgen per second,TANCA
+D60,weber per millimetre,TANCA
+D61,minute,TANCA
+D62,second,TANCA
+D63,book,TANCA
+D64,block,TANCA
+D65,round,TANCA
+D66,cassette,TANCA
+D67,dollar per hour,TANCA
+D69,inch to the fourth power,TANCA
+D7,sandwich,TANCA
+D70,International Table (IT) calorie,TANCA
+D71,International Table (IT) calorie per second centimetre kelvin,TANCA
+D72,International Table (IT) calorie per second square centimetre kelvin,TANCA
+D73,joule square metre,TANCA
+D74,kilogram per mole,TANCA
+D75,International Table (IT) calorie per gram,TANCA
+D76,International Table (IT) calorie per gram kelvin,TANCA
+D77,megacoulomb,TANCA
+D79,beam,TANCA
+D8,draize score,TANCA
+D80,microwatt,TANCA
+D81,microtesla,TANCA
+D82,microvolt,TANCA
+D83,millinewton metre,TANCA
+D85,microwatt per square metre,TANCA
+D86,millicoulomb,TANCA
+D87,millimole per kilogram,TANCA
+D88,millicoulomb per cubic metre,TANCA
+D89,millicoulomb per square metre,TANCA
+D9,dyne per square centimeter,TANCA
+D90,cubic metre (net),TANCA
+D91,rem,TANCA
+D92,band,TANCA
+D93,second per cubic metre,TANCA
+D94,second per radian cubic metre,TANCA
+D95,joule per gram,TANCA
+D96,pound gross,TANCA
+D97,pallet/unit load,TANCA
+D98,mass pound,TANCA
+D99,sleeve,TANCA
+DAA,decare,TANCA
+DAD,ten day,TANCA
+DAY,day,TANCA
+DB,dry pound,TANCA
+DC,disk (disc),TANCA
+DD,degree,TANCA
+DE,deal,TANCA
+DEC,decade,TANCA
+DG,decigram,TANCA
+DI,dispenser,TANCA
+DJ,decagram,TANCA
+DLT,decilitre,TANCA
+DMK,square decimetre,TANCA
+DMQ,cubic decimetre,TANCA
+DMT,decimetre,TANCA
+DN,decinewton metre,TANCA
+DPC,dozen piece,TANCA
+DPR,dozen pair,TANCA
+DPT,displacement tonnage,TANCA
+DQ,data record,TANCA
+DR,drum,TANCA
+DRA,dram (US),TANCA
+DRI,dram (UK),TANCA
+DRL,dozen roll,TANCA
+DRM,drachm (UK),TANCA
+DS,display,TANCA
+DT,dry ton,TANCA
+DTN,decitonne,TANCA
+DU,dyne,TANCA
+DWT,pennyweight,TANCA
+DX,dyne per centimetre,TANCA
+DY,directory book,TANCA
+DZN,dozen,TANCA
+DZP,dozen pack,TANCA
+E2,belt,TANCA
+E3,trailer,TANCA
+E4,gross kilogram,TANCA
+E5,metric long ton,TANCA
+EA,each,TANCA
+EB,electronic mail box,TANCA
+EC,each per month,TANCA
+EP,eleven pack,TANCA
+EQ,equivalent gallon,TANCA
+EV,envelope,TANCA
+F1,thousand cubic feet per day,TANCA
+F9,fibre per cubic centimetre of air,TANCA
+FAH,degree Fahrenheit,TANCA
+FAR,farad,TANCA
+FB,field,TANCA
+FC,thousand cubic feet,TANCA
+FD,million particle per cubic foot,TANCA
+FE,track foot,TANCA
+FF,hundred cubic metre,TANCA
+FG,transdermal patch,TANCA
+FH,micromole,TANCA
+FL,flake ton,TANCA
+FM,million cubic feet,TANCA
+FOT,foot,TANCA
+FP,pound per square foot,TANCA
+FR,foot per minute,TANCA
+FS,foot per second,TANCA
+FTK,square foot,TANCA
+FTQ,cubic foot,TANCA
+G2,US gallon per minute,TANCA
+G3,Imperial gallon per minute,TANCA
+G7,microfiche sheet,TANCA
+GB,gallon (US) per day,TANCA
+GBQ,gigabecquerel,TANCA
+GC,gram per 100 gram,TANCA
+GD,gross barrel,TANCA
+GE,pound per gallon (US),TANCA
+GF,gram per metre (gram per 100 centimetres),TANCA
+GFI,gram of fissile isotope,TANCA
+GGR,great gross,TANCA
+GH,half gallon (US),TANCA
+GIA,gill (US),TANCA
+GII,gill (UK),TANCA
+GJ,gram per millilitre,TANCA
+GK,gram per kilogram,TANCA
+GL,gram per litre,TANCA
+GLD,dry gallon (US),TANCA
+GLI,gallon (UK),TANCA
+GLL,gallon (US),TANCA
+GM,gram per square metre,TANCA
+GN,gross gallon,TANCA
+GO,milligrams per square metre,TANCA
+GP,milligram per cubic metre,TANCA
+GQ,microgram per cubic meter,TANCA
+GRM,gram,TANCA
+GRN,grain,TANCA
+GRO,gross,TANCA
+GRT,gross register ton,TANCA
+GT,gross ton,TANCA
+GV,gigajoule,TANCA
+GW,gallon per thousand cubic feet,TANCA
+GWH,gigawatt hour,TANCA
+GY,gross yard,TANCA
+GZ,gage system,TANCA
+H1,half page - electronic,TANCA
+H2,half litre,TANCA
+HA,hank,TANCA
+HAR,hectare,TANCA
+HBA,hectobar,TANCA
+HBX,hundred boxe,TANCA
+HC,hundred count,TANCA
+HD,half dozen,TANCA
+HE,hundredth of a carat,TANCA
+HF,hundred feet,TANCA
+HGM,hectogram,TANCA
+HH,hundred cubic feet,TANCA
+HI,hundred sheet,TANCA
+HIU,hundred international unit,TANCA
+HJ,metric horse power,TANCA
+HK,hundred kilogram,TANCA
+HL,hundred feet (linear),TANCA
+HLT,hectolitre,TANCA
+HM,mile per hour,TANCA
+HMQ,million cubic metre,TANCA
+HMT,hectometre,TANCA
+HN,conventional millimetre of mercury,TANCA
+HO,hundred troy ounce,TANCA
+HP,conventional millimetre of water,TANCA
+HPA,hectolitre of pure alcohol,TANCA
+HS,hundred square feet,TANCA
+HT,half hour,TANCA
+HTZ,hertz,TANCA
+HUR,hour,TANCA
+HY,hundred yard,TANCA
+IA,inch pound (pound inch),TANCA
+IC,count per inch,TANCA
+IE,person,TANCA
+IF,inches of water,TANCA
+II,column inch,TANCA
+IL,inch per minute,TANCA
+IM,impression,TANCA
+INH,inch,TANCA
+INK,square inch,TANCA
+INQ,inch cubed,TANCA
+IP,insurance policy,TANCA
+IT,count per centimetre,TANCA
+IU,inch per second (linear speed),TANCA
+IV,inch per second squared (acceleration),TANCA
+J2,joule per kilogram,TANCA
+JB,jumbo,TANCA
+JE,joule per kelvin,TANCA
+JG,jug,TANCA
+JK,megajoule per kilogram,TANCA
+JM,megajoule per cubic metre,TANCA
+JO,joint,TANCA
+JOU,joule,TANCA
+JR,jar,TANCA
+K1,kilowatt demand,TANCA
+K2,kilovolt ampere reactive demand,TANCA
+K3,kilovolt ampere reactive hour,TANCA
+K5,kilovolt ampere (reactive),TANCA
+K6,kilolitre,TANCA
+KA,cake,TANCA
+KB,kilocharacter,TANCA
+KBA,kilobar,TANCA
+KD,kilogram decimal,TANCA
+KEL,kelvin,TANCA
+KF,kilopacket,TANCA
+KG,keg,TANCA
+KGM,kilogram,TANCA
+KGS,kilogram per second,TANCA
+KHZ,kilohertz,TANCA
+KI,kilogram per millimetre width,TANCA
+KJ,kilosegment,TANCA
+KJO,kilojoule,TANCA
+KL,kilogram per metre,TANCA
+KMH,kilometre per hour,TANCA
+KMK,square kilometre,TANCA
+KMQ,kilogram per cubic metre,TANCA
+KNI,kilogram of nitrogen,TANCA
+KNS,kilogram named substance,TANCA
+KNT,knot,TANCA
+KO,milliequivalence caustic potash per gram of product,TANCA
+KPA,kilopascal,TANCA
+KPH,kilogram of potassium hydroxide (caustic potash),TANCA
+KPO,kilogram of potassium oxide,TANCA
+KPP,kilogram of phosphorus pentoxide (phosphoric anhydride),TANCA
+KR,kilorÇôntgen,TANCA
+KS,thousand pound per square inch,TANCA
+KSD,kilogram of substance 90 % dry,TANCA
+KSH,kilogram of sodium hydroxide (caustic soda),TANCA
+KT,kit,TANCA
+KTM,kilometre,TANCA
+KTN,kilotonne,TANCA
+KUR,kilogram of uranium,TANCA
+KVA,kilovolt - ampere,TANCA
+KVR,kilovar,TANCA
+KVT,kilovolt,TANCA
+KW,kilograms per millimeter,TANCA
+KWH,kilowatt hour,TANCA
+KWT,kilowatt,TANCA
+KX,millilitre per kilogram,TANCA
+L2,litre per minute,TANCA
+LA,pound per cubic inch,TANCA
+LBR,pound,TANCA
+LBT,troy pound (US),TANCA
+LC,linear centimetre,TANCA
+LD,litre per day,TANCA
+LE,lite,TANCA
+LEF,leaf,TANCA
+LF,linear foot,TANCA
+LH,labour hour,TANCA
+LI,linear inch,TANCA
+LJ,large spray,TANCA
+LK,link,TANCA
+LM,linear metre,TANCA
+LN,length,TANCA
+LO,lot,TANCA
+LP,liquid pound,TANCA
+LPA,litre of pure alcohol,TANCA
+LR,layer,TANCA
+LS,lump sum,TANCA
+LTN,ton (UK) or longton (US),TANCA
+LTR,litre,TANCA
+LUM,lumen,TANCA
+LUX,lux,TANCA
+LX,linear yard per pound,TANCA
+LY,linear yard,TANCA
+M0,magnetic tape,TANCA
+M1,milligrams per litre,TANCA
+M4,monetary value,TANCA
+M5,microcurie,TANCA
+M7,micro-inch,TANCA
+M9,million Btu per 1000 cubic feet,TANCA
+MA,machine per unit,TANCA
+MAL,mega litre,TANCA
+MAM,megametre,TANCA
+MAW,megawatt,TANCA
+MBE,thousand standard brick equivalent,TANCA
+MBF,thousand board feet,TANCA
+MBR,millibar,TANCA
+MC,microgram,TANCA
+MCU,millicurie,TANCA
+MD,air dry metric ton,TANCA
+MF,milligram per square foot per side,TANCA
+MGM,milligram,TANCA
+MHZ,megahertz,TANCA
+MIK,square mile,TANCA
+MIL,thousand,TANCA
+MIN,minute,TANCA
+MIO,million,TANCA
+MIU,million international unit,TANCA
+MK,milligram per square inch,TANCA
+MLD,milliard,TANCA
+MLT,millilitre,TANCA
+MMK,square millimetre,TANCA
+MMQ,cubic millimetre,TANCA
+MMT,millimetre,TANCA
+MON,month,TANCA
+MPA,megapascal,TANCA
+MQ,thousand metre,TANCA
+MQH,cubic metre per hour,TANCA
+MQS,cubic metre per second,TANCA
+MSK,metre per second squared,TANCA
+MT,mat,TANCA
+MTK,square metre,TANCA
+MTQ,cubic metre,TANCA
+MTR,metre,TANCA
+MTS,metre per second,TANCA
+MV,number of mults,TANCA
+MVA,megavolt - ampere,TANCA
+MWH,megawatt hour (1000 kW.h),TANCA
+N1,pen calorie,TANCA
+N2,number of lines,TANCA
+N3,print point,TANCA
+NA,milligram per kilogram,TANCA
+NAR,number of  articles,TANCA
+NB,barge,TANCA
+NBB,number of bobbins,TANCA
+NC,car,TANCA
+NCL,number of cells,TANCA
+ND,net barrel,TANCA
+NE,net litre,TANCA
+NEW,newton,TANCA
+NF,message,TANCA
+NG,net gallon (us),TANCA
+NH,message hour,TANCA
+NI,net imperial gallon,TANCA
+NIU,number of international units,TANCA
+NJ,number of screens,TANCA
+NL,load,TANCA
+NMI,nautical mile,TANCA
+NMP,number of packs,TANCA
+NN,train,TANCA
+NPL,number of parcels,TANCA
+NPR,number of pairs,TANCA
+NPT,number of parts,TANCA
+NQ,mho,TANCA
+NR,micromho,TANCA
+NRL,number of rolls,TANCA
+NT,net ton,TANCA
+NTT,net register ton,TANCA
+NU,newton metre,TANCA
+NV,vehicle,TANCA
+NX,part per thousand,TANCA
+NY,pound per air dry metric ton,TANCA
+OA,panel,TANCA
+OHM,ohm,TANCA
+ON,ounce per square yard,TANCA
+ONZ,ounce,TANCA
+OP,two pack,TANCA
+OT,overtime hour,TANCA
+OZ,ounce av,TANCA
+OZA,fluid ounce (US),TANCA
+OZI,fluid ounce (UK),TANCA
+P0,page - electronic,TANCA
+P1,percent,TANCA
+P2,pound per foot,TANCA
+P3,three pack,TANCA
+P4,four pack,TANCA
+P5,five pack,TANCA
+P6,six pack,TANCA
+P7,seven pack,TANCA
+P8,eight pack,TANCA
+P9,nine pack,TANCA
+PA,packet,TANCA
+PAL,pascal,TANCA
+PB,pair inch,TANCA
+PD,pad,TANCA
+PE,pound equivalent,TANCA
+PF,pallet (lift),TANCA
+PG,plate,TANCA
+PGL,proof gallon,TANCA
+PI,pitch,TANCA
+PK,package,TANCA
+PL,pail,TANCA
+PM,pound percentage,TANCA
+PN,pound net,TANCA
+PO,pound per inch of length,TANCA
+PQ,page per inch,TANCA
+PR,pair,TANCA
+PS,pound-force per square inch,TANCA
+PT,pint (US),TANCA
+PTD,dry pint (US),TANCA
+PTI,pint  (UK),TANCA
+PTL,liquid pint (US),TANCA
+PU,tray / tray pack,TANCA
+PV,half pint (US),TANCA
+PW,pound per inch of width,TANCA
+PY,peck dry (US),TANCA
+PZ,peck dry (UK),TANCA
+Q3,meal,TANCA
+QA,page - facsimile,TANCA
+QAN,quarter (of a year),TANCA
+QB,page - hardcopy,TANCA
+QD,quarter dozen,TANCA
+QH,quarter hour,TANCA
+QK,quarter kilogram,TANCA
+QR,quire,TANCA
+QT,quart (US),TANCA
+QTD,dry quart (US),TANCA
+QTI,quart (UK),TANCA
+QTL,liquid quart (US),TANCA
+QTR,quarter (UK),TANCA
+R1,pica,TANCA
+R4,calorie,TANCA
+R9,thousand cubic metre,TANCA
+RA,rack,TANCA
+RD,rod,TANCA
+RG,ring,TANCA
+RH,running or operating hour,TANCA
+RK,roll metric measure,TANCA
+RL,reel,TANCA
+RM,ream,TANCA
+RN,ream metric measure,TANCA
+RO,roll,TANCA
+RP,pound per ream,TANCA
+RPM,revolutions per minute,TANCA
+RPS,revolutions per second,TANCA
+RS,reset,TANCA
+RT,revenue ton mile,TANCA
+RU,run,TANCA
+S3,square foot per second,TANCA
+S4,square metre per second,TANCA
+S5,sixty fourths of an inch,TANCA
+S6,session,TANCA
+S7,storage unit,TANCA
+S8,standard advertising unit,TANCA
+SA,sack,TANCA
+SAN,half year (6 months),TANCA
+SCO,score,TANCA
+SCR,scruple,TANCA
+SD,solid pound,TANCA
+SE,section,TANCA
+SEC,second,TANCA
+SET,set,TANCA
+SG,segment,TANCA
+SHT,shipping ton,TANCA
+SIE,siemens,TANCA
+SK,split tanktruck,TANCA
+SL,slipsheet,TANCA
+SMI,mile (statute mile),TANCA
+SN,square rod,TANCA
+SO,spool,TANCA
+SP,shelf package,TANCA
+SQ,square,TANCA
+SR,strip,TANCA
+SS,sheet  metric measure,TANCA
+SST,short standard (7200 matches),TANCA
+ST,sheet,TANCA
+STI,stone (UK),TANCA
+STN,ton (US) or short ton (UK/US),TANCA
+SV,skid,TANCA
+SW,skein,TANCA
+SX,shipment,TANCA
+T0,telecommunication line in service,TANCA
+T1,thousand pound gross,TANCA
+T3,thousand piece,TANCA
+T4,thousand bag,TANCA
+T5,thousand casing,TANCA
+T6,thousand gallon (US),TANCA
+T7,thousand impression,TANCA
+T8,thousand linear inch,TANCA
+TA,tenth cubic foot,TANCA
+TAH,kiloampere hour (thousand ampere hour),TANCA
+TC,truckload,TANCA
+TD,therm,TANCA
+TE,tote,TANCA
+TF,ten square yard,TANCA
+TI,thousand square inch,TANCA
+TJ,thousand square centimetre,TANCA
+TK,"tank, rectangular",TANCA
+TL,thousand feet (linear),TANCA
+TN,tin,TANCA
+TNE,tonne (metric ton),TANCA
+TP,ten pack,TANCA
+TPR,ten pair,TANCA
+TQ,thousand feet,TANCA
+TQD,thousand cubic metre per day,TANCA
+TR,ten square feet,TANCA
+TRL,trillion (EUR),TANCA
+TS,thousand square feet,TANCA
+TSD,tonne of substance 90 % dry,TANCA
+TSH,ton of steam per hour,TANCA
+TT,thousand linear metre,TANCA
+TU,tube,TANCA
+TV,thousand kilogram,TANCA
+TW,thousand sheet,TANCA
+TY,"tank, cylindrical",TANCA
+U1,treatment,TANCA
+U2,tablet,TANCA
+UA,torr,TANCA
+UB,telecommunication  line in service average,TANCA
+UC,telecommunication port,TANCA
+UD,tenth minute,TANCA
+UE,tenth hour,TANCA
+UF,usage per telecommunication line average,TANCA
+UH,ten thousand yard,TANCA
+UM,million unit,TANCA
+VA,volt ampere per kilogram,TANCA
+VI,vial,TANCA
+VLT,volt,TANCA
+VQ,bulk,TANCA
+VS,visit,TANCA
+W2,wet kilo,TANCA
+W4,two week,TANCA
+WA,watt per kilogram,TANCA
+WB,wet pound,TANCA
+WCD,cord,TANCA
+WE,wet ton,TANCA
+WEB,weber,TANCA
+WEE,week,TANCA
+WG,wine gallon,TANCA
+WH,wheel,TANCA
+WHR,watt hour,TANCA
+WI,weight per square inch,TANCA
+WM,working month,TANCA
+WR,wrap,TANCA
+WSD,standard,TANCA
+WTT,watt,TANCA
+WW,millilitre of water,TANCA
+X1,chain,TANCA
+YDK,square yard,TANCA
+YDQ,cubic yard,TANCA
+YL,hundred linear yard,TANCA
+YRD,yard,TANCA
+YT,ten yard,TANCA
+Z1,lift van,TANCA
+Z2,chest,TANCA
+Z3,cask,TANCA
+Z4,hogshead,TANCA
+Z5,lug,TANCA
+Z6,conference point,TANCA
+Z8,newspage agate line,TANCA
+ZP,page,TANCA
+ZZ,mutually defined,TANCA

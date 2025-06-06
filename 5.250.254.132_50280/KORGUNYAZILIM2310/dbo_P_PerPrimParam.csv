@@ -1,0 +1,3 @@
+inx,PK,PerKul,Tarih,Dahil,Hedef,SHBireysel,SHBireyselPC,UstLimitVar,UstLimit,ULFatura,ULFaturaPC,ULSatis,ULSatisPC,ULMaas,Sistem,Carpan,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+0,0,A01001,2013-01-01 00:00:00,*,0,0E-10,, ,0,0E-10,,0E-10,,0E-10,0,1,0,,,,,,
+1,0,A01001,2013-01-01 00:00:00, ,0,0E-10,, ,0,0E-10,,0E-10,,0E-10,0,1,1,,,,,,

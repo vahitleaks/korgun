@@ -1,0 +1,45 @@
+inx,UserName,TarihSaat,Modul,MOption,CheckValue,OldCheckValue
+1,Hamzas,2013-11-04 12:13:01.470000,GENEL,DovizUyar,Evet,Hayir
+2,Hamzas,2013-11-04 12:18:32.513000,GENEL,Mail_Silme,Evet,Hayir
+3,Hamzas,2013-11-04 12:18:32.513000,GENEL,ScrSvrint,00:05:00,00:00:00
+4,Şölenk,2013-11-05 18:21:43.470000,SipFis,CopyBelNo,Evet,Hayir
+5,dbo,2014-01-16 12:32:05.497000,SipFis,SipAlanSec,Evet,Hayir
+6,dbo,2014-01-16 12:36:13.163000,SipFis,CKreCheckSi,Evet,Hayir
+7,dbo,2015-12-26 14:54:43.330000,Cari,CAcKurUse,Evet,Hayir
+8,dbo,2015-12-26 14:55:11.190000,Cari,OzKod2,Kategori,Özel Kod 2
+9,dbo,2015-12-26 14:55:11.190000,Cari,OzKod3,Bölge,Özel Kod 3
+10,dbo,2015-12-26 14:55:22.103000,Cari,OzKod1,Cari Tipi,Cari_Tipi
+11,dbo,2015-12-26 14:55:44.370000,Cari,HEkstrGrup,Evet,Hayir
+12,dbo,2015-12-26 14:56:12.653000,SipFis,CAcKurChgFiyat,Evet,Hayir
+13,dbo,2015-12-26 14:58:17.993000,SipFis,SipOzKod1,Cari Bölge,Özel Kod 1
+14,dbo,2015-12-26 14:58:17.993000,SipFis,SipOzKod2,Sip.Bölge,Özel Kod 2
+15,dbo,2015-12-26 14:58:17.993000,SipFis,SipOzKod3,Sip.Tip,Özel Kod 3
+16,dbo,2015-12-26 14:58:17.993000,SipFis,SipOzKod4,Sip.Yılı,Özel Kod 4
+17,dbo,2015-12-26 14:58:17.993000,SipFis,SipOzKod5,Sezon,Özel Kod 5
+18,dbo,2017-10-26 18:04:32.467000,SipFis,SipCopyLot,Hayir,Evet
+19,dbo,2017-11-06 12:59:55.167000,SipFis,LotForce,Evet,Hayir
+20,dbo,2017-11-06 12:59:55.173000,SipFis,SipCopyLot,Evet,Hayir
+21,Alik,2018-03-22 12:03:03.750000,SipFis,KdvDahil,Evet,Hayir
+22,Alik,2018-03-22 12:08:39.397000,SipFis,KdvDahil,Hayir,Evet
+23,dbo,2018-07-25 22:17:40.240000,Uretim,OutTypeUr,Gun,TekFis
+24,dbo,2018-07-25 22:17:42.340000,GENEL,RBAsStokMvcd,Hayir,Evet
+25,dbo,2018-07-26 10:14:26.277000,Uretim,OutTypeHam,ProsesGun,TekFis
+26,dbo,2018-07-26 10:14:26.280000,Uretim,OutTypeYan,ProsesGun,TekFis
+27,dbo,2018-07-26 12:34:43.990000,Cari,OzKod4,Kargo,Özel Kod 4
+28,dbo,2018-07-26 17:11:18.203000,SipFis,SipBagMikChange,Evet,Hayir
+29,dbo,2018-07-27 11:17:09.667000,GENEL,OtomLokasyon,Evet,Hayir
+30,dbo,2018-08-11 12:04:50.403000,SipFis,CopyNotlar,Hayır,Evet
+31,dbo,2018-08-14 14:57:47.587000,Cari,CEkstreBasTar,01/01/2018,01/01/2015
+32,dbo,2019-06-20 12:03:29.360000,SipFis,SipOzKod1,Marka,Cari Bölge
+33,dbo,2019-06-20 12:08:19.650000,SipFis,SPrivateCodeEnabled,Hayir,Evet
+34,dbo,2019-06-20 12:08:53.683000,SipFis,NoOzKod1,Evet,Hayir
+35,dbo,2022-05-12 12:33:05.050000,PosFis,SatKodZorunlu,Evet,Hayir
+36,dbo,2022-05-25 14:05:35.590000,SipFis,SipOzKod5,Mağaza,Sezon
+37,dbo,2022-06-07 11:46:02.510000,SipFis,SipSilPsw,311014,
+38,dbo,2022-06-07 11:48:09.037000,SipFis,SipSilPsw,,311014
+39,dbo,2022-07-26 10:40:24.087000,SipFis,SipOzKod4,M.Temsilcisi,Sip.Yılı
+40,dbo,2022-07-26 10:40:59.613000,SipFis,NoOzKod4,Evet,Hayir
+41,dbo,2024-05-31 11:48:04.133000,Cari,OzKod6,Müşteri Temsilcisi,Özel Kod 6
+42,dbo,2024-05-31 14:36:41.243000,Cari,OzKod6,Temsilcisi,Müşteri Temsilcisi
+43,dbo,2024-05-31 14:38:15.440000,Cari_Gizli,ZorunluMaster,OzKod6,*
+44,dbo,2024-07-22 16:03:35.020000,GENEL,DovizUyar,Hayir,Evet

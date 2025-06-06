@@ -1,0 +1,1055 @@
+inx,Tanim,Bolum,Ayarlar,UserName
+1,LOT,Sipariş S Lot Biçimi,"--
+-- Created Date and Time 13/01/2021 - 15:05:22
+-- Created Name LOT
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Lot biçimleri
+[Grouped Fileds]
+BelgeNo
+[END]
+[Visible Fileds]
+5
+[END]
+",TUTKU
+5,LOTTEKLIF,Sipariş ST Lot Biçimi,"--
+-- Created Date and Time 18/01/2021 - 17:02:41
+-- Created Name LOTTEKLIF
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Lot biçimleri
+[Grouped Fileds]
+BelgeNo
+[END]
+[Visible Fileds]
+5
+[END]
+",TUTKU
+6,ARIF,miSiparisYon1,"--
+-- Created Date and Time 29/04/2023 - 11:42:36
+-- Created Name ARIF
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miSipAlan
+miRKod
+miUreticiKodu
+miBelgeNo
+[END]
+[Visible Fileds]
+cariKod
+SipAlan_Tanim
+UreticiKodu
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+BelgeNo	65
+CariKod_Tanim	144
+SipAlan	36
+UreticiKodu_Tanim	53
+SKod	79
+SKod_Tanim	171
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",ARIF
+7,BEKLEYEN_MAL,miSiparisYon2,"--
+-- Created Date and Time 14/11/2023 - 11:23:00
+-- Created Name BEKLEYEN_MAL
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+cariKod
+SipAlan_Tanim
+UreticiKodu
+CariKod_Tanim
+Gonderilen
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipAlan	64
+SipTar	64
+cariKod	64
+CariKod_Tanim	184
+BelgeNo	59
+UreticiKodu_Tanim	140
+SKod	64
+SKod_Tanim	184
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",ARIF
+8,DEPO,miSiparisYon2,"--
+-- Created Date and Time 12/04/2021 - 12:54:52
+-- Created Name DEPO
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miRKod
+miUreticiKodu
+miBelgeNo
+[END]
+[Visible Fileds]
+CariKod_Tanim
+cariKod
+UreticiKodu
+FToplam
+Tutar
+ParaCinsi
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+BelgeNo	73
+cariKod	64
+CariKod_Tanim	145
+UreticiKodu_Tanim	94
+UreticiKodu	64
+SKod	64
+SKod_Tanim	184
+RKod	64
+RKod_Tanim	184
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",ORHAN
+9,KALANLAR,miSiparisYon2,"--
+-- Created Date and Time 13/04/2021 - 17:52:08
+-- Created Name KALANLAR
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miSKod
+miBelgeNo
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+SKod_Tanim
+UreticiKodu
+Tutar
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+BelgeNo	184
+UreticiKodu_Tanim	102
+SKod	64
+SKod_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+Siparis_Miktari	64
+Net_Kalan	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",SALIH
+10,MELIS,miSiparisYon1,"--
+-- Created Date and Time 10/11/2021 - 11:11:10
+-- Created Name MELIS
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miSKod
+miBelgeNo
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+UreticiKodu
+Stok_Mevcudu
+Fazla_Alim
+Giren
+Gireniade
+iade
+Cikaniade
+Cikan
+SKod_Tanim
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+BelgeNo	92
+UreticiKodu_Tanim	119
+SKod	64
+SKod_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Fazla_Alim	64
+iade	64
+Harici_Kapatilan	64
+Net_Kalan	64
+Stok_Mevcudu	64
+Giren	64
+Cikan	64
+Gireniade	64
+Cikaniade	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",MELIS
+11,BEKLEYEN,miSiparisYon2,"--
+-- Created Date and Time 17/10/2022 - 10:53:19
+-- Created Name BEKLEYEN
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miSKod
+miBelgeNo
+miSipTanim
+miRKod
+miCariKod
+miSipAlan
+[END]
+[Visible Fileds]
+sipno
+SipHarinx
+ParaCinsi
+Tutar
+SKod
+cariKod
+Toplam_Kapatilan
+Gonderilen
+SipAlan_Tanim
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipAlan	64
+SipTar	64
+BelgeNo	94
+CariKod_Tanim	122
+SKod	64
+SKod_Tanim	184
+SipTanim	184
+RKod	64
+Siparis_Miktari	64
+Net_Kalan	64
+Birim	64
+RKod_Tanim	184
+ParaCinsi	64
+Tutar	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+cariKod	64
+Harici_Kapatilan	64
+SipAlan_Tanim	184
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",MELIS
+12,JULIA,miSiparisYon2,"--
+-- Created Date and Time 27/09/2022 - 12:29:49
+-- Created Name JULIA
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miSipTanim
+miRKod
+[END]
+[Visible Fileds]
+SipAlan_Tanim
+Tutar
+FToplam
+ParaCinsi
+Gonderilen
+Faturalanan
+cariKod
+SKod_Tanim
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+BelgeNo	73
+SipAlan	64
+CariKod_Tanim	117
+SKod	64
+SKod_Tanim	184
+SipAlan_Tanim	184
+SipTanim	184
+RKod	64
+RKod_Tanim	184
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",JULIA
+13,bekleyen,miSiparisYon2,"--
+-- Created Date and Time 06/10/2022 - 09:47:55
+-- Created Name bekleyen
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miSKod
+miBelgeNo
+miSipAlan
+miSipTanim
+miRKod
+[END]
+[Visible Fileds]
+SKod_Tanim
+SipAlan_Tanim
+Gonderilen
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+SKod_Tanim	184
+SipAlan	64
+BelgeNo	74
+SKod	64
+SipAlan_Tanim	184
+RKod_Tanim	184
+SipTanim	273
+RKod	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",AYTEKIN
+14,BEKLEYEN,miSiparisYon2,"--
+-- Created Date and Time 21/10/2022 - 11:43:02
+-- Created Name BEKLEYEN
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miSKod
+miBelgeNo
+miSipAlan
+miSipTanim
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+SipAlan_Tanim
+UreticiKodu
+FToplam
+Tutar
+ParaCinsi
+Toplam_Kapatilan
+Gonderilen
+SKod_Tanim
+Birim
+Faturalanan
+Harici_Kapatilan
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipAlan	64
+SipTar	64
+BelgeNo	66
+UreticiKodu_Tanim	60
+SKod	64
+SKod_Tanim	184
+RKod_Tanim	184
+SipAlan_Tanim	184
+SipTanim	184
+RKod	64
+UreticiKodu	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",OMER
+15,BEKLEYEN,miSiparisYon2,"--
+-- Created Date and Time 27/10/2022 - 13:52:37
+-- Created Name BEKLEYEN
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miSKod
+miBelgeNo
+miSipAlan
+miSipTanim
+[END]
+[Visible Fileds]
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+SKod	64
+SKod_Tanim	184
+BelgeNo	184
+SipAlan	64
+SipAlan_Tanim	184
+SipTanim	184
+Siparis_Miktari	64
+Birim	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",KAMILA
+16,DEPO STOK,miStokYonetim,"--
+-- Created Date and Time 23/01/2023 - 17:15:31
+-- Created Name DEPO STOK
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Stok Management
+[Grouped Fileds]
+miSKod
+miRKod
+miBeden
+[END]
+[Visible Fileds]
+Birim
+Giren
+Cikan
+Gireniade
+Cikaniade
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SKod	124
+SKod_Tanim	184
+RKod	64
+RKod_Tanim	184
+bedinx	64
+Beden	64
+Birim	64
+Giren	64
+Cikan	64
+Gireniade	64
+Cikaniade	64
+Stok_Mevcudu	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",DILARA
+17,DEPO,miSiparisYon1,"--
+-- Created Date and Time 13/03/2023 - 19:29:53
+-- Created Name DEPO
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+cariKod
+SKod
+SipAlan_Tanim
+UreticiKodu
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+BelgeNo	74
+SipAlan	64
+CariKod_Tanim	184
+SKod	64
+UreticiKodu_Tanim	184
+SKod_Tanim	184
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",OMER
+18,teklifler,miSiparisYon3,"--
+-- Created Date and Time 17/03/2023 - 10:08:47
+-- Created Name teklifler
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+SipAlan_Tanim
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+SipAlan	64
+cariKod	64
+CariKod_Tanim	95
+SKod	64
+SKod_Tanim	184
+BelgeNo	77
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+UreticiKodu_Tanim	184
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+iskontoTut	64
+Tutar	64
+ParaCinsi	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",ARIF
+19,PAZARLAMA,miSiparisYon1,"--
+-- Created Date and Time 18/05/2023 - 20:10:57
+-- Created Name PAZARLAMA
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+SipAlan_Tanim
+Faturalanan
+UreticiKodu
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+BelgeNo	52
+SipAlan	64
+CariKod_Tanim	124
+UreticiKodu_Tanim	80
+SKod	74
+SKod_Tanim	184
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",SALIH
+20,RAPOR,miSiparisYon1,"--
+-- Created Date and Time 23/06/2023 - 15:58:41
+-- Created Name RAPOR
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+cariKod
+SipAlan_Tanim
+UreticiKodu
+Faturalanan
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipTar	64
+cariKod	64
+UreticiKodu	64
+BelgeNo	56
+CariKod_Tanim	184
+UreticiKodu_Tanim	82
+SKod	64
+SKod_Tanim	184
+SipAlan	64
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+Siparis_Miktari	64
+Birim	64
+Net_Kalan	64
+FToplam	64
+KdvTutari	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",FIRUZE
+21,EN_COK_SATAN_STOK,miFaturaYon,"--
+-- Created Date and Time 04/08/2023 - 11:15:56
+-- Created Name EN_COK_SATAN_STOK
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Fatura Management
+[Grouped Fileds]
+miSKod
+[END]
+[Visible Fileds]
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SKod	64
+SKod_Tanim	184
+Fatura_Miktari	124
+Birim	64
+FToplam	124
+iskontoTut	124
+KDVTutari	124
+Tutar	124
+ParaCinsi	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",ARIF
+22,LOT,Sipariş S Lot Biçimi,"--
+-- Created Date and Time 29/07/2024 - 16:12:41
+-- Created Name LOT
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Lot biçimleri
+[Grouped Fileds]
+BelgeNo
+[END]
+[Visible Fileds]
+5
+[END]
+",ABDULLAH
+23,lLOT,Sipariş ST Lot Biçimi,"--
+-- Created Date and Time 30/07/2024 - 15:41:44
+-- Created Name lLOT
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Lot biçimleri
+[Grouped Fileds]
+BelgeNo
+[END]
+[Visible Fileds]
+5
+[END]
+",ABDULLAH
+24,siparisler,miSiparisYon1,"--
+-- Created Date and Time 20/09/2024 - 17:36:28
+-- Created Name siparisler
+--
+-- Company Korgun Yazılım Danışmanlık Tic. Ltd. Sti. 
+--
+--
+[Description] 
+Sip Management
+[Grouped Fileds]
+miSipTar
+miCariKod
+miSKod
+miBelgeNo
+miSipAlan
+miRKod
+miUreticiKodu
+[END]
+[Visible Fileds]
+SipAlan_Tanim
+iskontoTut
+Matrah
+KdvTutari
+FToplam
+Tutar
+ParaCinsi
+[END]
+[Calculated Fileds]
+[END]
+[Calculated Fileds2]
+[END]
+[Columns Properties]
+SipAlan	64
+SipTar	64
+BelgeNo	102
+cariKod	64
+CariKod_Tanim	142
+SKod	64
+SKod_Tanim	184
+SipAlan_Tanim	184
+RKod	64
+RKod_Tanim	184
+UreticiKodu	64
+UreticiKodu_Tanim	184
+Siparis_Miktari	64
+Birim	64
+FToplam	64
+iskontoTut	64
+Matrah	64
+KdvTutari	64
+Tutar	64
+ParaCinsi	64
+Toplam_Kapatilan	64
+Gonderilen	64
+Faturalanan	64
+Harici_Kapatilan	64
+Net_Kalan	64
+[END]
+[Cube Rapor Grp]
+[END]
+[Cube Rapor Row]
+[END]
+[Cube Rapor Col]
+[END]
+[Cube Rapor Val]
+[END]
+",AYTEKIN

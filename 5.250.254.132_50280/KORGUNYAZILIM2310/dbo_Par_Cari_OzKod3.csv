@@ -1,0 +1,12 @@
+Kod,Tanim,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+D-Abonelikler,Abonelikerl,1,,,,,,
+D-Diğer,Diğer Satıcılar,2,,,,,,
+H-Hizmet,Hizmet Satıcıları,3,,,,,,
+Laleli,Laleli,4,,,,,,
+M-Kargo,Kargo ve Aracı Müşteriler,5,,,,,,
+M-Laleli,Laleli Müşteri,6,,,,,,
+M-Yurtdışı,Yurtdışı Müşteri,7,,,,,,
+M-Yurtiçi,İç Piyasa Müşteri,8,,,,,,
+S-Malzemeci,Malzeme Satıcıları,9,,,,,,
+S-Mamul,Ticari Mal Satıcıları,10,,,,,,
+S-Parçabaşı,Parçabaşı İş Yapanlar,11,,,,,,

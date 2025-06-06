@@ -1,0 +1,4 @@
+FatEKod,Tarih,Message,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+c768e006-2c10-4bfb-99ee-0164526ab975,2024-09-17 11:42:47.967000,Unauthorized,3,harun,2024-09-17 11:42:47.967000,KGEntegrator,,,
+ecff2abc-8075-470c-a949-27a6e346b2f1,2024-09-17 11:42:27.270000,Unauthorized,2,harun,2024-09-17 11:42:27.270000,KGEntegrator,,,
+d8e3ddbf-04a5-4bcb-8f85-f35fb0f20286,2024-06-06 14:13:16.373000,Uzak sunucu beklenmeyen bir yanıt gönderdi: (400) Bad Request.,1,Samet,2024-06-06 14:13:16.373000,KGEntegrator,,,

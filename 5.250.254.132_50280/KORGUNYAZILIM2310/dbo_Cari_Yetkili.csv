@@ -1,0 +1,17 @@
+CKod,CYetInx,YetName,Unvan,Tel,CepTel,eMail,Notu,rowguid,SMS,mail,kgid,mkgid,insUN,insDT,insApp,updUN,updDT,updApp
+120.01.001,12,AHMET,KULLANILMAZ,2129988911,05076652211,ahmet@kullanilmazbu.com,,d0049840-be45-4ef6-8632-38f11fd21a41,*,F,12,1920,Samet,2023-12-12 13:06:27.823000,KG-Shope,Samet,2023-12-12 13:12:39.310000,KG-Shope
+120.01.004,11,Samet,Samet,05314330978,05314330976,samet.kundakcioglu@korgun.com.tr,,d4f299d1-aeac-4905-9536-133b0a986165,*,*,11,3,Samet,2023-12-06 10:49:35.353000,,Samet,2023-12-12 13:14:27.373000,KG-Shope
+120.01.007,13,Temur,Dikmen,2127765544,5078867661,temur@google.com,,7acb43f9-f2f2-4e7f-a14e-9e222bbe2e08,*,,13,4,Samet,2023-12-12 13:24:12.733000,KG-Shope,Samet,2023-12-12 13:24:12.737000,KG-Shope
+120.01.014,15,Angelina,Jolie,887766111,90909011211,angelina@usa.com,,b7a3bd26-5fe1-42ab-93fb-1ad79e7bb21d, ,*,15,7,Samet,2023-12-12 14:41:03.820000,KG-Shope,Samet,2023-12-12 14:41:03.820000,KG-Shope
+120.01.017,14,Ana ,De Armas,0900999110,050760588771,ana@ana.com,,cc76e43e-a966-4150-a256-df1b963e0dc7,*, ,14,8,Samet,2023-12-12 14:26:12.687000,KG-Shope,Samet,2023-12-12 14:39:49.340000,KG-Shope
+120.01.64,16,Güray Erten,Genel Müdür,05532117285,05532117285,guray@erten.com,Firma Sahibidir,70bcdee4-4fe0-4d39-933a-c08fcdc41cd7,*,,16,3901,Guray,2024-03-12 13:07:29.250000,KGShop,Guray,2024-03-12 13:08:10.893000,KGShop
+120.01.64,17,Derya Erten,Muhasebe,05369517285,05369517285,derya@erten.com,Muhasebe Yetkilisidr.,018df690-8cbd-41c8-9c20-8e430c9556c3,,*,17,3901,Guray,2024-03-12 13:08:10.910000,KGShop,Guray,2024-03-12 13:08:10.913000,KGShop
+120.05.069,9,Giota Karaiskou,Buying Department,00302109895400,,b.buying@migato.com,,2c093ddf-f668-4901-9ae3-bbd39978c650,,,9,2026,,,,,,
+120.05.069,10,,,,,,,ff5f268b-a8cb-4e7d-a0ac-7a51894934fe,,,10,2026,,,,,,
+120.UZ.192,8,,,,,,,8cb117f7-6b13-462b-9bff-dbab832372cb,,,8,2342,,,,,,
+320.03.001,2,Ercan Ulusoy,İşletme Sahibi,,05543318106,ercan.ulusoy@orbitalyazilim.com.tr,,f227c36e-a02d-47a7-beb2-f91a19e1d8d9,,,2,2688,,,,,,
+320.03.001,3,Sercan Yerleşen,Eğitim Dep.Sorumlusu,,05543318107,sercan.yerlesen@orbitalyazilim.com.tr,,69df2e4c-b57d-4e91-9f27-73d5eb815696,,,3,2688,,,,,,
+320.03.001,4,Emrah Kanal,Teknik Sorumlu,,05543318108,emrah.kanal@orbitalyazilim.com.tr,,1ff75203-78c8-48a2-a6b1-fb1a94790523,,,4,2688,,,,,,
+320.03.001,5,Yeşim Sanlav,Muhasebe,,05543318105,yesim.sanlav@orbitalyazilim.com.tr,,890f39e6-da25-494a-bd42-92f8baae3d7b,,,5,2688,,,,,,
+320.03.106,6,Serkan bey ,Sahibi,,,,,0319ea02-04e3-4771-84d5-98db374ee516,,,6,2728,,,,,,
+320.03.106,7,,,,,,,c5792f5f-fd1f-41fb-ad63-84b3d496d175,,,7,2728,,,,,,

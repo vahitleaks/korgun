@@ -1,0 +1,2623 @@
+PARAD,MCTable,COLPLACE,FieldName,COLNAME,COLWidth,ColDispFormat,ToplamGoster,DBName
+Ercan2,0,0,SatKod,Satıcı Kodu,94,,,Antrepo20
+Ercan2,0,1,Location,Lokasyon,58,,,Antrepo20
+Ercan2,0,2,Location_Tanim,Lokasyon Tanım,304,,,Antrepo20
+Ercan2,0,3,Miktar,Miktar,238,"#,##0.##",,Antrepo20
+Ercan2,0,4,Birim,Birim,64,,,Antrepo20
+Ercan2,0,5,MYuzde,Miktar %,64,#.000,,Antrepo20
+Ercan2,0,6,Satici,Satıcı,250,,,Antrepo20
+Ercan2,0,7,StokFiyat,Stok Fiyatı,64,"#,##0.00",,Antrepo20
+Ercan2,0,8,Fiyat,Fiyat,64,"#,##0.00",,Antrepo20
+Ercan2,0,9,ParaCinsi,Kur,23,,,Antrepo20
+Ercan2,0,10,iskontoTut,İskonto Tutarı,83,"#,##0.##",,Antrepo20
+Ercan2,0,11,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,Antrepo20
+Ercan2,0,12,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,Antrepo20
+Ercan2,0,13,Tutar,Tutar,64,"#,##0.00",,Antrepo20
+Ercan2,0,14,TYuzde,Tutar %,64,#.000,,Antrepo20
+Ercan2,0,15,HRF_Maas,Maaş,64,"#,##0.##",,Antrepo20
+Ercan2,0,16,HRF_Barkod,Prim Oranı,154,,,Antrepo20
+Ercan2,0,17,HRF_OzKod5,Gider Oranı,604,,,Antrepo20
+rr,0,0,FisTip,FisTip,35,,,Antrepo20
+rr,0,1,FisNo,FisNo,42,,,Antrepo20
+rr,0,2,FisTar,FisTar,76,,,Antrepo20
+rr,0,3,CM,CM,38,,,Antrepo20
+rr,0,4,CariUnvan,CariUnvan,126,,,Antrepo20
+rr,0,5,Vade,Vade,70,,,Antrepo20
+rr,0,6,Tutar,Tutar,64,"#,##0.00",*,Antrepo20
+rr,0,7,ParaCinsi,ParaCinsi,25,,,Antrepo20
+rr,0,8,Masraf,Masraf,64,"#,##0.00",,Antrepo20
+rr,0,9,OdTip,OdTip,44,,,Antrepo20
+rr,0,10,Banka,Banka,52,,,Antrepo20
+rr,0,11,Sube,Sube,43,,,Antrepo20
+rr,0,12,Hesap,Hesap,58,,,Antrepo20
+rr,0,13,Tahsil,Tahsil,28,,,Antrepo20
+Banka_KK_Ekstresi,0,0,Tahsil,Tahsil,38,,,Antrepo20
+Banka_KK_Ekstresi,0,1,FisNo,FisNo,64,,,Antrepo20
+Banka_KK_Ekstresi,0,2,FisTar,FisTar,112,,,Antrepo20
+Banka_KK_Ekstresi,0,3,CM,CM,46,,,Antrepo20
+S2,0,0,SipNo,Sipariş No,23,"#,###.##",,Antrepo20
+S2,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S2,0,3,CariKod_Tanim,Sipariş Cari Ko,141,,,Antrepo20
+S2,0,4,TeslimTar,Termin Tarihi,60,,,Antrepo20
+S2,0,5,SipOzKod2,Sipariş Özel Ko,123,,,Antrepo20
+S2,0,6,SKod,Stok Kodu,73,,,Antrepo20
+S2,0,7,SKod_Tanim,Stok Kodu Tanım,125,,,Antrepo20
+S2,0,10,OzKod2,Özel Kod 2,52,,,Antrepo20
+S2,0,11,ROzKod2,Renk Özel Kod 2,66,,,Antrepo20
+S2,0,13,Siparis_Miktari,Sipariş Miktarı,42,"#,###.##",*,Antrepo20
+S2,0,14,CF2,Siparis Fiyatı,49,"#,###.##",,Antrepo20
+S2,0,15,ParaCinsi,Kur,23,,,Antrepo20
+S2,0,16,Birim,Birim,34,,,Antrepo20
+S2,0,17,FToplam,Fiş Toplamı,68,"#,##0.00",*,Antrepo20
+S2,0,18,iskontoTut,İskonto Tutarı,53,"#,##0.00",*,Antrepo20
+S2,0,20,Tutar,Tutar,38,"#,##0.00",*,Antrepo20
+S2,0,21,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S2,0,2,cariKod,Sipariş Cari Ko,101,,,Antrepo20
+S2,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S2,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S2,0,12,Resim,Resim,904,,,Antrepo20
+S2,0,19,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,Antrepo20
+S3,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S3,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Antrepo20
+S3,0,2,cariKod,Sipariş Cari Ko,101,,,Antrepo20
+S3,0,4,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S3,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S3,0,6,SKod,Stok Kodu,76,,,Antrepo20
+S3,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Antrepo20
+S3,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S3,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S3,0,10,OzKod2,Özel Kod 2,66,,,Antrepo20
+S3,0,11,ROzKod2,Renk Özel Kod 2,100,,,Antrepo20
+S3,0,12,Resim,Resim,904,,,Antrepo20
+S3,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S3,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Antrepo20
+S3,0,15,ParaCinsi,Kur,23,,,Antrepo20
+S3,0,16,Birim,Birim,34,,,Antrepo20
+S3,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Antrepo20
+S3,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S3,0,19,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S3,0,20,Tutar,Tutar,40,"#,##0.00",,Antrepo20
+S3,0,21,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S4,0,0,SipNo,Sipariş No,23,"#,###.##",,Antrepo20
+S4,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S4,0,2,cariKod,Sipariş Cari Ko,101,,,Antrepo20
+S4,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Antrepo20
+S4,0,4,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S4,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S4,0,6,SKod,Stok Kodu,76,,,Antrepo20
+S4,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Antrepo20
+S4,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S4,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S4,0,10,OzKod2,Özel Kod 2,66,,,Antrepo20
+S4,0,11,ROzKod2,Renk Özel Kod 2,100,,,Antrepo20
+S4,0,12,Resim,Resim,904,,,Antrepo20
+S4,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S4,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Antrepo20
+S4,0,15,ParaCinsi,Kur,23,,,Antrepo20
+S4,0,16,Birim,Birim,34,,,Antrepo20
+S4,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Antrepo20
+S4,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S4,0,19,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S4,0,20,Tutar,Tutar,40,"#,##0.00",,Antrepo20
+S4,0,21,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,Antrepo20
+S3,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S3,0,2,CariKod_Tanim,Sipariş Cari Ko,142,,,Antrepo20
+S5,0,0,SipNo,Sipariş No,23,"#,###.##",,Antrepo20
+S5,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S5,0,2,cariKod,Sipariş Cari Ko,101,,,Antrepo20
+S5,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Antrepo20
+S5,0,4,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S5,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S5,0,6,SKod,Stok Kodu,76,,,Antrepo20
+S5,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Antrepo20
+S5,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S5,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S5,0,10,OzKod2,Özel Kod 2,66,,,Antrepo20
+S5,0,11,ROzKod2,Renk Özel Kod 2,100,,,Antrepo20
+S5,0,12,Resim,Resim,904,,,Antrepo20
+S5,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S5,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Antrepo20
+S5,0,15,ParaCinsi,Kur,23,,,Antrepo20
+S5,0,16,Birim,Birim,34,,,Antrepo20
+S5,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Antrepo20
+S5,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S5,0,19,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S5,0,20,Tutar,Tutar,40,"#,##0.00",,Antrepo20
+S5,0,21,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S6,0,0,SipNo,Sipariş No,23,"#,###.##",,Antrepo20
+S6,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S6,0,2,cariKod,Sipariş Cari Ko,101,,,Antrepo20
+S6,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Antrepo20
+S6,0,4,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S6,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S6,0,6,SKod,Stok Kodu,76,,,Antrepo20
+S6,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Antrepo20
+S6,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S6,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S6,0,10,OzKod2,Özel Kod 2,66,,,Antrepo20
+S6,0,11,ROzKod2,Renk Özel Kod 2,100,,,Antrepo20
+S6,0,12,Resim,Resim,904,,,Antrepo20
+S6,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S6,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Antrepo20
+S6,0,15,ParaCinsi,Kur,23,,,Antrepo20
+S6,0,16,Birim,Birim,34,,,Antrepo20
+S6,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Antrepo20
+S6,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S6,0,19,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+Banka_KK_Ekstresi,0,4,CariUnvan,CariUnvan,364,,,Antrepo20
+Banka_KK_Ekstresi,0,5,Vade,Vade,112,,,Antrepo20
+S6,0,20,Tutar,Tutar,40,"#,##0.00",,Antrepo20
+S6,0,21,Stok_Resim,Stok_Resim,71,,,Antrepo20
+Banka_KK_Ekstresi,0,6,Tutar,Tutar,64,"#,##0.00",*,Antrepo20
+Banka_KK_Ekstresi,0,8,ParaCinsi,ParaCinsi,57,,,Antrepo20
+Banka_KK_Ekstresi,0,9,OdTip,OdTip,64,,,Antrepo20
+Banka_KK_Ekstresi,0,10,Banka,Banka,94,,,Antrepo20
+Banka_KK_Ekstresi,0,11,Sube,Sube,94,,,Antrepo20
+Banka_KK_Ekstresi,0,12,Hesap,Hesap,184,,,Antrepo20
+Banka_KK_Ekstresi,0,13,FisTip,FisTip,28,,,Antrepo20
+Firma_Cek_Dokumu,0,0,PortfoyNo,Portföy No,51,"#,##0.##",,Antrepo20
+Firma_Cek_Dokumu,0,1,Banka,Banka,67,,,Antrepo20
+01 - Siparis Kalan R,0,0,cariKod,Sipariş Cari Ko,79,,,Antrepo20
+01 - Siparis Kalan R,0,1,CariKod_Tanim,Sipariş Cari Ko,150,,,Antrepo20
+01 - Siparis Kalan R,0,2,Siparis_Miktari,Sipariş Miktarı,60,"#,##0.####",*,Antrepo20
+01 - Siparis Kalan R,0,3,Birim,Birim,34,,,Antrepo20
+01 - Siparis Kalan R,0,4,Gonderilen,Gönderilen,53,"#,##0.####",*,Antrepo20
+01 - Siparis Kalan R,0,5,Faturalanan,Faturalanan,45,"#,##0.####",*,Antrepo20
+01 - Siparis Kalan R,0,6,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.####",*,Antrepo20
+01 - Siparis Kalan R,0,7,Toplam_Kapatilan,Toplam Kapatıla,79,"#,##0.####",*,Antrepo20
+01 - Siparis Kalan R,0,8,Net_Kalan,Net Kalan,68,"#,##0.####",*,Antrepo20
+Firma_Cek_Dokumu,0,2,Sube,Şube,114,,,Antrepo20
+Firma_Cek_Dokumu,0,3,HesapNo,Hesap No,81,,,Antrepo20
+Firma_Cek_Dokumu,0,4,CekNo,Çek No,61,,,Antrepo20
+Firma_Cek_Dokumu,0,5,Vade,Vade,76,,,Antrepo20
+Firma_Cek_Dokumu,0,6,CMKod,Cari Kodu,94,,,Antrepo20
+Firma_Cek_Dokumu,0,7,CMKod_Tanim,Cari Kodu Tanım,151,,,Antrepo20
+Firma_Cek_Dokumu,0,8,Tutar,Tutar,64,"#,##0.00",*,Antrepo20
+Firma_Cek_Dokumu,0,9,ParaCinsi,Kur,23,,,Antrepo20
+Hayriye,0,0,OzKod3,Özel Kod 3,87,,,Antrepo20
+Hayriye,0,1,RKod_Tanim,Renk Tanımı,110,,,Antrepo20
+Hayriye,0,2,Siparis_Miktari,Sipariş Miktarı,112,"#,##0.##",,Antrepo20
+Hayriye,0,3,Birim,Birim,34,,,Antrepo20
+Hayriye,0,4,Stok_Resim,Stok_Resim,71,,,Antrepo20
+Kasa_Ekstresi,0,0,Fistar,Tarih,79,,,Antrepo20
+Kasa_Ekstresi,0,1,Cari,Hesap,74,,,Antrepo20
+Kasa_Ekstresi,0,2,Tanim,Tanim,141,,,Antrepo20
+Kasa_Ekstresi,0,3,HarAck,Aciklama,118,,,Antrepo20
+Kasa_Ekstresi,0,4,Borc,Borc,64,"#,##0.00",*,Antrepo20
+Kasa_Ekstresi,0,5,Alacak,Alacak,64,"#,##0.00",*,Antrepo20
+Kasa_Ekstresi,0,6,Bakiye,Bakiye,64,"#,##0.00",*,Antrepo20
+Kasa_Ekstresi,0,7,ParaCinsi,ParaCinsi,45,,,Antrepo20
+S9,0,0,SipNo,Sipariş No,23,"#,###.##",,Antrepo20
+S9,0,1,SipTar,Sipariş Tarihi,68,,,Antrepo20
+S9,0,2,cariKod,Sipariş Cari Ko,101,,,Antrepo20
+S9,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Antrepo20
+S9,0,4,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S9,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S9,0,6,SKod,Stok Kodu,76,,,Antrepo20
+S9,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Antrepo20
+S9,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S9,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S9,0,10,OzKod2,Özel Kod 2,66,,,Antrepo20
+S9,0,11,ROzKod2,Renk Özel Kod 2,100,,,Antrepo20
+S9,0,12,Resim,Resim,904,,,Antrepo20
+S9,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S9,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Antrepo20
+S9,0,15,ParaCinsi,Kur,23,,,Antrepo20
+S9,0,16,Birim,Birim,34,,,Antrepo20
+S9,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Antrepo20
+S9,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S9,0,19,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S9,0,20,Tutar,Tutar,40,"#,##0.00",,Antrepo20
+S9,0,21,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S10,0,0,SipTar,Sipariş Tarihi,112,,,Antrepo20
+S10,0,1,cariKod,Sipariş Cari Ko,94,,,Antrepo20
+S10,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,Antrepo20
+S10,0,3,SKod,Stok Kodu,94,,,Antrepo20
+S10,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,Antrepo20
+S10,0,5,SipNo,Sipariş No,142,"#,###.##",,Antrepo20
+S10,0,6,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S10,0,7,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S10,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S10,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S10,0,10,ROzKod2,Renk Özel Kod 2,304,,,Antrepo20
+S10,0,11,OzKod2,Özel Kod 2,100,,,Antrepo20
+S10,0,12,Resim,Resim,904,,,Antrepo20
+S10,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S10,0,14,Birim,Birim,34,,,Antrepo20
+S10,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,Antrepo20
+S10,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S10,0,17,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S10,0,18,Tutar,Tutar,64,"#,##0.00",,Antrepo20
+S10,0,19,ParaCinsi,Kur,23,,,Antrepo20
+S10,0,20,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S10,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,Antrepo20
+S11,0,0,SipTar,Sipariş Tarihi,112,,,Antrepo20
+S11,0,1,cariKod,Sipariş Cari Ko,94,,,Antrepo20
+S11,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,Antrepo20
+S11,0,3,SKod,Stok Kodu,94,,,Antrepo20
+S11,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,Antrepo20
+S11,0,5,SipNo,Sipariş No,142,"#,###.##",,Antrepo20
+S11,0,6,TeslimTar,Termin Tarihi,78,,,Antrepo20
+S11,0,7,SipOzKod2,Sipariş Özel Ko,124,,,Antrepo20
+S11,0,8,RKod,Renk,64,"#,###.##",,Antrepo20
+S11,0,9,RKod_Tanim,Renk Tanımı,304,,,Antrepo20
+S11,0,10,ROzKod2,Renk Özel Kod 2,304,,,Antrepo20
+S11,0,11,OzKod2,Özel Kod 2,100,,,Antrepo20
+S11,0,12,Resim,Resim,904,,,Antrepo20
+S11,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Antrepo20
+S11,0,14,Birim,Birim,34,,,Antrepo20
+S11,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,Antrepo20
+S11,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Antrepo20
+S11,0,17,Matrah,Matrah,64,"#,##0.00",,Antrepo20
+S11,0,18,Tutar,Tutar,64,"#,##0.00",,Antrepo20
+S11,0,19,ParaCinsi,Kur,23,,,Antrepo20
+S11,0,20,Stok_Resim,Stok_Resim,71,,,Antrepo20
+S11,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,Antrepo20
+r1,0,0,SKod,Stok Kodu,81,,,Antrepo20
+r1,0,1,ROzKod2,Renk Özel Kod 2,145,,,Antrepo20
+r1,0,2,OzKod2,Özel Kod 2,66,,,Antrepo20
+r1,0,3,CariKod_Tanim,Cari Tanım,122,,,Antrepo20
+r1,0,4,irsaliyeNo,İrsaliye No,82,,,Antrepo20
+r1,0,5,Fatura_Miktari,İrsaliye Miktar,34,"#,###.##",,Antrepo20
+r1,0,6,StokFiyat,Stok Fiyatı,64,"#,###.##",,Antrepo20
+r1,0,7,ParaCinsi,Kur,23,,,Antrepo20
+r1,0,8,Stok_Resim,Stok_Resim,71,,,Antrepo20
+Banka_KK_Ekstresi,0,7,Masraf,Masraf,64,"#,##0.00",,Antrepo20
+01 - Cari_Hesap_List,0,0,CKod,Cari Kod,60,,,Antrepo20
+01 - Cari_Hesap_List,0,1,CName,Cari Adı,124,,,Antrepo20
+01 - Cari_Hesap_List,0,2,ParaCinsi,ParaCinsi,24,,,Antrepo20
+01 - Cari_Hesap_List,0,3,Borc,Borc,64,"#,##0.00",*,Antrepo20
+01 - Cari_Hesap_List,0,4,Alacak,Alacak,64,"#,##0.00",*,Antrepo20
+01 - Cari_Hesap_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Antrepo20
+01 - Cari_Hesap_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Antrepo20
+01 - Cari_Hesap_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Antrepo20
+01 - Cari Islem List,0,0,Aciklama,Aciklama,166,,,Antrepo20
+01 - Cari Islem List,0,1,cbpg,Cari Kod,73,,,Antrepo20
+01 - Cari Islem List,0,2,cbpg_Tanim,Cari Kod Tanımı,227,,,Antrepo20
+01 - Cari Islem List,0,3,Tutar,Tutar,76,"#,##0.00",*,Antrepo20
+01 - Cari Islem List,0,4,ParaCinsi,ParaCinsi,33,,,Antrepo20
+02 - Cari Islem Deta,0,0,FisNo,FisNo,37,"#,##0.###",,Antrepo20
+02 - Cari Islem Deta,0,1,FisTar,İşlem Tarihi,65,,,Antrepo20
+02 - Cari Islem Deta,0,3,cbpg,Cari Kod,63,,,Antrepo20
+02 - Cari Islem Deta,0,4,cbpg_Tanim,Cari Kod Tanımı,150,,,Antrepo20
+02 - Cari Islem Deta,0,5,SatirAck1,SatirAck1,100,,,Antrepo20
+02 - Cari Islem Deta,0,6,Tutar,Tutar,68,"#,##0.00",*,Antrepo20
+02 - Cari Islem Deta,0,7,ParaCinsi,ParaCinsi,32,,,Antrepo20
+Kasa Islem Listesi,0,0,FisNo,FisNo,41,"#,##0.###",,Antrepo20
+Kasa Islem Listesi,0,1,Aciklama,Aciklama,89,,,Antrepo20
+Kasa Islem Listesi,0,2,FisTar,İşlem Tarihi,70,,,Antrepo20
+Kasa Islem Listesi,0,3,cbpg,Cari Kod,60,,,Antrepo20
+Kasa Islem Listesi,0,4,cbpg_Tanim,Cari Kod Tanımı,147,,,Antrepo20
+Kasa Islem Listesi,0,5,Tanim,Tanim,174,,,Antrepo20
+Kasa Islem Listesi,0,6,Tutar,Tutar,79,"#,##0.00",*,Antrepo20
+Kasa Islem Listesi,0,7,ParaCinsi,ParaCinsi,26,,,Antrepo20
+Hesap Planı Listesi,0,0,CODE,Kod,65,,,Antrepo20
+Hesap Planı Listesi,0,1,DEFINITION,Tanım,409,,,Antrepo20
+Hesap Planı Listesi,0,2,ID,ID,64,"#,###.####",,Antrepo20
+Hesap Planı Listesi,0,3,LEVEL_,LEVEL_,57,"#,###.####",,Antrepo20
+Banka Listesi,0,0,BankaTanim,Banka Tanım,93,,,Antrepo20
+Banka Listesi,0,1,sube,Şube Kodu,45,,,Antrepo20
+Banka Listesi,0,2,SubeTanim,Şube Tanım,135,,,Antrepo20
+Banka Listesi,0,3,HesapKod,Hesap Kodu,87,,,Antrepo20
+Banka Listesi,0,4,HesapTanim,Hesap Tanım,146,,,Antrepo20
+Banka Listesi,0,5,Paracinsi,Paracinsi,56,,,Antrepo20
+Banka Listesi,0,6,IBAN,IBAN,208,,,Antrepo20
+Banka Listesi,0,7,HesTip,Hesap Tipi,106,,,Antrepo20
+mağaza_ciro_raporu,0,0,Location_Tanim,Location_Tanim,140,,,Antrepo20
+mağaza_ciro_raporu,0,1,Miktar,Miktar,50,,*,Antrepo20
+mağaza_ciro_raporu,0,2,Birim,Birim,62,,,Antrepo20
+mağaza_ciro_raporu,0,3,StokFiyat,StokFiyat,76,,,Antrepo20
+mağaza_ciro_raporu,0,4,Fiyat,Fiyat,79,,*,Antrepo20
+mağaza_ciro_raporu,0,5,ParaCinsi,ParaCinsi,33,,,Antrepo20
+mağaza_ciro_raporu,0,6,iskontoTut,iskontoTut,72,,*,Antrepo20
+SF_Renkli_Liste,0,0,Resim,Resim,903,,,Antrepo20
+SF_Renkli_Liste,0,1,SKod,Stok Kodu,70,,,Antrepo20
+SF_Renkli_Liste,0,2,Tanim,Tanım,42,,,Antrepo20
+SF_Renkli_Liste,0,3,Renk_Tanim,Renk Tanim,59,,,Antrepo20
+SF_Renkli_Liste,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,Antrepo20
+SF_Renkli_Resimli,0,0,Resim,Resim,903,,,Antrepo20
+SF_Renkli_Resimli,0,1,SKod,Stok Kodu,70,,,Antrepo20
+SF_Renkli_Resimli,0,2,Tanim,Tanım,42,,,Antrepo20
+SF_Renkli_Resimli,0,3,Renk_Tanim,Renk Tanim,59,,,Antrepo20
+SF_Renkli_Resimli,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,Antrepo20
+mağaza_ciro_raporu,0,7,KDV_Tutar,KDV_Tutar,80,,*,Antrepo20
+mağaza_ciro_raporu,0,8,Tutar,Tutar,79,,*,Antrepo20
+mağaza_ciro_raporu,0,9,kdvsiz,kdvsiz,83,,,Antrepo20
+02 - Cari_Detay_List,0,0,CKod,Cari Kod,60,,,Antrepo20
+02 - Cari_Detay_List,0,2,ParaCinsi,ParaCinsi,24,,,Antrepo20
+02 - Cari_Detay_List,0,3,Borc,Borc,64,"#,##0.00",*,Antrepo20
+02 - Cari_Detay_List,0,4,Alacak,Alacak,64,"#,##0.00",*,Antrepo20
+Cari_Siparis_Listesi,0,0,SKod,SKod,60,,,Antrepo20
+Cari_Siparis_Listesi,0,1,SKod_Tanim,SKod_Tanim,148,,,Antrepo20
+Cari_Siparis_Listesi,0,0,SKod,SKod,68,,,Antrepo20
+Cari_Siparis_Listesi,0,1,Stok_Tanim,Stok_Tanim,304,,,Antrepo20
+Cari_Siparis_Listesi,0,2,Giren,Giren,57,"#,##0.####",*,Antrepo20
+Cari_Siparis_Listesi,0,3,Cikan,Cikan,64,"#,##0.####",*,Antrepo20
+Cari_Siparis_Listesi,0,4,Kalan,Kalan,53,"#,##0.####",*,Antrepo20
+Cari_Siparis_Listesi,0,5,Tutar,Tutar,64,"#,##0.00",*,Antrepo20
+Cari_Siparis_Listesi,0,6,KalTut,KalTut,64,"#,##0.####",*,Antrepo20
+Cari_Siparis_Listesi,0,7,ParaCinsi,ParaCinsi,57,,,Antrepo20
+Cari_Siparis_Listesi,0,2,RKod_Tanim,RKod_Tanim,113,,,Antrepo20
+Cari_Siparis_Listesi,0,3,Asorti,Asorti,36,,,Antrepo20
+Cari_Siparis_Listesi,0,4,Siparis_Miktari,Siparis_Miktari,45,"#,##0.####",*,Antrepo20
+Cari_Siparis_Listesi,0,5,Toplam_Kapatilan,Toplam_Kapatila,68,"#,##0.####",*,Antrepo20
+Cari_Siparis_Listesi,0,6,Net_Kalan,Net_Kalan,68,"#,##0.####",*,Antrepo20
+02 - Cari_Detay_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Antrepo20
+02 - Cari_Detay_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Antrepo20
+02 - Cari_Detay_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Antrepo20
+İşçilik_Rapor,0,0,Personel,Personel,61,,,Antrepo20
+İşçilik_Rapor,0,1,Personel_Tanim,Personel Tanim,99,,,Antrepo20
+İşçilik_Rapor,0,2,EmirNo,Emir Numarası,44,,,Antrepo20
+İşçilik_Rapor,0,3,ModelKod,Model Kodu,54,,,Antrepo20
+İşçilik_Rapor,0,4,ModelKod_Tanim,Model Tanımı,171,,,Antrepo20
+İşçilik_Rapor,0,5,RKod_Tanim,RKod Tanim,87,,,Antrepo20
+İşçilik_Rapor,0,6,Proses_Tanim,Proses Tanim,68,,,Antrepo20
+İşçilik_Rapor,0,7,EndTarih1,Ürünün Proses i,74,,,Antrepo20
+İşçilik_Rapor,0,8,Biten,Biten,45,"#,###0.####",*,Antrepo20
+İşçilik_Rapor,0,9,BirimMaliyet,Birim Maliyet,65,"#,###0.####",,Antrepo20
+İşçilik_Rapor,0,10,Biten_Maliyet,Biten Maliyet,72,"#,###0.####",*,Antrepo20
+İşçilik_Rapor,0,11,Birim,Birim,40,,,Antrepo20
+Satınalma_İhtiyaç,0,0,CariKod_Tanim,Cari Kod Tanımı,113,,,Antrepo20
+Satınalma_İhtiyaç,0,1,EmirNo,Emir No,40,"#,###0.####",,Antrepo20
+Satınalma_İhtiyaç,0,2,uskod,Ürün Kodu,71,,,Antrepo20
+Satınalma_İhtiyaç,0,3,USKod_Tanim,Ürün Kodu Tanım,287,,,Antrepo20
+Satınalma_İhtiyaç,0,4,hskod,Hammadde Kodu,78,,,Antrepo20
+Satınalma_İhtiyaç,0,5,HSKod_Tanim,Hammadde Kodu T,150,,,Antrepo20
+Satınalma_İhtiyaç,0,6,HRKod_Tanim,Renk Tanımı,113,,,Antrepo20
+Satınalma_İhtiyaç,0,7,Siparis_Miktar,Sipariş Miktarı,56,"#,###0.####",,Antrepo20
+Satınalma_İhtiyaç,0,8,HBirim,HBirim,52,,,Antrepo20
+Satınalma_İhtiyaç,0,9,HBeden,Hammadde Beden,52,,,Antrepo20
+Satınalma_İhtiyaç,0,10,Miktar3,Emir ihtiyacı,72,"#,###0.####",*,Antrepo20
+Satınalma_İhtiyaç,0,11,MiktarTop,Toplam ihtiyac,86,"#,###0.####",,Antrepo20
+Satınalma_İhtiyaç,0,12,Hammadde_Mevcudu,Hammadde Mevcud,64,"#,###0.####",,Antrepo20
+Satınalma_İhtiyaç,0,13,Ham_Satinalma,Ham Satinalma,61,"#,###0.####",,Antrepo20
+Satınalma_İhtiyaç,0,14,Siparisi_Gereken,Siparisi Gereke,69,"#,###0.####",,Antrepo20
+02 - Cari_Detay_List,0,1,CName,Cari Adı,124,,,Antrepo20
+00 - Cari_Mizan_Rapo,0,0,CKod,Cari Kod,60,,,Antrepo20
+00 - Cari_Mizan_Rapo,0,1,CName,Cari Adı,124,,,Antrepo20
+00 - Cari_Mizan_Rapo,0,2,ParaCinsi,ParaCinsi,24,,,Antrepo20
+02 - Siparis Kalan T,0,0,cariKod,Sipariş Cari Ko,76,,,Antrepo20
+02 - Siparis Kalan T,0,1,CariKod_Tanim,Sipariş Cari Ko,147,,,Antrepo20
+02 - Siparis Kalan T,0,2,Siparis_Miktari,Sipariş Miktarı,57,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,3,Birim,Birim,34,,,Antrepo20
+02 - Siparis Kalan T,0,4,FToplam,Fiş Toplamı,72,"#,##0.00",*,Antrepo20
+02 - Siparis Kalan T,0,5,iskontoTut,İskonto Tutarı,68,"#,##0.00",*,Antrepo20
+02 - Siparis Kalan T,0,6,Tutar,Tutar,64,"#,##0.00",*,Antrepo20
+02 - Siparis Kalan T,0,7,ParaCinsi,Kur,23,,,Antrepo20
+02 - Siparis Kalan T,0,8,Gonderilen,Gönderilen,60,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,9,Faturalanan,Faturalanan,57,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,10,Harici_Kapatilan,Harici Kapatıla,49,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,12,Net_Kalan,Net Kalan,72,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,13,CF0,Ort Fiyat,64,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,14,CF1,Sevk Tutarı,72,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,15,CF2,Iptal Tutarı,64,"#,##0.##",*,Antrepo20
+02 - Siparis Kalan T,0,16,CF3,Kalan Tutar,72,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,0,cariKod,Sipariş Cari Ko,66,,,Antrepo20
+03 - Siparis Durum R,0,1,CariKod_Tanim,Sipariş Cari Ko,129,,,Antrepo20
+03 - Siparis Durum R,0,2,SKod,Stok Kodu,67,,,Antrepo20
+03 - Siparis Durum R,0,3,SKod_Tanim,Stok Kodu Tanım,117,,,Antrepo20
+03 - Siparis Durum R,0,4,RKod_Tanim,Renk Tanımı,147,,,Antrepo20
+03 - Siparis Durum R,0,5,UreticiKodu_Tanim,Üretici Kodu Ta,94,,,Antrepo20
+03 - Siparis Durum R,0,6,Siparis_Miktari,Sipariş Miktarı,59,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,7,Birim,Birim,34,,,Antrepo20
+03 - Siparis Durum R,0,8,Gonderilen,Gönderilen,57,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,9,Faturalanan,Faturalanan,49,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,10,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,12,Net_Kalan,Net Kalan,49,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,13,Satinalma_Top,Satınalma Topla,64,"#,##0.##",*,Antrepo20
+03 - Siparis Durum R,0,14,Satinalma_kalan,Satınalma Kalan,60,"#,##0.##",*,Antrepo20
+00 - Cari_Mizan_Rapo,0,3,Borc,Borc,64,"#,##0.00",*,Antrepo20
+00 - Cari_Mizan_Rapo,0,4,Alacak,Alacak,64,"#,##0.00",*,Antrepo20
+00 - Cari_Mizan_Rapo,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Antrepo20
+00 - Cari_Mizan_Rapo,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Antrepo20
+00 - Cari_Mizan_Rapo,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Antrepo20
+Mrp_Rapor,0,0,uskod,Ürün Kodu,60,,,Antrepo20
+Mrp_Rapor,0,1,USKod_Tanim,Ürün Kodu Tanım,183,,,Antrepo20
+Mrp_Rapor,0,2,hskod,Hammadde Kodu,73,,,Antrepo20
+Mrp_Rapor,0,3,HSKod_Tanim,Hammadde Kodu T,131,,,Antrepo20
+Mrp_Rapor,0,4,HRKod_Tanim,Renk Tanımı,42,,,Antrepo20
+Mrp_Rapor,0,5,HBeden,Hammadde Beden,57,,,Antrepo20
+Mrp_Rapor,0,6,HBirim,HBirim,47,,,Antrepo20
+Mrp_Rapor,0,7,Miktar2,Planlama ihtiya,60,"#,###0.####",,Antrepo20
+Mrp_Rapor,0,8,MiktarTop,Toplam ihtiyac,53,"#,###0.####",,Antrepo20
+Mrp_Rapor,0,9,Hammadde_Mevcudu,Hammadde Mevcud,76,"#,###0.####",,Antrepo20
+Mrp_Rapor,0,10,Ham_Satinalma,Ham Satinalma,71,"#,###0.####",,Antrepo20
+Mrp_Rapor,0,11,Siparisi_Gereken,Siparisi Gereke,62,"#,###0.####",,Antrepo20
+02 - Cari Islem Deta,0,2,Aciklama,Aciklama,166,,,Antrepo20
+Banka Bakiye Listesi,0,0,Tarih,Tarih,64,,,Antrepo20
+Banka Bakiye Listesi,0,1,Banka_Tanim,Banka Tanımı,132,,,Antrepo20
+Banka Bakiye Listesi,0,2,Sube_Tanim,Şube Tanımı,106,,,Antrepo20
+Banka Bakiye Listesi,0,3,Hesap,Hesap,94,,,Antrepo20
+Banka Bakiye Listesi,0,4,Borc,Borç,98,"#,##0.00",*,Antrepo20
+Banka Bakiye Listesi,0,5,Alacak,Alacak,91,"#,##0.00",*,Antrepo20
+Banka Bakiye Listesi,0,6,Bakiye,Bakiye,79,"#,##0.00",*,Antrepo20
+Banka Bakiye Listesi,0,7,ParaCinsi,Kur,23,,,Antrepo20
+Ercan2,0,0,SatKod,Satıcı Kodu,94,,,Cabani20
+Ercan2,0,1,Location,Lokasyon,58,,,Cabani20
+Ercan2,0,2,Location_Tanim,Lokasyon Tanım,304,,,Cabani20
+Ercan2,0,3,Miktar,Miktar,238,"#,##0.##",,Cabani20
+Ercan2,0,4,Birim,Birim,64,,,Cabani20
+Ercan2,0,5,MYuzde,Miktar %,64,#.000,,Cabani20
+Ercan2,0,6,Satici,Satıcı,250,,,Cabani20
+Ercan2,0,7,StokFiyat,Stok Fiyatı,64,"#,##0.00",,Cabani20
+Ercan2,0,8,Fiyat,Fiyat,64,"#,##0.00",,Cabani20
+Ercan2,0,9,ParaCinsi,Kur,23,,,Cabani20
+Ercan2,0,10,iskontoTut,İskonto Tutarı,83,"#,##0.##",,Cabani20
+Ercan2,0,11,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,Cabani20
+Ercan2,0,12,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,Cabani20
+Ercan2,0,13,Tutar,Tutar,64,"#,##0.00",,Cabani20
+Ercan2,0,14,TYuzde,Tutar %,64,#.000,,Cabani20
+Ercan2,0,15,HRF_Maas,Maaş,64,"#,##0.##",,Cabani20
+Ercan2,0,16,HRF_Barkod,Prim Oranı,154,,,Cabani20
+Ercan2,0,17,HRF_OzKod5,Gider Oranı,604,,,Cabani20
+rr,0,0,FisTip,FisTip,35,,,Cabani20
+rr,0,1,FisNo,FisNo,42,,,Cabani20
+rr,0,2,FisTar,FisTar,76,,,Cabani20
+rr,0,3,CM,CM,38,,,Cabani20
+rr,0,4,CariUnvan,CariUnvan,126,,,Cabani20
+rr,0,5,Vade,Vade,70,,,Cabani20
+rr,0,6,Tutar,Tutar,64,"#,##0.00",*,Cabani20
+rr,0,7,ParaCinsi,ParaCinsi,25,,,Cabani20
+rr,0,8,Masraf,Masraf,64,"#,##0.00",,Cabani20
+rr,0,9,OdTip,OdTip,44,,,Cabani20
+rr,0,10,Banka,Banka,52,,,Cabani20
+rr,0,11,Sube,Sube,43,,,Cabani20
+rr,0,12,Hesap,Hesap,58,,,Cabani20
+rr,0,13,Tahsil,Tahsil,28,,,Cabani20
+Banka_KK_Ekstresi,0,0,Tahsil,Tahsil,38,,,Cabani20
+Banka_KK_Ekstresi,0,1,FisNo,FisNo,64,,,Cabani20
+Banka_KK_Ekstresi,0,2,FisTar,FisTar,112,,,Cabani20
+Banka_KK_Ekstresi,0,3,CM,CM,46,,,Cabani20
+S2,0,0,SipNo,Sipariş No,23,"#,###.##",,Cabani20
+S2,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S2,0,3,CariKod_Tanim,Sipariş Cari Ko,141,,,Cabani20
+S2,0,4,TeslimTar,Termin Tarihi,60,,,Cabani20
+S2,0,5,SipOzKod2,Sipariş Özel Ko,123,,,Cabani20
+S2,0,6,SKod,Stok Kodu,73,,,Cabani20
+S2,0,7,SKod_Tanim,Stok Kodu Tanım,125,,,Cabani20
+S2,0,10,OzKod2,Özel Kod 2,52,,,Cabani20
+S2,0,11,ROzKod2,Renk Özel Kod 2,66,,,Cabani20
+S2,0,13,Siparis_Miktari,Sipariş Miktarı,42,"#,###.##",*,Cabani20
+S2,0,14,CF2,Siparis Fiyatı,49,"#,###.##",,Cabani20
+S2,0,15,ParaCinsi,Kur,23,,,Cabani20
+S2,0,16,Birim,Birim,34,,,Cabani20
+S2,0,17,FToplam,Fiş Toplamı,68,"#,##0.00",*,Cabani20
+S2,0,18,iskontoTut,İskonto Tutarı,53,"#,##0.00",*,Cabani20
+S2,0,20,Tutar,Tutar,38,"#,##0.00",*,Cabani20
+S2,0,21,Stok_Resim,Stok_Resim,71,,,Cabani20
+S2,0,2,cariKod,Sipariş Cari Ko,101,,,Cabani20
+S2,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S2,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S2,0,12,Resim,Resim,904,,,Cabani20
+S2,0,19,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,Cabani20
+S3,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S3,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Cabani20
+S3,0,2,cariKod,Sipariş Cari Ko,101,,,Cabani20
+S3,0,4,TeslimTar,Termin Tarihi,78,,,Cabani20
+S3,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S3,0,6,SKod,Stok Kodu,76,,,Cabani20
+S3,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Cabani20
+S3,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S3,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S3,0,10,OzKod2,Özel Kod 2,66,,,Cabani20
+S3,0,11,ROzKod2,Renk Özel Kod 2,100,,,Cabani20
+S3,0,12,Resim,Resim,904,,,Cabani20
+S3,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S3,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Cabani20
+S3,0,15,ParaCinsi,Kur,23,,,Cabani20
+S3,0,16,Birim,Birim,34,,,Cabani20
+S3,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Cabani20
+S3,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S3,0,19,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S3,0,20,Tutar,Tutar,40,"#,##0.00",,Cabani20
+S3,0,21,Stok_Resim,Stok_Resim,71,,,Cabani20
+S4,0,0,SipNo,Sipariş No,23,"#,###.##",,Cabani20
+S4,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S4,0,2,cariKod,Sipariş Cari Ko,101,,,Cabani20
+S4,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Cabani20
+S4,0,4,TeslimTar,Termin Tarihi,78,,,Cabani20
+S4,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S4,0,6,SKod,Stok Kodu,76,,,Cabani20
+S4,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Cabani20
+S4,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S4,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S4,0,10,OzKod2,Özel Kod 2,66,,,Cabani20
+S4,0,11,ROzKod2,Renk Özel Kod 2,100,,,Cabani20
+S4,0,12,Resim,Resim,904,,,Cabani20
+S4,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S4,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Cabani20
+S4,0,15,ParaCinsi,Kur,23,,,Cabani20
+S4,0,16,Birim,Birim,34,,,Cabani20
+S4,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Cabani20
+S4,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S4,0,19,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S4,0,20,Tutar,Tutar,40,"#,##0.00",,Cabani20
+S4,0,21,Stok_Resim,Stok_Resim,71,,,Cabani20
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,Cabani20
+S3,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S3,0,2,CariKod_Tanim,Sipariş Cari Ko,142,,,Cabani20
+S5,0,0,SipNo,Sipariş No,23,"#,###.##",,Cabani20
+S5,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S5,0,2,cariKod,Sipariş Cari Ko,101,,,Cabani20
+S5,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Cabani20
+S5,0,4,TeslimTar,Termin Tarihi,78,,,Cabani20
+S5,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S5,0,6,SKod,Stok Kodu,76,,,Cabani20
+S5,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Cabani20
+S5,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S5,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S5,0,10,OzKod2,Özel Kod 2,66,,,Cabani20
+S5,0,11,ROzKod2,Renk Özel Kod 2,100,,,Cabani20
+S5,0,12,Resim,Resim,904,,,Cabani20
+S5,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S5,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Cabani20
+S5,0,15,ParaCinsi,Kur,23,,,Cabani20
+S5,0,16,Birim,Birim,34,,,Cabani20
+S5,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Cabani20
+S5,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S5,0,19,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S5,0,20,Tutar,Tutar,40,"#,##0.00",,Cabani20
+S5,0,21,Stok_Resim,Stok_Resim,71,,,Cabani20
+S6,0,0,SipNo,Sipariş No,23,"#,###.##",,Cabani20
+S6,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S6,0,2,cariKod,Sipariş Cari Ko,101,,,Cabani20
+S6,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Cabani20
+S6,0,4,TeslimTar,Termin Tarihi,78,,,Cabani20
+S6,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S6,0,6,SKod,Stok Kodu,76,,,Cabani20
+S6,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Cabani20
+S6,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S6,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S6,0,10,OzKod2,Özel Kod 2,66,,,Cabani20
+S6,0,11,ROzKod2,Renk Özel Kod 2,100,,,Cabani20
+S6,0,12,Resim,Resim,904,,,Cabani20
+S6,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S6,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Cabani20
+S6,0,15,ParaCinsi,Kur,23,,,Cabani20
+S6,0,16,Birim,Birim,34,,,Cabani20
+S6,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Cabani20
+S6,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S6,0,19,Matrah,Matrah,64,"#,##0.00",,Cabani20
+Banka_KK_Ekstresi,0,4,CariUnvan,CariUnvan,364,,,Cabani20
+Banka_KK_Ekstresi,0,5,Vade,Vade,112,,,Cabani20
+S6,0,20,Tutar,Tutar,40,"#,##0.00",,Cabani20
+S6,0,21,Stok_Resim,Stok_Resim,71,,,Cabani20
+Banka_KK_Ekstresi,0,6,Tutar,Tutar,64,"#,##0.00",*,Cabani20
+Banka_KK_Ekstresi,0,8,ParaCinsi,ParaCinsi,57,,,Cabani20
+Banka_KK_Ekstresi,0,9,OdTip,OdTip,64,,,Cabani20
+Banka_KK_Ekstresi,0,10,Banka,Banka,94,,,Cabani20
+Banka_KK_Ekstresi,0,11,Sube,Sube,94,,,Cabani20
+Banka_KK_Ekstresi,0,12,Hesap,Hesap,184,,,Cabani20
+Banka_KK_Ekstresi,0,13,FisTip,FisTip,28,,,Cabani20
+Firma_Cek_Dokumu,0,0,PortfoyNo,Portföy No,51,"#,##0.##",,Cabani20
+Firma_Cek_Dokumu,0,1,Banka,Banka,67,,,Cabani20
+01 - Siparis Kalan R,0,0,cariKod,Sipariş Cari Ko,79,,,Cabani20
+01 - Siparis Kalan R,0,1,CariKod_Tanim,Sipariş Cari Ko,150,,,Cabani20
+01 - Siparis Kalan R,0,2,Siparis_Miktari,Sipariş Miktarı,60,"#,##0.####",*,Cabani20
+01 - Siparis Kalan R,0,3,Birim,Birim,34,,,Cabani20
+01 - Siparis Kalan R,0,4,Gonderilen,Gönderilen,53,"#,##0.####",*,Cabani20
+01 - Siparis Kalan R,0,5,Faturalanan,Faturalanan,45,"#,##0.####",*,Cabani20
+01 - Siparis Kalan R,0,6,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.####",*,Cabani20
+01 - Siparis Kalan R,0,7,Toplam_Kapatilan,Toplam Kapatıla,79,"#,##0.####",*,Cabani20
+01 - Siparis Kalan R,0,8,Net_Kalan,Net Kalan,68,"#,##0.####",*,Cabani20
+Firma_Cek_Dokumu,0,2,Sube,Şube,114,,,Cabani20
+Firma_Cek_Dokumu,0,3,HesapNo,Hesap No,81,,,Cabani20
+Firma_Cek_Dokumu,0,4,CekNo,Çek No,61,,,Cabani20
+Firma_Cek_Dokumu,0,5,Vade,Vade,76,,,Cabani20
+Firma_Cek_Dokumu,0,6,CMKod,Cari Kodu,94,,,Cabani20
+Firma_Cek_Dokumu,0,7,CMKod_Tanim,Cari Kodu Tanım,151,,,Cabani20
+Firma_Cek_Dokumu,0,8,Tutar,Tutar,64,"#,##0.00",*,Cabani20
+Firma_Cek_Dokumu,0,9,ParaCinsi,Kur,23,,,Cabani20
+Hayriye,0,0,OzKod3,Özel Kod 3,87,,,Cabani20
+Hayriye,0,1,RKod_Tanim,Renk Tanımı,110,,,Cabani20
+Hayriye,0,2,Siparis_Miktari,Sipariş Miktarı,112,"#,##0.##",,Cabani20
+Hayriye,0,3,Birim,Birim,34,,,Cabani20
+Hayriye,0,4,Stok_Resim,Stok_Resim,71,,,Cabani20
+Kasa_Ekstresi,0,0,Fistar,Tarih,79,,,Cabani20
+Kasa_Ekstresi,0,1,Cari,Hesap,74,,,Cabani20
+Kasa_Ekstresi,0,2,Tanim,Tanim,141,,,Cabani20
+Kasa_Ekstresi,0,3,HarAck,Aciklama,118,,,Cabani20
+Kasa_Ekstresi,0,4,Borc,Borc,64,"#,##0.00",*,Cabani20
+Kasa_Ekstresi,0,5,Alacak,Alacak,64,"#,##0.00",*,Cabani20
+Kasa_Ekstresi,0,6,Bakiye,Bakiye,64,"#,##0.00",*,Cabani20
+Kasa_Ekstresi,0,7,ParaCinsi,ParaCinsi,45,,,Cabani20
+S9,0,0,SipNo,Sipariş No,23,"#,###.##",,Cabani20
+S9,0,1,SipTar,Sipariş Tarihi,68,,,Cabani20
+S9,0,2,cariKod,Sipariş Cari Ko,101,,,Cabani20
+S9,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Cabani20
+S9,0,4,TeslimTar,Termin Tarihi,78,,,Cabani20
+S9,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S9,0,6,SKod,Stok Kodu,76,,,Cabani20
+S9,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Cabani20
+S9,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S9,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S9,0,10,OzKod2,Özel Kod 2,66,,,Cabani20
+S9,0,11,ROzKod2,Renk Özel Kod 2,100,,,Cabani20
+S9,0,12,Resim,Resim,904,,,Cabani20
+S9,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S9,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Cabani20
+S9,0,15,ParaCinsi,Kur,23,,,Cabani20
+S9,0,16,Birim,Birim,34,,,Cabani20
+S9,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Cabani20
+S9,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S9,0,19,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S9,0,20,Tutar,Tutar,40,"#,##0.00",,Cabani20
+S9,0,21,Stok_Resim,Stok_Resim,71,,,Cabani20
+S10,0,0,SipTar,Sipariş Tarihi,112,,,Cabani20
+S10,0,1,cariKod,Sipariş Cari Ko,94,,,Cabani20
+S10,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,Cabani20
+S10,0,3,SKod,Stok Kodu,94,,,Cabani20
+S10,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,Cabani20
+S10,0,5,SipNo,Sipariş No,142,"#,###.##",,Cabani20
+S10,0,6,TeslimTar,Termin Tarihi,78,,,Cabani20
+S10,0,7,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S10,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S10,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S10,0,10,ROzKod2,Renk Özel Kod 2,304,,,Cabani20
+S10,0,11,OzKod2,Özel Kod 2,100,,,Cabani20
+S10,0,12,Resim,Resim,904,,,Cabani20
+S10,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S10,0,14,Birim,Birim,34,,,Cabani20
+S10,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,Cabani20
+S10,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S10,0,17,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S10,0,18,Tutar,Tutar,64,"#,##0.00",,Cabani20
+S10,0,19,ParaCinsi,Kur,23,,,Cabani20
+S10,0,20,Stok_Resim,Stok_Resim,71,,,Cabani20
+S10,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,Cabani20
+S11,0,0,SipTar,Sipariş Tarihi,112,,,Cabani20
+S11,0,1,cariKod,Sipariş Cari Ko,94,,,Cabani20
+S11,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,Cabani20
+S11,0,3,SKod,Stok Kodu,94,,,Cabani20
+S11,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,Cabani20
+S11,0,5,SipNo,Sipariş No,142,"#,###.##",,Cabani20
+S11,0,6,TeslimTar,Termin Tarihi,78,,,Cabani20
+S11,0,7,SipOzKod2,Sipariş Özel Ko,124,,,Cabani20
+S11,0,8,RKod,Renk,64,"#,###.##",,Cabani20
+S11,0,9,RKod_Tanim,Renk Tanımı,304,,,Cabani20
+S11,0,10,ROzKod2,Renk Özel Kod 2,304,,,Cabani20
+S11,0,11,OzKod2,Özel Kod 2,100,,,Cabani20
+S11,0,12,Resim,Resim,904,,,Cabani20
+S11,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Cabani20
+S11,0,14,Birim,Birim,34,,,Cabani20
+S11,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,Cabani20
+S11,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Cabani20
+S11,0,17,Matrah,Matrah,64,"#,##0.00",,Cabani20
+S11,0,18,Tutar,Tutar,64,"#,##0.00",,Cabani20
+S11,0,19,ParaCinsi,Kur,23,,,Cabani20
+S11,0,20,Stok_Resim,Stok_Resim,71,,,Cabani20
+S11,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,Cabani20
+r1,0,0,SKod,Stok Kodu,81,,,Cabani20
+r1,0,1,ROzKod2,Renk Özel Kod 2,145,,,Cabani20
+r1,0,2,OzKod2,Özel Kod 2,66,,,Cabani20
+r1,0,3,CariKod_Tanim,Cari Tanım,122,,,Cabani20
+r1,0,4,irsaliyeNo,İrsaliye No,82,,,Cabani20
+r1,0,5,Fatura_Miktari,İrsaliye Miktar,34,"#,###.##",,Cabani20
+r1,0,6,StokFiyat,Stok Fiyatı,64,"#,###.##",,Cabani20
+r1,0,7,ParaCinsi,Kur,23,,,Cabani20
+r1,0,8,Stok_Resim,Stok_Resim,71,,,Cabani20
+Banka_KK_Ekstresi,0,7,Masraf,Masraf,64,"#,##0.00",,Cabani20
+01 - Cari_Hesap_List,0,0,CKod,Cari Kod,60,,,Cabani20
+01 - Cari_Hesap_List,0,1,CName,Cari Adı,124,,,Cabani20
+01 - Cari_Hesap_List,0,2,ParaCinsi,ParaCinsi,24,,,Cabani20
+01 - Cari_Hesap_List,0,3,Borc,Borc,64,"#,##0.00",*,Cabani20
+01 - Cari_Hesap_List,0,4,Alacak,Alacak,64,"#,##0.00",*,Cabani20
+01 - Cari_Hesap_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Cabani20
+01 - Cari_Hesap_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Cabani20
+01 - Cari_Hesap_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Cabani20
+01 - Cari Islem List,0,0,Aciklama,Aciklama,166,,,Cabani20
+01 - Cari Islem List,0,1,cbpg,Cari Kod,73,,,Cabani20
+01 - Cari Islem List,0,2,cbpg_Tanim,Cari Kod Tanımı,227,,,Cabani20
+01 - Cari Islem List,0,3,Tutar,Tutar,76,"#,##0.00",*,Cabani20
+01 - Cari Islem List,0,4,ParaCinsi,ParaCinsi,33,,,Cabani20
+02 - Cari Islem Deta,0,0,FisNo,FisNo,37,"#,##0.###",,Cabani20
+02 - Cari Islem Deta,0,1,FisTar,İşlem Tarihi,65,,,Cabani20
+02 - Cari Islem Deta,0,3,cbpg,Cari Kod,63,,,Cabani20
+02 - Cari Islem Deta,0,4,cbpg_Tanim,Cari Kod Tanımı,150,,,Cabani20
+02 - Cari Islem Deta,0,5,SatirAck1,SatirAck1,100,,,Cabani20
+02 - Cari Islem Deta,0,6,Tutar,Tutar,68,"#,##0.00",*,Cabani20
+02 - Cari Islem Deta,0,7,ParaCinsi,ParaCinsi,32,,,Cabani20
+Kasa Islem Listesi,0,0,FisNo,FisNo,41,"#,##0.###",,Cabani20
+Kasa Islem Listesi,0,1,Aciklama,Aciklama,89,,,Cabani20
+Kasa Islem Listesi,0,2,FisTar,İşlem Tarihi,70,,,Cabani20
+Kasa Islem Listesi,0,3,cbpg,Cari Kod,60,,,Cabani20
+Kasa Islem Listesi,0,4,cbpg_Tanim,Cari Kod Tanımı,147,,,Cabani20
+Kasa Islem Listesi,0,5,Tanim,Tanim,174,,,Cabani20
+Kasa Islem Listesi,0,6,Tutar,Tutar,79,"#,##0.00",*,Cabani20
+Kasa Islem Listesi,0,7,ParaCinsi,ParaCinsi,26,,,Cabani20
+Hesap Planı Listesi,0,0,CODE,Kod,65,,,Cabani20
+Hesap Planı Listesi,0,1,DEFINITION,Tanım,409,,,Cabani20
+Hesap Planı Listesi,0,2,ID,ID,64,"#,###.####",,Cabani20
+Hesap Planı Listesi,0,3,LEVEL_,LEVEL_,57,"#,###.####",,Cabani20
+Banka Listesi,0,0,BankaTanim,Banka Tanım,93,,,Cabani20
+Banka Listesi,0,1,sube,Şube Kodu,45,,,Cabani20
+Banka Listesi,0,2,SubeTanim,Şube Tanım,135,,,Cabani20
+Banka Listesi,0,3,HesapKod,Hesap Kodu,87,,,Cabani20
+Banka Listesi,0,4,HesapTanim,Hesap Tanım,146,,,Cabani20
+Banka Listesi,0,5,Paracinsi,Paracinsi,56,,,Cabani20
+Banka Listesi,0,6,IBAN,IBAN,208,,,Cabani20
+Banka Listesi,0,7,HesTip,Hesap Tipi,106,,,Cabani20
+mağaza_ciro_raporu,0,0,Location_Tanim,Location_Tanim,140,,,Cabani20
+mağaza_ciro_raporu,0,1,Miktar,Miktar,50,,*,Cabani20
+mağaza_ciro_raporu,0,2,Birim,Birim,62,,,Cabani20
+mağaza_ciro_raporu,0,3,StokFiyat,StokFiyat,76,,,Cabani20
+mağaza_ciro_raporu,0,4,Fiyat,Fiyat,79,,*,Cabani20
+mağaza_ciro_raporu,0,5,ParaCinsi,ParaCinsi,33,,,Cabani20
+mağaza_ciro_raporu,0,6,iskontoTut,iskontoTut,72,,*,Cabani20
+SF_Renkli_Liste,0,0,Resim,Resim,903,,,Cabani20
+SF_Renkli_Liste,0,1,SKod,Stok Kodu,70,,,Cabani20
+SF_Renkli_Liste,0,2,Tanim,Tanım,42,,,Cabani20
+SF_Renkli_Liste,0,3,Renk_Tanim,Renk Tanim,59,,,Cabani20
+SF_Renkli_Liste,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,Cabani20
+SF_Renkli_Resimli,0,0,Resim,Resim,903,,,Cabani20
+SF_Renkli_Resimli,0,1,SKod,Stok Kodu,70,,,Cabani20
+SF_Renkli_Resimli,0,2,Tanim,Tanım,42,,,Cabani20
+SF_Renkli_Resimli,0,3,Renk_Tanim,Renk Tanim,59,,,Cabani20
+SF_Renkli_Resimli,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,Cabani20
+mağaza_ciro_raporu,0,7,KDV_Tutar,KDV_Tutar,80,,*,Cabani20
+mağaza_ciro_raporu,0,8,Tutar,Tutar,79,,*,Cabani20
+mağaza_ciro_raporu,0,9,kdvsiz,kdvsiz,83,,,Cabani20
+02 - Cari_Detay_List,0,0,CKod,Cari Kod,60,,,Cabani20
+02 - Cari_Detay_List,0,2,ParaCinsi,ParaCinsi,24,,,Cabani20
+02 - Cari_Detay_List,0,3,Borc,Borc,64,"#,##0.00",*,Cabani20
+02 - Cari_Detay_List,0,4,Alacak,Alacak,64,"#,##0.00",*,Cabani20
+Cari_Siparis_Listesi,0,0,SKod,SKod,60,,,Cabani20
+Cari_Siparis_Listesi,0,1,SKod_Tanim,SKod_Tanim,148,,,Cabani20
+Cari_Siparis_Listesi,0,0,SKod,SKod,68,,,Cabani20
+Cari_Siparis_Listesi,0,1,Stok_Tanim,Stok_Tanim,304,,,Cabani20
+Cari_Siparis_Listesi,0,2,Giren,Giren,57,"#,##0.####",*,Cabani20
+Cari_Siparis_Listesi,0,3,Cikan,Cikan,64,"#,##0.####",*,Cabani20
+Cari_Siparis_Listesi,0,4,Kalan,Kalan,53,"#,##0.####",*,Cabani20
+Cari_Siparis_Listesi,0,5,Tutar,Tutar,64,"#,##0.00",*,Cabani20
+Cari_Siparis_Listesi,0,6,KalTut,KalTut,64,"#,##0.####",*,Cabani20
+Cari_Siparis_Listesi,0,7,ParaCinsi,ParaCinsi,57,,,Cabani20
+Cari_Siparis_Listesi,0,2,RKod_Tanim,RKod_Tanim,113,,,Cabani20
+Cari_Siparis_Listesi,0,3,Asorti,Asorti,36,,,Cabani20
+Cari_Siparis_Listesi,0,4,Siparis_Miktari,Siparis_Miktari,45,"#,##0.####",*,Cabani20
+Cari_Siparis_Listesi,0,5,Toplam_Kapatilan,Toplam_Kapatila,68,"#,##0.####",*,Cabani20
+Cari_Siparis_Listesi,0,6,Net_Kalan,Net_Kalan,68,"#,##0.####",*,Cabani20
+02 - Cari_Detay_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Cabani20
+02 - Cari_Detay_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Cabani20
+02 - Cari_Detay_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Cabani20
+İşçilik_Rapor,0,0,Personel,Personel,61,,,Cabani20
+İşçilik_Rapor,0,1,Personel_Tanim,Personel Tanim,99,,,Cabani20
+İşçilik_Rapor,0,2,EmirNo,Emir Numarası,44,,,Cabani20
+İşçilik_Rapor,0,3,ModelKod,Model Kodu,54,,,Cabani20
+İşçilik_Rapor,0,4,ModelKod_Tanim,Model Tanımı,171,,,Cabani20
+İşçilik_Rapor,0,5,RKod_Tanim,RKod Tanim,87,,,Cabani20
+İşçilik_Rapor,0,6,Proses_Tanim,Proses Tanim,68,,,Cabani20
+İşçilik_Rapor,0,7,EndTarih1,Ürünün Proses i,74,,,Cabani20
+İşçilik_Rapor,0,8,Biten,Biten,45,"#,###0.####",*,Cabani20
+İşçilik_Rapor,0,9,BirimMaliyet,Birim Maliyet,65,"#,###0.####",,Cabani20
+İşçilik_Rapor,0,10,Biten_Maliyet,Biten Maliyet,72,"#,###0.####",*,Cabani20
+İşçilik_Rapor,0,11,Birim,Birim,40,,,Cabani20
+Satınalma_İhtiyaç,0,0,CariKod_Tanim,Cari Kod Tanımı,113,,,Cabani20
+Satınalma_İhtiyaç,0,1,EmirNo,Emir No,40,"#,###0.####",,Cabani20
+Satınalma_İhtiyaç,0,2,uskod,Ürün Kodu,71,,,Cabani20
+Satınalma_İhtiyaç,0,3,USKod_Tanim,Ürün Kodu Tanım,287,,,Cabani20
+Satınalma_İhtiyaç,0,4,hskod,Hammadde Kodu,78,,,Cabani20
+Satınalma_İhtiyaç,0,5,HSKod_Tanim,Hammadde Kodu T,150,,,Cabani20
+Satınalma_İhtiyaç,0,6,HRKod_Tanim,Renk Tanımı,113,,,Cabani20
+Satınalma_İhtiyaç,0,7,Siparis_Miktar,Sipariş Miktarı,56,"#,###0.####",,Cabani20
+Satınalma_İhtiyaç,0,8,HBirim,HBirim,52,,,Cabani20
+Satınalma_İhtiyaç,0,9,HBeden,Hammadde Beden,52,,,Cabani20
+Satınalma_İhtiyaç,0,10,Miktar3,Emir ihtiyacı,72,"#,###0.####",*,Cabani20
+Satınalma_İhtiyaç,0,11,MiktarTop,Toplam ihtiyac,86,"#,###0.####",,Cabani20
+Satınalma_İhtiyaç,0,12,Hammadde_Mevcudu,Hammadde Mevcud,64,"#,###0.####",,Cabani20
+Satınalma_İhtiyaç,0,13,Ham_Satinalma,Ham Satinalma,61,"#,###0.####",,Cabani20
+Satınalma_İhtiyaç,0,14,Siparisi_Gereken,Siparisi Gereke,69,"#,###0.####",,Cabani20
+02 - Cari_Detay_List,0,1,CName,Cari Adı,124,,,Cabani20
+00 - Cari_Mizan_Rapo,0,0,CKod,Cari Kod,60,,,Cabani20
+00 - Cari_Mizan_Rapo,0,1,CName,Cari Adı,124,,,Cabani20
+00 - Cari_Mizan_Rapo,0,2,ParaCinsi,ParaCinsi,24,,,Cabani20
+02 - Siparis Kalan T,0,0,cariKod,Sipariş Cari Ko,76,,,Cabani20
+02 - Siparis Kalan T,0,1,CariKod_Tanim,Sipariş Cari Ko,147,,,Cabani20
+02 - Siparis Kalan T,0,2,Siparis_Miktari,Sipariş Miktarı,57,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,3,Birim,Birim,34,,,Cabani20
+02 - Siparis Kalan T,0,4,FToplam,Fiş Toplamı,72,"#,##0.00",*,Cabani20
+02 - Siparis Kalan T,0,5,iskontoTut,İskonto Tutarı,68,"#,##0.00",*,Cabani20
+02 - Siparis Kalan T,0,6,Tutar,Tutar,64,"#,##0.00",*,Cabani20
+02 - Siparis Kalan T,0,7,ParaCinsi,Kur,23,,,Cabani20
+02 - Siparis Kalan T,0,8,Gonderilen,Gönderilen,60,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,9,Faturalanan,Faturalanan,57,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,10,Harici_Kapatilan,Harici Kapatıla,49,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,12,Net_Kalan,Net Kalan,72,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,13,CF0,Ort Fiyat,64,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,14,CF1,Sevk Tutarı,72,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,15,CF2,Iptal Tutarı,64,"#,##0.##",*,Cabani20
+02 - Siparis Kalan T,0,16,CF3,Kalan Tutar,72,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,0,cariKod,Sipariş Cari Ko,66,,,Cabani20
+03 - Siparis Durum R,0,1,CariKod_Tanim,Sipariş Cari Ko,129,,,Cabani20
+03 - Siparis Durum R,0,2,SKod,Stok Kodu,67,,,Cabani20
+03 - Siparis Durum R,0,3,SKod_Tanim,Stok Kodu Tanım,117,,,Cabani20
+03 - Siparis Durum R,0,4,RKod_Tanim,Renk Tanımı,147,,,Cabani20
+03 - Siparis Durum R,0,5,UreticiKodu_Tanim,Üretici Kodu Ta,94,,,Cabani20
+03 - Siparis Durum R,0,6,Siparis_Miktari,Sipariş Miktarı,59,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,7,Birim,Birim,34,,,Cabani20
+03 - Siparis Durum R,0,8,Gonderilen,Gönderilen,57,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,9,Faturalanan,Faturalanan,49,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,10,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,12,Net_Kalan,Net Kalan,49,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,13,Satinalma_Top,Satınalma Topla,64,"#,##0.##",*,Cabani20
+03 - Siparis Durum R,0,14,Satinalma_kalan,Satınalma Kalan,60,"#,##0.##",*,Cabani20
+00 - Cari_Mizan_Rapo,0,3,Borc,Borc,64,"#,##0.00",*,Cabani20
+00 - Cari_Mizan_Rapo,0,4,Alacak,Alacak,64,"#,##0.00",*,Cabani20
+00 - Cari_Mizan_Rapo,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Cabani20
+00 - Cari_Mizan_Rapo,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Cabani20
+00 - Cari_Mizan_Rapo,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Cabani20
+Mrp_Rapor,0,0,uskod,Ürün Kodu,60,,,Cabani20
+Mrp_Rapor,0,1,USKod_Tanim,Ürün Kodu Tanım,183,,,Cabani20
+Mrp_Rapor,0,2,hskod,Hammadde Kodu,73,,,Cabani20
+Mrp_Rapor,0,3,HSKod_Tanim,Hammadde Kodu T,131,,,Cabani20
+Mrp_Rapor,0,4,HRKod_Tanim,Renk Tanımı,42,,,Cabani20
+Mrp_Rapor,0,5,HBeden,Hammadde Beden,57,,,Cabani20
+Mrp_Rapor,0,6,HBirim,HBirim,47,,,Cabani20
+Mrp_Rapor,0,7,Miktar2,Planlama ihtiya,60,"#,###0.####",,Cabani20
+Mrp_Rapor,0,8,MiktarTop,Toplam ihtiyac,53,"#,###0.####",,Cabani20
+Mrp_Rapor,0,9,Hammadde_Mevcudu,Hammadde Mevcud,76,"#,###0.####",,Cabani20
+Mrp_Rapor,0,10,Ham_Satinalma,Ham Satinalma,71,"#,###0.####",,Cabani20
+Mrp_Rapor,0,11,Siparisi_Gereken,Siparisi Gereke,62,"#,###0.####",,Cabani20
+02 - Cari Islem Deta,0,2,Aciklama,Aciklama,166,,,Cabani20
+Banka Bakiye Listesi,0,0,Tarih,Tarih,64,,,Cabani20
+Banka Bakiye Listesi,0,1,Banka_Tanim,Banka Tanımı,132,,,Cabani20
+Banka Bakiye Listesi,0,2,Sube_Tanim,Şube Tanımı,106,,,Cabani20
+Banka Bakiye Listesi,0,3,Hesap,Hesap,94,,,Cabani20
+Banka Bakiye Listesi,0,4,Borc,Borç,98,"#,##0.00",*,Cabani20
+Banka Bakiye Listesi,0,5,Alacak,Alacak,91,"#,##0.00",*,Cabani20
+Banka Bakiye Listesi,0,6,Bakiye,Bakiye,79,"#,##0.00",*,Cabani20
+Banka Bakiye Listesi,0,7,ParaCinsi,Kur,23,,,Cabani20
+Ercan2,0,0,SatKod,Satıcı Kodu,94,,,KORGUNYAZILIM1910
+Ercan2,0,1,Location,Lokasyon,58,,,KORGUNYAZILIM1910
+Ercan2,0,2,Location_Tanim,Lokasyon Tanım,304,,,KORGUNYAZILIM1910
+Ercan2,0,3,Miktar,Miktar,238,"#,##0.##",,KORGUNYAZILIM1910
+Ercan2,0,4,Birim,Birim,64,,,KORGUNYAZILIM1910
+Ercan2,0,5,MYuzde,Miktar %,64,#.000,,KORGUNYAZILIM1910
+Ercan2,0,6,Satici,Satıcı,250,,,KORGUNYAZILIM1910
+Ercan2,0,7,StokFiyat,Stok Fiyatı,64,"#,##0.00",,KORGUNYAZILIM1910
+Ercan2,0,8,Fiyat,Fiyat,64,"#,##0.00",,KORGUNYAZILIM1910
+Ercan2,0,9,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+Ercan2,0,10,iskontoTut,İskonto Tutarı,83,"#,##0.##",,KORGUNYAZILIM1910
+Ercan2,0,11,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,KORGUNYAZILIM1910
+Ercan2,0,12,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,KORGUNYAZILIM1910
+Ercan2,0,13,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM1910
+Ercan2,0,14,TYuzde,Tutar %,64,#.000,,KORGUNYAZILIM1910
+Ercan2,0,15,HRF_Maas,Maaş,64,"#,##0.##",,KORGUNYAZILIM1910
+Ercan2,0,16,HRF_Barkod,Prim Oranı,154,,,KORGUNYAZILIM1910
+Ercan2,0,17,HRF_OzKod5,Gider Oranı,604,,,KORGUNYAZILIM1910
+rr,0,0,FisTip,FisTip,35,,,KORGUNYAZILIM1910
+rr,0,1,FisNo,FisNo,42,,,KORGUNYAZILIM1910
+rr,0,2,FisTar,FisTar,76,,,KORGUNYAZILIM1910
+rr,0,3,CM,CM,38,,,KORGUNYAZILIM1910
+rr,0,4,CariUnvan,CariUnvan,126,,,KORGUNYAZILIM1910
+rr,0,5,Vade,Vade,70,,,KORGUNYAZILIM1910
+rr,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM1910
+rr,0,7,ParaCinsi,ParaCinsi,25,,,KORGUNYAZILIM1910
+rr,0,8,Masraf,Masraf,64,"#,##0.00",,KORGUNYAZILIM1910
+rr,0,9,OdTip,OdTip,44,,,KORGUNYAZILIM1910
+rr,0,10,Banka,Banka,52,,,KORGUNYAZILIM1910
+rr,0,11,Sube,Sube,43,,,KORGUNYAZILIM1910
+rr,0,12,Hesap,Hesap,58,,,KORGUNYAZILIM1910
+rr,0,13,Tahsil,Tahsil,28,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,0,Tahsil,Tahsil,38,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,1,FisNo,FisNo,64,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,2,FisTar,FisTar,112,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,3,CM,CM,46,,,KORGUNYAZILIM1910
+S2,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM1910
+S2,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S2,0,3,CariKod_Tanim,Sipariş Cari Ko,141,,,KORGUNYAZILIM1910
+S2,0,4,TeslimTar,Termin Tarihi,60,,,KORGUNYAZILIM1910
+S2,0,5,SipOzKod2,Sipariş Özel Ko,123,,,KORGUNYAZILIM1910
+S2,0,6,SKod,Stok Kodu,73,,,KORGUNYAZILIM1910
+S2,0,7,SKod_Tanim,Stok Kodu Tanım,125,,,KORGUNYAZILIM1910
+S2,0,10,OzKod2,Özel Kod 2,52,,,KORGUNYAZILIM1910
+S2,0,11,ROzKod2,Renk Özel Kod 2,66,,,KORGUNYAZILIM1910
+S2,0,13,Siparis_Miktari,Sipariş Miktarı,42,"#,###.##",*,KORGUNYAZILIM1910
+S2,0,14,CF2,Siparis Fiyatı,49,"#,###.##",,KORGUNYAZILIM1910
+S2,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S2,0,16,Birim,Birim,34,,,KORGUNYAZILIM1910
+S2,0,17,FToplam,Fiş Toplamı,68,"#,##0.00",*,KORGUNYAZILIM1910
+S2,0,18,iskontoTut,İskonto Tutarı,53,"#,##0.00",*,KORGUNYAZILIM1910
+S2,0,20,Tutar,Tutar,38,"#,##0.00",*,KORGUNYAZILIM1910
+S2,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S2,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM1910
+S2,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S2,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S2,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S2,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,KORGUNYAZILIM1910
+S3,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S3,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM1910
+S3,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM1910
+S3,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S3,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S3,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM1910
+S3,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM1910
+S3,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S3,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S3,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM1910
+S3,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM1910
+S3,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S3,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S3,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM1910
+S3,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S3,0,16,Birim,Birim,34,,,KORGUNYAZILIM1910
+S3,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM1910
+S3,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S3,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S3,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM1910
+S3,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S4,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM1910
+S4,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S4,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM1910
+S4,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM1910
+S4,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S4,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S4,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM1910
+S4,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM1910
+S4,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S4,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S4,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM1910
+S4,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM1910
+S4,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S4,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S4,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM1910
+S4,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S4,0,16,Birim,Birim,34,,,KORGUNYAZILIM1910
+S4,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM1910
+S4,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S4,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S4,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM1910
+S4,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,KORGUNYAZILIM1910
+S3,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S3,0,2,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM1910
+S5,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM1910
+S5,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S5,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM1910
+S5,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM1910
+S5,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S5,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S5,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM1910
+S5,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM1910
+S5,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S5,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S5,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM1910
+S5,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM1910
+S5,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S5,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S5,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM1910
+S5,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S5,0,16,Birim,Birim,34,,,KORGUNYAZILIM1910
+S5,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM1910
+S5,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S5,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S5,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM1910
+S5,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S6,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM1910
+S6,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S6,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM1910
+S6,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM1910
+S6,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S6,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S6,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM1910
+S6,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM1910
+S6,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S6,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S6,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM1910
+S6,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM1910
+S6,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S6,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S6,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM1910
+S6,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S6,0,16,Birim,Birim,34,,,KORGUNYAZILIM1910
+S6,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM1910
+S6,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S6,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,4,CariUnvan,CariUnvan,364,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,5,Vade,Vade,112,,,KORGUNYAZILIM1910
+S6,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM1910
+S6,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,8,ParaCinsi,ParaCinsi,57,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,9,OdTip,OdTip,64,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,10,Banka,Banka,94,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,11,Sube,Sube,94,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,12,Hesap,Hesap,184,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,13,FisTip,FisTip,28,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,0,PortfoyNo,Portföy No,51,"#,##0.##",,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,1,Banka,Banka,67,,,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,0,cariKod,Sipariş Cari Ko,79,,,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,1,CariKod_Tanim,Sipariş Cari Ko,150,,,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,2,Siparis_Miktari,Sipariş Miktarı,60,"#,##0.####",*,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,3,Birim,Birim,34,,,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,4,Gonderilen,Gönderilen,53,"#,##0.####",*,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,5,Faturalanan,Faturalanan,45,"#,##0.####",*,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,6,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.####",*,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,7,Toplam_Kapatilan,Toplam Kapatıla,79,"#,##0.####",*,KORGUNYAZILIM1910
+01 - Siparis Kalan R,0,8,Net_Kalan,Net Kalan,68,"#,##0.####",*,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,2,Sube,Şube,114,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,3,HesapNo,Hesap No,81,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,4,CekNo,Çek No,61,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,5,Vade,Vade,76,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,6,CMKod,Cari Kodu,94,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,7,CMKod_Tanim,Cari Kodu Tanım,151,,,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,8,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM1910
+Firma_Cek_Dokumu,0,9,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+Hayriye,0,0,OzKod3,Özel Kod 3,87,,,KORGUNYAZILIM1910
+Hayriye,0,1,RKod_Tanim,Renk Tanımı,110,,,KORGUNYAZILIM1910
+Hayriye,0,2,Siparis_Miktari,Sipariş Miktarı,112,"#,##0.##",,KORGUNYAZILIM1910
+Hayriye,0,3,Birim,Birim,34,,,KORGUNYAZILIM1910
+Hayriye,0,4,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,0,Fistar,Tarih,79,,,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,1,Cari,Hesap,74,,,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,2,Tanim,Tanim,141,,,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,3,HarAck,Aciklama,118,,,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,4,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,5,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,6,Bakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM1910
+Kasa_Ekstresi,0,7,ParaCinsi,ParaCinsi,45,,,KORGUNYAZILIM1910
+S9,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM1910
+S9,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM1910
+S9,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM1910
+S9,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM1910
+S9,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S9,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S9,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM1910
+S9,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM1910
+S9,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S9,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S9,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM1910
+S9,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM1910
+S9,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S9,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S9,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM1910
+S9,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S9,0,16,Birim,Birim,34,,,KORGUNYAZILIM1910
+S9,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM1910
+S9,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S9,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S9,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM1910
+S9,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S10,0,0,SipTar,Sipariş Tarihi,112,,,KORGUNYAZILIM1910
+S10,0,1,cariKod,Sipariş Cari Ko,94,,,KORGUNYAZILIM1910
+S10,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,KORGUNYAZILIM1910
+S10,0,3,SKod,Stok Kodu,94,,,KORGUNYAZILIM1910
+S10,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,KORGUNYAZILIM1910
+S10,0,5,SipNo,Sipariş No,142,"#,###.##",,KORGUNYAZILIM1910
+S10,0,6,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S10,0,7,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S10,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S10,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S10,0,10,ROzKod2,Renk Özel Kod 2,304,,,KORGUNYAZILIM1910
+S10,0,11,OzKod2,Özel Kod 2,100,,,KORGUNYAZILIM1910
+S10,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S10,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S10,0,14,Birim,Birim,34,,,KORGUNYAZILIM1910
+S10,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,KORGUNYAZILIM1910
+S10,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S10,0,17,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S10,0,18,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM1910
+S10,0,19,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S10,0,20,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S10,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,KORGUNYAZILIM1910
+S11,0,0,SipTar,Sipariş Tarihi,112,,,KORGUNYAZILIM1910
+S11,0,1,cariKod,Sipariş Cari Ko,94,,,KORGUNYAZILIM1910
+S11,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,KORGUNYAZILIM1910
+S11,0,3,SKod,Stok Kodu,94,,,KORGUNYAZILIM1910
+S11,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,KORGUNYAZILIM1910
+S11,0,5,SipNo,Sipariş No,142,"#,###.##",,KORGUNYAZILIM1910
+S11,0,6,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM1910
+S11,0,7,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM1910
+S11,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM1910
+S11,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM1910
+S11,0,10,ROzKod2,Renk Özel Kod 2,304,,,KORGUNYAZILIM1910
+S11,0,11,OzKod2,Özel Kod 2,100,,,KORGUNYAZILIM1910
+S11,0,12,Resim,Resim,904,,,KORGUNYAZILIM1910
+S11,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM1910
+S11,0,14,Birim,Birim,34,,,KORGUNYAZILIM1910
+S11,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,KORGUNYAZILIM1910
+S11,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM1910
+S11,0,17,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM1910
+S11,0,18,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM1910
+S11,0,19,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+S11,0,20,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+S11,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,KORGUNYAZILIM1910
+r1,0,0,SKod,Stok Kodu,81,,,KORGUNYAZILIM1910
+r1,0,1,ROzKod2,Renk Özel Kod 2,145,,,KORGUNYAZILIM1910
+r1,0,2,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM1910
+r1,0,3,CariKod_Tanim,Cari Tanım,122,,,KORGUNYAZILIM1910
+r1,0,4,irsaliyeNo,İrsaliye No,82,,,KORGUNYAZILIM1910
+r1,0,5,Fatura_Miktari,İrsaliye Miktar,34,"#,###.##",,KORGUNYAZILIM1910
+r1,0,6,StokFiyat,Stok Fiyatı,64,"#,###.##",,KORGUNYAZILIM1910
+r1,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+r1,0,8,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM1910
+Banka_KK_Ekstresi,0,7,Masraf,Masraf,64,"#,##0.00",,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM1910
+01 - Cari_Hesap_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM1910
+01 - Cari Islem List,0,0,Aciklama,Aciklama,166,,,KORGUNYAZILIM1910
+01 - Cari Islem List,0,1,cbpg,Cari Kod,73,,,KORGUNYAZILIM1910
+01 - Cari Islem List,0,2,cbpg_Tanim,Cari Kod Tanımı,227,,,KORGUNYAZILIM1910
+01 - Cari Islem List,0,3,Tutar,Tutar,76,"#,##0.00",*,KORGUNYAZILIM1910
+01 - Cari Islem List,0,4,ParaCinsi,ParaCinsi,33,,,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,0,FisNo,FisNo,37,"#,##0.###",,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,1,FisTar,İşlem Tarihi,65,,,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,3,cbpg,Cari Kod,63,,,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,4,cbpg_Tanim,Cari Kod Tanımı,150,,,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,5,SatirAck1,SatirAck1,100,,,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,6,Tutar,Tutar,68,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,7,ParaCinsi,ParaCinsi,32,,,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,0,FisNo,FisNo,41,"#,##0.###",,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,1,Aciklama,Aciklama,89,,,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,2,FisTar,İşlem Tarihi,70,,,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,3,cbpg,Cari Kod,60,,,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,4,cbpg_Tanim,Cari Kod Tanımı,147,,,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,5,Tanim,Tanim,174,,,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,6,Tutar,Tutar,79,"#,##0.00",*,KORGUNYAZILIM1910
+Kasa Islem Listesi,0,7,ParaCinsi,ParaCinsi,26,,,KORGUNYAZILIM1910
+Hesap Planı Listesi,0,0,CODE,Kod,65,,,KORGUNYAZILIM1910
+Hesap Planı Listesi,0,1,DEFINITION,Tanım,409,,,KORGUNYAZILIM1910
+Hesap Planı Listesi,0,2,ID,ID,64,"#,###.####",,KORGUNYAZILIM1910
+Hesap Planı Listesi,0,3,LEVEL_,LEVEL_,57,"#,###.####",,KORGUNYAZILIM1910
+Banka Listesi,0,0,BankaTanim,Banka Tanım,93,,,KORGUNYAZILIM1910
+Banka Listesi,0,1,sube,Şube Kodu,45,,,KORGUNYAZILIM1910
+Banka Listesi,0,2,SubeTanim,Şube Tanım,135,,,KORGUNYAZILIM1910
+Banka Listesi,0,3,HesapKod,Hesap Kodu,87,,,KORGUNYAZILIM1910
+Banka Listesi,0,4,HesapTanim,Hesap Tanım,146,,,KORGUNYAZILIM1910
+Banka Listesi,0,5,Paracinsi,Paracinsi,56,,,KORGUNYAZILIM1910
+Banka Listesi,0,6,IBAN,IBAN,208,,,KORGUNYAZILIM1910
+Banka Listesi,0,7,HesTip,Hesap Tipi,106,,,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,0,Location_Tanim,Location_Tanim,140,,,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,1,Miktar,Miktar,50,,*,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,2,Birim,Birim,62,,,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,3,StokFiyat,StokFiyat,76,,,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,4,Fiyat,Fiyat,79,,*,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,5,ParaCinsi,ParaCinsi,33,,,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,6,iskontoTut,iskontoTut,72,,*,KORGUNYAZILIM1910
+SF_Renkli_Liste,0,0,Resim,Resim,903,,,KORGUNYAZILIM1910
+SF_Renkli_Liste,0,1,SKod,Stok Kodu,70,,,KORGUNYAZILIM1910
+SF_Renkli_Liste,0,2,Tanim,Tanım,42,,,KORGUNYAZILIM1910
+SF_Renkli_Liste,0,3,Renk_Tanim,Renk Tanim,59,,,KORGUNYAZILIM1910
+SF_Renkli_Liste,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,KORGUNYAZILIM1910
+SF_Renkli_Resimli,0,0,Resim,Resim,903,,,KORGUNYAZILIM1910
+SF_Renkli_Resimli,0,1,SKod,Stok Kodu,70,,,KORGUNYAZILIM1910
+SF_Renkli_Resimli,0,2,Tanim,Tanım,42,,,KORGUNYAZILIM1910
+SF_Renkli_Resimli,0,3,Renk_Tanim,Renk Tanim,59,,,KORGUNYAZILIM1910
+SF_Renkli_Resimli,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,7,KDV_Tutar,KDV_Tutar,80,,*,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,8,Tutar,Tutar,79,,*,KORGUNYAZILIM1910
+mağaza_ciro_raporu,0,9,kdvsiz,kdvsiz,83,,,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,0,SKod,SKod,60,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,1,SKod_Tanim,SKod_Tanim,148,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,0,SKod,SKod,68,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,1,Stok_Tanim,Stok_Tanim,304,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,2,Giren,Giren,57,"#,##0.####",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,3,Cikan,Cikan,64,"#,##0.####",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,4,Kalan,Kalan,53,"#,##0.####",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,5,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,6,KalTut,KalTut,64,"#,##0.####",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,7,ParaCinsi,ParaCinsi,57,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,2,RKod_Tanim,RKod_Tanim,113,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,3,Asorti,Asorti,36,,,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,4,Siparis_Miktari,Siparis_Miktari,45,"#,##0.####",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,5,Toplam_Kapatilan,Toplam_Kapatila,68,"#,##0.####",*,KORGUNYAZILIM1910
+Cari_Siparis_Listesi,0,6,Net_Kalan,Net_Kalan,68,"#,##0.####",*,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM1910
+İşçilik_Rapor,0,0,Personel,Personel,61,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,1,Personel_Tanim,Personel Tanim,99,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,2,EmirNo,Emir Numarası,44,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,3,ModelKod,Model Kodu,54,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,4,ModelKod_Tanim,Model Tanımı,171,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,5,RKod_Tanim,RKod Tanim,87,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,6,Proses_Tanim,Proses Tanim,68,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,7,EndTarih1,Ürünün Proses i,74,,,KORGUNYAZILIM1910
+İşçilik_Rapor,0,8,Biten,Biten,45,"#,###0.####",*,KORGUNYAZILIM1910
+İşçilik_Rapor,0,9,BirimMaliyet,Birim Maliyet,65,"#,###0.####",,KORGUNYAZILIM1910
+İşçilik_Rapor,0,10,Biten_Maliyet,Biten Maliyet,72,"#,###0.####",*,KORGUNYAZILIM1910
+İşçilik_Rapor,0,11,Birim,Birim,40,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,0,CariKod_Tanim,Cari Kod Tanımı,113,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,1,EmirNo,Emir No,40,"#,###0.####",,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,2,uskod,Ürün Kodu,71,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,3,USKod_Tanim,Ürün Kodu Tanım,287,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,4,hskod,Hammadde Kodu,78,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,5,HSKod_Tanim,Hammadde Kodu T,150,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,6,HRKod_Tanim,Renk Tanımı,113,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,7,Siparis_Miktar,Sipariş Miktarı,56,"#,###0.####",,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,8,HBirim,HBirim,52,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,9,HBeden,Hammadde Beden,52,,,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,10,Miktar3,Emir ihtiyacı,72,"#,###0.####",*,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,11,MiktarTop,Toplam ihtiyac,86,"#,###0.####",,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,12,Hammadde_Mevcudu,Hammadde Mevcud,64,"#,###0.####",,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,13,Ham_Satinalma,Ham Satinalma,61,"#,###0.####",,KORGUNYAZILIM1910
+Satınalma_İhtiyaç,0,14,Siparisi_Gereken,Siparisi Gereke,69,"#,###0.####",,KORGUNYAZILIM1910
+02 - Cari_Detay_List,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,0,cariKod,Sipariş Cari Ko,76,,,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,1,CariKod_Tanim,Sipariş Cari Ko,147,,,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,2,Siparis_Miktari,Sipariş Miktarı,57,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,3,Birim,Birim,34,,,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,4,FToplam,Fiş Toplamı,72,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,5,iskontoTut,İskonto Tutarı,68,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,8,Gonderilen,Gönderilen,60,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,9,Faturalanan,Faturalanan,57,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,10,Harici_Kapatilan,Harici Kapatıla,49,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,12,Net_Kalan,Net Kalan,72,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,13,CF0,Ort Fiyat,64,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,14,CF1,Sevk Tutarı,72,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,15,CF2,Iptal Tutarı,64,"#,##0.##",*,KORGUNYAZILIM1910
+02 - Siparis Kalan T,0,16,CF3,Kalan Tutar,72,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,0,cariKod,Sipariş Cari Ko,66,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,1,CariKod_Tanim,Sipariş Cari Ko,129,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,2,SKod,Stok Kodu,67,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,3,SKod_Tanim,Stok Kodu Tanım,117,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,4,RKod_Tanim,Renk Tanımı,147,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,5,UreticiKodu_Tanim,Üretici Kodu Ta,94,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,6,Siparis_Miktari,Sipariş Miktarı,59,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,7,Birim,Birim,34,,,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,8,Gonderilen,Gönderilen,57,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,9,Faturalanan,Faturalanan,49,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,10,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,12,Net_Kalan,Net Kalan,49,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,13,Satinalma_Top,Satınalma Topla,64,"#,##0.##",*,KORGUNYAZILIM1910
+03 - Siparis Durum R,0,14,Satinalma_kalan,Satınalma Kalan,60,"#,##0.##",*,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM1910
+00 - Cari_Mizan_Rapo,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM1910
+Mrp_Rapor,0,0,uskod,Ürün Kodu,60,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,1,USKod_Tanim,Ürün Kodu Tanım,183,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,2,hskod,Hammadde Kodu,73,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,3,HSKod_Tanim,Hammadde Kodu T,131,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,4,HRKod_Tanim,Renk Tanımı,42,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,5,HBeden,Hammadde Beden,57,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,6,HBirim,HBirim,47,,,KORGUNYAZILIM1910
+Mrp_Rapor,0,7,Miktar2,Planlama ihtiya,60,"#,###0.####",,KORGUNYAZILIM1910
+Mrp_Rapor,0,8,MiktarTop,Toplam ihtiyac,53,"#,###0.####",,KORGUNYAZILIM1910
+Mrp_Rapor,0,9,Hammadde_Mevcudu,Hammadde Mevcud,76,"#,###0.####",,KORGUNYAZILIM1910
+Mrp_Rapor,0,10,Ham_Satinalma,Ham Satinalma,71,"#,###0.####",,KORGUNYAZILIM1910
+Mrp_Rapor,0,11,Siparisi_Gereken,Siparisi Gereke,62,"#,###0.####",,KORGUNYAZILIM1910
+02 - Cari Islem Deta,0,2,Aciklama,Aciklama,166,,,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,0,Tarih,Tarih,64,,,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,1,Banka_Tanim,Banka Tanımı,132,,,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,2,Sube_Tanim,Şube Tanımı,106,,,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,3,Hesap,Hesap,94,,,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,4,Borc,Borç,98,"#,##0.00",*,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,5,Alacak,Alacak,91,"#,##0.00",*,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,6,Bakiye,Bakiye,79,"#,##0.00",*,KORGUNYAZILIM1910
+Banka Bakiye Listesi,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM1910
+Ercan2,0,0,SatKod,Satıcı Kodu,94,,,KORGUNYAZILIM2210
+Ercan2,0,1,Location,Lokasyon,58,,,KORGUNYAZILIM2210
+Ercan2,0,2,Location_Tanim,Lokasyon Tanım,304,,,KORGUNYAZILIM2210
+Ercan2,0,3,Miktar,Miktar,238,"#,##0.##",,KORGUNYAZILIM2210
+Ercan2,0,4,Birim,Birim,64,,,KORGUNYAZILIM2210
+Ercan2,0,5,MYuzde,Miktar %,64,#.000,,KORGUNYAZILIM2210
+Ercan2,0,6,Satici,Satıcı,250,,,KORGUNYAZILIM2210
+Ercan2,0,7,StokFiyat,Stok Fiyatı,64,"#,##0.00",,KORGUNYAZILIM2210
+Ercan2,0,8,Fiyat,Fiyat,64,"#,##0.00",,KORGUNYAZILIM2210
+Ercan2,0,9,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+Ercan2,0,10,iskontoTut,İskonto Tutarı,83,"#,##0.##",,KORGUNYAZILIM2210
+Ercan2,0,11,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,KORGUNYAZILIM2210
+Ercan2,0,12,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,KORGUNYAZILIM2210
+Ercan2,0,13,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM2210
+Ercan2,0,14,TYuzde,Tutar %,64,#.000,,KORGUNYAZILIM2210
+Ercan2,0,15,HRF_Maas,Maaş,64,"#,##0.##",,KORGUNYAZILIM2210
+Ercan2,0,16,HRF_Barkod,Prim Oranı,154,,,KORGUNYAZILIM2210
+Ercan2,0,17,HRF_OzKod5,Gider Oranı,604,,,KORGUNYAZILIM2210
+rr,0,0,FisTip,FisTip,35,,,KORGUNYAZILIM2210
+rr,0,1,FisNo,FisNo,42,,,KORGUNYAZILIM2210
+rr,0,2,FisTar,FisTar,76,,,KORGUNYAZILIM2210
+rr,0,3,CM,CM,38,,,KORGUNYAZILIM2210
+rr,0,4,CariUnvan,CariUnvan,126,,,KORGUNYAZILIM2210
+rr,0,5,Vade,Vade,70,,,KORGUNYAZILIM2210
+rr,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2210
+rr,0,7,ParaCinsi,ParaCinsi,25,,,KORGUNYAZILIM2210
+rr,0,8,Masraf,Masraf,64,"#,##0.00",,KORGUNYAZILIM2210
+rr,0,9,OdTip,OdTip,44,,,KORGUNYAZILIM2210
+rr,0,10,Banka,Banka,52,,,KORGUNYAZILIM2210
+rr,0,11,Sube,Sube,43,,,KORGUNYAZILIM2210
+rr,0,12,Hesap,Hesap,58,,,KORGUNYAZILIM2210
+rr,0,13,Tahsil,Tahsil,28,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,0,Tahsil,Tahsil,38,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,1,FisNo,FisNo,64,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,2,FisTar,FisTar,112,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,3,CM,CM,46,,,KORGUNYAZILIM2210
+S2,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2210
+S2,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S2,0,3,CariKod_Tanim,Sipariş Cari Ko,141,,,KORGUNYAZILIM2210
+S2,0,4,TeslimTar,Termin Tarihi,60,,,KORGUNYAZILIM2210
+S2,0,5,SipOzKod2,Sipariş Özel Ko,123,,,KORGUNYAZILIM2210
+S2,0,6,SKod,Stok Kodu,73,,,KORGUNYAZILIM2210
+S2,0,7,SKod_Tanim,Stok Kodu Tanım,125,,,KORGUNYAZILIM2210
+S2,0,10,OzKod2,Özel Kod 2,52,,,KORGUNYAZILIM2210
+S2,0,11,ROzKod2,Renk Özel Kod 2,66,,,KORGUNYAZILIM2210
+S2,0,13,Siparis_Miktari,Sipariş Miktarı,42,"#,###.##",*,KORGUNYAZILIM2210
+S2,0,14,CF2,Siparis Fiyatı,49,"#,###.##",,KORGUNYAZILIM2210
+S2,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S2,0,16,Birim,Birim,34,,,KORGUNYAZILIM2210
+S2,0,17,FToplam,Fiş Toplamı,68,"#,##0.00",*,KORGUNYAZILIM2210
+S2,0,18,iskontoTut,İskonto Tutarı,53,"#,##0.00",*,KORGUNYAZILIM2210
+S2,0,20,Tutar,Tutar,38,"#,##0.00",*,KORGUNYAZILIM2210
+S2,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S2,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2210
+S2,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S2,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S2,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S2,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,KORGUNYAZILIM2210
+S3,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S3,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2210
+S3,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2210
+S3,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S3,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S3,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2210
+S3,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2210
+S3,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S3,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S3,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2210
+S3,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2210
+S3,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S3,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S3,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2210
+S3,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S3,0,16,Birim,Birim,34,,,KORGUNYAZILIM2210
+S3,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2210
+S3,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S3,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S3,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2210
+S3,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S4,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2210
+S4,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S4,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2210
+S4,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2210
+S4,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S4,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S4,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2210
+S4,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2210
+S4,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S4,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S4,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2210
+S4,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2210
+S4,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S4,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S4,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2210
+S4,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S4,0,16,Birim,Birim,34,,,KORGUNYAZILIM2210
+S4,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2210
+S4,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S4,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S4,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2210
+S4,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,KORGUNYAZILIM2210
+S3,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S3,0,2,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2210
+S5,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2210
+S5,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S5,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2210
+S5,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2210
+S5,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S5,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S5,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2210
+S5,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2210
+S5,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S5,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S5,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2210
+S5,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2210
+S5,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S5,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S5,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2210
+S5,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S5,0,16,Birim,Birim,34,,,KORGUNYAZILIM2210
+S5,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2210
+S5,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S5,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S5,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2210
+S5,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S6,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2210
+S6,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S6,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2210
+S6,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2210
+S6,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S6,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S6,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2210
+S6,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2210
+S6,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S6,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S6,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2210
+S6,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2210
+S6,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S6,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S6,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2210
+S6,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S6,0,16,Birim,Birim,34,,,KORGUNYAZILIM2210
+S6,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2210
+S6,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S6,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,4,CariUnvan,CariUnvan,364,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,5,Vade,Vade,112,,,KORGUNYAZILIM2210
+S6,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2210
+S6,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,8,ParaCinsi,ParaCinsi,57,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,9,OdTip,OdTip,64,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,10,Banka,Banka,94,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,11,Sube,Sube,94,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,12,Hesap,Hesap,184,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,13,FisTip,FisTip,28,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,0,PortfoyNo,Portföy No,51,"#,##0.##",,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,1,Banka,Banka,67,,,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,0,cariKod,Sipariş Cari Ko,79,,,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,1,CariKod_Tanim,Sipariş Cari Ko,150,,,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,2,Siparis_Miktari,Sipariş Miktarı,60,"#,##0.####",*,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,3,Birim,Birim,34,,,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,4,Gonderilen,Gönderilen,53,"#,##0.####",*,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,5,Faturalanan,Faturalanan,45,"#,##0.####",*,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,6,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.####",*,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,7,Toplam_Kapatilan,Toplam Kapatıla,79,"#,##0.####",*,KORGUNYAZILIM2210
+01 - Siparis Kalan R,0,8,Net_Kalan,Net Kalan,68,"#,##0.####",*,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,2,Sube,Şube,114,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,3,HesapNo,Hesap No,81,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,4,CekNo,Çek No,61,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,5,Vade,Vade,76,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,6,CMKod,Cari Kodu,94,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,7,CMKod_Tanim,Cari Kodu Tanım,151,,,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,8,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2210
+Firma_Cek_Dokumu,0,9,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+Hayriye,0,0,OzKod3,Özel Kod 3,87,,,KORGUNYAZILIM2210
+Hayriye,0,1,RKod_Tanim,Renk Tanımı,110,,,KORGUNYAZILIM2210
+Hayriye,0,2,Siparis_Miktari,Sipariş Miktarı,112,"#,##0.##",,KORGUNYAZILIM2210
+Hayriye,0,3,Birim,Birim,34,,,KORGUNYAZILIM2210
+Hayriye,0,4,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,0,Fistar,Tarih,79,,,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,1,Cari,Hesap,74,,,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,2,Tanim,Tanim,141,,,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,3,HarAck,Aciklama,118,,,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,4,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,5,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,6,Bakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2210
+Kasa_Ekstresi,0,7,ParaCinsi,ParaCinsi,45,,,KORGUNYAZILIM2210
+S9,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2210
+S9,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2210
+S9,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2210
+S9,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2210
+S9,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S9,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S9,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2210
+S9,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2210
+S9,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S9,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S9,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2210
+S9,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2210
+S9,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S9,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S9,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2210
+S9,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S9,0,16,Birim,Birim,34,,,KORGUNYAZILIM2210
+S9,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2210
+S9,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S9,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S9,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2210
+S9,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S10,0,0,SipTar,Sipariş Tarihi,112,,,KORGUNYAZILIM2210
+S10,0,1,cariKod,Sipariş Cari Ko,94,,,KORGUNYAZILIM2210
+S10,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,KORGUNYAZILIM2210
+S10,0,3,SKod,Stok Kodu,94,,,KORGUNYAZILIM2210
+S10,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,KORGUNYAZILIM2210
+S10,0,5,SipNo,Sipariş No,142,"#,###.##",,KORGUNYAZILIM2210
+S10,0,6,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S10,0,7,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S10,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S10,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S10,0,10,ROzKod2,Renk Özel Kod 2,304,,,KORGUNYAZILIM2210
+S10,0,11,OzKod2,Özel Kod 2,100,,,KORGUNYAZILIM2210
+S10,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S10,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S10,0,14,Birim,Birim,34,,,KORGUNYAZILIM2210
+S10,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,KORGUNYAZILIM2210
+S10,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S10,0,17,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S10,0,18,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM2210
+S10,0,19,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S10,0,20,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S10,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,KORGUNYAZILIM2210
+S11,0,0,SipTar,Sipariş Tarihi,112,,,KORGUNYAZILIM2210
+S11,0,1,cariKod,Sipariş Cari Ko,94,,,KORGUNYAZILIM2210
+S11,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,KORGUNYAZILIM2210
+S11,0,3,SKod,Stok Kodu,94,,,KORGUNYAZILIM2210
+S11,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,KORGUNYAZILIM2210
+S11,0,5,SipNo,Sipariş No,142,"#,###.##",,KORGUNYAZILIM2210
+S11,0,6,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2210
+S11,0,7,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2210
+S11,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2210
+S11,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2210
+S11,0,10,ROzKod2,Renk Özel Kod 2,304,,,KORGUNYAZILIM2210
+S11,0,11,OzKod2,Özel Kod 2,100,,,KORGUNYAZILIM2210
+S11,0,12,Resim,Resim,904,,,KORGUNYAZILIM2210
+S11,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2210
+S11,0,14,Birim,Birim,34,,,KORGUNYAZILIM2210
+S11,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,KORGUNYAZILIM2210
+S11,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2210
+S11,0,17,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2210
+S11,0,18,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM2210
+S11,0,19,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+S11,0,20,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+S11,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,KORGUNYAZILIM2210
+r1,0,0,SKod,Stok Kodu,81,,,KORGUNYAZILIM2210
+r1,0,1,ROzKod2,Renk Özel Kod 2,145,,,KORGUNYAZILIM2210
+r1,0,2,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2210
+r1,0,3,CariKod_Tanim,Cari Tanım,122,,,KORGUNYAZILIM2210
+r1,0,4,irsaliyeNo,İrsaliye No,82,,,KORGUNYAZILIM2210
+r1,0,5,Fatura_Miktari,İrsaliye Miktar,34,"#,###.##",,KORGUNYAZILIM2210
+r1,0,6,StokFiyat,Stok Fiyatı,64,"#,###.##",,KORGUNYAZILIM2210
+r1,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+r1,0,8,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2210
+Banka_KK_Ekstresi,0,7,Masraf,Masraf,64,"#,##0.00",,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM2210
+01 - Cari_Hesap_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2210
+01 - Cari Islem List,0,0,Aciklama,Aciklama,166,,,KORGUNYAZILIM2210
+01 - Cari Islem List,0,1,cbpg,Cari Kod,73,,,KORGUNYAZILIM2210
+01 - Cari Islem List,0,2,cbpg_Tanim,Cari Kod Tanımı,227,,,KORGUNYAZILIM2210
+01 - Cari Islem List,0,3,Tutar,Tutar,76,"#,##0.00",*,KORGUNYAZILIM2210
+01 - Cari Islem List,0,4,ParaCinsi,ParaCinsi,33,,,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,0,FisNo,FisNo,37,"#,##0.###",,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,1,FisTar,İşlem Tarihi,65,,,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,3,cbpg,Cari Kod,63,,,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,4,cbpg_Tanim,Cari Kod Tanımı,150,,,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,5,SatirAck1,SatirAck1,100,,,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,6,Tutar,Tutar,68,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,7,ParaCinsi,ParaCinsi,32,,,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,0,FisNo,FisNo,41,"#,##0.###",,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,1,Aciklama,Aciklama,89,,,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,2,FisTar,İşlem Tarihi,70,,,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,3,cbpg,Cari Kod,60,,,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,4,cbpg_Tanim,Cari Kod Tanımı,147,,,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,5,Tanim,Tanim,174,,,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,6,Tutar,Tutar,79,"#,##0.00",*,KORGUNYAZILIM2210
+Kasa Islem Listesi,0,7,ParaCinsi,ParaCinsi,26,,,KORGUNYAZILIM2210
+Hesap Planı Listesi,0,0,CODE,Kod,65,,,KORGUNYAZILIM2210
+Hesap Planı Listesi,0,1,DEFINITION,Tanım,409,,,KORGUNYAZILIM2210
+Hesap Planı Listesi,0,2,ID,ID,64,"#,###.####",,KORGUNYAZILIM2210
+Hesap Planı Listesi,0,3,LEVEL_,LEVEL_,57,"#,###.####",,KORGUNYAZILIM2210
+Banka Listesi,0,0,BankaTanim,Banka Tanım,93,,,KORGUNYAZILIM2210
+Banka Listesi,0,1,sube,Şube Kodu,45,,,KORGUNYAZILIM2210
+Banka Listesi,0,2,SubeTanim,Şube Tanım,135,,,KORGUNYAZILIM2210
+Banka Listesi,0,3,HesapKod,Hesap Kodu,87,,,KORGUNYAZILIM2210
+Banka Listesi,0,4,HesapTanim,Hesap Tanım,146,,,KORGUNYAZILIM2210
+Banka Listesi,0,5,Paracinsi,Paracinsi,56,,,KORGUNYAZILIM2210
+Banka Listesi,0,6,IBAN,IBAN,208,,,KORGUNYAZILIM2210
+Banka Listesi,0,7,HesTip,Hesap Tipi,106,,,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,0,Location_Tanim,Location_Tanim,140,,,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,1,Miktar,Miktar,50,,*,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,2,Birim,Birim,62,,,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,3,StokFiyat,StokFiyat,76,,,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,4,Fiyat,Fiyat,79,,*,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,5,ParaCinsi,ParaCinsi,33,,,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,6,iskontoTut,iskontoTut,72,,*,KORGUNYAZILIM2210
+SF_Renkli_Liste,0,0,Resim,Resim,903,,,KORGUNYAZILIM2210
+SF_Renkli_Liste,0,1,SKod,Stok Kodu,70,,,KORGUNYAZILIM2210
+SF_Renkli_Liste,0,2,Tanim,Tanım,42,,,KORGUNYAZILIM2210
+SF_Renkli_Liste,0,3,Renk_Tanim,Renk Tanim,59,,,KORGUNYAZILIM2210
+SF_Renkli_Liste,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,KORGUNYAZILIM2210
+SF_Renkli_Resimli,0,0,Resim,Resim,903,,,KORGUNYAZILIM2210
+SF_Renkli_Resimli,0,1,SKod,Stok Kodu,70,,,KORGUNYAZILIM2210
+SF_Renkli_Resimli,0,2,Tanim,Tanım,42,,,KORGUNYAZILIM2210
+SF_Renkli_Resimli,0,3,Renk_Tanim,Renk Tanim,59,,,KORGUNYAZILIM2210
+SF_Renkli_Resimli,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,7,KDV_Tutar,KDV_Tutar,80,,*,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,8,Tutar,Tutar,79,,*,KORGUNYAZILIM2210
+mağaza_ciro_raporu,0,9,kdvsiz,kdvsiz,83,,,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,0,SKod,SKod,60,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,1,SKod_Tanim,SKod_Tanim,148,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,0,SKod,SKod,68,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,1,Stok_Tanim,Stok_Tanim,304,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,2,Giren,Giren,57,"#,##0.####",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,3,Cikan,Cikan,64,"#,##0.####",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,4,Kalan,Kalan,53,"#,##0.####",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,5,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,6,KalTut,KalTut,64,"#,##0.####",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,7,ParaCinsi,ParaCinsi,57,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,2,RKod_Tanim,RKod_Tanim,113,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,3,Asorti,Asorti,36,,,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,4,Siparis_Miktari,Siparis_Miktari,45,"#,##0.####",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,5,Toplam_Kapatilan,Toplam_Kapatila,68,"#,##0.####",*,KORGUNYAZILIM2210
+Cari_Siparis_Listesi,0,6,Net_Kalan,Net_Kalan,68,"#,##0.####",*,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2210
+İşçilik_Rapor,0,0,Personel,Personel,61,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,1,Personel_Tanim,Personel Tanim,99,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,2,EmirNo,Emir Numarası,44,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,3,ModelKod,Model Kodu,54,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,4,ModelKod_Tanim,Model Tanımı,171,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,5,RKod_Tanim,RKod Tanim,87,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,6,Proses_Tanim,Proses Tanim,68,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,7,EndTarih1,Ürünün Proses i,74,,,KORGUNYAZILIM2210
+İşçilik_Rapor,0,8,Biten,Biten,45,"#,###0.####",*,KORGUNYAZILIM2210
+İşçilik_Rapor,0,9,BirimMaliyet,Birim Maliyet,65,"#,###0.####",,KORGUNYAZILIM2210
+İşçilik_Rapor,0,10,Biten_Maliyet,Biten Maliyet,72,"#,###0.####",*,KORGUNYAZILIM2210
+İşçilik_Rapor,0,11,Birim,Birim,40,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,0,CariKod_Tanim,Cari Kod Tanımı,113,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,1,EmirNo,Emir No,40,"#,###0.####",,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,2,uskod,Ürün Kodu,71,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,3,USKod_Tanim,Ürün Kodu Tanım,287,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,4,hskod,Hammadde Kodu,78,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,5,HSKod_Tanim,Hammadde Kodu T,150,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,6,HRKod_Tanim,Renk Tanımı,113,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,7,Siparis_Miktar,Sipariş Miktarı,56,"#,###0.####",,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,8,HBirim,HBirim,52,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,9,HBeden,Hammadde Beden,52,,,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,10,Miktar3,Emir ihtiyacı,72,"#,###0.####",*,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,11,MiktarTop,Toplam ihtiyac,86,"#,###0.####",,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,12,Hammadde_Mevcudu,Hammadde Mevcud,64,"#,###0.####",,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,13,Ham_Satinalma,Ham Satinalma,61,"#,###0.####",,KORGUNYAZILIM2210
+Satınalma_İhtiyaç,0,14,Siparisi_Gereken,Siparisi Gereke,69,"#,###0.####",,KORGUNYAZILIM2210
+02 - Cari_Detay_List,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,0,cariKod,Sipariş Cari Ko,76,,,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,1,CariKod_Tanim,Sipariş Cari Ko,147,,,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,2,Siparis_Miktari,Sipariş Miktarı,57,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,3,Birim,Birim,34,,,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,4,FToplam,Fiş Toplamı,72,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,5,iskontoTut,İskonto Tutarı,68,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,8,Gonderilen,Gönderilen,60,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,9,Faturalanan,Faturalanan,57,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,10,Harici_Kapatilan,Harici Kapatıla,49,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,12,Net_Kalan,Net Kalan,72,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,13,CF0,Ort Fiyat,64,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,14,CF1,Sevk Tutarı,72,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,15,CF2,Iptal Tutarı,64,"#,##0.##",*,KORGUNYAZILIM2210
+02 - Siparis Kalan T,0,16,CF3,Kalan Tutar,72,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,0,cariKod,Sipariş Cari Ko,66,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,1,CariKod_Tanim,Sipariş Cari Ko,129,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,2,SKod,Stok Kodu,67,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,3,SKod_Tanim,Stok Kodu Tanım,117,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,4,RKod_Tanim,Renk Tanımı,147,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,5,UreticiKodu_Tanim,Üretici Kodu Ta,94,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,6,Siparis_Miktari,Sipariş Miktarı,59,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,7,Birim,Birim,34,,,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,8,Gonderilen,Gönderilen,57,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,9,Faturalanan,Faturalanan,49,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,10,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,12,Net_Kalan,Net Kalan,49,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,13,Satinalma_Top,Satınalma Topla,64,"#,##0.##",*,KORGUNYAZILIM2210
+03 - Siparis Durum R,0,14,Satinalma_kalan,Satınalma Kalan,60,"#,##0.##",*,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM2210
+00 - Cari_Mizan_Rapo,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2210
+Mrp_Rapor,0,0,uskod,Ürün Kodu,60,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,1,USKod_Tanim,Ürün Kodu Tanım,183,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,2,hskod,Hammadde Kodu,73,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,3,HSKod_Tanim,Hammadde Kodu T,131,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,4,HRKod_Tanim,Renk Tanımı,42,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,5,HBeden,Hammadde Beden,57,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,6,HBirim,HBirim,47,,,KORGUNYAZILIM2210
+Mrp_Rapor,0,7,Miktar2,Planlama ihtiya,60,"#,###0.####",,KORGUNYAZILIM2210
+Mrp_Rapor,0,8,MiktarTop,Toplam ihtiyac,53,"#,###0.####",,KORGUNYAZILIM2210
+Mrp_Rapor,0,9,Hammadde_Mevcudu,Hammadde Mevcud,76,"#,###0.####",,KORGUNYAZILIM2210
+Mrp_Rapor,0,10,Ham_Satinalma,Ham Satinalma,71,"#,###0.####",,KORGUNYAZILIM2210
+Mrp_Rapor,0,11,Siparisi_Gereken,Siparisi Gereke,62,"#,###0.####",,KORGUNYAZILIM2210
+02 - Cari Islem Deta,0,2,Aciklama,Aciklama,166,,,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,0,Tarih,Tarih,64,,,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,1,Banka_Tanim,Banka Tanımı,132,,,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,2,Sube_Tanim,Şube Tanımı,106,,,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,3,Hesap,Hesap,94,,,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,4,Borc,Borç,98,"#,##0.00",*,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,5,Alacak,Alacak,91,"#,##0.00",*,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,6,Bakiye,Bakiye,79,"#,##0.00",*,KORGUNYAZILIM2210
+Banka Bakiye Listesi,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM2210
+Ercan2,0,0,SatKod,Satıcı Kodu,94,,,KORGUNYAZILIM2310
+Ercan2,0,1,Location,Lokasyon,58,,,KORGUNYAZILIM2310
+Ercan2,0,2,Location_Tanim,Lokasyon Tanım,304,,,KORGUNYAZILIM2310
+Ercan2,0,3,Miktar,Miktar,238,"#,##0.##",,KORGUNYAZILIM2310
+Ercan2,0,4,Birim,Birim,64,,,KORGUNYAZILIM2310
+Ercan2,0,5,MYuzde,Miktar %,64,#.000,,KORGUNYAZILIM2310
+Ercan2,0,6,Satici,Satıcı,250,,,KORGUNYAZILIM2310
+Ercan2,0,7,StokFiyat,Stok Fiyatı,64,"#,##0.00",,KORGUNYAZILIM2310
+Ercan2,0,8,Fiyat,Fiyat,64,"#,##0.00",,KORGUNYAZILIM2310
+Ercan2,0,9,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+Ercan2,0,10,iskontoTut,İskonto Tutarı,83,"#,##0.##",,KORGUNYAZILIM2310
+Ercan2,0,11,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,KORGUNYAZILIM2310
+Ercan2,0,12,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,KORGUNYAZILIM2310
+Ercan2,0,13,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM2310
+Ercan2,0,14,TYuzde,Tutar %,64,#.000,,KORGUNYAZILIM2310
+Ercan2,0,15,HRF_Maas,Maaş,64,"#,##0.##",,KORGUNYAZILIM2310
+Ercan2,0,16,HRF_Barkod,Prim Oranı,154,,,KORGUNYAZILIM2310
+Ercan2,0,17,HRF_OzKod5,Gider Oranı,604,,,KORGUNYAZILIM2310
+rr,0,0,FisTip,FisTip,35,,,KORGUNYAZILIM2310
+rr,0,1,FisNo,FisNo,42,,,KORGUNYAZILIM2310
+rr,0,2,FisTar,FisTar,76,,,KORGUNYAZILIM2310
+rr,0,3,CM,CM,38,,,KORGUNYAZILIM2310
+rr,0,4,CariUnvan,CariUnvan,126,,,KORGUNYAZILIM2310
+rr,0,5,Vade,Vade,70,,,KORGUNYAZILIM2310
+rr,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2310
+rr,0,7,ParaCinsi,ParaCinsi,25,,,KORGUNYAZILIM2310
+rr,0,8,Masraf,Masraf,64,"#,##0.00",,KORGUNYAZILIM2310
+rr,0,9,OdTip,OdTip,44,,,KORGUNYAZILIM2310
+rr,0,10,Banka,Banka,52,,,KORGUNYAZILIM2310
+rr,0,11,Sube,Sube,43,,,KORGUNYAZILIM2310
+rr,0,12,Hesap,Hesap,58,,,KORGUNYAZILIM2310
+rr,0,13,Tahsil,Tahsil,28,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,0,Tahsil,Tahsil,38,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,1,FisNo,FisNo,64,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,2,FisTar,FisTar,112,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,3,CM,CM,46,,,KORGUNYAZILIM2310
+S2,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2310
+S2,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S2,0,3,CariKod_Tanim,Sipariş Cari Ko,141,,,KORGUNYAZILIM2310
+S2,0,4,TeslimTar,Termin Tarihi,60,,,KORGUNYAZILIM2310
+S2,0,5,SipOzKod2,Sipariş Özel Ko,123,,,KORGUNYAZILIM2310
+S2,0,6,SKod,Stok Kodu,73,,,KORGUNYAZILIM2310
+S2,0,7,SKod_Tanim,Stok Kodu Tanım,125,,,KORGUNYAZILIM2310
+S2,0,10,OzKod2,Özel Kod 2,52,,,KORGUNYAZILIM2310
+S2,0,11,ROzKod2,Renk Özel Kod 2,66,,,KORGUNYAZILIM2310
+S2,0,13,Siparis_Miktari,Sipariş Miktarı,42,"#,###.##",*,KORGUNYAZILIM2310
+S2,0,14,CF2,Siparis Fiyatı,49,"#,###.##",,KORGUNYAZILIM2310
+S2,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S2,0,16,Birim,Birim,34,,,KORGUNYAZILIM2310
+S2,0,17,FToplam,Fiş Toplamı,68,"#,##0.00",*,KORGUNYAZILIM2310
+S2,0,18,iskontoTut,İskonto Tutarı,53,"#,##0.00",*,KORGUNYAZILIM2310
+S2,0,20,Tutar,Tutar,38,"#,##0.00",*,KORGUNYAZILIM2310
+S2,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S2,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2310
+S2,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S2,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S2,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S2,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,KORGUNYAZILIM2310
+S3,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S3,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2310
+S3,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2310
+S3,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S3,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S3,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2310
+S3,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2310
+S3,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S3,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S3,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2310
+S3,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2310
+S3,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S3,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S3,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2310
+S3,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S3,0,16,Birim,Birim,34,,,KORGUNYAZILIM2310
+S3,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2310
+S3,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S3,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S3,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2310
+S3,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S4,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2310
+S4,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S4,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2310
+S4,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2310
+S4,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S4,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S4,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2310
+S4,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2310
+S4,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S4,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S4,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2310
+S4,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2310
+S4,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S4,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S4,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2310
+S4,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S4,0,16,Birim,Birim,34,,,KORGUNYAZILIM2310
+S4,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2310
+S4,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S4,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S4,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2310
+S4,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,KORGUNYAZILIM2310
+S3,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S3,0,2,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2310
+S5,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2310
+S5,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S5,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2310
+S5,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2310
+S5,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S5,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S5,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2310
+S5,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2310
+S5,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S5,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S5,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2310
+S5,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2310
+S5,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S5,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S5,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2310
+S5,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S5,0,16,Birim,Birim,34,,,KORGUNYAZILIM2310
+S5,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2310
+S5,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S5,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S5,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2310
+S5,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S6,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2310
+S6,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S6,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2310
+S6,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2310
+S6,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S6,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S6,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2310
+S6,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2310
+S6,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S6,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S6,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2310
+S6,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2310
+S6,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S6,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S6,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2310
+S6,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S6,0,16,Birim,Birim,34,,,KORGUNYAZILIM2310
+S6,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2310
+S6,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S6,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,4,CariUnvan,CariUnvan,364,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,5,Vade,Vade,112,,,KORGUNYAZILIM2310
+S6,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2310
+S6,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,8,ParaCinsi,ParaCinsi,57,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,9,OdTip,OdTip,64,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,10,Banka,Banka,94,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,11,Sube,Sube,94,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,12,Hesap,Hesap,184,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,13,FisTip,FisTip,28,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,0,PortfoyNo,Portföy No,51,"#,##0.##",,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,1,Banka,Banka,67,,,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,0,cariKod,Sipariş Cari Ko,79,,,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,1,CariKod_Tanim,Sipariş Cari Ko,150,,,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,2,Siparis_Miktari,Sipariş Miktarı,60,"#,##0.####",*,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,3,Birim,Birim,34,,,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,4,Gonderilen,Gönderilen,53,"#,##0.####",*,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,5,Faturalanan,Faturalanan,45,"#,##0.####",*,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,6,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.####",*,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,7,Toplam_Kapatilan,Toplam Kapatıla,79,"#,##0.####",*,KORGUNYAZILIM2310
+01 - Siparis Kalan R,0,8,Net_Kalan,Net Kalan,68,"#,##0.####",*,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,2,Sube,Şube,114,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,3,HesapNo,Hesap No,81,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,4,CekNo,Çek No,61,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,5,Vade,Vade,76,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,6,CMKod,Cari Kodu,94,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,7,CMKod_Tanim,Cari Kodu Tanım,151,,,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,8,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2310
+Firma_Cek_Dokumu,0,9,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+Hayriye,0,0,OzKod3,Özel Kod 3,87,,,KORGUNYAZILIM2310
+Hayriye,0,1,RKod_Tanim,Renk Tanımı,110,,,KORGUNYAZILIM2310
+Hayriye,0,2,Siparis_Miktari,Sipariş Miktarı,112,"#,##0.##",,KORGUNYAZILIM2310
+Hayriye,0,3,Birim,Birim,34,,,KORGUNYAZILIM2310
+Hayriye,0,4,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,0,Fistar,Tarih,79,,,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,1,Cari,Hesap,74,,,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,2,Tanim,Tanim,141,,,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,3,HarAck,Aciklama,118,,,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,4,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,5,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,6,Bakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2310
+Kasa_Ekstresi,0,7,ParaCinsi,ParaCinsi,45,,,KORGUNYAZILIM2310
+S9,0,0,SipNo,Sipariş No,23,"#,###.##",,KORGUNYAZILIM2310
+S9,0,1,SipTar,Sipariş Tarihi,68,,,KORGUNYAZILIM2310
+S9,0,2,cariKod,Sipariş Cari Ko,101,,,KORGUNYAZILIM2310
+S9,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,KORGUNYAZILIM2310
+S9,0,4,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S9,0,5,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S9,0,6,SKod,Stok Kodu,76,,,KORGUNYAZILIM2310
+S9,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,KORGUNYAZILIM2310
+S9,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S9,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S9,0,10,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2310
+S9,0,11,ROzKod2,Renk Özel Kod 2,100,,,KORGUNYAZILIM2310
+S9,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S9,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S9,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,KORGUNYAZILIM2310
+S9,0,15,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S9,0,16,Birim,Birim,34,,,KORGUNYAZILIM2310
+S9,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,KORGUNYAZILIM2310
+S9,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S9,0,19,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S9,0,20,Tutar,Tutar,40,"#,##0.00",,KORGUNYAZILIM2310
+S9,0,21,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S10,0,0,SipTar,Sipariş Tarihi,112,,,KORGUNYAZILIM2310
+S10,0,1,cariKod,Sipariş Cari Ko,94,,,KORGUNYAZILIM2310
+S10,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,KORGUNYAZILIM2310
+S10,0,3,SKod,Stok Kodu,94,,,KORGUNYAZILIM2310
+S10,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,KORGUNYAZILIM2310
+S10,0,5,SipNo,Sipariş No,142,"#,###.##",,KORGUNYAZILIM2310
+S10,0,6,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S10,0,7,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S10,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S10,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S10,0,10,ROzKod2,Renk Özel Kod 2,304,,,KORGUNYAZILIM2310
+S10,0,11,OzKod2,Özel Kod 2,100,,,KORGUNYAZILIM2310
+S10,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S10,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S10,0,14,Birim,Birim,34,,,KORGUNYAZILIM2310
+S10,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,KORGUNYAZILIM2310
+S10,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S10,0,17,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S10,0,18,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM2310
+S10,0,19,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S10,0,20,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S10,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,KORGUNYAZILIM2310
+S11,0,0,SipTar,Sipariş Tarihi,112,,,KORGUNYAZILIM2310
+S11,0,1,cariKod,Sipariş Cari Ko,94,,,KORGUNYAZILIM2310
+S11,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,KORGUNYAZILIM2310
+S11,0,3,SKod,Stok Kodu,94,,,KORGUNYAZILIM2310
+S11,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,KORGUNYAZILIM2310
+S11,0,5,SipNo,Sipariş No,142,"#,###.##",,KORGUNYAZILIM2310
+S11,0,6,TeslimTar,Termin Tarihi,78,,,KORGUNYAZILIM2310
+S11,0,7,SipOzKod2,Sipariş Özel Ko,124,,,KORGUNYAZILIM2310
+S11,0,8,RKod,Renk,64,"#,###.##",,KORGUNYAZILIM2310
+S11,0,9,RKod_Tanim,Renk Tanımı,304,,,KORGUNYAZILIM2310
+S11,0,10,ROzKod2,Renk Özel Kod 2,304,,,KORGUNYAZILIM2310
+S11,0,11,OzKod2,Özel Kod 2,100,,,KORGUNYAZILIM2310
+S11,0,12,Resim,Resim,904,,,KORGUNYAZILIM2310
+S11,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,KORGUNYAZILIM2310
+S11,0,14,Birim,Birim,34,,,KORGUNYAZILIM2310
+S11,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,KORGUNYAZILIM2310
+S11,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,KORGUNYAZILIM2310
+S11,0,17,Matrah,Matrah,64,"#,##0.00",,KORGUNYAZILIM2310
+S11,0,18,Tutar,Tutar,64,"#,##0.00",,KORGUNYAZILIM2310
+S11,0,19,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+S11,0,20,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+S11,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,KORGUNYAZILIM2310
+r1,0,0,SKod,Stok Kodu,81,,,KORGUNYAZILIM2310
+r1,0,1,ROzKod2,Renk Özel Kod 2,145,,,KORGUNYAZILIM2310
+r1,0,2,OzKod2,Özel Kod 2,66,,,KORGUNYAZILIM2310
+r1,0,3,CariKod_Tanim,Cari Tanım,122,,,KORGUNYAZILIM2310
+r1,0,4,irsaliyeNo,İrsaliye No,82,,,KORGUNYAZILIM2310
+r1,0,5,Fatura_Miktari,İrsaliye Miktar,34,"#,###.##",,KORGUNYAZILIM2310
+r1,0,6,StokFiyat,Stok Fiyatı,64,"#,###.##",,KORGUNYAZILIM2310
+r1,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+r1,0,8,Stok_Resim,Stok_Resim,71,,,KORGUNYAZILIM2310
+Banka_KK_Ekstresi,0,7,Masraf,Masraf,64,"#,##0.00",,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM2310
+01 - Cari_Hesap_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2310
+01 - Cari Islem List,0,0,Aciklama,Aciklama,166,,,KORGUNYAZILIM2310
+01 - Cari Islem List,0,1,cbpg,Cari Kod,73,,,KORGUNYAZILIM2310
+01 - Cari Islem List,0,2,cbpg_Tanim,Cari Kod Tanımı,227,,,KORGUNYAZILIM2310
+01 - Cari Islem List,0,3,Tutar,Tutar,76,"#,##0.00",*,KORGUNYAZILIM2310
+01 - Cari Islem List,0,4,ParaCinsi,ParaCinsi,33,,,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,0,FisNo,FisNo,37,"#,##0.###",,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,1,FisTar,İşlem Tarihi,65,,,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,3,cbpg,Cari Kod,63,,,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,4,cbpg_Tanim,Cari Kod Tanımı,150,,,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,5,SatirAck1,SatirAck1,100,,,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,6,Tutar,Tutar,68,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,7,ParaCinsi,ParaCinsi,32,,,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,0,FisNo,FisNo,41,"#,##0.###",,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,1,Aciklama,Aciklama,89,,,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,2,FisTar,İşlem Tarihi,70,,,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,3,cbpg,Cari Kod,60,,,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,4,cbpg_Tanim,Cari Kod Tanımı,147,,,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,5,Tanim,Tanim,174,,,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,6,Tutar,Tutar,79,"#,##0.00",*,KORGUNYAZILIM2310
+Kasa Islem Listesi,0,7,ParaCinsi,ParaCinsi,26,,,KORGUNYAZILIM2310
+Hesap Planı Listesi,0,0,CODE,Kod,65,,,KORGUNYAZILIM2310
+Hesap Planı Listesi,0,1,DEFINITION,Tanım,409,,,KORGUNYAZILIM2310
+Hesap Planı Listesi,0,2,ID,ID,64,"#,###.####",,KORGUNYAZILIM2310
+Hesap Planı Listesi,0,3,LEVEL_,LEVEL_,57,"#,###.####",,KORGUNYAZILIM2310
+Banka Listesi,0,0,BankaTanim,Banka Tanım,93,,,KORGUNYAZILIM2310
+Banka Listesi,0,1,sube,Şube Kodu,45,,,KORGUNYAZILIM2310
+Banka Listesi,0,2,SubeTanim,Şube Tanım,135,,,KORGUNYAZILIM2310
+Banka Listesi,0,3,HesapKod,Hesap Kodu,87,,,KORGUNYAZILIM2310
+Banka Listesi,0,4,HesapTanim,Hesap Tanım,146,,,KORGUNYAZILIM2310
+Banka Listesi,0,5,Paracinsi,Paracinsi,56,,,KORGUNYAZILIM2310
+Banka Listesi,0,6,IBAN,IBAN,208,,,KORGUNYAZILIM2310
+Banka Listesi,0,7,HesTip,Hesap Tipi,106,,,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,0,Location_Tanim,Location_Tanim,140,,,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,1,Miktar,Miktar,50,,*,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,2,Birim,Birim,62,,,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,3,StokFiyat,StokFiyat,76,,,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,4,Fiyat,Fiyat,79,,*,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,5,ParaCinsi,ParaCinsi,33,,,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,6,iskontoTut,iskontoTut,72,,*,KORGUNYAZILIM2310
+SF_Renkli_Liste,0,0,Resim,Resim,903,,,KORGUNYAZILIM2310
+SF_Renkli_Liste,0,1,SKod,Stok Kodu,70,,,KORGUNYAZILIM2310
+SF_Renkli_Liste,0,2,Tanim,Tanım,42,,,KORGUNYAZILIM2310
+SF_Renkli_Liste,0,3,Renk_Tanim,Renk Tanim,59,,,KORGUNYAZILIM2310
+SF_Renkli_Liste,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,KORGUNYAZILIM2310
+SF_Renkli_Resimli,0,0,Resim,Resim,903,,,KORGUNYAZILIM2310
+SF_Renkli_Resimli,0,1,SKod,Stok Kodu,70,,,KORGUNYAZILIM2310
+SF_Renkli_Resimli,0,2,Tanim,Tanım,42,,,KORGUNYAZILIM2310
+SF_Renkli_Resimli,0,3,Renk_Tanim,Renk Tanim,59,,,KORGUNYAZILIM2310
+SF_Renkli_Resimli,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,7,KDV_Tutar,KDV_Tutar,80,,*,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,8,Tutar,Tutar,79,,*,KORGUNYAZILIM2310
+mağaza_ciro_raporu,0,9,kdvsiz,kdvsiz,83,,,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,0,SKod,SKod,60,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,1,SKod_Tanim,SKod_Tanim,148,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,0,SKod,SKod,68,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,1,Stok_Tanim,Stok_Tanim,304,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,2,Giren,Giren,57,"#,##0.####",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,3,Cikan,Cikan,64,"#,##0.####",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,4,Kalan,Kalan,53,"#,##0.####",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,5,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,6,KalTut,KalTut,64,"#,##0.####",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,7,ParaCinsi,ParaCinsi,57,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,2,RKod_Tanim,RKod_Tanim,113,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,3,Asorti,Asorti,36,,,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,4,Siparis_Miktari,Siparis_Miktari,45,"#,##0.####",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,5,Toplam_Kapatilan,Toplam_Kapatila,68,"#,##0.####",*,KORGUNYAZILIM2310
+Cari_Siparis_Listesi,0,6,Net_Kalan,Net_Kalan,68,"#,##0.####",*,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2310
+İşçilik_Rapor,0,0,Personel,Personel,61,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,1,Personel_Tanim,Personel Tanim,99,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,2,EmirNo,Emir Numarası,44,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,3,ModelKod,Model Kodu,54,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,4,ModelKod_Tanim,Model Tanımı,171,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,5,RKod_Tanim,RKod Tanim,87,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,6,Proses_Tanim,Proses Tanim,68,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,7,EndTarih1,Ürünün Proses i,74,,,KORGUNYAZILIM2310
+İşçilik_Rapor,0,8,Biten,Biten,45,"#,###0.####",*,KORGUNYAZILIM2310
+İşçilik_Rapor,0,9,BirimMaliyet,Birim Maliyet,65,"#,###0.####",,KORGUNYAZILIM2310
+İşçilik_Rapor,0,10,Biten_Maliyet,Biten Maliyet,72,"#,###0.####",*,KORGUNYAZILIM2310
+İşçilik_Rapor,0,11,Birim,Birim,40,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,0,CariKod_Tanim,Cari Kod Tanımı,113,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,1,EmirNo,Emir No,40,"#,###0.####",,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,2,uskod,Ürün Kodu,71,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,3,USKod_Tanim,Ürün Kodu Tanım,287,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,4,hskod,Hammadde Kodu,78,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,5,HSKod_Tanim,Hammadde Kodu T,150,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,6,HRKod_Tanim,Renk Tanımı,113,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,7,Siparis_Miktar,Sipariş Miktarı,56,"#,###0.####",,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,8,HBirim,HBirim,52,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,9,HBeden,Hammadde Beden,52,,,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,10,Miktar3,Emir ihtiyacı,72,"#,###0.####",*,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,11,MiktarTop,Toplam ihtiyac,86,"#,###0.####",,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,12,Hammadde_Mevcudu,Hammadde Mevcud,64,"#,###0.####",,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,13,Ham_Satinalma,Ham Satinalma,61,"#,###0.####",,KORGUNYAZILIM2310
+Satınalma_İhtiyaç,0,14,Siparisi_Gereken,Siparisi Gereke,69,"#,###0.####",,KORGUNYAZILIM2310
+02 - Cari_Detay_List,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,0,CKod,Cari Kod,60,,,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,1,CName,Cari Adı,124,,,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,2,ParaCinsi,ParaCinsi,24,,,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,0,cariKod,Sipariş Cari Ko,76,,,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,1,CariKod_Tanim,Sipariş Cari Ko,147,,,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,2,Siparis_Miktari,Sipariş Miktarı,57,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,3,Birim,Birim,34,,,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,4,FToplam,Fiş Toplamı,72,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,5,iskontoTut,İskonto Tutarı,68,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,6,Tutar,Tutar,64,"#,##0.00",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,8,Gonderilen,Gönderilen,60,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,9,Faturalanan,Faturalanan,57,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,10,Harici_Kapatilan,Harici Kapatıla,49,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,12,Net_Kalan,Net Kalan,72,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,13,CF0,Ort Fiyat,64,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,14,CF1,Sevk Tutarı,72,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,15,CF2,Iptal Tutarı,64,"#,##0.##",*,KORGUNYAZILIM2310
+02 - Siparis Kalan T,0,16,CF3,Kalan Tutar,72,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,0,cariKod,Sipariş Cari Ko,66,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,1,CariKod_Tanim,Sipariş Cari Ko,129,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,2,SKod,Stok Kodu,67,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,3,SKod_Tanim,Stok Kodu Tanım,117,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,4,RKod_Tanim,Renk Tanımı,147,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,5,UreticiKodu_Tanim,Üretici Kodu Ta,94,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,6,Siparis_Miktari,Sipariş Miktarı,59,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,7,Birim,Birim,34,,,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,8,Gonderilen,Gönderilen,57,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,9,Faturalanan,Faturalanan,49,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,10,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,12,Net_Kalan,Net Kalan,49,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,13,Satinalma_Top,Satınalma Topla,64,"#,##0.##",*,KORGUNYAZILIM2310
+03 - Siparis Durum R,0,14,Satinalma_kalan,Satınalma Kalan,60,"#,##0.##",*,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,3,Borc,Borc,64,"#,##0.00",*,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,4,Alacak,Alacak,64,"#,##0.00",*,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,KORGUNYAZILIM2310
+00 - Cari_Mizan_Rapo,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,KORGUNYAZILIM2310
+Mrp_Rapor,0,0,uskod,Ürün Kodu,60,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,1,USKod_Tanim,Ürün Kodu Tanım,183,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,2,hskod,Hammadde Kodu,73,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,3,HSKod_Tanim,Hammadde Kodu T,131,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,4,HRKod_Tanim,Renk Tanımı,42,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,5,HBeden,Hammadde Beden,57,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,6,HBirim,HBirim,47,,,KORGUNYAZILIM2310
+Mrp_Rapor,0,7,Miktar2,Planlama ihtiya,60,"#,###0.####",,KORGUNYAZILIM2310
+Mrp_Rapor,0,8,MiktarTop,Toplam ihtiyac,53,"#,###0.####",,KORGUNYAZILIM2310
+Mrp_Rapor,0,9,Hammadde_Mevcudu,Hammadde Mevcud,76,"#,###0.####",,KORGUNYAZILIM2310
+Mrp_Rapor,0,10,Ham_Satinalma,Ham Satinalma,71,"#,###0.####",,KORGUNYAZILIM2310
+Mrp_Rapor,0,11,Siparisi_Gereken,Siparisi Gereke,62,"#,###0.####",,KORGUNYAZILIM2310
+02 - Cari Islem Deta,0,2,Aciklama,Aciklama,166,,,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,0,Tarih,Tarih,64,,,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,1,Banka_Tanim,Banka Tanımı,132,,,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,2,Sube_Tanim,Şube Tanımı,106,,,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,3,Hesap,Hesap,94,,,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,4,Borc,Borç,98,"#,##0.00",*,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,5,Alacak,Alacak,91,"#,##0.00",*,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,6,Bakiye,Bakiye,79,"#,##0.00",*,KORGUNYAZILIM2310
+Banka Bakiye Listesi,0,7,ParaCinsi,Kur,23,,,KORGUNYAZILIM2310
+Ercan2,0,0,SatKod,Satıcı Kodu,94,,,Uretim20
+Ercan2,0,1,Location,Lokasyon,58,,,Uretim20
+Ercan2,0,2,Location_Tanim,Lokasyon Tanım,304,,,Uretim20
+Ercan2,0,3,Miktar,Miktar,238,"#,##0.##",,Uretim20
+Ercan2,0,4,Birim,Birim,64,,,Uretim20
+Ercan2,0,5,MYuzde,Miktar %,64,#.000,,Uretim20
+Ercan2,0,6,Satici,Satıcı,250,,,Uretim20
+Ercan2,0,7,StokFiyat,Stok Fiyatı,64,"#,##0.00",,Uretim20
+Ercan2,0,8,Fiyat,Fiyat,64,"#,##0.00",,Uretim20
+Ercan2,0,9,ParaCinsi,Kur,23,,,Uretim20
+Ercan2,0,10,iskontoTut,İskonto Tutarı,83,"#,##0.##",,Uretim20
+Ercan2,0,11,KDV_Tutar,KDV Tutarı,66,"#,##0.00",,Uretim20
+Ercan2,0,12,OTV_Tutar,OTV Tutarı,66,"#,##0.00",,Uretim20
+Ercan2,0,13,Tutar,Tutar,64,"#,##0.00",,Uretim20
+Ercan2,0,14,TYuzde,Tutar %,64,#.000,,Uretim20
+Ercan2,0,15,HRF_Maas,Maaş,64,"#,##0.##",,Uretim20
+Ercan2,0,16,HRF_Barkod,Prim Oranı,154,,,Uretim20
+Ercan2,0,17,HRF_OzKod5,Gider Oranı,604,,,Uretim20
+rr,0,0,FisTip,FisTip,35,,,Uretim20
+rr,0,1,FisNo,FisNo,42,,,Uretim20
+rr,0,2,FisTar,FisTar,76,,,Uretim20
+rr,0,3,CM,CM,38,,,Uretim20
+rr,0,4,CariUnvan,CariUnvan,126,,,Uretim20
+rr,0,5,Vade,Vade,70,,,Uretim20
+rr,0,6,Tutar,Tutar,64,"#,##0.00",*,Uretim20
+rr,0,7,ParaCinsi,ParaCinsi,25,,,Uretim20
+rr,0,8,Masraf,Masraf,64,"#,##0.00",,Uretim20
+rr,0,9,OdTip,OdTip,44,,,Uretim20
+rr,0,10,Banka,Banka,52,,,Uretim20
+rr,0,11,Sube,Sube,43,,,Uretim20
+rr,0,12,Hesap,Hesap,58,,,Uretim20
+rr,0,13,Tahsil,Tahsil,28,,,Uretim20
+Banka_KK_Ekstresi,0,0,Tahsil,Tahsil,38,,,Uretim20
+Banka_KK_Ekstresi,0,1,FisNo,FisNo,64,,,Uretim20
+Banka_KK_Ekstresi,0,2,FisTar,FisTar,112,,,Uretim20
+Banka_KK_Ekstresi,0,3,CM,CM,46,,,Uretim20
+S2,0,0,SipNo,Sipariş No,23,"#,###.##",,Uretim20
+S2,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S2,0,3,CariKod_Tanim,Sipariş Cari Ko,141,,,Uretim20
+S2,0,4,TeslimTar,Termin Tarihi,60,,,Uretim20
+S2,0,5,SipOzKod2,Sipariş Özel Ko,123,,,Uretim20
+S2,0,6,SKod,Stok Kodu,73,,,Uretim20
+S2,0,7,SKod_Tanim,Stok Kodu Tanım,125,,,Uretim20
+S2,0,10,OzKod2,Özel Kod 2,52,,,Uretim20
+S2,0,11,ROzKod2,Renk Özel Kod 2,66,,,Uretim20
+S2,0,13,Siparis_Miktari,Sipariş Miktarı,42,"#,###.##",*,Uretim20
+S2,0,14,CF2,Siparis Fiyatı,49,"#,###.##",,Uretim20
+S2,0,15,ParaCinsi,Kur,23,,,Uretim20
+S2,0,16,Birim,Birim,34,,,Uretim20
+S2,0,17,FToplam,Fiş Toplamı,68,"#,##0.00",*,Uretim20
+S2,0,18,iskontoTut,İskonto Tutarı,53,"#,##0.00",*,Uretim20
+S2,0,20,Tutar,Tutar,38,"#,##0.00",*,Uretim20
+S2,0,21,Stok_Resim,Stok_Resim,71,,,Uretim20
+S2,0,2,cariKod,Sipariş Cari Ko,101,,,Uretim20
+S2,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S2,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S2,0,12,Resim,Resim,904,,,Uretim20
+S2,0,19,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,Uretim20
+S3,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S3,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Uretim20
+S3,0,2,cariKod,Sipariş Cari Ko,101,,,Uretim20
+S3,0,4,TeslimTar,Termin Tarihi,78,,,Uretim20
+S3,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S3,0,6,SKod,Stok Kodu,76,,,Uretim20
+S3,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Uretim20
+S3,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S3,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S3,0,10,OzKod2,Özel Kod 2,66,,,Uretim20
+S3,0,11,ROzKod2,Renk Özel Kod 2,100,,,Uretim20
+S3,0,12,Resim,Resim,904,,,Uretim20
+S3,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S3,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Uretim20
+S3,0,15,ParaCinsi,Kur,23,,,Uretim20
+S3,0,16,Birim,Birim,34,,,Uretim20
+S3,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Uretim20
+S3,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S3,0,19,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S3,0,20,Tutar,Tutar,40,"#,##0.00",,Uretim20
+S3,0,21,Stok_Resim,Stok_Resim,71,,,Uretim20
+S4,0,0,SipNo,Sipariş No,23,"#,###.##",,Uretim20
+S4,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S4,0,2,cariKod,Sipariş Cari Ko,101,,,Uretim20
+S4,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Uretim20
+S4,0,4,TeslimTar,Termin Tarihi,78,,,Uretim20
+S4,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S4,0,6,SKod,Stok Kodu,76,,,Uretim20
+S4,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Uretim20
+S4,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S4,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S4,0,10,OzKod2,Özel Kod 2,66,,,Uretim20
+S4,0,11,ROzKod2,Renk Özel Kod 2,100,,,Uretim20
+S4,0,12,Resim,Resim,904,,,Uretim20
+S4,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S4,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Uretim20
+S4,0,15,ParaCinsi,Kur,23,,,Uretim20
+S4,0,16,Birim,Birim,34,,,Uretim20
+S4,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Uretim20
+S4,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S4,0,19,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S4,0,20,Tutar,Tutar,40,"#,##0.00",,Uretim20
+S4,0,21,Stok_Resim,Stok_Resim,71,,,Uretim20
+S3,0,2,SipNo,Sipariş Cari Ko,142,"#,###.##",,Uretim20
+S3,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S3,0,2,CariKod_Tanim,Sipariş Cari Ko,142,,,Uretim20
+S5,0,0,SipNo,Sipariş No,23,"#,###.##",,Uretim20
+S5,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S5,0,2,cariKod,Sipariş Cari Ko,101,,,Uretim20
+S5,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Uretim20
+S5,0,4,TeslimTar,Termin Tarihi,78,,,Uretim20
+S5,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S5,0,6,SKod,Stok Kodu,76,,,Uretim20
+S5,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Uretim20
+S5,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S5,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S5,0,10,OzKod2,Özel Kod 2,66,,,Uretim20
+S5,0,11,ROzKod2,Renk Özel Kod 2,100,,,Uretim20
+S5,0,12,Resim,Resim,904,,,Uretim20
+S5,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S5,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Uretim20
+S5,0,15,ParaCinsi,Kur,23,,,Uretim20
+S5,0,16,Birim,Birim,34,,,Uretim20
+S5,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Uretim20
+S5,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S5,0,19,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S5,0,20,Tutar,Tutar,40,"#,##0.00",,Uretim20
+S5,0,21,Stok_Resim,Stok_Resim,71,,,Uretim20
+S6,0,0,SipNo,Sipariş No,23,"#,###.##",,Uretim20
+S6,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S6,0,2,cariKod,Sipariş Cari Ko,101,,,Uretim20
+S6,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Uretim20
+S6,0,4,TeslimTar,Termin Tarihi,78,,,Uretim20
+S6,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S6,0,6,SKod,Stok Kodu,76,,,Uretim20
+S6,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Uretim20
+S6,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S6,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S6,0,10,OzKod2,Özel Kod 2,66,,,Uretim20
+S6,0,11,ROzKod2,Renk Özel Kod 2,100,,,Uretim20
+S6,0,12,Resim,Resim,904,,,Uretim20
+S6,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S6,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Uretim20
+S6,0,15,ParaCinsi,Kur,23,,,Uretim20
+S6,0,16,Birim,Birim,34,,,Uretim20
+S6,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Uretim20
+S6,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S6,0,19,Matrah,Matrah,64,"#,##0.00",,Uretim20
+Banka_KK_Ekstresi,0,4,CariUnvan,CariUnvan,364,,,Uretim20
+Banka_KK_Ekstresi,0,5,Vade,Vade,112,,,Uretim20
+S6,0,20,Tutar,Tutar,40,"#,##0.00",,Uretim20
+S6,0,21,Stok_Resim,Stok_Resim,71,,,Uretim20
+Banka_KK_Ekstresi,0,6,Tutar,Tutar,64,"#,##0.00",*,Uretim20
+Banka_KK_Ekstresi,0,8,ParaCinsi,ParaCinsi,57,,,Uretim20
+Banka_KK_Ekstresi,0,9,OdTip,OdTip,64,,,Uretim20
+Banka_KK_Ekstresi,0,10,Banka,Banka,94,,,Uretim20
+Banka_KK_Ekstresi,0,11,Sube,Sube,94,,,Uretim20
+Banka_KK_Ekstresi,0,12,Hesap,Hesap,184,,,Uretim20
+Banka_KK_Ekstresi,0,13,FisTip,FisTip,28,,,Uretim20
+Firma_Cek_Dokumu,0,0,PortfoyNo,Portföy No,51,"#,##0.##",,Uretim20
+Firma_Cek_Dokumu,0,1,Banka,Banka,67,,,Uretim20
+01 - Siparis Kalan R,0,0,cariKod,Sipariş Cari Ko,79,,,Uretim20
+01 - Siparis Kalan R,0,1,CariKod_Tanim,Sipariş Cari Ko,150,,,Uretim20
+01 - Siparis Kalan R,0,2,Siparis_Miktari,Sipariş Miktarı,60,"#,##0.####",*,Uretim20
+01 - Siparis Kalan R,0,3,Birim,Birim,34,,,Uretim20
+01 - Siparis Kalan R,0,4,Gonderilen,Gönderilen,53,"#,##0.####",*,Uretim20
+01 - Siparis Kalan R,0,5,Faturalanan,Faturalanan,45,"#,##0.####",*,Uretim20
+01 - Siparis Kalan R,0,6,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.####",*,Uretim20
+01 - Siparis Kalan R,0,7,Toplam_Kapatilan,Toplam Kapatıla,79,"#,##0.####",*,Uretim20
+01 - Siparis Kalan R,0,8,Net_Kalan,Net Kalan,68,"#,##0.####",*,Uretim20
+Firma_Cek_Dokumu,0,2,Sube,Şube,114,,,Uretim20
+Firma_Cek_Dokumu,0,3,HesapNo,Hesap No,81,,,Uretim20
+Firma_Cek_Dokumu,0,4,CekNo,Çek No,61,,,Uretim20
+Firma_Cek_Dokumu,0,5,Vade,Vade,76,,,Uretim20
+Firma_Cek_Dokumu,0,6,CMKod,Cari Kodu,94,,,Uretim20
+Firma_Cek_Dokumu,0,7,CMKod_Tanim,Cari Kodu Tanım,151,,,Uretim20
+Firma_Cek_Dokumu,0,8,Tutar,Tutar,64,"#,##0.00",*,Uretim20
+Firma_Cek_Dokumu,0,9,ParaCinsi,Kur,23,,,Uretim20
+Hayriye,0,0,OzKod3,Özel Kod 3,87,,,Uretim20
+Hayriye,0,1,RKod_Tanim,Renk Tanımı,110,,,Uretim20
+Hayriye,0,2,Siparis_Miktari,Sipariş Miktarı,112,"#,##0.##",,Uretim20
+Hayriye,0,3,Birim,Birim,34,,,Uretim20
+Hayriye,0,4,Stok_Resim,Stok_Resim,71,,,Uretim20
+Kasa_Ekstresi,0,0,Fistar,Tarih,79,,,Uretim20
+Kasa_Ekstresi,0,1,Cari,Hesap,74,,,Uretim20
+Kasa_Ekstresi,0,2,Tanim,Tanim,141,,,Uretim20
+Kasa_Ekstresi,0,3,HarAck,Aciklama,118,,,Uretim20
+Kasa_Ekstresi,0,4,Borc,Borc,64,"#,##0.00",*,Uretim20
+Kasa_Ekstresi,0,5,Alacak,Alacak,64,"#,##0.00",*,Uretim20
+Kasa_Ekstresi,0,6,Bakiye,Bakiye,64,"#,##0.00",*,Uretim20
+Kasa_Ekstresi,0,7,ParaCinsi,ParaCinsi,45,,,Uretim20
+S9,0,0,SipNo,Sipariş No,23,"#,###.##",,Uretim20
+S9,0,1,SipTar,Sipariş Tarihi,68,,,Uretim20
+S9,0,2,cariKod,Sipariş Cari Ko,101,,,Uretim20
+S9,0,3,CariKod_Tanim,Sipariş Cari Ko,142,,,Uretim20
+S9,0,4,TeslimTar,Termin Tarihi,78,,,Uretim20
+S9,0,5,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S9,0,6,SKod,Stok Kodu,76,,,Uretim20
+S9,0,7,SKod_Tanim,Stok Kodu Tanım,124,,,Uretim20
+S9,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S9,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S9,0,10,OzKod2,Özel Kod 2,66,,,Uretim20
+S9,0,11,ROzKod2,Renk Özel Kod 2,100,,,Uretim20
+S9,0,12,Resim,Resim,904,,,Uretim20
+S9,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S9,0,14,CF2,Siparis Fiyatı,76,"#,###.##",,Uretim20
+S9,0,15,ParaCinsi,Kur,23,,,Uretim20
+S9,0,16,Birim,Birim,34,,,Uretim20
+S9,0,17,FToplam,Fiş Toplamı,70,"#,##0.00",,Uretim20
+S9,0,18,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S9,0,19,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S9,0,20,Tutar,Tutar,40,"#,##0.00",,Uretim20
+S9,0,21,Stok_Resim,Stok_Resim,71,,,Uretim20
+S10,0,0,SipTar,Sipariş Tarihi,112,,,Uretim20
+S10,0,1,cariKod,Sipariş Cari Ko,94,,,Uretim20
+S10,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,Uretim20
+S10,0,3,SKod,Stok Kodu,94,,,Uretim20
+S10,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,Uretim20
+S10,0,5,SipNo,Sipariş No,142,"#,###.##",,Uretim20
+S10,0,6,TeslimTar,Termin Tarihi,78,,,Uretim20
+S10,0,7,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S10,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S10,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S10,0,10,ROzKod2,Renk Özel Kod 2,304,,,Uretim20
+S10,0,11,OzKod2,Özel Kod 2,100,,,Uretim20
+S10,0,12,Resim,Resim,904,,,Uretim20
+S10,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S10,0,14,Birim,Birim,34,,,Uretim20
+S10,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,Uretim20
+S10,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S10,0,17,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S10,0,18,Tutar,Tutar,64,"#,##0.00",,Uretim20
+S10,0,19,ParaCinsi,Kur,23,,,Uretim20
+S10,0,20,Stok_Resim,Stok_Resim,71,,,Uretim20
+S10,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,Uretim20
+S11,0,0,SipTar,Sipariş Tarihi,112,,,Uretim20
+S11,0,1,cariKod,Sipariş Cari Ko,94,,,Uretim20
+S11,0,2,CariKod_Tanim,Sipariş Cari Ko,364,,,Uretim20
+S11,0,3,SKod,Stok Kodu,94,,,Uretim20
+S11,0,4,SKod_Tanim,Stok Kodu Tanım,304,,,Uretim20
+S11,0,5,SipNo,Sipariş No,142,"#,###.##",,Uretim20
+S11,0,6,TeslimTar,Termin Tarihi,78,,,Uretim20
+S11,0,7,SipOzKod2,Sipariş Özel Ko,124,,,Uretim20
+S11,0,8,RKod,Renk,64,"#,###.##",,Uretim20
+S11,0,9,RKod_Tanim,Renk Tanımı,304,,,Uretim20
+S11,0,10,ROzKod2,Renk Özel Kod 2,304,,,Uretim20
+S11,0,11,OzKod2,Özel Kod 2,100,,,Uretim20
+S11,0,12,Resim,Resim,904,,,Uretim20
+S11,0,13,Siparis_Miktari,Sipariş Miktarı,84,"#,###.##",,Uretim20
+S11,0,14,Birim,Birim,34,,,Uretim20
+S11,0,15,FToplam,Fiş Toplamı,68,"#,##0.00",,Uretim20
+S11,0,16,iskontoTut,İskonto Tutarı,83,"#,##0.00",,Uretim20
+S11,0,17,Matrah,Matrah,64,"#,##0.00",,Uretim20
+S11,0,18,Tutar,Tutar,64,"#,##0.00",,Uretim20
+S11,0,19,ParaCinsi,Kur,23,,,Uretim20
+S11,0,20,Stok_Resim,Stok_Resim,71,,,Uretim20
+S11,0,21,CF2,Siparis Fiyatı,71,"#,###.##",,Uretim20
+r1,0,0,SKod,Stok Kodu,81,,,Uretim20
+r1,0,1,ROzKod2,Renk Özel Kod 2,145,,,Uretim20
+r1,0,2,OzKod2,Özel Kod 2,66,,,Uretim20
+r1,0,3,CariKod_Tanim,Cari Tanım,122,,,Uretim20
+r1,0,4,irsaliyeNo,İrsaliye No,82,,,Uretim20
+r1,0,5,Fatura_Miktari,İrsaliye Miktar,34,"#,###.##",,Uretim20
+r1,0,6,StokFiyat,Stok Fiyatı,64,"#,###.##",,Uretim20
+r1,0,7,ParaCinsi,Kur,23,,,Uretim20
+r1,0,8,Stok_Resim,Stok_Resim,71,,,Uretim20
+Banka_KK_Ekstresi,0,7,Masraf,Masraf,64,"#,##0.00",,Uretim20
+01 - Cari_Hesap_List,0,0,CKod,Cari Kod,60,,,Uretim20
+01 - Cari_Hesap_List,0,1,CName,Cari Adı,124,,,Uretim20
+01 - Cari_Hesap_List,0,2,ParaCinsi,ParaCinsi,24,,,Uretim20
+01 - Cari_Hesap_List,0,3,Borc,Borc,64,"#,##0.00",*,Uretim20
+01 - Cari_Hesap_List,0,4,Alacak,Alacak,64,"#,##0.00",*,Uretim20
+01 - Cari_Hesap_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Uretim20
+01 - Cari_Hesap_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Uretim20
+01 - Cari_Hesap_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Uretim20
+01 - Cari Islem List,0,0,Aciklama,Aciklama,166,,,Uretim20
+01 - Cari Islem List,0,1,cbpg,Cari Kod,73,,,Uretim20
+01 - Cari Islem List,0,2,cbpg_Tanim,Cari Kod Tanımı,227,,,Uretim20
+01 - Cari Islem List,0,3,Tutar,Tutar,76,"#,##0.00",*,Uretim20
+01 - Cari Islem List,0,4,ParaCinsi,ParaCinsi,33,,,Uretim20
+02 - Cari Islem Deta,0,0,FisNo,FisNo,37,"#,##0.###",,Uretim20
+02 - Cari Islem Deta,0,1,FisTar,İşlem Tarihi,65,,,Uretim20
+02 - Cari Islem Deta,0,3,cbpg,Cari Kod,63,,,Uretim20
+02 - Cari Islem Deta,0,4,cbpg_Tanim,Cari Kod Tanımı,150,,,Uretim20
+02 - Cari Islem Deta,0,5,SatirAck1,SatirAck1,100,,,Uretim20
+02 - Cari Islem Deta,0,6,Tutar,Tutar,68,"#,##0.00",*,Uretim20
+02 - Cari Islem Deta,0,7,ParaCinsi,ParaCinsi,32,,,Uretim20
+Kasa Islem Listesi,0,0,FisNo,FisNo,41,"#,##0.###",,Uretim20
+Kasa Islem Listesi,0,1,Aciklama,Aciklama,89,,,Uretim20
+Kasa Islem Listesi,0,2,FisTar,İşlem Tarihi,70,,,Uretim20
+Kasa Islem Listesi,0,3,cbpg,Cari Kod,60,,,Uretim20
+Kasa Islem Listesi,0,4,cbpg_Tanim,Cari Kod Tanımı,147,,,Uretim20
+Kasa Islem Listesi,0,5,Tanim,Tanim,174,,,Uretim20
+Kasa Islem Listesi,0,6,Tutar,Tutar,79,"#,##0.00",*,Uretim20
+Kasa Islem Listesi,0,7,ParaCinsi,ParaCinsi,26,,,Uretim20
+Hesap Planı Listesi,0,0,CODE,Kod,65,,,Uretim20
+Hesap Planı Listesi,0,1,DEFINITION,Tanım,409,,,Uretim20
+Hesap Planı Listesi,0,2,ID,ID,64,"#,###.####",,Uretim20
+Hesap Planı Listesi,0,3,LEVEL_,LEVEL_,57,"#,###.####",,Uretim20
+Banka Listesi,0,0,BankaTanim,Banka Tanım,93,,,Uretim20
+Banka Listesi,0,1,sube,Şube Kodu,45,,,Uretim20
+Banka Listesi,0,2,SubeTanim,Şube Tanım,135,,,Uretim20
+Banka Listesi,0,3,HesapKod,Hesap Kodu,87,,,Uretim20
+Banka Listesi,0,4,HesapTanim,Hesap Tanım,146,,,Uretim20
+Banka Listesi,0,5,Paracinsi,Paracinsi,56,,,Uretim20
+Banka Listesi,0,6,IBAN,IBAN,208,,,Uretim20
+Banka Listesi,0,7,HesTip,Hesap Tipi,106,,,Uretim20
+mağaza_ciro_raporu,0,0,Location_Tanim,Location_Tanim,140,,,Uretim20
+mağaza_ciro_raporu,0,1,Miktar,Miktar,50,,*,Uretim20
+mağaza_ciro_raporu,0,2,Birim,Birim,62,,,Uretim20
+mağaza_ciro_raporu,0,3,StokFiyat,StokFiyat,76,,,Uretim20
+mağaza_ciro_raporu,0,4,Fiyat,Fiyat,79,,*,Uretim20
+mağaza_ciro_raporu,0,5,ParaCinsi,ParaCinsi,33,,,Uretim20
+mağaza_ciro_raporu,0,6,iskontoTut,iskontoTut,72,,*,Uretim20
+SF_Renkli_Liste,0,0,Resim,Resim,903,,,Uretim20
+SF_Renkli_Liste,0,1,SKod,Stok Kodu,70,,,Uretim20
+SF_Renkli_Liste,0,2,Tanim,Tanım,42,,,Uretim20
+SF_Renkli_Liste,0,3,Renk_Tanim,Renk Tanim,59,,,Uretim20
+SF_Renkli_Liste,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,Uretim20
+SF_Renkli_Resimli,0,0,Resim,Resim,903,,,Uretim20
+SF_Renkli_Resimli,0,1,SKod,Stok Kodu,70,,,Uretim20
+SF_Renkli_Resimli,0,2,Tanim,Tanım,42,,,Uretim20
+SF_Renkli_Resimli,0,3,Renk_Tanim,Renk Tanim,59,,,Uretim20
+SF_Renkli_Resimli,0,4,TL-Toptan_Satış_TL,TL-Toptan Satış,30,"#,##0.0000",,Uretim20
+mağaza_ciro_raporu,0,7,KDV_Tutar,KDV_Tutar,80,,*,Uretim20
+mağaza_ciro_raporu,0,8,Tutar,Tutar,79,,*,Uretim20
+mağaza_ciro_raporu,0,9,kdvsiz,kdvsiz,83,,,Uretim20
+02 - Cari_Detay_List,0,0,CKod,Cari Kod,60,,,Uretim20
+02 - Cari_Detay_List,0,2,ParaCinsi,ParaCinsi,24,,,Uretim20
+02 - Cari_Detay_List,0,3,Borc,Borc,64,"#,##0.00",*,Uretim20
+02 - Cari_Detay_List,0,4,Alacak,Alacak,64,"#,##0.00",*,Uretim20
+Cari_Siparis_Listesi,0,0,SKod,SKod,60,,,Uretim20
+Cari_Siparis_Listesi,0,1,SKod_Tanim,SKod_Tanim,148,,,Uretim20
+Cari_Siparis_Listesi,0,0,SKod,SKod,68,,,Uretim20
+Cari_Siparis_Listesi,0,1,Stok_Tanim,Stok_Tanim,304,,,Uretim20
+Cari_Siparis_Listesi,0,2,Giren,Giren,57,"#,##0.####",*,Uretim20
+Cari_Siparis_Listesi,0,3,Cikan,Cikan,64,"#,##0.####",*,Uretim20
+Cari_Siparis_Listesi,0,4,Kalan,Kalan,53,"#,##0.####",*,Uretim20
+Cari_Siparis_Listesi,0,5,Tutar,Tutar,64,"#,##0.00",*,Uretim20
+Cari_Siparis_Listesi,0,6,KalTut,KalTut,64,"#,##0.####",*,Uretim20
+Cari_Siparis_Listesi,0,7,ParaCinsi,ParaCinsi,57,,,Uretim20
+Cari_Siparis_Listesi,0,2,RKod_Tanim,RKod_Tanim,113,,,Uretim20
+Cari_Siparis_Listesi,0,3,Asorti,Asorti,36,,,Uretim20
+Cari_Siparis_Listesi,0,4,Siparis_Miktari,Siparis_Miktari,45,"#,##0.####",*,Uretim20
+Cari_Siparis_Listesi,0,5,Toplam_Kapatilan,Toplam_Kapatila,68,"#,##0.####",*,Uretim20
+Cari_Siparis_Listesi,0,6,Net_Kalan,Net_Kalan,68,"#,##0.####",*,Uretim20
+02 - Cari_Detay_List,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Uretim20
+02 - Cari_Detay_List,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Uretim20
+02 - Cari_Detay_List,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Uretim20
+İşçilik_Rapor,0,0,Personel,Personel,61,,,Uretim20
+İşçilik_Rapor,0,1,Personel_Tanim,Personel Tanim,99,,,Uretim20
+İşçilik_Rapor,0,2,EmirNo,Emir Numarası,44,,,Uretim20
+İşçilik_Rapor,0,3,ModelKod,Model Kodu,54,,,Uretim20
+İşçilik_Rapor,0,4,ModelKod_Tanim,Model Tanımı,171,,,Uretim20
+İşçilik_Rapor,0,5,RKod_Tanim,RKod Tanim,87,,,Uretim20
+İşçilik_Rapor,0,6,Proses_Tanim,Proses Tanim,68,,,Uretim20
+İşçilik_Rapor,0,7,EndTarih1,Ürünün Proses i,74,,,Uretim20
+İşçilik_Rapor,0,8,Biten,Biten,45,"#,###0.####",*,Uretim20
+İşçilik_Rapor,0,9,BirimMaliyet,Birim Maliyet,65,"#,###0.####",,Uretim20
+İşçilik_Rapor,0,10,Biten_Maliyet,Biten Maliyet,72,"#,###0.####",*,Uretim20
+İşçilik_Rapor,0,11,Birim,Birim,40,,,Uretim20
+Satınalma_İhtiyaç,0,0,CariKod_Tanim,Cari Kod Tanımı,113,,,Uretim20
+Satınalma_İhtiyaç,0,1,EmirNo,Emir No,40,"#,###0.####",,Uretim20
+Satınalma_İhtiyaç,0,2,uskod,Ürün Kodu,71,,,Uretim20
+Satınalma_İhtiyaç,0,3,USKod_Tanim,Ürün Kodu Tanım,287,,,Uretim20
+Satınalma_İhtiyaç,0,4,hskod,Hammadde Kodu,78,,,Uretim20
+Satınalma_İhtiyaç,0,5,HSKod_Tanim,Hammadde Kodu T,150,,,Uretim20
+Satınalma_İhtiyaç,0,6,HRKod_Tanim,Renk Tanımı,113,,,Uretim20
+Satınalma_İhtiyaç,0,7,Siparis_Miktar,Sipariş Miktarı,56,"#,###0.####",,Uretim20
+Satınalma_İhtiyaç,0,8,HBirim,HBirim,52,,,Uretim20
+Satınalma_İhtiyaç,0,9,HBeden,Hammadde Beden,52,,,Uretim20
+Satınalma_İhtiyaç,0,10,Miktar3,Emir ihtiyacı,72,"#,###0.####",*,Uretim20
+Satınalma_İhtiyaç,0,11,MiktarTop,Toplam ihtiyac,86,"#,###0.####",,Uretim20
+Satınalma_İhtiyaç,0,12,Hammadde_Mevcudu,Hammadde Mevcud,64,"#,###0.####",,Uretim20
+Satınalma_İhtiyaç,0,13,Ham_Satinalma,Ham Satinalma,61,"#,###0.####",,Uretim20
+Satınalma_İhtiyaç,0,14,Siparisi_Gereken,Siparisi Gereke,69,"#,###0.####",,Uretim20
+02 - Cari_Detay_List,0,1,CName,Cari Adı,124,,,Uretim20
+00 - Cari_Mizan_Rapo,0,0,CKod,Cari Kod,60,,,Uretim20
+00 - Cari_Mizan_Rapo,0,1,CName,Cari Adı,124,,,Uretim20
+00 - Cari_Mizan_Rapo,0,2,ParaCinsi,ParaCinsi,24,,,Uretim20
+02 - Siparis Kalan T,0,0,cariKod,Sipariş Cari Ko,76,,,Uretim20
+02 - Siparis Kalan T,0,1,CariKod_Tanim,Sipariş Cari Ko,147,,,Uretim20
+02 - Siparis Kalan T,0,2,Siparis_Miktari,Sipariş Miktarı,57,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,3,Birim,Birim,34,,,Uretim20
+02 - Siparis Kalan T,0,4,FToplam,Fiş Toplamı,72,"#,##0.00",*,Uretim20
+02 - Siparis Kalan T,0,5,iskontoTut,İskonto Tutarı,68,"#,##0.00",*,Uretim20
+02 - Siparis Kalan T,0,6,Tutar,Tutar,64,"#,##0.00",*,Uretim20
+02 - Siparis Kalan T,0,7,ParaCinsi,Kur,23,,,Uretim20
+02 - Siparis Kalan T,0,8,Gonderilen,Gönderilen,60,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,9,Faturalanan,Faturalanan,57,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,10,Harici_Kapatilan,Harici Kapatıla,49,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,12,Net_Kalan,Net Kalan,72,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,13,CF0,Ort Fiyat,64,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,14,CF1,Sevk Tutarı,72,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,15,CF2,Iptal Tutarı,64,"#,##0.##",*,Uretim20
+02 - Siparis Kalan T,0,16,CF3,Kalan Tutar,72,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,0,cariKod,Sipariş Cari Ko,66,,,Uretim20
+03 - Siparis Durum R,0,1,CariKod_Tanim,Sipariş Cari Ko,129,,,Uretim20
+03 - Siparis Durum R,0,2,SKod,Stok Kodu,67,,,Uretim20
+03 - Siparis Durum R,0,3,SKod_Tanim,Stok Kodu Tanım,117,,,Uretim20
+03 - Siparis Durum R,0,4,RKod_Tanim,Renk Tanımı,147,,,Uretim20
+03 - Siparis Durum R,0,5,UreticiKodu_Tanim,Üretici Kodu Ta,94,,,Uretim20
+03 - Siparis Durum R,0,6,Siparis_Miktari,Sipariş Miktarı,59,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,7,Birim,Birim,34,,,Uretim20
+03 - Siparis Durum R,0,8,Gonderilen,Gönderilen,57,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,9,Faturalanan,Faturalanan,49,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,10,Harici_Kapatilan,Harici Kapatıla,64,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,11,Toplam_Kapatilan,Toplam Kapatıla,60,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,12,Net_Kalan,Net Kalan,49,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,13,Satinalma_Top,Satınalma Topla,64,"#,##0.##",*,Uretim20
+03 - Siparis Durum R,0,14,Satinalma_kalan,Satınalma Kalan,60,"#,##0.##",*,Uretim20
+00 - Cari_Mizan_Rapo,0,3,Borc,Borc,64,"#,##0.00",*,Uretim20
+00 - Cari_Mizan_Rapo,0,4,Alacak,Alacak,64,"#,##0.00",*,Uretim20
+00 - Cari_Mizan_Rapo,0,5,BBakiye,Borç Bakiye,72,"#,##0.00",*,Uretim20
+00 - Cari_Mizan_Rapo,0,6,ABakiye,Alacak Bakiye,83,"#,##0.00",*,Uretim20
+00 - Cari_Mizan_Rapo,0,7,SonBakiye,Bakiye,64,"#,##0.00",*,Uretim20
+Mrp_Rapor,0,0,uskod,Ürün Kodu,60,,,Uretim20
+Mrp_Rapor,0,1,USKod_Tanim,Ürün Kodu Tanım,183,,,Uretim20
+Mrp_Rapor,0,2,hskod,Hammadde Kodu,73,,,Uretim20
+Mrp_Rapor,0,3,HSKod_Tanim,Hammadde Kodu T,131,,,Uretim20
+Mrp_Rapor,0,4,HRKod_Tanim,Renk Tanımı,42,,,Uretim20
+Mrp_Rapor,0,5,HBeden,Hammadde Beden,57,,,Uretim20
+Mrp_Rapor,0,6,HBirim,HBirim,47,,,Uretim20
+Mrp_Rapor,0,7,Miktar2,Planlama ihtiya,60,"#,###0.####",,Uretim20
+Mrp_Rapor,0,8,MiktarTop,Toplam ihtiyac,53,"#,###0.####",,Uretim20
+Mrp_Rapor,0,9,Hammadde_Mevcudu,Hammadde Mevcud,76,"#,###0.####",,Uretim20
+Mrp_Rapor,0,10,Ham_Satinalma,Ham Satinalma,71,"#,###0.####",,Uretim20
+Mrp_Rapor,0,11,Siparisi_Gereken,Siparisi Gereke,62,"#,###0.####",,Uretim20
+02 - Cari Islem Deta,0,2,Aciklama,Aciklama,166,,,Uretim20
+Banka Bakiye Listesi,0,0,Tarih,Tarih,64,,,Uretim20
+Banka Bakiye Listesi,0,1,Banka_Tanim,Banka Tanımı,132,,,Uretim20
+Banka Bakiye Listesi,0,2,Sube_Tanim,Şube Tanımı,106,,,Uretim20
+Banka Bakiye Listesi,0,3,Hesap,Hesap,94,,,Uretim20
+Banka Bakiye Listesi,0,4,Borc,Borç,98,"#,##0.00",*,Uretim20
+Banka Bakiye Listesi,0,5,Alacak,Alacak,91,"#,##0.00",*,Uretim20
+Banka Bakiye Listesi,0,6,Bakiye,Bakiye,79,"#,##0.00",*,Uretim20
+Banka Bakiye Listesi,0,7,ParaCinsi,Kur,23,,,Uretim20

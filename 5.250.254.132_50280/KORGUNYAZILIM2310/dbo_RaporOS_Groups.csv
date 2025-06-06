@@ -1,0 +1,4 @@
+FieldName,ParentId,DisplayName,FieldCheck,LineInx,OrderInx,GroupType,GotoIndex,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+BedKod,4,BedKod,*,2,,,,3,Samet,2025-01-23 14:07:43.933000,KGShop,,,
+RKod,4,RKod,*,1,,,,2,Samet,2025-01-23 14:07:42.157000,KGShop,,,
+SKod,4,SKod,*,0,,,,1,Samet,2025-01-23 14:07:40.003000,KGShop,,,

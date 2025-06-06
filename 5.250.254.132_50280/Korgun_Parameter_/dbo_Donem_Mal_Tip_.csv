@@ -1,0 +1,13 @@
+Tip_ID,Maliyet_Tip,DBName
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),Antrepo20
+1,FIFO,Antrepo20
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),Cabani20
+1,FIFO,Cabani20
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),KORGUNYAZILIM1910
+1,FIFO,KORGUNYAZILIM1910
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),KORGUNYAZILIM2210
+1,FIFO,KORGUNYAZILIM2210
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),KORGUNYAZILIM2310
+1,FIFO,KORGUNYAZILIM2310
+2,Ağırlıklı Ortalama(Tüm Girişler Üzerinden),Uretim20
+1,FIFO,Uretim20

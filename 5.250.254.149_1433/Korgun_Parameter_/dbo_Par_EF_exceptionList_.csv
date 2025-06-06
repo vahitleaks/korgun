@@ -1,0 +1,181 @@
+Code,Name,DBName
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,LINDON
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",LINDON
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,LINDON
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,LINDON
+206,17/2-e Mesleki Kuruluşların İşlemleri,LINDON
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",LINDON
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",LINDON
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,LINDON
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,LINDON
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,LINDON
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,LINDON
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,LINDON
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,LINDON
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,LINDON
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,LINDON
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",LINDON
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,LINDON
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,LINDON
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",LINDON
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,LINDON
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,LINDON
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",LINDON
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,LINDON
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,LINDON
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",LINDON
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",LINDON
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",LINDON
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",LINDON
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,LINDON
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,LINDON
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),LINDON
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,LINDON
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,LINDON
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",LINDON
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",LINDON
+250,Diğerleri,LINDON
+301,"11/1-a, Mal İhracatı",LINDON
+302,11/1-a Hizmet İhracatı,LINDON
+303,"11/1-a, Roaming Hizmetleri",LINDON
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",LINDON
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",LINDON
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",LINDON
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",LINDON
+308,"13/d, Teşvikli yatırım mallarının teslimi",LINDON
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",LINDON
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",LINDON
+311,"14/1, Uluslararası taşımacılık",LINDON
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",LINDON
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",LINDON
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",LINDON
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",LINDON
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",LINDON
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",LINDON
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",LINDON
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",LINDON
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",LINDON
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",LINDON
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),LINDON
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,LINDON
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,LINDON
+325,13/ı Yem Teslimleri,LINDON
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",LINDON
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",LINDON
+328,13/i Konut veya İşyeri Teslimleri,LINDON
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,LINDON
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",LINDON
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,LINDON
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",LINDON
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,LINDON
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,LINDON
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,LINDON
+337,Diğerleri,LINDON
+338,İmalatçıların Mal İhracatları,LINDON
+350,Diğerleri,LINDON
+351,İstisna olmayan diğer,LINDON
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,LINDON
+701,İhraç Kayıtlı Satışlar,LINDON
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,LINDON
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",LINDON
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,LINDON
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",LINDON
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,LINDON
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,LINDON
+806,Tütün mamülleri ve bazı alkollü içkiler,LINDON
+807,"Gazete, dergi ve benzeri periyodik yayınlar",LINDON
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,LINDON
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,LINDON
+810,Telefon kartı ve jeton satışları,LINDON
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,LINDON
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,LINDON
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,LINDONSENTOS
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",LINDONSENTOS
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,LINDONSENTOS
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,LINDONSENTOS
+206,17/2-e Mesleki Kuruluşların İşlemleri,LINDONSENTOS
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",LINDONSENTOS
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",LINDONSENTOS
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,LINDONSENTOS
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,LINDONSENTOS
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,LINDONSENTOS
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,LINDONSENTOS
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,LINDONSENTOS
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,LINDONSENTOS
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,LINDONSENTOS
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,LINDONSENTOS
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",LINDONSENTOS
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,LINDONSENTOS
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,LINDONSENTOS
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",LINDONSENTOS
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,LINDONSENTOS
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,LINDONSENTOS
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",LINDONSENTOS
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,LINDONSENTOS
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,LINDONSENTOS
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",LINDONSENTOS
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",LINDONSENTOS
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",LINDONSENTOS
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",LINDONSENTOS
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,LINDONSENTOS
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,LINDONSENTOS
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),LINDONSENTOS
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,LINDONSENTOS
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,LINDONSENTOS
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",LINDONSENTOS
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",LINDONSENTOS
+250,Diğerleri,LINDONSENTOS
+301,"11/1-a, Mal İhracatı",LINDONSENTOS
+302,11/1-a Hizmet İhracatı,LINDONSENTOS
+303,"11/1-a, Roaming Hizmetleri",LINDONSENTOS
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",LINDONSENTOS
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",LINDONSENTOS
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",LINDONSENTOS
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",LINDONSENTOS
+308,"13/d, Teşvikli yatırım mallarının teslimi",LINDONSENTOS
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",LINDONSENTOS
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",LINDONSENTOS
+311,"14/1, Uluslararası taşımacılık",LINDONSENTOS
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",LINDONSENTOS
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",LINDONSENTOS
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",LINDONSENTOS
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",LINDONSENTOS
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",LINDONSENTOS
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",LINDONSENTOS
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",LINDONSENTOS
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",LINDONSENTOS
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",LINDONSENTOS
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",LINDONSENTOS
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),LINDONSENTOS
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,LINDONSENTOS
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,LINDONSENTOS
+325,13/ı Yem Teslimleri,LINDONSENTOS
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",LINDONSENTOS
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",LINDONSENTOS
+328,13/i Konut veya İşyeri Teslimleri,LINDONSENTOS
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,LINDONSENTOS
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",LINDONSENTOS
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,LINDONSENTOS
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",LINDONSENTOS
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,LINDONSENTOS
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,LINDONSENTOS
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,LINDONSENTOS
+337,Diğerleri,LINDONSENTOS
+338,İmalatçıların Mal İhracatları,LINDONSENTOS
+350,Diğerleri,LINDONSENTOS
+351,İstisna olmayan diğer,LINDONSENTOS
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,LINDONSENTOS
+701,İhraç Kayıtlı Satışlar,LINDONSENTOS
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,LINDONSENTOS
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",LINDONSENTOS
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,LINDONSENTOS
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",LINDONSENTOS
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,LINDONSENTOS
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,LINDONSENTOS
+806,Tütün mamülleri ve bazı alkollü içkiler,LINDONSENTOS
+807,"Gazete, dergi ve benzeri periyodik yayınlar",LINDONSENTOS
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,LINDONSENTOS
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,LINDONSENTOS
+810,Telefon kartı ve jeton satışları,LINDONSENTOS
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,LINDONSENTOS
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,LINDONSENTOS

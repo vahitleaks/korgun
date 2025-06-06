@@ -1,0 +1,41 @@
+Kod,Tanim,OzKod1,OzKod2,OzKod3,OzKod4,OzKod5,DBName
+001,Tamir Kabul,,,,,,TANCA
+002,İncelenmek Üzere Merkeze Sevk Edildi,,,,,,TANCA
+003,İncelenmek Üzere Fabrikaya Sevk Edildi,,,,,,TANCA
+004,Tamir Edilip Fabrikadan Merkeze Geldi,*,,,,,TANCA
+005,Tamir Edilemeden Fabrikadan Merkeze Geldi,*,,,,,TANCA
+006,Fabrikadan İadesi kabul edildi,,,,,,TANCA
+007,Müşteriye Ürün Değişimi Yapıldı,*,,,,,TANCA
+008,Ürün Mağazada İade Alındı,*,,,,,TANCA
+009,Tamir Edilip Mağazaya Gönderildi,,,,,,TANCA
+010,Tamir Edilemeden Mağazaya Gönderildi,,,,,,TANCA
+011,Tamir Edilip Müşteriye Teslim Edildi,*,,,,,TANCA
+012,Tamir Edilemeden Müşteriye Teslim Edildi,*,,,,,TANCA
+013,Tamir Edilmek Üzere Ustaya Verildi,*,,,,,TANCA
+014,Tamir Edilmek Üzere Lostraya Verildi,,,,,,TANCA
+015,Tamir Edilip Lostradan Geldi,,,,,,TANCA
+016,Red Rapor Yazılacak,*,,,,,TANCA
+017,Kısmen Tadilatı yapıldı,*,,,,,TANCA
+018,Magazada Özür Yazısı Hazırlandı,*,,,,,TANCA
+019,Müşteriye Para Fişi Verildi,,,,,,TANCA
+020,İadesi ve Tamiri Mümkün Değil,,,,,,TANCA
+021,Müşteriye Para İadesi Yapıldı,,,,,,TANCA
+022,Ücretli Tamiri Yapıldı,*,,,,,TANCA
+023,Mustafa Aytaç,*,,,,,TANCA
+024,Mustafa Gökalp,*,,,,,TANCA
+025,Zafer Kumcu,*,,,,,TANCA
+026,Tamir Edilip Satışa Gönderildi,,,,,,TANCA
+027,Firması İade/Tamir İşlemlerini Yapmadığı İçin Bize,,,,,,TANCA
+028,Armaniye Fotoğrafı Gönderildi Sonucu Bekleniyor ,*,,,,,TANCA
+029,Mağazada Tamir Yapıldı,*,,,,,TANCA
+030,Müşteriye Bilgi Verildi Ama Teslim Almıyor,*,,,,,TANCA
+031,Tamir Edilip Gencallar'a Gönderildi,*,,,,,TANCA
+032,Tamir Edilmeden Gencellar'a Gönderildi,*,,,,,TANCA
+033,Ürünün İrsaliyesi Geldi,*,,,,,TANCA
+034,Online Satıs İadesi alındı,,,,,,TANCA
+035,Online Satısa Gönderildi,,,,,,TANCA
+036,Turan Arslan,,,,,,TANCA
+037,Resim Gorulerek İade Alındı,,,,,,TANCA
+038,Zaman Aşımından İade,,,,,,TANCA
+039,Veysi Ayten,,,,,,TANCA
+040,Cafer Usta,,,,,,TANCA

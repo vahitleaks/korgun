@@ -1,0 +1,72 @@
+islemID,link,tanim
+Login,,Giri lemi
+301,cari1,Cari Extre Raporu
+101,satis1,Gnlk Sat Raporu
+102,satis2,Haftalk Sat Raporu
+103,satis3,Aylk Sat Raporu
+104,satis4, Aylk Sat Raporu
+105,satis5,Yllk Sat Raporu
+206,satis6,Kriterli Sat Raporu
+207,satis7,Stok Grubu Gruplu
+208,satis8,Stok Tipi Gruplu
+209,satis9,retici Kodu Gruplu
+210,bestsatis5,Kriterli En ok Satan 15 (Adete Gre)
+211,bestsatis5,Kriterli En ok Satan 15 (Tutara Gre)
+312,bestsatis1,Bugn En ok Satan 15 (Adete Gre)
+313,bestsatis2,Bu Hafta En ok Satan 15 (Adete Gre)
+314,bestsatis3,Bu Ay En ok Satan 15 (Adete Gre)
+315,bestsatis4,Son 3 Ay En ok Satan 15 (Adete Gre)
+317,bestsatis1,Bugn En ok Satan 15 (Tutara Gre)
+318,bestsatis2,Bu Hafta En ok Satan 15 (Tutara Gre)
+319,bestsatis3,Bu Ay En ok Satan 15 (Tutara Gre)
+320,bestsatis4,Son 3 Ay En ok Satan 15 (Tutara Gre)
+221,satis10,Adete Gre En ok Satlan 15 rn
+222,satis11,Tutara Gre En ok Satlan 15 rn
+123,satis12,Dnk Sat Raporu
+124,satis13,Geen Hafta Bugnk Sat Raporu
+125,satis14,Geen Ay Bugnk Sat Raporu
+126,satis15,Geen Yl Bugnk Sat Raporu
+427,fatIrs1,Gnlk Sat rsaliye Miktar
+428,fatIrs2,Haftalk Sat rsaliye Miktar
+429,fatIrs3,Aylk Sat rsaliye Miktar
+430,fatIrs4,Kriterli Sat rsaliye Miktar
+531,sipLoc1,Gnlk Sipari Miktar
+532,sipLoc2,Haftalk Sipari Miktar
+533,sipLoc3,Aylk Sipari Miktar
+534,sipLoc4,Kriterli Sipari Miktar
+535,siparis1,Lokasyon Bazl Sipari Raporlar
+536,siparis2,Detayl Sipari Raporlar
+537,siparis3,Miktara Gre En ok Sipari Alan 15 rn
+538,siparis4,Tutara Gre En ok Sipari Alan 15 rn
+539,sipDetay1,Gnlk Sipari Miktar (Detayl)
+540,sipDetay2,Haftalk Sipari Miktar (Detayl)
+541,sipDetay3,Aylk Sipari Miktar (Detayl)
+542,sipDetay4,Kriterli Sipari Miktar (Detayl)
+543,sipBestMik1,Bugn En ok Sipari Alan 15 rn (Miktara Gre)
+544,sipBestMik2,Bu Hafta En ok Sipari Alan 15 rn (Miktara Gre)
+545,sipBestMik3,Bu Ay En ok Sipari Alan 15 rn (Miktara Gre)
+546,sipBestMik4,Kriterli En ok Sipari Alan 15 rn (Miktara Gre)
+547,sipBestTut1,Bugn En ok Sipari Alan 15 rn (Tutara Gre)
+548,sipBestTut2,Bu Hafta En ok Sipari Alan 15 rn (Tutara Gre)
+549,sipBestTut3,Bu Ay En ok Sipari Alan 15 rn (Tutara Gre)
+550,sipBestTut4,Kriterli En ok Sipari Alan 15 rn (Tutara Gre)
+551,fatIrs5,Bu Yln Sat Irsaliye Raporu (Aylara Gre)
+552,satis16,Bu Yln Sat Raporu (Aylara Gre)
+553,siparis5,Bu Yln Sipari Raporu (Aylara Gre)
+554,siparis6,Kalan Sipari Raporu
+455,fatIrs6,En ok rsaliye Kesilen 15 rn (Miktara Gre)
+456,fatIrs7,En ok rsaliye Kesilen 15 rn (Tutara Gre)
+457,_fatIrsBestMik1,Bugn En ok rsaliye Kesilen 15 rn (Miktara Gre)
+458,_fatIrsBestMik2,Bu Hafta En ok rsaliye Kesilen 15 rn (Miktara Gre)
+459,_fatIrsBestMik3,Bu Ay En ok rsaliye Kesilen 15 rn (Miktara Gre)
+460,_fatIrsBestMik4,Kriterli En ok rsaliye Kesilen 15 rn (Miktara Gre)
+461,_fatIrsBestTut1,Bugn En ok rsaliye Kesilen 15 rn (Tutara Gre)
+462,_fatIrsBestTut2,Bu Hafta En ok rsaliye Kesilen 15 rn (Tutara Gre)
+463,_fatIrsBestTut3,Bu Ay En ok rsaliye Kesilen 15 rn (Tutara Gre)
+464,_fatIrsBestTut4,Kriterli En ok rsaliye Kesilen 15 rn (Tutara Gre)
+665,fatura1,Gnlk Sat Faturas Raporu
+666,fatura2,Haftalk Sat Faturas Raporu
+667,fatura3,Aylk Sat Faturas Raporu
+668,fatura4,Kriterli Sat Faturas Raporu
+469,fatIrs8,Stok Tipi Gruplu Irsaliye Raporu
+470,fatIrs9,Stok Grubu Gruplu Irsaliye Raporu

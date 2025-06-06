@@ -1,0 +1,3 @@
+CatalogName,UserName,MailUser,MailPass,MailSmtp,MailPort,MailSender,MailFirma,Mailimza,MailSenderAdress,kgid,mkgid,insUN,insDT,insApp,updUN,updDT,updApp
+KORGUNYAZILIM2310,harun,harun,nkl,587,152,harun@korgun.com.tr,korgun,korgun,korgun@korgun.com.tr,8,102,dbo,2025-04-16 13:01:25.180000,,dbo,2025-04-16 13:02:09.263000,
+KORGUNYAZILIM2310,selimkorgun,HARUN ,1,1,1,1,1,1,1,1,77,dbo,2025-02-07 17:25:06.417000,,dbo,2025-02-07 17:25:06.443000,

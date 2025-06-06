@@ -1,0 +1,12 @@
+Id,Parent_Id,K_Ad
+1,3,Zamanında Teslimat
+2,3,Malın Sevkiyat Şekli
+3,3,Paketleme Kabiliyeti
+4,2,Ürün Fiyat Uygunluğu
+5,2,Satınalma Fiyat İskontosu
+6,2,Tedarikçi Ödeme Vadesi
+7,1,Ürün Kalitesi
+8,1,Hatasız Ürün Miktarı
+9,4,Şikayet Politikası
+10,4,Sorunlara Yaklaşım
+11,4,İletişim Kolaylığı

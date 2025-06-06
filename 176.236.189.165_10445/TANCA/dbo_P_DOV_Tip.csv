@@ -1,0 +1,8 @@
+DOV_KOD,Tanim,SEMBOLU,ATanim,AltKurLn,TCMB_Kod,AlDovTip,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+CHF,CHF,,Sent,2,CHF,,1,,,,,,
+CNY,Çin Yuanı,CNY,,2,CNY,A,2,,,,,,
+EU,EURO,€,Sent,2,EUR,A,3,,,,,,
+GBP,STERLIN,,,2,GBP,A,4,,,,,,
+RUB,RUBLE,,Sent,2,RUB,A,5,,,,,,
+TL,TRL,TL,Kr,2,TRY,,6,,,,,,
+US,Dolar,$,Sent,2,USD,A,7,,,,,,

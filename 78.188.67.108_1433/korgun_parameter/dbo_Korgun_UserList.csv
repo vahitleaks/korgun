@@ -1,0 +1,12 @@
+UserName,UserRealName,UserTel,UserMail,UserAddress,Location,UserLevel,islemkapamama,islemCloser,islemOpener,PerPrimTip,ChangePassword,PassChangeDT,Kase,WDefCtlg,WDefLoc,UiLang,WAccess,insUN,insDT,updUN,updDT,CariKri,AlFiyChg,SatFiyChg,FatiskOrLimit,RezOnay,PerRapTarSin,MaxSessionCount,GiderKri,LokBulYet,PeriyotAta,PeriyotAtamama,PerSipSea,MasrafKri,PasifUser,onay1,onay2,PerSipStateChange,islemOzKod1,islemOzKod2,islemOzKod3,islemOzKod4,islemOzKod5,SpBEntryVisible,MuhHesapAktarim,UseKapaliFatura,ChangePriceInvoice,ChangeStateEInvoice,UnifreeTopluIslem,AuthMuhasebe,ChangePriceDespatch,ChangeCariRiskGrup
+Emrah,Emrah,,,,,2, ,,,0, ,,,,,0,,sa,2025-01-29 11:19:11.990000,sa,2025-01-29 11:19:19.187000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+İra,İra,,,,,0, ,,,0, ,,,,,0,,sa,2024-11-25 17:15:08.667000,sa,2025-01-21 12:02:36.297000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+Korgun_Admin,Korgun Yonetici,02122744635,info@Korgun.com.tr,yildizposta cd. muzaffertug sk. 58/2 esentepe,,1,,,,,,,,,,0,,,,sa,2022-01-31 11:23:06.510000,,*,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LAROSI,LAROSI,,,,,1, ,,,0, ,,,,,0,,sa,2024-07-25 14:16:21.897000,sa,2024-07-25 14:16:33.020000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+LAROSI1,LAROSI1,,,,,0, ,,,0, ,,,,,0,,sa,2024-07-25 14:17:35.577000,sa,2024-07-25 14:17:41.970000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+LAROSSI,LAROSSI,,,,,1, ,,,0, ,,,,,0,,sa,2024-07-24 12:43:40.643000,sa,2024-07-25 12:28:26.180000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+Nigar,Nigar,,,,,0, ,,,0, ,,,,,0,,sa,2025-01-14 18:21:48.653000,sa,2025-01-21 12:03:07.433000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+ONUR,ONUR,,,,,1, ,,,0, ,,,,,0,,sa,2024-07-25 14:18:57.637000,sa,2025-01-21 11:53:08.923000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+sa,Sistem Yöneticisi,,,,,1,,,,,,,,,,0,,,,sa,2022-01-31 11:23:06.510000,,*,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Suat,Suat Bahçeci,,,,,1, ,,,0, ,2025-01-21 16:56:35.330000,,,,0,,sa,2024-12-25 10:56:19.320000,Suat,2025-01-21 16:56:35.330000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,
+Tedarik,Tedarik,,,,,1, ,,,0, ,,,,,0,,sa,2025-01-21 17:11:36.007000,sa,2025-01-29 11:06:37.870000,,*,*,0.0,, ,0,, ,,,,,,,,,,,,,,,,,,,,,,

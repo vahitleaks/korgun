@@ -1,0 +1,1607 @@
+Modul,MOption,CheckValue,Tanim,Typex,Valuex,EditTypeX,PWinCaption,PTable,PRField,PRFields,PRFieldsValues,Katalog,PassChar,DBName
+BankaFis,AutoBelLoc,Evet,Banka fişlerinde evrak numarası artımı lokasyon bazında olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,AutoFatNo,Evet,Banka fişlerinde evrak numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,AutoTip,EnBuyukNo,Banka fişlerinde evrak numarası arttırılırken hangi kayıt üzerinden işlem yapılsın?,ComboBox,EnBuyukNo&SonNo,,,,,,,,,TANCA
+BankaFis,BaAcKuSetif,Hayir,Banka işlemlerinde hesap numarasının aktif kuru kontrol edilsin ve uyarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,BAClosedV,Hayir,Banka işlemlerinde borç alacak kapatma tuşu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,BAClosedVAS,Hayir,Banka işlemlerinde kaydetme işleminden sonra borç alacak kapatma ekranı otomatik çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,BaKurAllow,Hayir,Banka işlemlerinde hesap numarasının aktif kurundan farklı kurda işlem yaılmasına izin verilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,BaKurCheckit,Hayir,Banka işlemlerinde girilen kurlar gösterilsin ve onaylatılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,BankaSilPsw,,Banka fişin silinmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+BankaFis,CariOzKodVisible,Hayir,Cari seçim listesinde özel kodlar görüntülensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,GarantiKey,,Garanti Bankasının Size Vermiş Olduğu MD5Generate.exe ile Üretmiş Olduğunuz Keyi Giriniz,Edit,,txt,,,,,,,,TANCA
+BankaFis,GarantiPass,,Garanti Bankasının Size Vermiş Olduğu Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+BankaFis,GarantiUser,,Garanti Bankasının Size Vermiş Olduğu Kullanıcı Kodunu Giriniz,Edit,,txt,,,,,,,,TANCA
+BankaFis,GelGidNeed,Hayir,Banka Gelir/Gider işlemlerinde satırda gelir/gider kodu seçilmesi zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,HarOzKod1,Özel Kod 1,Banka Fişi Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+BankaFis,HarOzKod2,Özel Kod 2,Banka Fişi Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+BankaFis,HarOzKod3,Özel Kod 3,Banka Fişi Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+BankaFis,HarOzKod4,Özel Kod 4,Banka Fişi Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+BankaFis,HarOzKod5,Özel Kod 5,Banka Fişi Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+BankaFis,HesTipCont,Evet,Banka işlemlerinde hesap kodu çağırılırken Hesap Tip-İşlem Kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,HizliMuhButton,Evet,Hızlı banka işlemlerinde -Muhasebeleştir- butonu gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,MuhMasraf,Hayir,Banka işlemleri muhasebeleştirilirken masraf tutarları banka muhasebe kodundan düşürülsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,NoOzKod1,Hayir,Banka işleminin Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,NoOzKod2,Hayir,Banka işleminin Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,NoOzKod3,Hayir,Banka işleminin Özel Kod 3 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,NoOzKod4,Hayir,Banka işleminin Özel Kod 4 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,NoOzKod5,Hayir,Banka işleminin Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+BankaFis,SaveMuh,Hayir,Banka işlemlerinde kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,Adres2Degistir,Hayir,Cari karttaki Adres Tanımı değiştirilebilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,AdrOzKod1,Özel Kod 1,Cari Ek Adres Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod10,Özel Kod 10,Cari Ek Adres Özel Kod 10 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod2,Özel Kod 2,Cari Ek Adres Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod3,Özel Kod 3,Cari Ek Adres Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod4,Özel Kod 4,Cari Ek Adres Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod5,Özel Kod 5,Cari Ek Adres Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod6,Özel Kod 6,Cari Ek Adres Özel Kod 6 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod7,Özel Kod 7,Cari Ek Adres Özel Kod 7 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod8,Özel Kod 8,Cari Ek Adres Özel Kod 8 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AdrOzKod9,Özel Kod 9,Cari Ek Adres Özel Kod 9 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,AsortiToplam,Hayir,Stoklu Cari ekstrede asorti toplamları görünsün mü ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,CAcKurSetif,Hayir,Cari kartlarda aktif kur seçilmeye zorlansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,CAcKurUse,Evet,Cari kartlarda aktif kur kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,Cari_BAKurTar,Aktif İşlem,Borç alacak kapama işleminde dikkate alınacak kur hangi işlemin?,ComboBox,Aktif İşlem&Kapatan İşlem&Günün Kuru,,,,,,,,,TANCA
+Cari,CEkstreBasTar,,Cari ekstre başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,,,TANCA
+Cari,CEkstreBasTarGun ,Hayir,Cari ekstre başlangıç tarihi o günün tarihine göre çalışsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,CekTahGoster,Hayir,"Cari Kart ve Cari Yönetimde ""Sadece tahsil edilen Çekleri göster"" çeki görünsün mü? ?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,DefUlke,Türkiye,Cari kart için geçerli Yurtiçi Ülke ?,Edit,,txt,,,,,,,,TANCA
+Cari,EksLokVis,Evet,Cari ekstrede tüm lokasyonlar seçili iken lokasyon bilgisi görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,HEkstrGrup,Evet,Cari ekstrede farklı döviz cinsleri gruplansın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,HesDetAlternativeScreen,Hayir,Cari Kart içindeki Hesap Detayları ekranında alternatif gösterim kullanılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,NoFiyAlert,Evet,Cari kartlar kaydedilirken muhasebe kodu boş ise uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,NotSameVKN,Hayir,Aynı vergi numaralı cari kart açılması engellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,OpenCrmCard,Hayir,Yeni bir cari Kart açıldığında cari kart bağlantılı crm kartı da açılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,OzKod1,Özel Kod 1,Cari Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod10,Özel Kod 10,Cari Özel Kod 10 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod2,Özel Kod 2,Cari Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod3,Özel Kod 3,Cari Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod4,Özel Kod 4,Cari Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod5,Özel Kod 5,Cari Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod6,Özel Kod 6,Cari Özel Kod 6 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod7,Özel Kod 7,Cari Özel Kod 7 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod8,Özel Kod 8,Cari Özel Kod 8 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,OzKod9,Özel Kod 9,Cari Özel Kod 9 in adı,Edit,,txt,,,,,,,,TANCA
+Cari,ProjeDetayValid,Hayir,Cari kartta proje detayı verisi girmek zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,SenetTahGoster,Hayir,"Cari Kart ve Cari Yönetimde ""Sadece tahsil edilen Senetleri göster"" çeki görünsün mü? ?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,StkEkstreSipNoVisible,Hayir,Stoklu Cari Ekstre de bağlı sipariş numarası var ise  gruplama da dikkate alınsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Cari,TurmobPass,6210,Turmob için Parolanız,Edit,,txt,,,,,,,,TANCA
+Cari,TurmobUserName,cc_6210533310,Turmob için Kullanıcı Adınız,Edit,,txt,,,,,,,,TANCA
+Cari_Gizli,ZorunluMaster,*,,Edit,,txt,,,,,,,,TANCA
+CariFis,AutoBelLoc,Evet,Cari fişlerinde belge numarası artımı lokasyon bazında olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,AutoFatNo,Hayir,Cari fişlerinde belge numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,AutoTip,EnBuyukNo,Cari fişlerinde belge numarası arttırılırken hangi kayıt üzerinden işlem yapılsın?,ComboBox,EnBuyukNo&SonNo,,,,,,,,,TANCA
+CariFis,BAClosedV,Hayir,Cari işlemlerde borç alacak kapatma tuşu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,BAClosedVAS,Hayir,Cari işlemlerde kaydetme işleminden sonra borç alacak kapatma ekranı otomatik çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,CaAcKuSetif,Hayir,Cari işlemlerde cari kartın aktif kuru kontrol edilsin ve uyarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,CaCariCheckit,Hayir,Cari işlemler fiş satırlarında cari girilme zorunluluğu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,CaKurCheckit,Hayir,Cari işlemlerde girilen kurlar gösterilsin ve onaylatılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,CariSilPsw,,Cari fişin silinmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+CariFis,CheckFTut,Hayir,Cari işlemlerde kaydetme işleminden önce fiş tutarı girilmek zorunda mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,DekVadeOto,Hayir,Cari dekont işlemlerinde cari karta ait vade satıra otomatik yansısın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,ESMM_Entegrator,Yok,E-SMM için hangi özel entegratör ile anlaşmalısınız?,ComboBox,Yok&FIT,,,,,,,,,TANCA
+CariFis,ESMMPdfGidenDir,D:\Korgun\Update Hazirla191001\ESMMPdGidenDir\,Gönderilen E-SMM pdf dosyalarının saklanacağı dizin,Edit,,txt,,,,,,,,TANCA
+CariFis,ESMMtempDir,C:\Users\Erci\AppData\Local\TempeSMM\temp\,E-SMM için geçici dizin,Edit,,txt,,,,,,,,TANCA
+CariFis,ESMMUse,Hayir,E-SMM Kullanımı aktif mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,FrkPCKaydetme,Evet,Cari fişlerinde carinin paracinsinden farklı paracinsinde hareket girebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,HarOzKod1,Özel Kod 1,Cari Fişi Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+CariFis,HarOzKod2,Özel Kod 2,Cari Fişi Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+CariFis,HarOzKod3,Özel Kod 3,Cari Fişi Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+CariFis,HarOzKod4,Özel Kod 4,Cari Fişi Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+CariFis,HarOzKod5,Özel Kod 5,Cari Fişi Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+CariFis,KurFFisTip  ,Fatura,Cari bazlı toplu kur farkı işlemlerinde oluşturulacak fiş tipi ne olsun? ,ComboBox,Fatura&Cari Kur Farkı İşlemi,,,,,,,,,TANCA
+CariFis,NoOzKod1,Hayir,Cari fişin Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,NoOzKod2,Hayir,Cari fişin Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,NoOzKod3,Hayir,Cari fişin Özel Kod 3 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,NoOzKod4,Hayir,Cari fişin Özel Kod 4 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,NoOzKod5,Hayir,Cari fişin Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,SaveMuh,Hayir,Cari işlemlerde kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,SVMakbuzOnek,KRG,Verilen Serbest Meslek Makbuz numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+CariFis,TopluKurFFFB,Hayir,Toplu Kur Farkı Fişi oluşturma işleminde fiş birleştirme sorusu sorulsun mu?(E-Defter kullanımında),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CariFis,VadeSor,Hayir,Cari fişlerinde Vade tarihi (Borc-Alacak dekontunda) girmesi zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,BAClosedV,Hayir,Çek Senet bordrolarında borç alacak kapatma tuşu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,BAClosedVAS,Hayir,Çek Senet bordrolarında kaydetme işleminden sonra borç alacak kapatma ekranı otomatik çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,BAStayla,SatirSatir,Borç alacak kapama ekranı nasıl açılsın?,ComboBox,SatirSatir&Tümü,,,,,,,,,TANCA
+CSFis,CariBakiyeVisible,Gorunmesin,Çek Girişi ekranlarında Cari Bakiye otomatik olarak görünsün mü?,ComboBox,Gorunmesin&Tum Lokasyonlar&Bulunulan Lokasyon&,,,,,,,,,TANCA
+CSFis,CariOzKodVisible,Hayir,Cari seçim listesinde özel kodlar görüntülensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CsFis,CekOzKod1,Özel Kod 1,Çek özel kod 1 tanımı ?,Edit,OzelKod1,txt,,,,,,,,TANCA
+CsFis,CekOzKod2,Özel Kod 2,Çek özel kod 2 tanımı ?,Edit,OzelKod2,txt,,,,,,,,TANCA
+CSFis,CekOzKod3,Özel Kod 3,Çek özel kod 3 tanımı ?,Edit,OzelKod3,txt,,,,,,,,TANCA
+CSFis,CekOzKod4,Özel Kod 4,Çek özel kod 4 tanımı ?,Edit,OzelKod4,txt,,,,,,,,TANCA
+CSFis,CekOzKod5,Özel Kod 5,Çek özel kod 5 tanımı ?,Edit,OzelKod5,txt,,,,,,,,TANCA
+CSFis,CsOzelKod,Evet,Çek-Senet Girişlerindeki Özel Kodlar Çek-Senet işlemlerine de yansısın ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,CsSatirDov,Hayir,Firma Çek çıkış bordrolarında satırda döviz kodu seçilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,CsSilPsw,,Çek-senet hareketinin silinmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+CSFis,DevirRisk,OzelKod1,Risk raporlarında devir ve çek kartlarının cari bağlantıları hangi kod üzerinden olsun?,ComboBox,OzelKod1&OzelKod2,,,,,,,,,TANCA
+CSFis,EkleDurumKol,Evet,Çek Senet hareket bordrolarında Ekle(F7) ye basınca gelen ekranda durum kolonu gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,FirmaHesapSec,Hayir,Firma Çek Senet bordroları bankadan ödeme yapılırken banka hesabı seçilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,HarListTut,Evet,Çek Senet işlem bordroları listelenirken bordro tutarıda getirilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,KaraListeCont,Hayir,Kara liste kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,kiciCari,Hayir,Cari hesaba ve cari ye karşılıksız iade işleminde çekin girildiği kişiye iade zorunluluğu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CsFis,ManuelIslem,Hayir,Çek-Senet İşlemleri ekranlarında PortföyNo yazarak çek eklenebilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,MyCekCont,Hayir,"Müşteri çek ve senetlerinde kayıt tipi ""kendi"" seçilirse borçlu bilgisi girilebilsin mi?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,NoOzKod1,Hayir,Çek-senet hareketinin Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,NoOzKod2,Hayir,Çek-senet hareketinin Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,NoOzKod3,Hayir,Çek-senet hareketinin Özel Kod 3 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,NoOzKod4,Hayir,Çek-senet hareketinin Özel Kod 4 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,NoOzKod5,Evet,Çek-senet hareketinin Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,OrtVadeTutar,Hayir,Çek-Senet İşlemleri ekranlarında çek-senet seçilirken ortalama vade ve tutarı hesaplasın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,SameCekNo,Hayir,Aynı çek numarası tekrar kullanılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,SaveMuh,Hayir,Çek Senet bordrolarında kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,VadeKont,Hayir,Çek Senet bordrosu girilirken vade tarihi-bordro tarihi kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,XMLGetSend,Hayir,"Çek-Senet ekranlarında ""XML Al-Gönder"" butonları görünsün mü ?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFis,YazSortYaz,Hayir,Çek yazdırılırken sıralama ekranını çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+CSFisx,DevirRisk,OzelKod1,Risk raporlarında devir ve çek kartlarının cari bağlantıları hangi kod üzerinden olsun?,ComboBox,OzelKod1&OzelKod2,,,,,,,,,TANCA
+Demirbas,AmortAltLimit,1,Amortisman Alt Limit,Edit,,txt,,,,,,,,TANCA
+Demirbas,AmortSekli,Hayir,Amortisman  Ayrılması Aylık Olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Demirbas,BasYil,2000,Başlangıç Yılı,Edit,,txt,,,,,,,,TANCA
+Demirbas,CalisDonem,1,Çalışılan Dönem (1-4),Edit,,txt,,,,,,,,TANCA
+Demirbas,CalisYil,2009,Çalışma Yılı,Edit,,txt,,,,,,,,TANCA
+Demirbas,HesapDonBas,1,Hesap Dönemi Başlangıcı (1-12),Edit,,txt,,,,,,,,TANCA
+Demirbas,IzDeger,Evet,İz Değer Kullanılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Demirbas,IzDegerTutar,"0,01",İz Değer Tutarı,Edit,,txt,,,,,,,,TANCA
+Demirbas,KDVMahsupSure ,1,KDV Mahsup Süresi (1-3),Edit,,txt,,,,,,,,TANCA
+Demirbas,KZHesDonem,Evet,Kar Zarar Hesaplama Dönemi ?,ComboBox,Normal&Deger_Artisli,,,,,,,,,TANCA
+Demirbas,Muhasebelestir,Hayir,Her amortisman ayrılma işleminden sonra otomatik muhasebeştirilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Demirbas,MuhLocKont,Evet,Demirbaş kartlarının muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Demirbas,SurekliAmortAyir,Evet,Sürekli olarak Amortisman Ayrılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AddOpField,,Fatura ekranında görmek istediğiniz ilave stok alanı,Edit,,txt,,,,,,,,TANCA
+FatFis,AddOpFieldC,,Fatura ekranında görmek istediğiniz ilave stok alanının tanımı,Edit,,txt,,,,,,,,TANCA
+FatFis,AddOpFieldS,,Fatura ekranında görmek istediğiniz ilave stok alanının özel 1 durumu,Edit,,txt,,,,,,,,TANCA
+FatFis,AddOpFieldS1,,Fatura ekranında görmek istediğiniz ilave stok alanının özel 2 durumu,Edit,,txt,,,,,,,,TANCA
+FatFis,AddOpFieldS2,,Fatura ekranında görmek istediğiniz ilave stok alanının özel 3 durumu,Edit,,txt,,,,,,,,TANCA
+FatFis,AllLocation,Hayir,Fatura/İrsaliye ekranındaki fiş listesinde tüm lokasyonlardaki faturalar/irsaliyeler görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AutoBelLoc,Evet,İrsaliye ve fatura numarası artımı lokasyon bazında olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AutoFatNo,Evet,Fatura numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AutoirsNo,Evet,İrsaliye numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AutoSevket,Hayir,"Dahili irsaliyelerin kaydetme işleminde ""Sevket"" işlemi otomatik çalışsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AutoSipSevk,Hayir,"Dahili irsaliyelerin kaydetme işleminde ""Siparişe Döndür"" işlemi otomatik çalışsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,AutoTip,SonNo,İrsaliye ve fatura numarası arttırılırken hangi kayıt üzerinden işlem yapılsın?,ComboBox,EnBuyukNo&SonNo,,,,,,,,,TANCA
+FatFis,BABSKonsinye,Evet,BA/BS formlarına konsinye dahil olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BABSOzKod,Hayir,BABS için işlem özel kod kriteri sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BAClosedV,Hayir,Faturalarda borç alacak kapatma tuşu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BAClosedVAS,Hayir,Faturalarda kaydetme işleminden sonra borç alacak kapatma ekranı otomatik çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BCNewSatir,Hayir,Fişte okutulan her barkod yeni satıra yazılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BCSetLot,Hayir,Fişin içinde okutulan barkod lot no ya yazılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BDSYazdir,Hayir,Yazdırma şekli ve Dizayn seçiminde bir daha sorma seçeneği cari bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BirimManChg,Hayir,Stok birimi elle yazılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BirimManChgCont,Hayir,Yazılan stok birimi tanımlı stok birimlerinde yoksa kaydetmeye izin vermesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,btCopyVi,Evet,"Fatura ve irsaliyede ""Kopyala"" tuşu görünsün mü?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,btSevketVi,Hayir,"Dahili irsaliyede ""Sevket"" tuşu görünsün mü?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,btSipSevkVi,Hayir,"Dahili irsaliyede ""Siparişe Döndür"" tuşu görünsün mü?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,BuyDiscountPass,,Alış Faturasında iskonto kullanımı için şifreniz?,Edit,,txt,,,,,,,*,TANCA
+FatFis,CAcKurAbort,Hayir,Stok kuru carinin aktif kurundan farklıysa kaydetmeye izin vermesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CAcKurChgFiyat,Hayir,Stok fiyatı carinin aktif kuruna göre düzenlensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CAcKurUyar,Hayir,Stok kuru carinin aktif kurundan farklıysa kaydederken uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CariBakvisible,Hayir,Fatura ekranlarında Cari bakiye seçeneği saklansın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CashSales_to_Cashbox,Evet,Peşin satış fatura işlemlerinde fatutar tutarı kasaya otomatikmen yansısın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,ChangeStateEInvoicePass,0105,Gönderilmiş E-Fatura/E-Arşiv durumu değiştirmek için gerekli şifre?,Edit,,txt,,,,,,,*,TANCA
+FatFis,CKreCheck,Hayir,Satış faturalarında cari kredi aşımında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CKreChecki,Hayir,Satış irsaliyelerinde cari kredi aşımında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CopyCari,,Fatura ve İrsaliye Kopyalama işlemi için sabit cari kodu,Edit,,txt,,,,,,,,TANCA
+FatFis,CopyCount,Hayir,Birden fazla kopyalanmaya çalışılan fatura ve irsaliyeler için uyarı verilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,CopyLoc,Hayir,Fatura ve İrsaliye Kopyalamada lokasyon bilgisi ana kaydın cari lokasyon bağlantısı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DahIrsIptBtnVsbl,Hayir,"Dahili irsaliye kontrol ekranında ""Seçilenleri İptal Olarak İşaretle"" butonu görünsün mü ?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DahIrsSevkFiyat,AgortId,Dahili irsaliyelerde Sevket butonu ile fiyat güncellemesi nasıl olsun?,ComboBox,Yok&Agort&AgortId&Sgort&SgortId&BasitOrt,,,,,,,,,TANCA
+FatFis,DahiliUyariOzKod,,Dahili İrsaliye Kontrol ekranında kullanılacak Özel Kod ,Edit,,txt,,,,,,,,TANCA
+FatFis,DahLokCar,Lokasyon,Dahili irsaliyelerde lokasyon listesinde hangileri gelsin?,ComboBox,Cari&Lokasyon&CariveLokasyon,,,,,,,,,TANCA
+FatFis,DahOrtFiy,FiyOp,Dahili ve konsinye irsaliyelerde fiyat hesaplaması nasıl olsun?,ComboBox,FiyOp&AgOrt,,,,,,,,,TANCA
+FatFis,DahOrtFiyAllLoc,AktifLokasyon,Dahili ve konsinye irsaliyelerde fiyat hesaplamasında lokasyon seçimi ?,ComboBox,AktifLokasyon&TümLokasyonlar,,,,,,,,,TANCA
+FatFis,DahReSevk,Hayir,Sevkedilmiş bir dahili irsaliye tekrar sevk edilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DahSalSipClose,Evet,Dahili irsaliye kontrol ekranında kabul edilen  irsaliye ye  bağlı sipariş kapatılsın mı? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DahSameCari,Evet,Dahili irsaliyelerde karşı lokasyon seçiminde bulunulan lokasyon seçilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DahSisTip,ikinciSistem,Dahili uyarı sisteminin çalışma şekli hangisi olsun?,ComboBox,BirinciSistem&ikinciSistem,,,,,,,,,TANCA
+FatFis,DetailCloseLotLoc,,Detaylı Giriş ekranı na sadece lot mevcut kontrolü  geçerli lokasyonlar,Edit,,txt,,,,,,,,TANCA
+FatFis,DetailCloseLotQuaCnt,Hayir,Detaylı Giriş ekranı na sadece lot mevcudu olan satırlar gelsin.(Cari nin tüm siparişleri(SN),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DetailCloseSpeKod,Hayir,Detaylı Giriş ekranı sipariş Özel Kodlar görünsün mü?(Cari nin tüm siparişleri) ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DetayliGirisDekont,Hayir,Detaylı Giriş üzerinden kapatılan termin tarihi geçmiş siparişler için borç dekontu oluşsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DetEntrySipExtra,Evet,Detaylı giriş ile yapılan sipariş kapamalı işlemlerde sipariş fazlasına izin verilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,DetGirSevkBel,Hayir,Fatura ve irsaliyedeki detaylı giriş ekranında sevkiyatın belge numarası gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EABasTar,01/01/2016,E-Arşiv faturaları için başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,,,TANCA
+FatFis,EANote,</cbc:Note><cbc:Note>,E-Arşiv faturaları için not alanı,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_AutoTaslak,Evet,Fatura kaydedildiğinde otomatik E-Fatura taslağı oluşsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EF_BAYIN,,E-Faturalarda cari için kullanılacak BAYINO formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_BII,,E-Faturalarda stok için yazılacak BuyersItemIdentification formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_CariUyari,Hayir,Fatura veya İrsaliye ekranında Cari E-Fatura mükellefi ise uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EF_CSGO,Hayir,"Carinin Stok Gönderim Şekli, faturanın alternatif kod grubuna göre otomatik seçilsin mi?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EF_Entegrator,FIT,Hangi özel entegratör ile anlaşmalısınız?,ComboBox,Yok&Veriban&Türkkep&DigitalPlanet&FIT&Nes&Park&EDM,,,,,,,,,TANCA
+FatFis,EF_EntTip,Özel Entegratör,E-Fatura Entegrasyonunda hangi yöntemi kullanıyorsunuz?,ComboBox,GIB Portal&Özel Entegratör,,,,,,,,,TANCA
+FatFis,EF_FaturaNoClear,Hayir,E-Fatura carilerinde Fatura Numarası temizlensin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EF_FirmaKod,,Özel entegratörünüze ait firma kodunuz,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_HIZN,,E-Faturalarda cari için kullanılacak HIZMETNO formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_MII,,E-Faturalarda stok için yazılacak ManufacturersItemIdentification formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_MUSN,,E-Faturalarda cari için kullanılacak MUSTERINO formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_MUSU,,E-Faturalarda cari için kullanılacak UNVAN formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_Onek,TMR,E-Fatura numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_Onekea,TEA,E-Arşiv numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_PassWord,i3N!bhMn,Özel entegratörünüze ait şifreniz,Edit,,txt,,,,,,,*,TANCA
+FatFis,EF_SII,,E-Faturalarda stok için yazılacak SellersItemIdentification formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_SKT,0,Gelen/Giden E-Faturaların XML verisinin sistemde tutulacağı azami gün sayısı,Edit,,num,,,,,,,,TANCA
+FatFis,EF_STanim2,Tanim  rtanim btanim,E-Faturalarda stok için yazılacak tanım formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EF_UBLVer,2.1,E-Fatura dokümanı UBL versiyonu?,ComboBox,2.0&2.1,,,,,,,,,TANCA
+FatFis,EF_UserName,FBTWyP0Z,Özel entegratörünüze ait kullanıcı adınız,Edit,,txt,,,,,,,,TANCA
+FatFis,EFAdrLokBaz,Evet,E-Fatura ve E-Arşiv faturalarında adres lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFAutoInDocument,Karsilastirma Tablosu,Otomatik E-Fatura alımında kulllanılacak sistem ?,ComboBox,Karsilastirma Tablosu,,,,,,,,,TANCA
+FatFis,EFCariAmountShow,Hayir,E-Fatura da notlar kısmında Cari Bakiye gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFDefaultDir,\\10.0.10.20\korguntest\KGExe\efatura\,E-Fatura lisans ve konfigürasyon dosyaları için dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFFaturaBankaBilgi,Hayir,Fatura içerisinde seçilen banka bilgileri e-fatura taslağında not kısmında görüntülensin  mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFGelenSKodOzKod,OzKod1,Gelen E-Fatura içeri alımlarında eşleştirilen stok/hizmet kodu hangi özel kod alanında tutulsun ?,ComboBox,OzKod1&OzKod2&OzKod3,,,,,,,,,TANCA
+FatFis,EFGelenXMLDir,D:\Korgun\efGelenXML\,Gelen E-Fatura son xml dosyaları için dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFGelenXMLZip,Hayir,Gelen E-Fatura taslakları zip dosyası şeklinde saklansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFGelProductCode,StokTanimParametre,Gelen e-fatura içeri alımında ürün kodunun alınacağı yer?,ComboBox,StokTanimParametre&SellersItemIdentification&BuyersItemIdentification,,,,,,,,,TANCA
+FatFis,EFHizmetFatOtherPay,,Gelen e-fatura içeri alımınnda ek ücret kalemler için hizmet kodu ne olsun? ,Edit,,txt,,,,,,,,TANCA
+FatFis,EFIADENOOzKod,OzKod9,IADE E-Fatura oluşturulurken iade sebebi fatura numarası bilgisi için kullanılacak özel kod:,Edit,,txt,,,,,,,,TANCA
+FatFis,EFIADETarOzKod,OzKod10,IADE E-Fatura oluşturulurken iade sebebi fatura tarihi bilgisi için kullanılacak özel kod:,Edit,,txt,,,,,,,,TANCA
+FatFis,EFIhracat_Onek,PEX,İhracat E-Fatura numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+FatFis,EFIhracatxsltea,\\10.0.10.20\korguntest\KGExe\efatura\general_ihracat.xslt,İhracat E-Fatura görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EFIhrTeslimYerOzKod,OzKod10,"İhracat e-fatura ""Teslim/Bedel Ödeme Yeri alanı hangi fatura özel kod alanından alınsın ?",ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10,,,,,,,,,TANCA
+FatFis,EFKatalogBaz,Hayir,E-Fatura parametreleri katalog bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFKoliTopVstoNote,Hayir,E-Fatura da Asorti toplamı not kısmında görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFMenseiOzKod,,İhracat/Mikro ihracat E-Fatura oluşturulurken Stok menşei bilgisi stok kartının hangi özel kod alanından alınsın ?,Edit,,txt,,,,,,,,TANCA
+FatFis,EFMicroIhracat_Onek,KMI,Mikro İhracat E-Fatura numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+FatFis,EFMicroIhracatxsltea,D:\Korgun\161001\efatura\generalea.xslt,Mikro İhracat E-Fatura görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EFNettenTasiyiciUnvan,,E-Arşiv faturalarda gönderiyi taşıyanın Adı Soyadı/Unvanı bilgisi,Edit,,txt,,,,,,,,TANCA
+FatFis,EFNettenTasiyiciVKN,,E-Arşiv faturalarda gönderiyi taşıyanın VKN/TCKN bilgisi,Edit,,txt,,,,,,,,TANCA
+FatFis,EFNettenWebAdres,http://www.,İnternetten yapılan satışların yapıldığı web adresi,Edit,,txt,,,,,,,,TANCA
+FatFis,EFNote,</cbc:Note><cbc:Note>,E-Faturalar için not alanı,Edit,,txt,,,,,,,,TANCA
+FatFis,EFOnay,Evet,E-Fatura onay sistemini kullanmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFPdfDownloadDir,D:\Korgun\EFGelenPdf\,Gelen E-Fatura pdf dosyalarının indireleceği dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFPdfFileNameOp,ETTN,Gönderilen e-fatura indirilen pdf dosyaları için dosya adı ne olsun ?,ComboBox,ETTN&FaturaNo,,,,,,,,,TANCA
+FatFis,EFPdfSaveDir,D:\Korgun\EFPdfSaveDir\,Kaydedilen E-Fatura/E-İrsaliye pdf dosyalarının indireleceği dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFPdfUpDownloadDir,\\10.0.10.20\korguntest\KGExe\efatura\EFGidenPdf\,Gönderilen E-Fatura pdf dosyalarının indireleceği dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFRowNote,OzKod1,E-Fatura/E-İrsaliye için satır not alanı,Edit,,txt,,,,,,,,TANCA
+FatFis,EFSevkAdres,Hayir,E-Fatura da gösterilecek sevkiyat adresi ,ComboBox,Hayir&Adres1&Adres2,,,,,,,,,TANCA
+FatFis,EFSipNoOzKod ,,E-Fatura oluşturulurken Sipariş numarası bilgisi faturanın hangi özel kod alanından alınsın ?,ComboBox,,txt,,,,,,,,TANCA
+FatFis,EFSipTarOzKod ,,E-Fatura oluşturulurken Sipariş Tarihi bilgisi faturanın hangi özel kod alanından alınsın ?,ComboBox,,txt,,,,,,,,TANCA
+FatFis,EFSonid,1,E-Fatura Son Numara,Edit,,txt,,,,,,,,TANCA
+FatFis,EFStateVisibleFTList,Hayir,Fatura ekranında eski fatura çağırma listesinde e-fatura durumu görüntülensin mi? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFTaslakDir,\\10.0.10.20\korguntest\KGExe\efatura\taslak\,E-Fatura taslakları için dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFTaslakGidenDeny,Uyar,Gönderilmiş e-fatura/e-arşiv/e-irsaliye taslaklarında değişiklik yapıldığında sistem davranışı ne olsun?,ComboBox,Uyar&Engelle,,,,,,,,,TANCA
+FatFis,EFTaxFreexsltea,\\10.0.10.20\korguntest\KGExe\efatura\general_taxfree.xslt,Yolcu Beraber E-Fatura görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EFtempDir,\\10.0.10.20\korguntest\KGExe\efatura\temp,E-Fatura için geçici dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFXMLDir,\\10.0.10.20\efatura\efXML,E-Fatura son xml dosyaları için dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EFXMLZip,Evet,Gönderilen E-Fatura taslakları zip dosyası şeklinde saklansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EFxslt,\\10.0.10.20\korguntest\KGExe\efatura\general.xslt,E-Fatura görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EFxsltea,\\10.0.10.20\korguntest\KGExe\efatura\generalea.xslt,E-Arşiv görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EFxsltea_Net,\\10.0.10.20\korguntest\KGExe\efatura\generalea.xslt,E-Arşiv netten satış görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EFYB_Onekea,KYA,Yolcu Beraber E-Fatura numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+FatFis,EFYerelBelgeNo,Evet,E-Faturalar da Yerel BelgeNo alanı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EI_Entegrator,Yok,E-İrsaliye için hangi özel entegratör ile anlaşmalısınız? (E-İrsaliye için ayrı bir entegratör ile anlaşmalı iseniz),ComboBox,Yok&Veriban&Türkkep&DigitalPlanet&FIT&Nes&Park&EDM,,,,,,,,,TANCA
+FatFis,EI_FirmaKod,,E-irsaliye için Özel entegratörünüze ait firma kodunuz (E-İrsaliye için ayrı bir entegratör ile anlaşmalı iseniz),Edit,,txt,,,,,,,,TANCA
+FatFis,EI_PassWord,,E-irsaliye için Özel entegratörünüze ait şifreniz (E-İrsaliye için ayrı bir entegratör ile anlaşmalı iseniz),Edit,,txt,,,,,,,*,TANCA
+FatFis,EI_STanim ,Tanim  rtanim bedenicimik,E-Irsaliyelerde stok için yazılacak tanım formatı?,Edit,,txt,,,,,,,,TANCA
+FatFis,EI_UserName,,E-irsaliye için Özel entegratörünüze ait kullanıcı adınız (E-İrsaliye için ayrı bir entegratör ile anlaşmalı iseniz),Edit,,txt,,,,,,,,TANCA
+FatFis,EIAnserSystem,KarsilastirmaTablosu,E-İrsaliye Yanıt oluşturmada kullanılacak sistem,ComboBox,KarsilastirmaTablosu&AlternatifKod&AlternatifBarkod,,,,,,,,,TANCA
+FatFis,EIGelenYanitDir,D:\Korgun\191001\EIGelenYanitPdf\,Gelen E-İrsaliye Yanıt pdf dosyalarının indireleceği dizin,Edit,,txt,,,,,,,,TANCA
+FatFis,EIrs_AnswerXSLT,\\10.0.10.20\korguntest\KGExe\efatura\irsaliyeyaniti.xslt,E-irsaliye gelen yanıt görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,EIRS_Dahili,Evet,Dahili irsaliyeler e-irsaliye kapsamına alınsın mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EIRS_Onek,KIR,E-irsaliye numaraları için 3 harfli ön ek : ,Edit,,txt,,,,,,,,TANCA
+FatFis,EIRS_Price,Hayir,E-irsaliye taslağında fiyat çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,EIRSBasTar,01/07/2020,E-İrsaliye için başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,,,TANCA
+FatFis,EIRSSevkAdres,Adres1,E-irsaliye de gösterilecek sevkiyat adresi ,ComboBox,Adres1&Adres2,,,,,,,,,TANCA
+FatFis,EIrsXSLT,\\10.0.10.20\korguntest\KGExe\efatura\irsaliye.xslt,E-irsaliye görüntülemek için .xslt dosyası,Edit,,txt,,,,,,,,TANCA
+FatFis,eksistock,Evet,Eksi(-) ye düşen ürünü satarken uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,eksistock2,Evet,Eksi(-) ye düşen ürünün satışına izin versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FaKurCheckit,Hayir,Fatura irsaliye işlemlerinde girilen kurları göster ve onaylat,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FastFisList,Hayir,Eski fiş listesi boş açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FastStokList,Hayir,Stok listesi boş açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FatCariChg,Evet,Kaydedilmiş irsaliye ve faturalarda cari değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FatCariKasaAck,Not,Fatura için cari ve kasa defterindeki açıklamaya ne yansısın?,ComboBox,SabitYazKisa&SabitYazUzun&FaturaNo&BelgeNo&OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&Not,,,,,,,,,TANCA
+FatFis,FatNoCheck,Evet,Fatura numarası kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FatNoCTip,Evet,Fatura numarası kontrolünde fiş tipi dikkate alınsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FatNoVisinirs,Hayir,İrsaliyenin içinde fatura numarası ve tarihi gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FatSilPsw,2023,Fatura ve irsaliye silinebilmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+FatFis,FFEkleSir,Stok,Fiyat farkı faturasına ekleme yaparken önce ne sorsun?,ComboBox,Stok&Fatura,,,,,,,,,TANCA
+FatFis,FiiliSevkirsTar,Evet,"Satış İrsaliyelerde ""Fiili Sevk Tarihi"" irsaliye tarihinden alınsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FiiliSevkirsTarF,Hayir,"Satış Faturalarda ""Fiili Sevk Tarihi"" irsaliye tarihinden alınsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FiyReadOnly,Evet,Fiyatlara elle müdahale edilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FiyTipSatir,Hayir,Fatura ve irsaliyede opsiyonlarda ki fiyat tipi satıra atansın mı?,ComboBox,Hayir&Kodu&Tanimi,,,,,,,,,TANCA
+FatFis,FRapFFormat,"#,##0.##",Faturada sayısal alanların formatı,Edit,,txt,,,,,,,,TANCA
+FatFis,FRapTFormat,"#,##0.##",Faturada toplam alanların formatı,Edit,,txt,,,,,,,,TANCA
+FatFis,FRapYSor,Hayir,Faturada yuvarlama yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,FRapYuv,"0,00",Faturada yuvarlama katsayısı,Edit,,num,,,,,,,,TANCA
+FatFis,FRapYuvYon,Evet,Faturada yuvarlama yönü,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,GenTopEs,AraToplam,"Fatura içerisindeki genel toplam eşitle,genel toplam üzerinden mi olsun ara toplam üzerinden mi?",ComboBox,AraToplam&GenelToplam,,,,,,,,,TANCA
+FatFis,GetProductCart,Ekstre,"Fatura-İrsaliye ekranlarında sağ tuş ""stok kartına git"" seçeneğinde hangisi ile açılsın ?",ComboBox,Ekstre&Genel Tanımlar,,,,,,,,,TANCA
+FatFis,GrpBarCode,Sorsun,Barkod hazırlama şekli nasıl gerçekleştirilsin?,ComboBox,Sorsun&Detay&Gruplu,,,,,,,,,TANCA
+FatFis,HariskChar,   ,Fatura yazdırda hareket iskontolarının arasına koyulacak karakter,Edit,,txt,,,,,,,,TANCA
+FatFis,HizDetIslem ,Hayir,Hizmet Faturalarında Hizmet siparişine bağlı Detaylı Giriş butonu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,HizSatOrt,Hayir,Satış ve Hizmet fatura numaraları aynı seriden arttırılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IadeCariOdemeBilgi,Hayir,Carinin ödeme vadesi veya şekli iade fatura/irsaliyelerinde gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,InvoiceUseSalePass,,Fatura ve irsaliye ekranlarında iskonto kullanımı için  gerekli şifreniz?,Edit,,txt,,,,,,,*,TANCA
+FatFis,IrsDateOtoUpdate,Hayir,Satış Fatura da İrsaliyeden Al ile oluşturulan faturaların Fatura Tarihi otomatik güncellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IrsNoOzKod1,Hayir,İrsaliyelerde Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IrsNoOzKod2,Hayir,İrsaliyelerde Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IrsNoOzKod3,Hayir,İrsaliyelerde Özel Kod 3 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IrsNoOzKod4,Hayir,İrsaliyelerde Özel Kod 4 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IrsNoOzKod5,Hayir,İrsaliyelerde Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,IskLimit,Hayir,İskontolar kısmında iskonto tiplerine göre sınırlama  uygulansın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,iptalirsekle,Hayir,İptal edilmiş irsaliyeler faturaya eklenebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,irs2Fat,Evet,İrsaliye basılmadan faturalaştırılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,irsaliyeinfatura,Hayir,İrsaliye fatura dahilinde mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,irsEkleTip,Hayir,Faturanın içinde irsaliye eklerken farklı lokasyondaki irsaliyelerde gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,irsMuhGoster,Hayir,İrsaliyelerde muhasebe kodları gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,irsNoCheck,Evet,İrsaliye numarası kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,Kalemisk,Hayir,Kalem iskonto görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,Kalemkdv,Hayir,Kalem KDV görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KapaliFat,Hayir,Kapalı fatura,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KdvChangeOzKod,,Fatura/İrsaliye ekranlarında KDV müdahale kontrolü için kullanılacak Özel Kod,Edit,,txt,,,,,,,,TANCA
+FatFis,KdvChgOzKodValue,,Fatura/İrsaliye ekranlarında KDV müdahale kontrolü için Özel koda ait değer ,Edit,,txt,,,,,,,,TANCA
+FatFis,KdvDahil,Hayir,Kdv dahil mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KdvRaporWarning,Hayir,Fatura KDV Raporu formatlı excel gönderim işleminde vergi numarası kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KDVTutVis,Hayir,Fatura/İrsliye Satırında KDV Tutarı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KFAlacakHKod,,Alacak Kur Farkı Faturasında kullanılacak alınan hizmet kodu,Edit,,txt,,,,,,,,TANCA
+FatFis,KFBorcHKod,,Borç Kur Farkı Faturasında kullanılacak verilen hizmet kodu,Edit,,txt,,,,,,,,TANCA
+FatFis,KFFKdvOran,18,Kur Farkı Faturasında kullanılacak kdv oranı ne olsun?,Edit,,txt,,,,,,,,TANCA
+FatFis,KFFKur,,Kur Farkı Faturasında kullanılacak para cinsi ne olsun?,Edit,,txt,,,,,,,,TANCA
+FatFis,KonsIrsBag,Hayir,Konsinye irsaliyeler arası irsaliye kopyalama işlemlerinde irsaliyeler arası bağlantı tutulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KrediEngel,Hayir,Kredisi aşan Cariye ait Fatura/İrsaliye kaydedilmesin?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KurManChg,Hayir,Para cinsi elle yazılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,KurManChgCont,Evet,Yazılan para cinsi tanımlı para cinslerinde yoksa kaydetmeye izin vermesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,LstStkMev,Hayir,Fatura/İrsaliye  Stok listesinde Mevcut görünsün mü ?(Sadece Alt+F6),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,MaksFisTutar,1,Fiş kesilebilecek maksimum tutar?,Edit,,txt,,,,,,,,TANCA
+FatFis,MasBagOzKod,Hayir,Fatura ekranında Masraf Bağlama da  listenen hizmet faturalarına ait özel kodlar görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,MaxHarDetNo,0,1 işlem fişi içindeki maksimum detay hareket sayısı,Edit,,num,,,,,,,,TANCA
+FatFis,MaxHarNo,0,1 işlem fişi içindeki maksimum satır sayısı,Edit,,num,,,,,,,,TANCA
+FatFis,MuhurPin,321321,E-Mühür Pin Kodu,Edit,,txt,,,,,,,,TANCA
+FatFis,NoFatNo,Hayir,Fatura numarası boş kayıt yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoFiyAlert,Evet,Fiyatsız fatura satırları için kaydetme esnasında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoFiyIrsNo,Hayir,Fiyatsız irsaliye kaydedilmesi engellensin mi ?,ComboBox,Tümü&Dahili&Hayir,,,,,,,,,TANCA
+FatFis,NoirsNo,Evet,İrsaliye numarası boş kayıt yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoKDVAlert,Hayir,KDV siz fatura satırları için kaydetme esnasında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoMuhKodAlert,Hayir,Fatura içerisinde Cari ve  satır muhasebe kodu boş ise kaydetme esnasında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoOzKod1,Hayir,Faturalarda Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoOzKod2,Hayir,Faturalarda Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoOzKod3,Hayir,Faturalarda Özel Kod 3 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoOzKod4,Hayir,Faturalarda Özel Kod 4 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoOzKod5,Hayir,Faturalarda Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoSameFatNo,Evet,Aynı Fatura numarasının tekrar kullanımı engellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoSameSeriNo,Hayir,Seri farklı olsa bile aynı fatura numarasının kullanımı engellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,NoSatici,Hayir,"Satış irsaliye ve faturalarında ""Satıcı"" alanı zorunlu olsun mu ?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,OdemeProgramiWr,Hayir,Fatura kaydı esnasında ödeme programı tutarı ile fatura tutarı farklı ise sistem uyarı versin mi?,ComboBox,Hayir&Uyarsın&Engellesin,,,,,,,,,TANCA
+FatFis,OdemetarihiAlert,Hayir,Satış ve Satış Hizmet Faturalarında Ödeme tarihi girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,OdemetarihiAlertAlis,Hayir,Alış ve Alış Hizmet Faturalarında Ödeme tarihi girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,OnlyDahirs,Evet,Mağaza ve bayiler birbirine dahili irsaliye gönderebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,OtomKapaliKasa,Hayir,Kapalı fatura seçildiğinde otomatik olarak kasa seçilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,OzKod1,Özel Kod 1,Fatura/İrsaliye Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod10,Özel Kod 10,Fatura/İrsaliye Özel Kod 10 un adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod2,Özel Kod 2,Fatura/İrsaliye Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod3,Özel Kod 3,Fatura/İrsaliye Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod4,Özel Kod 4,Fatura/İrsaliye Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod5,Özel Kod 5,Fatura/İrsaliye Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod6,Özel Kod 6,Fatura/İrsaliye Özel Kod 6 nın adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod7,Özel Kod 7,Fatura/İrsaliye Özel Kod 7 nin adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod8,Özel Kod 8,Fatura/İrsaliye Özel Kod 8 in adı,Edit,,txt,,,,,,,,TANCA
+FatFis,OzKod9,Özel Kod 9,Fatura/İrsaliye Özel Kod 9 un adı,Edit,,txt,,,,,,,,TANCA
+FatFis,Par_FatCekiPdfLoc,,Fatura Çeki Listesi Pdf dosyalarının kaydedileceği dizin...,Edit,,txt,,,,,,,,TANCA
+FatFis,Par_FatPdfLoc,,Fatura Pdf dosyalarının kaydedileceği dizin...,Edit,,txt,,,,,,,,TANCA
+FatFis,PrivateCodeEnabled,Evet,Fatura-İrsaliye ekranlarında Özel Kod alanlarına elle müdahale edilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,PrivateStkCodeEnabled,Evet,Stok Fişi ekranında Özel Kod alanlarına elle müdahale edilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,QrKurType,Kur,Fatura ve irsaliye çıktısındaki diğer kur alanlarının içeriği ne olsun?,ComboBox,Kur&Tutar&KurTutar,,,,,,,,,TANCA
+FatFis,RapiskinKdv,Evet,Raporda çıkan iskonto KDV dahil iskonto olsun mu?(Fatura reel iskonto),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,RBFrkFiy,Evet,Barkodla okunan ürünlerin fiyatı farklı olanlar ayrılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SaleDiscountPass,,Satış Faturasında iskonto kullanımı için şifreniz?,Edit,,txt,,,,,,,*,TANCA
+FatFis,SatirOzelPcKaydet,Hayir,Fiş içerisinde genel paracinsinden farklı bir paracinsi varsa özel kur olarak kaydedilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SatOzKod1T,Özel Kod 1,Fatura/İrsaliye Satır Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+FatFis,SatOzKod2T,,Fatura/İrsaliye Satır Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+FatFis,SatOzKod3T,,Fatura/İrsaliye Satır Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+FatFis,SaveCopy,Hayir,Fatura ve irsaliyelerde kaydetme işleminden sonra otomatik olarak kopyalama işlemi başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SaveMuh,Hayir,Faturalarda kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SevkKilitle,Hayir,Sevk edilen dahili irsaliyeler otomatik kilitlensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,ShowDontFat,Hayir,İrsaliye ekranında faturalaştırma seçeneğini göster?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SipFatCari,Evet,Siparişten oluşturulmuş irsaliye ve faturalarda cari değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SipKapaDonemBas,Evet,Sipariş kapamalı işlemlerde mevcut kontrolünde dönem başı/bitişi dikkate alınsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SonFiyDHIslem,Hayir,Dahili İrsaliye ekranlarında F10 ile gelen listede Stok işlemlerine ait fiyatlar listelensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SonFiyPerakende,Hayir,Fatura-İrsaliye ekranlarında F10 tuşu ile gelen listede Perakende satışlarda hesaba katılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SonFiyStkIslem,Hayir,Fatura-İrsaliye ekranlarında F10 ile gelen listede Stok işlemlerine ait fiyatlar listelensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SortFisAc,BelgeNo,Fatura/İrsaliye listesi hangi kolona göre sıralansın?,ComboBox,BelgeNo&FaturaNo/irsaliyeNo,,,,,,,,,TANCA
+FatFis,SortKod,Tanim,Stok listesi Hangi Kolona göre sıralansın?,ComboBox,SKod&Tanim&OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10,,,,,,,,,TANCA
+FatFis,SSOdeProgram,Hayir,Satış ve Satış Hizmet Faturalarında Ödeme Programı girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,SSOdeProgramAlis,Hayir,Alış ve Alış Hizmet Faturalarında Ödeme Programı girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StAddAlterCd,Hayir,Alt barda stoğun alternatif kod tanımı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StAddBedGrp,Hayir,Alt barda stoğun beden grubunun tanımı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StAddStkGrp,Hayir,Alt barda stoğun stok grubunun tanımı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StAddStkTnm,Hayir,Alt barda stoğun stok Tanımı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StkListUrt,Hayir,Stok Listesi açılırken sadece fatura (varsa) carisinin üreticisine ait stoklar gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StkTipView,Hayir,Fatura-İrsaliye ekranlarında Stok Tip Tanım alanı görünsün mü? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StokMevcudu,Evet,Aktif satırdaki ürünün stok mevcudu gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,StokReadonly,Evet,Stok satırlarında stok kodu elle yazılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,UEmirSatAck,SiparisAciklamasi,Üretim bağlantılı fişlerde satır açıklamasına ne yazılsın?,ComboBox,SiparisAciklamasi&EmirNo&SiparisAciklamasi+EmirNo&SiparisBelgeNo+EmirNo&Yok,,,,,,,,,TANCA
+FatFis,YazSortYaz,Hayir,Fatura veya irsaliye yazdırılırken sıralama ekranını çıkarsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+FatFis,YuviskTersBas,Hayir,Fatura ve irsaliye çıktısına yuvarlama iskontosunun sayısal değeri -1 ile çarpılıp mı yazılsın?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,AsGosTip,1,Asorti listelerinde detay nasıl gösterilsin?,ComboBox,Gösterilmesin&1&2&3&4&5&6,,,,,,,,,TANCA
+GENEL,AsortiBCGen,8,Asorti barkodunda çıkacak bedenler arası genişlik,Edit,,num,,,,,,,,TANCA
+GENEL,AsortiSave,Evet,Asorti kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,BasTar,Hayir,Tarih kriterli alanlarada başlangıç tarihi senenin başı olsun?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,BCDefaultDeci,*,Gönderilen barkod dosyalarında çıkmasını istediğiniz desimal separator,Edit,,txt,,,,,,,,TANCA
+GENEL,BCDetailSend,Hayir,Barkod gönderiminde detay ekranı açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,BcinUseMikLn,5,Fişten hazırlanan barkod içindeki miktar sondan kaç karakterde?,Edit,,num,,,,,,,,TANCA
+GENEL,BcinUseMikLnD,3,Fişten hazırlanan barkod içindeki miktar ın Decimal basamak sayısı,Edit,,num,,,,,,,,TANCA
+GENEL,BcinUseMikLotLn,1,Fişten hazırlanan barkod içindeki Lot sondan kaç karakterde?,Edit,,num,,,,,,,,TANCA
+GENEL,BcMikEkran,Hayir,Fişten barkod hazırlanırken miktar bölme ekranı çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,BCSpecProcId,8,Ürünler için belirlenecek özel takip numarasinin barkoda yansıyacak uzunluğu,Edit,,num,,,,,,,,TANCA
+GENEL,BedenOzKod1T,Özel Kod 1,Beden Özel Kod 1 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,BedenOzKod2T,Özel Kod 2,Beden Özel Kod 2 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,BedenOzKod3T,Özel Kod 3,Beden Özel Kod 3 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,BiDahaCatalog,Hayir,Bir daha sorma seçeneği katalog bazında çalışsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,CAListSort,CariKod,Cari listesi hangi alana göre sıralı gelsin?,ComboBox,CariKod&CariTanim,,,,,,,,,TANCA
+GENEL,CariKaraListe,Uyar,Kara listede olan bir cari seçildiğinde ne olsun?,ComboBox,İzin ver&İzin verme&Uyar,,,,,,,,,TANCA
+GENEL,ColorOzKodCnt,Hayir,Renk Tanımlarında mükerrer Özel Kod kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,CSListColMUH,Evet,Çek/Senet listelerinde muhasebele işareti gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,DahsipOnay,Hayir,Dahili siparişlerde siapriş onay sistemine izin verilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,DefaultFFormat,"#,###.####",Sayısal alanların formatı,Edit,,txt,,,,,,,,TANCA
+GENEL,DefaultPC,TL,Sabit Para Cinsi,Edit,,txt,,,,,,,,TANCA
+GENEL,DefaultYuvarla,"0,00",Yuvarlama katsayısı,Edit,,num,,,,,,,,TANCA
+GENEL,DefLangId,Otomatik,Programın varsayılan dili ne olsun?,ComboBox,Otomatik&Turkish&English&Russian&Arabic&Persian,,,,,,,,,TANCA
+GENEL,DefYuvYon,Hayir,Yuvarlama yönü,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,DovizUyar,Hayir,Program girişinde günlük döviz girişi yapılmadıysa uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,DPAlphaNumeric,,Dataport hesabı Alfanumeriğiniz?,Edit,,txt,,,,,,,,TANCA
+GENEL,DPCustomer,,Dataport hesabı müşteri numaranız?,Edit,,txt,,,,,,,,TANCA
+GENEL,DPPassword,,Dataport hesabı şifreniz?,Edit,,txt,,,,,,,*,TANCA
+GENEL,DPShortNumber,,Dataport hesabı kısa numaranız?,Edit,,txt,,,,,,,,TANCA
+GENEL,DPUsername,,Dataport hesabı kullanıcı adınız?,Edit,,txt,,,,,,,,TANCA
+GENEL,EArsiv,Evet,E-Arşiv kullanıyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,EFKatalogBaz,Hayir,E-Fatura parametreleri katalog bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,EFLinkModul,p,E-Fatura link gönderimi için hangi modül kullanılsın? (f / p / fp),Edit,,txt,,,,,,,,TANCA
+GENEL,ExeMustBuild,,Çalışabilecek tek exe nin versiyonu,Edit,,txt,,,,,,,,TANCA
+GENEL,FilterThreadCount,1,Yönetim ekranlarında sorgunun kullanacağı işlemci sayısı (Varsayılan=0),Edit,,num,,,,,,,,TANCA
+GENEL,FisiptalAuth,Hayir,Fiş silme yetkisi olmayanlar iptal işaretini kaldırabilsin mi? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,FiyHesDonemBasUse,Hayir,Fiyat hesaplama fonksıyonlarında dönem başlangıç tarıhı önemsensın mı? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,FormRBTekAsorti,Evet,Renk-Beden ekranında F8 işleminde tek asorti varsa asorti listesini getirme,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,GetAlterKodTip,Hayir,Alternatif kodu getirirken renk-beden için bulanamazsa renksiz-bedensiz olarakta bakılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,GuncelStokKontrolu,Hayir,Web Servis Kullanımında Tarihe Göre Mevcut Çekilebilsin Mi? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,HBFirmaKod,,Hepsiburada Firma Kodu,Edit,,txt,,,,,,,,TANCA
+GENEL,HBOzKod,OzKod1,Hepsiburada satışlarının işaretlendiği özel kod,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&OzKod11&OzKod12&OzKod13&OzKod14&OzKod15&OzKod16&OzKod17&OzKod18&OzKod19&OzKod20,,,,,,,,,TANCA
+GENEL,HBOzKodDeger,hepsiburada,Hepsiburada satışlarının özel koda yazılan değeri,Edit,,txt,,,,,,,,TANCA
+GENEL,HBPackageIdOzKod,OzKod4,Hepsiburada satışlarının paket numarasının okunacağı özel kod,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&OzKod11&OzKod12&OzKod13&OzKod14&OzKod15&OzKod16&OzKod17&OzKod18&OzKod19&OzKod20,,,,,,,,,TANCA
+GENEL,Hizmet_GelGid_Sor,Evet,Hizmet kartı ile Gelir-Gider kartı aynı kod lu tanımlanabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,KartLocate,Hayir,Kart ekranlarında sıralama yapılırken seçili olana odaklansın mı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,KasaFoyuPath,\\10.0.10.20\korguntest\KGExe\KasaFoyleri,Kasa Föylerinin Arşivleneceği Klasör Yolu,Edit,,txt,,,,,,,,TANCA
+GENEL,KasiyerAsk,Evet,Her seferinde kasiyer kodu ve şifre sorsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,KGMessengerCanClose,Evet,KGMessenger kapatılabilsin mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,KGMessengerip,10.0.0.33,KGMessenger Server Uygulamasının bulunduğu bilgisayarın ip adresi,Edit,,txt,,,,,,,,TANCA
+GENEL,KGMessengerPort,1001,KGMessenger için kullanılacak olan port,Edit,,txt,,,,,,,,TANCA
+GENEL,KulPuanServis,Hayir,"""Ortak Puan Servisi""ni kullanmak istiyor musunuz?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,ListFilter,Evet,Liste ekranı bulma özelliği filtreleme olarak çalışsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,ListRenkUse,Evet,Liste ekranlarında resim gösterme özelliği aktif olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,ListSave,Evet,Liste ekranlarındaki değişiklikler kaydedilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,LocalResimPath,,Uzak Bilgisayar Kullanımı İçin Değişecek Eski Resim Yolu,Edit,,txt,,,,,,,,TANCA
+GENEL,LocListSort,Tanim,Lokasyon listeleri hangi alana göre sıralansın?,ComboBox,Kod&Tanim,,,,,,,,,TANCA
+GENEL,LokOzKod10T,Trendyol Depo id,Lokasyon Özel Kod 10 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod1T,Koordinatör,Lokasyon Özel Kod 1 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod2T,Firma Tanımı,Lokasyon Özel Kod 2 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod3T,MağazaTipi,Lokasyon Özel Kod 3 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod4T,Consept,Lokasyon Özel Kod 4 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod5T,Personel Sayısı,Lokasyon Özel Kod 5 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod6T,Özel Kod 6,Lokasyon Özel Kod 6 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod7T,METREKARE,Lokasyon Özel Kod 7 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod8T,YATIRIMCI,Lokasyon Özel Kod 8 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,LokOzKod9T,KIRALAMA,Lokasyon Özel Kod 9 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,Mail_Silme,Hayir,Mail silindiğinde geri dönüşüm kutusuna taşınsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MailPass,,Mail Server SMTP şifreniz,Edit,,txt,,,,,,,*,TANCA
+GENEL,MailSMTP,,Mail Server SMTP adresiniz,Edit,,txt,,,,,,,,TANCA
+GENEL,MailSMTPPort,,Mail Server SMTP Port numaranız,Edit,,txt,,,,,,,,TANCA
+GENEL,MailUser,,Mail Server SMTP kullanıcı adınız,Edit,,txt,,,,,,,,TANCA
+GENEL,MasrafMerkeziGir,Hayir,Masraf dağıtım ekranına girsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MasrafOtoDagit,Hayir,Masraf dağıtımını otomatik yapsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MATanim,Cinsiyet,Cinsiyet tanımlaması,Edit,,txt,,,,,,,,TANCA
+GENEL,MatAsorBc,Hayir,Fişler de matrix ekrandan asorti girişi yapılırken eğer barkodu tanımlı değilse tanımlansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MatRapFontSize,8,Matrix Şeklinde rapor alınırken fontun büyüklüğü ne olsun?,Edit,,num,,,,,,,,TANCA
+GENEL,MatRapRGen,20,Matrix Şeklinde rapor alınırken beden alanlarının genişliği kaç pixel olsun?,Edit,,num,,,,,,,,TANCA
+GENEL,MatRapRYuk,0,Matrix Şeklinde rapor alınırken renk alanlarının yüksekliği kaç pixel olsun?,Edit,,num,,,,,,,,TANCA
+GENEL,MatRapSatTop,Evet,Matrix Şeklinde rapor alınırken satır toplamı yazılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MatrisCikFiyDegis,Hayir,Matrix ekran çıkışlarında satır fiyatı güncellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MatrixFFormat,"#,##0.##",Matrix Giriş Alanlarının Formatı,Edit,,txt,,,,,,,,TANCA
+GENEL,MaxAsorFrmt,,Otomatik Asorti Barkodu oluşturulurken dikkate alınacak barkod ön-eki,Edit,,txt,,,,,,,,TANCA
+GENEL,MaxRezervDay,10,Rezerv Fişlerine verilebilecek en fazla gün,Edit,,num,,,,,,,,TANCA
+GENEL,MBTanim,Reyon,Reyon tanımlaması,Edit,,txt,,,,,,,,TANCA
+GENEL,MtxBedOrd,Beden,Bedenlerin listelendiği ekranlarda ve matrix yazdırmalarda bedenlerin sıralaması ne olsun?,ComboBox,BedenKod&Beden&OzKod1&OzKod2&OzKod3,,,,,,,,,TANCA
+GENEL,MtxMevcutGoster,Hayir,Matrix ekranda mevcut gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MtxMevcutGosterFrm,Stok Mevcudu,Matrix ekranlarda stok mevcudu hesaplama formülü ne olsun ?,ComboBox,Stok Mevcudu&((Stok Mevcudu+SatınAlma Kalan)-(Pazarlama Sip Kalan)),,,,,,,,,TANCA
+GENEL,MtxRenk,Hayir,Matrix ekranda bulunulan satır renklendirilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,MUListSort,HesapKodu,Muhasebe hesap listesi hangi alana göre sıralı gelsin?,ComboBox,HesapKodu&HesapTanim,,,,,,,,,TANCA
+GENEL,MultiThreadCount,1,Çoklu işlemlerde işlemciye gönderilecek işlem sayısı (Varsayılan=0),Edit,,num,,,,,,,,TANCA
+GENEL,MXTanim,Beden,X ekseninin tanımlaması,Edit,,txt,,,,,,,,TANCA
+GENEL,MYTanim,Renk,Y ekseninin tanımlaması,Edit,,txt,,,,,,,,TANCA
+GENEL,MYTChtr,Renk,Y ekseninin karakteristik çalışma şekli,ComboBox,Renk&Tanim,,,,,,,,,TANCA
+GENEL,NewBedenCopyAll,Evet,Bu katalogda açılan bedenler tüm kataloglara kopyalansın mı?,ComboBox,Evet&Hayır,,,,,,,,,TANCA
+GENEL,NewRenkCopyAll,Evet,Bu katalogda açılan renkler tüm kataloglara kopyalansın mı?,ComboBox,Evet&Hayır,,,,,,,,,TANCA
+GENEL,NonResim,,Resimi olmayan stoklar için görüntülenecek resim dosyası,Edit,,txt,,,,,,,,TANCA
+GENEL,NoNullPrice,Hayir,Maliyet Fiyat hesaplamalarında Fiyatsız satırları dikkate alma.,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,OtomDovizCek,Evet,Program açılışında döviz kurları (eğer boş ise) TCMB'den alınsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,OtomLokasyon,Evet,Program açılışında lokasyon seçim listesi açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,OtoRezervDay,10,Rezerv Fişlerinin otomatik rezerv günü,Edit,,num,,,,,,,,TANCA
+GENEL,OtoWebBr,Hayir,Korgun bilgilendirme ekranı otomatik olarak açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,OTVKullan,Hayir,Fatura ve Siparişte ÖTV kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,OTVOran,"6,7",ÖTV Oranı,Edit,,txt,,,,,,,,TANCA
+GENEL,Par_CacheMostQry,Hayır,Sık sorgulanan tanımlar hafızada saklansın mı?,ComboBox,Evet&Hayır,,,,,,,,,TANCA
+GENEL,Par_FR_DirName,,Fast Report tasarımlarının kaydedileceği dizin...,Edit,,txt,,,,,,,,TANCA
+GENEL,Par_WindowsCanSleep,Evet,Uyku moduna geçme engellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,PencereLocate,Hayir,Pencere ekranı sıralanırken seçili olana odaklansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,PenColFit,Hayir,Pencere ekranı kolon genişlikleri otomatik düzenlensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,PerOTVKullan,Hayir,Perakende satışta ÖTV kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,PGPassword,123tamer,Posta Güvercini hesabı şifreniz?,Edit,,txt,,,,,,,*,TANCA
+GENEL,PGUsername,tamer123,Posta Güvercini hesabı kullanıcı Adınız?,Edit,,txt,,,,,,,,TANCA
+GENEL,Ping,Hayir,Bağlantı durumu sorgulansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,PosUI,Normal,Perakende satış ekran tipi?,ComboBox,Normal&Yeni,,,,,,,,,TANCA
+GENEL,ProjeKullan,Evet,Proje dağıtımı yapılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,PuanServisKull,,"""Ortak Puan Servisi"" firma id?",Edit,,txt,,,,,,,,TANCA
+GENEL,PuanServisSrIp,,"""Ortak Puan Servisi"" adresi?",Edit,,txt,,,,,,,,TANCA
+Genel,RafWorkType,Lokasyon,Raf Programı Çalışma Tipi,ComboBox,Tümü&Lokasyon&Cari&Müşteri,,,,,,,,,TANCA
+GENEL,RapKriVisi,Yazma,Yönetim raporu yazdırılırken yönetim kriterlerinin yazdırılacağı yer,ComboBox,Yazma&UstAck&AltAck&SinirlamaAck,,,,,,,,,TANCA
+GENEL,RBAsStokMvcd,Hayir,Renk-Beden ekranında asorti listesinde stok mevcudu gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,RBAsStokRzv,Hayir,Renk-Beden ekranında asorti listesinde Rezerv miktarı gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,RBTEKFYT,*,"Renk-Beden için tek fiyat kullanılsın (Evet için * koyunuz,Hayır için boş bırakınız)",,,txt,,,,,,,,TANCA
+GENEL,RenkOzKod1T,Özel Kod 1,Renk Özel Kod 1 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,RenkOzKod2T,Özel Kod 2,Renk Özel Kod 2 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,RenkOzKod3T,Mapping Rengi,Renk Özel Kod 3 Tanımı,Edit,,txt,,,,,,,,TANCA
+GENEL,ReportDate,Hayir,Raporda filtrede seçilen tarih aralığı bilgisi olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,RezervOnay,Hayir,Rezerv sisteminde onay özelliğini kullanmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,RezMtrxMev,Hayir,Matrix ekranda rezerv miktarı gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,ScreenOpenMultiple,Hayir,Fiş ekranları birden fazla açılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,ScrSvrint,00:00:00,Programın şifre sorması için geçmesi gereken süre (SA:DK:SN) :,Edit,,txt,,,,,,,,TANCA
+GENEL,SendExcel,Yeni,Yönetim Ekranlarındaki Excel e Gönderim Çalışma Şekli.,ComboBox,Yeni&Eski,,,,,,,,,TANCA
+GENEL,SipQueryOption,Magaza,PPR Sorgulama Lokasyon seçeneği ne olsun?,ComboBox,Magaza&Magaza Harici&Tümü,,,,,,,,,TANCA
+GENEL,SipQueryTime,5,PPR Sorgulaması kaç dakikada bir olsun?,Edit,,txt,,,,,,,,TANCA
+GENEL,SKLokBulYet,Evet,"Stok kartında ""Lokasyonda bulunma yetkisi"" özelliğini kullanmak istiyor musunuz?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,SKLokMikYet,Evet,"""Lokasyon bazlı miktar bulunma sınırı"" özelliğini kullanmak istiyor musunuz?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,StokUrYet,Hayir,Stok (Üretici) Yetkilendirmeleri aktif olsun mu? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,TCMBPC,TL,TCMB den kurlar hangi kur üzerinden alınsın,Edit,,txt,,,,,,,,TANCA
+GENEL,ToplamFFormat,"#,##0.##",Fiş Toplam Alanlarının Formatı,Edit,,txt,,,,,,,,TANCA
+GENEL,TopluMuhSilPsw,,Muhasebe fişlerinin toplu silinebilmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+GENEL,TTAlfaNume,KEMAL TANCA,Turatel alfanumeriğiniz?,Edit,,txt,,,,,,,,TANCA
+GENEL,TTChannelC,,Turatel kanal kodunuz?,Edit,,txt,,,,,,,,TANCA
+GENEL,TTPassword,,Turatel hesabı şifreniz?,Edit,,txt,,,,,,,*,TANCA
+GENEL,TTUsername,,Turatel hesabı kullanıcı Adınız?,Edit,,txt,,,,,,,,TANCA
+GENEL,TYApiKey,,Trendyol Api Key,Edit,,txt,,,,,,,,TANCA
+GENEL,TYApiSecret,,Trendyol Api Secret,Edit,,txt,,,,,,,,TANCA
+GENEL,TYFirmaKod,,Trendyol Firma Kodu,Edit,,txt,,,,,,,,TANCA
+GENEL,TYOzKod,OzKod1,Trendyol satışlarının işaretlendiği özel kod,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&OzKod11&OzKod12&OzKod13&OzKod14&OzKod15&OzKod16&OzKod17&OzKod18&OzKod19&OzKod20,,,,,,,,,TANCA
+GENEL,TYOzKodDeger,trendyol,Trendyol satışlarının özel koda yazılan değeri,Edit,,txt,,,,,,,,TANCA
+GENEL,TYPackageIdOzKod,OzKod4,Trendyol satışlarının paket numarasının okunacağı özel kod,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&OzKod11&OzKod12&OzKod13&OzKod14&OzKod15&OzKod16&OzKod17&OzKod18&OzKod19&OzKod20,,,,,,,,,TANCA
+GENEL,UseLang,Hayir,Çoklu dil desteğini kullanmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,UseRezerv,Hayir,Rezerv sistemini kullanmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,UzakResimPath,,Uzak Bilgisayar Kullanımı İçin Değişecek Yeni Resim Yolu,Edit,,txt,,,,,,,,TANCA
+GENEL,vCountPassword,,vCount Şifresi,Edit,,txt,,,,,,,,TANCA
+GENEL,vCountUsername,,vCount Kullanıcı adı,Edit,,txt,,,,,,,,TANCA
+GENEL,YonColFit,Hayir,Yönetim ekranları kolon genişlikleri otomatik düzenlensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,YonGrupsuzTop,Hayir,Yönetim ekranlarında grupsuz toplam önce gelsin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GENEL,YonSonKri,Evet,Yönetim ekranlarında son seçilen kriter kaydı gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Genel_Gizli,expclick,00:00:05,,Edit,,txt,,,,,,,,TANCA
+Genel_Gizli,expquery,00:01:00,,Edit,,txt,,,,,,,,TANCA
+GVirman,BorcAlacakKontrol,Evet,Genel Virman işleminde borç-alacak eşitlik kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+GVirman,MFisiptal,Hayir,Genel virman içinde iptal etme özelliği gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+HedCek,HCSKT,,Hediye çeki oluştururken kullanılacak son kullanma tarihi (Tarih (Ör:31/12/2014) veya gün sayısı),Edit,,txt,,,,,,,,TANCA
+HedCek,OdTip,HC,Hediye Çeki Ödeme Tip Kodu,Edit,,txt,,,,,,,,TANCA
+HedCek,PFSKT,365,Para fişi verilirken son kullanma tarihi kaç gün sonra olsun?,Edit,,txt,,,,,,,,TANCA
+HedCek,YazCountCont,Hayir,"Hediye Çeki yazdırılırken ""önceden yazdırılmış mı"" kontrolü uygulansın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Kasa,AutoTip,Dusebilir,Kasanın eksiye düşme durumu ne olsun ?,ComboBox,Dusebilir&Dusemez&DusmesiniSor,,,,,,,,,TANCA
+Kasa,EksiyeDussunMiSor,Hayir,Kasa eksiye düşme parametresi genel olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Kasa,KasAcKurSetif,Hayir,Kasa kartlarında aktif kur seçilmeye zorlansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Kasa,KasAcKurUse,Hayir,Kasa kartlarında aktif kur kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Kasa,KasaSisTip,BirinciSistem,Kasalar arası transfer sisteminin çalışma şekli hangisi olsun?,ComboBox,BirinciSistem&ikinciSistem,,,,,,,,,TANCA
+Kasa,KasaYonDEDahil,Evet,Kasa yönetimine döviz işlemleri dahil edilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,AutoBelLoc,Evet,Kasa fişlerinde belge numarası artımı lokasyon bazında olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,AutoFatNo,Evet,Kasa fişlerinde belge numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,AutoTip,EnBuyukNo,Kasa fişlerinde belge numarası arttırılırken hangi kayıt üzerinden işlem yapılsın?,ComboBox,EnBuyukNo&SonNo,,,,,,,,,TANCA
+KasaFis,BAClosedV,Hayir,Kasa işlemlerinde borç alacak kapatma tuşu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,BAClosedVAS,Hayir,Kasa işlemlerinde kaydetme işleminden sonra borç alacak kapatma ekranı otomatik çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,DetayKodCheck,Hayir,Kasa işlemlerinde detay kodu girme zorunluluğu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,DifLocAccess,Hayir,Kasa işlemlerini görmek için lokasyon yetkisi dikkate alınmasın?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,HarOzKod1,Özel Kod 1,Kasa Fişi Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+KasaFis,HarOzKod2,Özel Kod 2,Kasa Fişi Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+KasaFis,HarOzKod3,Özel Kod 3,Kasa Fişi Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+KasaFis,HarOzKod4,Özel Kod 4,Kasa Fişi Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+KasaFis,HarOzKod5,Özel Kod 5,Kasa Fişi Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+KasaFis,KaAcKuSetif,Hayir,Kasa işlemlerinde kasanin aktif kuru kontrol edilsin ve uyarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,KaAcKuSetifC,Hayir,Kasa işlemlerinde kasanin aktif kuru ile seçilen carilerin kuru kontrol edilsin ve uyarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,KaCariCheckit,Hayir,Kasa işlemlerinde cari girilme zorunluluğu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,KaKurCheckit,Hayir,Kasa işlemlerinde girilen kurlar gösterilip onaylatılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,KasaSilPsw,,Kasa fişinin silinmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+KasaFis,NoOzKod1,Hayir,Kasa fişinin Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,NoOzKod2,Hayir,Kasa fişinin Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,NoOzKod3,Hayir,Kasa fişinin Özel Kod 3 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,NoOzKod4,Hayir,Kasa fişinin Özel Kod 4 ün girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,NoOzKod5,Hayir,Kasa fişinin Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,SatirSatirSor,Hayir,Satır satır yazdırmak ister misiniz sorusu sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,SaveMuh,Hayir,Kasa işlemlerinde kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KasaFis,SMMKdv,,Serbest meslek makbuzu KDV oranı,Edit,,txt,,,,,,,,TANCA
+KasaFis,SMMSt,,Serbest meslek makbuzu stopaj oranı,Edit,,txt,,,,,,,,TANCA
+Kredi,OzKod1,Özel Kod 1,Kredi Özel Kod 1 in tanımı,Edit,,txt,,,,,,,,TANCA
+Kredi,OzKod2,Özel Kod 2,Kredi Özel Kod 2 nin tanımı,Edit,,txt,,,,,,,,TANCA
+Kredi,OzKod3,Özel Kod 3,Kredi Özel Kod 3 ün tanımı,Edit,,txt,,,,,,,,TANCA
+Kredi,OzKod4,Özel Kod 4,Kredi Özel Kod 4 ün tanımı,Edit,,txt,,,,,,,,TANCA
+Kredi,OzKod5,Özel Kod 5,Kredi Özel Kod 5 in tanımı,Edit,,txt,,,,,,,,TANCA
+KrediFis,AutoBelLoc,Evet,Kredi kartı işlemlerinde evrak numarası artımı lokasyon bazında olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,AutoFatNo,Evet,Kredi kartı işlemlerinde evrak numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,AutoTip,EnBuyukNo,Kredi kartı işlemlerinde evrak numarası arttırılırken hangi kayıt üzerinden işlem yapılsın?,ComboBox,EnBuyukNo&SonNo,,,,,,,,,TANCA
+KrediFis,BAClosedV,Hayir,Kredi Kartı işlemlerinde borç alacak kapatma tuşu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,BAClosedVAS,Hayir,Kaydetme işleminden sonra borç alacak kapatma ekranı otomatik çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,CariOzKodVisible,Hayir,Cari seçim listesinde özel kodlar görüntülensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,HarOzKod1,Özel Kod 1,Kredi Kartı Fişi Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+KrediFis,HarOzKod2,Özel Kod 2,Kredi Kartı Fişi Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+KrediFis,HarOzKod3,Özel Kod 3,Kredi Kartı Fişi Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+KrediFis,HarOzKod4,Özel Kod 4,Kredi Kartı Fişi Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+KrediFis,HarOzKod5,Özel Kod 5,Kredi Kartı Fişi Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+KrediFis,KrAcKuSetif,Hayir,Kredi kartı işlemlerinde hesap numarasının aktif kuru kontrol edilsin ve uyarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,KrKurAllow,Hayir,Kredi kartı işlemlerinde hesap numarasının aktif kurundan farklı kurda işlem yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,KrKurCheckit,Hayir,Kredi kartı işlemlerinde girilen kurlar gösterilsin ve onaylatılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+KrediFis,SaveMuh,Hayir,Kredi kartı işlemlerinde kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mail,EkKlasor,\\10.0.0.30\e\KORGUN\KG Exe\Gonderilenler,Maillere eklenen dosyaların serverda saklanacağı yer,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod1,Özel Kod 1,Masraf Özel Kod 1 in tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod10,Özel Kod 10,Masraf Özel Kod 10 un tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod2,Özel Kod 2,Masraf Özel Kod 2 nin tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod3,Özel Kod 3,Masraf Özel Kod 3 ün tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod4,Özel Kod 4,Masraf Özel Kod 4 ün tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod5,Özel Kod 5,Masraf Özel Kod 5 in tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod6,Özel Kod 6,Masraf Özel Kod 6 nın tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod7,Özel Kod 7,Masraf Özel Kod 7 nin tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod8,Özel Kod 8,Masraf Özel Kod 8 in tanımı,Edit,,txt,,,,,,,,TANCA
+Masraf,OzKod9,Özel Kod 9,Masraf Özel Kod 9 un tanımı,Edit,,txt,,,,,,,,TANCA
+Muh,DtEntegr,Hayir,Detaylı entegrasyon ekranı açıldığında otomatik olarak ekran dolsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,DtEntegr2,Hayir,Detaylı entegrasyon ekranı için açık modüller kontrolü yapılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,EBynKullanici,,E-Beyanname sistemi kullanıcı kodunuz,Edit,,txt,,,,,,,,TANCA
+Muh,EBynParola,,E-Beyanname sistemi parolanız,Edit,,txt,,,,,,,,TANCA
+Muh,EBynSifre,,E-Beyanname sistemi şifreniz,Edit,,txt,,,,,,,,TANCA
+Muh,EDClientWD,\\10.0.10.33\Edefter,E-Defter oluştururken sql server üzerinde kullanılacak geçici dizinin network adresi (Ör: \\SERVER\edefter\),Edit,,txt,,,,,,,,TANCA
+Muh,EDDefaultDir,\\10.0.10.20\korguntest\KGExe\EDefter,E-Defter lisans ve konfigurasyon dosyaları için dizin,Edit,,txt,,,,,,,,TANCA
+Muh,EDEntPassword,,E-Defter için entegratör şifre,Edit,,txt,,,,,,,,TANCA
+Muh,EDEntUserName,,E-Defter için entegratör kullanıcı adı,Edit,,txt,,,,,,,,TANCA
+Muh,EDJavaExe,C:\Program Files (x86)\Java\jre-1.8\bin,java.exe dosyasının yolu (E-Defter),Edit,,txt,,,,,,,,TANCA
+Muh,EDKatalogBaz,Hayir,E-Defter parametreleri katalog bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,EDMaxSize,20,E-Defter maksimum boyutu (Megabyte),Edit,,txt,,,,,,,,TANCA
+Muh,EDMuhurPin,728725,E-Defter Mühür Pin Kodu,Edit,,txt,,,,,,,,TANCA
+Muh,EDServerWD,C:\Korgun\Edefter,E-Defter oluştururken sql server üzerinde kullanılacak geçici dizin (Ör: C:\edefter\),Edit,,txt,,,,,,,,TANCA
+Muh,EDStartDate,01/01/2017,E-Defter geçerlilik başlangıç tarihi (Ör: 01.01.2015),Edit,,txt,,,,,,,,TANCA
+Muh,EDStartSatirNo,1,E-Defter başlangıç satır numarası,Edit,,txt,,,,,,,,TANCA
+Muh,EDStartUnqId,1,E-Defter başlangıç tekil numarası,Edit,,txt,,,,,,,,TANCA
+Muh,EDStartYNO,1,E-Defter ilk yevmiye madde numarası,Edit,,txt,,,,,,,,TANCA
+Muh,EDXMLFileOpen,Evet,Onaylanmış e-defter xml leri sadece dosya olarak saklansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,EDZamanli,Hayir,E-Defter imzalanırken zaman damgası kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,EvrNoReq,Hayir,Muhasebe fişi girilirken evrak numarası/tarihi boş ise uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,FatBABSKontrol,Hayir,"Döküman tipi ""Fatura"" olan yeni bir muhasebe fişi kaydedilirken BABS kodu kontrolü yapılsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,FisUpdate,Evet,Muhasebe Fişlerinde silme-değiştirme olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,FtMalMuhFis,Hayir,Satış ve Satış iade Faturaları muhasebeleştirmesinde maliyet muhasebe fişi oluşsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,FtMalMuhFisSor,Hayir,Satış ve Satış iade Fatura muhasebeleştirmesinde maliyet muhasebe fişi oluştururken soru sorsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,GDKLocKont,Evet,Gider Kartları muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,GelirGiderPrType,Yansıtmasız,Gelir-Gider kapama işlemleri hangi sisteme göre çalışsın?,ComboBox,Yansıtmalı&Yansıtmasız,,,,,,,,,TANCA
+Muh,GLKLocKont,Evet,Gelir Kartları muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,GrupEvrakNo,Evet,Raporda evrak numarası ve evrak tarihini kullanılsınmı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,HesKodYChar,Hayir,"Hesap koduna nokta (.),rakam ve harfden başka birşey yazılmasın",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,HizLocKont,Hayir,Hizmet kartları muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,HpListBakiyeLoc,Hayir,Hesap Planı Listesinde Hesap Bakiyesi tüm lokasyonlara göre  gelsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,HsPlanBakiye,Hayir,Hesap Planı Listesinde Hesap Bakiyesi görünsün mü ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,HsPlanOzKod,Hayir,Hesap Planı Listesinde Hesap özel kodları görünsün mü ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,IskontoKdv,Evet,Perakende Muhasebe fişlerinde iskonto kdv dahil mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,KarsiDovFieldsVis,Evet,Muhasebe hesap fişi içerisinde karşı döviz alanları görünsün  mü ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,KrediOdemeFisNoTut,Hayir,Banka kredi ödeme fişi ana tutar olmadan muhasebeleştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,M12Mizan,Evet,1 ve 2 haneli hesaplar mizanda alt toplamları etkilesin mi?(1-10-2-20 vb.),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,M1KadGirKont,Hayir,Muhasebe fişlerinde ana hesaplara işlem yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,M1KadMuhHes,Evet,1. Kademe muhasebe hesap kodu açılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MalFisFiyatTipi ,Aktif Alış,Maliyet muhasebe fişi oluştururken hangi fiyatı kullansın?,ComboBox,Aktif Alış&Ağırlıklı Ortalama&Fifo,,,,,,,,,TANCA
+Muh,MalFisSatBirles,Hayir,Satış ve Satış iade Fatura muhasebeleştirmesinde maliyet muhasebe fişi oluştururken satır birleştirme yapılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MAltHesKont,Hayir,Muhasebe fişlerinde Alt hesaba sahip hesaplarda işlem yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MBABS,Hayir,BABS kodu kullanılsınmı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MBelgeNoDel,Hayir,Belge numarası dolu olan muhasebe fişi silinemesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MCSLocKont,Hayir,Çek-Senet muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MDefFisTip,Mahsup,Muhasebe fişlerinde varsayılan fiş tipi nedir?,ComboBox,Acilis&Tahsil&Tediye&Mahsup&Ozel&KurFarki&Kapanis,,,,,,,,,TANCA
+Muh,MDigitSor,Hayir,Fişler yazdırılırken ondalık hassasiyet sorsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MDovizli,Hayir,Dovizli muhasebe kullanılsınmı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MEntAnaPB,Evet,Entegrasyon sonucu oluşan fişler ana paracinsi üzerinden olsun,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MEntegreDel,Hayir,Entegre edilmiş olan muhasebe fişi silinemesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MEntegreUPT,Hayir,Entegre edilmiş olan muhasebe fişi değiştirilemesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MEvrakNo,Evet,Muhasebe fişinde evrano ve evrak tarihi kullanılsınmı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MFatAlisisk,MaliyetHesap,Alış fatura iskontoları nereye gitsin?,ComboBox,MuhHesap&MaliyetHesap,,,,,,,,,TANCA
+Muh,MFatSatisisk,MuhHesap,Satış fatura iskontoları nereye gitsin?,ComboBox,MuhHesap&MaliyetHesap,,,,,,,,,TANCA
+Muh,MFisCagir,Evet,Muhasebe fişinde eski fiş çağırmada fiş tipi filtreleme olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MFisiptal,Hayir,Muhasebe fişinin içinde iptal etme özelliği gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MFisKodElle,Hayir,Muhasebe fişlerinde muhasebe kodu elle girilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MFisList,Hayir,Muhasebe fişinde eski fiş çağırmada Fişleri Fiş Tarihine göre sıralasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MFisSil,Hayir,Muhasebeleştirilmiş bir kayıt değişiklik yapıldığında muhasebe fişini silme sorusunu sorsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MGenAckAyrac,  ,Entegrasyon sırasında genel açıklamalarının arasına koyulacak ayraç,Edit,,txt,,,,,,,,TANCA
+Muh,MGGLocation,,Genel gider dağılımı muhasebeleştirilirken oluşacak fişin lokasyonu,Edit,,txt,,,,,,,,TANCA
+Muh,MHesBAKont,Evet,Muhasebe fişi girilirken hesapların borç / alacak çalışamaz kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MisKaldir,Hayir,Muhasebeleştirilmiş bir kayıt değişiklik yapılıp kaydedilince muhasebe işareti sorusunu sorsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MizanBABakiye,Hayir,Mizan raporunda Borc Bakiye-Alacak Bakiye ana hesabın farkı olsun mu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MizanFisTipKri,Hayir,Mizan raporu ekranında fiş tipleri kriteri verilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MizanTop,Hayir,Mizan raporunda hesap aralığı toplamı olsun,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MKDVLocKont,Hayir,KDV  muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MMaddeNoDel,Hayir,Yevmiye madde numarası dolu olan muhasebe fişi silinemesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MMaliDonemBas,01/01/2025,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,,,TANCA
+Muh,MMaliDonemBas,01/01/2020,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,BAHAR,,TANCA
+Muh,MMaliDonemBas,01/01/2020,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,DEVIRDENEME,,TANCA
+Muh,MMaliDonemBas,01/01/2020,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,ECEDEN,,TANCA
+Muh,MMaliDonemBas,01/01/2022,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,NILA,,TANCA
+Muh,MMaliDonemBas,01/01/2025,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz) (TANCA),Edit,,txt,,,,,,tanca,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,tanca2007,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,tanca2008,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,tanca2009,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2010,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2011,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2012,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2013,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2014,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2015,,TANCA
+Muh,MMaliDonemBas,01/01/2018,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2016,,TANCA
+Muh,MMaliDonemBas,01/01/2020,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2018,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2019,,TANCA
+Muh,MMaliDonemBas,01/01/2019,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCADUN,,TANCA
+Muh,MMaliDonemBas,01/01/2020,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCAERCU,,TANCA
+Muh,MMaliDonemBas,01/01/2020,Mali dönem başlangıç tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCAESKI,,TANCA
+Muh,MMaliDonemBit,31/12/2025,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,,,TANCA
+Muh,MMaliDonemBit,31/12/2020,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,BAHAR,,TANCA
+Muh,MMaliDonemBit,31/12/2020,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,DEVIRDENEME,,TANCA
+Muh,MMaliDonemBit,31/12/2020,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,ECEDEN,,TANCA
+Muh,MMaliDonemBit,31/12/2022,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,NILA,,TANCA
+Muh,MMaliDonemBit,31/12/2025,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz) (TANCA),Edit,,txt,,,,,,tanca,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,tanca2007,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,tanca2008,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,tanca2009,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2010,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2011,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2012,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2013,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2014,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2015,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2016,,TANCA
+Muh,MMaliDonemBit,31/12/2020,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2018,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCA2019,,TANCA
+Muh,MMaliDonemBit,31/12/2019,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCADUN,,TANCA
+Muh,MMaliDonemBit,31/12/2020,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCAERCU,,TANCA
+Muh,MMaliDonemBit,31/12/2020,Mali dönem bitiş tarihi(gg/aa/yyyy formatında giriniz),Edit,,txt,,,,,,TANCAESKI,,TANCA
+Muh,MMiktarli,Hayir,Miktarlı muhasebe kullanılsınmı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MMizanSifir,Hayir,Muhasebe raporlarında 0 olan değerler gözükmesin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MMuhControl,Evet,Muhasebeleştirilmiş bir kayıt tekrar muhasebeleştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MMUse,Hayir,Masraf merkezi kullanımı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MOnKaySilMuh,Evet,Muhasebeleştirilmiş bir kayıt silinince bağlı olduğu muhasebe fişide silinsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MOtoBelgeNo,Hayir,Belge numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MOtoBNoDig,6,Belge Numarası arttılırken karakter sayısı kaç olsun?,Edit,,txt,,,,,,,,TANCA
+Muh,MOtoBNoLoc,Hayir,Belge numarası arttırılırken fişlerin lokasyonu dikkate alınsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MOtoBNoTip,Yok,Belge numarası arttırım şekli ne olsun?,ComboBox,Yok&FTip&Gun&GunFTip,,,,,,,,,TANCA
+Muh,MOtoKasaFisi,Evet,Kapalı faturalarda muhasebe entegrasyonunda kasa fişi birleştirilerek işlensin,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MOTVLocKont,Hayir,ÖTV  muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MParSatisisk,MaliyetHesap,Parekende satış ve iade işlemlerinin iskontoları nereye gitsin?,ComboBox,MuhHesap&MaliyetHesap,,,,,,,,,TANCA
+Muh,MSatAckAyrac,  ,Entegrasyon sırasında satır açıklamalarının arasına koyulacak ayraç,Edit,,txt,,,,,,,,TANCA
+Muh,MSMMLocKont,Hayir,Serbest Meslek muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MSonOnayTar,01/01/2004,Son Onay Tarihi(gg/aa/yyyy formatında giriniz),Edit,,,,,,,,,,TANCA
+Muh,MStokKDVKod,Genel,Stok kartlarının KDV Muhasebe kodu olarak ne kullanılsın?,ComboBox,Kart&Genel,,,,,,,,,TANCA
+Muh,MStokOtvKod,Genel,Stok kartlarının ÖTV Muhasebe kodu olarak ne kullanılsın?,ComboBox,Kart&Genel,,,,,,,,,TANCA
+Muh,MTahsil100,Evet,Tahsil fişlerinde 100 kasa hesap kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MTediye100,Evet,Tediye fişlerinde 100 kasa hesap kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MTemLocKont,Hayir,Teminat mektubu muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MTevLocKont,Hayir,Tevkifat muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MTKDVLocKont,Hayir,Tevkifat işlemlerinde ki KDV muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MuavinGorEksi,Hayir,Hesap kartında muavin Excel e aktarırken bakiye (-) olarak görünsün mü ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,MuhEntTutar,Evet,Detaylı muhasebe entegrasyonda tutara göre arama yapsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,OzKod1,Özel Kod 1,Muhasebe Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod10,Özel Kod 10,Muhasebe Özel Kod 10 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod2,Özel Kod 2,Muhasebe Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod3,Özel Kod 3,Muhasebe Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod4,Özel Kod 4,Muhasebe Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod5,Özel Kod 5,Muhasebe Özel Kod 5 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod6,Özel Kod 6,Muhasebe Özel Kod 6 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod7,Özel Kod 7,Muhasebe Özel Kod 7 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod8,Özel Kod 8,Muhasebe Özel Kod 8 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,OzKod9,Özel Kod 9,Muhasebe Özel Kod 9 ün adı,Edit,,txt,,,,,,,,TANCA
+Muh,PeriyotKullan,Hayir,Muhasebe Raporlarında Periyot Kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,PSOLocKont,Hayir,Perakende satış ödeme tip muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,RapTarihChecked,Hayir,Muhasebe raporlarında tarih seçili olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,StkFisMuh,Hayir,Stok Fişleri üretimle bağlantı olmasa bile muhasebeleştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Muh,StkGrpBag,Hicbiri,Stok muhasebe entegre kodları hangi gruptan getirilerek stok kartına yazılsın?,ComboBox,Hicbiri&StokSekli&StokGrubu&StokTip&Cinsiyet&KDVOran&Reyon,,,,,,,,,TANCA
+Muh,TahakkukA,190.01.001,Tahakkuk fişindeki -DEVREDEN KDV- hesap kodu,Edit,,txt,,,,,,,,TANCA
+Muh,TahakkukB,360.01.001,Tahakkuk fişindeki -ÖDENECEK VERGİ VE FONLAR- hesap kodu,Edit,,txt,,,,,,,,TANCA
+Muh,Tahakkuki,,Tahakkuk fişindeki kdv iade hesap kodu,Edit,,txt,,,,,,,,TANCA
+Muh,TahakkukO,,Tahakkuk fişindeki ödenecek kdv hesap kodu,Edit,,txt,,,,,,,,TANCA
+Mus,CepNoRequired,Hayir,Müşteri kartları kaydedilirken cep telefonu girilmesi zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mus,CinsiyetZorunlu,Hayir,Müşteri kartları kaydedilirken cinsiyet seçimi zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mus,DefCountry,Türkiye,Yeni müşteri kaydedilirken varsayılan ülke,Edit,,txt,,,,,,,,TANCA
+Mus,defNoMail,Hayir,"Yeni müşteriler için varsayılan olarak ""mail gönderme"" seçili gelsin mi?",ComboBox,Hayir&Evet,,,,,,,,,TANCA
+Mus,defNoSms,Hayir,"Yeni müşteriler için varsayılan olarak ""mesaj gönderme"" seçili gelsin mi?",ComboBox,Hayir&Evet,,,,,,,,,TANCA
+Mus,IYSApiKey,,PostaGuvercini izin API anahtarı,Edit,,txt,,,,,,,,TANCA
+Mus,IYSSorgulasinMi,Sor,Müşteri numarası girildikten sonra IYS izin mesajı gönderilsin mi?,ComboBox,Sor&Evet&Hayır,,,,,,,,,TANCA
+Mus,MusAyniTel,Evet,Müşteri kartları kaydedilirken aynı cep telefonu ile 2 müşteri kaydedilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mus,MusTelControl,Evet,Müşteri kartlarında telefon numarası kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mus,MusTelLength,10,Müşteri kartında tel numarası kaç karakter olsun?,Edit,,txt,,,,,,,,TANCA
+Mus,NoCepAlert,Hayir,Müşteri kartları kaydedilirken cep telefonu boş ise uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mus,NoMailAlert,Hayir,Müşteri kartları kaydedilirken e-Mail boş ise uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Mus_gizli,ZorunluMaster,*,,Edit,,txt,,,,,,,,TANCA
+Musteri_Gizli,ZorunluMaster,*,,Edit,,txt,,,,,,,,TANCA
+PosFis,ActivDepart,K,Pos modülünü kullanabilecek departman kodu nedir?,Edit,,txt,,,,,,,,TANCA
+PosFis,ActivFatDizayn,POSSON,Perakende fatura çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,AiadeFatDizayn,POSSON,Perakende iade çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,AlterStokOner,Hayir,Mevcudu olmayan ürünler için alternatif önerilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,ArasBarcode,ör:ozkod1,Aras Kargo nun Barkod bilgisi hangi Özel Kod a yazılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,ArasOdeSekli,Gönderici Ödemeli,Aras Kargo Ödeme Şekli Ne Olsun?,ComboBox,Gönderici Ödemeli&Alıcı Ödemeli,,,,,,,,,TANCA
+PosFis,ArasPass,,Aras Kargo nun Size Vermiş Olduğu Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,ArasTahsilSekli,Aynı Fatura,Aras Kargo Tahsilat Şekli Ne Olsun?,ComboBox,Aynı Fatura&Farklı Fatura,,,,,,,,,TANCA
+PosFis,ArasUser,,Aras Kargo nun Size Vermiş Olduğu Kullanıcı Kodunu Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,AutoBelgeNo,Evet,Belge numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,AutoBelgeNoKri,Lokasyon,Belge numarası artımında belge numarasının seçim kriteri ne olsun?,ComboBox,Yok&Lokasyon&Kasiyer&Kasa,,,,,,,,,TANCA
+PosFis,AutoBelgeNoTip,Evet,Belge numarası otomatik artımında son kaydın belge numarası mı kullanılsın?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,BarCodeCheck,Evet,Satışta barkod cihazı kullanılacak mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,BcinUseMik,Hayir,Kullanılan barkodların içinde miktar tanımlaması var mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,BcinUseMikK,29,Kullanılan barkodların başlangıç karakterleri,Edit,,num,,,,,,,,TANCA
+PosFis,BcinUseMikLn,5,Barkod içindeki miktar sondan kaç karakterde?,Edit,,num,,,,,,,,TANCA
+PosFis,BcinUseMikLnD,3,Barkod içindeki miktarın desimal basamak sayısı,Edit,,num,,,,,,,,TANCA
+PosFis,BcinUseMzLC,0,Miktarlı barkodun sondan kaç hanesi dikkate alinmasin(Check Digit)?,Edit,,num,,,,,,,,TANCA
+PosFis,BcinUseMzLCB,0,Miktarlı barkodun Baştan kaç hanesi dikkate alinmasin(Check Digit)?,Edit,,num,,,,,,,,TANCA
+PosFis,BcMaxLength,0,Barkod okutma alanının maximum karakter sayısı (0=sınırsız),Edit,,num,,,,,,,,TANCA
+PosFis,BelgeNoReq,Evet,Belge numarası girilmesi zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,BelNoBarkod,Hayir,Belge No barkod ile okutulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,ChckFiy,Hayir,Aktif olan kurun en son fiyatı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Deny_KDV,Hayir,Kullanıcı ürünün KDV sine müdahale edebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Deny_PC,Hayir,Kullanıcı ürünün para cinsine müdahale edebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,DespatchDateOzKod,,Perakende satış İrsaliye tarihinin alınacağı Özel Kod:,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&OzKod11&OzKod12&OzKod13&OzKod14&OzKod15&OzKod16&OzKod17&OzKod18&OzKod19&OzKod20,,,,,,,,,TANCA
+PosFis,DespatchNoOzKod,,Perakende satış İrsaliye numarasının alınacağı Özel Kod:,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&OzKod11&OzKod12&OzKod13&OzKod14&OzKod15&OzKod16&OzKod17&OzKod18&OzKod19&OzKod20,,,,,,,,,TANCA
+PosFis,DiplomatFatDizayn,Pos1,Diplomatik fatura çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,EFDefLocation,,Perakende satıştan oluşan fatura hangi lokasyonda oluşsun?,Edit,,txt,,,,,,,,TANCA
+PosFis,EFEAStokSendType,Stok,E-Fatura/E-Arşiv Stok Gönderim Şekli,ComboBox,Stok&Stok/Renk&Stok/Beden&Stok/Renk/Beden&Stok/Renk/Beden/StokBarkodu,,,,,,,,,TANCA
+PosFis,EFNoteMusOzKod,Hayir,Perakende E-Fatura/E-Arşiv fatura not kısmında müşteri özel kodlar gürüntülensin mi? ,ComboBox,Hayir&Evet,,,,,,,,,TANCA
+PosFis,EFNotePaymentType,Hayir,Perakende E-Arşiv faturada Notlar kısmında ödeme tip tanımları yer alsın mı?(Netten Satış),ComboBox,Hayir&Evet,,,,,,,,,TANCA
+PosFis,EFNotePosOzKod,Hayir,Perakende E-Fatura/E-Arşiv fatura not kısmında perakende satış özel kodlar gürüntülensin mi? ,ComboBox,Hayir&Evet,,,,,,,,,TANCA
+PosFis,EFOtoCKod,,"Perakende satış, fatura işlemine çevrilirken ilk cari kod ne olsun?",Edit,,txt,,,,,,,,TANCA
+PosFis,EFOtoGonder,Hayir,Perakende satış ekranından oluşturulan e-fatura taslağını hemen göndermek istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,EFOtoOlustur,Hayir,Perakende satış ekranından e-fatura oluşturmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,EFOtoTaslak,Hayir,Perakende satış ekranından e-fatura taslağı oluşturmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,EFPerSevkAdress,Hayir,Perakende E-Fatura da sevk adresi çıksın mı ?(Müşteri Kartı İş Adresi),ComboBox,Hayir&Evet,,,,,,,,,TANCA
+PosFis,EFPosSipNoOzKod,,E-Fatura oluşturulurken Sipariş numarası bilgisi faturanın hangi özel kod alanından alınsın ?,Edit,,txt,,,,,,,,TANCA
+PosFis,EFPosSipTarOzKod,,E-Fatura oluşturulurken Sipariş Tarihi bilgisi faturanın hangi özel kod alanından alınsın ?,Edit,,txt,,,,,,,,TANCA
+PosFis,EFPreScreen,Evet,E-Arşiv/E-Fatura Fatura Ön izlemesi otomatik olarak yapılsın mı? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,EFYBOtoTaslak,Evet,TaxFree kaydedildiğinde otomatik e-fatura taslağı oluşturmak istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,eksistock,Evet,Eksi(-) ye düşen ürünü satarken uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,eksistock2,Hayir,Eksi(-) ye düşen ürünün satışına izin versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,ETDagitimYontem,Tümü,E-Ticaret satışlarının dağıtımında izlenecek mağaza seçim yöntemi?,ComboBox,Tümü&PPR,,,,,,,,,TANCA
+PosFis,ETOdTip,ONL,E-Ticaret Lokasyonundan alınan satışların ödeme tipi,Edit,,txt,,,,,,,,TANCA
+PosFis,FiyatsizPos,Evet,Fiyatsız ürün eklenebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,FiyTipSor,Hayir,Birden fazla fiyatı olan ürünler için fiyat sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,FytConvert,Evet,Ürünlerin fiyatı fişin aktif kuruna çevrilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,GizliETLocation,KTON,Gizli E-Ticaret Lokasyonu,Edit,,txt,,,,,,,,TANCA
+PosFis,HedCekFatDizayn,Hediye Ceki,Hediye Çeki fatura çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,HedCekKayYaz,Evet,Kaydetmeden hediye çeki yazdırılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,iabarkodGizle,Hayir,İade işleminde barkod alanı gizlensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,iadeAutoBelgeNo,Hayir,İade ekranında Belge numarası otomatik arttırımı kapatılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,iadeStokYetki,Hayir,İade işleminde ürün lokasyona yetkilendirilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,iskDef,,Perakende satış için varsayılan iskonto tipinin kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,Kalemisk,Evet,Kalem iskonto görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Kalemkdv,Hayir,Kalem KDV görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,KapiBelNo,Hayir,Kapora iade işleminde kapora işleminin belge numarası kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,KaporaFatDizayn,Kaparo,Kaporalı satış fatura çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,KaporaiadeFatDizayn,<Default>,Kapora iade fatura çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,KaporaTumLok,Hayir,Kaporadan bul ekranında tüm lokasyonlardaki kaporalı satışlar görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,KapSatChg,Evet,Kaporadan alınan satışın satıcı kodu değiştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,MaxHarNo,0,1 işlem fişi içinde ki maksimum satır sayısı,Edit,,num,,,,,,,,TANCA
+PosFis,MinKaporaOran,30,Kabul edilecek minimum kapora oranı (% olarak),Edit,,num,,,,,,,,TANCA
+PosFis,MinTarih,,Perakende satış yönetimi için en eski bilgi kaç günlük olsun?,Edit,,num,,,,,,,,TANCA
+PosFis,MinTarih2,,Perakende satış Ekranı için en eski bilgi kaç günlük olsun?,Edit,,num,,,,,,,,TANCA
+PosFis,MngAdres,,Mng Kargo Alıcı Adres Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngAlSms,,Mng Kargo Alıcı  İçin Sms Gönderme Bilgisi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngBarcode,ör:ozkod1,Mng Kargo nun Barkod Bilgisi Hangi Özel Kod a Yazılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,MngBarkodType,EPL,Mng son barkodu türü ne olsun?,ComboBox,EPL&ZPL,,,,,,,,,TANCA
+PosFis,MngGnSms,,Mng Kargo Gönderici için Sms Gönderme Bilgisini Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngHataRefBarkod,Evet,Nihai Kargo barkodunun basılamadığı durumlarda referans barkodu basılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,MngHizmet,,Mng Kargo Gönderi Hizmet Şeklini hangi Özelkod dan alsın,Edit,,txt,,,,,,,,TANCA
+PosFis,Mngilce,,Mng Kargo Alıcı İlçe Kodunun Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngMail,,Mng Kargo Alıcı Mail Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngMusteriNo,,Mng Kargo nun Size Vermiş Olduğu Musteri Numarasını Biliyorsanız Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,MngOdeSekli,Gönderici Ödemeli,Mng Kargo Ödeme Şekli Ne Olsun?,ComboBox,Gönderici Ödemeli&Alıcı Ödemeli,,,,,,,,,TANCA
+PosFis,MngPass,,Mng Kargo nun Size Vermiş Olduğu Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,MngPDesi,,Mng Kargo Parça Desi Bilgisi Stok Kartındaki Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngPKgDesi,,Mng Kargo Parça Kilogram-Desi Büyük Olanın Bilgisi Stok Kartındaki hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngPKilo,,Mng Kargo Parça Kilogram Bilgisi Stok Kartındaki hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngSehir,,Mng Kargo Alıcı Şehir Kodunun Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngSiparisOlusum,Hayir,Mng Kargo siparişi başka firmadan mı oluşuyor ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,MngSipNo,,Mng Kargo Sipariş Numrasını nereden Alsın? ör:SatNo,Edit,,txt,,,,,,,,TANCA
+PosFis,MngSonBarkod,Hayir,Mng Kargo son barkod oluşturulabilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,MngSonSipNo,,Mng Kargo son barkod için sipariş numarasını  hangi özelkod dan alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngTel,,Mng Kargo Alıcı Telefon Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,MngTeslimSekli,,Mng Kargo Gönderi Teslimant Şekli Hangi Ozelkod dan Alsın ,Edit,,txt,,,,,,,,TANCA
+PosFis,MngUser,,Mng Kargo nun Size Vermiş Olduğu Kullanıcı Adını Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,mOdeme,Hayir,Ödeme tipi sabit getirilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,mOdemeiadeTip,GP,İade işlemlerinde kullanılacak ödeme kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,mOdemeTip,N,Varsayılan ödeme kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,MuAraField,MusteriAdi,Müşteri seçiminde 1.sırada hangi alan olsun?,ComboBox,MusteriAdi&MusteriKodu&UyeNo&TCKimlikNo&EvTel&CepTel,,,,,,,,,TANCA
+PosFis,MusBrAlan,MusteriKodu,Müşteri barkodu ile birlikte okutulan alan?,ComboBox,MusteriKodu&UyeNo,,,,,,,,,TANCA
+PosFis,MusteriKriter,İzin Ver,Kredisini aşmış müşteri için taksitlendirme yapılsın mı?,ComboBox,İzin Ver&Uyar&Engelle,,,,,,,,,TANCA
+PosFis,NCRCodeOzKod,10,NCR Aktarımlarındaki CODE alanına yazılacak değerin alınacağını OzKod No,Edit,0,txt,,,,,,,,TANCA
+PosFis,NCRFiyTip1,*,NCR'a ürün gönderiminde gönderilecek 1. Fiyat Tipinin Kodu:,Edit,,txt,,,,,,,,TANCA
+PosFis,NCRFiyTip2,,NCR'a ürün gönderiminde gönderilecek 2. Fiyat Tipinin Kodu:,Edit,,txt,,,,,,,,TANCA
+PosFis,NCRFiyTip3,,NCR'a ürün gönderiminde gönderilecek 3. Fiyat Tipinin Kodu:,Edit,,txt,,,,,,,,TANCA
+PosFis,NCRFiyTip4,,NCR'a ürün gönderiminde gönderilecek 4. Fiyat Tipinin Kodu:,Edit,,txt,,,,,,,,TANCA
+PosFis,NCRFiyTip5,,NCR'a ürün gönderiminde gönderilecek 5. Fiyat Tipinin Kodu:,Edit,,txt,,,,,,,,TANCA
+PosFis,needMu_,Evet,Müşteri girişi yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,needMus,Hayir,Müşteri kaydı yapılmadan fiş kaydedilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,needSatici_,Evet,Satıcı girişi yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,nonFat,Evet,Faturasız satış yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OdeCheck,Evet,Ödeme tamamlanmak zorunda mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OdemeTipiOnay,Hayir,Ödeme tipi seçildiğinde onay sorusu sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OdeTipiskFull,Hayir,Ödeme Tipi iskontosu sadece tek seferde ödemede geçerli olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OdeVeresiye,Hayir,Ödeme farkı veresiye işlesin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OdeVereTip,V,Veresiye ödeme kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,OldFisKasi,Hayir,Eski fiş çağırırken kasiyer kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OneAddstock,Hayir,Barkod ile eklenen aynı stoklar toplansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OPCChange,Evet,Ödeme ekranında para cinsi değiştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OtoMuhKapora,Evet,Kaporalı satışlar otomatik muhasebeleşsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OtoMuhKaporai,Hayir,Kapora iadesi otomatik muhasebeleşsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,OzKod10Tanim,Özel Kod 10,Perakende Özel Kod 10 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod11Tanim,Özel Kod 11,Perakende Özel Kod 11 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod12Tanim,UniFreeID,Perakende Özel Kod 12 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod13Tanim,Pass Yolcu Tipi,Perakende Özel Kod 13 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod14Tanim,Milliyet Bilgisi,Perakende Özel Kod 14 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod15Tanim,Hv Sirket Bilgisi,Perakende Özel Kod 15 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod16Tanim,Departure Kodu,Perakende Özel Kod 16 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod17Tanim,Cocuk Yolcu,Perakende Özel Kod 17 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod18Tanim,Bebek Yolcu,Perakende Özel Kod 18 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod19Tanim,Arrival Kodu,Perakende Özel Kod 19 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod1Tanim,Sipariş Numarası,Perakende Özel Kod 1 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod20Tanim,Ucus Kodu,Perakende Özel Kod 20 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod2Tanim,Paket Numarası,Perakende Özel Kod 2 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod3Tanim,Çıkan Lokasyon,Perakende Özel Kod 3 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod4Tanim,Kargo Firması,Perakende Özel Kod 4 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod5Tanim,Kargo Takip No,Perakende Özel Kod 5 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod6Tanim,Özel Kod 6,Perakende Özel Kod 6 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod7Tanim,Özel Kod 7,Perakende Özel Kod 7 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod8Tanim,Özel Kod 8,Perakende Özel Kod 8 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,OzKod9Tanim,Özel Kod 9,Perakende Özel Kod 9 in tanımı,Edit,,txt,,,,,,,,TANCA
+PosFis,Par_PosFis_SBBNoSart,Hayir,Satıştan Bul ekranında Belge No girilmesi zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Par_PosFis_SBKriterSart,Hayir,Satıştan Bul ekranında kriter girilmesi zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Par_YurticiTahsilSekli,Aynı Fatura,Yurtiçi Kargo Tahsilat Şekli Ne Olsun?,ComboBox,Aynı Fatura&Farklı Fatura,,,,,,,,,TANCA
+PosFis,ParaUstuQry,Evet,Paraüstü kasaya işlemeden önce sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,PeriadeRequired,Evet,İade işlemlerinde iade nedeni girilmek zorunda mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,PerOzSatFiyat,,Perakende satış için varsayılan satış fiyat tipinin Kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,PiFilTarih,Evet,Perakende Satış Yönetiminde varsayılan olarak günün tarihi gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,pKapatmaUyari,Evet,Ekranı kapatmadan önce uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,PuanUyeNo,Evet,Müşterinin puan kazanması için üye numarası zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,QuickMusSel,Evet,Müşteri seçim ekranı hızlandırılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,RapiskinKdv,Hayir,Raporda çıkan iskonto KDV dahil iskonto olsun mu?(Perakende Reel iskonto),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,RDLineInIsk,Evet,Raporda çıkan perakende satış detay tutarında iskonto düşülsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,RDLineInKdv,Evet,Raporda çıkan perakende satış detay fiyatlarından KDV sıyrılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SabitiskBC,Hayir,Sabit iskontolu barkod kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SatAllDep,Evet,Her personel perakende satış yapabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SatBulLoc,Evet,Satıştan bulma ekranında lokasyon seçimi olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Satir_SatKod,Evet,Her satıra farklı satıcı kodu atansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SatKodZorunlu,Evet,Satıcı kodu girilmesi zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SatSorPerLine,Hayir,Her ürün barkodundan sonra satıcı sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SatTakipMik,Hayir,Mağaza Satış Kasa Takip yazdırında ödeme tiplerinin yanında işlem miktarı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SaveOnNew,Evet,Kaydetme işleminden hemen sonra yeni kayıda geçilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SaveOnPrint,Evet,"Kaydetme işleminden hemen sonra ""Yazdır"" sorsun mu?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SilGoster,Evet,Perakende satırında sil butonu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SilNeden,Evet,Perakende satış silinirken açıklama sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SilNedenZor,Evet,Perakende satış silinirken açıklama girişi zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,Siraliislem,Hayir,Satış işlemleri sıralı gelsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SonParaCinsi,Hayir,"Perakende satıştaki aktif kur, son okutulan ürünün fiyat tipindeki kur olarak değişsin?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SortKod,Evet,Stok listesi tanıma göre sıralansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SuratAdresAlim,Hayir,Sürat Kargo gönderisi adresten alınsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SuratAliciSms,Hayir,Sürat Kargo alıcıya sms gönderilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SuratBarcode,ör:ozkod1,Sürat Kargo nun Barkod bilgisi hangi Özel Kod a yazılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,SuratGondericiSms,Hayir,Sürat Kargo göndericiye sms gönderilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SuratOdemeSekli,ör:ozkod1,Sürat Kargo Ödeme Şekli bilgisi hangi Özel Kod a yazılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,SuratOdemeSekli2,Gönderici Ödemeli,Sürat Kargo Ödeme Şekli Nasıl Olsun?,ComboBox,Gönderici Ödemeli&Alıcı Ödemeli&Özel Koda Yazılsın,,,,,,,,,TANCA
+PosFis,SuratPass,,Sürat Kargo nun Size Vermiş Olduğu Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,SuratTelIhbar,Hayir,Sürat Kargo telefon bilgilendirrmesi yapılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,SuratTeslimSekli,ör:ozkod1,Sürat Kargo Teslim Şekli bilgisi hangi Özel Kod a yazılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,SuratTeslimSekli2,Adrese Teslim,Sürat Kargo Teslim Şekli Nasıl Olsun?,ComboBox,Adrese Teslim&Şubeden Teslim&Özel Koda Yazılsın,,,,,,,,,TANCA
+PosFis,SuratUser,,Sürat Kargo nun Size Vermiş Olduğu Kullanıcı Kodunu Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,TaksitBorctur,Hayir,Ödenmemiş taksitler müşteri borcuna yansısın mı?,ComboBox,Hayir&Evet&Gecikenler,,,,,,,,,TANCA
+PosFis,TanimCheck,Evet,Satış ekranında stok tanımı görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,TaxFreeFatDizayn,TaxFree,Tax free fatura çıktısının alınacağı dizayn,Edit,,txt,,,,,,,,TANCA
+PosFis,TaxFreeMinimumTutar,108,TaxFree satış yapılabilecek  minimum tutar?,Edit,,txt,,,,,,,,TANCA
+PosFis,TaxFrUseOption,Global Blue,Yolcu Beraber(TaxFree) kullanım yöntemi?,ComboBox,Global Blue&Entegrator,,,,,,,,,TANCA
+PosFis,TSY,Hayir,Taslak oluşturma sonrası direk yazdırılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,UDSApi,,UDS Api Key,Edit,,txt,,,,,,,,TANCA
+PosFis,UDSCid,,UDS Firma kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,UDSPT,,UDS puanı ile ödeme için kullanılacak ödeme tipi kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoAliAdres,,Ups Alıcı Adres Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoAliArea,,Ups Alıcı Area Kodunun Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoAliMail,,Ups Alıcı Mail Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoAliSehir,,Ups Alıcı Şehir Kodunun Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoAliTel,,Ups Alıcı Telefon Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoBarView,Evet,Ups Barkodu Direk Yazıcıya Gönderilsin Mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,UmoHeight,,Ups Barkod Yüksekliği Kaç Piksel Olsun?,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoKulNo,,Ups in Size Vermiş Olduğu Kullanıcı Numarasını Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoLeftMargin,,Ups Barkodda Soldan Kaç Piksel Boşluk Bırakılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoMusNo,,Ups in Size Vermiş Olduğu Müşteri Numarasını Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoOdeTip,Gönderici Ödemeli,Ups Ödeme Tipi Ne Olsun?,ComboBox,Konsinye&Gönderici Ödemeli&Diğer,,,,,,,,,TANCA
+PosFis,UmoPakTip,Dosya,Ups Paket Tipi Ne Olsun?,ComboBox,Dosya&Koli,,,,,,,,,TANCA
+PosFis,UmoPrinter,,Ups Varsayılan Yazıcı Adını Giriniz.,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoSerTip,Normal Servis,Ups Servis Tipi Ne Olsun?,ComboBox,Normal Servis&Expres Servis,,,,,,,,,TANCA
+PosFis,UmoSifre,,Ups in Size Vermiş Olduğu Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoSipNo,,Ups Sipariş Numrasını Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoTopMargin,,Ups Barkodda Üstten Kaç Piksel Boşluk Bırakılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,UmoWidth,,Ups Barkod Uzunluğu Kaç Piksel Olsun?,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeArrival,ozkod19,UniFree arrival havayolu kısa kodu hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeBebekMi,ozkod18,UniFree bebek yolcu bilgisi hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeBolgeKodu,ozkod6,UniFree gümrük bölge kodu hangi lokasyon özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeCocukMu,ozkod17,UniFree çocuk yolcu bilgisi hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeDeparture,ozkod16,UniFree departure havayolu bilgisi hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeFirmaKodu,ozkod7,UniFree gümrük firma kodu hangi lokasyon özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeHavFirmasi,ozkod15,UniFree havayolu şirket bilgisi hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeID,ozkod12,UniFree için oluşturulan ID bilgisi hangi ödeme özel koduna yazılsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeIGAKomGrubKod,G6,UniFree IGA komisyon grup kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeKomGrubKod,RE00,UniFree komisyon grup kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeMagazaKodu,ozkod8,UniFree gümrük mağaza kodu hangi lokasyon özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeMilliyetBil,ozkod14,UniFree milliyet bilgisi hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreePassYolTip,ozkod13,UniFree pasaport yolcu tipi hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeSifre,ozkod9,UniFree gümrük şifresi hangi lokasyon özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeStoreID,ozkod10,UniFree mağaza numarası hangi lokasyon özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniFreeUcusNo,ozkod20,UniFree 4 haneli uçuş kodu hangi ödeme özel kodundan alınsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,UniqBelNo,Evet,Fiş kaydedilirken aynı belge numaralı başka bir fiş varsa kayıta izin versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,VERA_NakitOT,N,Nakit ödeme tipinin kodu,Edit,,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik1,,"Satır 1 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 1,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik2,,"Satır 2 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 2,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik3,,"Satır 3 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 3,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik4,,"Satır 4 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 4,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik5,,"Satır 5 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 5,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik6,,"Satır 6 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 6,txt,,,,,,,,TANCA
+PosFis,VeraFisBaslik7,,"Satır 7 (Min 1, Max 20 karakter)",Edit,Fis Baslik Satir 7,txt,,,,,,,,TANCA
+PosFis,VisAsBCUse,Hayir,Perakende satış ekranında Asorti barkoduyla satış yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,VisGrf,Hayir,Gayri Resmi Fatura Seçim opsiyonu görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,VisLstia,Hayir,Perakende satış ödeme ekranında müşterinin son iadeleri görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,VisSevkTar,Hayir,Fiili Sevk Tarihi Görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,YazKasaQry,Hayir,Yazdırılmayan satışlarda kaydederken yazarkasa sorsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,YurticiAdres,,Yurtiçi Kargo Alıcı Adres Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiAdrID,,Yurtiçi Kargo nun Size Vermiş Olduğu Müşteri Adres ID sini Giriniz ,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiBarcode,ör:ozkod1,Yurtiçi Kargo nun Barkod bilgisi hangi Özel Kod a yazılsın?,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiBarView,Evet,Yurtiçi Barkodu Direk Yazıcıya Gönderilsin Mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,YurticiCustID,,Yurtiçi Kargo nun Size Vermiş Olduğu Müşteri ID sini Giriniz ,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiInvoice ,,Yurtiçi Kargo Fatura Numrasını nereden Alsın? ör:SatNo,Edit,,txt,,,,,,,,TANCA
+PosFis,Yurticiilce,,Yurtiçi Kargo Alıcı İlçe Kodunun Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiLang,TR,Yurtiçi Kargo yu hangi dilde kullanıyorsunuz ,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiMail,,Yurtiçi Kargo Alıcı Mail Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiPass,,Yurtiçi Kargo nun Size Vermiş Olduğu Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiPassTahsilatli,,Yurtiçi Kargo nun Size Vermiş Olduğu Tahsilatlı Şifreyi Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiSehir,,Yurtiçi Kargo Alıcı Şehir Kodunun Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiSehirIlce,Evet,Yurtiçi Kargo Şehir ve İlçeyi Özel Kodlardan Alsın mı? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+PosFis,YurticiSipNo,,Yurtiçi Kargo Sipariş Numrasını Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiTahsilSekli,Aynı Fatura,Yurtiçi Kargo Tahsilat Şekli Ne Olsun?,ComboBox,Aynı Fatura&Farklı Fatura,,,,,,,,,TANCA
+PosFis,YurticiTel,,Yurtiçi Kargo Alıcı Telefon Bilgisini Hangi Özelkod dan Alsın? ör:Ozkod1,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiUser,,Yurtiçi Kargo nun Size Vermiş Olduğu Kullanıcı Kodunu Giriniz,Edit,,txt,,,,,,,,TANCA
+PosFis,YurticiUserTahsilatli,,Yurtiçi Kargo nun Size Vermiş Olduğu Tahsilatlı Kullanıcı Kodunu Giriniz,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,AdreslemeOzKodDeger,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,AdreslemePKTOzKod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,BaglantiliDahPazSipDepo:ST00,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,BaglantiliDahPazSipDepo:ST08,ST00;ST03,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,BaglantiliDahPazSipDepo:ZZZZ,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,CalismaTipleri,Dahili Paz. Sip.,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,CokluSatisKullanici,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DagitilmamaSuresi,1,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DagitimMagazaLokasyon,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DagitimMerkezLokasyon,ST00,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DahPazSipDepo,ST00;ST07;ST08;KT187;ST03,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DahPazSipPersonel,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DahSipPakSonirsCreate,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,daiFiyAlSat,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DepoMagazaOzKod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DepoOzKodDeger,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DepoPKTOzKod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,DontPrintBC,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,FifoDagit,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,GorselVeKaliteKontrol_SKOnEk,X,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,KaliteKontrol,*,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,KaliteKontrolFisTipleri,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,Kapora,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,KapSatDepo,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,KapSatPersonel,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,KargoFirmaAd,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,KargoNo,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,MagazaDirsFiyatTip,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,MagazaMagazaOzKod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,MagazaOzKodDeger,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,MagazaPKTOzKod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,MikroihracatKullanici,FATIHAYAZ;8011;8573;8786;8785;ECALISKAN,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,OtomatikDagitim,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,OtomatikDagitimDakika,1,,Edit,txt,,,,,,,,,TANCA
+Raf_gizli,OtomatikiptalKontrol,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,PaketlemedeTarihGuncelle,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,Raf_OfflineToplama,*,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,RafBarkodUzunlugu,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,RaftanPaketlemeLokasyonlar,"ST00,ST00",,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SatisKanaliKullanici,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SatisKanaliOzKod,3,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,Sevk,*,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SevkFisDepo,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SevkFisPersonel,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SevkLocations,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,Siparis,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SonSatisSaati,08.06.2021 23:59:59,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,SonSatisSaatiLokasyon:,08.06.2021 23:59:59,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TekliSatisKullanici,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,ToplamadanSatis,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,ToplanmamaSuresi,1,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,ToplanmayanlarBanlansin,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TrendyoliadeKonBas,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYApiInfo,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYidOzkod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYOrderNumberOzkod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYOtomiptalWaitHours,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYSatIadeLocs,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYSatisDeger,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,TYSatisOzKod,0,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YeniLokasyon,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiKargo,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiPaketKontrol,turgut;7960,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiPaketleme,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiPaketlenecekMik,,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiRafaYerlestir,korgunenver;savasterm;aydinrdp;ozerrdp;7795;6864;MOZTAS;FATIHAYAZ;FTHYLDZ;8011;8573;8786;8785;ECALISKAN;aydinterm;nazmi;nazif;asiyeterm;EALBAYRAK;savasterm2;turgut;7960;KARGO5,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiRafDegistir,korgunenver;savasterm;aydinrdp;ozerrdp;7795;6864;MOZTAS;FATIHAYAZ;FTHYLDZ;8011;8573;8786;8785;ECALISKAN;aydinterm;nazmi;nazif;asiyeterm;EALBAYRAK;savasterm2;turgut;7960;KARGO5,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiRaftanCikart,korgunenver;savasterm;aydinrdp;ozerrdp;7795;6864;MOZTAS;FATIHAYAZ;FTHYLDZ;8011;8573;8786;8785;ECALISKAN;aydinterm;nazmi;nazif;asiyeterm;EALBAYRAK;savasterm2;turgut;7960;KARGO5,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiSayim,korgunenver;savasterm;aydinrdp;ozerrdp;7795;6864;MOZTAS;FATIHAYAZ;FTHYLDZ;8011;8573;8786;8785;ECALISKAN;aydinterm;nazmi;nazif;asiyeterm;EALBAYRAK;savasterm2;turgut;7960;KARGO5,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiToplama,korgunenver;savasterm;aydinrdp;ozerrdp;7795;6864;MOZTAS;FATIHAYAZ;FTHYLDZ;8011;8573;8786;8785;ECALISKAN;aydinterm;nazmi;nazif;asiyeterm;EALBAYRAK;savasterm2;turgut;7960;KARGO5,,Edit,,txt,,,,,,,,TANCA
+Raf_gizli,YetkiToplanacakMik,korgunenver;savasterm;aydinrdp;ozerrdp;7795;6864;MOZTAS;FATIHAYAZ;FTHYLDZ;8011;8573;8786;8785;ECALISKAN;aydinterm;nazmi;nazif;asiyeterm;EALBAYRAK;savasterm2;turgut;7960;KARGO5,,Edit,,txt,,,,,,,,TANCA
+SipFis,AddOpField,,Sipariş ekranında görmek istediğiniz ilave stok alanı,Edit,,txt,,,,,,,,TANCA
+SipFis,AddOpFieldC,,Sipariş ekranında görmek istediğiniz ilave stok alanının tanımı,Edit,,txt,,,,,,,,TANCA
+SipFis,AddOpFieldS,,Sipariş ekranında görmek istediğiniz ilave stok alanının özel 1 durumu,Edit,,txt,,,,,,,,TANCA
+SipFis,AddOpFieldS1,,Sipariş ekranında görmek istediğiniz ilave stok alanının özel 2 durumu,Edit,,txt,,,,,,,,TANCA
+SipFis,AddOpFieldS2,,Sipariş ekranında görmek istediğiniz ilave stok alanının özel 3 durumu,Edit,,txt,,,,,,,,TANCA
+SipFis,AdressListVisible,Hayir,Sipariş ekranlarında eski fiş çağırır iken sipariş Adres ve 2.adres tanımları listelensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,AfterMDPUpdate,Sor,MDP Sonrası veri güncellemesi ,ComboBox,Evet&Hayir&Sor,,,,,,,,,TANCA
+SipFis,AfterSaveSetLot,Hayir,Sipariş kaydedildikten sonra tüm satırlara otomatik lot ataması yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,AllLocation,Hayir,Pazarlama/Satınalma ekranındaki fiş listesinde tüm lokasyonlardaki pazarlama/satınalma görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,ASipRefresh,Hayir,Satınalma Sipariş veya Teklif de sağ tuş ile siparişe gönder işleminden sonra ekran yenilensin mi ? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,ASKdvDahil,Hayir,Satın Alma Siparişlerinde Kdv dahil mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,AutoBelgeNo,Hayir,belge numarası otomatik artsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,AutoSevket,Evet,"Dahili siparişlerin kaydetme işleminde ""Sevket"" işlemi otomatik çalışsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,AutoTip,EnBuyukNo,Belge numarası otomatik arttırılırken hangi kayıt üzerinden işlem yapılsın?,ComboBox,EnBuyukNo&SonNo,,,,,,,,,TANCA
+SipFis,AvSenetTek,Hayir,Pazarlama siparişlerinde siparişe sadece 1 senet bordrosu avans olarak bağlanabilsin?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BagKontrolSil,Uyarsın,Sipariş ve Teklif te silme işleminden önce bağlantılı sipariş var ise ne yapsın ?,ComboBox,Uyarsın&Engellesin&Kontrol etmesin,,,,,,,,,TANCA
+SipFis,BagTeklifColor,Hayir,Teklif ekranında sipariş ile bağlantılı teklif satırları renklendirilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BcinUseSipLn,0,Siparişte hazırlanan barkod içindeki sipariş numarası baştan kaç karakter olsun?,Edit,,num,,,,,,,,TANCA
+SipFis,BcMikEkran,Hayir,Siparişten barkod hazırlanırken miktar bölme ekranı çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BCNewSatir,Hayir,Fişte okutulan her barkod yeni satıra yazılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BCOpNewStr,Hayir,Fişte okutulan barkodlar birleştirilirken eski girişlerin üzerine birleştirme yapılsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BCRePrinted,Hayir,Sipariş ekranlarında Barkod yazma işlemi tekrarlanırsa onay sorusu sorulsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BCRnNewStr,Hayir,Fişte okutulan barkodlar birleştirilirken renk bilgisine göre yeni satıra yazılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BelgeNoCheck,Hayir,Belge numarası kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,BSipColor,Hayir,Bağlantılı siparişlerin renklerinin değişmesini ister misiniz ?,ComboBox,Evet&Hayir&Satinalmalarda,,,,,,,,,TANCA
+SipFis,btSevketVi,Evet,"Dahili siparişlerde ""Sevket"" tuşu görünsün mü?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CAcKurChgFiyat,Hayir,Stok fiyatı carinin aktif kuruna göre düzenlesin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CariBakvisible,Hayir,Sipariş ekranlarında Cari bakiye seçeneği saklansın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CekiLocate,Evet,Çeki listesinde satır seçilirse sipariş detayında odaklanma olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CKreCheckSi,Hayir,Siparişlerde cari kredi aşımında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CopyBelNo,Hayir,Sipariş kopyalamada belge numarasıda kopyalansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CopyNotlar,Evet,Sipariş kopyalamada notlar da kopyalansın mı?,ComboBox,Evet&Hayır,,,,,,,,,TANCA
+SipFis,CopySipTar,Hayir,Kopyalanan Siparişin Tarihi Güncellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,Cpyisk,Hayir,Sipariş çoğaltmalarda iskonto aktarılsınmı mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,CrFyOzKOp,Hayir,Carinin fiyatı için Fiyat özelkod1 kullanılıyor.Fiyat Listesini sınırla.,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,DahirsNo,Hayir,Dah.siparişte yeni irsaliye oluştururken irs no sorsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,DahsipFiyTip,ALIS FIYATI TL 1. FIYAT,Dahili siparişlerde  fiyat tipi ne olsun ? ,Edit,,txt,,,,,,,,TANCA
+SipFis,DahsipFiyTipM,A,Dahili siparişlerde fiyat tipi seçeneği ne olsun ? ,Edit,,txt,,,,,,,,TANCA
+SipFis,DetailSatirAckCapt,Satır Açıklaması,Sipariş Detaylı Giriş ekranında yer alan Satır açıklaması'nın başlığI ne olsun? ,Edit,Satır Açıklaması,txt,,,,,,,,TANCA
+SipFis,DetailScreenField1,Klişe,Sipariş Detaylı Giriş ekranında yer alan 1.üretim alanının başlığı,Edit,Klişe,txt,,,,,,,,TANCA
+SipFis,DetailScreenField12,Kutu,Sipariş Detaylı Giriş ekranında yer alan 2.üretim alanının başlığı,Edit,Kutu,txt,,,,,,,,TANCA
+SipFis,DetailScreenField13,Koli,Sipariş Detaylı Giriş ekranında yer alan 3.üretim alanının başlığı,Edit,Koli,txt,,,,,,,,TANCA
+SipFis,DetailScreenField14,Pelur,Sipariş Detaylı Giriş ekranında yer alan 4.üretim alanının başlığı,Edit,Pelur,txt,,,,,,,,TANCA
+SipFis,DetailScreenOtoSearch1,KLISE,Sipariş Detaylı Giriş ekranında yer alan 1.üretim alanını otomatik doldurmada aranacak filtre,Edit,KLISE,txt,,,,,,,,TANCA
+SipFis,DetailScreenOtoSearch2,KUTU,Sipariş Detaylı Giriş ekranında yer alan 2.üretim alanını otomatik doldurmada  aranacak filtre,Edit,KUTU,txt,,,,,,,,TANCA
+SipFis,DetailScreenOtoSearch3,KOLI,Sipariş Detaylı Giriş ekranında yer alan 3.üretim alanını otomatik doldurmada  aranacak filtre,Edit,KOLI,txt,,,,,,,,TANCA
+SipFis,DetailScreenOtoSearch4,PELUR,Sipariş Detaylı Giriş ekranında yer alan 4.üretim alanını otomatik doldurmada  aranacak filtre,Edit,PELUR,txt,,,,,,,,TANCA
+SipFis,DetailScreenUrVisible,Hayir,Detaylı Sipariş giriş ekranında üretim özellikleri kullanılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,Donisk,Hayir,Sipariş dönüştürmelerinde iskonto aktarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,DontListClosed,Hayir,Sipariş listesinde kapalı siparişleri de göstersin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,FastStokList,Hayir,Stok listesi boş açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,FiyReadOnly,Hayir,Pazarlama siparişlerinde fiyatlara elle müdahale edilemesin?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,FiyTakKont,Hayir,Pazarlama siparişlerinde satır girişlerinde fiyat-taksit kontrolü olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,GetFullSKod,Evet,Stok listesi aktif lokasyonla mı sınırlansın?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,GrpBarCode,Sorsun,Barkod hazırlama şekli nasıl gerçekleştirilsin?,ComboBox,Sorsun&Detay&Gruplu,,,,,,,,,TANCA
+SipFis,HarDurum,Evet,Sipariş satırına bağlı olan irsaliye veya fatura silindiğinde kapalı durumu açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,HariskChar,   ,Sipariş yazdırda hareket iskontolarının arasına koyulacak karakter,Edit,,txt,,,,,,,,TANCA
+SipFis,HSKurCheckit,Hayir,Hizmet Siparişi işlemlerinde girilen kurları göster ve onaylat,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,IrsAdres,Sipariş Adresi,Sevkiyat tan irsaliye oluşturulduğunda irsaliye hangi adrese oluşturulsun? ,ComboBox,Sipariş Adresi&Sevk Adresi,,,,,,,,,TANCA
+SipFis,IslOnaySeviye,0,Siparişten ürün çıkışı yada alımı için gereken onay seviyesi kaç olsun?,ComboBox,0&1&2&3&4&5,,,,,,,,,TANCA
+SipFis,Kalemisk,Evet,Kalem iskonto görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,Kalemkdv,Evet,Kalem KDV görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,KayDurum,Evet,Siparişe bağlı olan irsaliye veya fatura silindiğinde siparişin kapalı durumu açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,KayOdSekSec,Evet,Sipariş fişinde kaydetme yapılınca ödeme detayı güncellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,KdvDahil,Hayir,Pazarlama Siparişlerinde Kdv dahil mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,KptOpt,2,Sipariş Basit terminlemede kullanılacak kapasite Opsiyon gün sayısı,Edit,,num,,,,,,,,TANCA
+SipFis,KptSys,1000,Sipariş Basit terminlemede kullanılacak kapasite katsayısı,Edit,,num,,,,,,,,TANCA
+SipFis,LotForce,Hayir,Sipariş işlemlerinde lot numarası boş ise kaydederken uyarı verilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,LstStkMev,Hayir,Siparişlerde Stok listesinde Mevcut görünsün mü ?(Sadece Alt+F6),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,MDPSevkBirles,Cari,MDP birleştirme şekli ne olsun?,ComboBox,Secimli&Cari&CariOdSekil&CariOdSekilisk&SipNo&CariAdresAdi&CariSevkAdres,,,,,,,,,TANCA
+SipFis,MDPSevkLoc,,MDP de Sevk Emrinin Gonderileceği Lokasyon,Edit,,txt,,,,,,,,TANCA
+SipFis,MDPSipMikCont,Evet,MDP de sipariş miktarı kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,MdpSort,Hayir," MDP de sıralama şekli ""Sipariş Tarihi + Sipariş No"" şeklinde olsun mu?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,MDPStkMikCont,Evet,MDP de stok miktarı kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,MikKontrol,Hayir,Miktarsız sipariş girilebilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,MtxKalanSipGoster,Hayir,Sipariş içindeki matrix ekranda satınalma/pazarlama kalanı gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoEntry,Evet,Fiyatsız sipariş  kaydedilmesine izin verilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoFiyAlert,Hayir,Fiyatsız sipariş satırları için kaydetme sırasında uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoOzKod1,Hayir,Siparişlerde Özel Kod 1 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoOzKod2,Hayir,Siparişlerde Özel Kod 2 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoOzKod3,Hayir,Siparişlerde Özel Kod 3 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoOzKod4,Hayir,Siparişlerde Özel Kod 4 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoOzKod5,Hayir,Siparişlerde Özel Kod 5 in girilmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NoSatirTerTar,Hayir,Satırlarda termin tarihi girlmesi zorunlu olsun mu ?,ComboBox,Evet&Hayir&Satinalmalarda&Pazarlamalarda,,,,,,,,,TANCA
+SipFis,NotAlertA,Hayir,SatınAlma Sipariş ekranlarında eski bir fiş çağrıldığında not kısmı dolu ise kullanıcı uyarılsın mı? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,NotAlertS,Hayir,Pazarlama Sipariş ekranlarında eski bir fiş çağrıldığında not kısmı dolu ise kullanıcı uyarılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,OldSip4Urt,Hayir,Üretime gönderilen siparişin geçmişteki özel durumlarını hatırlat ? (Yoksa),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,PrintBagSipVsb,Hayir,Sipariş yazdırma kısmında bağlantılı siparişe ait veriler görüntülenebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,PSipTerminTar,Hayir,Pazarlama Siparişinde Termin Tarihi girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,RBFrkFiy,Evet,Barkodla okunan ürünlerin fiyatı farklı olanlar ayrılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SatOzKod1T,Özel Kod 1,Sipariş Satır Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+SipFis,SatOzKod2T,,Sipariş Satır Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+SipFis,SatOzKod3T,,Sipariş Satır Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+SipFis,ScreenRefresh,Evet,Üretim emri bağlı bir sipariş ekranına başka bir ekrandan geçiş yapıldığında sipariş yeniden yüklensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SevkIrsNoDoldur,Evet,Sevkiyat fişinden irsaliye oluşturur iken irsaliye numarasını otomatik atsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SevkLokasyonSec,Evet,Sevk emri oluşturulurken lokasyon seçilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SevkSameOdTip,Hayir,Sevk emri için ödeme şekli kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SevkSevkTurSec,Evet,Sevk emri için sevk türü seçilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SevkStokMikCont,Hayir,Sevk et ekranında stokta olmayanları göstermesin?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipAKalTip,StokAsor,"Siparişte ""Pazarlama Kalanı-Stok Mevcut Karşılaştırması (Asorti)"" hangi asortiler üzerinden çalışsın",ComboBox,StokAsor&BarkodAsor,,,,,,,,,TANCA
+SipFis,SipAlanSec,Hayir,Siparişi alan bilgisi seçilebilir olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SiparisDonustur,Hayir,Bir pazarlama sipariş satırı sağ tuş ile birden çok alış siparişine dönüştürelebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipBagMikChange,Hayir,Bağlantılı olan siparişlerde miktarsal değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipCopyLot,Hayir,Siparişler kopyalanırken lot numaraları kopyalasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipCpyCr,Evet,Sipariş kopyalama işleminde cari seçimi yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipCpyMk,Hayir,Sipariş kopyalama işleminde kopya adeti sorsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipFatStk,Evet,Siparişten fatura ve irsaliyeye gönderim yapılırken stok mevcut kontrolü yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipFrMikChange,Hayir,Faturaya veya irsaliyeye gönderilen siparişlerde miktarsal değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipOzKod1,Özel Kod 1,Sipariş özel kod 1 tanımı,Edit,OzelKod1,txt,,,,,,,,TANCA
+SipFis,SipOzKod10,Özel Kod 10,Sipariş özel kod 10 tanımı,Edit,OzelKod10,txt,,,,,,,,TANCA
+SipFis,SipOzKod2,Özel Kod 2,Sipariş özel kod 2 tanımı,Edit,OzelKod2,txt,,,,,,,,TANCA
+SipFis,SipOzKod3,Özel Kod 3,Sipariş özel kod 3 tanımı,Edit,OzelKod3,txt,,,,,,,,TANCA
+SipFis,SipOzKod4,Özel Kod 4,Sipariş özel kod 4 tanımı,Edit,OzelKod4,txt,,,,,,,,TANCA
+SipFis,SipOzKod5,Özel Kod 5,Sipariş özel kod 5 tanımı,Edit,OzelKod5,txt,,,,,,,,TANCA
+SipFis,SipOzKod6,Özel Kod 6,Sipariş özel kod 6 tanımı,Edit,OzelKod6,txt,,,,,,,,TANCA
+SipFis,SipOzKod7,Özel Kod 7,Sipariş özel kod 7 tanımı,Edit,OzelKod7,txt,,,,,,,,TANCA
+SipFis,SipOzKod8,Özel Kod 8,Sipariş özel kod 8 tanımı,Edit,OzelKod8,txt,,,,,,,,TANCA
+SipFis,SipOzKod9,Özel Kod 9,Sipariş özel kod 9 tanımı,Edit,OzelKod9,txt,,,,,,,,TANCA
+SipFis,SipRezStkOp,Hayir,Stok miktarı rezerv üzerinde sınırlayıcı etkide bulunabilir mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipSendCheck,Evet,İrsaliye veya faturaya sipariş fazlası gönderilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipSilPsw,2023,Pazarlama Satınalma ve Teklif fişlerinin silinebilmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+SipFis,SipSSBelgeNo,Hayir,Belge numarası girilmek zorunda mı?,ComboBox,Pazarlama&Satınalma&Tümü&Hayir,,,,,,,,,TANCA
+SipFis,SipSvMikChange,Hayir,Sevkiyata veya Ürün Kabule gönderilen siparişlerde miktarsal değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipUrMikChange,Hayir,Üretime gönderilen siparişlerde miktarsal değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SipYazSort,Yok,Sipariş yazdırılırken neye göre sıralansın?,ComboBox,Yok&Stok&Stok+Renk,,,,,,,,,TANCA
+SipFis,SortKod,Tanim,Pazarlama Siparişlerinde Stok listesi Hangi Kolona göre sıralansın?,ComboBox,SKod&Tanim&OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&ASKod,,,,,,,,,TANCA
+SipFis,SpeStkSec,Hayir,Siparişte ürün seçiminde stok özelliklerine göre sorgulama olsunmu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SPrivateCodeEnabled,Evet,Sipariş ekranlarında Özel Kod alanlarına elle müdahale edilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SSipOdePlan,Hayir,Satınalma Siparişinde Ödeme Planı girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SSipRefresh,Hayir,Pazarlama Sipariş veya Teklif de sağ tuş ile siparişe gönder işleminden sonra ekran yenilensin mi ? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SSipTerminTar,Hayir,Satınalma Siparişinde Termin Tarihi girmek zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,SSortKod,Tanim,Satınalma Siparişlerinde Stok listesi Hangi Kolona göre sıralansın?,ComboBox,SKod&Tanim&OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10&ASKod,,,,,,,,,TANCA
+SipFis,StkResimGoster,Hayir,"Sipariş ekranlarında stok resimleri ""Resim Göster"" çekine gerek olmadan otomatikmen gösterilsin mi?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,StokReadonly,Hayir,Stok satırlarında stok kodu elle yazılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,TeklifSipChange,Hayir,Siparişe dönüştürülen Teklif satırlarında değişiklik yapılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,TerminCezaOran,OzKod10,Sipariş termin ceza oranının yazılacağı Özel Kod alanı: ,ComboBox,OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10,,,,,,,,,TANCA
+SipFis,TerTarEksi,0,Pazarlama siparişleri satınalmaya döndürülürken termin tarihleri kaç gün eksiltilsin?,Edit,,num,,,,,,,,TANCA
+SipFis,ToOdeFat,Hayir,Sağ tuş irsaliye/fatura gönderiminde ödeme planı irsaliye/fatura ya yansısın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,UrFilPross,,Siparişten hammadde değiştirmede sınırlamak istediğiniz proses,Edit,,txt,,,,,,,,TANCA
+SipFis,UrtTlpOrderCol,Stok Kodu,Pazarlamadan üretime talepler de rapor kayıt sıralaması hangi alana göre yapılsın?,ComboBox,Stok Kodu&Satır Indexi,,,,,,,,,TANCA
+SipFis,UTlpColor,Hayir,Siparişin Üretimden Talepte bekleyen bir parçası var ise farklı renkte görmek ister misiniz ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,ViewACode,Hayir,Stok listesinde carinin alternatif kodlarını görmek ister misiniz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,XMLFiyRefresh,Hayir,Sipariş fişinde xml den okuma yapılırken fiyat güncellensin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+SipFis,YazSortYaz,Hayir,Sipariş yazdırılırken sıralama ekranını çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,AutoBelNo,Evet,Belge numarasının otomatik artmasını ister misiniz ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,BCNewSatir,Hayir,Fişte okutulan her barkod yeni satıra yazılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,CariCheckit,Hayir,Stok fişlerinde cari girilme zorunluluğu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,CariReadonly,Hayir,Cari kod elle yazılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,CariSecVisible,Evet,Stok Fişinde cari seçme bölümü gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,eksistock,Evet,Eksi(-) ye düşen ürünü satarken uyarı versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,eksistock2,Hayir,Eksi(-) ye düşen ürünün satışına izin versin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,EskiFisTur,Hayir,Stok fişlerinde eski fişleri çağırırken çıkan ekranda fiş türüne göre filtreleme olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,FastStokList,Hayir,Stok listesi boş açılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,FiyTumLok,Hayir,Fiyat hesaplanırken tüm lokasyonlara bakılsın?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,GrpBarCode,Sorsun,Barkod hazırlama şekli nasıl gerçekleştirilsin?,ComboBox,Sorsun&Detay&Gruplu,,,,,,,,,TANCA
+StkFis,Kalemisk,Evet,Kalem iskonto görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,Kalemkdv,Evet,Kalem KDV görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,OzKod1,Özel Kod 1,Stok Fişi Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+StkFis,OzKod2,Özel Kod 2,Stok Fişi Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+StkFis,OzKod3,Özel Kod 3,Stok Fişi Özel Kod 3 ün adı,Edit,,txt,,,,,,,,TANCA
+StkFis,OzKod4,Özel Kod 4,Stok Fişi Özel Kod 4 ün adı,Edit,,txt,,,,,,,,TANCA
+StkFis,OzKod5,Özel Kod 5,Stok Fişi Özel Kod 5 in adı,Edit,,txt,,,,,,,,TANCA
+StkFis,PrnFile,,"""Barkoda yazdır"" için kullanılacak dizayn dosyası",Edit,,txt,,,,,,,,TANCA
+StkFis,SaveMuh,Hayir,Stok Fişinde kaydetme işleminden sonra muhasebeleşme otomatik başlasın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,SayimCFisTip,0,Sayım çıkış fiş türü,Edit,,num,,,,,,,,TANCA
+StkFis,SayimGFisTip,0,Sayım giriş fiş türü,Edit,,num,,,,,,,,TANCA
+StkFis,SortKod,SKod,Stok listesi Hangi Kolona göre sıralansın?,ComboBox,SKod&Tanim&StokTip&GrupKod&OzKod1&OzKod2&OzKod3&OzKod4&OzKod5&OzKod6&OzKod7&OzKod8&OzKod9&OzKod10,,,,,,,,,TANCA
+StkFis,StkListUretici,Hayir,Stok listesinde üretici görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+StkFis,StkSilPsw,,Stok fişlerinin silinebilmesi için gerekli olan şifre?,Edit,,txt,,,,,,,*,TANCA
+StkFis,StokReadonly,Hayir,Stok fişlerinde stok kodu elle yazılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,AFSizKartKaydet,Evet,Alış Fiyatı girilmeyen stok kartı kaydedilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,BdnCheck,Evet,Bedenli kullanım olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,DefaultBirim,CIFT,Aktif birim tipi,Edit,,txt,,,,,,,,TANCA
+Stok,DefaultKDV,10,KDV oranı,Edit,,num,,,,,,,,TANCA
+Stok,DefaultKritik,0,Kritik seviye miktarı,Edit,,num,,,,,,,,TANCA
+Stok,DefaultOptimal,0,Optimal seviye miktarı,Edit,,num,,,,,,,,TANCA
+Stok,EANBaslangic,868460100001,EAN Barkodu oluşturulurken kullanılacak ilk barkod (Ülke Kodu + Firma Kodu + ilk ürün kodu = 12 hane),Edit,,txt,,,,,,,,TANCA
+Stok,EkstreBasTar,,Stok ekstresi başlangıç tarihi,Edit,,txt,,,,,,,,TANCA
+Stok,ExNetTutC,Fiyat,Stok ekstresinde net çıkan tutarı hesaplanırken hangi fiyat kullanılsın,ComboBox,NetFiyat&Fiyat,,,,,,,,,TANCA
+Stok,ExNetTutG,Fiyat,Stok ekstresinde net giren tutarı hesaplanırken hangi fiyat kullanılsın,ComboBox,NetFiyat&Fiyat,,,,,,,,,TANCA
+Stok,ExNetVis,Hayir,Stok ektresinde net fiyat ve net tutarlar gözüksün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,FiyRnkBed,RenkBeden,Stok kartlarının içinden fiyat ataması renk beden bazında olsun mu?,ComboBox,RenkBeden&Renk&Beden&Olmasin,,,,,,,,,TANCA
+Stok,KayUyariBarkod,Hayir,"Stok Kartı kaydedildiğinde, Barkod yoksa uyarı versin mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,KayUyariFiyat,Hayir,"Stok Kartı kaydedildiğinde, Fiyat yoksa uyarı versin mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,KayUyariRenk,Hayir,"Stok Kartı kaydedildiğinde, Renk yoksa uyarı versin mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,LastBelgeNo,Hayir,"LAST Modülünden oluşturulan siparişlerin belge numarasına ""LAST"" yazılsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,MevDurumPasifRenk,Evet,Pasif edilen renk Stok kartı içinde Stok Mevcutları ve Stok Durumu sekmesinde dikkate alınsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,MuhLocKont,Evet,Stok kartlarının muhasebe kod bağlantıları lokasyon bazlı olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,OzKod1Tanim,Özel Kod 1,Alternatif Kod Özel Kod 1 in tanımı,Edit,,txt,,,,,,,,TANCA
+Stok,OzKod2Tanim,Özel Kod 2,Alternatif Kod Özel Kod 2 in tanımı,Edit,,txt,,,,,,,,TANCA
+Stok,OzKod3Tanim,Özel Kod 3,Alternatif Kod Özel Kod 3 in tanımı,Edit,,txt,,,,,,,,TANCA
+Stok,OzKod4Tanim,Özel Kod 4,Alternatif Kod Özel Kod 4 in tanımı,Edit,,txt,,,,,,,,TANCA
+Stok,OzKod5Tanim,Özel Kod 5,Alternatif Kod Özel Kod 5 in tanımı,Edit,,txt,,,,,,,,TANCA
+Stok,ResEnglish,Hayir,Stok Kartına atanan resim dosyalarında türkçe karakter olmasın?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,ResRnkBed,RenkBeden,Stok kartlarının içinden Resim ataması renk beden bazında olsun mu?,ComboBox,RenkBeden&Renk&Beden&Olmasin,,,,,,,,,TANCA
+Stok,RnkCheck,Evet,Renkli kullanım olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,RnkTipSec,Hayir,"Stok kartına renk eklerken, renk listesinden önce renk tipi sorulsun mu?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,SFSizKartKaydet,Hayir,Satış Fiyatı girilmeyen stok kartı kaydedilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,SKodSTanim,Hayir,Tanımlanan stok kodu stok tanımına atansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,SkodVisibile,Evet,Stok Kodu alanına müdahale edilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,StkDurABdn,Hayir,"Stok Durumu ekranında, barkod ile ürün çağırıldığında tüm bedenler görünsün",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,StkDurALoc,Hayir,"Stok Durumu ekranında, tüm lokasyonlar seçilsin",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,StkDurARnk,Hayir,"Stok Durumu ekranında, barkod ile ürün çağırıldığında tüm renkler görünsün",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,StkUrtLokasyon,Hayir,Stok kartının belirtilen lokasyon yetkilendirmesi dışında diğer lokasyonlarda bulunan üretim bilgileri gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok,StokListUrt,Hayir,Stok listesinde üretici görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Stok_gizli,MasterTip,*,,Edit,,txt,,,,,,,,TANCA
+Stok_Gizli,ZorunluMaster,*,,Edit,,txt,,,,,,,,TANCA
+Taksit,DefArtikTaksit,1,Taksitin bölümünden kalan kaçıncı taksite eklensin,Edit,,num,,,,,,,,TANCA
+Taksit,DefaultDay,20,Taksitin yapılacağı günün ilk değeri,Edit,,num,,,,,,,,TANCA
+Taksit,DefaultOde,N,Taksitin ödeme tipi,Edit,,txt,,,,,,,,TANCA
+Taksit,DefaultTaksit,5,Taksit sayısı,Edit,,num,,,,,,,,TANCA
+Taksit,TaksitCanChange,Evet,Taksit sayısı Değiştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Taksit,TaksitFaizOran,0,Taksit satış ödemelerinde aylık faiz oranı,Edit,,num,,,,,,,,TANCA
+Teminat,HarOzKod1,Özel Kod 1,Teminat Mektubu Özel Kod 1 in adı,Edit,,txt,,,,,,,,TANCA
+Teminat,HarOzKod2,Özel Kod 2,Teminat Mektubu Özel Kod 2 nin adı,Edit,,txt,,,,,,,,TANCA
+TTFis,BCLocLen,5,Yazdırılan hareket barkodundaki lokasyon kodu ilk kaç hane olsun?,Edit,,num,,,,,,,,TANCA
+TTFis,CariZorunlu,Hayir,Tamir Fişi kaydedebilmek için cari girmek zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,HarPerZorunlu,Hayir,Tamir Fişi hareketinde personel seçimi zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,HarZorunlu,Hayir,Tamir Fişi kaydedebilmek için hareket girişi zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,iadeNZorunlu,Evet,Tamir Fişi kaydedebilmek için iade nedeni girmek zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,irsOtoiptal,Hayir,Tamir fişinden oluşturulan irsaliyelerin iptal özelliği otomatik olarak seçilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,KapaGoster,Hayir,Tamir fişi içinde eski fiş çağırılırken kapanmış tamir fişleri gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,MusteriReadOnly,Evet,Dolu tamir fişinin carisi değiştirilebilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,MusteriZorunlu,Hayir,Tamir Fişi kaydedebilmek için müşteri girmek zorunlu mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,SatirMagaza,Evet,Satır bilgilerinde mağaza bilgisi girilmesi zorunlu olsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,SortKod,Hayir,Stok listesi tanıma göre sıralansın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,UniqueBelgeNo,Evet,Tamir fişinde aynı belge numarası tekrar kullanılabilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+TTFis,YazSonHrk,Hayir,Fiş yazdırılırken yalnızca son hareket görünsün mü?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,1_HamFireOut,Evet,Üretim sırasında hammadde firelerinin düşmesini istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,1_HamOut,Evet,Üretim sırasında hammaddelerin düşmesini istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,1_YanFireOut,Evet,Üretim sırasında yan sanayi firelerinin düşmesini istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,1_YanOut,Evet,Üretim sırasında yan sanayilerin düşmesini istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,2_HamEvre,Proseste,Hammadde çıkışlarının üretimin hangi evresinde düşülmesini istiyorsunuz?,ComboBox,Basinda&Proseste&Sonunda&Emirde,,,,,,,,,TANCA
+Uretim,2_HamFireEvre,Proseste,Hammadde firelerin üretimin hangi evresinde düşülmesini istiyorsunuz?,ComboBox,Basinda&Proseste&Sonunda&Emirde,,,,,,,,,TANCA
+Uretim,2_YanEvre,Proseste,Yan Sanayi girislerinin üretimin hangi evresinde gerceklesmesini istiyorsunuz?,ComboBox,Basinda&Proseste&Sonunda&Emirde,,,,,,,,,TANCA
+Uretim,2_YanFireEvre,Proseste,YanSanayi Firelerin üretimin hangi evresinde düşülmesini 0istiyorsunuz?,ComboBox,Basinda&Proseste&Sonunda&Emirde,,,,,,,,,TANCA
+Uretim,AsBCCopyC,1,Asorti barkodlarının kaç kopya olarak dökülmesini istersiniz?,ComboBox,1&2&3&4&5&6&7&8&9&10,,,,,,,,,TANCA
+Uretim,BcinUseMikLn,5,Emirden alinan Barkod içindeki miktar sondan kaç karakterde?,Edit,,num,,,,,,,,TANCA
+Uretim,BcinUseMikLnD,3,Emirden alinan Barkod içindeki miktarın desimal basamak sayısı,Edit,,num,,,,,,,,TANCA
+Uretim,BcinUseSipLn,0,Emirden alinan Barkod içindeki sipariş numarasi baştan kaç karakterde?,Edit,,num,,,,,,,,TANCA
+Uretim,BcMikEkran,Hayir,Üretim emri ekranından  barkod hazırlanırken miktar bölme ekranı çıksın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,ChangeOrdSipAsorti,Hayir,Üretim emri başka bir siparişle ilişkilendirme de asorti dikkate alınsın mı? (Ürün-Renk),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,CTRLMHamVisibleOp,Hayir,CTRL+M model ağacı bağımsız çalışsın mı ? (1610 öncesi)),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,CtrlMOzKod1,OzelKod1,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 1 tanımı,Edit,OzelKod1,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod10,OzelKod10,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 10 tanımı,Edit,OzelKod10,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod2,OzelKod2,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 2 tanımı,Edit,OzelKod2,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod3,OzelKod3,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 3 tanımı,Edit,OzelKod3,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod4,OzelKod4,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 4 tanımı,Edit,OzelKod4,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod5,OzelKod5,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 5 tanımı,Edit,OzelKod5,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod6,OzelKod6,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 6 tanımı,Edit,OzelKod6,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod7,OzelKod7,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 7 tanımı,Edit,OzelKod7,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod8,OzelKod8,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 8 tanımı,Edit,OzelKod8,txt,,,,,,,,TANCA
+Uretim,CtrlMOzKod9,OzelKod9,Sipariş aşamasında hammdde düzenleme ekranı(Ctrl M) özel kod 9 tanımı,Edit,OzelKod9,txt,,,,,,,,TANCA
+Uretim,DelConDahIrs,Hayir,Üretim emri iptalinde bağlı dahili irsaliyeler de silinsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,Emirhierarchy,1,Bagli YM Emirleri bitmeden ata emrin bitirilmesi kullanıcı uyarılarak  engellensin mi ?,ComboBox,İzin ver&Uyar&Engelle,,,,,,,,,TANCA
+Uretim,EmpProcPrint,Evet,Emir yazdırılırken hammaddesi olmayanlarda yazdırılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,EmRePrinted,Hayir,Üretim emri ekranında emir birden fazla defa yazdırılabilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,EmYazHamBirConv,Hayir,Üretim emri yazdırılırken hammadde birimi kartın birimine çevrilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,GrpBarCode,Sorsun,Barkod hazırlama şekli nasıl gerçekleştirilsin?,ComboBox,Sorsun&Detay&Gruplu,,,,,,,,,TANCA
+Uretim,HammaddeLoc,,Üretimde kullanılan hammadde lokasyonu,Edit,,txt,,,,,,,,TANCA
+Uretim,HamOutFisCariToSip,Hayir,Hammadde çıkış fişlerinde cari kod üretim emrine bağlı siparişden alınsın mı?(Üretim emri-Tek cari),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,HamOutOp,Hayir,Hammadde çıkış fişi Ürün renk beden ayrıntısına göre oluşsun mu ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,HamOutQry,Hayir,Proses bittiğinde hammaddelerin çıkması için soru sorulmasını istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,HamSFisTip,0,Üretime giren hammaddeler için oluşturulacak stok çıkış fişinin türü,Edit,,num,,,,,,,,TANCA
+Uretim,HFireSFisTip,0,Üretime giren hammaddelerin fireleri için oluşturulacak stok çıkış fişinin türü,Edit,,num,,,,,,,,TANCA
+Uretim,Klp2StkOzKod,,Ön Kalıp çalışmaları için ürünlerde kalıp kodunun girildiği özel kod,Edit,,txt,,,,,,,,TANCA
+Uretim,LocalCKod,,Üretim için kullanılan firma içi cari kodu giriniz,Edit,,txt,,,,,,,,TANCA
+Uretim,MamulSFisTip,0,Üretimden çıkan mamuller için oluşturulacak stok giriş fişinin türü,Edit,,num,,,,,,,,TANCA
+Uretim,MFireSFisTip,0,Üretime çıkan mamullerin fireleri için oluşturulacak stok çıkış fişinin türü,Edit,,num,,,,,,,,TANCA
+Uretim,MoAlGirCarp,Evet,Modelde kullanilan hammadde alternetiflerinin girişinde çarpan sorulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,MoBedGrpFil,Evet,Model kartının hızlı giriş işleminde beden grubuna göre sınırlama yapılsın mı?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,ModelCopy,Hayir,Model Çoğaltma yapılabilsin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,ModelParTnm,Evet,Model Ağacı açılırken eklenen parçaların tanımına hammaddenin tanımı otomatik eklensin.,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,MrpFaturalananOzKod,,Mrp de Faturalanan  alanı için dikkate alınacak Özel Kod alanı ,Edit,,txt,,,,,,,,TANCA
+Uretim,MrpHamSatLoc,,MRP Satınalma işleminde sabit lokasyon,Edit,,txt,,,,,,,,TANCA
+Uretim,MrpPazKalanOzKod,,Mrp de Pazarlama Kalanı alanı için dikkate alınacak Özel Kod alanı ,Edit,,txt,,,,,,,,TANCA
+Uretim,MrpRangeDate,90,Mrp nin dikkate alacağı gelecekteki gün sayısı,Edit,,num,,,,,,,,TANCA
+Uretim,MRPStyle,MRP,Üretimde genel olarak dikkate alınacak MRP tipi ne olsun  ?,ComboBox,MRP&MRP2,,,,,,,,,TANCA
+Uretim,MtrxFontSize,9,Emir yazdırılırken matrix ekran font büyüklüğü kaç olsun?(Varsayılan: 9),Edit,,num,,,,,,,,TANCA
+Uretim,OutTypeHam,ProsesGun,Hammaddeler depodan çıkarken oluşacak fişler,ComboBox,ProsesGun,,,,,,,,,TANCA
+Uretim,OutTypeUr,Gun,Ürünler depoya çıkarken oluşacak fişler,ComboBox,Gun&Hareket,,,,,,,,,TANCA
+Uretim,OutTypeYan,ProsesGun,Yansanayiler depodan çıkarken oluşacak fişler,ComboBox,ProsesGun,,,,,,,,,TANCA
+Uretim,PersonFasonFisDel,Hayir,Proses geri alma işlemi sırasında fason cari fiş bağlantısı koptuğunda cari fişte silinsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,Plan2EmirihtEkr,Evet,Planlamadan emir oluşturulurken hammadde ve yarımamul eksikleri gösterilsin mi?(Yavaşlatır),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,PrintAcodeShow,Evet,Üretim emri yazdırında hammaddeler listelenirken siparişe bağlı alternatif kod bilgileri dikkate alınsın mı ?  ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,QRMtrxFltr,Evet,Üretim emrinde ürün matrix dağılımlarını yazarken mevcutsuz bedenleri gösterme,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,RunMRP2,Hayir,Sipariş kaydedildiğinde MRP2 çalışsın mı ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,SipKalGon,Hayir,Siparişten üretime gönderim yapılırken kalan miktar kullanılsın,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,SipOzHamCh,Hayir,Siparişte hammadde değiştirilirken StokGrubu kullanılsın(Std:Alternatif kullanılır),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,SortByRapPr,Hayir,Üretim emrinin girilen rotanın tersi sırada çıkmasını ister misiniz?(xyazdır proses),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,SortByRapPr2,Hayir,Üretim emrinin girilen rotanın tersi sırada çıkmasını ister misiniz?(hammadde),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,SpeStkHSec,Hayir,Hammadde seçiminde stok özelliklerine göre sorgulama olsunmu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,StListMevcut,Evet,Hammadde seçme ekranında mevcut gösterilsin mi?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,TamEmDahIrsOk,Hayir,Tamamlanmış üretim emrine bağlı dahili irsaliye oluşturulabilsin mi ?(Warehouse),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UELotNoSabitNum,Hayir,Üretim emri sonucunda depoya ürün girişinde lot bilgisi son oluşan lot numarasından devam etsin mi ?),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UELotNoWhatNumber,5,Üretim emri sabit lot numarası kaç hane olsun ?,Edit,,txt,,,,,,,,TANCA
+Uretim,UELotOtoEmirNo,Hayir,Üretim emri sonucu oluşan lot numarası emir numarası olsun mu? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UEOtoLotNo,Hayir,Üretim emri sonucunda depoya ürün girişinde lot bilgisi istensin mi ?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UESinxNot,Hayir,Oluşturulan üretim emirlerinin notlarında sipariş satırindexinin görünmesini istermisiniz? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UF2FisTyp,AlacakDekontu,Fason fisin oluşturulacağı fiş tipi?,ComboBox,AlacakDekontu&BorcGiderGirisi&HizmetFaturasi,,,,,,,,,TANCA
+Uretim,UFCOutLoc,,Fason fişlerinin yansıtalacağı lokasyon,Edit,,txt,,,,,,,,TANCA
+Uretim,UFiyHType,Yok,Hammadde çıkışında fiyat hesaplansın mı?,ComboBox,Yok&Alis&AAktif&AFifo&ALifo&AAgrlk&Satis&SAktif&ABasit,,,,,,,,,TANCA
+Uretim,UFiyHTypeTip,,Hammadde çıkışında kullanılacak fiyat tipinin kodu,Edit,,txt,,,,,,,,TANCA
+Uretim,UFiySType,Yok,Ürün veya yarimamül girişinde fiyat hesaplansın mı?,ComboBox,Yok&Alis&AAktif&AFifo&ALifo&AAgrlk&Satis&SAktif&HTMal,,,,,,,,,TANCA
+Uretim,UFiySTypeTip,,Ürün veya yarimamül girişinde fiyat tipinin kodu,Edit,,txt,,,,,,,,TANCA
+Uretim,UPer1Pros,Evet,Üretim personeli sadece tanımlandığı proseslerde mi görev alabilsin?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrAlBcView,Hayir,"Üretim emrindeki ürünlerin, ürün renk dağılımlı dbf çıktısı alınabilsin mi?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrDepartCode,U,Üretimde görev alan departman kodu,Edit,,txt,,,,,,,,TANCA
+Uretim,UrKalipCode,K,Kalıp kodunu giriniz,Edit,,txt,,,,,,,,TANCA
+Uretim,UrOutConAddGider,Hayir,Gider girişlerinin ürün maliyetlerine dahil edilmesini istiyor musunuz? ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrOutConGiderOpt,F6,"Üretim emri maliyetine etki edecek gider seçenekleri(F6-F9):(Varsayılan F6. Diğer gider türlerini araya virgül ile ekleyiniz. Örn:F6,F7)",Edit,,txt,,,,,,,,TANCA
+Uretim,UrOutCrFAck,Hayir,Cariler için oluşan fişin açıklamasında Yazan bilginin içinde hangisi olsun?,ComboBox,Siparis_StokKodu&ilk_emrin_ModelKodu,,,,,,,,,TANCA
+Uretim,UrOutCrFis,Hayir,Proses bitimlerinde makina bağlantılı fason carilere cari fiş oluşturulsun mu?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrOutLoc,Hayir,Ürün çıkışında lokasyon seçmek ister misiniz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrOutQry,Hayir,Üretim bittiğinde ürünlerin çıkması için soru sorulmasını istiyor musunuz?,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrOutYMECr,Hayir,"Bagli YM Emirleri bitince oluşan fişin carisi,ata emrin makina_fason bağlantısından alınsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrOutYMRootOrd,Hayir,"Bagli YM Emirleri bitince oluşan fişin carisi,ata emir için oluşan fişin carisinden alınsın mı?",ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrPaPaQues,Hayir,Üretim emri oluşturulurken ürün detaylarına göre parçalama sorusu sorulsun mu?(1 ürün 1 emir),ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrPer2Fason,Hayir,Personel kartlarının cari kart bağlantıları üzerinden fason çalışma mantığı kurulsun.,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Uretim,UrPer2FasTyp,Personel,Personel için hesaplanan ücret hangi gider tipinden hesaplansın?,ComboBox,Personel&Urun&Personel-Urun,,,,,,,,,TANCA
+Uretim,VisEmFisTnm,Ham.Lokasyonu,Basit üretimden oluşturulan fişlerde satır açıklamasına yazılacak bilgi nereden alınsın.,ComboBox,Ham.Lokasyonu&Tanim&HSKod&USKod,,,,,,,,,TANCA
+Uretim,WMacFasonOp,Üretim Özel Gider,Makine bağlantılı fason fiş sistemi nasıl çalışsın?,ComboBox,Üretim Özel Gider&Fason a Özel Gider,,,,,,,,,TANCA
+Uretim,WorkOption,DERI,İşlem zamanı hesaplama için çalışma şekli ne olsun ?,ComboBox,DERI&SUNI&TEKSTİL,,,,,,,,,TANCA
+Uretim,WRParamPass,,Wrietur Parametre ekranı için  şifre,Edit,,txt,,,,,,,*,TANCA
+Uretim,YanSFisTip,0,Üretimden çıkan yarımamuller için oluşturulacak stok giriş fişinin türü,Edit,,num,,,,,,,,TANCA
+Uretim,YazMtrxFSize,12,Üretim Emri Yazdırındaki Matrix ürün dağılımının font büyüklüğü,Edit,,,,,,,,,,TANCA
+Uretim,YFireSFisTip,0,Üretimden çıkan yarımamullerin fireleri için oluşturulacak stok çıkış fişinin türü,Edit,,num,,,,,,,,TANCA
+Uyari,TamirIgnoreHar,,Dikkate alınmayacak hareket kodları (; il ayrılmış),Edit,,txt,,,,,,,,TANCA
+Zorunlu_Cari,Adr1,Hayir,Adres 1,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Adr2,Hayir,Adres 2,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,AlFiyTip,Hayir,Özel Alış Fiyat Tipi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Banka,Hayir,Banka,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,CName,Hayir,Cari Adı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,CResim,Hayir,Resim veya logo,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,DefPc,Hayir,Para Cinsi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EF_CompanyId,Hayir,EF_CompanyId,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EF_Identifier,Hayir,EF_Identifier,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EF_KamuOdemeVKN,Hayir,Kamu VKN,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EF_RegistrationName,Hayir,EF_RegistrationName,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EFOnek,Hayir,EFOnek,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EIRS_Identifier,Hayir,EIRS_Identifier,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,EIRSOnek,Hayir,EIRSOnek,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,eMail,Hayir,e-mail,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,ESMMOnek,Hayir,ESMMOnek,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Fax,Hayir,Fax,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Hesap,Hayir,Hesap No,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,HKGun,Hayir,Hesap Kesim Günü,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,IBAN,Hayir,IBAN,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,ilce,Hayir,İlçe,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,iskonto,Hayir,İskonto Oranı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,KEP,Hayir,KEP,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,KrediLimit,Hayir,Kredi Limiti,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Kredisi,Hayir,Kredisi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Krl_Not,Hayir,Krl_Not,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Location,Hayir,Location,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,MuhKod,Hayir,MT Kodu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OdemeSekil,Hayir,Ödeme Şekli,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OdemeVade,Hayir,Ödeme Vadesi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod1,Hayir,Özel Kod 1,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod10,Hayir,Özel Kod 10,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod2,Hayir,Özel Kod 2,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod3,Hayir,Özel Kod 3,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod4,Hayir,Özel Kod 4,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod5,Hayir,Özel Kod 5,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod6,Hayir,Özel Kod 6,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod7,Hayir,Özel Kod 7,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod8,Hayir,Özel Kod 8,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,OzKod9,Hayir,Özel Kod 9,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,PKod,Hayir,Posta Kodu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Plaka,Hayir,Plaka,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Profil_Id,Hayir,Profil_Id,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,RiskGrupKod,Hayir,RiskGrupKod,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Riski,Hayir,Riski,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,RiskLimit,Hayir,Risk Limiti,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,SatFiyTip,Hayir,Özel Satış Fiyat Tipi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Sehir,Hayir,Şehir,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Sube,Hayir,Şube,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,TCKimlik,Hayir,TC Kimlik No,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Tel1,Hayir,Telefon,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Tel2,Hayir,Telefon 2,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,TicSicilNo,Hayir,Ticari Sicil Numarası,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,ToleransOrani,Hayir,Tolerans Oranı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Ulke,Hayir,Ülke,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,Unvan,Hayir,Firma Ünvanı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,VDar,Hayir,Vergi Dairesi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,VNo,Hayir,Vergi Numarası,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Cari,WWW,Hayir,Web,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Adr1,Hayir,Adres,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Adr2,Hayir,Adres,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,AyakkabiNo,Hayir,Ayakkabı no,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,EF_Identifier,Hayir,EF_Identifier,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,eMail,Hayir,e-mail,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,EsAdi,Hayir,Eşinin Doğum Tarihi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Fax,Hayir,Fax,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Iskonto,Hayir,İskonto Oranı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,ilce,Hayir,İlçe,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,KrediLimit,Hayir,Kredi Limiti,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Kredisi,Hayir,Kredisi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Meslek,Hayir,Meslek,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,MName,Hayir,Müşterinin Adı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,MuhKod,Hayir,Muhasebe Kodu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,OgrenimDurumu,Hayir,Öğrenim Durumu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,PassNo,Hayir,PassNo,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,PassportNumISOCode,Hayir,PassportNumISOCode,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,PKod,Hayir,Posta Kodu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,PP_Id,Hayir,PP_Id,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Resim,Hayir,Resim,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Riski,Hayir,Riski,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,RiskLimit,Hayir,Risk Limiti,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Sehir,Hayir,Şehir,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Semt,Hayir,Semt,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,TCKimlikNo,Hayir,TC Kimlik No,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Tel1,Hayir,Ev Tel,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Tel2,Hayir,İş Tel : ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Tel3,Hayir,Cep Tel,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,Ulke,Hayir,Ülke,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,UyeNo,Hayir,Üye No,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,VDar,Hayir,Vergi Dairesi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,VNo,Hayir,Vergi Numarası,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,WorkAdr1,Hayir,Adres :,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,WorkAdr2,Hayir,Adres :,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,WorkFax,Hayir,Faks :,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,WorkName,Hayir,İşyeri adı ve Ünvanı : ,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,WorkSehir,Hayir,Şehir :,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Mus,WWW,Hayir,Web,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,BEDKod,Hayir,BEDKod,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Birim,Hayir,Birim,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,CanRezerv,Hayir,CanRezerv,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Carpan,Hayir,Çarpan,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,CinsKod,Hayir,Cinsiyet,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,EanCode,Hayir,EAN Barkod,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,GRUPKOD,Hayir,Stok Grubu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,GTip,Hayir,GTip Kodu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,KDVOran,Hayir,KDV Oranı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,KGrupKod,Hayir,Kalite Grup,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,KritikSeviye,Hayir,Raf Ömrü,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Lotlu,Hayir,Lotlu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,ModelAcma,Hayir,ModelAcma,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,MrpType,Hayir,Mrp Tipi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Notu,Hayir,Notu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OptimalSeviye,Hayir,Tedarik Süresi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OTVCheck,Hayir,OTVCheck,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OTVOran,Hayir,ÖTV Oranı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod1,Hayir,Sezon,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod10,Hayir,Kampanya,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod11,Hayir,Ikili Stoklar,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod12,Hayir,UretimYeri,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod13,Hayir,Bagcık Bilgisi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod14,Hayir,Dıs Materyal,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod15,Hayir,Kategori,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod16,Hayir,Taban Ozelligi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod17,Hayir,Taban Detayı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod18,Hayir,Satıs Zamanı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod19,Hayir,Özel Kod 19,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod2,Hayir,Yukseklik,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod20,Hayir,Yuz Detayı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod3,Hayir,KDV Oran,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod4,Hayir,Taban Materyal,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod5,Hayir,Kalıp Tipi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod6,Hayir,Online Satis,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod7,Hayir,Sezon2,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod8,Hayir,Ic Materyal,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,OzKod9,Hayir,Topuk Tipi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Pasif,Hayir,Pasif,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Reyon,Hayir,Reyon,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,SatinalmaMlyt,Hayir,Satinalma Maliyeti,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Serili,Hayir,Serili,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,SResim,Hayir,Resim,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,StokSekli,Hayir,Stok Şekli,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,StokTip,Hayir,Stok Tipi,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,StokTutmaMlyt,Hayir,Stok Tutma Maliyet,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Takim,Hayir,Takim,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,Tanim,Hayir,Tanım,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,ToleransKS,Hayir,Tolerans katsayısı,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,UMarka,Hayir,Marka,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,UreticiKodu,Hayir,Üretici Kodu,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Zorunlu_Stok,VERA_KISIM_ID,Hayir,VERA_KISIM_ID,ComboBox,Evet&Hayir,,,,,,,,,TANCA
+Raf_gizli,KaliteKontrolFisTipleri,,,Edit,,txt,,,,,,,,TANCADUN

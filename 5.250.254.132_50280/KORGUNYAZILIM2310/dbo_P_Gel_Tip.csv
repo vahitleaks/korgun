@@ -1,0 +1,9 @@
+Gelir_Tip,Tanim,OzKod1,OzKod2,OzKod3,OzKod4,OzKod5,KDVOran,NotMasraf,Pasif,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+G01.0001,Kargo ,,,,,,0E-10,,,1,,,,,,
+G01.001,Faiz Geliri,,,,,,0E-10,,,2,,,,,,
+G01.002,Banka Komisyon İadesi,,,,,,0E-10,,,3,,,,,,
+G01.003,Personel Gelirleri,,,,,,0E-10,,,4,,,,,,
+G01.004,Devlet Destek Gelirleri,,,,,,0E-10,,,5,,,,,,
+G01.005,Alınan Depozitolar,,,,,,0E-10,,,6,,,,,,
+G01.006,Fuar Destek Gelirleri,,,,,,0E-10,,,7,,,,,,
+G01.007,Dİğer çeşitli Gelirler,,,,,,0E-10,,,8,,,,,,

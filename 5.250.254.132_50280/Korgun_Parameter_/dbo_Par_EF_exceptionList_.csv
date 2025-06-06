@@ -1,0 +1,541 @@
+Code,Name,DBName
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,Antrepo20
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",Antrepo20
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,Antrepo20
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,Antrepo20
+206,17/2-e Mesleki Kuruluşların İşlemleri,Antrepo20
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",Antrepo20
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",Antrepo20
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,Antrepo20
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,Antrepo20
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,Antrepo20
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,Antrepo20
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,Antrepo20
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,Antrepo20
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,Antrepo20
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,Antrepo20
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",Antrepo20
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,Antrepo20
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,Antrepo20
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",Antrepo20
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,Antrepo20
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,Antrepo20
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",Antrepo20
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,Antrepo20
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,Antrepo20
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",Antrepo20
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",Antrepo20
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",Antrepo20
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",Antrepo20
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,Antrepo20
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,Antrepo20
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),Antrepo20
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,Antrepo20
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,Antrepo20
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",Antrepo20
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",Antrepo20
+250,Diğerleri,Antrepo20
+301,"11/1-a, Mal İhracatı",Antrepo20
+302,11/1-a Hizmet İhracatı,Antrepo20
+303,"11/1-a, Roaming Hizmetleri",Antrepo20
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",Antrepo20
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",Antrepo20
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",Antrepo20
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",Antrepo20
+308,"13/d, Teşvikli yatırım mallarının teslimi",Antrepo20
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",Antrepo20
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",Antrepo20
+311,"14/1, Uluslararası taşımacılık",Antrepo20
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",Antrepo20
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",Antrepo20
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",Antrepo20
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",Antrepo20
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",Antrepo20
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",Antrepo20
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",Antrepo20
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",Antrepo20
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",Antrepo20
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",Antrepo20
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),Antrepo20
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,Antrepo20
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,Antrepo20
+325,13/ı Yem Teslimleri,Antrepo20
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",Antrepo20
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",Antrepo20
+328,13/i Konut veya İşyeri Teslimleri,Antrepo20
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,Antrepo20
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",Antrepo20
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,Antrepo20
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",Antrepo20
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,Antrepo20
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,Antrepo20
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,Antrepo20
+337,Diğerleri,Antrepo20
+338,İmalatçıların Mal İhracatları,Antrepo20
+350,Diğerleri,Antrepo20
+351,İstisna olmayan diğer,Antrepo20
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,Antrepo20
+701,İhraç Kayıtlı Satışlar,Antrepo20
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,Antrepo20
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",Antrepo20
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,Antrepo20
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",Antrepo20
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,Antrepo20
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,Antrepo20
+806,Tütün mamülleri ve bazı alkollü içkiler,Antrepo20
+807,"Gazete, dergi ve benzeri periyodik yayınlar",Antrepo20
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,Antrepo20
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,Antrepo20
+810,Telefon kartı ve jeton satışları,Antrepo20
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,Antrepo20
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,Antrepo20
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,Cabani20
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",Cabani20
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,Cabani20
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,Cabani20
+206,17/2-e Mesleki Kuruluşların İşlemleri,Cabani20
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",Cabani20
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",Cabani20
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,Cabani20
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,Cabani20
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,Cabani20
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,Cabani20
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,Cabani20
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,Cabani20
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,Cabani20
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,Cabani20
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",Cabani20
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,Cabani20
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,Cabani20
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",Cabani20
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,Cabani20
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,Cabani20
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",Cabani20
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,Cabani20
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,Cabani20
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",Cabani20
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",Cabani20
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",Cabani20
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",Cabani20
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,Cabani20
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,Cabani20
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),Cabani20
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,Cabani20
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,Cabani20
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",Cabani20
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",Cabani20
+250,Diğerleri,Cabani20
+301,"11/1-a, Mal İhracatı",Cabani20
+302,11/1-a Hizmet İhracatı,Cabani20
+303,"11/1-a, Roaming Hizmetleri",Cabani20
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",Cabani20
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",Cabani20
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",Cabani20
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",Cabani20
+308,"13/d, Teşvikli yatırım mallarının teslimi",Cabani20
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",Cabani20
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",Cabani20
+311,"14/1, Uluslararası taşımacılık",Cabani20
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",Cabani20
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",Cabani20
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",Cabani20
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",Cabani20
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",Cabani20
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",Cabani20
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",Cabani20
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",Cabani20
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",Cabani20
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",Cabani20
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),Cabani20
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,Cabani20
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,Cabani20
+325,13/ı Yem Teslimleri,Cabani20
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",Cabani20
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",Cabani20
+328,13/i Konut veya İşyeri Teslimleri,Cabani20
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,Cabani20
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",Cabani20
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,Cabani20
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",Cabani20
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,Cabani20
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,Cabani20
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,Cabani20
+337,Diğerleri,Cabani20
+338,İmalatçıların Mal İhracatları,Cabani20
+350,Diğerleri,Cabani20
+351,İstisna olmayan diğer,Cabani20
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,Cabani20
+701,İhraç Kayıtlı Satışlar,Cabani20
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,Cabani20
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",Cabani20
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,Cabani20
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",Cabani20
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,Cabani20
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,Cabani20
+806,Tütün mamülleri ve bazı alkollü içkiler,Cabani20
+807,"Gazete, dergi ve benzeri periyodik yayınlar",Cabani20
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,Cabani20
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,Cabani20
+810,Telefon kartı ve jeton satışları,Cabani20
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,Cabani20
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,Cabani20
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,KORGUNYAZILIM1910
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",KORGUNYAZILIM1910
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,KORGUNYAZILIM1910
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,KORGUNYAZILIM1910
+206,17/2-e Mesleki Kuruluşların İşlemleri,KORGUNYAZILIM1910
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",KORGUNYAZILIM1910
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",KORGUNYAZILIM1910
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,KORGUNYAZILIM1910
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,KORGUNYAZILIM1910
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,KORGUNYAZILIM1910
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,KORGUNYAZILIM1910
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,KORGUNYAZILIM1910
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,KORGUNYAZILIM1910
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,KORGUNYAZILIM1910
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,KORGUNYAZILIM1910
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",KORGUNYAZILIM1910
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,KORGUNYAZILIM1910
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,KORGUNYAZILIM1910
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",KORGUNYAZILIM1910
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,KORGUNYAZILIM1910
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,KORGUNYAZILIM1910
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",KORGUNYAZILIM1910
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,KORGUNYAZILIM1910
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,KORGUNYAZILIM1910
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",KORGUNYAZILIM1910
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",KORGUNYAZILIM1910
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",KORGUNYAZILIM1910
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",KORGUNYAZILIM1910
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,KORGUNYAZILIM1910
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,KORGUNYAZILIM1910
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),KORGUNYAZILIM1910
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,KORGUNYAZILIM1910
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,KORGUNYAZILIM1910
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",KORGUNYAZILIM1910
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",KORGUNYAZILIM1910
+250,Diğerleri,KORGUNYAZILIM1910
+301,"11/1-a, Mal İhracatı",KORGUNYAZILIM1910
+302,11/1-a Hizmet İhracatı,KORGUNYAZILIM1910
+303,"11/1-a, Roaming Hizmetleri",KORGUNYAZILIM1910
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",KORGUNYAZILIM1910
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",KORGUNYAZILIM1910
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",KORGUNYAZILIM1910
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",KORGUNYAZILIM1910
+308,"13/d, Teşvikli yatırım mallarının teslimi",KORGUNYAZILIM1910
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",KORGUNYAZILIM1910
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",KORGUNYAZILIM1910
+311,"14/1, Uluslararası taşımacılık",KORGUNYAZILIM1910
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",KORGUNYAZILIM1910
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",KORGUNYAZILIM1910
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",KORGUNYAZILIM1910
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",KORGUNYAZILIM1910
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",KORGUNYAZILIM1910
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",KORGUNYAZILIM1910
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",KORGUNYAZILIM1910
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",KORGUNYAZILIM1910
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",KORGUNYAZILIM1910
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",KORGUNYAZILIM1910
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),KORGUNYAZILIM1910
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,KORGUNYAZILIM1910
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,KORGUNYAZILIM1910
+325,13/ı Yem Teslimleri,KORGUNYAZILIM1910
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",KORGUNYAZILIM1910
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",KORGUNYAZILIM1910
+328,13/i Konut veya İşyeri Teslimleri,KORGUNYAZILIM1910
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,KORGUNYAZILIM1910
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",KORGUNYAZILIM1910
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,KORGUNYAZILIM1910
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",KORGUNYAZILIM1910
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,KORGUNYAZILIM1910
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,KORGUNYAZILIM1910
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,KORGUNYAZILIM1910
+337,Diğerleri,KORGUNYAZILIM1910
+338,İmalatçıların Mal İhracatları,KORGUNYAZILIM1910
+350,Diğerleri,KORGUNYAZILIM1910
+351,İstisna olmayan diğer,KORGUNYAZILIM1910
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,KORGUNYAZILIM1910
+701,İhraç Kayıtlı Satışlar,KORGUNYAZILIM1910
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,KORGUNYAZILIM1910
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",KORGUNYAZILIM1910
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,KORGUNYAZILIM1910
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",KORGUNYAZILIM1910
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,KORGUNYAZILIM1910
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,KORGUNYAZILIM1910
+806,Tütün mamülleri ve bazı alkollü içkiler,KORGUNYAZILIM1910
+807,"Gazete, dergi ve benzeri periyodik yayınlar",KORGUNYAZILIM1910
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,KORGUNYAZILIM1910
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,KORGUNYAZILIM1910
+810,Telefon kartı ve jeton satışları,KORGUNYAZILIM1910
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,KORGUNYAZILIM1910
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,KORGUNYAZILIM1910
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,KORGUNYAZILIM2210
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",KORGUNYAZILIM2210
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,KORGUNYAZILIM2210
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,KORGUNYAZILIM2210
+206,17/2-e Mesleki Kuruluşların İşlemleri,KORGUNYAZILIM2210
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",KORGUNYAZILIM2210
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",KORGUNYAZILIM2210
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,KORGUNYAZILIM2210
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,KORGUNYAZILIM2210
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,KORGUNYAZILIM2210
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,KORGUNYAZILIM2210
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,KORGUNYAZILIM2210
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,KORGUNYAZILIM2210
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,KORGUNYAZILIM2210
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,KORGUNYAZILIM2210
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",KORGUNYAZILIM2210
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,KORGUNYAZILIM2210
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,KORGUNYAZILIM2210
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",KORGUNYAZILIM2210
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,KORGUNYAZILIM2210
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,KORGUNYAZILIM2210
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",KORGUNYAZILIM2210
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,KORGUNYAZILIM2210
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,KORGUNYAZILIM2210
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",KORGUNYAZILIM2210
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",KORGUNYAZILIM2210
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",KORGUNYAZILIM2210
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",KORGUNYAZILIM2210
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,KORGUNYAZILIM2210
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,KORGUNYAZILIM2210
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),KORGUNYAZILIM2210
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,KORGUNYAZILIM2210
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,KORGUNYAZILIM2210
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",KORGUNYAZILIM2210
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",KORGUNYAZILIM2210
+250,Diğerleri,KORGUNYAZILIM2210
+301,"11/1-a, Mal İhracatı",KORGUNYAZILIM2210
+302,11/1-a Hizmet İhracatı,KORGUNYAZILIM2210
+303,"11/1-a, Roaming Hizmetleri",KORGUNYAZILIM2210
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",KORGUNYAZILIM2210
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",KORGUNYAZILIM2210
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",KORGUNYAZILIM2210
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",KORGUNYAZILIM2210
+308,"13/d, Teşvikli yatırım mallarının teslimi",KORGUNYAZILIM2210
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",KORGUNYAZILIM2210
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",KORGUNYAZILIM2210
+311,"14/1, Uluslararası taşımacılık",KORGUNYAZILIM2210
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",KORGUNYAZILIM2210
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",KORGUNYAZILIM2210
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",KORGUNYAZILIM2210
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",KORGUNYAZILIM2210
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",KORGUNYAZILIM2210
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",KORGUNYAZILIM2210
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",KORGUNYAZILIM2210
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",KORGUNYAZILIM2210
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",KORGUNYAZILIM2210
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",KORGUNYAZILIM2210
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),KORGUNYAZILIM2210
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,KORGUNYAZILIM2210
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,KORGUNYAZILIM2210
+325,13/ı Yem Teslimleri,KORGUNYAZILIM2210
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",KORGUNYAZILIM2210
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",KORGUNYAZILIM2210
+328,13/i Konut veya İşyeri Teslimleri,KORGUNYAZILIM2210
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,KORGUNYAZILIM2210
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",KORGUNYAZILIM2210
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,KORGUNYAZILIM2210
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",KORGUNYAZILIM2210
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,KORGUNYAZILIM2210
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,KORGUNYAZILIM2210
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,KORGUNYAZILIM2210
+337,Diğerleri,KORGUNYAZILIM2210
+338,İmalatçıların Mal İhracatları,KORGUNYAZILIM2210
+350,Diğerleri,KORGUNYAZILIM2210
+351,İstisna olmayan diğer,KORGUNYAZILIM2210
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,KORGUNYAZILIM2210
+701,İhraç Kayıtlı Satışlar,KORGUNYAZILIM2210
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,KORGUNYAZILIM2210
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",KORGUNYAZILIM2210
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,KORGUNYAZILIM2210
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",KORGUNYAZILIM2210
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,KORGUNYAZILIM2210
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,KORGUNYAZILIM2210
+806,Tütün mamülleri ve bazı alkollü içkiler,KORGUNYAZILIM2210
+807,"Gazete, dergi ve benzeri periyodik yayınlar",KORGUNYAZILIM2210
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,KORGUNYAZILIM2210
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,KORGUNYAZILIM2210
+810,Telefon kartı ve jeton satışları,KORGUNYAZILIM2210
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,KORGUNYAZILIM2210
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,KORGUNYAZILIM2210
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,KORGUNYAZILIM2310
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",KORGUNYAZILIM2310
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,KORGUNYAZILIM2310
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,KORGUNYAZILIM2310
+206,17/2-e Mesleki Kuruluşların İşlemleri,KORGUNYAZILIM2310
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",KORGUNYAZILIM2310
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",KORGUNYAZILIM2310
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,KORGUNYAZILIM2310
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,KORGUNYAZILIM2310
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,KORGUNYAZILIM2310
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,KORGUNYAZILIM2310
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,KORGUNYAZILIM2310
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,KORGUNYAZILIM2310
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,KORGUNYAZILIM2310
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,KORGUNYAZILIM2310
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",KORGUNYAZILIM2310
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,KORGUNYAZILIM2310
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,KORGUNYAZILIM2310
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",KORGUNYAZILIM2310
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,KORGUNYAZILIM2310
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,KORGUNYAZILIM2310
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",KORGUNYAZILIM2310
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,KORGUNYAZILIM2310
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,KORGUNYAZILIM2310
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",KORGUNYAZILIM2310
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",KORGUNYAZILIM2310
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",KORGUNYAZILIM2310
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",KORGUNYAZILIM2310
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,KORGUNYAZILIM2310
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,KORGUNYAZILIM2310
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),KORGUNYAZILIM2310
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,KORGUNYAZILIM2310
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,KORGUNYAZILIM2310
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",KORGUNYAZILIM2310
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",KORGUNYAZILIM2310
+250,Diğerleri,KORGUNYAZILIM2310
+301,"11/1-a, Mal İhracatı",KORGUNYAZILIM2310
+302,11/1-a Hizmet İhracatı,KORGUNYAZILIM2310
+303,"11/1-a, Roaming Hizmetleri",KORGUNYAZILIM2310
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",KORGUNYAZILIM2310
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",KORGUNYAZILIM2310
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",KORGUNYAZILIM2310
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",KORGUNYAZILIM2310
+308,"13/d, Teşvikli yatırım mallarının teslimi",KORGUNYAZILIM2310
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",KORGUNYAZILIM2310
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",KORGUNYAZILIM2310
+311,"14/1, Uluslararası taşımacılık",KORGUNYAZILIM2310
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",KORGUNYAZILIM2310
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",KORGUNYAZILIM2310
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",KORGUNYAZILIM2310
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",KORGUNYAZILIM2310
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",KORGUNYAZILIM2310
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",KORGUNYAZILIM2310
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",KORGUNYAZILIM2310
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",KORGUNYAZILIM2310
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",KORGUNYAZILIM2310
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",KORGUNYAZILIM2310
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),KORGUNYAZILIM2310
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,KORGUNYAZILIM2310
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,KORGUNYAZILIM2310
+325,13/ı Yem Teslimleri,KORGUNYAZILIM2310
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",KORGUNYAZILIM2310
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",KORGUNYAZILIM2310
+328,13/i Konut veya İşyeri Teslimleri,KORGUNYAZILIM2310
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,KORGUNYAZILIM2310
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",KORGUNYAZILIM2310
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,KORGUNYAZILIM2310
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",KORGUNYAZILIM2310
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,KORGUNYAZILIM2310
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,KORGUNYAZILIM2310
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,KORGUNYAZILIM2310
+337,Diğerleri,KORGUNYAZILIM2310
+338,İmalatçıların Mal İhracatları,KORGUNYAZILIM2310
+350,Diğerleri,KORGUNYAZILIM2310
+351,İstisna olmayan diğer,KORGUNYAZILIM2310
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,KORGUNYAZILIM2310
+701,İhraç Kayıtlı Satışlar,KORGUNYAZILIM2310
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,KORGUNYAZILIM2310
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",KORGUNYAZILIM2310
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,KORGUNYAZILIM2310
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",KORGUNYAZILIM2310
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,KORGUNYAZILIM2310
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,KORGUNYAZILIM2310
+806,Tütün mamülleri ve bazı alkollü içkiler,KORGUNYAZILIM2310
+807,"Gazete, dergi ve benzeri periyodik yayınlar",KORGUNYAZILIM2310
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,KORGUNYAZILIM2310
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,KORGUNYAZILIM2310
+810,Telefon kartı ve jeton satışları,KORGUNYAZILIM2310
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,KORGUNYAZILIM2310
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,KORGUNYAZILIM2310
+201,17/1 Kültür ve Eğitim Amacı Taşıyan İşlemler,Uretim20
+202,"17/2-a Sağlık, Çevre Ve Sosyal Yardım Amaçlı İşlemler",Uretim20
+204,17/2-c Yabancı Diplomatik Organ Ve Hayır Kurumlarının Yapacakları Bağışlarla İlgili Mal Ve Hizmet Alışlar,Uretim20
+205,17/2-d Taşınmaz Kültür Varlıklarına İlişkin Teslimler ve Mimarlık Hizmetleri,Uretim20
+206,17/2-e Mesleki Kuruluşların İşlemleri,Uretim20
+207,"17/3 Askeri Fabrika, Tersane ve Atölyelerin İşlemleri",Uretim20
+208,"17/4-c Birleşme, Devir, Dönüşüm ve Bölünme İşlemleri",Uretim20
+209,17/4-e Banka ve Sigorta Muameleleri Vergisi Kapsamına Giren İşlemler,Uretim20
+211,17/4-h Zirai Amaçlı Su Teslimleri İle Köy Tüzel Kişiliklerince Yapılan İçme Suyu teslimleri,Uretim20
+212,17/4-ı Serbest Bölgelerde Verilen Hizmetler,Uretim20
+213,17/4-j Boru Hattı İle Yapılan Petrol Ve Gaz Taşımacılığı,Uretim20
+214,17/4-k Organize Sanayi Bölgelerindeki Arsa ve İşyeri Teslimleri İle Konut Yapı Kooperatiflerinin Üyelerine Konut Teslimleri,Uretim20
+215,17/4-l Varlık Yönetim Şirketlerinin İşlemleri,Uretim20
+216,17/4-m Tasarruf Mevduatı Sigorta Fonunun İşlemleri,Uretim20
+217,17/4-n Basın-Yayın ve Enformasyon Genel Müdürlüğüne Verilen Haber Hizmetleri,Uretim20
+218,"17/4-o Gümrük Antrepoları, Geçici Depolama Yerleri, Gümrüklü Sahalar ve Vergisiz Satış Yapılan Mağazalarla İlgili Hizmetler",Uretim20
+219,17/4-p Hazine ve Arsa Ofisi Genel Müdürlüğünün işlemleri,Uretim20
+220,17/4-r İki Tam Yıl Süreyle Sahip Olunan Taşınmaz ve İştirak Hisseleri Satışları,Uretim20
+221,"Geçici 15 Konut Yapı Kooperatifleri, Belediyeler ve Sosyal Güvenlik Kuruluşlarına Verilen İnşaat Taahhüt Hizmeti",Uretim20
+223,Geçici 20/1 Teknoloji Geliştirme Bölgelerinde Yapılan İşlemler,Uretim20
+225,Geçici 23 Milli Eğitim Bakanlığına Yapılan Bilgisayar Bağışları İle İlgili Teslimler,Uretim20
+226,"17/2-b Özel Okulları, Üniversite ve Yüksekokullar Tarafından Verilen Bedelsiz Eğitim Ve Öğretim Hizmetleri",Uretim20
+227,17/2-b Kanunların Gösterdiği Gerek Üzerine Bedelsiz Olarak Yapılan Teslim ve Hizmetler,Uretim20
+228,17/2-b Kanunun (17/1) Maddesinde Sayılan Kurum ve Kuruluşlara Bedelsiz Olarak Yapılan Teslimler,Uretim20
+229,"17/2-b Gıda Bankacılığı Faaliyetinde Bulunan Dernek ve Vakıflara Bağışlanan Gıda, Temizlik, Giyecek ve Yakacak Maddeleri",Uretim20
+230,"17/4-g Külçe Altın, Külçe Gümüş Ve Kiymetli Taşlarin Teslimi",Uretim20
+231,"17/4-g Metal Plastik, Lastik, Kauçuk, Kağit, Cam Hurda Ve Atıkların Teslimi",Uretim20
+232,"17/4-g Döviz, Para, Damga Pulu, Değerli Kağıtlar, Hisse Senedi ve Tahvil Teslimleri",Uretim20
+234,17/4-ş Konut Finansmanı Amacıyla Teminat Gösterilen ve İpotek Konulan Konutların Teslimi,Uretim20
+235,16/1-c Transit ve Gümrük Antrepo Rejimleri İle Geçici Depolama ve Serbest Bölge Hükümlerinin Uygulandığiı Malların Teslimi,Uretim20
+236,19/2 Usulüne Göre Yürürlüğe Girmiş Uluslararası Anlaşmalar Kapsamındaki İstisnalar (İade Hakkı Tanınmayan),Uretim20
+237,17/4-t 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimlerinden Sonraki Teslim,Uretim20
+238,17/4-u Varlıkların Varlık Kiralama Şirketlerine Devri İle Bu Varlıkların Varlık Kiralama Şirketlerince Kiralanması ve Devralınan Kuruma Devri,Uretim20
+239,"17/4-y Taşınmazların Finansal Kiralama Şirketlerine Devri, Finansal Kiralama Şirketi Tarafından Devredene Kiralanması ve Devri",Uretim20
+240,"17/4-z Patentli Veya Faydalı Model Belgeli Buluşa İlişkin Gayri Maddi Hakların Kiralanması, Devri ve Satışı",Uretim20
+250,Diğerleri,Uretim20
+301,"11/1-a, Mal İhracatı",Uretim20
+302,11/1-a Hizmet İhracatı,Uretim20
+303,"11/1-a, Roaming Hizmetleri",Uretim20
+304,"13/a, Deniz, hava ve demiryolu taşıma araçlarının teslimi ile inşa, tadil, bakım ve onarımları",Uretim20
+305,"13/b, Deniz ve hava taşıma araçları için liman ve hava meydanlarında yapılan hizmetler ",Uretim20
+306,"13/c, Petrol aramaları ve petrol boru hatlarının inşa ve modernizasyonuna ilişkin yapılan teslim ve hizmetler",Uretim20
+307,"13/c Maden Arama, Altın, Gümüş, ve Platin Madenleri İçin İşletme, Zenginleştirme Ve Rafinaj Faaliyetlerine İlişkin Teslim Ve Hizmetler[KDVGUT-(II/8-4)]",Uretim20
+308,"13/d, Teşvikli yatırım mallarının teslimi",Uretim20
+309,"13/e, Limanlara bağlantı sağlayan demiryolu hatları ile liman ve hava meydanlarının inşası, yenilenmesi ve genişletilmesi ",Uretim20
+310,"13/f, Ulusal güvenlik amaçlı teslim ve hizmetler",Uretim20
+311,"14/1, Uluslararası taşımacılık",Uretim20
+312,"15/a, Diplomatik organ ve misyonlara yapılan teslim ve hizmetler",Uretim20
+313,"15/b, Uluslarası kuruluşlara yapılan teslim ve hizmetler",Uretim20
+314,"19/2, Usulüne göre yürürlüğe girmiş uluslar arası anlaşmalar kapsamındaki istisnalar (İade hakkı tanınan)",Uretim20
+315,"14/3, İhraç konusu eşyayı taşıyan kamyon, çekici ve yarı romorklara yapılan motorin teslimleri",Uretim20
+316,"11/1-a, Serbest bölgelerdeki müşteriler için yapılan fason hizmetler",Uretim20
+317,"17/4-s, Özürlülerin eğitimleri, meslekleri ve günlük yaşamlarına ilişkin araç-gereç ve bilgisayar programları",Uretim20
+318,"Geçici 29, 3996 sayılı Kanuna göre Yap-İşlet-Devret modeli çerçevesinde gerçekleştirilecek ",Uretim20
+319,"13/g, Başbakanlık Merkez Teşkilatına yapılan araç teslimleri",Uretim20
+320,"Geçici 16 (6111 sayılı K.), İSMEP Kapsamında İstanbul İl Özel İdaresi'ne bağlı olarak faaliyet gösteren ""İstanbul Proje Koordinasyon Birimi""ne yapılacak teslim ve hizmetler ",Uretim20
+321,"Geçici 26, Birleşmiş Milletler (BM) ile Kuzey Atlantik Antlaşması Teşkilatı (NATO) temsilcilikleri ve bu teşkilatlara bağlı program, fon ve özel ihtisas kuruluşları ile İktisadi İşbirliği ve Kalkınma Teşkilatına (OECD) resmi kullanımları için yapılacak mal teslimi ve hizmet ifaları, bunların sosyal ve ekonomik yardım amacıyla bedelsiz olarak yapacakları mal teslimi ve hizmet ifaları ile ilgili bunlara yapılan mal teslimi ve hizmet ifaları",Uretim20
+322,11/1-a Türkiye'de İkamet Etmeyenlere Özel Fatura ile Yapılan Teslimler (Bavul Ticareti),Uretim20
+323,13/ğ 5300 Sayılı Kanuna Göre Düzenlenen Ürün Senetlerinin İhtisas/Ticaret Borsaları Aracılığıyla İlk Teslimi,Uretim20
+324,13/h Türkiye Kızılay Derneğine Yapılan Teslim ve Hizmetler ile Türkiye Kızılay Derneğinin Teslim ve Hizmetleri,Uretim20
+325,13/ı Yem Teslimleri,Uretim20
+326,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin Teslimi",Uretim20
+327,"13/ı Gıda, Tarım ve Hayvancılık Bakanlığı Tarafından Tescil Edilmiş Gübrelerin İçeriğinde Bulunan Hammaddelerin Gübre Üreticilerine Teslimi",Uretim20
+328,13/i Konut veya İşyeri Teslimleri,Uretim20
+330,KDV 13/j md. Organize Sanayi Bölgeleri ile Küçük Sanayi Sitelerinin İnşasına İlişkin Teslim ve Hizmetler,Uretim20
+331,"KDV 13/m md. Ar-Ge, Yenilik ve Tasarım Faaliyetlerinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna",Uretim20
+332,İmalat Sanayiinde Kullanılmak Üzere Yapılan Yeni Makina ve Teçhizat Teslimlerinde İstisna,Uretim20
+333,"KDV 13/k md. Kapsamında Genel ve Özel Bütçeli Kamu İdarelerine, İl Özel İdarelerine, Belediyelere ve Köylere bağışlanan Tesislerin İnşasına İlişkin İstisna",Uretim20
+334,KDV 13/l md. Kapsamında Yabancılara Verilen Sağlık Hizmetlerinde İstisna,Uretim20
+335,KDV 13/n Basılı Kitap ve Süreli Yayınların Teslimleri,Uretim20
+336,Geçici 40 UEFA Müsabakaları Kapsamında Yapılacak Teslim ve Hizmetler,Uretim20
+337,Diğerleri,Uretim20
+338,İmalatçıların Mal İhracatları,Uretim20
+350,Diğerleri,Uretim20
+351,İstisna olmayan diğer,Uretim20
+405,11/1-c İhraç kayıtlı olarak teslim edilen malların ihracat gerçekleşmediği için iade edilmesi durumunda KDV ve ÖTV uygulaması,Uretim20
+701,İhraç Kayıtlı Satışlar,Uretim20
+702,DİİB ve Geçici Kabul Rejimi Kapsamındaki Satışlar,Uretim20
+801,"Milli piyango, spor-toto ve benzeri Devletçe organize edilen organizasyonlar",Uretim20
+802,At yarışları ve diğer müşterek bahis ve talih oyunları,Uretim20
+803,"Profesyonel sanatçıların yer aldığı gösteriler ve konserler ile profesyonel sporcuların katıldığı sportif faaliyetler, maçlar ve yarışlar ve yarışmalar",Uretim20
+804,Gümrük depolarında ve müzayede salonlarında yapılan satışlar,Uretim20
+805,Altından mamül veya altın ihtiva eden ziynet eşyaları ile sikke altınların teslim ve ithali,Uretim20
+806,Tütün mamülleri ve bazı alkollü içkiler,Uretim20
+807,"Gazete, dergi ve benzeri periyodik yayınlar",Uretim20
+808,Külçe gümüş ve gümüşten mamül eşya teslimleri,Uretim20
+809,Belediyeler tarafından yapılan şehiriçi yolcu taşımacılığında kullanılan biletlerin ve kartların bayiler tarafından satışı ,Uretim20
+810,Telefon kartı ve jeton satışları,Uretim20
+811,Türkiye Şoförler ve Otomobilciler Federasyonu tarafından araç plakaları ile sürücü kurslarında kullanılan bir kısım evrakın basımı,Uretim20
+812,KDV Uygulanmadan Alınan İkinci El Motorlu Kara Taşıtı veya Taşınmaz Teslimi,Uretim20

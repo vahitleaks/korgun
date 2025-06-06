@@ -1,0 +1,283 @@
+S_GRP_KOD,Tanim,DBName
+01,Ayakkabı,Antrepo20
+02,Bot,Antrepo20
+03,Çizme,Antrepo20
+04,Babet,Antrepo20
+05,Terlik,Antrepo20
+06,Sandalet,Antrepo20
+07,Kemer,Antrepo20
+08,Çanta,Antrepo20
+09,Valiz,Antrepo20
+10,Cüzdan,Antrepo20
+11,Çorap,Antrepo20
+12,Kozmetik Ürünleri,Antrepo20
+13,Bere,Antrepo20
+14,Eldiven,Antrepo20
+15,tabanlık,Antrepo20
+16,Telefon Kılıfı,Antrepo20
+17,Kemer-Cüzdan Set,Antrepo20
+20,Bakım Ürünleri (Ayakkabı),Antrepo20
+30,Ortapedik Ürünler,Antrepo20
+40,Çekecek,Antrepo20
+50,Poşetler,Antrepo20
+99,Diğer İşlemler,Antrepo20
+A0,Deri Astarlar,Antrepo20
+AB,Bez Astarlar (Strec Çoraplık vb),Antrepo20
+AS,Suni Astarlar,Antrepo20
+B0,Bagcik,Antrepo20
+C0,Çelikli Taban ve Salpa,Antrepo20
+D0,Deriler,Antrepo20
+DB,Bez ve Triko Malzemeler,Antrepo20
+DS,Suni Deriler,Antrepo20
+E0,Etiket,Antrepo20
+F0,Fermuar,Antrepo20
+G0,Boyalar,Antrepo20
+I0,Ilaç ve Yapistiricilar,Antrepo20
+J0,Ambalaj Malzemeleri,Antrepo20
+JD,Diğer Ambalaj Malzemeleri,Antrepo20
+K0,Aksesuarlar,Antrepo20
+L0,Kalıp,Antrepo20
+LS,Saten Lastik,Antrepo20
+M0,Mostra ve Fuspetler,Antrepo20
+N0,Numune,Antrepo20
+R0,Regapta Malzemeleri,Antrepo20
+S0,Saya Malzemeleri,Antrepo20
+T0,Hazır Tabanlar,Antrepo20
+TD,Kösele ve Neolit Tabanlar,Antrepo20
+V0,Vardolalar,Antrepo20
+X0,Yardımcı Malzemeler,Antrepo20
+01,Ayakkabı,Cabani20
+02,Bot,Cabani20
+03,Çizme,Cabani20
+04,Babet,Cabani20
+05,Terlik,Cabani20
+06,Sandalet,Cabani20
+07,Kemer,Cabani20
+08,Çanta,Cabani20
+09,Valiz,Cabani20
+10,Cüzdan,Cabani20
+11,Çorap,Cabani20
+12,Kozmetik Ürünleri,Cabani20
+13,Bere,Cabani20
+14,Eldiven,Cabani20
+15,tabanlık,Cabani20
+16,Telefon Kılıfı,Cabani20
+17,Kemer-Cüzdan Set,Cabani20
+20,Bakım Ürünleri (Ayakkabı),Cabani20
+30,Ortapedik Ürünler,Cabani20
+40,Çekecek,Cabani20
+50,Poşetler,Cabani20
+99,Diğer İşlemler,Cabani20
+A0,Deri Astarlar,Cabani20
+AB,Bez Astarlar (Strec Çoraplık vb),Cabani20
+AS,Suni Astarlar,Cabani20
+B0,Bagcik,Cabani20
+C0,Çelikli Taban ve Salpa,Cabani20
+D0,Deriler,Cabani20
+DB,Bez ve Triko Malzemeler,Cabani20
+DS,Suni Deriler,Cabani20
+E0,Etiket,Cabani20
+F0,Fermuar,Cabani20
+G0,Boyalar,Cabani20
+I0,Ilaç ve Yapistiricilar,Cabani20
+J0,Ambalaj Malzemeleri,Cabani20
+JD,Diğer Ambalaj Malzemeleri,Cabani20
+K0,Aksesuarlar,Cabani20
+L0,Kalıp,Cabani20
+LS,Saten Lastik,Cabani20
+M0,Mostra ve Fuspetler,Cabani20
+N0,Numune,Cabani20
+R0,Regapta Malzemeleri,Cabani20
+S0,Saya Malzemeleri,Cabani20
+T0,Hazır Tabanlar,Cabani20
+TD,Kösele ve Neolit Tabanlar,Cabani20
+V0,Vardolalar,Cabani20
+X0,Yardımcı Malzemeler,Cabani20
+01,Ayakkabı,KORGUNYAZILIM1910
+02,Bot,KORGUNYAZILIM1910
+03,Çizme,KORGUNYAZILIM1910
+04,Babet,KORGUNYAZILIM1910
+05,Terlik,KORGUNYAZILIM1910
+06,Sandalet,KORGUNYAZILIM1910
+07,Kemer,KORGUNYAZILIM1910
+08,Çanta,KORGUNYAZILIM1910
+09,Valiz,KORGUNYAZILIM1910
+10,Cüzdan,KORGUNYAZILIM1910
+11,Çorap,KORGUNYAZILIM1910
+12,Kozmetik Ürünleri,KORGUNYAZILIM1910
+13,Bere,KORGUNYAZILIM1910
+14,Eldiven,KORGUNYAZILIM1910
+15,tabanlık,KORGUNYAZILIM1910
+16,Telefon Kılıfı,KORGUNYAZILIM1910
+17,Kemer-Cüzdan Set,KORGUNYAZILIM1910
+20,Bakım Ürünleri (Ayakkabı),KORGUNYAZILIM1910
+30,Ortapedik Ürünler,KORGUNYAZILIM1910
+40,Çekecek,KORGUNYAZILIM1910
+50,Poşetler,KORGUNYAZILIM1910
+99,Diğer İşlemler,KORGUNYAZILIM1910
+A0,Deri Astarlar,KORGUNYAZILIM1910
+AB,Bez Astarlar (Strec Çoraplık vb),KORGUNYAZILIM1910
+AS,Suni Astarlar,KORGUNYAZILIM1910
+B0,Bagcik,KORGUNYAZILIM1910
+C0,Çelikli Taban ve Salpa,KORGUNYAZILIM1910
+D0,Deriler,KORGUNYAZILIM1910
+DB,Bez ve Triko Malzemeler,KORGUNYAZILIM1910
+DS,Suni Deriler,KORGUNYAZILIM1910
+E0,Etiket,KORGUNYAZILIM1910
+F0,Fermuar,KORGUNYAZILIM1910
+G0,Boyalar,KORGUNYAZILIM1910
+I0,Ilaç ve Yapistiricilar,KORGUNYAZILIM1910
+J0,Ambalaj Malzemeleri,KORGUNYAZILIM1910
+JD,Diğer Ambalaj Malzemeleri,KORGUNYAZILIM1910
+K0,Aksesuarlar,KORGUNYAZILIM1910
+L0,Kalıp,KORGUNYAZILIM1910
+LS,Saten Lastik,KORGUNYAZILIM1910
+M0,Mostra ve Fuspetler,KORGUNYAZILIM1910
+N0,Numune,KORGUNYAZILIM1910
+R0,Regapta Malzemeleri,KORGUNYAZILIM1910
+S0,Saya Malzemeleri,KORGUNYAZILIM1910
+T0,Hazır Tabanlar,KORGUNYAZILIM1910
+TD,Kösele ve Neolit Tabanlar,KORGUNYAZILIM1910
+V0,Vardolalar,KORGUNYAZILIM1910
+X0,Yardımcı Malzemeler,KORGUNYAZILIM1910
+01,Ayakkabı,KORGUNYAZILIM2210
+02,Bot,KORGUNYAZILIM2210
+03,Çizme,KORGUNYAZILIM2210
+04,Babet,KORGUNYAZILIM2210
+05,Terlik,KORGUNYAZILIM2210
+06,Sandalet,KORGUNYAZILIM2210
+07,Kemer,KORGUNYAZILIM2210
+08,Çanta,KORGUNYAZILIM2210
+09,Valiz,KORGUNYAZILIM2210
+10,Cüzdan,KORGUNYAZILIM2210
+11,Çorap,KORGUNYAZILIM2210
+12,Kozmetik Ürünleri,KORGUNYAZILIM2210
+13,Bere,KORGUNYAZILIM2210
+14,Eldiven,KORGUNYAZILIM2210
+15,tabanlık,KORGUNYAZILIM2210
+16,Telefon Kılıfı,KORGUNYAZILIM2210
+17,Kemer-Cüzdan Set,KORGUNYAZILIM2210
+20,Bakım Ürünleri (Ayakkabı),KORGUNYAZILIM2210
+30,Ortapedik Ürünler,KORGUNYAZILIM2210
+40,Çekecek,KORGUNYAZILIM2210
+50,Poşetler,KORGUNYAZILIM2210
+99,Diğer İşlemler,KORGUNYAZILIM2210
+A0,Deri Astarlar,KORGUNYAZILIM2210
+AB,Bez Astarlar (Strec Çoraplık vb),KORGUNYAZILIM2210
+AS,Suni Astarlar,KORGUNYAZILIM2210
+B0,Bagcik,KORGUNYAZILIM2210
+C0,Çelikli Taban ve Salpa,KORGUNYAZILIM2210
+D0,Deriler,KORGUNYAZILIM2210
+DB,Bez ve Triko Malzemeler,KORGUNYAZILIM2210
+DS,Suni Deriler,KORGUNYAZILIM2210
+E0,Etiket,KORGUNYAZILIM2210
+F0,Fermuar,KORGUNYAZILIM2210
+G0,Boyalar,KORGUNYAZILIM2210
+I0,Ilaç ve Yapistiricilar,KORGUNYAZILIM2210
+J0,Ambalaj Malzemeleri,KORGUNYAZILIM2210
+JD,Diğer Ambalaj Malzemeleri,KORGUNYAZILIM2210
+K0,Aksesuarlar,KORGUNYAZILIM2210
+L0,Kalıp,KORGUNYAZILIM2210
+LS,Saten Lastik,KORGUNYAZILIM2210
+M0,Mostra ve Fuspetler,KORGUNYAZILIM2210
+N0,Numune,KORGUNYAZILIM2210
+R0,Regapta Malzemeleri,KORGUNYAZILIM2210
+S0,Saya Malzemeleri,KORGUNYAZILIM2210
+T0,Hazır Tabanlar,KORGUNYAZILIM2210
+TD,Kösele ve Neolit Tabanlar,KORGUNYAZILIM2210
+V0,Vardolalar,KORGUNYAZILIM2210
+X0,Yardımcı Malzemeler,KORGUNYAZILIM2210
+01,Ayakkabı,KORGUNYAZILIM2310
+02,Bot,KORGUNYAZILIM2310
+03,Çizme,KORGUNYAZILIM2310
+04,Babet,KORGUNYAZILIM2310
+05,Terlik,KORGUNYAZILIM2310
+06,Sandalet,KORGUNYAZILIM2310
+07,Kemer,KORGUNYAZILIM2310
+08,Çanta,KORGUNYAZILIM2310
+09,Valiz,KORGUNYAZILIM2310
+10,Cüzdan,KORGUNYAZILIM2310
+11,Çorap,KORGUNYAZILIM2310
+12,Kozmetik Ürünleri,KORGUNYAZILIM2310
+13,Bere,KORGUNYAZILIM2310
+14,Eldiven,KORGUNYAZILIM2310
+15,tabanlık,KORGUNYAZILIM2310
+16,Telefon Kılıfı,KORGUNYAZILIM2310
+17,Kemer-Cüzdan Set,KORGUNYAZILIM2310
+20,Bakım Ürünleri (Ayakkabı),KORGUNYAZILIM2310
+30,Ortapedik Ürünler,KORGUNYAZILIM2310
+40,Çekecek,KORGUNYAZILIM2310
+50,Poşetler,KORGUNYAZILIM2310
+99,Diğer İşlemler,KORGUNYAZILIM2310
+A0,Deri Astarlar,KORGUNYAZILIM2310
+AB,Bez Astarlar (Strec Çoraplık vb),KORGUNYAZILIM2310
+AS,Suni Astarlar,KORGUNYAZILIM2310
+B0,Bagcik,KORGUNYAZILIM2310
+C0,Çelikli Taban ve Salpa,KORGUNYAZILIM2310
+D0,Deriler,KORGUNYAZILIM2310
+DB,Bez ve Triko Malzemeler,KORGUNYAZILIM2310
+DS,Suni Deriler,KORGUNYAZILIM2310
+E0,Etiket,KORGUNYAZILIM2310
+F0,Fermuar,KORGUNYAZILIM2310
+G0,Boyalar,KORGUNYAZILIM2310
+I0,Ilaç ve Yapistiricilar,KORGUNYAZILIM2310
+J0,Ambalaj Malzemeleri,KORGUNYAZILIM2310
+JD,Diğer Ambalaj Malzemeleri,KORGUNYAZILIM2310
+K0,Aksesuarlar,KORGUNYAZILIM2310
+L0,Kalıp,KORGUNYAZILIM2310
+LS,Saten Lastik,KORGUNYAZILIM2310
+M0,Mostra ve Fuspetler,KORGUNYAZILIM2310
+N0,Numune,KORGUNYAZILIM2310
+R0,Regapta Malzemeleri,KORGUNYAZILIM2310
+S0,Saya Malzemeleri,KORGUNYAZILIM2310
+T0,Hazır Tabanlar,KORGUNYAZILIM2310
+TD,Kösele ve Neolit Tabanlar,KORGUNYAZILIM2310
+V0,Vardolalar,KORGUNYAZILIM2310
+X0,Yardımcı Malzemeler,KORGUNYAZILIM2310
+01,Ayakkabı,Uretim20
+02,Bot,Uretim20
+03,Çizme,Uretim20
+04,Babet,Uretim20
+05,Terlik,Uretim20
+06,Sandalet,Uretim20
+07,Kemer,Uretim20
+08,Çanta,Uretim20
+09,Valiz,Uretim20
+10,Cüzdan,Uretim20
+11,Çorap,Uretim20
+12,Kozmetik Ürünleri,Uretim20
+13,Bere,Uretim20
+14,Eldiven,Uretim20
+15,tabanlık,Uretim20
+16,Telefon Kılıfı,Uretim20
+17,Kemer-Cüzdan Set,Uretim20
+20,Bakım Ürünleri (Ayakkabı),Uretim20
+30,Ortapedik Ürünler,Uretim20
+40,Çekecek,Uretim20
+50,Poşetler,Uretim20
+99,Diğer İşlemler,Uretim20
+A0,Deri Astarlar,Uretim20
+AB,Bez Astarlar (Strec Çoraplık vb),Uretim20
+AS,Suni Astarlar,Uretim20
+B0,Bagcik,Uretim20
+C0,Çelikli Taban ve Salpa,Uretim20
+D0,Deriler,Uretim20
+DB,Bez ve Triko Malzemeler,Uretim20
+DS,Suni Deriler,Uretim20
+E0,Etiket,Uretim20
+F0,Fermuar,Uretim20
+G0,Boyalar,Uretim20
+I0,Ilaç ve Yapistiricilar,Uretim20
+J0,Ambalaj Malzemeleri,Uretim20
+JD,Diğer Ambalaj Malzemeleri,Uretim20
+K0,Aksesuarlar,Uretim20
+L0,Kalıp,Uretim20
+LS,Saten Lastik,Uretim20
+M0,Mostra ve Fuspetler,Uretim20
+N0,Numune,Uretim20
+R0,Regapta Malzemeleri,Uretim20
+S0,Saya Malzemeleri,Uretim20
+T0,Hazır Tabanlar,Uretim20
+TD,Kösele ve Neolit Tabanlar,Uretim20
+V0,Vardolalar,Uretim20
+X0,Yardımcı Malzemeler,Uretim20

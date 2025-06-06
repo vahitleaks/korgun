@@ -1,0 +1,4 @@
+UserName,CatalogName,AccessLocation,ReadLoc,WriteLoc,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+dbo,YULYA,L001,,,1,,,,,,
+Depo,YULYA,L001,,,3,,,,,,
+yulya,YULYA,L001,,,2,,,,,,

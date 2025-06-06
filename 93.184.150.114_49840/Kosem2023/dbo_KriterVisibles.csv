@@ -1,0 +1,1013 @@
+Modul,Object,Parent,ModulCaption,ObjectCaption,ParentCaption,Visible,inx,Tip
+Form_CariYonet,L_Location,TSFilter,Cari Yonetim,Lokasyon,Filtre Kirterleri,0,1,
+Form_CariYonet,L_ParaC,TSFilter,Cari Yonetim,Para Cinsi,Filtre Kirterleri,0,2,
+Form_CariYonet,xcb_ParaC2,TSFilter,Cari Yonetim,Çevir - >,Filtre Kirterleri,0,3,
+Form_CariYonet,rg_AB_Dr,Ts_RapKriter,Cari Yonetim,Alacak & Borç Durumu,Rapor Kriterleri,0,4,
+Form_CariYonet,rg_KurCevrim,Ts_RapKriter,Cari Yonetim,Kur Çevrimi için kullanılacak Parite Tipi,Rapor Kriterleri,0,5,
+Form_CariYonet,xcb_AlBorVisible,Ts_RapKriter,Cari Yonetim,Sadece Bakiyesi olanları göster,Rapor Kriterleri,0,6,
+Form_CariYonet,xcb_DevirGoster,Ts_RapKriter,Cari Yonetim,Devirleri de işle,Rapor Kriterleri,0,7,
+Form_CariYonet,L_CKod,GroupBox1,Cari Yonetim,Cari Kod,Cari Kriterleri,0,8,
+Form_CariYonet,xcb_Hareket,Ts_RapKriter,Cari Yonetim,Hareket Görmemiş olanları da göster,Rapor Kriterleri,0,9,
+Form_CSFilter,L_CSTip,TabSheet1,Çek Yönetimi,İşlem Tipi,Filtre Kriterleri,0,10,
+Form_CSFilter,L_CM,TabSheet1,Çek Yönetimi,Cari/Müşteri,Filtre Kriterleri,0,11,
+Form_CSFilter,L_ParaC,TabSheet1,Çek Yönetimi,Para Cinsi,Filtre Kriterleri,0,12,
+Form_CSFilter,L_CekNo,TS_EvrakKriter,Çek Yönetimi,Çek No,Evrak Kriterleri,0,13,
+Form_CSFilter,L_CekSahibi,TS_EvrakKriter2,Çek Yönetimi,Çek Sahibi,Evrak Kriterleri 2,0,14,
+Form_CSFilter,xcb_ParaC2,TabSheet1,Çek Yönetimi,Çevir,Filtre Kriterleri,0,15,
+Form_CSFilter,L_xLocation,TabSheet1,Çek Yönetimi,Lokasyon,Filtre Kriterleri,0,16,
+Form_CSFilter,L_xDurum,TabSheet1,Çek Yönetimi,Durum (Çek veya Senetin Son Durumu),Filtre Kriterleri,0,17,
+Form_KasaYon,L_Pc1,TSFilter,Cari İşlem Yönetimi,Para Cinsi,Filtre Kriterleri,0,18,
+Form_KasaYon,L_xLocation,TSFilter,Cari İşlem Yönetimi,Lokasyon,Filtre Kriterleri,0,19,
+Form_KasaYon,L_cbpg,GroupBox1,Cari İşlem Yönetimi,Cari Kod,Opsiyonlar,0,20,
+Form_KasaYon,rg_iptal,GroupBox1,Cari İşlem Yönetimi,Fiş Durumu,Opsiyonlar,0,21,
+Form_KasaYon,L_xFisTip,TSFilter,Cari İşlem Yönetimi,İşlem Tipi,Filtre Kriterleri,0,22,
+Form_KarZarar,L_ParaC,TabSheet1,Perakende Satış Kar Zarar Yönetimi,Para Cinsi,&Filtre Kriterleri,0,32,
+Form_KarZarar,L_xLocation,TabSheet1,Perakende Satış Kar Zarar Yönetimi,Lokasyon,&Filtre Kriterleri,0,33,
+Form_KarZarar,L_SatTar,TabSheet1,Perakende Satış Kar Zarar Yönetimi,Satış Tarihi,&Filtre Kriterleri,0,34,
+Form_KarZarar,rg_alFiy,TS_FiyatKriter,Perakende Satış Kar Zarar Yönetimi,Alış Fiyat Kriterleri,Alış Fiyatı Hesaplama Kriterleri,0,35,
+Form_KarZarar,rg_fiyat_in_use,TS_FiyatKriter,Perakende Satış Kar Zarar Yönetimi,Fiyat Kullanım Şekli,Alış Fiyatı Hesaplama Kriterleri,0,36,
+Form_KarZarar,rg_StokOption,TS_Detay,Perakende Satış Kar Zarar Yönetimi,Stok Liste Şekli,Yönetim Detayları,0,37,
+Form_KarZarar,xcb_iptal,TS_Detay,Perakende Satış Kar Zarar Yönetimi,İptal edilen fişleri dikkate alma,Yönetim Detayları,0,38,
+Form_KarZarar,xcb_iadeGoster,TS_Detay,Perakende Satış Kar Zarar Yönetimi,Satış bağlantısı olmayan iade işlemlerini de göster,Yönetim Detayları,0,39,
+Form_KarZarar,xcb_NonKDVDetail,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Perakende Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,40,
+Form_KarZarar,xcb_NonKDVDetailFat,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Fatura & irsaliye Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,41,
+Form_KarZarar,xcb_NonKDVDetailStk,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Stok Fişi işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,42,
+Form_KarZarar,xcb_iskontoYansi,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Tutarlara iskonto yansısın,Fiyat Özellikleri,0,43,
+Form_PazFilter,L_SatTar,GroupBox2,Perakende Satış Yönetimi,Satış Tarihi,Perakende Satış Kriterleri,0,44,
+Form_PazFilter,rg_TakViewTip,GroupBox_Taksit,Perakende Satış Yönetimi,Taksit Takip Şekli,Taksit Kriterleri,0,45,
+Form_PazFilter,rg_iptaller,GroupBox_Taksit,Perakende Satış Yönetimi,İptal edilen Taksitler,Taksit Kriterleri,0,46,
+Form_PazFilter,L_xLocation,TabSheet1,Perakende Satış Yönetimi,Lokasyon,Filtre Kriterleri,0,47,
+Form_PazFilter,xcb_Negatifiade,TabSheet5,Perakende Satış Yönetimi,İadelerin Miktarını Negatif göster,Ek Alanlar,0,48,
+Form_PazFilter,L_RapKriterValue,TS_RapKraker,Perakende Satış Yönetimi,Kriter,Rapor Kriterleri,0,49,
+Form_PazFilter,rg_RapKriterTip,TS_RapKraker,Perakende Satış Yönetimi,Rapor Tipi,Rapor Kriterleri,0,50,
+Form_PazFilter,L_xSatTip,TabSheet1,Perakende Satış Yönetimi,Satış Tipi,Filtre Kriterleri,0,51,
+Form_PazFilter,xcb_ParaC2,TabSheet1,Perakende Satış Yönetimi,Çevir - >,Filtre Kriterleri,0,52,
+Form_PazFilter,L_SatKod,GroupBox2,Perakende Satış Yönetimi,Satıcı Kodu,Perakende Satış Kriterleri,0,53,
+Form_BankaYon,L_FisTip,TabSheet1,Banka Yönetimi,İşlem Tipi,Filtre Kriterleri,0,23,
+Form_BankaYon,L_HesTanims,TabSheet1,Banka Yönetimi,Hesap Tanımları,Filtre Kriterleri,0,24,
+Form_BankaYon,L_Pc1,TabSheet1,Banka Yönetimi,Para Cinsi,Filtre Kriterleri,0,25,
+Form_BankaYon,L_xLocation,TabSheet1,Banka Yönetimi,Lokasyon,Filtre Kriterleri,0,26,
+Form_BankaYon,L_PCHesap,TabSheet4,Banka Yönetimi,Hesabın Para Cinsi,Detay Kriteri,0,27,
+Form_BankaYon,rg_iptal,TabSheet4,Banka Yönetimi,Fiş Durumu,Detay Kriteri,0,28,
+Form_BankaYon,xcb_Karsilikli,TabSheet4,Banka Yönetimi,&Banka kriterini karşı hesapta da kontrol et,Detay Kriteri,0,29,
+Form_BankaYon,rg_KurCevrim,TabSheet4,Banka Yönetimi,Kur Çevrimi için kullanılacak Parite Tipi,Detay Kriteri,0,30,
+Form_BankaYon,xcb_Pc2,TabSheet1,Banka Yönetimi,Çevir >,Filtre Kriterleri,0,31,
+Form_EnFilter,L_ParaC,TabSheet1,Envanter Yönetimi...,Para Cinsi :,&Filtre Kriterleri,0,54,
+Form_EnFilter,L_xLocation,TabSheet1,Envanter Yönetimi...,Lokasyon,&Filtre Kriterleri,0,55,
+Form_EnFilter,rg_alFiy,TS_Detay,Envanter Yönetimi...,Maliyetlendirme tipi :,&Maliyetlendirme,0,56,
+Form_EnFilter,xcb_NonEnvNegatif,TS_Detay,Envanter Yönetimi...,Mevcudu negatif olanların envanterini getirme,&Maliyetlendirme,0,57,
+Form_EnFilter,xcb_HizmetBag,GroupBox3,Envanter Yönetimi...,Faturaya Bağlı Hizmet Faturaları Hareketin Fiyatına Yansısın,,0,58,
+Form_EnFilter,xcb_CariBag,GroupBox3,Envanter Yönetimi...,Faturaya Bağlı Cari Fişleri Hareketin Fiyatına Yansısın,,0,59,
+Form_EnFilter,xcb_KasaBag,GroupBox3,Envanter Yönetimi...,Faturaya Bağlı Kasa Fişleri Hareketin Fiyatına Yansısın,,0,60,
+Form_EnFilter,xcb_BankaBag,GroupBox3,Envanter Yönetimi...,Faturaya Bağlı Banka Fişleri Hareketin Fiyatına Yansısın,,0,61,
+Form_EnFilter,xcb_iadeGoster,TS_DetayeX,Envanter Yönetimi...,Satış bağlantısı olmayan iade işlemlerini de göster,Yönetim Detayları,0,62,
+Form_EnFilter,xcb_NonKDVDetail,TabSheet3,Envanter Yönetimi...,Perakende Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,63,
+Form_EnFilter,xcb_NonKDVDetailFat,TabSheet3,Envanter Yönetimi...,Fatura & irsaliye Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,64,
+Form_EnFilter,xcb_NonKDVDetailStk,TabSheet3,Envanter Yönetimi...,Stok Fişi işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,65,
+Form_EnFilter,xcb_iskontoYansi,TabSheet3,Envanter Yönetimi...,Tutarlara iskonto yansısın,Fiyat Özellikleri,0,66,
+Form_EnFilter,xcb_iptal,TabSheet5,Envanter Yönetimi...,İptal edilen fişleri dikkate alma,&Yönetim Detayları,0,67,
+Form_EnFilter,L_SatTar,TabSheet1,Envanter Yönetimi...,Satış Tarihi,&Filtre Kriterleri,0,68,
+Form_CSFilter,L_xVade,TabSheet1,Çek Yönetimi,Vade,Filtre Kriterleri,0,69,
+Form_KarZarar,xcb_Maliyetler,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Maliyetleri de yansıt,Fiyat Özellikleri,0,70,
+Form_KarZarar2,L_ParaC,TabSheet1,Kar Zarar Yönetimi...,Para Cinsi,&Filtre Kriterleri,0,71,
+Form_KarZarar2,L_xLocation,TabSheet1,Kar Zarar Yönetimi...,Lokasyon,&Filtre Kriterleri,0,72,
+Form_KarZarar2,L_SKod,TS_StokKriter,Kar Zarar Yönetimi...,Stok Kodu,Stok Kriterleri,0,73,
+Form_KarZarar2,rg_alFiy,TS_FiyatKriter,Kar Zarar Yönetimi...,Maliyetlendirme tipi :,Alış Fiyatı Hesaplama Kriterleri,0,74,
+Form_KarZarar2,xcb_CikanMust,TS_FiyatKriter,Kar Zarar Yönetimi...,Çıkışı olmayan kartları gösterme,Alış Fiyatı Hesaplama Kriterleri,0,75,
+Form_KarZarar2,xcb_iptal,TS_Detay,Kar Zarar Yönetimi...,İptal edilen fişleri dikkate alma,Yönetim Detayları,0,76,
+Form_KarZarar2,xcb_iadeGoster,TS_Detay,Kar Zarar Yönetimi...,İadeleri ayrı göster,Yönetim Detayları,0,77,
+Form_KarZarar2,xcb_NonKDVDetail,TabSheet3,Kar Zarar Yönetimi...,KDV / OTV Çıkar,Fiyat Özellikleri,0,78,
+Form_KarZarar2,xcb_NonKDVDetailFat,TabSheet3,Kar Zarar Yönetimi...,Fatura & irsaliye Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,79,
+Form_KarZarar2,xcb_NonKDVDetailStk,TabSheet3,Kar Zarar Yönetimi...,Stok Fişi işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,80,
+Form_KarZarar2,xcb_HizmetBag,GroupBox3,Kar Zarar Yönetimi...,Faturaya Bağlı Hizmet Faturaları Hareketin Fiyatına Yansısın,,0,81,
+Form_KarZarar2,xcb_CariBag,GroupBox3,Kar Zarar Yönetimi...,Faturaya Bağlı Cari Fişleri Hareketin Fiyatına Yansısın,,0,82,
+Form_KarZarar2,xcb_KasaBag,GroupBox3,Kar Zarar Yönetimi...,Faturaya Bağlı Kasa Fişleri Hareketin Fiyatına Yansısın,,0,83,
+Form_KarZarar2,xcb_BankaBag,GroupBox3,Kar Zarar Yönetimi...,Faturaya Bağlı Banka Fişleri Hareketin Fiyatına Yansısın,,0,84,
+Form_KarZarar2,xcb_iskontoYansi,TabSheet3,Kar Zarar Yönetimi...,Tutarlara İskonto Yansıt,Fiyat Özellikleri,0,85,
+Form_KarZarar2,L_SatTar,TabSheet1,Kar Zarar Yönetimi...,Satış Tarihi,&Filtre Kriterleri,0,86,
+Form_KarZarar,L_SKod,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Stok Kodu,Stok Kriterleri,0,87,
+Form_StokFilter,L_xLocation,TabSheet1,Stok Yönetimi,Lokasyon,&Filtre Kriterleri,0,88,
+Form_StokFilter,rg_StokOption,TabSheet1,Stok Yönetimi,Stok Liste Şekli,&Filtre Kriterleri,0,89,
+Form_StokFilter,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,90,
+Form_StokFilter,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,91,
+Form_StokFilter,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,iskonto hesabı,Fiyat Alanları,0,92,
+Form_StokFilter,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar hesabı,Fiyat Alanları,0,93,
+Form_StokFilter,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,94,
+Form_StokFilter,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,95,
+Form_StokFilter,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum & Kritik Seviye Kriterleri,0,96,
+Form_StokFilter,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum & Kritik Seviye Kriterleri,0,97,
+Form_StokFilter,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,98,
+Form_StokFilter,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,99,
+Form_StokFilter,L_xStokSekli,TabSheet1,Stok Yönetimi,Stok Şekli,&Filtre Kriterleri,0,100,
+Form_KasaYon,L_FisTar,GroupBox1,Kasa İşlem Yönetimi,İşlem Tarihi,Opsiyonlar,0,101,
+Form_KasaYon,xcb_Pc2,TSFilter,Kasa İşlem Yönetimi,Çevir >,Filtre Kriterleri,0,102,
+Form_KasaYon,L_kasa,GroupBox1,Kasa İşlem Yönetimi,Kasa Kodu,Opsiyonlar,0,103,
+Form_SiparisFilter,rg_ConvertBirim,ts_YonDetail,Satınalma Analiz ve Sipariş Yönetimi,Birim Çevrimleri,Yönetim Detayları,0,104,
+Form_SiparisFilter,rg_NetKalan,ts_YonDetail,Satınalma Analiz ve Sipariş Yönetimi,Net Kalan Hesabı,Yönetim Detayları,0,105,
+Form_SiparisFilter,rg_TutarHesTip,ts_YonDetail,Satınalma Analiz ve Sipariş Yönetimi,Tutar hesaplamalarında kullanılacak miktar,Yönetim Detayları,0,106,
+Form_CSFilter,L_islemtar,TabSheet1,Çek Yönetimi,Son İşlem Tarihi,Filtre Kriterleri,0,107,
+Form_FaturaFilter,L_FatTip,TabSheet1,Fatura Yönetimi,Evrak Tipi,Filtre Kriterleri,0,108,
+Form_FaturaFilter,L_FatTur,TabSheet1,Fatura Yönetimi,İşlem Tipi,Filtre Kriterleri,0,109,
+Form_FaturaFilter,L_ParaC,TabSheet1,Fatura Yönetimi,Para Cinsi,Filtre Kriterleri,0,110,
+Form_FaturaFilter,rg_KFatura,ts_DetailKriter,Fatura Yönetimi,Fatura Seçimi,Evrak Kriterleri,0,111,
+Form_FaturaFilter,rg_KDVCheck,ts_DetailKriter,Fatura Yönetimi,KDV Seçimi,Evrak Kriterleri,0,112,
+Form_FaturaFilter,rg_iskonto,ts_DetailKriter,Fatura Yönetimi,İskonto Seçimi,Evrak Kriterleri,0,113,
+Form_FaturaFilter,rg_HizmetStok,ts_DetailKriter,Fatura Yönetimi,Hizmet / Stok Seçimi,Evrak Kriterleri,0,114,
+Form_FaturaFilter,rg_iFatura,ts_DetailKriter,Fatura Yönetimi,Fatura Durumu,Evrak Kriterleri,0,115,
+Form_FaturaFilter,rg_HizmetD,ts_DetailKriter,Fatura Yönetimi,Hizmet Faturası Durumu,Evrak Kriterleri,0,116,
+Form_FaturaFilter,rg_alFiy,ts_StokFiyatHesap,Fatura Yönetimi,Alış Fiyat Kriterleri,Stok Fiyatı Hesaplama,0,117,
+Form_FaturaFilter,L_xLocation,TabSheet1,Fatura Yönetimi,Lokasyon,Filtre Kriterleri,0,118,
+Form_FaturaFilter,xcb_ParaC2,TabSheet1,Fatura Yönetimi,Çevir,Filtre Kriterleri,0,119,
+Form_FaturaFilter,rg_Dahiliirs,ts_DetailKriter,İrsaliye Yönetimi,Dahili İrsaliye Tipi,Evrak Kriterleri,0,120,
+Form_FaturaFilter,L_FatTar,TabSheet1,Fatura Yönetimi,Fatura Tarihi,Filtre Kriterleri,0,121,
+Form_StokFiltre,L_FisTip,TabSheet1,Stok İşlemleri Yönetimi,İşlem Tipi,&Filtre Kriterleri,0,122,
+Form_StokFiltre,L_ParaC,TabSheet1,Stok İşlemleri Yönetimi,Para Cinsi,&Filtre Kriterleri,0,123,
+Form_StokFiltre,L_SKod,ts_StokFilter,Stok İşlemleri Yönetimi,Stok Kodu,Stok Kriterleri,0,124,
+Form_StokFiltre,rg_KDVCheck,ts_DetailKriter,Stok İşlemleri Yönetimi,KDV Seçimi,Evrak Kriterleri,0,125,
+Form_StokFiltre,rg_iskonto,ts_DetailKriter,Stok İşlemleri Yönetimi,İskonto Seçimi,Evrak Kriterleri,0,126,
+Form_StokFiltre,rg_iptal,ts_DetailKriter,Stok İşlemleri Yönetimi,Fiş Durumu,Evrak Kriterleri,0,127,
+Form_StokFiltre,L_xLocation,TabSheet1,Stok İşlemleri Yönetimi,Lokasyon,&Filtre Kriterleri,0,128,
+Form_KarZarar2,xcb_Script,TabSheet1,Kar Zarar Yönetimi...,Hazır Rapor,&Filtre Kriterleri,0,129,
+Form_KarZarar,xcb_Script,TabSheet1,Perakende Satış Kar Zarar Yönetimi,Hazır Rapor,&Filtre Kriterleri,0,130,
+Form_StokFilter,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,132,
+Form_FaturaFilter_1,L_CKod,TabSheet3,Fatura Yönetimi,Cari Kod,Genel Kriterler,0,401,2
+Form_FaturaFilter,L_SKod,TabSheet10,Fatura Yönetimi,Stok Kodu,Stok Kriterleri,0,402,2
+Form_KarZarar,cbGrupKod,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Stok Grubu,Stok Kriterleri,0,403,2
+Form_FaturaFilter,cbGrupKod,TabSheet10,Fatura Yönetimi,Stok Grubu,Stok Kriterleri,0,404,2
+Form_FaturaFilter,L_SipSevkTar,tsSipDetail,İrsaliye Yönetimi,Sevkiyat Tarihi,Bağlı Sipariş Kriterleri,0,405,2
+Form_CariYonet,L_CSehir,TabSheet1,Cari Yönetim,Şehir,Cari Bilgiler,0,406,2
+Form_FaturaFilter,L_Satici,ts_DetailKriter,Fatura Yönetimi,Satıcı,Evrak Kriterleri,0,407,2
+Form_FaturaFilter,rg_YurticDis,ts_cariKriter,Fatura Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterler,0,408,2
+Form_SiparisFilter,gb_Location,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Lokasyon,Genel Kriterler,0,409,2
+Form_SiparisFilter,gb_SumFieldList,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Gösterilecek Alanlar,Genel Kriterler,0,410,2
+Form_FaturaFilter,rg_Tevkifat,ts_DetailKriter,Fatura Yönetimi,Tevkifat Seçimi,Evrak Kriterleri,0,416,2
+Form_FaturaFilter,xcb_Script,Panel1,Fatura Yönetimi,Hazır Rapor,GENEL,0,417,2
+Form_CariYonet,rg_YurticDis,TabSheet1,Cari Yönetim,Yurtiçi / Yurtdışı,Cari Bilgiler,0,418,2
+Form_SiparisFilter,cbUreticiKodu,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Üretici Kodu,Stok Kriterleri,0,419,2
+Form_StokFilter,rg_YurticDis,TS_Cari,Stok Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterleri,0,420,2
+Form_SiparisFilter,L_UrGirTar,ts_SiparisKriter,Pazarlama Analiz ve Sipariş Yönetimi,Üretime Giriş Tarihi,Sipariş Kriterleri ,0,423,2
+FormLokDetStkRap,gb_xLocation,TabSheet4,Lokasyon Detaylı Stok Durum Raporu,Lokasyon,Genel Parametreler,0,424,2
+FormLokDetStkRap,gb_xStokSekli,TabSheet4,Lokasyon Detaylı Stok Durum Raporu,Stok Şekli,Genel Parametreler,0,425,2
+FormLokDetStkRap,L_SKod,TabSheet3,Lokasyon Detaylı Stok Durum Raporu,Stok Kodu,Stok Kriterleri,0,426,2
+FormLokDetStkRap,rg_ConvertBirim,TS_Detay,Lokasyon Detaylı Stok Durum Raporu,Birim Çevrimleri,Yönetim detayları,0,427,2
+FormLokDetStkRap,L_RenkTY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,428,2
+FormLokDetStkRap,L_StokTA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,429,2
+FormLokDetStkRap,L_StokTY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,430,2
+FormLokDetStkRap,L_GenelTA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,431,2
+FormLokDetStkRap,L_GenelTY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,432,2
+FormLokDetStkRap,L_SonTA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,433,2
+FormLokDetStkRap,L_SonTY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,434,2
+FormLokDetStkRap,L_RenkTA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,435,2
+FormLokDetStkRap,L_BedenTY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,436,2
+FormLokDetStkRap,L_1TA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,437,2
+FormLokDetStkRap,L_1TY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,438,2
+FormLokDetStkRap,L_2TA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,439,2
+FormLokDetStkRap,L_2TY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,440,2
+FormLokDetStkRap,L_3TA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,441,2
+FormLokDetStkRap,L_3TY,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,442,2
+FormLokDetStkRap,L_BedenTA,TS_Renkler,Lokasyon Detaylı Stok Durum Raporu,Renk Seç,Rapor Renkleri,0,443,2
+FormLokDetStkRap,cbUreticiKodu,TabSheet3,Lokasyon Detaylı Stok Durum Raporu,Üretici Kodu,Stok Kriterleri,0,444,2
+FormLokDetStkRap,cbBEDKod,TabSheet3,Lokasyon Detaylı Stok Durum Raporu,Beden Grup,Stok Kriterleri,0,445,2
+Form_SiparisFilter,xcb_Script,Panel2,Satınalma Analiz ve Sipariş Yönetimi,Hazır Rapor,GENEL,0,446,2
+Form_SiparisFilter,L_TeslimTar,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Termin Tarihi,Sipariş Kriterleri ,0,447,2
+Form_SiparisFilter,L_TerminTar,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Satır Termin Tarihi,Sipariş Kriterleri ,0,448,2
+FormLokDetStkRap,cbOzKod1,TabSheet3,Lokasyon Detaylı Stok Durum Raporu,Sezon,Stok Kriterleri,0,449,2
+FormLokDetStkRap,cbCinsKod,TabSheet3,Lokasyon Detaylı Stok Durum Raporu,Cinsiyet,Stok Kriterleri,0,450,2
+Form_CSFilter,L_xTarih,TabSheet1,Çek Yönetimi,Bordro Tarihi,Filtre Kriterleri,0,131,
+Form_CariYonet,L_Tar,GroupBox1,Cari Yonetim,İşlem Tarihi,Cari Kriterleri,0,133,
+Form_CariYonet,L_Kasa,GroupBox4,Kasa Yönetimi,Kasa Kodu,Kasa Kriterleri,0,134,
+Form_CariYonet,L_KasaTar,GroupBox4,Kasa Yönetimi,İşlem Tarihi,Kasa Kriterleri,0,135,
+Form_StokFilter,cbUreticiKodu,TS_StokKriter,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,136,
+Form_StokFiltre,L_FisTar,GroupBox1,Stok İşlemleri Yönetimi,İşlem Tarihi,Opsiyonlar,0,137,
+Form_CSFilter,L_HesapNo,TS_EvrakKriter,Çek Yönetimi,Hesap No,Evrak Kriterleri,0,138,
+Form_StokFiltre,cbUreticiKodu,ts_StokFilter,Stok İşlemleri Yönetimi,Üretici Kodu,Stok Kriterleri,0,139,
+Form_StokFiltre,xcb_ParaC2,TabSheet1,Stok İşlemleri Yönetimi,Çevir,&Filtre Kriterleri,0,140,
+Form_CSFilter,L_Banka,TS_EvrakKriter,Çek Yönetimi,Banka,Evrak Kriterleri,0,141,
+Form_CSFilter,L_Sube,TS_EvrakKriter,Çek Yönetimi,Şube,Evrak Kriterleri,0,142,
+Form_FaturaFilter,L_CKod,TabSheet1,İrsaliye Yönetimi,Lokasyon,Filtre Kriterleri,0,143,
+Form_FaturaFilter,L_irsaliyeTar,TabSheet1,İrsaliye Yönetimi,İrsaliye Tarihi,Filtre Kriterleri,0,144,
+Form_PazFilter,L_SKod,TabSheet3,Perakende Satış Yönetimi,Stok Kodu,Stok Kriterleri,0,145,
+Form_PazFilter,rg_UyeNo,TabSheet4,Perakende Satış Yönetimi,Üye Numarası,Müşteri Kriterleri,0,146,
+Form_PazFilter,cbUreticiKodu,TabSheet3,Perakende Satış Yönetimi,Üretici Kodu,Stok Kriterleri,0,147,
+Form_CSFilter,L_CMKod,TS_EvrakKriter,Çek Yönetimi,Cari Kodu,Evrak Kriterleri,0,148,
+Form_KarZarar,cbBEDKod,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Beden Grup,Stok Kriterleri,0,149,
+Form_FaturaFilter,cbUreticiKodu,ts_StokFilter,Fatura Yönetimi,Üretici Kodu,Stok Kriterleri,0,150,
+Form_PazFilter_1,L_SatTar,GroupBox2,Taksitli Satış Yönetimi,Satış Tarihi,Perakende Satış Kriterleri,0,151,
+Form_PazFilter_1,rg_TakViewTip,GroupBox_Taksit,Taksitli Satış Yönetimi,Taksit Takip Şekli,Taksit Kriterleri,0,152,
+Form_PazFilter_1,rg_iptaller,GroupBox_Taksit,Taksitli Satış Yönetimi,İptal edilen Taksitler,Taksit Kriterleri,0,153,
+Form_PazFilter_1,L_xLocation,TabSheet1,Taksitli Satış Yönetimi,Lokasyon,Filtre Kriterleri,0,154,
+Form_PazFilter_1,rg_UyeNo,TabSheet4,Taksitli Satış Yönetimi,Üye Numarası,Müşteri Kriterleri,0,155,
+Form_PazFilter_1,xcb_Negatifiade,TabSheet5,Taksitli Satış Yönetimi,İadelerin Miktarını Negatif göster,Ek Alanlar,0,156,
+Form_PazFilter_1,L_RapKriterValue,TS_RapKraker,Taksitli Satış Yönetimi,Kriter,Rapor Kriterleri,0,157,
+Form_PazFilter_1,rg_RapKriterTip,TS_RapKraker,Taksitli Satış Yönetimi,Rapor Tipi,Rapor Kriterleri,0,158,
+Form_PazFilter_1,L_xSatTip,TabSheet1,Taksitli Satış Yönetimi,Satış Tipi,Filtre Kriterleri,0,159,
+Form_PazFilter_1,xcb_ParaC2,TabSheet1,Taksitli Satış Yönetimi,Çevir - >,Filtre Kriterleri,0,160,
+Form_PazFilter,L_kasa,GroupBox2,Perakende Satış Yönetimi,Kasa Kodu,Perakende Satış Kriterleri,0,161,
+Form_CariYonet,xcb_GunlukRapor,Ts_RapKriter,Kasa Yönetimi,Günlük Rapor Ver,Rapor Kriterleri,0,162,
+Form_KarZarar,cbUreticiKodu,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Üretici Kodu,Stok Kriterleri,0,163,
+Form_FaturaFilter,L_SKod,ts_StokFilter,İrsaliye Yönetimi,Stok Kodu,Stok Kriterleri,0,164,
+Form_PazFilter,L_SatTar,TS_PSOption,Perakende Satış Yönetimi,Satış Tarihi,Perakende Satış Kriterleri,0,165,
+Form_KarZarar2,rg_UseFisType,TS_FiyatKriter,Kar Zarar Yönetimi...,Maliyetlendirme tipi :,Alış Fiyatı Hesaplama Kriterleri,0,166,
+Form_PazFilter,L_SatKod,TS_PSOption,Perakende Satış Yönetimi,Satıcı Kodu,Perakende Satış Kriterleri,0,167,
+Form_PazFilter,xcb_Script,TabSheet1,Perakende Satış Yönetimi,Hazır Rapor,Filtre Kriterleri,0,168,
+Form_KarZarar,xcb_NonMevcut,TS_Detay,Perakende Satış Kar Zarar Yönetimi,"Mevcudu ""0"" olanları gösterme",Yönetim Detayları,0,169,
+Form_KarZarar2,xcb_iadeGoster,TS_StokKriter,Kar Zarar Yönetimi...,İadeleri ayrı göster,Stok Kriterleri,0,170,
+Form_KarZarar2,xcb_NonKDVDetail,TS_FiyatOz,Kar Zarar Yönetimi...,KDV / OTV Çıkar,Fiyat Özellikleri,0,171,
+Form_KarZarar2,xcb_NonKDVDetailFat,TS_FiyatOz,Kar Zarar Yönetimi...,Fatura & irsaliye Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,172,
+Form_KarZarar2,xcb_NonKDVDetailStk,TS_FiyatOz,Kar Zarar Yönetimi...,Stok Fişi işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,173,
+Form_KarZarar2,xcb_iskontoYansi,TS_FiyatOz,Kar Zarar Yönetimi...,Tutarlara İskonto Yansıt,Fiyat Özellikleri,0,174,
+Form_KarZarar2,L_CKod,TS_StokKriter,Kar Zarar Yönetimi...,Cari Kart,Stok Kriterleri,0,175,
+Form_PazFilter,gb_xLocation,TabSheet7,Perakende Satış Yönetimi,Lokasyon,Genel Kriterler,0,176,2
+Form_PazFilter,gb_xSatTip,TabSheet7,Perakende Satış Yönetimi,Satış Tipi,Genel Kriterler,0,177,2
+Form_BorclanmaFilter,L_OdTar,TabSheet1,Borçlanma Yönetimi,Borç Tarihi,Genel Kriterler,0,320,2
+Form_EnFilter,gb_xLocation,TabSheet3,Envanter Yönetimi...,Lokasyon,Genel Kriterler,0,321,2
+Form_EnFilter,L_ParaC,TabSheet3,Envanter Yönetimi...,Para Cinsi :,Genel Kriterler,0,322,2
+Form_EnFilter,L_SatTar,TabSheet1,Envanter Yönetimi...,Envanter Tarihi,Filtre Kriterleri,0,323,2
+Form_EnFilter,rg_alFiy,TS_Detay,Envanter Yönetimi...,Maliyetlendirme tipi :,Maliyetlendirme,0,324,2
+Form_EnFilter,xcb_NonEnvNegatif,TS_Detay,Envanter Yönetimi...,Mevcudu negatif olanların envanterini getirme,Maliyetlendirme,0,325,2
+Form_EnFilter,xcb_HizmetBag,TS_Detay,Envanter Yönetimi...,Faturaya Bağlı Hizmet Faturaları Hareketin Fiyatına Yansısın,Maliyetlendirme,0,326,2
+Form_EnFilter,xcb_CariBag,TS_Detay,Envanter Yönetimi...,Faturaya Bağlı Cari Fişleri Hareketin Fiyatına Yansısın,Maliyetlendirme,0,327,2
+Form_EnFilter,xcb_KasaBag,TS_Detay,Envanter Yönetimi...,Faturaya Bağlı Kasa Fişleri Hareketin Fiyatına Yansısın,Maliyetlendirme,0,328,2
+Form_EnFilter,xcb_BankaBag,TS_Detay,Envanter Yönetimi...,Faturaya Bağlı Banka Fişleri Hareketin Fiyatına Yansısın,Maliyetlendirme,0,329,2
+Form_EnFilter,xcb_NonKDVDetail,TS_DetayeX,Envanter Yönetimi...,Perakende Satış işlemlerinden KDV yi çıkar,Yönetim Detayları,0,330,2
+Form_EnFilter,xcb_NonKDVDetailFat,TS_DetayeX,Envanter Yönetimi...,Fatura  irsaliye Satış işlemlerinden KDV yi çıkar,Yönetim Detayları,0,331,2
+Form_EnFilter,xcb_NonKDVDetailStk,TS_DetayeX,Envanter Yönetimi...,Stok Fişi işlemlerinden KDV yi çıkar,Yönetim Detayları,0,332,2
+Form_EnFilter,xcb_iskontoYansi,TS_DetayeX,Envanter Yönetimi...,Tutarlara iskonto yansısın,Yönetim Detayları,0,333,2
+Form_EnFilter,xcb_iptal,TabSheet5,Envanter Yönetimi...,İptal edilen fişleri dikkate alma,Yönetim Detayları,0,334,2
+Form_PazFilter,L_PERKOD,TabSheet7,Perakende Satış Yönetimi,Kasiyer Kodu,Genel Kriterler,0,335,2
+Form_KrediYon,rg_Tahsilat,TabSheet3,Kredi Kart Yönetimi...,Tahsilat,Yönetim Kriterleri,0,336,2
+Form_PazFilter_1,gb_xLocation,TabSheet7,Perakende Satış Yönetimi,Lokasyon,Genel Kriterler,0,337,2
+Form_PazFilter_1,gb_xSatTip,TabSheet7,Perakende Satış Yönetimi,Satış Tipi,Genel Kriterler,0,338,2
+Form_PazFilter_1,xcb_ParaC2,TabSheet7,Perakende Satış Yönetimi,Çevir - >,Genel Kriterler,0,339,2
+Form_PazFilter_1,L_kasa,TabSheet7,Perakende Satış Yönetimi,Kasa Kodu,Genel Kriterler,0,340,2
+Form_PazFilter_1,L_SatTar,TabSheet7,Perakende Satış Yönetimi,Satış Tarihi,Genel Kriterler,0,341,2
+Form_PazFilter_1,rg_TakViewTip,TS_Taksit,Perakende Satış Yönetimi,Taksit Takip Şekli,Taksit Kriterleri,0,342,2
+Form_PazFilter_1,rg_iptaller,TS_Taksit,Perakende Satış Yönetimi,İptal edilen Taksitler,Taksit Kriterleri,0,343,2
+Form_PazFilter_1,rg_UyeNo,TS_Musteri,Perakende Satış Yönetimi,Üye Numarası,Müşteri Kriterleri,0,344,2
+Form_PazFilter_1,xcb_Negatifiade,TS_EkAlanlar,Perakende Satış Yönetimi,İadelerin Miktarını Negatif göster,Ek Alanlar,0,345,2
+Form_PazFilter_1,L_RapKriterValue,TS_RapKriter,Perakende Satış Yönetimi,Kriter,Rapor Kriterleri,0,346,2
+Form_PazFilter_1,rg_RapKriterTip,TS_RapKriter,Perakende Satış Yönetimi,Rapor Tipi,Rapor Kriterleri,0,347,2
+Form_StokFiltre,L_FisTip,TabSheet3,Stok İşlemleri Yönetimi,İşlem Tipi,Genel Kriterler,0,348,2
+Form_StokFiltre,gb_xLocation,TabSheet3,Stok İşlemleri Yönetimi,Lokasyon,Genel Kriterler,0,349,2
+Form_StokFiltre,gb_xFisTur,TabSheet3,Stok İşlemleri Yönetimi,Fiş Türü,Genel Kriterler,0,350,2
+Form_StokFiltre,L_ParaC,TabSheet3,Stok İşlemleri Yönetimi,Para Cinsi,Genel Kriterler,0,351,2
+Form_StokFiltre,rg_KDVCheck,ts_DetailKriter,Stok İşlemleri Yönetimi,KDV Seçimi,Evrak Kriterleri,0,352,2
+Form_StokFiltre,rg_iskonto,ts_DetailKriter,Stok İşlemleri Yönetimi,İskonto Seçimi,Evrak Kriterleri,0,353,2
+Form_PazFilter,xcb_ParaC2,TabSheet7,Perakende Satış Yönetimi,Çevir - >,Genel Kriterler,0,178,2
+Form_PazFilter,L_SatTar,TabSheet7,Perakende Satış Yönetimi,Satış Tarihi,Genel Kriterler,0,179,2
+Form_PazFilter,rg_TakViewTip,TS_Taksit,Perakende Satış Yönetimi,Taksit Takip Şekli,Taksit Kriterleri,0,180,2
+Form_PazFilter,rg_iptaller,TS_Taksit,Perakende Satış Yönetimi,İptal edilen Taksitler,Taksit Kriterleri,0,181,2
+Form_PazFilter,rg_UyeNo,TS_Musteri,Perakende Satış Yönetimi,Üye Numarası,Müşteri Kriterleri,0,182,2
+Form_PazFilter,xcb_Negatifiade,TS_EkAlanlar,Perakende Satış Yönetimi,İadelerin Miktarını Negatif göster,Ek Alanlar,0,183,2
+Form_PazFilter,L_RapKriterValue,TS_RapKriter,Perakende Satış Yönetimi,Kriter,Rapor Kriterleri,0,184,2
+Form_StokFilter,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,215,2
+Form_StokFilter,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,İskonto Hesabı,Fiyat Alanları,0,216,2
+Form_StokFilter,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar Hesabı,Fiyat Alanları,0,217,2
+Form_StokFilter,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,218,2
+Form_StokFilter,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,219,2
+Form_StokFilter,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,220,2
+Form_StokFilter,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,221,2
+Form_StokFilter,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,222,2
+Form_StokFilter,cbUreticiKodu,TabSheet6,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,223,2
+Form_FaturaFilter,cbUreticiKodu,TabSheet10,Fatura Yönetimi,Üretici Kodu,Stok Kriterleri,0,237,2
+Form_PazFilter,cbUreticiKodu,TabSheet7,Perakende Satış Yönetimi,Üretici Kodu,Genel Kriterler,0,238,2
+Form_FaturaFilter,L_irsaliyeTar,TabSheet3,İrsaliye Yönetimi,İrsaliye Tarihi,Genel Kriterler,0,240,2
+Form_FaturaFilter,rg_Dahiliirs,ts_DetailKriter,İrsaliye Yönetimi,Dahili İrsaliye Tipi,Evrak Kriterleri,0,241,2
+Form_KasaYon,gb_xLocation,TSFilter,Kasa İşlem Yönetimi,Lokasyon,Filtre Kriterleri,0,242,2
+Form_KasaYon,gb_xFisTip,TSFilter,Kasa İşlem Yönetimi,Fiş Tipi,Filtre Kriterleri,0,243,2
+Form_KasaYon,L_Pc1,TSFilter,Kasa İşlem Yönetimi,Para Cinsi,Filtre Kriterleri,0,244,2
+Form_KasaYon,xcb_Pc2,TSFilter,Kasa İşlem Yönetimi,Çevir >,Filtre Kriterleri,0,245,2
+Form_KasaYon,L_cbpg,TSFilter,Kasa İşlem Yönetimi,Gider Kod,Filtre Kriterleri,0,246,2
+Form_KasaYon,L_FisTar,TSFilter,Kasa İşlem Yönetimi,İşlem Tarihi,Filtre Kriterleri,0,247,2
+Form_KasaYon,rg_iptal,TSFilter,Kasa İşlem Yönetimi,Fiş Durumu,Filtre Kriterleri,0,248,2
+Form_FaturaFilter,L_CKod,TabSheet3,Fatura Yönetimi,Cari Kod,Genel Kriterler,0,249,2
+Form_KarZarar2,gb_xLocation,TabSheet3,Kar Zarar Yönetimi...,Lokasyon,Genel Parametreler,0,250,2
+Form_KarZarar2,L_SatTar,TabSheet3,Kar Zarar Yönetimi...,Hareket Tarihi,Genel Parametreler,0,251,2
+Form_KarZarar2,L_ParaC,TabSheet3,Kar Zarar Yönetimi...,Para Cinsi,Genel Parametreler,0,252,2
+Form_KarZarar2,xcb_iadeGoster,TS_StokKriter,Kar Zarar Yönetimi...,İadeleri ayrı göster,Stok Kriterleri,0,253,2
+Form_KarZarar2,rg_alFiy,TS_FiyatKriter,Kar Zarar Yönetimi...,Maliyetlendirme tipi :,Alış Fiyatı Hesaplama Kriterleri,0,254,2
+Form_KarZarar2,xcb_CikanMust,TS_FiyatKriter,Kar Zarar Yönetimi...,Çıkışı olmayan kartları gösterme,Alış Fiyatı Hesaplama Kriterleri,0,255,2
+Form_KarZarar2,rg_UseFisType,TS_FiyatKriter,Kar Zarar Yönetimi...,Maliyetlendirme tipi :,Alış Fiyatı Hesaplama Kriterleri,0,256,2
+Form_KarZarar2,xcb_iskontoYansi,TS_FiyatOz,Kar Zarar Yönetimi...,Tutarlara İskonto Yansıt,Fiyat Özellikleri,0,257,2
+Form_KarZarar2,xcb_NonKDVDetail,TS_FiyatOz,Kar Zarar Yönetimi...,KDV / OTV Çıkar,Fiyat Özellikleri,0,258,2
+Form_KarZarar2,xcb_NonKDVDetailFat,TS_FiyatOz,Kar Zarar Yönetimi...,Fatura  irsaliye Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,259,2
+Form_KarZarar2,xcb_NonKDVDetailStk,TS_FiyatOz,Kar Zarar Yönetimi...,Stok Fişi işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,260,2
+Form_KarZarar2,xcb_HizmetBag,TS_FiyatOz,Kar Zarar Yönetimi...,Faturaya Bağlı Hizmet Faturaları Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,261,2
+Form_KarZarar2,xcb_CariBag,TS_FiyatOz,Kar Zarar Yönetimi...,Faturaya Bağlı Cari Fişleri Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,262,2
+Form_KarZarar2,xcb_KasaBag,TS_FiyatOz,Kar Zarar Yönetimi...,Faturaya Bağlı Kasa Fişleri Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,263,2
+Form_KasaYon,L_kasa,TSFilter,Kasa İşlem Yönetimi,Kasa Kodu,Filtre Kriterleri,0,286,2
+FormGidHizFilter,gb_Location,TabSheet1,GiderGelirHizmet Yönetimi,Lokasyon,Genel Kriterler,0,303,2
+Form_BankaYon,L_Tarih,TabSheet3,Banka Yönetimi,İşlem Tarihi,Yönetim Kriterleri,0,314,2
+Form_BankaYon,xcb_CekGoster,TabSheet4,Banka Yönetimi,Çek işlemlerini de göster,Detay Kriterleri,0,315,2
+Form_BankaYon,xcb_KasaGoster,TabSheet4,Banka Yönetimi,Kasa işlemlerini de göster,Detay Kriterleri,0,316,2
+Form_BankaYon,xcb_MasrafGoster,TabSheet4,Banka Yönetimi,Masrafları da göster,Detay Kriterleri,0,317,2
+Form_CariYonet,L_Kasa,TabSheet4,Kasa Yönetimi,Kasa Kodu,Genel Kriterler,0,318,2
+Form_CariYonet,L_KasaTar,TabSheet4,Kasa Yönetimi,İşlem Tarihi,Genel Kriterler,0,319,2
+Form_PazFilter,rg_RapKriterTip,TS_RapKriter,Perakende Satış Yönetimi,Rapor Tipi,Rapor Kriterleri,0,185,2
+Form_CariYonet,rg_KurCevrim,TabSheet4,Cari Yönetim,Kur Çevrimi için kullanılacak Parite Tipi,Genel Kriterler,0,186,2
+Form_CariYonet,L_ParaC,TabSheet4,Cari Yönetim,Para Cinsi,Genel Kriterler,0,187,2
+Form_CariYonet,xcb_ParaC2,TabSheet4,Cari Yönetim,Çevir - >,Genel Kriterler,0,188,2
+Form_CariYonet,L_CKod,TabSheet4,Cari Yönetim,Cari Kod,Genel Kriterler,0,189,2
+Form_CariYonet,gb_FisTipR,TabSheet4,Cari Yönetim,Fiş Tipleri,Genel Kriterler,0,190,2
+Form_CariYonet,rg_AB_Dr,TabSheet4,Cari Yönetim,Alacak  Borç Durumu,Genel Kriterler,0,191,2
+Form_CariYonet,xcb_AlBorVisible,TabSheet4,Cari Yönetim,Sadece Bakiyesi olanları göster,Genel Kriterler,0,192,2
+Form_CariYonet,gb_xLocation,TabSheet4,Cari Yönetim,Lokasyon,Genel Kriterler,0,193,2
+Form_FaturaFilter,L_FatTip,TabSheet3,Fatura Yönetimi,Evrak Tipi,Genel Kriterler,0,194,2
+Form_FaturaFilter,L_FatTur,TabSheet3,Fatura Yönetimi,İşlem Tipi,Genel Kriterler,0,195,2
+Form_FaturaFilter,gb_xLocation,TabSheet3,Fatura Yönetimi,Lokasyon,Genel Kriterler,0,196,2
+Form_FaturaFilter,gb_SumFieldList,TabSheet3,Fatura Yönetimi,Gösterilecek Alanlar,Genel Kriterler,0,197,2
+Form_FaturaFilter,L_FatTar,TabSheet3,Fatura Yönetimi,Fatura Tarihi,Genel Kriterler,0,198,2
+Form_FaturaFilter,xcb_ParaC2,TabSheet3,Fatura Yönetimi,Çevir,Genel Kriterler,0,199,2
+Form_FaturaFilter,rg_KFatura,ts_DetailKriter,Fatura Yönetimi,Fatura Seçimi,Evrak Kriterleri,0,200,2
+Form_FaturaFilter,rg_iskonto,ts_DetailKriter,Fatura Yönetimi,İskonto Seçimi,Evrak Kriterleri,0,201,2
+Form_FaturaFilter,rg_KDVCheck,ts_DetailKriter,Fatura Yönetimi,KDV Seçimi,Evrak Kriterleri,0,202,2
+Form_FaturaFilter,rg_iFatura,ts_DetailKriter,Fatura Yönetimi,Fatura Durumu,Evrak Kriterleri,0,203,2
+Form_FaturaFilter,rg_HizmetStok,ts_DetailKriter,Fatura Yönetimi,Hizmet / Stok Seçimi,Evrak Kriterleri,0,204,2
+Form_FaturaFilter,rg_HizmetD,ts_DetailKriter,Fatura Yönetimi,Hizmet Faturası Durumu,Evrak Kriterleri,0,205,2
+Form_FaturaFilter,rg_alFiy,ts_StokFiyatHesap,Fatura Yönetimi,Alış Fiyat Kriterleri,Stok Fiyatı Hesaplama,0,206,2
+Form_KarZarar,L_xLocation,TabSheet4,Perakende Satış Kar Zarar Yönetimi,Lokasyon,Genel Kriterler,0,224,2
+Form_KarZarar,L_ParaC,TabSheet4,Perakende Satış Kar Zarar Yönetimi,Para Cinsi,Genel Kriterler,0,225,2
+Form_KarZarar,L_SatTar,TabSheet4,Perakende Satış Kar Zarar Yönetimi,Satış Tarihi,Genel Kriterler,0,226,2
+Form_KarZarar,rg_alFiy,TS_FiyatKriter,Perakende Satış Kar Zarar Yönetimi,Alış Fiyat Kriterleri,Alış Fiyatı Hesaplama Kriterleri,0,227,2
+Form_KarZarar,rg_fiyat_in_use,TS_FiyatKriter,Perakende Satış Kar Zarar Yönetimi,Fiyat Kullanım Şekli,Alış Fiyatı Hesaplama Kriterleri,0,228,2
+Form_KarZarar,rg_StokOption,TS_Detay,Perakende Satış Kar Zarar Yönetimi,Stok Liste Şekli,Yönetim Detayları,0,229,2
+Form_KarZarar,xcb_iptal,TS_Detay,Perakende Satış Kar Zarar Yönetimi,İptal edilen fişleri dikkate alma,Yönetim Detayları,0,230,2
+Form_KarZarar,xcb_iadeGoster,TS_Detay,Perakende Satış Kar Zarar Yönetimi,Satış bağlantısı olmayan iade işlemlerini de göster,Yönetim Detayları,0,231,2
+Form_KarZarar,xcb_NonKDVDetail,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Perakende Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,232,2
+Form_KarZarar,xcb_NonKDVDetailFat,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Fatura  irsaliye Satış işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,233,2
+Form_KarZarar,xcb_NonKDVDetailStk,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Stok Fişi işlemlerinden KDV yi çıkar,Fiyat Özellikleri,0,234,2
+Form_KarZarar,xcb_iskontoYansi,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Tutarlara iskonto yansısın,Fiyat Özellikleri,0,235,2
+Form_PazFilter,L_SatKod,TabSheet7,Perakende Satış Yönetimi,Satıcı Kodu,Genel Kriterler,0,236,2
+Form_KarZarar2,L_SKod,TS_StokKriter,Kar Zarar Yönetimi...,Stok Kodu,Stok Kriterleri,0,393,2
+Form_KarZarar2,xcb_Script,Panel1,Kar Zarar Yönetimi...,Hazır Rapor,GENEL,0,394,2
+Form_KarZarar2,cbOzKod2,TS_StokKriter,Kar Zarar Yönetimi...,Özel Kod 2,Stok Kriterleri,0,395,2
+Form_StokFiltre,cbUreticiKodu,TabSheet4,Stok İşlemleri Yönetimi,Üretici Kodu,Stok Kriterleri,0,396,2
+Form_KarZarar,xcb_NonMevcut,TS_Detay,Perakende Satış Kar Zarar Yönetimi,"Mevcudu ""0"" olanları gösterme",Yönetim Detayları,0,397,2
+Form_StokFiltre,xcb_AsortiMiktar,TabSheet3,Stok İşlemleri Yönetimi,Asorti Miktarını Göster,Genel Kriterler,0,398,2
+Form_StokFilter,xcb_Script,Panel1,Stok Yönetimi,Hazır Rapor,GENEL,0,399,2
+Form_FaturaFilter_1,rg_Fiyat,ts_DetailKriter,Fatura Yönetimi,Fiyat Seçimi,Evrak Kriterleri,0,400,2
+Form_FaturaFilter_1,xcb_Script,Panel1,Fatura Yönetimi,Hazır Rapor,GENEL,0,464,2
+Form_KarZarar,xcb_HizmetBag,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Faturaya Bağlı Hizmet Faturaları Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,465,2
+Form_KarZarar,xcb_CariBag,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Faturaya Bağlı Cari Fişleri Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,466,2
+Form_KarZarar,xcb_KasaBag,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Faturaya Bağlı Kasa Fişleri Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,467,2
+Form_KarZarar,xcb_BankaBag,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Faturaya Bağlı Banka Fişleri Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,468,2
+Form_FaturaFilter_1,L_Satici,ts_DetailKriter,Fatura Yönetimi,Satıcı,Evrak Kriterleri,0,469,2
+Form_SiparisFilter_1,gb_Location,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Lokasyon,Genel Kriterler,0,470,2
+Form_SiparisFilter_1,gb_SumFieldList,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Gösterilecek Alanlar,Genel Kriterler,0,471,2
+Form_SiparisFilter_1,L_SipTar,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Tarihi,Genel Kriterler,0,472,2
+Form_SiparisFilter_1,rg_ConvertBirim,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Birim Çevrimleri,Sipariş Kriterleri ,0,473,2
+Form_SiparisFilter_1,rg_NetKalan,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Net Kalan Hesabı,Sipariş Kriterleri ,0,474,2
+Form_SiparisFilter_1,rg_TutarHesTip,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Tutar hesaplamalarında kullanılacak miktar,Sipariş Kriterleri ,0,475,2
+Form_SiparisFilter_1,rg_SipPrintOp,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Yazdırılma Opsiyonu,Sipariş Kriterleri ,0,476,2
+Form_SiparisFilter_1,rg_YurticDis,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterler,0,477,2
+Form_PazFilter,xcb_StokKalan,TS_RapKriter,Perakende Satış Yönetimi,Stok gruplamasında Stok Kalanını göster,Rapor Kriterleri,0,478,2
+Form_PazFilter,xcb_Script,Panel1,Perakende Satış Yönetimi,Hazır Rapor,GENEL,0,479,2
+Form_CariYonet,rg_iptal,TabSheet4,Cari Yönetim,İptal Edilenler,Genel Kriterler,0,480,2
+Form_FaturaFilter,rg_SipDetay,tsSipDetail,Fatura Yönetimi,Pazarlama Sipariş Detayları,Bağlı Sipariş Kriterleri,0,481,2
+Form_FaturaFilter,rg_SatSipDetay,tsSipDetail,Fatura Yönetimi,Satınalma Sipariş Detayları,Bağlı Sipariş Kriterleri,0,482,2
+Form_KasaYon,L_FisTar,TS_Options,Kasa İşlem Yönetimi,İşlem Tarihi,Genel Kriterler,0,483,2
+Form_SiparisFilter,L_SKod,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Stok Kodu,Stok Kriterleri,0,487,2
+Form_KasaYon,L_cbpg,TS_Options,Kasa İşlem Yönetimi,Gider Kod,Genel Kriterler,0,488,2
+Form_KasaYon,rg_iptal,TabSheet1,Kasa İşlem Yönetimi,Fiş Durumu,Özel Kriterler,0,484,2
+Form_KasaYon,rg_islemKapamaBoya,TabSheet1,Kasa İşlem Yönetimi,Kilitlenen işlemlerin Boyaması,Özel Kriterler,0,485,2
+Form_KasaYon,rg_islemKapamaFilter,TabSheet1,Kasa İşlem Yönetimi,Kilitlenen işlemlerin uygulaması,Özel Kriterler,0,486,2
+Form_FaturaFilter_1,rg_SipDetay,tsSipDetail,İrsaliye Yönetimi,Pazarlama Sipariş Detayları,Bağlı Sipariş Kriterleri,0,489,2
+Form_FaturaFilter_1,rg_SatSipDetay,tsSipDetail,İrsaliye Yönetimi,Satınalma Sipariş Detayları,Bağlı Sipariş Kriterleri,0,490,2
+Form_StokFilter,cbCariKod,TabSheet6,Stok Yönetimi,Cari,Stok Kriterleri,0,491,2
+FormTemFilter,gb_xLocation,TabSheet3,Teminat Mektubu Yönetimi,Lokasyon,Genel Kriterler,0,492,2
+FormTemFilter,gb_xDurum,TabSheet3,Teminat Mektubu Yönetimi,Durum (Teminat Kartının Son Durumu),Genel Kriterler,0,493,2
+FormTemFilter,L_CSTip,TabSheet3,Teminat Mektubu Yönetimi,İşlem Tipi,Genel Kriterler,0,494,2
+FormTemFilter,L_ParaC,TabSheet3,Teminat Mektubu Yönetimi,Para Cinsi,Genel Kriterler,0,495,2
+FormTemFilter,xcb_ParaC2,TabSheet3,Teminat Mektubu Yönetimi,Çevir,Genel Kriterler,0,496,2
+FormFaturaRaporu,gb_KayitTip,TabSheet5,Fatura / KDV Raporu (Demo),Hareket Tipleri,Genel Kriterler,0,497,2
+FormFaturaRaporu,xcb_FatTur,TabSheet5,Fatura / KDV Raporu (Demo),Alış,Genel Kriterler,0,498,2
+Form_StokFilter,cbCinsKod,TabSheet6,Stok Yönetimi,Cinsiyet,Stok Kriterleri,0,499,2
+Form_EnFilter,L_SKod,TS_StokKriter,Envanter Yönetimi...,Stok Kodu,Stok Kriterleri,0,500,2
+Form_KasaYon,L_kasa,TS_Options,Kasa İşlem Yönetimi,Kasa Kodu,Genel Kriterler,0,502,2
+Form_StokFilter,xcb_Resim,TS_Detay,Stok Yönetimi,Resim yolunu göster,Yönetim detayları,0,503,2
+Form_FaturaFilter_1,rg_DahiliUyari,ts_DetailKriter,İrsaliye Yönetimi,Dahili İrsaliye - Okunma,Evrak Kriterleri,0,505,2
+Form_FaturaFilter,rg_DahiliUyari,ts_DetailKriter,İrsaliye Yönetimi,Dahili İrsaliye - Okunma,Evrak Kriterleri,0,501,2
+Form_SiparisFilter,xcb_BagliSiparisler,ts_SiparisKriter,Pazarlama Teklif Yönetimi,Karşı siparişte sadece bağlantılıları göster,Teklif Kriterleri ,0,504,2
+Form_KarZarar,cbRKod,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Renk,Stok Kriterleri,0,506,2
+Form_KrediYon,L_FisTar,TabSheet3,Kredi Kart Yönetimi...,İşlem Tarihi,Yönetim Kriterleri,0,507,2
+Form_CariYonet,rg_CariPasif,TabSheet4,Cari Yönetim,Cari Durumu,Genel Kriterler,0,508,2
+Form_CariYonet,rg_KaraListe,TabSheet4,Cari Yönetim,Kara Liste,Genel Kriterler,0,509,2
+Form_StokFilter,RG_STAktif,TabSheet6,Stok Yönetimi,Stok Durumu,Stok Kriterleri,0,510,2
+FormTamirFiltre,L_xLocation,TabSheet3,Tamir Takip Yönetimi,Lokasyon,Genel Parametreler,0,511,2
+FormTamirFiltre,rg_iadeNeden,TabSheet3,Tamir Takip Yönetimi,,Genel Parametreler,0,512,2
+FormTamirFiltre,rg_HarHareket,TabSheet3,Tamir Takip Yönetimi,,Genel Parametreler,0,513,2
+FormTamirFiltre,rg_Durum,TS_EvrakKriter1,Tamir Takip Yönetimi,Fişin Durumu,Evrak Kriterleri,0,514,2
+FormTamirFiltre,rg_Fat,TS_EvrakKriter1,Tamir Takip Yönetimi,,Evrak Kriterleri,0,515,2
+Form_StokFiltre,rg_PasifStok,TabSheet4,Stok İşlemleri Yönetimi,Stok Kart Durumu,Stok Kriterleri,0,516,2
+FormStokGCFilter,rg_PasifStok,ts_StokFilter,Stok Giriş Çıkış Yönetimi,Stok Kart Durumu,Stok Kriterleri,0,517,2
+Form_KarZarar2,xcb_Konsinye,TS_FiyatOz,Kar Zarar Yönetimi...,Konsinyeleri de dikkate al,Fiyat Özellikleri,0,518,2
+Form_PazFilter,cbUreticiKodu,TabSheet3,Perakende Satış Yönetimi,Üretici Kodu,Stok Kriterleri,0,519,2
+Form_PazFilter,xcb_Birimsiz,TS_RapKriter,Perakende Satış Yönetimi,Gruplamaya Birim'i dahil etme,Rapor Kriterleri,0,520,2
+Form_PazFilter,xcb_Resim,TS_EkAlanlar,Perakende Satış Yönetimi,Resim yolunu göster,Ek Alanlar,0,521,2
+Form_PazFilter,xcb_ShowPicture,TS_EkAlanlar,Perakende Satış Yönetimi,Resmi göster,Ek Alanlar,0,522,2
+Form_StokFilter,xcb_AsortiMiktar,TS_Detay,Stok Yönetimi,Asorti Miktarını Göster,Yönetim detayları,0,523,2
+Form_StokFilter,xcb_AsortiDagilim,TS_Detay,Stok Yönetimi,Asorti Dağılımını Göster,Yönetim detayları,0,524,2
+Form_StokFilter,cbGrupKod,TabSheet6,Stok Yönetimi,Stok Grubu,Stok Kriterleri,0,525,2
+Form_StokFiltre,L_SKod,TabSheet4,Stok İşlemleri Yönetimi,Stok Kodu,Stok Kriterleri,0,526,2
+Form_PazFilter,L_SKod,TabSheet3,Perakende Satış Yönetimi,Stok Kodu,Stok Kriterleri,0,527,2
+Form_FaturaFilter,L_cSehir,ts_cariKriter,İrsaliye Yönetimi,Şehir,Cari Kriterler,0,528,2
+Form_FaturaFilter,cbStokTip,TabSheet10,İrsaliye Yönetimi,Stok Tipi,Stok Kriterleri,0,529,2
+Form_FaturaFilter,L_FiiliSevk,ts_DetailKriter,İrsaliye Yönetimi,Fiili Sevkiyat Tarihi,Evrak Kriterleri,0,530,2
+Form_FaturaFilter,L_SevkSevkTar,TSSevkDetail,İrsaliye Yönetimi,Sevkiyat Tarihi,Bağlı Sevk Kriterleri,0,531,2
+Form_KasaYon,rg_CariPasif,TS_Cari,Cari İşlem Yönetimi,Cari Durumu,Cari Kriterler,0,532,2
+Form_PazFilter,RG_STAktif,TabSheet3,Perakende Satış Yönetimi,Stok Durumu,Stok Kriterleri,0,533,2
+Form_KarZarar,RG_STAktif,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Stok Durumu,Stok Kriterleri,0,534,2
+Form_FaturaFilter,RG_STAktif,TabSheet10,Fatura Yönetimi,Stok Durumu,Stok Kriterleri,0,535,2
+Form_KarZarar2,RG_STAktif,TS_StokKriter,Kar Zarar Yönetimi...,Stok Durumu,Stok Kriterleri,0,541,2
+Form_SiparisFilter_1,RG_STAktif,TabSheet10,Pazarlama Analiz ve Sipariş Yönetimi,Stok Durumu,Stok Kriterleri,0,542,2
+Form_SiparisFilter_1,rg_LockCheck,ts_SiparisKriter,Pazarlama Analiz ve Sipariş Yönetimi,Kilitleme Sorgulaması,Sipariş Kriterleri ,0,543,2
+Form_SiparisFilter_1,rg_CariPasif,ts_carikriter,Pazarlama Analiz ve Sipariş Yönetimi,Cari Durumu,Cari Kriterler,0,544,2
+Form_SiparisFilter_1,rg_CariKaraliste,ts_carikriter,Pazarlama Analiz ve Sipariş Yönetimi,Carinin Karaliste kontrolü,Cari Kriterler,0,545,2
+Form_SiparisFilter,xcb_Fiyat_Tip,TS_StokFiyat,Pazarlama Analiz ve Sipariş Yönetimi,Alış Fiyatı,Stok Fiyatı,0,551,2
+Form_FaturaFilter,xcb_FaturaCount,ts_DetailKriter,Fatura Yönetimi,Fatura Sayısını Göster,Evrak Kriterleri,0,556,2
+Form_KarZarar,xcb_Script,Panel2,Perakende Satış Kar Zarar Yönetimi,Hazır Rapor,GENEL,0,557,2
+Form_FaturaFilter,xcb_SatFiyat_Tip,TabSheet4,Fatura Yönetimi,Satış Fiyatı,Stok Fiyatı,0,560,2
+Form_KarZarar,cbUreticiKodu,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Üretici Kodu,Stok Kriterleri,0,561,2
+Form_KarZarar,L_SKod,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Stok Kodu,Stok Kriterleri,0,562,2
+Form_KapaFilter,gb_Location,TabSheet1,Borç Alacak Kapama Yönetimi,Lokasyon,Genel Kriterler,0,563,2
+Form_SiparisFilter,RG_STAktif,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Stok Durumu,Stok Kriterleri,0,536,2
+Form_SiparisFilter,rg_LockCheck,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Kilitleme Sorgulaması,Sipariş Kriterleri ,0,537,2
+Form_SiparisFilter,rg_CariPasif,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Cari Durumu,Cari Kriterler,0,538,2
+Form_SiparisFilter,rg_CariKaraliste,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Carinin Karaliste kontrolü,Cari Kriterler,0,539,2
+Form_CariYonet,L_OzKod5,TabSheet1,Cari Yönetim,Özel Kod 5,Cari Bilgiler,0,540,2
+Form_CSFilter,rg_CariPasif,TS_EvrakKriter,Çek Yönetimi,Cari Durumu,Evrak Kriterleri,0,546,2
+Form_BankaYon,rg_CariPasif,TabSheet3,Banka Yönetimi,Cari Durumu,Yönetim Kriterleri,0,547,2
+Form_SiparisFilter_1,xcb_Fiyat_Tip,TS_StokFiyat,Pazarlama Analiz ve Sipariş Yönetimi,Alış Fiyatı,Stok Fiyatı,0,552,2
+Form_SiparisFilter_1,L_CKod,TS_UrtTalep,Pazarlama Analiz ve Sipariş Yönetimi,Firma içi siparişlerin Cari Kodu,Talep Hesaplama,0,553,2
+Form_SiparisFilter_1,cbUreticiKodu,TabSheet10,Pazarlama Analiz ve Sipariş Yönetimi,Üretici Kodu,Stok Kriterleri,0,554,2
+Form_FaturaFilter,L_Vade,ts_DetailKriter,Fatura Yönetimi,Ödeme Tarihi,Evrak Kriterleri,0,555,2
+Form_CariYonet,xcb_Script,Panel3,Cari Yönetim,Hazır Rapor,GENEL,0,558,2
+Form_FaturaFilter,xcb_Fiyat_Tip,TabSheet4,Fatura Yönetimi,Alış Fiyatı,Stok Fiyatı,0,559,2
+Form_KapaFilter,rg_islemDurum,TBislem,Borç Alacak Kapama Yönetimi,İşlem Durumu,İşlem Kriterleri,0,564,2
+Form_StokFiltre,L_CKod,TabSheet3,Stok İşlemleri Yönetimi,Cari Kod,Genel Kriterler,0,565,2
+Form_StokFiltre,xcb_ParaC2,TabSheet3,Stok İşlemleri Yönetimi,Çevir,Genel Kriterler,0,566,2
+FormStokGCFilter,L_CKod,TabSheet3,Stok Giriş Çıkış Yönetimi,Cari Kod,Genel Parametreler,0,567,2
+FormStokGCFilter,cbUreticiKodu,ts_StokFilter,Stok Giriş Çıkış Yönetimi,Üretici Kodu,Stok Kriterleri,0,568,2
+Form_FaturaFilter_1,RG_STAktif,TabSheet10,İrsaliye Yönetimi,Stok Durumu,Stok Kriterleri,0,569,2
+Form_CariYonet,L_MinBorcB,Ts_TutarKriter,Cari Yönetim,Minimum Borç Bakiye,Tutar Kriterleri,0,570,2
+Form_CariYonet,L_MinBorc,Ts_TutarKriter,Cari Yönetim,Minimum Borç,Tutar Kriterleri,0,571,2
+Form_KarZarar,xcb_KomDusme,TS_Detay,Perakende Satış Kar Zarar Yönetimi,Komisyon Tutarını Satış Tutarından düşürme,Yönetim Detayları,0,572,2
+Form_PazFilter_1,L_SatKod,TabSheet7,Perakende Satış Yönetimi,Satıcı Kodu,Genel Kriterler,0,573,2
+Form_PazFilter_1,RG_STAktif,TabSheet3,Perakende Satış Yönetimi,Stok Durumu,Stok Kriterleri,0,574,2
+Form_SiparisFilter,xcb_SatFiyat_Tip,TS_StokFiyat,Pazarlama Analiz ve Sipariş Yönetimi,Satış Fiyatı,Stok Fiyatı,0,575,2
+Form_CSFilter,xcb_Script,Panel3,Çek Yönetimi,Hazır Rapor,GENEL,0,576,2
+Form_PazFilter,cbGrupKod,TabSheet3,Perakende Satış Yönetimi,Stok Grubu,Stok Kriterleri,0,577,2
+Form_PazFilter,cbStokTip,TabSheet3,Perakende Satış Yönetimi,Stok Tipi,Stok Kriterleri,0,578,2
+Form_PazFilter,cbOzKod1,TabSheet3,Perakende Satış Yönetimi,Sezon,Stok Kriterleri,0,579,2
+Form_FaturaFilter,L_HOzkod1,ts_HizmetFilter,İrsaliye Yönetimi,Özel Kod 1,Hizmet Kriterleri,0,580,2
+Form_FaturaFilter,L_fOzKod1,ts_DetailKriter,İrsaliye Yönetimi,Özel Kod 1,Evrak Kriterleri,0,581,2
+Form_FaturaFilter,L_COzKod1,ts_cariKriter,İrsaliye Yönetimi,Özel Kod 1,Cari Kriterler,0,582,2
+Form_StokFilter,xcb_islemFiyat,TS_Fiyat,Stok Yönetimi,İşlem fiyatını göster,Fiyat Alanları,0,583,2
+Form_EnFilter,RG_STAktif,TS_StokKriter,Envanter Yönetimi...,Stok Durumu,Stok Kriterleri,0,584,2
+Form_FaturaFilter_1,xcb_SatFiyat_Tip,TabSheet4,Fatura Yönetimi,Satış Fiyatı,Stok Fiyatı,0,585,2
+Form_FaturaFilter,cbRKod,TabSheet10,İrsaliye Yönetimi,Renk,Stok Kriterleri,0,586,2
+Form_StokFilter,cbBeden,TabSheet6,Stok Yönetimi,Beden,Stok Kriterleri,0,588,2
+Form_FaturaFilter_1,L_SKod,TabSheet10,Fatura Yönetimi,Stok Kodu,Stok Kriterleri,0,589,2
+Form_FaturaFilter,L_FaturaNo,ts_DetailKriter,Fatura Yönetimi,Fatura No,Evrak Kriterleri,0,590,2
+Form_CariYonet,L_MinAlacak,Ts_TutarKriter,Cari Yönetim,Minimum Alacak,Tutar Kriterleri,0,591,2
+Form_CariYonet,L_MaxAlacak,Ts_TutarKriter,Cari Yönetim,Maximum Alacak,Tutar Kriterleri,0,592,2
+Form_CariYonet,xcb_RiskBilgi,TS_RiskRapKriter,Cari Yönetim,Risk bilgilerinide göster,Risk Raporu Kriterleri,0,593,2
+Form_CariYonet,rg_RiskBilgi,TS_RiskRapKriter,Cari Yönetim,,Risk Raporu Kriterleri,0,594,2
+Form_CariYonet,L_rrislemTar,TS_RiskRapKriter,Cari Yönetim,İşlem Tarihi,Risk Raporu Kriterleri,0,595,2
+Form_CariYonet,L_rrVadeTar,TS_RiskRapKriter,Cari Yönetim,Vade Tarihi,Risk Raporu Kriterleri,0,596,2
+FormStokGCFilter,xcb_Script,Panel3,Stok Giriş Çıkış Yönetimi,Hazır Rapor,GENEL,0,597,2
+FormTamirFiltre,L_SonHareket,TabSheet3,Tamir Takip Yönetimi,Son Hareket,Genel Parametreler,0,548,2
+FormTamirFiltre,RG_STAktif,ts_StokFilter,Tamir Takip Yönetimi,Stok Durumu,Stok Kriterleri,0,549,2
+Form_CariYonet,rg_eFatura,TabSheet4,Cari Yönetim,e-Fatura,Genel Kriterler,0,598,2
+Form_PazFilter,rg_iadeDurumu,TS_EkAlanlar,Perakende Satış Yönetimi,İade Durumu,Ek Alanlar,0,599,2
+Form_PazFilter,rg_Muhasebeles,TS_RapKriter,Perakende Satış Yönetimi,Muhasebeleşme Durumu,Rapor Kriterleri,0,600,2
+Form_SiparisFilter,rg_miktar,TabSheet10,Pazarlama Analiz ve Sipariş Yönetimi,Stok Mevcudu ayrıntısı gösterim şekli,Stok Kriterleri,0,601,2
+Form_SiparisFilter,rg_Model,TabSheet10,Pazarlama Analiz ve Sipariş Yönetimi,Model Bilgisi,Stok Kriterleri,0,602,2
+Form_SiparisFilter_1,rg_miktar,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Stok Mevcudu ayrıntısı gösterim şekli,Stok Kriterleri,0,603,2
+Form_SiparisFilter_1,rg_Model,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Model Bilgisi,Stok Kriterleri,0,604,2
+Form_FaturaFilter,rg_ihrac,ts_DetailKriter,İrsaliye Yönetimi,İhraç Kayıtlı,Evrak Kriterleri,0,605,2
+Form_FaturaFilter,rg_Gizli,ts_DetailKriter,İrsaliye Yönetimi,Gizli,Evrak Kriterleri,0,606,2
+Form_FaturaFilter,rg_Aktiflik,ts_cariKriter,İrsaliye Yönetimi,Aktif / Pasif,Cari Kriterler,0,607,2
+Form_StokFilter,rg_Gizli,TS_Detay,Stok Yönetimi,Gizli,Yönetim detayları,0,608,2
+Form_EnFilter,xcb_Script,Panel1,Envanter Yönetimi...,Hazır Rapor,GENEL,0,609,2
+FormStokGCFilter,rg_Gizli,ts_DetailKriter,Stok Giriş Çıkış Yönetimi,Gizli,Evrak Kriterleri,0,610,2
+Form_FaturaFilter,xcb_Maliyet,TabSheet3,İrsaliye Yönetimi,İşlem zamanında Hesaplanan Alış Maliyeti Göster,Genel Kriterler,0,611,2
+Form_KarZarar2,rg_Gizli,TS_FiyatKriter,Kar Zarar Yönetimi...,Gizli,Alış Fiyatı Hesaplama Kriterleri,0,612,2
+Form_PazFilter_1,rg_iadeDurumu,TS_EkAlanlar,Perakende Satış Yönetimi,İade Durumu,Ek Alanlar,0,614,2
+Form_PazFilter_1,rg_Muhasebeles,TS_RapKriter,Perakende Satış Yönetimi,Muhasebeleşme Durumu,Rapor Kriterleri,0,615,2
+Form_FaturaFilter_1,rg_ihrac,ts_DetailKriter,İrsaliye Yönetimi,İhraç Kayıtlı,Evrak Kriterleri,0,616,2
+Form_FaturaFilter_1,rg_Gizli,ts_DetailKriter,İrsaliye Yönetimi,Gizli,Evrak Kriterleri,0,617,2
+Form_FaturaFilter_1,rg_Aktiflik,ts_cariKriter,İrsaliye Yönetimi,Aktif / Pasif,Cari Kriterler,0,618,2
+Form_KasaYon_1,L_FisTar,TS_Options,Cari İşlem Yönetimi,İşlem Tarihi,Genel Kriterler,0,619,2
+Form_KasaYon_1,rg_CariPasif,TS_Cari,Cari İşlem Yönetimi,Cari Durumu,Cari Kriterler,0,620,2
+Form_KasaYon_1,rg_iptal,TabSheet1,Cari İşlem Yönetimi,Fiş Durumu,Özel Kriterler,0,621,2
+Form_KasaYon_1,rg_islemKapamaBoya,TabSheet1,Cari İşlem Yönetimi,Kilitlenen işlemlerin Boyaması,Özel Kriterler,0,622,2
+Form_KasaYon_1,rg_islemKapamaFilter,TabSheet1,Cari İşlem Yönetimi,Kilitlenen işlemlerin uygulaması,Özel Kriterler,0,623,2
+Form_SiparisFilter_1,xcb_cAlFiyat_Tip,ts_carikriter,Pazarlama Analiz ve Sipariş Yönetimi,Carinin Alış Fiyatı (Cari+Ürün gruplaması gerektirir),Cari Kriterler,0,624,2
+Form_MusFilter,xcb_BorcGoster,TabSheet4,Müşteri Yönetimi,Müşterinin Borcunu Göster,Ayrıntılar,0,625,2
+Form_StokFilter,xcb_ShowPicture,TS_Detay,Stok Yönetimi,Resmi göster,Yönetim detayları,0,626,2
+Form_PazFilter,xcb_Maliyet,TabSheet7,Taksitli Satış Yönetimi,İşlem zamanında Hesaplanan Alış Maliyeti Göster,Genel Kriterler,0,627,2
+Form_CariYonet,xcb_CariMuhkod,TabSheet1,Cari Yönetim,Cari Muhasebe Kodlarını Göster,Cari Bilgiler,0,630,2
+Form_FaturaFilter_1,cbUreticiKodu,TabSheet10,Fatura Yönetimi,Üretici Kodu,Stok Kriterleri,0,631,2
+Form_StokFilter,xcb_DahDah,TS_Detay,Stok Yönetimi,Dahili irsaliyeleri hariç,Yönetim detayları,0,632,2
+Form_FaturaFilter_1,xcb_Maliyet,TabSheet3,İrsaliye Yönetimi,İşlem zamanında Hesaplanan Alış Maliyeti Göster,Genel Kriterler,0,633,2
+Form_FaturaFilter,rg_Muhasebeles,ts_DetailKriter,İrsaliye Yönetimi,Muhasebeleşme Durumu,Evrak Kriterleri,0,634,2
+Form_FaturaFilter_1,rg_Muhasebeles,ts_DetailKriter,Fatura Yönetimi,Muhasebeleşme Durumu,Evrak Kriterleri,0,635,2
+Form_SiparisFilter,L_SipTar,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Tarihi,Genel Kriterler,0,451,2
+FormStokGCFilter,L_FisTar,TabSheet3,Stok Giriş Çıkış Yönetimi,İşlem Tarihi,Genel Parametreler,0,452,2
+FormStokGCFilter,L_Fields_x,ts_DetailKriter,Stok Giriş Çıkış Yönetimi,Değerlendirme içindeki işlemler,Evrak Kriterleri,0,453,2
+Form_StokFilter,cbBEDKod,TabSheet6,Stok Yönetimi,Beden Grup,Stok Kriterleri,0,454,2
+Form_StokFilter,cbMevcutAralik,TS_Detay,Stok Yönetimi,Mevcudu Aralıkta olan ürünler,Yönetim detayları,0,455,2
+Form_PazFilter,L_MusKod,TabSheet7,Taksitli Satış Yönetimi,Müşteri Kod,Genel Kriterler,0,456,2
+Form_FaturaFilter_1,L_irsaliyeTar,TabSheet3,İrsaliye Yönetimi,İrsaliye Tarihi,Genel Kriterler,0,457,2
+Form_SiparisFilter_1,xcb_Script,Panel2,Satınalma Analiz ve Sipariş Yönetimi,Hazır Rapor,GENEL,0,550,2
+FormFaturaRaporu,gb_FatTipList,TabSheet3,Fatura / KDV Raporu (Demo),Fatura Tipleri,Fatura Kriterleri,0,587,2
+Form_SiparisFilter,xcb_cAlFiyat_Tip,ts_carikriter,Pazarlama Analiz ve Sipariş Yönetimi,Carinin Alış Fiyatı (Cari+Ürün gruplaması gerektirir),Cari Kriterler,0,613,2
+Form_StokFilter,cbOzKod2,TabSheet6,Stok Yönetimi,CINSI,Stok Kriterleri,0,628,2
+Form_FaturaFilter_1,rg_Tevkifat,ts_DetailKriter,İrsaliye Yönetimi,Tevkifat Seçimi,Evrak Kriterleri,0,458,2
+Form_FaturaFilter_1,rg_Dahiliirs,ts_DetailKriter,İrsaliye Yönetimi,Dahili İrsaliye Tipi,Evrak Kriterleri,0,459,2
+Form_FaturaFilter_1,rg_YurticDis,ts_cariKriter,İrsaliye Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterler,0,460,2
+Form_PazFilter,L_TaksitTar,TS_Taksit,Taksitli Satış Yönetimi,Taksit Tarihi,Taksit Kriterleri,0,461,2
+Form_BankaYon,rg_YurticDis,TabSheet3,Banka Yönetimi,Yurtiçi / Yurtdışı,Yönetim Kriterleri,0,462,2
+Form_SiparisFilter,rg_SipPrintOp,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Yazdırılma Opsiyonu,Sipariş Kriterleri ,0,463,2
+Form_SiparisFilter,rg_ConvertBirim,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Birim Çevrimleri,Sipariş Kriterleri ,0,411,2
+Form_SiparisFilter,rg_NetKalan,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Net Kalan Hesabı,Sipariş Kriterleri ,0,412,2
+Form_SiparisFilter,rg_TutarHesTip,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Tutar hesaplamalarında kullanılacak miktar,Sipariş Kriterleri ,0,413,2
+Form_SiparisFilter,rg_YurticDis,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterler,0,414,2
+Form_SiparisFilter,L_CKod,TS_UrtTalep,Satınalma Analiz ve Sipariş Yönetimi,Firma içi siparişlerin Cari Kodu,Talep Hesaplama,0,415,2
+Form_CSFilter,rg_TutarKurCevrim,TS_EvrakKriter,Çek Yönetimi,Kur Çevrimi İçin,Evrak Kriterleri,0,421,2
+Form_CSFilter,rg_YurticDis,TS_EvrakKriter,Çek Yönetimi,Yurtiçi / Yurtdışı,Evrak Kriterleri,0,422,2
+Form_StokFilter,cbOzKod4,TabSheet6,Stok Yönetimi,ASTAR,Stok Kriterleri,0,636,2
+Form_StokFilter,cbOzKod6,TabSheet6,Stok Yönetimi,Özel Kod 6,Stok Kriterleri,0,637,2
+Form_PazFilter,rg_Mesaj,TS_Musteri,Perakende Satış Yönetimi,Mesaj Gönderimi,Müşteri Kriterleri,0,638,2
+Form_PazFilter,rg_Mail,TS_Musteri,Perakende Satış Yönetimi,Mail Gönderimi,Müşteri Kriterleri,0,639,2
+Form_MusFilter,rg_Mesaj,TabSheet3,Müşteri Yönetimi,Mesaj Gönderimi,Müşteri Kriterleri,0,640,2
+Form_MusFilter,rg_Mail,TabSheet3,Müşteri Yönetimi,Mail Gönderimi,Müşteri Kriterleri,0,641,2
+Form_PazFilter_1,rg_Mesaj,TS_Musteri,Taksitli Satış Yönetimi,Mesaj Gönderimi,Müşteri Kriterleri,0,642,2
+Form_PazFilter_1,rg_Mail,TS_Musteri,Taksitli Satış Yönetimi,Mail Gönderimi,Müşteri Kriterleri,0,643,2
+Form_CariYonet,L_MinAlacakB,Ts_TutarKriter,Cari Yönetim,Minimum Alacak Bakiye,Tutar Kriterleri,0,644,2
+Form_SiparisFilter_1,xcb_BagliSiparisler,ts_SiparisKriter,Satınalma Teklif Yönetimi,Karşı siparişte sadece bağlantılıları Hesapla,Teklif Kriterleri ,0,645,2
+Form_MusFilter,xcb_Puanli,TabSheet3,Müşteri Yönetimi,Yalnızca puanı olan müşterileri göster,Müşteri Kriterleri,0,646,2
+Form_MusFilter,xcb_PuanGoster,TabSheet4,Müşteri Yönetimi,Müşterinin Puanını Göster,Ayrıntılar,0,647,2
+Form_FaturaFilter,L_SipOzKod1,tsSipDetail,Fatura Yönetimi,Özel Kod 1,Bağlı Sipariş Kriterleri,0,648,2
+Form_CariYonet,xcb_NotHareket,TabSheet4,Cari Yönetim,Sadece Hareket Görmemiş olanları göster,Genel Kriterler,0,649,2
+Form_CariYonet,xcb_Hareket2,TabSheet4,Cari Yönetim,Hareket Görme Kontrolünde Devir Fişlerini Dikkate Alma,Genel Kriterler,0,650,2
+Form_SiparisFilter_1,L_SKod,TabSheet10,Pazarlama Analiz ve Sipariş Yönetimi,Stok Kodu,Stok Kriterleri,0,651,2
+Form_StokFilter,cbRKod,TabSheet6,Stok Yönetimi,Renk,Stok Kriterleri,0,652,2
+Form_KarZarar,xcb_Birimsiz,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Gruplamaya Birim'i dahil etme,Fiyat Özellikleri,0,653,2
+Form_KarZarar,xcb_Maliyetler,TabSheet3,Perakende Satış Kar Zarar Yönetimi,Maliyetleri de yansıt,Fiyat Özellikleri,0,654,2
+Form_KarZarar,cbStokTip,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Stok Tipi,Stok Kriterleri,0,655,2
+Form_FaturaFilter,L_SipTar,tsSipDetail,Fatura Yönetimi,Sipariş Tarihi,Bağlı Sipariş Kriterleri,0,656,2
+Form_KarZarar,cbGrupKod,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Stok Grubu,Stok Kriterleri,0,657,2
+Form_FaturaFilter,cbBEDKod,TabSheet10,Fatura Yönetimi,Beden Grup,Stok Kriterleri,0,658,2
+Form_MusFilter,xcb_Script,Panel1,Müşteri Yönetimi,Hazır Rapor,GENEL,0,661,2
+Form_StokFilter,cbOzKod1,TabSheet6,Stok Yönetimi,Sezon,Stok Kriterleri,0,629,2
+Form_FaturaFilter,L_irsaliyeNo,ts_DetailKriter,İrsaliye Yönetimi,İrsaliye No,Evrak Kriterleri,0,659,2
+Form_FaturaFilter,L_BelgeNo,ts_DetailKriter,İrsaliye Yönetimi,Belge No,Evrak Kriterleri,0,660,2
+Form_StokFilter,cbOzKod10,TabSheet6,Stok Yönetimi,Web,Stok Kriterleri,0,662,2
+Form_StokFilter,rg_Kritik,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye,Optimum  Kritik Seviye Kriterleri,0,663,2
+Form_PazFilter_1,L_MusKod,TabSheet7,Perakende Satış Yönetimi,Müşteri Kod,Genel Kriterler,0,664,2
+Form_CariYonet_1,rg_KurCevrim,TabSheet4,Cari Yönetim,Kur Çevrimi için kullanılacak Parite Tipi,Genel Kriterler,0,666,2
+Form_CariYonet_1,L_ParaC,TabSheet4,Cari Yönetim,Para Cinsi,Genel Kriterler,0,667,2
+Form_CariYonet_1,xcb_ParaC2,TabSheet4,Cari Yönetim,Çevir - >,Genel Kriterler,0,668,2
+Form_CariYonet_1,L_CKod,TabSheet4,Cari Yönetim,Cari Kod,Genel Kriterler,0,669,2
+Form_CariYonet_1,L_Tar,TabSheet4,Cari Yönetim,İşlem Tarihi,Genel Kriterler,0,670,2
+Form_CariYonet_1,L_KasaTar,TabSheet4,Cari Yönetim,İşlem Tarihi,Genel Kriterler,0,671,2
+Form_CariYonet_1,gb_FisTipR,TabSheet4,Cari Yönetim,Fiş Tipleri,Genel Kriterler,0,672,2
+Form_CariYonet_1,rg_AB_Dr,TabSheet4,Cari Yönetim,Alacak  Borç Durumu,Genel Kriterler,0,673,2
+Form_CariYonet_1,xcb_AlBorVisible,TabSheet4,Cari Yönetim,Sadece Bakiyesi olanları göster,Genel Kriterler,0,674,2
+Form_CariYonet_1,xcb_DevirGoster,TabSheet4,Cari Yönetim,Devirleri de işle,Genel Kriterler,0,675,2
+Form_CariYonet_1,gb_xLocation,TabSheet4,Cari Yönetim,Lokasyon,Genel Kriterler,0,676,2
+Form_CariYonet_1,rg_iptal,TabSheet4,Cari Yönetim,İptal Edilenler,Genel Kriterler,0,677,2
+Form_CariYonet_1,rg_CariPasif,TabSheet4,Cari Yönetim,Cari Durumu,Genel Kriterler,0,678,2
+Form_CariYonet_1,rg_KaraListe,TabSheet4,Cari Yönetim,Kara Liste,Genel Kriterler,0,679,2
+Form_CariYonet_1,rg_eFatura,TabSheet4,Cari Yönetim,e-Fatura,Genel Kriterler,0,680,2
+Form_CariYonet_1,rg_YurticDis,TabSheet1,Cari Yönetim,Yurtiçi / Yurtdışı,Cari Bilgiler,0,681,2
+Form_StokFilter,xcb_GrupBirimsiz,TS_Detay,Stok Yönetimi,Gruplamaya birimi dahil etme,Yönetim detayları,0,682,2
+Form_KarZarar,cbOzKod1,TabSheet5,Perakende Satış Kar Zarar Yönetimi,ASTAR,Stok Kriterleri,0,683,2
+Form_KarZarar,cbOzKod8,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Özel Kod 8,Stok Kriterleri,0,684,2
+Form_KarZarar,cbOzKod7,TabSheet5,Perakende Satış Kar Zarar Yönetimi,Özel Kod 7,Stok Kriterleri,0,685,2
+Form_FaturaFilter,cbOzKod8,TabSheet10,Fatura Yönetimi,Özel Kod 8,Stok Kriterleri,0,686,2
+Form_StokFilter,cbOzKod8,TabSheet6,Stok Yönetimi,Özel Kod 8,Stok Kriterleri,0,687,2
+Form_StokFilter,cbOzKod7,TabSheet6,Stok Yönetimi,iki,Stok Kriterleri,0,688,2
+Form_PazFilter,cbOzKod7,TabSheet3,Perakende Satış Yönetimi,iki,Stok Kriterleri,0,689,2
+Form_StokFilter,cbOzKod9,TabSheet6,Stok Yönetimi,Statu,Stok Kriterleri,0,690,2
+Form_StokFilter,cbOzKod11,TabSheet3,Stok Yönetimi,Özel Kod 11,Diğer Özel Kodlar,0,691,2
+Form_StokFilter,rg_Optimum,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye,Optimum  Kritik Seviye Kriterleri,0,692,2
+Form_StokFilter,cbOzKod20,TabSheet3,Stok Yönetimi,Özel Kod 20,Diğer Özel Kodlar,0,693,2
+Form_StokFilter,cbOzKod19,TabSheet3,Stok Yönetimi,Özel Kod 19,Diğer Özel Kodlar,0,694,2
+Form_StokFilter,xcb_FiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,695,2
+Form_StokFilter,cbStokTip,TabSheet6,Stok Yönetimi,Stok Tipi,Stok Kriterleri,0,696,2
+FormTamirFiltre,cbUreticiKodu,ts_StokFilter,Tamir Takip Yönetimi,Üretici Kodu,Stok Kriterleri,0,697,2
+FormTamirFiltre,L_HarHareket,TabSheet3,Tamir Takip Yönetimi,Aşağıdaki Hareketleri Yapan,Genel Parametreler,0,698,2
+Form_PazFilter,cbRKod,TabSheet3,Perakende Satış Yönetimi,Renk,Stok Kriterleri,0,699,2
+Form_CariYonet,L_OzKod1,TabSheet1,Cari Yönetim,Özel Kod 1,Cari Bilgiler,0,700,2
+Form_StokFilter,cbOzKod5,TabSheet6,Stok Yönetimi,TABAN,Stok Kriterleri,0,701,2
+Form_FaturaFilter_1,cbGrupKod,TabSheet10,Fatura Yönetimi,Stok Grubu,Stok Kriterleri,0,703,2
+Form_BankaYon,L_Sube,TabSheet3,Banka Yönetimi,Sube Kodu,Yönetim Kriterleri,0,704,2
+Form_BankaYon,xcb_HBakiye,TabSheet4,Banka Yönetimi,Hesap Bakiyesini Göster,Detay Kriterleri,0,705,2
+Form_BankaYon,xcb_KurFarkGoster,TabSheet4,Banka Yönetimi,Kur Farkı işlemlerini de göster,Detay Kriterleri,0,706,2
+Form_BankaYon,L_BankaOzKod_1,TabSheet4,Banka Yönetimi,Banka Özel Kod 1,Detay Kriterleri,0,707,2
+Form_BankaYon,L_SubeOzKod_1,TabSheet4,Banka Yönetimi,Şube Özel Kod 1,Detay Kriterleri,0,708,2
+Form_BankaYon,L_OzKod_1,TabSheet4,Banka Yönetimi,İşlem Özel Kod 1,Detay Kriterleri,0,709,2
+Form_PazFilter,xcb_BosLokasyon,TabSheet7,Perakende Satış Yönetimi,Boş Lokasyonları da getir,Genel Kriterler,0,665,2
+Form_StokFilter,cbUMarka,TabSheet6,Stok Yönetimi,Marka,Stok Kriterleri,0,702,2
+Form_BankaYon,L_HesapOzKod_1,TabSheet4,Banka Yönetimi,Hesap Özel Kod 1,Detay Kriterleri,0,710,2
+Form_EnFilter,cbOzKod10,TS_StokKriter,Envanter Yönetimi...,Web,Stok Kriterleri,0,711,2
+Form_FaturaFilter_1,L_FaturaNo,ts_DetailKriter,Fatura Yönetimi,Fatura No,Evrak Kriterleri,0,714,2
+Form_FaturaFilter_1,L_FiiliSevk,ts_DetailKriter,Fatura Yönetimi,Fiili Sevkiyat Tarihi,Evrak Kriterleri,0,715,2
+Form_FaturaFilter_1,L_BelgeNo,ts_DetailKriter,Fatura Yönetimi,Belge No,Evrak Kriterleri,0,716,2
+Form_KasaYon_1,L_cbpg,TS_Options,Kasa İşlem Yönetimi,Gider Kod,Genel Kriterler,0,717,2
+Form_StokFilter,xcb_devir,TS_Detay,Stok Yönetimi,"Tarih Sinirinda ""Devir"" Hesaplansin",Yönetim detaylari,0,718,2
+Form_StokFilter,xcb_stockdetail,TS_Detay,Stok Yönetimi,Sinir içindeki Stok detaylarini önemse,Yönetim detaylari,0,719,2
+FormLokDetStkRap,xcb_RnkMev,TS_Detay,Lokasyon Detaylı Stok Durum Raporu,"Mevcudu ""0"" dan fazla olan kayıtlar",Yönetim detayları,0,720,2
+Form_FaturaFilter,xcb_Resim,TabSheet10,Fatura Yönetimi,Resim yolunu göster,Stok Kriterleri,0,721,2
+Form_FaturaFilter,xcb_ShowPicture,TabSheet10,Fatura Yönetimi,Resmi göster,Stok Kriterleri,0,722,2
+Form_KasaYon,L_cOzKod1,TS_Cari,Cari İşlem Yönetimi,Özel Kod 1,Cari Kriterler,0,723,2
+Form_StokFilter,cbReyon,TabSheet6,Stok Yönetimi,Reyon,Stok Kriterleri,0,724,2
+Form_SiparisFilter,cbOzKod10,TabSheet10,Pazarlama Teklif Yönetimi,Web,Stok Kriterleri,0,725,2
+Form_StokFilter,cbOzKod3,TabSheet6,Stok Yönetimi,SAYA,Stok Kriterleri,0,726,2
+Form_MasrafFilter,gb_Location,TabFilter,Masraf Merkezi Yönetimi...,Lokasyon,Filtre Kriterleri,0,727,2
+Form_MasrafFilter,L_ParaC,TabFilter,Masraf Merkezi Yönetimi...,Para Cinsi,Filtre Kriterleri,0,728,2
+Form_MasrafFilter,xcb_ParaC2,TabFilter,Masraf Merkezi Yönetimi...,Çevir - >,Filtre Kriterleri,0,729,2
+Form_CariYonet_1,xcb_Hareket,TabSheet4,Cari Yönetim,Hareket Görmemiş olanları da göster,Genel Kriterler,0,730,2
+Form_CariYonet,L_OzKod2,TabSheet1,Cari Yönetim,Özel Kod 2,Cari Bilgiler,0,731,2
+Form_EnFilter,xcb_NonMevcut,TabSheet5,Envanter Yönetimi...,"Mevcudu ""0"" olanları gösterme",Yönetim Detayları,0,732,2
+Form_StokFilter_1,gb_xLocation,TabSheet4,Stok Yönetimi,Lokasyon,Genel Kriterler,0,733,2
+Form_StokFilter_1,gb_xStokSekli,TabSheet4,Stok Yönetimi,Stok Şekli,Genel Kriterler,0,734,2
+Form_StokFilter_1,rg_StokOption,TabSheet4,Stok Yönetimi,Stok Liste Şekli,Genel Kriterler,0,735,2
+Form_StokFilter_1,RG_STAktif,TabSheet6,Stok Yönetimi,Stok Durumu,Stok Kriterleri,0,736,2
+Form_StokFilter_1,cbUreticiKodu,TabSheet6,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,737,2
+Form_StokFilter_1,rg_YurticDis,TS_Cari,Stok Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterleri,0,738,2
+Form_StokFilter_1,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,739,2
+Form_StokFilter_1,gb_FisTar,TabSheet4,Stok Yönetimi,Hareket Tarihi,Genel Kriterler,0,740,2
+Form_StokFilter_1,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,741,2
+Form_StokFilter_1,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,742,2
+Form_StokFilter_1,rg_FatirsTar,TS_Detay,Stok Yönetimi,Fatura ve İrsaliye için Kullanılacak Tarih,Yönetim detayları,0,743,2
+Form_StokFilter_1,rg_Gizli,TS_Detay,Stok Yönetimi,Gizli,Yönetim detayları,0,744,2
+Form_StokFilter_1,xcb_FiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,745,2
+Form_StokFilter_1,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,746,2
+Form_StokFilter_1,xcb_SatFiyat_Tip,TS_Fiyat,Stok Yönetimi,Satış Fiyatı,Fiyat Alanları,0,747,2
+Form_StokFilter_1,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,İskonto Hesabı,Fiyat Alanları,0,748,2
+Form_StokFilter_1,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar Hesabı,Fiyat Alanları,0,749,2
+Form_StokFilter_1,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,750,2
+Form_StokFilter_1,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,751,2
+Form_StokFilter_1,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,752,2
+Form_StokFilter_1,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,753,2
+Form_StokFilter_1,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,754,2
+Form_StokFilter_1,xcb_SatFiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,756,2
+Form_PazFilter,gb_xKampanya,TabSheet7,Perakende Satış Yönetimi,Kampanyalar,Genel Kriterler,0,755,2
+Form_SiparisFilter,rg_SipBagOp,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Bağlantı Opsiyonu,Sipariş Kriterleri ,0,757,2
+Form_SiparisFilter,rg_LockCheck,ts_SiparisKriter2,Satınalma Analiz ve Sipariş Yönetimi,Kilitleme Sorgulaması,Sipariş Kriterleri 2,0,758,2
+Form_SiparisFilter,rg_SipPrintOp,ts_SiparisKriter2,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Yazdırılma Opsiyonu,Sipariş Kriterleri 2,0,759,2
+Form_StokFilter_1,xcb_Fiyat_Tip,TS_Fiyat,Stok Yönetimi,Alış Fiyatı,Fiyat Alanları,0,760,2
+Form_StokFilter_1,cbOzKod9,TabSheet6,Stok Yönetimi,Statu,Stok Kriterleri,0,761,2
+Form_StokFilter_1,cbOzKod10,TabSheet6,Stok Yönetimi,Web,Stok Kriterleri,0,762,2
+Form_StokFilter_2,gb_xLocation,TabSheet4,Stok Yönetimi,Lokasyon,Genel Kriterler,0,763,2
+Form_StokFilter_2,gb_xStokSekli,TabSheet4,Stok Yönetimi,Stok Şekli,Genel Kriterler,0,764,2
+Form_BankaYon_1,gb_xLocation,TabSheet5,Banka Yönetimi,Lokasyon,Genel Kriterler,0,789,2
+Form_BankaYon_1,L_FisTip,TabSheet5,Banka Yönetimi,İşlem Tipi,Genel Kriterler,0,790,2
+Form_BankaYon_1,L_HesTanims,TabSheet5,Banka Yönetimi,Hesap Tanımları,Genel Kriterler,0,791,2
+Form_BankaYon_1,L_Pc1,TabSheet5,Banka Yönetimi,Para Cinsi,Genel Kriterler,0,792,2
+Form_BankaYon_1,xcb_Pc2,TabSheet5,Banka Yönetimi,Çevir >,Genel Kriterler,0,793,2
+Form_BankaYon_1,rg_YurticDis,TabSheet3,Banka Yönetimi,Yurtiçi / Yurtdışı,Yönetim Kriterleri,0,794,2
+Form_BankaYon_1,rg_CariPasif,TabSheet3,Banka Yönetimi,Cari Durumu,Yönetim Kriterleri,0,795,2
+Form_BankaYon_1,rg_KurCevrim,TabSheet4,Banka Yönetimi,Kur Çevrimi için kullanılacak Parite Tipi,Detay Kriterleri,0,796,2
+Form_BankaYon_1,L_HesapOzKod_1,TabSheet4,Banka Yönetimi,Hesap Özel Kod 1,Detay Kriterleri,0,797,2
+Form_BankaYon_1,L_PCHesap,TabSheet4,Banka Yönetimi,Hesabın Para Cinsi,Detay Kriterleri,0,798,2
+Form_BankaYon_1,xcb_CekGoster,TabSheet4,Banka Yönetimi,Çek işlemlerini de göster,Detay Kriterleri,0,799,2
+Form_BankaYon_1,xcb_KasaGoster,TabSheet4,Banka Yönetimi,Kasa işlemlerini de göster,Detay Kriterleri,0,800,2
+Form_BankaYon_1,xcb_MasrafGoster,TabSheet4,Banka Yönetimi,Masrafları da göster,Detay Kriterleri,0,801,2
+Form_BankaYon_1,xcb_Karsilikli,TabSheet4,Banka Yönetimi,Banka kriterini karşı hesapta da kontrol et,Detay Kriterleri,0,802,2
+Form_BankaYon_1,rg_iptal,TabSheet4,Banka Yönetimi,Fiş Durumu,Detay Kriterleri,0,803,2
+Form_FaturaFilter_1,xcb_Fiyat_Tip,TabSheet4,İrsaliye Yönetimi,Alış Fiyatı,Stok Fiyatı,0,804,2
+Form_StokFilter_2,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,805,2
+Form_SiparisFilter_1,rg_SipBagOp,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Bağlantı Opsiyonu,Sipariş Kriterleri ,0,806,2
+Form_SiparisFilter_1,rg_LockCheck,ts_SiparisKriter2,Satınalma Analiz ve Sipariş Yönetimi,Kilitleme Sorgulaması,Sipariş Kriterleri 2,0,807,2
+Form_SiparisFilter_1,rg_SipPrintOp,ts_SiparisKriter2,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Yazdırılma Opsiyonu,Sipariş Kriterleri 2,0,808,2
+Form_SiparisFilter_3,gb_Location,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Lokasyon,Genel Kriterler,0,809,2
+Form_SiparisFilter_3,gb_SumFieldList,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Gösterilecek Alanlar,Genel Kriterler,0,810,2
+Form_SiparisFilter_3,L_SipTar,TabSheet3,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Tarihi,Genel Kriterler,0,811,2
+Form_SiparisFilter_3,RG_STAktif,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Stok Durumu,Stok Kriterleri,0,812,2
+Form_SiparisFilter_3,rg_miktar,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Stok Mevcudu ayrıntısı gösterim şekli,Stok Kriterleri,0,813,2
+Form_SiparisFilter_3,rg_Model,TabSheet10,Satınalma Analiz ve Sipariş Yönetimi,Model Bilgisi,Stok Kriterleri,0,814,2
+Form_SiparisFilter_3,rg_ConvertBirim,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Birim Çevrimleri,Sipariş Kriterleri ,0,815,2
+Form_SiparisFilter_3,rg_NetKalan,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Net Kalan Hesabı,Sipariş Kriterleri ,0,816,2
+Form_SiparisFilter_3,rg_TutarHesTip,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Tutar hesaplamalarında kullanılacak miktar,Sipariş Kriterleri ,0,817,2
+Form_SiparisFilter_3,rg_SipBagOp,ts_SiparisKriter,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Bağlantı Opsiyonu,Sipariş Kriterleri ,0,818,2
+Form_SiparisFilter_3,rg_LockCheck,ts_SiparisKriter2,Satınalma Analiz ve Sipariş Yönetimi,Kilitleme Sorgulaması,Sipariş Kriterleri 2,0,819,2
+Form_SiparisFilter_3,rg_SipPrintOp,ts_SiparisKriter2,Satınalma Analiz ve Sipariş Yönetimi,Sipariş Yazdırılma Opsiyonu,Sipariş Kriterleri 2,0,820,2
+FormStokGCFilter,gb_xLocation,TabSheet3,Stok Giriş Çıkış Yönetimi,Lokasyon,Genel Parametreler,0,355,2
+FormStokGCFilter,L_ParaC,TabSheet3,Stok Giriş Çıkış Yönetimi,Para Cinsi,Genel Parametreler,0,356,2
+FormStokGCFilter,xcb_ParaC2,TabSheet3,Stok Giriş Çıkış Yönetimi,Çevir,Genel Parametreler,0,357,2
+Form_StokFiltre,rg_iptal,ts_DetailKriter,Stok İşlemleri Yönetimi,Fiş Durumu,Evrak Kriterleri,0,354,2
+Form_KarZarar_1,L_xLocation,TabSheet4,Perakende Satış Kar Zarar Yönetimi,Lokasyon,Genel Kriterler,0,358,2
+Form_KarZarar_1,L_ParaC,TabSheet4,Perakende Satış Kar Zarar Yönetimi,Para Cinsi,Genel Kriterler,0,359,2
+Form_KarZarar_1,L_SatTar,TabSheet4,Perakende Satış Kar Zarar Yönetimi,Satış Tarihi,Genel Kriterler,0,360,2
+Form_KarZarar_1,rg_alFiy,TS_FiyatKriter,Perakende Satış Kar Zarar Yönetimi,Alış Fiyat Kriterleri,Alış Fiyatı Hesaplama Kriterleri,0,361,2
+Form_KarZarar_1,rg_fiyat_in_use,TS_FiyatKriter,Perakende Satış Kar Zarar Yönetimi,Fiyat Kullanım Şekli,Alış Fiyatı Hesaplama Kriterleri,0,362,2
+Form_KarZarar_1,rg_StokOption,TS_Detay,Perakende Satış Kar Zarar Yönetimi,Stok Liste Şekli,Yönetim Detayları,0,363,2
+Form_KasaYon,xcb_Script,Panel3,Kasa İşlem Yönetimi,Hazır Rapor,GENEL,0,364,2
+Form_CariYonet,L_Tar,TabSheet4,Cari Yönetim,İşlem Tarihi,Genel Kriterler,0,365,2
+Form_CariYonet,xcb_GunlukRapor,TabSheet4,Kasa Yönetimi,Günlük Rapor Ver,Genel Kriterler,0,366,2
+Form_BankaYon,L_Banka,TabSheet3,Banka Yönetimi,Banka Kodu,Yönetim Kriterleri,0,367,2
+Form_BankaYon,L_Hesap,TabSheet3,Banka Yönetimi,Hesap Kodu,Yönetim Kriterleri,0,368,2
+FormFaturaRaporu,L_FatTur,TabSheet5,Fatura / KDV Raporu,İşlem Tipi,Genel Kriterler,0,369,2
+FormFaturaRaporu,gb_xLocation,TabSheet5,Fatura / KDV Raporu,Lokasyon,Genel Kriterler,0,370,2
+FormFaturaRaporu,L_ParaC,TabSheet5,Fatura / KDV Raporu,Para Cinsi,Genel Kriterler,0,371,2
+FormFaturaRaporu,xcb_ParaC2,TabSheet5,Fatura / KDV Raporu,Çevir,Genel Kriterler,0,372,2
+FormGidHizFilter,gb_GidYer,TabSheet1,GiderGelirHizmet Yönetimi,Gider Yerleri,Genel Kriterler,0,373,2
+Form_StokFilter,L_SKod,TabSheet6,Stok Yönetimi,Stok Kodu,Stok Kriterleri,0,374,2
+Form_CSFilter,L_CMKod,TabSheet3,Çek Yönetimi,Cari Kodu,Genel Kriterler,0,375,2
+Form_FaturaFilter,rg_Fiyat,ts_DetailKriter,Fatura Yönetimi,Fiyat Seçimi,Evrak Kriterleri,0,376,2
+Form_PazFilter,L_OKasa,TS_Taksit,Taksitli Satış Yönetimi,Ödenen Kasa Kodu,Taksit Kriterleri,0,377,2
+Form_PazFilter,L_OdemeTar,TS_Taksit,Taksitli Satış Yönetimi,Ödeme Tarihi,Taksit Kriterleri,0,378,2
+Form_KasaYon_1,gb_xLocation,TSFilter,Kasa İşlem Yönetimi,Lokasyon,Filtre Kriterleri,0,379,2
+Form_KasaYon_1,gb_xFisTip,TSFilter,Kasa İşlem Yönetimi,Fiş Tipi,Filtre Kriterleri,0,380,2
+Form_KasaYon_1,L_Pc1,TSFilter,Kasa İşlem Yönetimi,Para Cinsi,Filtre Kriterleri,0,381,2
+Form_KasaYon_1,xcb_Pc2,TSFilter,Kasa İşlem Yönetimi,Çevir >,Filtre Kriterleri,0,382,2
+Form_KasaYon_1,L_FisTar,TSFilter,Kasa İşlem Yönetimi,İşlem Tarihi,Filtre Kriterleri,0,383,2
+Form_KasaYon_1,rg_iptal,TSFilter,Kasa İşlem Yönetimi,Fiş Durumu,Filtre Kriterleri,0,384,2
+FormStokGCFilter,L_SKod,ts_StokFilter,Stok Giriş Çıkış Yönetimi,Stok Kodu,Stok Kriterleri,0,385,2
+Form_CariYonet,xcb_Hareket,TabSheet4,Cari Yönetim,Hareket Görmemiş olanları da göster,Genel Kriterler,0,386,2
+Form_KarZarar,cbUreticiKodu,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Üretici Kodu,Stok Kriterleri,0,387,2
+Form_KarZarar2,L_CKod,TS_StokKriter,Kar Zarar Yönetimi...,Cari Kart,Stok Kriterleri,0,388,2
+Form_PazFilter,L_SKod,TabSheet7,Perakende Satış Yönetimi,Stok Kodu,Genel Kriterler,0,389,2
+Form_StokFiltre,rg_ConvertBirim,TabSheet3,Stok İşlemleri Yönetimi,Birim Çevrimleri,Genel Kriterler,0,390,2
+Form_StokFiltre,L_FisTar,TabSheet3,Stok İşlemleri Yönetimi,İşlem Tarihi,Genel Kriterler,0,391,2
+Form_StokFilter,xcb_RnkMev,TS_Detay,Stok Yönetimi,"Mevcudu ""0"" dan fazla olan ürünler",Yönetim detayları,0,392,2
+Form_CariYonet,xcb_DevirGoster,TabSheet4,Kasa Yönetimi,Devirleri de işle,Genel Kriterler,0,239,2
+Form_KarZarar2,xcb_BankaBag,TS_FiyatOz,Kar Zarar Yönetimi...,Faturaya Bağlı Banka Fişleri Hareketin Fiyatına Yansısın,Fiyat Özellikleri,0,264,2
+Form_FaturaFilter_1,L_FatTip,TabSheet3,Fatura Yönetimi,Evrak Tipi,Genel Kriterler,0,265,2
+Form_FaturaFilter_1,L_FatTur,TabSheet3,Fatura Yönetimi,İşlem Tipi,Genel Kriterler,0,266,2
+Form_FaturaFilter_1,gb_xLocation,TabSheet3,Fatura Yönetimi,Lokasyon,Genel Kriterler,0,267,2
+Form_FaturaFilter_1,gb_SumFieldList,TabSheet3,Fatura Yönetimi,Gösterilecek Alanlar,Genel Kriterler,0,268,2
+Form_FaturaFilter_1,L_FatTar,TabSheet3,Fatura Yönetimi,Fatura Tarihi,Genel Kriterler,0,269,2
+Form_FaturaFilter_1,xcb_ParaC2,TabSheet3,Fatura Yönetimi,Çevir,Genel Kriterler,0,270,2
+Form_FaturaFilter_1,rg_KFatura,ts_DetailKriter,Fatura Yönetimi,Fatura Seçimi,Evrak Kriterleri,0,271,2
+Form_FaturaFilter_1,rg_iskonto,ts_DetailKriter,Fatura Yönetimi,İskonto Seçimi,Evrak Kriterleri,0,272,2
+Form_FaturaFilter_1,rg_KDVCheck,ts_DetailKriter,Fatura Yönetimi,KDV Seçimi,Evrak Kriterleri,0,273,2
+Form_FaturaFilter_1,rg_iFatura,ts_DetailKriter,Fatura Yönetimi,Fatura Durumu,Evrak Kriterleri,0,274,2
+Form_FaturaFilter_1,rg_HizmetStok,ts_DetailKriter,Fatura Yönetimi,Hizmet / Stok Seçimi,Evrak Kriterleri,0,275,2
+Form_FaturaFilter_1,rg_HizmetD,ts_DetailKriter,Fatura Yönetimi,Hizmet Faturası Durumu,Evrak Kriterleri,0,276,2
+Form_FaturaFilter_1,rg_alFiy,ts_StokFiyatHesap,Fatura Yönetimi,Alış Fiyat Kriterleri,Stok Fiyatı Hesaplama,0,277,2
+Form_StokFilter,xcb_Fiyat_Tip,TS_Fiyat,Stok Yönetimi,Alış Fiyatı,Fiyat Alanları,0,278,2
+Form_BorclanmaFilter,gb_Location,TabSheet1,Borçlanma Yönetimi,Lokasyon,Genel Kriterler,0,279,2
+Form_StokFilter,xcb_SatFiyat_Tip,TS_Fiyat,Stok Yönetimi,Satış Fiyatı,Fiyat Alanları,0,280,2
+Form_StokFilter,xcb_SatFiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,281,2
+Form_MusFilter,gb_Location,TabSheet5,Müşteri Yönetimi,Lokasyon,Genel Kriterler,0,282,2
+Form_MusFilter,rg_Cinsiyet,TabSheet3,Müşteri Yönetimi,Cinsiyet,Müşteri Kriterleri,0,283,2
+Form_MusFilter,rg_Medeni,TabSheet3,Müşteri Yönetimi,Medeni Hal,Müşteri Kriterleri,0,284,2
+Form_MusFilter,rg_UyeNo,TabSheet4,Müşteri Yönetimi,Üye Numarası,Ayrıntılar,0,285,2
+Form_KarZarar,L_SKod,TS_StokKriter,Perakende Satış Kar Zarar Yönetimi,Stok Kodu,Stok Kriterleri,0,287,2
+Form_CSFilter,gb_xLocation,TabSheet3,Çek Yönetimi,Lokasyon,Genel Kriterler,0,288,2
+Form_CSFilter,gb_xDurum,TabSheet3,Çek Yönetimi,Durum (Çek veya Senetin Son Durumu),Genel Kriterler,0,289,2
+Form_CSFilter,L_CSTip,TabSheet3,Çek Yönetimi,İşlem Tipi,Genel Kriterler,0,290,2
+Form_CSFilter,L_CM,TabSheet3,Çek Yönetimi,Cari/Müşteri,Genel Kriterler,0,291,2
+Form_CSFilter,L_ParaC,TabSheet3,Çek Yönetimi,Para Cinsi,Genel Kriterler,0,292,2
+Form_CSFilter,xcb_ParaC2,TabSheet3,Çek Yönetimi,Çevir,Genel Kriterler,0,293,2
+Form_CSFilter,gb_xHarKri,TabSheet3,Çek Yönetimi,Hareket Kriteri,Genel Kriterler,0,294,2
+Form_CSFilter,L_CekSahibi,TS_EvrakKriter,Çek Yönetimi,Çek Sahibi,Evrak Kriterleri,0,295,2
+Form_CSFilter,L_HesapNo,TabSheet3,Çek Yönetimi,Hesap No,Genel Kriterler,0,296,2
+Form_CSFilter,L_xTarih,TabSheet3,Çek Yönetimi,Bordro Tarihi,Genel Kriterler,0,297,2
+Form_CSFilter,L_Banka,TabSheet3,Çek Yönetimi,Banka,Genel Kriterler,0,298,2
+Form_CSFilter,L_islemtar,TabSheet3,Çek Yönetimi,Son İşlem Tarihi,Genel Kriterler,0,299,2
+Form_CSFilter,L_xVade,TabSheet3,Çek Yönetimi,Vade,Genel Kriterler,0,300,2
+Form_CSFilter,L_CekNo,TabSheet3,Çek Yönetimi,Çek No,Genel Kriterler,0,301,2
+Form_PazFilter,L_kasa,TabSheet7,Perakende Satış Yönetimi,Kasa Kodu,Genel Kriterler,0,302,2
+FormGidHizFilter,rg_GidHiz,Kriterler,GiderGelirHizmet Yönetimi,,Kriterler,0,304,2
+Form_BankaYon,gb_xLocation,TabSheet5,Banka Yönetimi,Lokasyon,Genel Kriterler,0,305,2
+Form_BankaYon,L_FisTip,TabSheet5,Banka Yönetimi,İşlem Tipi,Genel Kriterler,0,306,2
+Form_BankaYon,L_HesTanims,TabSheet5,Banka Yönetimi,Hesap Tanımları,Genel Kriterler,0,307,2
+Form_BankaYon,L_Pc1,TabSheet5,Banka Yönetimi,Para Cinsi,Genel Kriterler,0,308,2
+Form_BankaYon,xcb_Pc2,TabSheet5,Banka Yönetimi,Çevir >,Genel Kriterler,0,309,2
+Form_BankaYon,rg_KurCevrim,TabSheet4,Banka Yönetimi,Kur Çevrimi için kullanılacak Parite Tipi,Detay Kriterleri,0,310,2
+Form_BankaYon,L_PCHesap,TabSheet4,Banka Yönetimi,Hesabın Para Cinsi,Detay Kriterleri,0,311,2
+Form_BankaYon,xcb_Karsilikli,TabSheet4,Banka Yönetimi,Banka kriterini karşı hesapta da kontrol et,Detay Kriterleri,0,312,2
+Form_BankaYon,rg_iptal,TabSheet4,Banka Yönetimi,Fiş Durumu,Detay Kriterleri,0,313,2
+Form_StokFilter,gb_xLocation,TabSheet4,Stok Yönetimi,Lokasyon,Genel Kriterler,0,207,2
+Form_StokFilter,gb_xStokSekli,TabSheet4,Stok Yönetimi,Stok Şekli,Genel Kriterler,0,208,2
+Form_StokFilter,rg_StokOption,TabSheet4,Stok Yönetimi,Stok Liste Şekli,Genel Kriterler,0,209,2
+Form_StokFilter,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,210,2
+Form_StokFilter,gb_FisTar,TabSheet4,Stok Yönetimi,Hareket Tarihi,Genel Kriterler,0,211,2
+Form_StokFilter,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,212,2
+Form_StokFilter,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,213,2
+Form_StokFilter,rg_FatirsTar,TS_Detay,Stok Yönetimi,Fatura ve İrsaliye için Kullanılacak Tarih,Yönetim detayları,0,214,2
+Form_StokFilter_2,rg_StokOption,TabSheet4,Stok Yönetimi,Stok Liste Şekli,Genel Kriterler,0,765,2
+Form_StokFilter_2,RG_STAktif,TabSheet6,Stok Yönetimi,Stok Durumu,Stok Kriterleri,0,766,2
+Form_StokFilter_2,cbUreticiKodu,TabSheet6,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,767,2
+Form_StokFilter_2,cbOzKod9,TabSheet6,Stok Yönetimi,Statu,Stok Kriterleri,0,768,2
+Form_StokFilter_2,cbOzKod10,TabSheet6,Stok Yönetimi,Web,Stok Kriterleri,0,769,2
+Form_StokFilter_2,rg_YurticDis,TS_Cari,Stok Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterleri,0,770,2
+Form_StokFilter_2,gb_FisTar,TabSheet4,Stok Yönetimi,Hareket Tarihi,Genel Kriterler,0,771,2
+Form_StokFilter_2,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,772,2
+Form_StokFilter_2,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,773,2
+Form_StokFilter_2,rg_FatirsTar,TS_Detay,Stok Yönetimi,Fatura ve İrsaliye için Kullanılacak Tarih,Yönetim detayları,0,774,2
+Form_StokFilter_2,rg_Gizli,TS_Detay,Stok Yönetimi,Gizli,Yönetim detayları,0,775,2
+Form_StokFilter_2,xcb_FiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,776,2
+Form_StokFilter_2,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,777,2
+Form_StokFilter_2,xcb_SatFiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,778,2
+Form_StokFilter_2,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,İskonto Hesabı,Fiyat Alanları,0,779,2
+Form_StokFilter_2,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar Hesabı,Fiyat Alanları,0,780,2
+Form_StokFilter_2,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,781,2
+Form_StokFilter_2,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,782,2
+Form_StokFilter_2,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,783,2
+Form_StokFilter_2,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,784,2
+Form_StokFilter_2,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,785,2
+Form_KasaYon,L_BelgeNo,TS_Options,Cari İşlem Yönetimi,Belge No,Genel Kriterler,0,786,2
+Form_SiparisFilter_3,rg_YurticDis,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterler,0,821,2
+Form_SiparisFilter_3,rg_CariPasif,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Cari Durumu,Cari Kriterler,0,822,2
+Form_SiparisFilter_3,rg_CariKaraliste,ts_carikriter,Satınalma Analiz ve Sipariş Yönetimi,Carinin Karaliste kontrolü,Cari Kriterler,0,823,2
+Form_PazFilter,rg_RapGrfFiltre,TS_RapKriter,Perakende Satış Yönetimi,Grf Filtresi,Rapor Kriterleri,0,825,2
+Form_StokFilter_3,gb_xLocation,TabSheet4,Stok Yönetimi,Lokasyon,Genel Kriterler,0,826,2
+Form_StokFilter_3,gb_xStokSekli,TabSheet4,Stok Yönetimi,Stok Şekli,Genel Kriterler,0,827,2
+Form_StokFilter_3,rg_StokOption,TabSheet4,Stok Yönetimi,Stok Liste Şekli,Genel Kriterler,0,828,2
+Form_StokFilter_3,RG_STAktif,TabSheet6,Stok Yönetimi,Stok Durumu,Stok Kriterleri,0,830,2
+Form_StokFilter_3,rg_YurticDis,TS_Cari,Stok Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterleri,0,831,2
+Form_StokFilter_3,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,832,2
+Form_StokFilter_3,gb_FisTar,TabSheet4,Stok Yönetimi,Hareket Tarihi,Genel Kriterler,0,833,2
+Form_StokFilter_3,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,834,2
+Form_StokFilter_3,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,835,2
+Form_StokFilter_3,rg_FatirsTar,TS_Detay,Stok Yönetimi,Fatura ve İrsaliye için Kullanılacak Tarih,Yönetim detayları,0,836,2
+Form_StokFilter_3,rg_Gizli,TS_Detay,Stok Yönetimi,Gizli,Yönetim detayları,0,837,2
+Form_StokFilter_3,xcb_FiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,838,2
+Form_StokFilter_3,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,839,2
+Form_StokFilter_3,xcb_SatFiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,840,2
+Form_StokFilter_3,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,İskonto Hesabı,Fiyat Alanları,0,841,2
+Form_StokFilter_3,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar Hesabı,Fiyat Alanları,0,842,2
+Form_StokFilter_3,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,843,2
+Form_StokFilter_3,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,844,2
+Form_StokFilter_3,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,845,2
+Form_StokFilter_3,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,846,2
+Form_StokFilter_1,xcb_RnkMev,TS_Detay,Stok Yönetimi,"Mevcudu ""0"" dan fazla olan ürünler",Yönetim detayları,0,787,2
+Form_StokFilter_1,xcb_Resim,TS_Detay,Stok Yönetimi,Resim yolunu göster,Yönetim detayları,0,788,2
+Form_SiparisFilter_3,xcb_Script,Panel2,Satınalma Analiz ve Sipariş Yönetimi,Hazır Rapor,GENEL,0,824,2
+Form_StokFilter_3,L_SKod,TabSheet6,Stok Yönetimi,Stok Kodu,Stok Kriterleri,0,829,2
+Form_StokFilter_3,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,847,2
+Form_CariYonet_1,L_MinAlacakB,Ts_TutarKriter,Cari Yönetim,Minimum Alacak Bakiye,Tutar Kriterleri,0,848,2
+Form_BankaYon_1,L_Hesap,TabSheet3,Banka Yönetimi,Hesap Kodu,Yönetim Kriterleri,0,849,2
+Form_BankaYon_1,L_Tarih,TabSheet3,Banka Yönetimi,İşlem Tarihi,Yönetim Kriterleri,0,850,2
+Form_FaturaFilter,cbOzKod2,TabSheet10,Fatura Yönetimi,CINSI,Stok Kriterleri,0,851,2
+Form_StokFilter,cbOzKod17,TabSheet3,Stok Yönetimi,Özel Kod 17,Diğer Özel Kodlar,0,852,2
+Form_KasaYon_2,gb_xLocation,TSFilter,Cari İşlem Yönetimi,Lokasyon,Filtre Kriterleri,0,853,2
+Form_KasaYon_2,gb_xFisTip,TSFilter,Cari İşlem Yönetimi,Fiş Tipi,Filtre Kriterleri,0,854,2
+Form_KasaYon_2,L_Pc1,TSFilter,Cari İşlem Yönetimi,Para Cinsi,Filtre Kriterleri,0,855,2
+Form_KasaYon_2,L_cOzKod1,TS_Cari,Cari İşlem Yönetimi,Özel Kod 1,Cari Kriterler,0,856,2
+Form_KasaYon_2,rg_CariPasif,TS_Cari,Cari İşlem Yönetimi,Cari Durumu,Cari Kriterler,0,857,2
+Form_KasaYon_2,rg_iptal,TabSheet1,Cari İşlem Yönetimi,Fiş Durumu,Özel Kriterler,0,858,2
+Form_KasaYon_2,rg_islemKapamaBoya,TabSheet1,Cari İşlem Yönetimi,Kilitlenen işlemlerin Boyaması,Özel Kriterler,0,859,2
+Form_KasaYon_2,rg_islemKapamaFilter,TabSheet1,Cari İşlem Yönetimi,Kilitlenen işlemlerin uygulaması,Özel Kriterler,0,860,2
+Form_KasaYon_2,L_FisTar,TS_Options,Cari İşlem Yönetimi,İşlem Tarihi,Genel Kriterler,0,861,2
+Form_KasaYon_2,L_cbpg,TS_Options,Kasa İşlem Yönetimi,Cari Kod,Genel Kriterler,0,862,2
+Form_KasaYon_3,gb_xLocation,TSFilter,Cari İşlem Yönetimi,Lokasyon,Filtre Kriterleri,0,863,2
+Form_CariYonet_3,rg_KurCevrim,TabSheet4,Cari Yönetim,Kur Çevrimi için kullanılacak Parite Tipi,Genel Kriterler,0,874,2
+Form_CariYonet_3,L_ParaC,TabSheet4,Cari Yönetim,Para Cinsi,Genel Kriterler,0,875,2
+Form_CariYonet_3,xcb_ParaC2,TabSheet4,Cari Yönetim,Çevir - >,Genel Kriterler,0,876,2
+Form_CariYonet_3,L_CKod,TabSheet4,Cari Yönetim,Cari Kod,Genel Kriterler,0,877,2
+Form_CariYonet_3,L_Tar,TabSheet4,Cari Yönetim,İşlem Tarihi :,Genel Kriterler,0,878,2
+Form_CariYonet_3,L_KasaTar,TabSheet4,Cari Yönetim,İşlem Tarihi,Genel Kriterler,0,879,2
+Form_CariYonet_3,gb_FisTipR,TabSheet4,Cari Yönetim,Fiş Tipleri,Genel Kriterler,0,880,2
+Form_CariYonet_3,rg_AB_Dr,TabSheet4,Cari Yönetim,Alacak  Borç Durumu,Genel Kriterler,0,881,2
+Form_CariYonet_3,xcb_AlBorVisible,TabSheet4,Cari Yönetim,Sadece Bakiyesi olanları göster,Genel Kriterler,0,882,2
+Form_CariYonet_3,xcb_DevirGoster,TabSheet4,Cari Yönetim,Devirleri de işle,Genel Kriterler,0,883,2
+Form_CariYonet_3,gb_xLocation,TabSheet4,Cari Yönetim,Lokasyon,Genel Kriterler,0,884,2
+Form_CariYonet_3,rg_iptal,TabSheet4,Cari Yönetim,İptal Edilenler,Genel Kriterler,0,885,2
+Form_CariYonet_3,rg_CariPasif,TabSheet4,Cari Yönetim,Cari Durumu,Genel Kriterler,0,886,2
+Form_CariYonet_3,rg_KaraListe,TabSheet4,Cari Yönetim,Kara Liste,Genel Kriterler,0,887,2
+Form_CariYonet_3,rg_eFatura,TabSheet4,Cari Yönetim,e-Fatura,Genel Kriterler,0,888,2
+Form_CariYonet_3,rg_YurticDis,TabSheet1,Cari Yönetim,Yurtiçi / Yurtdışı,Cari Bilgiler,0,889,2
+Form_CariYonet_1,xcb_Script,Panel3,Cari Yönetim,Hazır Rapor,GENEL,0,890,2
+Form_BankaYon,xcb_Script,Panel3,Banka Yönetimi,Hazır Rapor,GENEL,0,891,2
+Form_StokFilter_1,cbBEDKod,TabSheet6,Stok Yönetimi,Beden Grup,Stok Kriterleri,0,892,2
+Form_PazFilter,L_Ozkod1,cxTabSheet1,Perakende Satış Yönetimi,Özel Kod 1,Perakende Özel Kodlar,0,893,2
+Form_CariYonet_2,rg_KurCevrim,TabSheet4,Cari Yönetim,Kur Çevrimi için kullanılacak Parite Tipi,Genel Kriterler,0,894,2
+Form_CariYonet_2,L_ParaC,TabSheet4,Cari Yönetim,Para Cinsi,Genel Kriterler,0,895,2
+Form_CariYonet_2,xcb_ParaC2,TabSheet4,Cari Yönetim,Çevir - >,Genel Kriterler,0,896,2
+Form_CariYonet_2,L_CKod,TabSheet4,Cari Yönetim,Cari Kod,Genel Kriterler,0,897,2
+Form_CariYonet_2,L_Tar,TabSheet4,Cari Yönetim,İşlem Tarihi :,Genel Kriterler,0,898,2
+Form_CariYonet_2,L_KasaTar,TabSheet4,Cari Yönetim,İşlem Tarihi,Genel Kriterler,0,899,2
+Form_CariYonet_2,gb_FisTipR,TabSheet4,Cari Yönetim,Fiş Tipleri,Genel Kriterler,0,900,2
+Form_CariYonet_2,rg_AB_Dr,TabSheet4,Cari Yönetim,Alacak  Borç Durumu,Genel Kriterler,0,901,2
+Form_KasaYon_3,gb_xFisTip,TSFilter,Cari İşlem Yönetimi,Fiş Tipi,Filtre Kriterleri,0,864,2
+Form_KasaYon_3,L_Pc1,TSFilter,Cari İşlem Yönetimi,Para Cinsi,Filtre Kriterleri,0,865,2
+Form_KasaYon_3,L_cbpg,TS_Options,Cari İşlem Yönetimi,Cari Kod,Genel Kriterler,0,866,2
+Form_KasaYon_3,rg_CariPasif,TS_Cari,Cari İşlem Yönetimi,Cari Durumu,Cari Kriterler,0,867,2
+Form_KasaYon_3,rg_iptal,TabSheet1,Cari İşlem Yönetimi,Fiş Durumu,Özel Kriterler,0,868,2
+Form_KasaYon_3,rg_islemKapamaBoya,TabSheet1,Cari İşlem Yönetimi,Kilitlenen işlemlerin Boyaması,Özel Kriterler,0,869,2
+Form_KasaYon_3,rg_islemKapamaFilter,TabSheet1,Cari İşlem Yönetimi,Kilitlenen işlemlerin uygulaması,Özel Kriterler,0,870,2
+Form_KasaYon_3,L_FisTar,TS_Options,Cari İşlem Yönetimi,İşlem Tarihi,Genel Kriterler,0,871,2
+Form_StokFilter,L_cOzKod1,TS_Cari,Stok Yönetimi,Özel Kod 1,Cari Kriterleri,0,872,2
+Form_StokFilter,xcb_RezervGoster,TS_Detay,Stok Yönetimi,Rezerv Miktarını Göster,Yönetim detayları,0,873,2
+Form_CariYonet_2,xcb_AlBorVisible,TabSheet4,Cari Yönetim,Sadece Bakiyesi olanları göster,Genel Kriterler,0,902,2
+Form_CariYonet_2,xcb_DevirGoster,TabSheet4,Cari Yönetim,Devirleri de işle,Genel Kriterler,0,903,2
+Form_CariYonet_2,gb_xLocation,TabSheet4,Cari Yönetim,Lokasyon,Genel Kriterler,0,904,2
+Form_CariYonet_2,rg_iptal,TabSheet4,Cari Yönetim,İptal Edilenler,Genel Kriterler,0,905,2
+Form_CariYonet_2,rg_CariPasif,TabSheet4,Cari Yönetim,Cari Durumu,Genel Kriterler,0,906,2
+Form_CariYonet_2,rg_KaraListe,TabSheet4,Cari Yönetim,Kara Liste,Genel Kriterler,0,907,2
+Form_CariYonet_2,rg_eFatura,TabSheet4,Cari Yönetim,e-Fatura,Genel Kriterler,0,908,2
+Form_CariYonet_2,rg_YurticDis,TabSheet1,Cari Yönetim,Yurtiçi / Yurtdışı,Cari Bilgiler,0,909,2
+Form_CariYonet_2,L_MinAlacakB,Ts_TutarKriter,Cari Yönetim,Minimum Alacak Bakiye,Tutar Kriterleri,0,910,2
+Form_StokFilter_1,cbStokTip,TabSheet6,Stok Yönetimi,Stok Tipi,Stok Kriterleri,0,911,2
+Form_StokFilter_1,cbCariKod,TabSheet6,Stok Yönetimi,Cari,Stok Kriterleri,0,912,2
+Form_FaturaFilter,cbOzKod1,TabSheet10,Fatura Yönetimi,ASTAR,Stok Kriterleri,0,913,2
+Form_KasaYon_1,L_kasa,TS_Options,Kasa İşlem Yönetimi,Kasa Kodu,Genel Kriterler,0,914,2
+Form_FaturaFilter,L_SipBelgeNoX,tsSipDetail,İrsaliye Yönetimi,Belge No,Bağlı Sipariş Kriterleri,0,915,2
+Form_StokFilter_2,xcb_SatFiyat_Tip,TS_Fiyat,Stok Yönetimi,Satış Fiyatı,Fiyat Alanları,0,916,2
+Form_BankaYon_2,gb_xLocation,TabSheet5,Banka Yönetimi,Lokasyon,Genel Kriterler,0,917,2
+Form_BankaYon_2,L_FisTip,TabSheet5,Banka Yönetimi,İşlem Tipi,Genel Kriterler,0,918,2
+Form_BankaYon_2,L_HesTanims,TabSheet5,Banka Yönetimi,Hesap Tanımları,Genel Kriterler,0,919,2
+Form_BankaYon_2,L_Pc1,TabSheet5,Banka Yönetimi,Para Cinsi,Genel Kriterler,0,920,2
+Form_BankaYon_2,xcb_Pc2,TabSheet5,Banka Yönetimi,Çevir >,Genel Kriterler,0,921,2
+Form_BankaYon_2,rg_YurticDis,TabSheet3,Banka Yönetimi,Yurtiçi / Yurtdışı,Yönetim Kriterleri,0,922,2
+Form_BankaYon_2,rg_CariPasif,TabSheet3,Banka Yönetimi,Cari Durumu,Yönetim Kriterleri,0,923,2
+Form_BankaYon_2,rg_KurCevrim,TabSheet4,Banka Yönetimi,Kur Çevrimi için kullanılacak Parite Tipi,Detay Kriterleri,0,924,2
+Form_BankaYon_2,L_HesapOzKod_1,TabSheet4,Banka Yönetimi,Hesap Özel Kod 1,Detay Kriterleri,0,925,2
+Form_BankaYon_2,L_PCHesap,TabSheet4,Banka Yönetimi,Hesabın Para Cinsi,Detay Kriterleri,0,926,2
+Form_BankaYon_2,xcb_CekGoster,TabSheet4,Banka Yönetimi,Çek işlemlerini de göster,Detay Kriterleri,0,927,2
+Form_BankaYon_2,xcb_KasaGoster,TabSheet4,Banka Yönetimi,Kasa işlemlerini de göster,Detay Kriterleri,0,928,2
+Form_BankaYon_2,xcb_MasrafGoster,TabSheet4,Banka Yönetimi,Masrafları da göster,Detay Kriterleri,0,929,2
+Form_BankaYon_2,xcb_Karsilikli,TabSheet4,Banka Yönetimi,Banka kriterini karşı hesapta da kontrol et,Detay Kriterleri,0,930,2
+Form_BankaYon_2,rg_iptal,TabSheet4,Banka Yönetimi,Fiş Durumu,Detay Kriterleri,0,931,2
+Form_BankaYon,L_KBanka,TabSheet3,Banka Yönetimi,Karşı Banka Hesabı,Yönetim Kriterleri,0,932,2
+Form_FaturaFilter_1,cbOzKod2,TabSheet10,Fatura Yönetimi,CINSI,Stok Kriterleri,0,933,2
+Form_StokFilter_2,cbCariKod,TabSheet6,Stok Yönetimi,Cari,Stok Kriterleri,0,934,2
+Form_StokFilter_1,L_SKod,TabSheet6,Stok Yönetimi,Stok Kodu,Stok Kriterleri,0,937,2
+Form_StokFilter_2,xcb_Fiyat_Tip,TS_Fiyat,Stok Yönetimi,Alış Fiyatı,Fiyat Alanları,0,938,2
+Form_BankaYon_1,xcb_Script,Panel3,Banka Yönetimi,Hazır Rapor,GENEL,0,939,2
+Form_StokFilter_2,xcb_Resim,TS_Detay,Stok Yönetimi,Resim yolunu göster,Yönetim detayları,0,946,2
+Form_StokFilter_1,cbOzKod18,TabSheet3,Stok Yönetimi,Özel Kod 18,Diğer Özel Kodlar,0,947,2
+Form_CSFilter_1,gb_xLocation,TabSheet3,Senet Yönetimi,Lokasyon,Genel Kriterler,0,949,2
+Form_StokFilter_4,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,989,2
+Form_StokFilter_4,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,990,2
+Form_StokFilter_5,gb_xLocation,TabSheet4,Stok Yönetimi,Lokasyon,Genel Kriterler,0,991,2
+Form_StokFilter_5,gb_xStokSekli,TabSheet4,Stok Yönetimi,Stok Şekli,Genel Kriterler,0,992,2
+Form_StokFilter_5,rg_StokOption,TabSheet4,Stok Yönetimi,Stok Liste Şekli,Genel Kriterler,0,993,2
+Form_StokFilter_5,RG_STAktif,TabSheet6,Stok Yönetimi,Stok Durumu,Stok Kriterleri,0,994,2
+Form_StokFilter_5,cbUreticiKodu,TabSheet6,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,995,2
+Form_StokFilter_5,rg_YurticDis,TS_Cari,Stok Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterleri,0,996,2
+Form_StokFilter_5,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,997,2
+Form_StokFilter_5,gb_FisTar,TabSheet4,Stok Yönetimi,Hareket Tarihi,Genel Kriterler,0,998,2
+Form_StokFilter_5,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,999,2
+Form_StokFilter_5,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,1000,2
+Form_StokFilter_5,rg_FatirsTar,TS_Detay,Stok Yönetimi,Fatura ve İrsaliye için Kullanılacak Tarih,Yönetim detayları,0,1001,2
+Form_StokFilter_5,rg_Gizli,TS_Detay,Stok Yönetimi,Gizli,Yönetim detayları,0,1002,2
+Form_StokFilter_5,xcb_FiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,1003,2
+Form_StokFilter_5,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,1004,2
+Form_StokFilter_5,xcb_SatFiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,1005,2
+Form_StokFilter_5,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,İskonto Hesabı,Fiyat Alanları,0,1006,2
+Form_StokFilter_5,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar Hesabı,Fiyat Alanları,0,1007,2
+Form_StokFilter_5,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,1008,2
+Form_StokFilter_5,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,1009,2
+Form_StokFilter_5,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,1010,2
+Form_StokFilter_5,rg_SipDetay,ts_SipBag,Stok Yönetimi,Pazarlama Sipariş Detayları,Sipariş Bağlantıları,0,1011,2
+Form_StokFilter_5,rg_SatSipDetay,ts_SipBag,Stok Yönetimi,Satınalma Sipariş Detayları,Sipariş Bağlantıları,0,1012,2
+Form_StokFilter_2,xcb_RnkMev,TS_Detay,Stok Yönetimi,"Mevcudu ""0"" dan fazla olan ürünler",Yönetim detayları,0,935,2
+Form_PazFilter,L_SatNo,TabSheet7,Perakende Satış Yönetimi,Satış No,Genel Kriterler,0,936,2
+Form_CariYonet,xcb_PazSipKal,TabSheet4,Cari Yönetim,Pazarlama Sipariş Kalanı Göster,Genel Kriterler,0,940,2
+Form_CariYonet,xcb_SatSipKal,TabSheet4,Cari Yönetim,Satınalma Sipariş Kalanı Göster,Genel Kriterler,0,941,2
+FormLokDetStkRap,cbGrupKod,TabSheet3,Lokasyon Detaylı Stok Durum Raporu,Stok Grubu,Stok Kriterleri,0,942,2
+Form_CariYonet,L_MaxBorc,Ts_TutarKriter,Cari Yönetim,Maximum Borç,Tutar Kriterleri,0,943,2
+Form_CariYonet,L_MaxBorcB,Ts_TutarKriter,Cari Yönetim,Maximum Borç Bakiye,Tutar Kriterleri,0,944,2
+Form_CariYonet,L_MaxAlacakB,Ts_TutarKriter,Cari Yönetim,Maximum Alacak Bakiye,Tutar Kriterleri,0,945,2
+Form_StokFilter_1,cbOzKod2,TabSheet6,Stok Yönetimi,CINSI,Stok Kriterleri,0,948,2
+Form_CSFilter_1,gb_xDurum,TabSheet3,Senet Yönetimi,Durum (Çek veya Senetin Son Durumu),Genel Kriterler,0,950,2
+Form_CSFilter_1,L_CSTip,TabSheet3,Senet Yönetimi,İşlem Tipi,Genel Kriterler,0,951,2
+Form_CSFilter_1,L_CM,TabSheet3,Senet Yönetimi,Cari/Müşteri,Genel Kriterler,0,952,2
+Form_CSFilter_1,L_ParaC,TabSheet3,Senet Yönetimi,Para Cinsi,Genel Kriterler,0,953,2
+Form_CSFilter_1,xcb_ParaC2,TabSheet3,Senet Yönetimi,Çevir,Genel Kriterler,0,954,2
+Form_CSFilter_1,gb_xHarKri,TabSheet3,Senet Yönetimi,Hareket Kriteri,Genel Kriterler,0,955,2
+Form_CSFilter_1,L_CekSahibi,TS_EvrakKriter,Senet Yönetimi,Senet Sahibi,Evrak Kriterleri,0,956,2
+Form_CSFilter_1,rg_TutarKurCevrim,TS_EvrakKriter,Senet Yönetimi,Kur Çevrimi İçin,Evrak Kriterleri,0,957,2
+Form_CSFilter_1,rg_YurticDis,TS_EvrakKriter,Senet Yönetimi,Yurtiçi / Yurtdışı,Evrak Kriterleri,0,958,2
+Form_CSFilter_1,rg_CariPasif,TS_EvrakKriter,Senet Yönetimi,Cari Durumu,Evrak Kriterleri,0,959,2
+Form_PazFilter,cbCinsKod,TabSheet3,Perakende Satış Yönetimi,Cinsiyet,Stok Kriterleri,0,960,2
+Form_PazFilter_1,gb_xKampanya,TabSheet7,Taksitli Satış Yönetimi,Kampanyalar,Genel Kriterler,0,961,2
+Form_PazFilter_1,rg_RapGrfFiltre,TS_RapKriter,Taksitli Satış Yönetimi,Grf Filtresi,Rapor Kriterleri,0,962,2
+Form_BankaYon,L_Cari,TabSheet3,Banka Yönetimi,Cari Kodu,Yönetim Kriterleri,0,963,2
+FormStokGCFilter,cbBeden,ts_StokFilter,Stok Giriş Çıkış Yönetimi,Beden,Stok Kriterleri,0,964,2
+Form_FaturaFilter,cbOzKod4,TabSheet10,Fatura Yönetimi,ASTAR,Stok Kriterleri,0,965,2
+Form_FaturaFilter,cbBEDGrp,TabSheet10,Fatura Yönetimi,Beden Grup,Stok Kriterleri,0,966,2
+Form_FaturaFilter,cbCinsKod,TabSheet10,Fatura Yönetimi,Cinsiyet,Stok Kriterleri,0,967,2
+Form_StokFilter_3,cbUreticiKodu,TabSheet6,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,968,2
+Form_StokFilter_4,gb_xLocation,TabSheet4,Stok Yönetimi,Lokasyon,Genel Kriterler,0,969,2
+Form_StokFilter_4,gb_xStokSekli,TabSheet4,Stok Yönetimi,Stok Şekli,Genel Kriterler,0,970,2
+Form_StokFilter_4,rg_StokOption,TabSheet4,Stok Yönetimi,Stok Liste Şekli,Genel Kriterler,0,971,2
+Form_StokFilter_4,RG_STAktif,TabSheet6,Stok Yönetimi,Stok Durumu,Stok Kriterleri,0,972,2
+Form_StokFilter_4,cbUreticiKodu,TabSheet6,Stok Yönetimi,Üretici Kodu,Stok Kriterleri,0,973,2
+Form_StokFilter_4,rg_YurticDis,TS_Cari,Stok Yönetimi,Yurtiçi / Yurtdışı,Cari Kriterleri,0,974,2
+Form_StokFilter_4,rg_ConvertBirim,TS_Detay,Stok Yönetimi,Birim Çevrimleri,Yönetim detayları,0,975,2
+Form_StokFilter_4,gb_FisTar,TabSheet4,Stok Yönetimi,Hareket Tarihi,Genel Kriterler,0,976,2
+Form_StokFilter_4,rg_miktar,TS_Detay,Stok Yönetimi,Miktar ayrıntısı gösterim şekli,Yönetim detayları,0,977,2
+Form_StokFilter_4,rg_Kumulatif,TS_Detay,Stok Yönetimi,Toplam Kriteri,Yönetim detayları,0,978,2
+Form_StokFilter_4,rg_FatirsTar,TS_Detay,Stok Yönetimi,Fatura ve İrsaliye için Kullanılacak Tarih,Yönetim detayları,0,979,2
+Form_StokFilter_4,rg_Gizli,TS_Detay,Stok Yönetimi,Gizli,Yönetim detayları,0,980,2
+Form_StokFilter_4,xcb_FiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,981,2
+Form_StokFilter_4,xcb_OtvSiyir,TS_Fiyat,Stok Yönetimi,ÖTV Sıyır,Fiyat Alanları,0,982,2
+Form_StokFilter_4,xcb_SatFiyatTipCevir,TS_Fiyat,Stok Yönetimi,Çevir,Fiyat Alanları,0,983,2
+Form_StokFilter_4,rg_iskHesabi,TS_Fiyat,Stok Yönetimi,İskonto Hesabı,Fiyat Alanları,0,984,2
+Form_StokFilter_4,rg_KalTutarTip,TS_Fiyat,Stok Yönetimi,Kalan Tutar Hesabı,Fiyat Alanları,0,985,2
+Form_StokFilter_4,rg_AlFiyHesTip,TS_Fiyat,Stok Yönetimi,Giren Fiyat Hesaplama,Fiyat Alanları,0,986,2
+Form_StokFilter_4,rg_OpUy,TS_KrOpKriter,Stok Yönetimi,Optimum Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,987,2
+Form_StokFilter_4,rg_KrUy,TS_KrOpKriter,Stok Yönetimi,Kritik Seviye Uygulama Şekli,Optimum  Kritik Seviye Kriterleri,0,988,2
+FormStokGCFilter,cbOzKod10,ts_StokFilter,Stok Giriş Çıkış Yönetimi,Web,Stok Kriterleri,0,712,2
+Form_StokFiltre,L_BelgeNo,TabSheet3,Stok İşlemleri Yönetimi,Belge No,Genel Kriterler,0,713,2

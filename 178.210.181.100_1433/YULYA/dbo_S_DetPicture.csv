@@ -1,0 +1,518 @@
+inx,SKOD,RKOD,BedKod,Aciklama,Picture,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+1,045-007 N,19243,0,,\\YulyaFerra\Model\A.A.KUOJA\007N2.jpeg,1,,,,dbo,2024-11-01 14:34:20.993000,Microsoft SQL Server Management Studio - Query
+2,031-104-34,19323,0,,\\YulyaFerra\Model\Caprio yaz\104.g.jpeg,2,yulya,2024-10-22 12:58:43.787000,KGShop,dbo,2024-11-01 14:34:23.313000,Microsoft SQL Server Management Studio - Query
+3,031-104-34,19324,0,,\\YulyaFerra\Model\Caprio yaz\104.sr.jpeg,3,yulya,2024-10-22 12:58:43.790000,KGShop,dbo,2024-11-01 14:34:23.323000,Microsoft SQL Server Management Studio - Query
+4,031-104-34,19325,0,,\\YulyaFerra\Model\Caprio yaz\104.bj.jpeg,4,yulya,2024-10-22 12:58:43.790000,KGShop,dbo,2024-11-01 14:34:23.327000,Microsoft SQL Server Management Studio - Query
+5,031-104-34,19326,0,,\\YulyaFerra\Model\Caprio yaz\104.b.jpeg,5,yulya,2024-10-22 12:58:43.790000,KGShop,dbo,2024-11-01 14:34:23.330000,Microsoft SQL Server Management Studio - Query
+6,031-104-35,18700,0,,\\YulyaFerra\Model\Caprio yaz\10435S.jpeg,6,yulya,2024-10-22 13:04:11.690000,KGShop,dbo,2024-11-01 14:34:23.330000,Microsoft SQL Server Management Studio - Query
+7,031-104-35,17107,0,,\\YulyaFerra\Model\Caprio yaz\10435V.jpeg,7,yulya,2024-10-22 13:04:11.690000,KGShop,dbo,2024-11-01 14:34:23.333000,Microsoft SQL Server Management Studio - Query
+8,031-109-08,16584,0,,\\YulyaFerra\Model\Caprio yaz\10908K.jpeg,8,yulya,2024-10-22 13:08:19.070000,KGShop,dbo,2024-11-01 14:34:23.333000,Microsoft SQL Server Management Studio - Query
+9,031-109-08,16580,0,,\\YulyaFerra\Model\Caprio yaz\10908BJ.jpeg,9,yulya,2024-10-22 13:08:19.073000,KGShop,dbo,2024-11-01 14:34:23.333000,Microsoft SQL Server Management Studio - Query
+10,031-109-17,16583,0,,\\YulyaFerra\Model\Caprio yaz\10917AL.jpeg,10,yulya,2024-10-22 13:10:34.970000,KGShop,dbo,2024-11-01 14:34:23.337000,Microsoft SQL Server Management Studio - Query
+11,031-109-17,18700,0,,\\YulyaFerra\Model\Caprio yaz\10917S.jpeg,11,yulya,2024-10-22 13:10:34.973000,KGShop,dbo,2024-11-01 14:34:23.340000,Microsoft SQL Server Management Studio - Query
+12,031-109-16,19327,0,,\\YulyaFerra\Model\Caprio yaz\10916SL.jpeg,12,yulya,2024-10-22 13:16:00.527000,KGShop,dbo,2024-11-01 14:34:23.340000,Microsoft SQL Server Management Studio - Query
+13,031-109-16,19328,0,,\\YulyaFerra\Model\Caprio yaz\10916S.jpeg,13,yulya,2024-10-22 13:16:00.527000,KGShop,dbo,2024-11-01 14:34:23.343000,Microsoft SQL Server Management Studio - Query
+14,031-109-16,19329,0,,\\YulyaFerra\Model\Caprio yaz\10916SG.jpeg,14,yulya,2024-10-22 13:16:00.527000,KGShop,dbo,2024-11-01 14:34:23.343000,Microsoft SQL Server Management Studio - Query
+15,031-111-02,19330,0,,\\YulyaFerra\Model\Caprio yaz\11102S.jpeg,15,yulya,2024-10-22 13:22:19.160000,KGShop,dbo,2024-11-01 14:34:23.347000,Microsoft SQL Server Management Studio - Query
+16,031-111-03,18691,0,,\\YulyaFerra\Model\Caprio yaz\11103S.jpeg,16,yulya,2024-10-22 13:23:44.787000,KGShop,dbo,2024-11-01 14:34:23.350000,Microsoft SQL Server Management Studio - Query
+17,031-111-04,19331,0,,\\YulyaFerra\Model\Caprio yaz\11104L.jpeg,17,yulya,2024-10-22 13:41:43.017000,KGShop,dbo,2024-11-01 14:34:23.350000,Microsoft SQL Server Management Studio - Query
+18,031-104-42,17686,0,,\\YulyaFerra\Model\Caprio yaz\10442B.jpeg,18,yulya,2024-10-22 13:44:31.713000,KGShop,dbo,2024-11-01 14:34:23.353000,Microsoft SQL Server Management Studio - Query
+19,031-104-42,16581,0,,\\YulyaFerra\Model\Caprio yaz\10442AL.jpeg,19,yulya,2024-10-22 13:44:31.713000,KGShop,dbo,2024-11-01 14:34:23.353000,Microsoft SQL Server Management Studio - Query
+20,031-105-06,19333,0,,\\YulyaFerra\Model\Caprio yaz\10506L.jpeg,20,yulya,2024-10-22 13:59:51.840000,KGShop,dbo,2024-11-01 14:34:23.357000,Microsoft SQL Server Management Studio - Query
+21,031-105-06,19332,0,,\\YulyaFerra\Model\Caprio yaz\10506H.jpeg,21,yulya,2024-10-22 13:59:51.840000,KGShop,dbo,2024-11-01 14:34:23.360000,Microsoft SQL Server Management Studio - Query
+22,031-105-07,19334,0,,\\YulyaFerra\Model\Caprio yaz\10507B.jpeg,22,yulya,2024-10-22 14:02:09.843000,KGShop,dbo,2024-11-01 14:34:23.360000,Microsoft SQL Server Management Studio - Query
+23,031-105-07,19335,0,,\\YulyaFerra\Model\Caprio yaz\10507S.jpeg,23,yulya,2024-10-22 14:02:09.843000,KGShop,dbo,2024-11-01 14:34:23.363000,Microsoft SQL Server Management Studio - Query
+24,031-104-43,17686,0,,\\YulyaFerra\Model\Caprio yaz\10443B.jpeg,24,yulya,2024-10-22 14:06:20.293000,KGShop,dbo,2024-11-01 14:34:23.367000,Microsoft SQL Server Management Studio - Query
+25,031-104-43,18700,0,,\\YulyaFerra\Model\Caprio yaz\10443S.jpeg,25,yulya,2024-10-22 14:06:20.293000,KGShop,dbo,2024-11-01 14:34:23.367000,Microsoft SQL Server Management Studio - Query
+26,031-104-43,19336,0,,\\YulyaFerra\Model\Caprio yaz\10443T.jpeg,26,yulya,2024-10-22 14:06:20.293000,KGShop,dbo,2024-11-01 14:34:23.370000,Microsoft SQL Server Management Studio - Query
+27,031-104-39,17686,0,,\\YulyaFerra\Model\Caprio yaz\10439B.jpeg,27,yulya,2024-10-22 14:09:31.093000,KGShop,dbo,2024-11-01 14:34:23.370000,Microsoft SQL Server Management Studio - Query
+28,031-104-39,18700,0,,\\YulyaFerra\Model\Caprio yaz\10439SR.jpeg,28,yulya,2024-10-22 14:09:31.097000,KGShop,dbo,2024-11-01 14:34:23.373000,Microsoft SQL Server Management Studio - Query
+29,031-104-39,16791,0,,\\YulyaFerra\Model\Caprio yaz\10439S.jpeg,29,yulya,2024-10-22 14:09:31.097000,KGShop,dbo,2024-11-01 14:34:23.373000,Microsoft SQL Server Management Studio - Query
+30,031-104-44,17250,0,,\\YulyaFerra\Model\Caprio yaz\10444G.jpeg,30,yulya,2024-10-22 14:14:35.850000,KGShop,dbo,2024-11-01 14:34:23.377000,Microsoft SQL Server Management Studio - Query
+31,031-104-44,16597,0,,\\YulyaFerra\Model\Caprio yaz\10444P.jpeg,31,yulya,2024-10-22 14:14:35.850000,KGShop,dbo,2024-11-01 14:34:23.380000,Microsoft SQL Server Management Studio - Query
+32,031-104-40,18584,0,,\\YulyaFerra\Model\Caprio yaz\10440G.jpeg,32,yulya,2024-10-22 14:17:44.340000,KGShop,dbo,2024-11-01 14:34:23.380000,Microsoft SQL Server Management Studio - Query
+33,031-104-40,17107,0,,\\YulyaFerra\Model\Caprio yaz\10440V.jpeg,33,yulya,2024-10-22 14:17:44.340000,KGShop,dbo,2024-11-01 14:34:23.383000,Microsoft SQL Server Management Studio - Query
+34,031-104-37,17686,0,,\\YulyaFerra\Model\Caprio yaz\10437B.jpeg,34,yulya,2024-10-22 14:20:58.660000,KGShop,dbo,2024-11-01 14:34:23.383000,Microsoft SQL Server Management Studio - Query
+35,031-104-37,18584,0,,\\YulyaFerra\Model\Caprio yaz\10437G.jpeg,35,yulya,2024-10-22 14:20:58.660000,KGShop,dbo,2024-11-01 14:34:23.387000,Microsoft SQL Server Management Studio - Query
+36,031-104-37,16791,0,,\\YulyaFerra\Model\Caprio yaz\10437S.jpeg,36,yulya,2024-10-22 14:20:58.660000,KGShop,dbo,2024-11-01 14:34:23.387000,Microsoft SQL Server Management Studio - Query
+37,031-112-01,16791,0,,\\YulyaFerra\Model\Caprio yaz\11201S.jpeg,37,yulya,2024-10-22 14:27:02.583000,KGShop,dbo,2024-11-01 14:34:23.390000,Microsoft SQL Server Management Studio - Query
+38,031-112-01,16581,0,,\\YulyaFerra\Model\Caprio yaz\11201AL.jpeg,38,yulya,2024-10-22 14:27:02.583000,KGShop,dbo,2024-11-01 14:34:23.390000,Microsoft SQL Server Management Studio - Query
+39,031-112-01,17246,0,,\\YulyaFerra\Model\Caprio yaz\11201Y.jpeg,39,yulya,2024-10-22 14:27:02.583000,KGShop,dbo,2024-11-01 14:34:23.393000,Microsoft SQL Server Management Studio - Query
+40,031-109-09,19338,0,,\\YulyaFerra\Model\Caprio yaz\10909S.jpeg,40,yulya,2024-10-22 14:32:17.453000,KGShop,dbo,2024-11-01 14:34:23.397000,Microsoft SQL Server Management Studio - Query
+41,031-109-09,19337,0,,\\YulyaFerra\Model\Caprio yaz\10909AL.jpeg,41,yulya,2024-10-22 14:32:17.457000,KGShop,dbo,2024-11-01 14:34:23.397000,Microsoft SQL Server Management Studio - Query
+42,031-109-09,19339,0,,\\YulyaFerra\Model\Caprio yaz\10909BJ.jpeg,42,yulya,2024-10-22 14:32:17.457000,KGShop,dbo,2024-11-01 14:34:23.400000,Microsoft SQL Server Management Studio - Query
+43,031-109-12,19340,0,,\\YulyaFerra\Model\Caprio yaz\10912G.jpeg,43,yulya,2024-10-22 14:34:16.050000,KGShop,dbo,2024-11-01 14:34:23.400000,Microsoft SQL Server Management Studio - Query
+44,031-109-13,19341,0,,\\YulyaFerra\Model\Caprio yaz\10913SL.jpeg,44,yulya,2024-10-22 14:36:53.843000,KGShop,dbo,2024-11-01 14:34:23.403000,Microsoft SQL Server Management Studio - Query
+45,031-109-14,19341,0,,\\YulyaFerra\Model\Caprio yaz\10914SL.jpeg,45,yulya,2024-10-22 14:39:43.977000,KGShop,dbo,2024-11-01 14:34:23.403000,Microsoft SQL Server Management Studio - Query
+46,031-109-15,19330,0,,\\YulyaFerra\Model\Caprio yaz\10915S.jpeg,46,yulya,2024-10-22 14:41:01.670000,KGShop,dbo,2024-11-01 14:34:23.407000,Microsoft SQL Server Management Studio - Query
+47,099-58,16530,0,,\\YulyaFerra\Model\Happy\58bj.jpeg,47,yulya,2024-10-22 15:42:08.310000,KGShop,dbo,2024-11-01 14:34:23.410000,Microsoft SQL Server Management Studio - Query
+48,099-58,16526,0,,\\YulyaFerra\Model\Happy\58p.jpeg,48,yulya,2024-10-22 15:42:08.310000,KGShop,dbo,2024-11-01 14:34:23.410000,Microsoft SQL Server Management Studio - Query
+49,099-58,16529,0,,\\YulyaFerra\Model\Happy\58k.jpeg,49,yulya,2024-10-22 15:42:08.310000,KGShop,dbo,2024-11-01 14:34:23.413000,Microsoft SQL Server Management Studio - Query
+50,099-58,16791,0,,\\YulyaFerra\Model\Happy\58y.jpeg,50,yulya,2024-10-22 15:42:08.310000,KGShop,dbo,2024-11-01 14:34:23.413000,Microsoft SQL Server Management Studio - Query
+51,099-65,16523,0,,\\YulyaFerra\Model\Happy\65b.jpeg,51,yulya,2024-10-22 15:45:44.627000,KGShop,dbo,2024-11-01 14:34:23.417000,Microsoft SQL Server Management Studio - Query
+52,099-65,16531,0,,\\YulyaFerra\Model\Happy\65v.jpeg,52,yulya,2024-10-22 15:45:44.627000,KGShop,dbo,2024-11-01 14:34:23.417000,Microsoft SQL Server Management Studio - Query
+53,099-65,16548,0,,\\YulyaFerra\Model\Happy\65m.jpeg,53,yulya,2024-10-22 15:45:44.630000,KGShop,dbo,2024-11-01 14:34:23.420000,Microsoft SQL Server Management Studio - Query
+54,099-57,16531,0,,\\YulyaFerra\Model\Happy\57v.jpeg,54,yulya,2024-10-22 15:47:50.450000,KGShop,dbo,2024-11-01 14:34:23.420000,Microsoft SQL Server Management Studio - Query
+55,099-57,16526,0,,\\YulyaFerra\Model\Happy\57p.jpeg,55,yulya,2024-10-22 15:47:50.450000,KGShop,dbo,2024-11-01 14:34:23.423000,Microsoft SQL Server Management Studio - Query
+56,099-65,16550,0,,\\YulyaFerra\Model\Happy\65al.jpeg,56,yulya,2024-10-22 15:53:43.197000,KGShop,dbo,2024-11-01 14:34:23.423000,Microsoft SQL Server Management Studio - Query
+57,099-56,16791,0,,\\YulyaFerra\Model\Happy\56y.jpeg,57,yulya,2024-10-22 15:56:51.480000,KGShop,dbo,2024-11-01 14:34:23.427000,Microsoft SQL Server Management Studio - Query
+58,099-56,16523,0,,\\YulyaFerra\Model\Happy\56b.jpeg,58,yulya,2024-10-22 15:56:51.480000,KGShop,dbo,2024-11-01 14:34:23.430000,Microsoft SQL Server Management Studio - Query
+59,099-56,16531,0,,\\YulyaFerra\Model\Happy\56v.jpeg,59,yulya,2024-10-22 15:56:51.480000,KGShop,dbo,2024-11-01 14:34:23.430000,Microsoft SQL Server Management Studio - Query
+60,099-56,16530,0,,\\YulyaFerra\Model\Happy\56bj.jpeg,60,yulya,2024-10-22 15:56:51.480000,KGShop,dbo,2024-11-01 14:34:23.433000,Microsoft SQL Server Management Studio - Query
+61,099-61,19345,0,,\\YulyaFerra\Model\Happy\61B.jpeg,61,yulya,2024-10-22 16:01:33.787000,KGShop,dbo,2024-11-01 14:34:23.437000,Microsoft SQL Server Management Studio - Query
+62,099-61,19342,0,,\\YulyaFerra\Model\Happy\61BJ.jpeg,62,yulya,2024-10-22 16:01:33.787000,KGShop,dbo,2024-11-01 14:34:23.440000,Microsoft SQL Server Management Studio - Query
+63,099-61,19344,0,,\\YulyaFerra\Model\Happy\61S.jpeg,63,yulya,2024-10-22 16:01:33.787000,KGShop,dbo,2024-11-01 14:34:23.440000,Microsoft SQL Server Management Studio - Query
+64,099-61,19343,0,,\\YulyaFerra\Model\Happy\61V.jpeg,64,yulya,2024-10-22 16:01:33.787000,KGShop,dbo,2024-11-01 14:34:23.443000,Microsoft SQL Server Management Studio - Query
+65,160-232,16523,0,,\\YulyaFerra\Model\Poppyyaz\232b.jpeg,65,yulya,2024-10-22 17:16:09.697000,KGShop,dbo,2024-11-01 14:34:23.443000,Microsoft SQL Server Management Studio - Query
+66,160-232,16524,0,,\\YulyaFerra\Model\Poppyyaz\232bj.jpeg,66,yulya,2024-10-22 17:16:09.697000,KGShop,dbo,2024-11-01 14:34:23.447000,Microsoft SQL Server Management Studio - Query
+67,160-232,16525,0,,\\YulyaFerra\Model\Poppyyaz\232s.jpeg,67,yulya,2024-10-22 17:16:09.697000,KGShop,dbo,2024-11-01 14:34:23.450000,Microsoft SQL Server Management Studio - Query
+68,160-232,16528,0,,\\YulyaFerra\Model\Poppyyaz\232v.jpeg,68,yulya,2024-10-22 17:16:09.697000,KGShop,dbo,2024-11-01 14:34:23.450000,Microsoft SQL Server Management Studio - Query
+69,160-232,16540,0,,\\YulyaFerra\Model\Poppyyaz\232l.jpeg,69,yulya,2024-10-22 17:16:09.700000,KGShop,dbo,2024-11-01 14:34:23.453000,Microsoft SQL Server Management Studio - Query
+70,160-232,16533,0,,\\YulyaFerra\Model\Poppyyaz\232y.jpeg,70,yulya,2024-10-22 17:16:09.700000,KGShop,dbo,2024-11-01 14:34:23.457000,Microsoft SQL Server Management Studio - Query
+71,160-202,16523,0,,\\YulyaFerra\Model\Poppyyaz\202b.jpeg,71,yulya,2024-10-22 17:18:55.830000,KGShop,dbo,2024-11-01 14:34:23.457000,Microsoft SQL Server Management Studio - Query
+72,160-202,16525,0,,\\YulyaFerra\Model\Poppyyaz\202s.jpeg,72,yulya,2024-10-22 17:18:55.830000,KGShop,dbo,2024-11-01 14:34:23.460000,Microsoft SQL Server Management Studio - Query
+73,160-202,16524,0,,\\YulyaFerra\Model\Poppyyaz\202bj.jpeg,73,yulya,2024-10-22 17:18:55.830000,KGShop,dbo,2024-11-01 14:34:23.460000,Microsoft SQL Server Management Studio - Query
+74,160-213,16523,0,,\\YulyaFerra\Model\Poppyyaz\213b.jpeg,74,yulya,2024-10-22 17:24:43.617000,KGShop,dbo,2024-11-01 14:34:23.463000,Microsoft SQL Server Management Studio - Query
+75,160-213,16525,0,,\\YulyaFerra\Model\Poppyyaz\213s.jpeg,75,yulya,2024-10-22 17:24:43.620000,KGShop,dbo,2024-11-01 14:34:23.467000,Microsoft SQL Server Management Studio - Query
+76,160-213,16538,0,,\\YulyaFerra\Model\Poppyyaz\213al.jpeg,76,yulya,2024-10-22 17:24:43.620000,KGShop,dbo,2024-11-01 14:34:23.470000,Microsoft SQL Server Management Studio - Query
+77,160-213,16529,0,,\\YulyaFerra\Model\Poppyyaz\213ç.jpeg,77,yulya,2024-10-22 17:24:43.620000,KGShop,dbo,2024-11-01 14:34:23.470000,Microsoft SQL Server Management Studio - Query
+78,160-213,16593,0,,\\YulyaFerra\Model\Poppyyaz\213s.jpeg,78,yulya,2024-10-22 17:24:43.620000,KGShop,dbo,2024-11-01 14:34:23.467000,Microsoft SQL Server Management Studio - Query
+79,160-213,16701,0,,\\YulyaFerra\Model\Poppyyaz\213g.jpeg,79,yulya,2024-10-22 17:24:43.620000,KGShop,dbo,2024-11-01 14:34:23.473000,Microsoft SQL Server Management Studio - Query
+80,160-233,16523,0,,\\YulyaFerra\Model\Poppyyaz\233b.jpeg,80,yulya,2024-10-22 17:29:36.903000,KGShop,dbo,2024-11-01 14:34:23.477000,Microsoft SQL Server Management Studio - Query
+81,160-233,16525,0,,\\YulyaFerra\Model\Poppyyaz\233s.jpeg,81,yulya,2024-10-22 17:29:36.907000,KGShop,dbo,2024-11-01 14:34:23.480000,Microsoft SQL Server Management Studio - Query
+82,160-233,16524,0,,\\YulyaFerra\Model\Poppyyaz\233bj.jpeg,82,yulya,2024-10-22 17:29:36.907000,KGShop,dbo,2024-11-01 14:34:23.480000,Microsoft SQL Server Management Studio - Query
+83,160-233,16528,0,,\\YulyaFerra\Model\Poppyyaz\233v.jpeg,83,yulya,2024-10-22 17:29:36.907000,KGShop,dbo,2024-11-01 14:34:23.483000,Microsoft SQL Server Management Studio - Query
+84,160-110,16523,0,,\\YulyaFerra\Model\Poppyyaz\110b.jpeg,84,yulya,2024-10-22 17:33:12.607000,KGShop,dbo,2024-11-01 14:34:23.483000,Microsoft SQL Server Management Studio - Query
+85,160-110,16525,0,,\\YulyaFerra\Model\Poppyyaz\110s.jpeg,85,yulya,2024-10-22 17:33:12.610000,KGShop,dbo,2024-11-01 14:34:23.487000,Microsoft SQL Server Management Studio - Query
+86,160-110,16524,0,,\\YulyaFerra\Model\Poppyyaz\110bj.jpeg,86,yulya,2024-10-22 17:33:12.610000,KGShop,dbo,2024-11-01 14:34:23.490000,Microsoft SQL Server Management Studio - Query
+87,160-110,16528,0,,\\YulyaFerra\Model\Poppyyaz\110v.jpeg,87,yulya,2024-10-22 17:33:12.610000,KGShop,dbo,2024-11-01 14:34:23.490000,Microsoft SQL Server Management Studio - Query
+88,160-1260,16523,0,,\\YulyaFerra\Model\Poppyyaz\1260b.jpeg,88,yulya,2024-10-22 17:43:01.207000,KGShop,dbo,2024-11-01 14:34:23.493000,Microsoft SQL Server Management Studio - Query
+89,160-1260,16525,0,,\\YulyaFerra\Model\Poppyyaz\1260s.jpeg,89,yulya,2024-10-22 17:43:01.207000,KGShop,dbo,2024-11-01 14:34:23.497000,Microsoft SQL Server Management Studio - Query
+90,160-1260,16524,0,,\\YulyaFerra\Model\Poppyyaz\1260bj.jpeg,90,yulya,2024-10-22 17:43:01.210000,KGShop,dbo,2024-11-01 14:34:23.497000,Microsoft SQL Server Management Studio - Query
+91,160-1260,16528,0,,\\YulyaFerra\Model\Poppyyaz\1260v.jpeg,91,yulya,2024-10-22 17:43:01.210000,KGShop,dbo,2024-11-01 14:34:23.500000,Microsoft SQL Server Management Studio - Query
+92,160-1260,16529,0,,\\YulyaFerra\Model\Poppyyaz\1260ç.jpeg,92,yulya,2024-10-22 17:43:01.210000,KGShop,dbo,2024-11-01 14:34:23.500000,Microsoft SQL Server Management Studio - Query
+93,160-1260,16538,0,,\\YulyaFerra\Model\Poppyyaz\1260al.jpeg,93,yulya,2024-10-22 17:43:01.210000,KGShop,dbo,2024-11-01 14:34:23.503000,Microsoft SQL Server Management Studio - Query
+94,160-1260,16701,0,,\\YulyaFerra\Model\Poppyyaz\1260g.jpeg,94,yulya,2024-10-22 17:43:01.210000,KGShop,dbo,2024-11-01 14:34:23.507000,Microsoft SQL Server Management Studio - Query
+95,160-218,17122,0,,\\YulyaFerra\Model\Poppyyaz\218bj.jpeg,95,yulya,2024-10-22 17:47:27.780000,KGShop,dbo,2024-11-01 14:34:23.510000,Microsoft SQL Server Management Studio - Query
+96,160-218,19346,0,,\\YulyaFerra\Model\Poppyyaz\218t.jpeg,96,yulya,2024-10-22 17:47:27.783000,KGShop,dbo,2024-11-01 14:34:23.510000,Microsoft SQL Server Management Studio - Query
+97,160-218,17390,0,,\\YulyaFerra\Model\Poppyyaz\218y.jpeg,97,yulya,2024-10-22 17:47:27.783000,KGShop,dbo,2024-11-01 14:34:23.513000,Microsoft SQL Server Management Studio - Query
+98,160-218,19178,0,,\\YulyaFerra\Model\Poppyyaz\218ts.jpeg,98,yulya,2024-10-22 17:47:27.783000,KGShop,dbo,2024-11-01 14:34:23.513000,Microsoft SQL Server Management Studio - Query
+99,160-218,18810,0,,\\YulyaFerra\Model\Poppyyaz\218s.jpeg,99,yulya,2024-10-22 17:49:54.290000,KGShop,dbo,2024-11-01 14:34:23.517000,Microsoft SQL Server Management Studio - Query
+100,160-218,17106,0,,\\YulyaFerra\Model\Poppyyaz\218b.jpeg,100,yulya,2024-10-22 17:49:54.290000,KGShop,dbo,2024-11-01 14:34:23.517000,Microsoft SQL Server Management Studio - Query
+101,160-302,16523,0,,\\YulyaFerra\Model\Poppyyaz\302b.jpeg,101,yulya,2024-10-22 17:54:19.020000,KGShop,dbo,2024-11-01 14:34:23.520000,Microsoft SQL Server Management Studio - Query
+102,160-302,16525,0,,\\YulyaFerra\Model\Poppyyaz\302s.jpeg,102,yulya,2024-10-22 17:54:19.023000,KGShop,dbo,2024-11-01 14:34:23.520000,Microsoft SQL Server Management Studio - Query
+103,160-302,16524,0,,\\YulyaFerra\Model\Poppyyaz\302bj.jpeg,103,yulya,2024-10-22 17:54:19.023000,KGShop,dbo,2024-11-01 14:34:23.523000,Microsoft SQL Server Management Studio - Query
+104,160-302,16521,0,,\\YulyaFerra\Model\Poppyyaz\302t.jpeg,104,yulya,2024-10-22 17:54:19.023000,KGShop,dbo,2024-11-01 14:34:23.527000,Microsoft SQL Server Management Studio - Query
+105,160-302,16593,0,,\\YulyaFerra\Model\Poppyyaz\302sr.jpeg,105,yulya,2024-10-22 17:54:19.023000,KGShop,dbo,2024-11-01 14:34:23.530000,Microsoft SQL Server Management Studio - Query
+106,160-103,16523,0,,\\YulyaFerra\Model\Poppyyaz\103b.jpeg,106,yulya,2024-10-22 17:58:04.207000,KGShop,dbo,2024-11-01 14:34:23.530000,Microsoft SQL Server Management Studio - Query
+107,160-103,16525,0,,\\YulyaFerra\Model\Poppyyaz\103s.jpeg,107,yulya,2024-10-22 17:58:04.207000,KGShop,dbo,2024-11-01 14:34:23.533000,Microsoft SQL Server Management Studio - Query
+108,160-103,16524,0,,\\YulyaFerra\Model\Poppyyaz\103bj.jpeg,108,yulya,2024-10-22 17:58:04.207000,KGShop,dbo,2024-11-01 14:34:23.533000,Microsoft SQL Server Management Studio - Query
+109,160-103,16528,0,,\\YulyaFerra\Model\Poppyyaz\103v.jpeg,109,yulya,2024-10-22 17:58:04.207000,KGShop,dbo,2024-11-01 14:34:23.537000,Microsoft SQL Server Management Studio - Query
+110,160-102,16523,0,,\\YulyaFerra\Model\Poppyyaz\102b.jpeg,110,yulya,2024-10-22 18:00:42.147000,KGShop,dbo,2024-11-01 14:34:23.540000,Microsoft SQL Server Management Studio - Query
+111,160-102,16525,0,,\\YulyaFerra\Model\Poppyyaz\102s.jpeg,111,yulya,2024-10-22 18:00:42.147000,KGShop,dbo,2024-11-01 14:34:23.540000,Microsoft SQL Server Management Studio - Query
+112,160-102,16524,0,,\\YulyaFerra\Model\Poppyyaz\102bj.jpeg,112,yulya,2024-10-22 18:00:42.147000,KGShop,dbo,2024-11-01 14:34:23.543000,Microsoft SQL Server Management Studio - Query
+113,160-102,16528,0,,\\YulyaFerra\Model\Poppyyaz\102v.jpeg,113,yulya,2024-10-22 18:00:42.147000,KGShop,dbo,2024-11-01 14:34:23.547000,Microsoft SQL Server Management Studio - Query
+114,160-219,17106,0,,\\YulyaFerra\Model\Poppyyaz\219b.jpeg,114,yulya,2024-10-22 18:05:04.410000,KGShop,dbo,2024-11-01 14:34:23.547000,Microsoft SQL Server Management Studio - Query
+115,160-219,17119,0,,\\YulyaFerra\Model\Poppyyaz\219v.jpeg,115,yulya,2024-10-22 18:05:04.410000,KGShop,dbo,2024-11-01 14:34:23.550000,Microsoft SQL Server Management Studio - Query
+116,160-219,17105,0,,\\YulyaFerra\Model\Poppyyaz\219s.jpeg,116,yulya,2024-10-22 18:05:04.410000,KGShop,dbo,2024-11-01 14:34:23.550000,Microsoft SQL Server Management Studio - Query
+117,160-226,16523,0,,\\YulyaFerra\Model\Poppyyaz\226B.jpeg,117,yulya,2024-10-22 18:33:55.610000,KGShop,dbo,2024-11-01 14:34:23.553000,Microsoft SQL Server Management Studio - Query
+118,160-226,16525,0,,\\YulyaFerra\Model\Poppyyaz\226S.jpeg,118,yulya,2024-10-22 18:33:55.610000,KGShop,dbo,2024-11-01 14:34:23.557000,Microsoft SQL Server Management Studio - Query
+119,160-226,16524,0,,\\YulyaFerra\Model\Poppyyaz\226BJ.jpeg,119,yulya,2024-10-22 18:33:55.613000,KGShop,dbo,2024-11-01 14:34:23.557000,Microsoft SQL Server Management Studio - Query
+120,160-226,16701,0,,\\YulyaFerra\Model\Poppyyaz\226G.jpeg,120,yulya,2024-10-22 18:33:55.613000,KGShop,dbo,2024-11-01 14:34:23.560000,Microsoft SQL Server Management Studio - Query
+121,160-226,16538,0,,\\YulyaFerra\Model\Poppyyaz\226AL.jpeg,121,yulya,2024-10-22 18:33:55.613000,KGShop,dbo,2024-11-01 14:34:23.560000,Microsoft SQL Server Management Studio - Query
+122,160-226,16529,0,,\\YulyaFerra\Model\Poppyyaz\226Ç.jpeg,122,yulya,2024-10-22 18:33:55.617000,KGShop,dbo,2024-11-01 14:34:23.563000,Microsoft SQL Server Management Studio - Query
+123,160-400,16523,0,,\\YulyaFerra\Model\Poppyyaz\400b.jpeg,123,yulya,2024-10-22 18:38:56.870000,KGShop,dbo,2024-11-01 14:34:23.567000,Microsoft SQL Server Management Studio - Query
+124,160-400,16525,0,,\\YulyaFerra\Model\Poppyyaz\400s.jpeg,124,yulya,2024-10-22 18:38:56.873000,KGShop,dbo,2024-11-01 14:34:23.570000,Microsoft SQL Server Management Studio - Query
+125,160-400,16524,0,,\\YulyaFerra\Model\Poppyyaz\400bj.jpeg,125,yulya,2024-10-22 18:38:56.873000,KGShop,dbo,2024-11-01 14:34:23.570000,Microsoft SQL Server Management Studio - Query
+126,160-400,16530,0,,\\YulyaFerra\Model\Poppyyaz\400l.jpeg,126,yulya,2024-10-22 18:38:56.873000,KGShop,dbo,2024-11-01 14:34:23.573000,Microsoft SQL Server Management Studio - Query
+127,160-400,16535,0,,\\YulyaFerra\Model\Poppyyaz\400y.jpeg,127,yulya,2024-10-22 18:38:56.873000,KGShop,dbo,2024-11-01 14:34:23.573000,Microsoft SQL Server Management Studio - Query
+128,160-208,17106,0,,\\YulyaFerra\Model\Poppyyaz\208b.jpeg,128,yulya,2024-10-22 18:42:40.813000,KGShop,dbo,2024-11-01 14:34:23.577000,Microsoft SQL Server Management Studio - Query
+129,160-208,17105,0,,\\YulyaFerra\Model\Poppyyaz\208ss.jpeg,129,yulya,2024-10-22 18:42:40.813000,KGShop,dbo,2024-11-01 14:34:23.580000,Microsoft SQL Server Management Studio - Query
+130,160-208,18810,0,,\\YulyaFerra\Model\Poppyyaz\208s.jpeg,130,yulya,2024-10-22 18:42:40.813000,KGShop,dbo,2024-11-01 14:34:23.580000,Microsoft SQL Server Management Studio - Query
+131,160-208,17263,0,,\\YulyaFerra\Model\Poppyyaz\208bj.jpeg,131,yulya,2024-10-22 18:42:40.813000,KGShop,dbo,2024-11-01 14:34:23.583000,Microsoft SQL Server Management Studio - Query
+132,160-208,19178,0,,\\YulyaFerra\Model\Poppyyaz\208t.jpeg,132,yulya,2024-10-22 18:42:40.813000,KGShop,dbo,2024-11-01 14:34:23.587000,Microsoft SQL Server Management Studio - Query
+133,160-115,16538,0,,\\YulyaFerra\Model\Poppyyaz\115al.jpeg,133,yulya,2024-10-22 18:44:17.747000,KGShop,dbo,2024-11-01 14:34:23.587000,Microsoft SQL Server Management Studio - Query
+134,160-401,16525,0,,\\YulyaFerra\Model\Poppyyaz\401s.jpeg,134,yulya,2024-10-22 18:48:07.367000,KGShop,dbo,2024-11-01 14:34:23.590000,Microsoft SQL Server Management Studio - Query
+135,160-401,16524,0,,\\YulyaFerra\Model\Poppyyaz\401bj.jpeg,135,yulya,2024-10-22 18:48:07.370000,KGShop,dbo,2024-11-01 14:34:23.590000,Microsoft SQL Server Management Studio - Query
+136,160-401,16528,0,,\\YulyaFerra\Model\Poppyyaz\401v.jpeg,136,yulya,2024-10-22 18:48:07.370000,KGShop,dbo,2024-11-01 14:34:23.593000,Microsoft SQL Server Management Studio - Query
+137,160-401,16529,0,,\\YulyaFerra\Model\Poppyyaz\401ç.jpeg,137,yulya,2024-10-22 18:51:19.530000,KGShop,dbo,2024-11-01 14:34:23.597000,Microsoft SQL Server Management Studio - Query
+138,160-401,16523,0,,\\YulyaFerra\Model\Poppyyaz\401b.jpeg,138,yulya,2024-10-22 18:51:56.283000,KGShop,dbo,2024-11-01 14:34:23.600000,Microsoft SQL Server Management Studio - Query
+139,160-101,16524,0,,\\YulyaFerra\Model\Poppyyaz\101bj.jpeg,139,yulya,2024-10-22 18:53:49.190000,KGShop,dbo,2024-11-01 14:34:23.600000,Microsoft SQL Server Management Studio - Query
+140,160-101,16525,0,,\\YulyaFerra\Model\Poppyyaz\101s.jpeg,140,yulya,2024-10-22 18:53:49.190000,KGShop,dbo,2024-11-01 14:34:23.603000,Microsoft SQL Server Management Studio - Query
+141,160-101,16528,0,,\\YulyaFerra\Model\Poppyyaz\101v.jpeg,141,yulya,2024-10-22 18:53:49.193000,KGShop,dbo,2024-11-01 14:34:23.603000,Microsoft SQL Server Management Studio - Query
+142,160-114,16524,0,,\\YulyaFerra\Model\Poppyyaz\114bj.jpeg,142,yulya,2024-10-22 18:56:37.100000,KGShop,dbo,2024-11-01 14:34:23.607000,Microsoft SQL Server Management Studio - Query
+143,160-114,16525,0,,\\YulyaFerra\Model\Poppyyaz\114s.jpeg,143,yulya,2024-10-22 18:56:37.100000,KGShop,dbo,2024-11-01 14:34:23.610000,Microsoft SQL Server Management Studio - Query
+144,160-114,16531,0,,\\YulyaFerra\Model\Poppyyaz\114t.jpeg,144,yulya,2024-10-22 18:56:37.100000,KGShop,dbo,2024-11-01 14:34:23.610000,Microsoft SQL Server Management Studio - Query
+145,160-116,16523,0,,\\YulyaFerra\Model\Poppyyaz\116b.jpeg,145,yulya,2024-10-22 19:01:20.077000,KGShop,dbo,2024-11-01 14:34:23.613000,Microsoft SQL Server Management Studio - Query
+146,160-116,16525,0,,\\YulyaFerra\Model\Poppyyaz\116s.jpeg,146,yulya,2024-10-22 19:01:20.077000,KGShop,dbo,2024-11-01 14:34:23.617000,Microsoft SQL Server Management Studio - Query
+147,160-116,16524,0,,\\YulyaFerra\Model\Poppyyaz\116b j.jpeg,147,yulya,2024-10-22 19:01:20.080000,KGShop,dbo,2024-11-01 14:34:23.617000,Microsoft SQL Server Management Studio - Query
+148,160-116,16535,0,,\\YulyaFerra\Model\Poppyyaz\116y.jpeg,148,yulya,2024-10-22 19:01:20.080000,KGShop,dbo,2024-11-01 14:34:23.620000,Microsoft SQL Server Management Studio - Query
+149,160-116,16538,0,,\\YulyaFerra\Model\Poppyyaz\116al.jpeg,149,yulya,2024-10-22 19:01:20.080000,KGShop,dbo,2024-11-01 14:34:23.620000,Microsoft SQL Server Management Studio - Query
+150,160-217,16549,0,,\\YulyaFerra\Model\Poppyyaz\217bj.jpeg,150,yulya,2024-10-22 19:05:05.890000,KGShop,dbo,2024-11-01 14:34:23.623000,Microsoft SQL Server Management Studio - Query
+151,160-217,16700,0,,\\YulyaFerra\Model\Poppyyaz\21736.jpeg,151,yulya,2024-10-22 19:05:05.890000,KGShop,dbo,2024-11-01 14:34:23.627000,Microsoft SQL Server Management Studio - Query
+152,160-217,16699,0,,\\YulyaFerra\Model\Poppyyaz\217y.jpeg,152,yulya,2024-10-22 19:05:05.890000,KGShop,dbo,2024-11-01 14:34:23.630000,Microsoft SQL Server Management Studio - Query
+153,160-217,16819,0,,\\YulyaFerra\Model\Poppyyaz\217al.jpeg,153,yulya,2024-10-22 19:05:05.890000,KGShop,dbo,2024-11-01 14:34:23.630000,Microsoft SQL Server Management Studio - Query
+154,160-217,16702,0,,\\YulyaFerra\Model\Poppyyaz\217t.jpeg,154,yulya,2024-10-22 19:05:05.890000,KGShop,dbo,2024-11-01 14:34:23.633000,Microsoft SQL Server Management Studio - Query
+155,160-402,16543,0,,\\YulyaFerra\Model\Poppyyaz\402bj.jpeg,155,yulya,2024-10-22 19:09:27.033000,KGShop,dbo,2024-11-01 14:34:23.637000,Microsoft SQL Server Management Studio - Query
+158,160-402,17190,0,,\\YulyaFerra\Model\Poppyyaz\402y.jpeg,158,yulya,2024-10-22 19:09:27.037000,KGShop,dbo,2024-11-01 14:34:23.637000,Microsoft SQL Server Management Studio - Query
+159,160-402,18591,0,,\\YulyaFerra\Model\Poppyyaz\402m.jpeg,159,yulya,2024-10-22 19:09:27.037000,KGShop,dbo,2024-11-01 14:34:23.640000,Microsoft SQL Server Management Studio - Query
+160,160-402,17390,0,,\\YulyaFerra\Model\Poppyyaz\402v.jpeg,160,yulya,2024-10-22 19:09:27.037000,KGShop,dbo,2024-11-01 14:34:23.643000,Microsoft SQL Server Management Studio - Query
+161,160-402,16544,0,,\\YulyaFerra\Model\Poppyyaz\402s.jpeg,161,yulya,2024-10-22 19:09:27.037000,KGShop,dbo,2024-11-01 14:34:23.643000,Microsoft SQL Server Management Studio - Query
+1162,004-2455,19250,0,,\\YulyaFerra\Model\Desen\2455G.jpeg,1162,yulya,2024-10-23 11:29:18.417000,KGShop,dbo,2024-11-01 14:34:23.647000,Microsoft SQL Server Management Studio - Query
+1163,004-2455,19249,0,,\\YulyaFerra\Model\Desen\2455AL.jpeg,1163,yulya,2024-10-23 11:29:18.420000,KGShop,dbo,2024-11-01 14:34:23.650000,Microsoft SQL Server Management Studio - Query
+1164,004-2459,16603,0,,\\YulyaFerra\Model\Desen\2459S.jpeg,1164,yulya,2024-10-23 11:33:50.163000,KGShop,dbo,2024-11-01 14:34:23.650000,Microsoft SQL Server Management Studio - Query
+1165,004-2459,16909,0,,\\YulyaFerra\Model\Desen\2459K.jpeg,1165,yulya,2024-10-23 11:33:50.163000,KGShop,dbo,2024-11-01 14:34:23.653000,Microsoft SQL Server Management Studio - Query
+1166,004-2449,16784,0,,\\YulyaFerra\Model\Desen\2449.jpeg,1166,yulya,2024-10-23 11:37:22.477000,KGShop,dbo,2024-11-01 14:34:23.657000,Microsoft SQL Server Management Studio - Query
+1167,004-2449,19249,0,,\\YulyaFerra\Model\Desen\2449AL.jpeg,1167,yulya,2024-10-23 11:37:22.477000,KGShop,dbo,2024-11-01 14:34:23.657000,Microsoft SQL Server Management Studio - Query
+1168,160-402,16542,0,,\\YulyaFerra\Model\Poppyyaz\402t.jpeg,1168,yulya,2024-10-23 11:47:03.757000,KGShop,dbo,2024-11-01 14:34:23.660000,Microsoft SQL Server Management Studio - Query
+1169,160-402,17104,0,,\\YulyaFerra\Model\Poppyyaz\402f.jpeg,1169,yulya,2024-10-23 11:47:03.760000,KGShop,dbo,2024-11-01 14:34:23.660000,Microsoft SQL Server Management Studio - Query
+1170,160-211,16523,0,,\\YulyaFerra\Model\Poppyyaz\211B.jpeg,1170,yulya,2024-10-23 11:59:59.413000,KGShop,dbo,2024-11-01 14:34:23.663000,Microsoft SQL Server Management Studio - Query
+1171,160-211,16525,0,,\\YulyaFerra\Model\Poppyyaz\211S.jpeg,1171,yulya,2024-10-23 11:59:59.413000,KGShop,dbo,2024-11-01 14:34:23.663000,Microsoft SQL Server Management Studio - Query
+1172,160-211,16524,0,,\\YulyaFerra\Model\Poppyyaz\211BJ.jpeg,1172,yulya,2024-10-23 11:59:59.417000,KGShop,dbo,2024-11-01 14:34:23.667000,Microsoft SQL Server Management Studio - Query
+1173,160-211,16528,0,,\\YulyaFerra\Model\Poppyyaz\211V.jpeg,1173,yulya,2024-10-23 11:59:59.417000,KGShop,dbo,2024-11-01 14:34:23.670000,Microsoft SQL Server Management Studio - Query
+1174,160-211,16535,0,,\\YulyaFerra\Model\Poppyyaz\211Y.jpeg,1174,yulya,2024-10-23 11:59:59.417000,KGShop,dbo,2024-11-01 14:34:23.670000,Microsoft SQL Server Management Studio - Query
+1175,004-2457,16599,0,,\\YulyaFerra\Model\Desen\2457B.jpeg,1175,yulya,2024-10-23 12:17:41.400000,KGShop,dbo,2024-11-01 14:34:23.673000,Microsoft SQL Server Management Studio - Query
+1176,004-2457,18020,0,,\\YulyaFerra\Model\Desen\2457K.jpeg,1176,yulya,2024-10-23 12:17:41.400000,KGShop,dbo,2024-11-01 14:34:23.673000,Microsoft SQL Server Management Studio - Query
+1177,004-2457,18099,0,,\\YulyaFerra\Model\Desen\2457P.jpeg,1177,yulya,2024-10-23 12:17:41.403000,KGShop,dbo,2024-11-01 14:34:23.677000,Microsoft SQL Server Management Studio - Query
+1178,004-2457,16603,0,,\\YulyaFerra\Model\Desen\2457S.jpeg,1178,yulya,2024-10-23 12:17:41.403000,KGShop,dbo,2024-11-01 14:34:23.677000,Microsoft SQL Server Management Studio - Query
+1179,004-2457,18628,0,,\\YulyaFerra\Model\Desen\2457T.jpeg,1179,yulya,2024-10-23 12:17:41.403000,KGShop,dbo,2024-11-01 14:34:23.680000,Microsoft SQL Server Management Studio - Query
+1180,004-2456,19254,0,,\\YulyaFerra\Model\Desen\2456G.jpeg,1180,yulya,2024-10-23 12:21:26.490000,KGShop,dbo,2024-11-01 14:34:23.680000,Microsoft SQL Server Management Studio - Query
+1181,004-2456,19347,0,,\\YulyaFerra\Model\Desen\2456AL.jpeg,1181,yulya,2024-10-23 12:21:26.490000,KGShop,dbo,2024-11-01 14:34:23.683000,Microsoft SQL Server Management Studio - Query
+1182,004-2444,16599,0,,\\YulyaFerra\Model\Desen\2444B.jpeg,1182,yulya,2024-10-23 12:23:28.150000,KGShop,dbo,2024-11-01 14:34:23.683000,Microsoft SQL Server Management Studio - Query
+1183,004-2458,16600,0,,\\YulyaFerra\Model\Desen\2458BJ.jpeg,1183,yulya,2024-10-23 12:27:40.653000,KGShop,dbo,2024-11-01 14:34:23.687000,Microsoft SQL Server Management Studio - Query
+1184,004-2458,16603,0,,\\YulyaFerra\Model\Desen\2458S.jpeg,1184,yulya,2024-10-23 12:27:40.653000,KGShop,dbo,2024-11-01 14:34:23.690000,Microsoft SQL Server Management Studio - Query
+1185,004-2458,19348,0,,\\YulyaFerra\Model\Desen\2458Y.jpeg,1185,yulya,2024-10-23 12:27:40.653000,KGShop,dbo,2024-11-01 14:34:23.690000,Microsoft SQL Server Management Studio - Query
+1186,004-2450,16599,0,,\\YulyaFerra\Model\Desen\2450B.jpeg,1186,yulya,2024-10-23 12:29:23.170000,KGShop,dbo,2024-11-01 14:34:23.693000,Microsoft SQL Server Management Studio - Query
+1187,004-2454,16599,0,,\\YulyaFerra\Model\Desen\2454B.jpeg,1187,yulya,2024-10-23 12:32:18.933000,KGShop,dbo,2024-11-01 14:34:23.693000,Microsoft SQL Server Management Studio - Query
+1188,004-2454,16601,0,,\\YulyaFerra\Model\Desen\2454V.jpeg,1188,yulya,2024-10-23 12:32:18.933000,KGShop,dbo,2024-11-01 14:34:23.697000,Microsoft SQL Server Management Studio - Query
+1189,004-2450,16777,0,,\\YulyaFerra\Model\Desen\2450S.jpeg,1189,yulya,2024-10-23 12:33:38.650000,KGShop,dbo,2024-11-01 14:34:23.700000,Microsoft SQL Server Management Studio - Query
+1190,190-24628,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24628B.jpeg,1190,yulya,2024-10-23 13:47:55.710000,KGShop,dbo,2024-11-01 14:34:23.700000,Microsoft SQL Server Management Studio - Query
+1191,190-24628,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24628S.jpeg,1191,yulya,2024-10-23 13:47:55.713000,KGShop,dbo,2024-11-01 14:34:23.700000,Microsoft SQL Server Management Studio - Query
+1192,190-24628,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24628BJ.jpeg,1192,yulya,2024-10-23 13:47:55.717000,KGShop,dbo,2024-11-01 14:34:23.703000,Microsoft SQL Server Management Studio - Query
+1193,190-24638,19349,0,,\\YulyaFerra\Model\LABUR EMEK\24638BJ.jpeg,1193,yulya,2024-10-23 13:50:01.203000,KGShop,dbo,2024-11-01 14:34:23.707000,Microsoft SQL Server Management Studio - Query
+1194,190-24618,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24618B.jpeg,1194,yulya,2024-10-23 13:53:32.327000,KGShop,dbo,2024-11-01 14:34:23.710000,Microsoft SQL Server Management Studio - Query
+1195,190-24618,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24618S.jpeg,1195,yulya,2024-10-23 13:53:32.327000,KGShop,dbo,2024-11-01 14:34:23.710000,Microsoft SQL Server Management Studio - Query
+1196,190-24618,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24618BJ.jpeg,1196,yulya,2024-10-23 13:53:32.327000,KGShop,dbo,2024-11-01 14:34:23.710000,Microsoft SQL Server Management Studio - Query
+1197,190-24627,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24627B.jpeg,1197,yulya,2024-10-23 14:00:15.710000,KGShop,dbo,2024-11-01 14:34:23.713000,Microsoft SQL Server Management Studio - Query
+1198,190-24627,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24627S.jpeg,1198,yulya,2024-10-23 14:00:15.713000,KGShop,dbo,2024-11-01 14:34:23.717000,Microsoft SQL Server Management Studio - Query
+1199,190-24627,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24627BJ.jpeg,1199,yulya,2024-10-23 14:00:15.713000,KGShop,dbo,2024-11-01 14:34:23.720000,Microsoft SQL Server Management Studio - Query
+1200,190-24620,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24620B.jpeg,1200,yulya,2024-10-23 14:02:42.430000,KGShop,dbo,2024-11-01 14:34:23.720000,Microsoft SQL Server Management Studio - Query
+1201,190-24620,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24620S.jpeg,1201,yulya,2024-10-23 14:02:42.430000,KGShop,dbo,2024-11-01 14:34:23.723000,Microsoft SQL Server Management Studio - Query
+1202,190-24620,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24620BJ.jpeg,1202,yulya,2024-10-23 14:02:42.430000,KGShop,dbo,2024-11-01 14:34:23.727000,Microsoft SQL Server Management Studio - Query
+1203,190-24617,19350,0,,\\YulyaFerra\Model\LABUR EMEK\24617BJ.jpeg,1203,yulya,2024-10-23 14:06:44.353000,KGShop,dbo,2024-11-01 14:34:23.730000,Microsoft SQL Server Management Studio - Query
+1204,190-24617,19351,0,,\\YulyaFerra\Model\LABUR EMEK\24617S.jpeg,1204,yulya,2024-10-23 14:06:44.353000,KGShop,dbo,2024-11-01 14:34:23.730000,Microsoft SQL Server Management Studio - Query
+1205,190-24617,19352,0,,\\YulyaFerra\Model\LABUR EMEK\24617L.jpeg,1205,yulya,2024-10-23 14:06:44.353000,KGShop,dbo,2024-11-01 14:34:23.733000,Microsoft SQL Server Management Studio - Query
+1206,190-24633,19351,0,,\\YulyaFerra\Model\LABUR EMEK\24633B.jpeg,1206,yulya,2024-10-23 14:10:55.013000,KGShop,dbo,2024-11-01 14:34:23.733000,Microsoft SQL Server Management Studio - Query
+1207,190-24633,19353,0,,\\YulyaFerra\Model\LABUR EMEK\24633S.jpeg,1207,yulya,2024-10-23 14:10:55.013000,KGShop,dbo,2024-11-01 14:34:23.737000,Microsoft SQL Server Management Studio - Query
+1208,190-24633,19354,0,,\\YulyaFerra\Model\LABUR EMEK\24633BJ.jpeg,1208,yulya,2024-10-23 14:10:55.013000,KGShop,dbo,2024-11-01 14:34:23.740000,Microsoft SQL Server Management Studio - Query
+1209,190-24630,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24630B.jpeg,1209,yulya,2024-10-23 14:41:42.877000,KGShop,dbo,2024-11-01 14:34:23.740000,Microsoft SQL Server Management Studio - Query
+1210,190-24630,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24630S.jpeg,1210,yulya,2024-10-23 14:41:42.880000,KGShop,dbo,2024-11-01 14:34:23.743000,Microsoft SQL Server Management Studio - Query
+1211,190-24630,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24630BJ.jpeg,1211,yulya,2024-10-23 14:41:42.880000,KGShop,dbo,2024-11-01 14:34:23.743000,Microsoft SQL Server Management Studio - Query
+1212,190-24630,17203,0,,\\YulyaFerra\Model\LABUR EMEK\24630Y.jpeg,1212,yulya,2024-10-23 14:41:42.880000,KGShop,dbo,2024-11-01 14:34:23.747000,Microsoft SQL Server Management Studio - Query
+1213,190-24629,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24629B.jpeg,1213,yulya,2024-10-23 14:44:23.767000,KGShop,dbo,2024-11-01 14:34:23.750000,Microsoft SQL Server Management Studio - Query
+1214,190-24629,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24629S.jpeg,1214,yulya,2024-10-23 14:44:23.767000,KGShop,dbo,2024-11-01 14:34:23.750000,Microsoft SQL Server Management Studio - Query
+1215,190-24629,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24629BJ.jpeg,1215,yulya,2024-10-23 14:44:23.770000,KGShop,dbo,2024-11-01 14:34:23.753000,Microsoft SQL Server Management Studio - Query
+1216,190-24610,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24610B.jpeg,1216,yulya,2024-10-23 14:48:29.827000,KGShop,dbo,2024-11-01 14:34:23.757000,Microsoft SQL Server Management Studio - Query
+1217,190-24610,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24610S.jpeg,1217,yulya,2024-10-23 14:48:29.827000,KGShop,dbo,2024-11-01 14:34:23.757000,Microsoft SQL Server Management Studio - Query
+1218,190-24610,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24610BJ.jpeg,1218,yulya,2024-10-23 14:48:29.827000,KGShop,dbo,2024-11-01 14:34:23.760000,Microsoft SQL Server Management Studio - Query
+1219,190-24632,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24632S.jpeg,1219,yulya,2024-10-23 14:58:32.330000,KGShop,dbo,2024-11-01 14:34:23.763000,Microsoft SQL Server Management Studio - Query
+1220,190-24632,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24632B.jpeg,1220,yulya,2024-10-23 14:58:32.330000,KGShop,dbo,2024-11-01 14:34:23.763000,Microsoft SQL Server Management Studio - Query
+1221,190-24632,19355,0,,\\YulyaFerra\Model\LABUR EMEK\24632K.jpeg,1221,yulya,2024-10-23 14:58:32.330000,KGShop,dbo,2024-11-01 14:34:23.767000,Microsoft SQL Server Management Studio - Query
+1222,190-24632,17198,0,,\\YulyaFerra\Model\LABUR EMEK\24632M.jpeg,1222,yulya,2024-10-23 14:59:06.603000,KGShop,dbo,2024-11-01 14:34:23.770000,Microsoft SQL Server Management Studio - Query
+1223,190-24632,19356,0,,\\YulyaFerra\Model\LABUR EMEK\24632G.jpeg,1223,yulya,2024-10-23 14:59:06.607000,KGShop,dbo,2024-11-01 14:34:23.770000,Microsoft SQL Server Management Studio - Query
+1224,190-24636,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24636BJ.jpeg,1224,yulya,2024-10-23 15:03:42.503000,KGShop,dbo,2024-11-01 14:34:23.773000,Microsoft SQL Server Management Studio - Query
+1225,190-24636,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24636S.jpeg,1225,yulya,2024-10-23 15:03:42.503000,KGShop,dbo,2024-11-01 14:34:23.773000,Microsoft SQL Server Management Studio - Query
+1226,190-24635,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24635B.jpeg,1226,yulya,2024-10-23 15:06:56.827000,KGShop,dbo,2024-11-01 14:34:23.777000,Microsoft SQL Server Management Studio - Query
+1227,190-24635,19356,0,,\\YulyaFerra\Model\LABUR EMEK\24635G.jpeg,1227,yulya,2024-10-23 15:06:56.827000,KGShop,dbo,2024-11-01 14:34:23.777000,Microsoft SQL Server Management Studio - Query
+1228,190-24635,17198,0,,\\YulyaFerra\Model\LABUR EMEK\24635M.jpeg,1228,yulya,2024-10-23 15:06:56.827000,KGShop,dbo,2024-11-01 14:34:23.780000,Microsoft SQL Server Management Studio - Query
+1229,190-24637,17204,0,,\\YulyaFerra\Model\LABUR EMEK\24637BJ.jpeg,1229,yulya,2024-10-23 15:09:29.833000,KGShop,dbo,2024-11-01 14:34:23.780000,Microsoft SQL Server Management Studio - Query
+1230,190-24637,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24637S.jpeg,1230,yulya,2024-10-23 15:09:29.833000,KGShop,dbo,2024-11-01 14:34:23.783000,Microsoft SQL Server Management Studio - Query
+1231,190-24615,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24615B.jpeg,1231,yulya,2024-10-23 15:13:26.227000,KGShop,dbo,2024-11-01 14:34:23.787000,Microsoft SQL Server Management Studio - Query
+1232,190-24615,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24615S.jpeg,1232,yulya,2024-10-23 15:13:26.227000,KGShop,dbo,2024-11-01 14:34:23.790000,Microsoft SQL Server Management Studio - Query
+1233,190-24615,18130,0,,\\YulyaFerra\Model\LABUR EMEK\24615V.jpeg,1233,yulya,2024-10-23 15:13:26.227000,KGShop,dbo,2024-11-01 14:34:23.790000,Microsoft SQL Server Management Studio - Query
+1234,190-24615,17200,0,,\\YulyaFerra\Model\LABUR EMEK\24615AL.jpeg,1234,yulya,2024-10-23 15:13:26.227000,KGShop,dbo,2024-11-01 14:34:23.793000,Microsoft SQL Server Management Studio - Query
+1235,190-24609,17199,0,,\\YulyaFerra\Model\LABUR EMEK\24609B.jpeg,1235,yulya,2024-10-23 15:15:48.920000,KGShop,dbo,2024-11-01 14:34:23.797000,Microsoft SQL Server Management Studio - Query
+1236,190-24609,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24609S.jpeg,1236,yulya,2024-10-23 15:15:48.920000,KGShop,dbo,2024-11-01 14:34:23.797000,Microsoft SQL Server Management Studio - Query
+1237,190-24609,19357,0,,\\YulyaFerra\Model\LABUR EMEK\24609L.jpeg,1237,yulya,2024-10-23 15:15:48.920000,KGShop,dbo,2024-11-01 14:34:23.800000,Microsoft SQL Server Management Studio - Query
+1238,190-24613,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24613S.jpeg,1238,yulya,2024-10-23 15:18:48.697000,KGShop,dbo,2024-11-01 14:34:23.800000,Microsoft SQL Server Management Studio - Query
+1239,190-24613,17208,0,,\\YulyaFerra\Model\LABUR EMEK\24613M.jpeg,1239,yulya,2024-10-23 15:18:48.697000,KGShop,dbo,2024-11-01 14:34:23.803000,Microsoft SQL Server Management Studio - Query
+1240,190-24613,17200,0,,\\YulyaFerra\Model\LABUR EMEK\24613AL.jpeg,1240,yulya,2024-10-23 15:18:48.697000,KGShop,dbo,2024-11-01 14:34:23.807000,Microsoft SQL Server Management Studio - Query
+1241,190-24614,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24614S.jpeg,1241,yulya,2024-10-23 15:22:50.520000,KGShop,dbo,2024-11-01 14:34:23.807000,Microsoft SQL Server Management Studio - Query
+1242,190-24614,19072,0,,\\YulyaFerra\Model\LABUR EMEK\24614V.jpeg,1242,yulya,2024-10-23 15:22:50.520000,KGShop,dbo,2024-11-01 14:34:23.810000,Microsoft SQL Server Management Studio - Query
+1243,190-24614,19066,0,,\\YulyaFerra\Model\LABUR EMEK\24614SS.jpeg,1243,yulya,2024-10-23 15:22:50.520000,KGShop,dbo,2024-11-01 14:34:23.813000,Microsoft SQL Server Management Studio - Query
+1244,190-24614,18125,0,,\\YulyaFerra\Model\LABUR EMEK\24614BJ.jpeg,1244,yulya,2024-10-23 15:22:50.520000,KGShop,dbo,2024-11-01 14:34:23.813000,Microsoft SQL Server Management Studio - Query
+1245,190-24634,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24634S.jpeg,1245,yulya,2024-10-23 15:29:26.003000,KGShop,dbo,2024-11-01 14:34:23.817000,Microsoft SQL Server Management Studio - Query
+1246,190-24634,17208,0,,\\YulyaFerra\Model\LABUR EMEK\24634C.jpeg,1246,yulya,2024-10-23 15:29:26.003000,KGShop,dbo,2024-11-01 14:34:23.820000,Microsoft SQL Server Management Studio - Query
+1247,190-24634,19355,0,,\\YulyaFerra\Model\LABUR EMEK\24634K.jpeg,1247,yulya,2024-10-23 15:29:26.003000,KGShop,dbo,2024-11-01 14:34:23.820000,Microsoft SQL Server Management Studio - Query
+1248,190-24631,17196,0,,\\YulyaFerra\Model\LABUR EMEK\24631S.jpeg,1248,yulya,2024-10-23 15:32:49.277000,KGShop,dbo,2024-11-01 14:34:23.823000,Microsoft SQL Server Management Studio - Query
+1249,190-24631,17198,0,,\\YulyaFerra\Model\LABUR EMEK\24631M.jpeg,1249,yulya,2024-10-23 15:32:49.277000,KGShop,dbo,2024-11-01 14:34:23.827000,Microsoft SQL Server Management Studio - Query
+1250,190-24631,17200,0,,\\YulyaFerra\Model\LABUR EMEK\24631AL.jpeg,1250,yulya,2024-10-23 15:32:49.277000,KGShop,dbo,2024-11-01 14:34:23.830000,Microsoft SQL Server Management Studio - Query
+1251,190-24631,19355,0,,\\YulyaFerra\Model\LABUR EMEK\24631K.jpeg,1251,yulya,2024-10-23 15:32:49.277000,KGShop,dbo,2024-11-01 14:34:23.830000,Microsoft SQL Server Management Studio - Query
+1252,190-24631,19356,0,,\\YulyaFerra\Model\LABUR EMEK\24631G.jpeg,1252,yulya,2024-10-23 15:32:49.277000,KGShop,dbo,2024-11-01 14:34:23.833000,Microsoft SQL Server Management Studio - Query
+1253,261-TAS10,19358,0,,\\YulyaFerra\Model\Pietka\10S.jpeg,1253,yulya,2024-10-23 17:22:24.237000,KGShop,dbo,2024-11-01 14:34:23.837000,Microsoft SQL Server Management Studio - Query
+1254,261-TAS10,19359,0,,\\YulyaFerra\Model\Pietka\10M.jpeg,1254,yulya,2024-10-23 17:22:24.237000,KGShop,dbo,2024-11-01 14:34:23.837000,Microsoft SQL Server Management Studio - Query
+1255,261-TAS14,19360,0,,\\YulyaFerra\Model\Pietka\14S.jpeg,1255,yulya,2024-10-23 17:25:00.623000,KGShop,dbo,2024-11-01 14:34:23.840000,Microsoft SQL Server Management Studio - Query
+1256,261-TAS14,19361,0,,\\YulyaFerra\Model\Pietka\14T.jpeg,1256,yulya,2024-10-23 17:25:00.623000,KGShop,dbo,2024-11-01 14:34:23.840000,Microsoft SQL Server Management Studio - Query
+1257,261-TAS-9,19358,0,,\\YulyaFerra\Model\Pietka\9S.jpeg,1257,yulya,2024-10-23 17:30:24.743000,KGShop,dbo,2024-11-01 14:34:23.843000,Microsoft SQL Server Management Studio - Query
+1258,261-TAS-9,19362,0,,\\YulyaFerra\Model\Pietka\9V.jpeg,1258,yulya,2024-10-23 17:30:24.743000,KGShop,dbo,2024-11-01 14:34:23.847000,Microsoft SQL Server Management Studio - Query
+1259,261-TAS-73,19360,0,,\\YulyaFerra\Model\Pietka\73S.jpeg,1259,yulya,2024-10-23 17:31:44.647000,KGShop,dbo,2024-11-01 14:34:23.850000,Microsoft SQL Server Management Studio - Query
+1260,261-TAS-37,19363,0,,\\YulyaFerra\Model\Pietka\37B.jpeg,1260,yulya,2024-10-23 17:34:10.393000,KGShop,dbo,2024-11-01 14:34:23.850000,Microsoft SQL Server Management Studio - Query
+1261,261-TAS-37,19361,0,,\\YulyaFerra\Model\Pietka\37T.jpeg,1261,yulya,2024-10-23 17:34:10.393000,KGShop,dbo,2024-11-01 14:34:23.853000,Microsoft SQL Server Management Studio - Query
+1262,261-TAS-36,19360,0,,\\YulyaFerra\Model\Pietka\36S.jpeg,1262,yulya,2024-10-23 17:38:37.280000,KGShop,dbo,2024-11-01 14:34:23.857000,Microsoft SQL Server Management Studio - Query
+1263,261-TAS-36,19365,0,,\\YulyaFerra\Model\Pietka\36T.jpeg,1263,yulya,2024-10-23 17:38:37.283000,KGShop,dbo,2024-11-01 14:34:23.857000,Microsoft SQL Server Management Studio - Query
+1264,261-TAS-36,19364,0,,\\YulyaFerra\Model\Pietka\36BJ.jpeg,1264,yulya,2024-10-23 17:38:37.283000,KGShop,dbo,2024-11-01 14:34:23.860000,Microsoft SQL Server Management Studio - Query
+1265,261-TAS-12,19367,0,,\\YulyaFerra\Model\Pietka\12T.jpeg,1265,yulya,2024-10-23 17:41:14.680000,KGShop,dbo,2024-11-01 14:34:23.860000,Microsoft SQL Server Management Studio - Query
+1266,261-TAS-12,19366,0,,\\YulyaFerra\Model\Pietka\12BJ.jpeg,1266,yulya,2024-10-23 17:41:14.680000,KGShop,dbo,2024-11-01 14:34:23.863000,Microsoft SQL Server Management Studio - Query
+1267,261-TAS-31,19369,0,,\\YulyaFerra\Model\Pietka\31T.jpeg,1267,yulya,2024-10-23 17:44:28.367000,KGShop,dbo,2024-11-01 14:34:23.867000,Microsoft SQL Server Management Studio - Query
+1268,261-TAS-31,19368,0,,\\YulyaFerra\Model\Pietka\31S.jpeg,1268,yulya,2024-10-23 17:44:28.370000,KGShop,dbo,2024-11-01 14:34:23.867000,Microsoft SQL Server Management Studio - Query
+1269,261-TAS-44,19371,0,,\\YulyaFerra\Model\Pietka\44S.jpeg,1269,yulya,2024-10-23 17:48:00.047000,KGShop,dbo,2024-11-01 14:34:23.870000,Microsoft SQL Server Management Studio - Query
+1270,261-TAS-44,19370,0,,\\YulyaFerra\Model\Pietka\44T.jpeg,1270,yulya,2024-10-23 17:48:00.047000,KGShop,dbo,2024-11-01 14:34:23.870000,Microsoft SQL Server Management Studio - Query
+1271,261-TAS-1,19358,0,,\\YulyaFerra\Model\Pietka\1S.jpeg,1271,yulya,2024-10-23 17:50:04.910000,KGShop,dbo,2024-11-01 14:34:23.873000,Microsoft SQL Server Management Studio - Query
+1272,261-TAS-1,19372,0,,\\YulyaFerra\Model\Pietka\1GR.jpeg,1272,yulya,2024-10-23 17:50:04.910000,KGShop,dbo,2024-11-01 14:34:23.873000,Microsoft SQL Server Management Studio - Query
+1273,261-TAS42,19373,0,,\\YulyaFerra\Model\Pietka\42S.jpeg,1273,yulya,2024-10-23 17:52:58.530000,KGShop,dbo,2024-11-01 14:34:23.877000,Microsoft SQL Server Management Studio - Query
+1274,261-TAS-78,19371,0,,\\YulyaFerra\Model\Pietka\78S.jpeg,1274,yulya,2024-10-23 17:57:01.530000,KGShop,dbo,2024-11-01 14:34:23.880000,Microsoft SQL Server Management Studio - Query
+1275,261-TAS-78,19374,0,,\\YulyaFerra\Model\Pietka\78G.jpeg,1275,yulya,2024-10-23 17:57:01.530000,KGShop,dbo,2024-11-01 14:34:23.880000,Microsoft SQL Server Management Studio - Query
+1276,261-TAS-24,19375,0,,\\YulyaFerra\Model\Pietka\24T.jpeg,1276,yulya,2024-10-23 17:59:27.017000,KGShop,dbo,2024-11-01 14:34:23.883000,Microsoft SQL Server Management Studio - Query
+1277,261-TAS-23,19376,0,,\\YulyaFerra\Model\Pietka\23M.jpeg,1277,yulya,2024-10-23 18:01:00.053000,KGShop,dbo,2024-11-01 14:34:23.883000,Microsoft SQL Server Management Studio - Query
+1278,261-TAS-49,19368,0,,\\YulyaFerra\Model\Pietka\49S.jpeg,1278,yulya,2024-10-23 18:03:41.063000,KGShop,dbo,2024-11-01 14:34:23.887000,Microsoft SQL Server Management Studio - Query
+1279,261-TAS-49,19369,0,,\\YulyaFerra\Model\Pietka\49T.jpeg,1279,yulya,2024-10-23 18:03:41.063000,KGShop,dbo,2024-11-01 14:34:23.887000,Microsoft SQL Server Management Studio - Query
+1280,261-TAS-13,19360,0,,\\YulyaFerra\Model\Pietka\13S.jpeg,1280,yulya,2024-10-23 18:05:35.137000,KGShop,dbo,2024-11-01 14:34:23.890000,Microsoft SQL Server Management Studio - Query
+1281,261-TAS-26,19377,0,,\\YulyaFerra\Model\Pietka\26T.jpeg,1281,yulya,2024-10-23 18:07:26.183000,KGShop,dbo,2024-11-01 14:34:23.890000,Microsoft SQL Server Management Studio - Query
+1282,261-TAS-21,19363,0,,\\YulyaFerra\Model\Pietka\21B.jpeg,1282,yulya,2024-10-23 18:26:52.910000,KGShop,dbo,2024-11-01 14:34:23.893000,Microsoft SQL Server Management Studio - Query
+1283,261-TAS-21,19378,0,,\\YulyaFerra\Model\Pietka\21K.jpeg,1283,yulya,2024-10-23 18:26:52.910000,KGShop,dbo,2024-11-01 14:34:23.897000,Microsoft SQL Server Management Studio - Query
+1284,261-TAS-21,19376,0,,\\YulyaFerra\Model\Pietka\21M.jpeg,1284,yulya,2024-10-23 18:26:52.910000,KGShop,dbo,2024-11-01 14:34:23.900000,Microsoft SQL Server Management Studio - Query
+1285,262-777,17256,0,,\\YulyaFerra\Model\MS6\777BJ.jpeg,1285,yulya,2024-10-24 11:35:00.857000,KGShop,dbo,2024-11-01 14:34:23.900000,Microsoft SQL Server Management Studio - Query
+1286,262-777,17253,0,,\\YulyaFerra\Model\MS6\777115.jpeg,1286,yulya,2024-10-24 11:35:00.860000,KGShop,dbo,2024-11-01 14:34:23.903000,Microsoft SQL Server Management Studio - Query
+1287,262-777,16596,0,,\\YulyaFerra\Model\MS6\777120.jpeg,1287,yulya,2024-10-24 11:35:00.860000,KGShop,dbo,2024-11-01 14:34:23.903000,Microsoft SQL Server Management Studio - Query
+1288,262-777,17042,0,,\\YulyaFerra\Model\MS6\777S.jpeg,1288,yulya,2024-10-24 11:35:00.863000,KGShop,dbo,2024-11-01 14:34:23.907000,Microsoft SQL Server Management Studio - Query
+1289,262-777,18446,0,,\\YulyaFerra\Model\MS6\777BY.jpeg,1289,yulya,2024-10-24 11:35:00.863000,KGShop,dbo,2024-11-01 14:34:23.910000,Microsoft SQL Server Management Studio - Query
+1290,262-777,17158,0,,\\YulyaFerra\Model\MS6\777C.jpeg,1290,yulya,2024-10-24 11:35:00.863000,KGShop,dbo,2024-11-01 14:34:23.910000,Microsoft SQL Server Management Studio - Query
+1291,262-775,16555,0,,\\YulyaFerra\Model\MS6\775B.jpeg,1291,yulya,2024-10-24 11:39:40.100000,KGShop,dbo,2024-11-01 14:34:23.913000,Microsoft SQL Server Management Studio - Query
+1292,262-775,18591,0,,\\YulyaFerra\Model\MS6\775S.jpeg,1292,yulya,2024-10-24 11:39:40.100000,KGShop,dbo,2024-11-01 14:34:23.913000,Microsoft SQL Server Management Studio - Query
+1293,262-775,16756,0,,\\YulyaFerra\Model\MS6\775V.jpeg,1293,yulya,2024-10-24 11:39:40.100000,KGShop,dbo,2024-11-01 14:34:23.917000,Microsoft SQL Server Management Studio - Query
+1294,262-776,16596,0,,\\YulyaFerra\Model\MS6\776BJ.jpeg,1294,yulya,2024-10-24 11:41:13.660000,KGShop,dbo,2024-11-01 14:34:23.920000,Microsoft SQL Server Management Studio - Query
+1295,049-077,18893,0,,\\YulyaFerra\Model\Yumi yaz\077bj.jpeg,1295,yulya,2024-10-24 12:20:17.420000,KGShop,dbo,2024-11-01 14:34:23.920000,Microsoft SQL Server Management Studio - Query
+1296,049-077,19379,0,,\\YulyaFerra\Model\Yumi yaz\077v.jpeg,1296,yulya,2024-10-24 12:20:17.427000,KGShop,dbo,2024-11-01 14:34:23.923000,Microsoft SQL Server Management Studio - Query
+1297,049-077,18892,0,,\\YulyaFerra\Model\Yumi yaz\077s.jpeg,1297,yulya,2024-10-24 12:20:17.427000,KGShop,dbo,2024-11-01 14:34:23.923000,Microsoft SQL Server Management Studio - Query
+1298,049-080,18893,0,,\\YulyaFerra\Model\Yumi yaz\080bj.jpeg,1298,yulya,2024-10-24 12:23:26.933000,KGShop,dbo,2024-11-01 14:34:23.927000,Microsoft SQL Server Management Studio - Query
+1299,049-080,19379,0,,\\YulyaFerra\Model\Yumi yaz\080v.jpeg,1299,yulya,2024-10-24 12:23:26.937000,KGShop,dbo,2024-11-01 14:34:23.930000,Microsoft SQL Server Management Studio - Query
+1300,049-080,18892,0,,\\YulyaFerra\Model\Yumi yaz\080s.jpeg,1300,yulya,2024-10-24 12:23:26.937000,KGShop,dbo,2024-11-01 14:34:23.930000,Microsoft SQL Server Management Studio - Query
+1301,023-9217,16576,0,,\\YulyaFerra\Model\Selfiron\9217BJ.jpeg,1301,yulya,2024-10-24 14:12:10.480000,KGShop,dbo,2024-11-01 14:34:23.933000,Microsoft SQL Server Management Studio - Query
+1302,023-9217,18813,0,,\\YulyaFerra\Model\Selfiron\9217BR.jpeg,1302,yulya,2024-10-24 14:12:10.483000,KGShop,dbo,2024-11-01 14:34:23.937000,Microsoft SQL Server Management Studio - Query
+1303,023-9217,16603,0,,\\YulyaFerra\Model\Selfiron\9217S.jpeg,1303,yulya,2024-10-24 14:12:10.483000,KGShop,dbo,2024-11-01 14:34:23.937000,Microsoft SQL Server Management Studio - Query
+1304,023-9713,17289,0,,\\YulyaFerra\Model\Selfiron Yaz\9713ss.jpeg,1304,yulya,2024-10-24 14:20:01.740000,KGShop,dbo,2024-11-01 14:34:23.940000,Microsoft SQL Server Management Studio - Query
+1305,023-9713,18813,0,,\\YulyaFerra\Model\Selfiron Yaz\9713br.jpeg,1305,yulya,2024-10-24 14:20:01.747000,KGShop,dbo,2024-11-01 14:34:23.940000,Microsoft SQL Server Management Studio - Query
+1306,023-9413,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9413S.jpeg,1306,yulya,2024-10-24 14:23:45.783000,KGShop,dbo,2024-11-01 14:34:23.943000,Microsoft SQL Server Management Studio - Query
+1307,023-9413,16576,0,,\\YulyaFerra\Model\Selfiron Yaz\9413BJ.jpeg,1307,yulya,2024-10-24 14:23:45.783000,KGShop,dbo,2024-11-01 14:34:23.947000,Microsoft SQL Server Management Studio - Query
+1308,023-9414,19380,0,,\\YulyaFerra\Model\Selfiron Yaz\9414AL.jpeg,1308,yulya,2024-10-24 14:27:15.637000,KGShop,dbo,2024-11-01 14:34:23.947000,Microsoft SQL Server Management Studio - Query
+1309,023-9414,19381,0,,\\YulyaFerra\Model\Selfiron Yaz\9414C.jpeg,1309,yulya,2024-10-24 14:27:15.637000,KGShop,dbo,2024-11-01 14:34:23.950000,Microsoft SQL Server Management Studio - Query
+1310,023-9412,19383,0,,\\YulyaFerra\Model\Selfiron Yaz\9412AL.jpeg,1310,yulya,2024-10-24 14:30:41.747000,KGShop,dbo,2024-11-01 14:34:23.950000,Microsoft SQL Server Management Studio - Query
+1311,023-9412,19382,0,,\\YulyaFerra\Model\Selfiron Yaz\9412C.jpeg,1311,yulya,2024-10-24 14:30:41.747000,KGShop,dbo,2024-11-01 14:34:23.953000,Microsoft SQL Server Management Studio - Query
+1313,023-9610,19380,0,,\\YulyaFerra\Model\Selfiron Yaz\9610AL.jpeg,1313,yulya,2024-10-24 14:33:32.890000,KGShop,dbo,2024-11-01 14:34:23.957000,Microsoft SQL Server Management Studio - Query
+1314,023-9610,16599,0,,\\YulyaFerra\Model\Selfiron Yaz\9610B.jpeg,1314,yulya,2024-10-24 14:33:32.890000,KGShop,dbo,2024-11-01 14:34:23.957000,Microsoft SQL Server Management Studio - Query
+1315,023-9232,16784,0,,\\YulyaFerra\Model\Selfiron Yaz\9232SR.jpeg,1315,yulya,2024-10-24 14:37:30.380000,KGShop,dbo,2024-11-01 14:34:23.960000,Microsoft SQL Server Management Studio - Query
+1316,023-9232,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9232S.jpeg,1316,yulya,2024-10-24 14:37:30.380000,KGShop,dbo,2024-11-01 14:34:23.960000,Microsoft SQL Server Management Studio - Query
+1317,023-9232,18099,0,,\\YulyaFerra\Model\Selfiron Yaz\9232P.jpeg,1317,yulya,2024-10-24 14:37:30.380000,KGShop,dbo,2024-11-01 14:34:23.963000,Microsoft SQL Server Management Studio - Query
+1318,023-9216,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9216S.jpeg,1318,yulya,2024-10-24 14:40:30.107000,KGShop,dbo,2024-11-01 14:34:23.967000,Microsoft SQL Server Management Studio - Query
+1319,023-9216,18628,0,,\\YulyaFerra\Model\Selfiron Yaz\9216T.jpeg,1319,yulya,2024-10-24 14:40:30.113000,KGShop,dbo,2024-11-01 14:34:23.967000,Microsoft SQL Server Management Studio - Query
+1320,023-9216,16601,0,,\\YulyaFerra\Model\Selfiron Yaz\9216V.jpeg,1320,yulya,2024-10-24 14:40:30.113000,KGShop,dbo,2024-11-01 14:34:23.970000,Microsoft SQL Server Management Studio - Query
+1321,023-9221,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9221S.jpeg,1321,yulya,2024-10-24 14:43:48.653000,KGShop,dbo,2024-11-01 14:34:23.970000,Microsoft SQL Server Management Studio - Query
+1322,023-9221,18020,0,,\\YulyaFerra\Model\Selfiron Yaz\9221K.jpeg,1322,yulya,2024-10-24 14:43:48.660000,KGShop,dbo,2024-11-01 14:34:23.973000,Microsoft SQL Server Management Studio - Query
+1323,023-9221,16599,0,,\\YulyaFerra\Model\Selfiron Yaz\9221B.jpeg,1323,yulya,2024-10-24 14:43:48.670000,KGShop,dbo,2024-11-01 14:34:23.977000,Microsoft SQL Server Management Studio - Query
+1324,023-9312,16784,0,,\\YulyaFerra\Model\Selfiron Yaz\9312S.jpeg,1324,yulya,2024-10-24 14:48:01.830000,KGShop,dbo,2024-11-01 14:34:23.980000,Microsoft SQL Server Management Studio - Query
+1325,023-9312,18813,0,,\\YulyaFerra\Model\Selfiron Yaz\9312BR.jpeg,1325,yulya,2024-10-24 14:48:01.833000,KGShop,dbo,2024-11-01 14:34:23.980000,Microsoft SQL Server Management Studio - Query
+1326,023-9314,19384,0,,\\YulyaFerra\Model\Selfiron Yaz\9314B.jpeg,1326,yulya,2024-10-24 14:51:20.123000,KGShop,dbo,2024-11-01 14:34:23.983000,Microsoft SQL Server Management Studio - Query
+1327,023-9314,19385,0,,\\YulyaFerra\Model\Selfiron Yaz\9314BR.jpeg,1327,yulya,2024-10-24 14:51:20.123000,KGShop,dbo,2024-11-01 14:34:23.987000,Microsoft SQL Server Management Studio - Query
+1328,023-9319,19386,0,,\\YulyaFerra\Model\Selfiron Yaz\9319S.jpeg,1328,yulya,2024-10-24 14:53:55.113000,KGShop,dbo,2024-11-01 14:34:23.990000,Microsoft SQL Server Management Studio - Query
+1329,023-9319,19387,0,,\\YulyaFerra\Model\Selfiron Yaz\9319K.jpeg,1329,yulya,2024-10-24 14:53:55.117000,KGShop,dbo,2024-11-01 14:34:23.990000,Microsoft SQL Server Management Studio - Query
+1330,023-9611,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9611S.jpeg,1330,yulya,2024-10-24 14:56:39.387000,KGShop,dbo,2024-11-01 14:34:23.993000,Microsoft SQL Server Management Studio - Query
+1331,023-9611,18813,0,,\\YulyaFerra\Model\Selfiron Yaz\9611BR.jpeg,1331,yulya,2024-10-24 14:56:39.387000,KGShop,dbo,2024-11-01 14:34:23.993000,Microsoft SQL Server Management Studio - Query
+1332,023-9316,16576,0,,\\YulyaFerra\Model\Selfiron Yaz\9316BJ.jpeg,1332,yulya,2024-10-24 15:01:33.643000,KGShop,dbo,2024-11-01 14:34:23.997000,Microsoft SQL Server Management Studio - Query
+1333,023-9316,19388,0,,\\YulyaFerra\Model\Selfiron Yaz\9316BR.jpeg,1333,yulya,2024-10-24 15:01:33.643000,KGShop,dbo,2024-11-01 14:34:24,Microsoft SQL Server Management Studio - Query
+1334,023-9316,16775,0,,\\YulyaFerra\Model\Selfiron Yaz\9316AL.jpeg,1334,yulya,2024-10-24 15:01:33.643000,KGShop,dbo,2024-11-01 14:34:24,Microsoft SQL Server Management Studio - Query
+1335,023-9315,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9315S.jpeg,1335,yulya,2024-10-24 15:04:07.430000,KGShop,dbo,2024-11-01 14:34:24.003000,Microsoft SQL Server Management Studio - Query
+1336,023-9315,16784,0,,\\YulyaFerra\Model\Selfiron Yaz\9315SR.jpeg,1336,yulya,2024-10-24 15:04:07.437000,KGShop,dbo,2024-11-01 14:34:24.003000,Microsoft SQL Server Management Studio - Query
+1337,023-9315,16599,0,,\\YulyaFerra\Model\Selfiron Yaz\9315B.jpeg,1337,yulya,2024-10-24 15:04:07.443000,KGShop,dbo,2024-11-01 14:34:24.007000,Microsoft SQL Server Management Studio - Query
+1338,023-9213,16599,0,,\\YulyaFerra\Model\Selfiron Yaz\9213B.jpeg,1338,yulya,2024-10-24 15:07:50.740000,KGShop,dbo,2024-11-01 14:34:24.010000,Microsoft SQL Server Management Studio - Query
+1339,023-9213,19380,0,,\\YulyaFerra\Model\Selfiron Yaz\9213G.jpeg,1339,yulya,2024-10-24 15:07:50.743000,KGShop,dbo,2024-11-01 14:34:24.010000,Microsoft SQL Server Management Studio - Query
+1340,023-9213,16603,0,,\\YulyaFerra\Model\Selfiron Yaz\9213S.jpeg,1340,yulya,2024-10-24 15:07:50.743000,KGShop,dbo,2024-11-01 14:34:24.013000,Microsoft SQL Server Management Studio - Query
+1341,023-9224,19381,0,,\\YulyaFerra\Model\Selfiron Yaz\9224C.jpeg,1341,yulya,2024-10-24 15:10:45.083000,KGShop,dbo,2024-11-01 14:34:24.017000,Microsoft SQL Server Management Studio - Query
+1342,023-9224,18020,0,,\\YulyaFerra\Model\Selfiron Yaz\9224K.jpeg,1342,yulya,2024-10-24 15:10:45.083000,KGShop,dbo,2024-11-01 14:34:24.020000,Microsoft SQL Server Management Studio - Query
+1343,023-9712,16784,0,,\\YulyaFerra\Model\Selfiron Yaz\9712SR.jpeg,1343,yulya,2024-10-24 15:13:21.110000,KGShop,dbo,2024-11-01 14:34:24.020000,Microsoft SQL Server Management Studio - Query
+1344,023-9712,16599,0,,\\YulyaFerra\Model\Selfiron Yaz\9712B.jpeg,1344,yulya,2024-10-24 15:13:21.110000,KGShop,dbo,2024-11-01 14:34:24.023000,Microsoft SQL Server Management Studio - Query
+1345,023-9210,19389,0,,\\YulyaFerra\Model\Selfiron Yaz\9210T.jpeg,1345,yulya,2024-10-24 15:20:12.350000,KGShop,dbo,2024-11-01 14:34:24.027000,Microsoft SQL Server Management Studio - Query
+1346,023-9210,19390,0,,\\YulyaFerra\Model\Selfiron Yaz\9210Y.jpeg,1346,yulya,2024-10-24 15:20:12.350000,KGShop,dbo,2024-11-01 14:34:24.030000,Microsoft SQL Server Management Studio - Query
+1347,023-9210,19391,0,,\\YulyaFerra\Model\Selfiron Yaz\9210SR.jpeg,1347,yulya,2024-10-24 15:20:12.350000,KGShop,dbo,2024-11-01 14:34:24.030000,Microsoft SQL Server Management Studio - Query
+1348,144-YZ 504,17289,0,,\\YulyaFerra\Model\MarcoT.Yaz\504S.jpeg,1348,yulya,2024-10-25 11:27:52.560000,KGShop,dbo,2024-11-01 14:34:24.033000,Microsoft SQL Server Management Studio - Query
+1349,144-YZ 505,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\505.jpeg,1349,yulya,2024-10-25 11:31:22.617000,KGShop,dbo,2024-11-01 14:34:24.033000,Microsoft SQL Server Management Studio - Query
+1350,144-YZ 414,19401,0,,\\YulyaFerra\Model\MarcoT.Yaz\414.jpeg,1350,yulya,2024-10-25 11:35:36.807000,KGShop,dbo,2024-11-01 14:34:24.037000,Microsoft SQL Server Management Studio - Query
+1351,144-YZ 467,16748,0,,\\YulyaFerra\Model\MarcoT.Yaz\467.jpeg,1351,yulya,2024-10-25 11:41:54.657000,KGShop,dbo,2024-11-01 14:34:24.040000,Microsoft SQL Server Management Studio - Query
+1352,144-YZ 437,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\437.jpeg,1352,yulya,2024-10-25 11:46:26.877000,KGShop,dbo,2024-11-01 14:34:24.040000,Microsoft SQL Server Management Studio - Query
+1353,144-YZ 502,19404,0,,\\YulyaFerra\Model\MarcoT.Yaz\502.jpeg,1353,yulya,2024-10-25 11:50:53.170000,KGShop,dbo,2024-11-01 14:34:24.043000,Microsoft SQL Server Management Studio - Query
+1354,144-YZ 490,16748,0,,\\YulyaFerra\Model\MarcoT.Yaz\490.jpeg,1354,yulya,2024-10-25 11:52:38.777000,KGShop,dbo,2024-11-01 14:34:24.047000,Microsoft SQL Server Management Studio - Query
+1355,144-YZ 479,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\479.jpeg,1355,yulya,2024-10-25 11:56:06.580000,KGShop,dbo,2024-11-01 14:34:24.050000,Microsoft SQL Server Management Studio - Query
+1356,144-YZ 478,16748,0,,\\YulyaFerra\Model\MarcoT.Yaz\478.jpeg,1356,yulya,2024-10-25 11:59:07.030000,KGShop,dbo,2024-11-01 14:34:24.050000,Microsoft SQL Server Management Studio - Query
+1357,144-YZ 486,16540,0,,\\YulyaFerra\Model\MarcoT.Yaz\486.jpeg,1357,yulya,2024-10-25 12:01:54.220000,KGShop,dbo,2024-11-01 14:34:24.053000,Microsoft SQL Server Management Studio - Query
+1358,144-YZ 417,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\417.jpeg,1358,yulya,2024-10-25 12:09:19.563000,KGShop,dbo,2024-11-01 14:34:24.057000,Microsoft SQL Server Management Studio - Query
+1359,144-YZ 430,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\430.jpeg,1359,yulya,2024-10-25 12:13:12.830000,KGShop,dbo,2024-11-01 14:34:24.060000,Microsoft SQL Server Management Studio - Query
+1360,144-YZ 423,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\423.jpeg,1360,yulya,2024-10-25 12:15:18.270000,KGShop,dbo,2024-11-01 14:34:24.060000,Microsoft SQL Server Management Studio - Query
+1361,144-YZ 379,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\379.jpeg,1361,yulya,2024-10-25 12:19:29.480000,KGShop,dbo,2024-11-01 14:34:24.063000,Microsoft SQL Server Management Studio - Query
+1362,144-YZ 469,16540,0,,\\YulyaFerra\Model\MarcoT.Yaz\469.jpeg,1362,yulya,2024-10-25 12:20:48.140000,KGShop,dbo,2024-11-01 14:34:24.063000,Microsoft SQL Server Management Studio - Query
+1363,144-YZ 381,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\381.jpeg,1363,yulya,2024-10-25 12:26:47.560000,KGShop,dbo,2024-11-01 14:34:24.067000,Microsoft SQL Server Management Studio - Query
+1364,144-YZ 443,16746,0,,\\YulyaFerra\Model\MarcoT.Yaz\443.jpeg,1364,yulya,2024-10-25 12:28:33.590000,KGShop,dbo,2024-11-01 14:34:24.070000,Microsoft SQL Server Management Studio - Query
+1365,144-YZ 420,16742,0,,\\YulyaFerra\Model\MarcoT.Yaz\420.jpeg,1365,yulya,2024-10-25 12:30:16.923000,KGShop,dbo,2024-11-01 14:34:24.070000,Microsoft SQL Server Management Studio - Query
+1366,144-YZ 484,16741,0,,\\YulyaFerra\Model\MarcoT.Yaz\484.jpeg,1366,yulya,2024-10-25 12:32:58.017000,KGShop,dbo,2024-11-01 14:34:24.073000,Microsoft SQL Server Management Studio - Query
+1367,144-YZ 483,16746,0,,\\YulyaFerra\Model\MarcoT.Yaz\483.jpeg,1367,yulya,2024-10-25 12:34:12.230000,KGShop,dbo,2024-11-01 14:34:24.077000,Microsoft SQL Server Management Studio - Query
+1368,144-YZ 438,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\438.jpeg,1368,yulya,2024-10-25 12:36:52.320000,KGShop,dbo,2024-11-01 14:34:24.077000,Microsoft SQL Server Management Studio - Query
+1369,144-YZ 466,16741,0,,\\YulyaFerra\Model\MarcoT.Yaz\466.jpeg,1369,yulya,2024-10-25 12:40:21.650000,KGShop,dbo,2024-11-01 14:34:24.080000,Microsoft SQL Server Management Studio - Query
+1370,144-YZ 463,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\463.jpeg,1370,yulya,2024-10-25 12:42:02.463000,KGShop,dbo,2024-11-01 14:34:24.083000,Microsoft SQL Server Management Studio - Query
+1371,144-YZ 433,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\433.jpeg,1371,yulya,2024-10-25 12:46:45.100000,KGShop,dbo,2024-11-01 14:34:24.083000,Microsoft SQL Server Management Studio - Query
+1372,144-YZ 468,16739,0,,\\YulyaFerra\Model\MarcoT.Yaz\468.jpeg,1372,yulya,2024-10-25 12:49:03.250000,KGShop,dbo,2024-11-01 14:34:24.087000,Microsoft SQL Server Management Studio - Query
+1373,144-YZ 427,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\427.jpeg,1373,yulya,2024-10-25 12:54:19.190000,KGShop,dbo,2024-11-01 14:34:24.090000,Microsoft SQL Server Management Studio - Query
+1374,144-YZ 396,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\396.jpeg,1374,yulya,2024-10-25 12:55:58.740000,KGShop,dbo,2024-11-01 14:34:24.090000,Microsoft SQL Server Management Studio - Query
+1375,144-YZ 429,16540,0,,\\YulyaFerra\Model\MarcoT.Yaz\429.jpeg,1375,yulya,2024-10-25 12:58:30.390000,KGShop,dbo,2024-11-01 14:34:24.093000,Microsoft SQL Server Management Studio - Query
+1376,144-YZ 426,19405,0,,\\YulyaFerra\Model\MarcoT.Yaz\426.jpeg,1376,yulya,2024-10-25 13:00:13.393000,KGShop,dbo,2024-11-01 14:34:24.097000,Microsoft SQL Server Management Studio - Query
+1377,144-YZ 503,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\503.jpeg,1377,yulya,2024-10-25 13:05:00.690000,KGShop,dbo,2024-11-01 14:34:24.100000,Microsoft SQL Server Management Studio - Query
+1378,144-YZ 513,16748,0,,\\YulyaFerra\Model\MarcoT.Yaz\513.jpeg,1378,yulya,2024-10-25 13:07:09.920000,KGShop,dbo,2024-11-01 14:34:24.100000,Microsoft SQL Server Management Studio - Query
+1379,144-YZ 508,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\508.jpeg,1379,yulya,2024-10-25 13:21:59.533000,KGShop,dbo,2024-11-01 14:34:24.103000,Microsoft SQL Server Management Studio - Query
+1380,144-YZ 509,19405,0,,\\YulyaFerra\Model\MarcoT.Yaz\509.jpeg,1380,yulya,2024-10-25 13:24:08.327000,KGShop,dbo,2024-11-01 14:34:24.103000,Microsoft SQL Server Management Studio - Query
+1381,144-YZ 419,16540,0,,\\YulyaFerra\Model\MarcoT.Yaz\419.jpeg,1381,yulya,2024-10-25 13:28:52.270000,KGShop,dbo,2024-11-01 14:34:24.107000,Microsoft SQL Server Management Studio - Query
+1382,144-YZ 424,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\424.jpeg,1382,yulya,2024-10-25 13:31:22.807000,KGShop,dbo,2024-11-01 14:34:24.110000,Microsoft SQL Server Management Studio - Query
+1383,144-YZ 514,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\514.jpeg,1383,yulya,2024-10-25 13:33:12.780000,KGShop,dbo,2024-11-01 14:34:24.110000,Microsoft SQL Server Management Studio - Query
+1384,144-YZ 472,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\472.jpeg,1384,yulya,2024-10-25 13:37:06.980000,KGShop,dbo,2024-11-01 14:34:24.113000,Microsoft SQL Server Management Studio - Query
+1385,144-YZ 392,19406,0,,\\YulyaFerra\Model\MarcoT.Yaz\392.jpeg,1385,yulya,2024-10-25 13:42:40.593000,KGShop,dbo,2024-11-01 14:34:24.117000,Microsoft SQL Server Management Studio - Query
+1386,144-YZ 471,16744,0,,\\YulyaFerra\Model\MarcoT.Yaz\471.jpeg,1386,yulya,2024-10-25 13:50:41.997000,KGShop,dbo,2024-11-01 14:34:24.120000,Microsoft SQL Server Management Studio - Query
+1387,144-YZ 475,16746,0,,\\YulyaFerra\Model\MarcoT.Yaz\475.jpeg,1387,yulya,2024-10-25 13:53:01.313000,KGShop,dbo,2024-11-01 14:34:24.120000,Microsoft SQL Server Management Studio - Query
+1388,144-YZ 487,16742,0,,\\YulyaFerra\Model\MarcoT.Yaz\487.jpeg,1388,yulya,2024-10-25 13:56:19.770000,KGShop,dbo,2024-11-01 14:34:24.123000,Microsoft SQL Server Management Studio - Query
+1389,144-YZ 485,16698,0,,\\YulyaFerra\Model\MarcoT.Yaz\485.jpeg,1389,yulya,2024-10-25 13:57:34.020000,KGShop,dbo,2024-11-01 14:34:24.123000,Microsoft SQL Server Management Studio - Query
+1390,144-YZ 415,19409,0,,\\YulyaFerra\Model\MarcoT.Yaz\415.jpeg,1390,yulya,2024-10-25 14:01:36.440000,KGShop,dbo,2024-11-01 14:34:24.127000,Microsoft SQL Server Management Studio - Query
+1391,130-555,16523,0,,\\YulyaFerra\Model\Psc Yaz\555.jpeg,1391,yulya,2024-10-25 16:04:14.317000,KGShop,dbo,2024-11-01 14:34:24.130000,Microsoft SQL Server Management Studio - Query
+1392,130-S4227,16523,0,,\\YulyaFerra\Model\Psc Yaz\S4227.jpeg,1392,yulya,2024-10-25 16:11:45.333000,KGShop,dbo,2024-11-01 14:34:24.130000,Microsoft SQL Server Management Studio - Query
+1393,130-4227,16531,0,,\\YulyaFerra\Model\Psc Yaz\4227.jpeg,1393,yulya,2024-10-25 16:14:02.333000,KGShop,dbo,2024-11-01 14:34:24.133000,Microsoft SQL Server Management Studio - Query
+1394,130-6130,16523,0,,\\YulyaFerra\Model\Psc Yaz\6130.jpeg,1394,yulya,2024-10-25 16:17:50.177000,KGShop,dbo,2024-11-01 14:34:24.137000,Microsoft SQL Server Management Studio - Query
+1395,130-6120,16523,0,,\\YulyaFerra\Model\Psc Yaz\6120.jpeg,1395,yulya,2024-10-25 16:21:44.827000,KGShop,dbo,2024-11-01 14:34:24.140000,Microsoft SQL Server Management Studio - Query
+1396,130-S4240,16555,0,,\\YulyaFerra\Model\Psc Yaz\S4240.jpeg,1396,yulya,2024-10-25 16:24:14.690000,KGShop,dbo,2024-11-01 14:34:24.140000,Microsoft SQL Server Management Studio - Query
+1397,130-754,16523,0,,\\YulyaFerra\Model\Psc Yaz\754.jpeg,1397,yulya,2024-10-25 16:28:19.380000,KGShop,dbo,2024-11-01 14:34:24.140000,Microsoft SQL Server Management Studio - Query
+1398,130-500,16523,0,,\\YulyaFerra\Model\Psc Yaz\500.jpeg,1398,yulya,2024-10-25 16:31:02.097000,KGShop,dbo,2024-11-01 14:34:24.143000,Microsoft SQL Server Management Studio - Query
+1399,130-S1478,16523,0,,\\YulyaFerra\Model\Psc Yaz\S1478.jpeg,1399,yulya,2024-10-25 16:33:05.570000,KGShop,dbo,2024-11-01 14:34:24.147000,Microsoft SQL Server Management Studio - Query
+1400,130-4112,16533,0,,\\YulyaFerra\Model\Psc Yaz\4112.jpeg,1400,yulya,2024-10-25 16:38:47.610000,KGShop,dbo,2024-11-01 14:34:24.147000,Microsoft SQL Server Management Studio - Query
+1401,130-S4112,16524,0,,\\YulyaFerra\Model\Psc Yaz\S4112.jpeg,1401,yulya,2024-10-25 16:41:18.797000,KGShop,dbo,2024-11-01 14:34:24.150000,Microsoft SQL Server Management Studio - Query
+1402,130-P0112,16518,0,,\\YulyaFerra\Model\Psc Yaz\P0112.jpeg,1402,yulya,2024-10-25 16:45:21.490000,KGShop,dbo,2024-11-01 14:34:24.150000,Microsoft SQL Server Management Studio - Query
+1403,130-755,16523,0,,\\YulyaFerra\Model\Psc Yaz\755.jpeg,1403,yulya,2024-10-25 16:49:17.917000,KGShop,dbo,2024-11-01 14:34:24.153000,Microsoft SQL Server Management Studio - Query
+1405,130-559,16548,0,,\\YulyaFerra\Model\Psc Yaz\559.jpeg,1405,yulya,2024-10-25 16:53:08.693000,KGShop,dbo,2024-11-01 14:34:24.157000,Microsoft SQL Server Management Studio - Query
+1406,130-515,16518,0,,\\YulyaFerra\Model\Psc Yaz\515.jpeg,1406,yulya,2024-10-25 16:55:09.047000,KGShop,dbo,2024-11-01 14:34:24.157000,Microsoft SQL Server Management Studio - Query
+1407,130-3019,16523,0,,\\YulyaFerra\Model\Psc Yaz\3019.jpeg,1407,yulya,2024-10-25 16:57:53,KGShop,dbo,2024-11-01 14:34:24.160000,Microsoft SQL Server Management Studio - Query
+1408,130-3011,16524,0,,\\YulyaFerra\Model\Psc Yaz\3011.jpeg,1408,yulya,2024-10-25 16:59:41.443000,KGShop,dbo,2024-11-01 14:34:24.163000,Microsoft SQL Server Management Studio - Query
+1409,130-S4166,16523,0,,\\YulyaFerra\Model\Psc Yaz\4166.jpeg,1409,yulya,2024-10-25 17:08:33.100000,KGShop,dbo,2024-11-01 14:34:24.167000,Microsoft SQL Server Management Studio - Query
+1410,130-S1430,16523,0,,\\YulyaFerra\Model\Psc Yaz\S1430.jpeg,1410,yulya,2024-10-25 17:12:56.657000,KGShop,dbo,2024-11-01 14:34:24.167000,Microsoft SQL Server Management Studio - Query
+1411,130-1461,16524,0,,\\YulyaFerra\Model\Psc Yaz\1461.jpeg,1411,yulya,2024-10-25 17:16:18.470000,KGShop,dbo,2024-11-01 14:34:24.170000,Microsoft SQL Server Management Studio - Query
+1412,130-S1461,16555,0,,\\YulyaFerra\Model\Psc Yaz\S1461.jpeg,1412,yulya,2024-10-25 17:17:50.810000,KGShop,dbo,2024-11-01 14:34:24.173000,Microsoft SQL Server Management Studio - Query
+1413,130-S1429,16523,0,,\\YulyaFerra\Model\Psc Yaz\S1429.jpeg,1413,yulya,2024-10-25 17:21:20.667000,KGShop,dbo,2024-11-01 14:34:24.180000,Microsoft SQL Server Management Studio - Query
+1414,130-1429,16548,0,,\\YulyaFerra\Model\Psc Yaz\1429.jpeg,1414,yulya,2024-10-25 17:24:14.917000,KGShop,dbo,2024-11-01 14:34:24.180000,Microsoft SQL Server Management Studio - Query
+1415,130-P0429,16520,0,,\\YulyaFerra\Model\Psc Yaz\P0429.jpeg,1415,yulya,2024-10-25 17:26:25.320000,KGShop,dbo,2024-11-01 14:34:24.183000,Microsoft SQL Server Management Studio - Query
+1416,130-556,16524,0,,\\YulyaFerra\Model\Psc Yaz\556.jpeg,1416,yulya,2024-10-25 17:28:29.463000,KGShop,dbo,2024-11-01 14:34:24.187000,Microsoft SQL Server Management Studio - Query
+1417,130-S1432,16523,0,,\\YulyaFerra\Model\Psc Yaz\S1432.jpeg,1417,yulya,2024-10-25 17:31:31.243000,KGShop,dbo,2024-11-01 14:34:24.187000,Microsoft SQL Server Management Studio - Query
+1418,130-P0430,16533,0,,\\YulyaFerra\Model\Psc Yaz\P0430.jpeg,1418,yulya,2024-10-25 17:35:56.773000,KGShop,dbo,2024-11-01 14:34:24.190000,Microsoft SQL Server Management Studio - Query
+1419,130-760,16523,0,,\\YulyaFerra\Model\Psc Yaz\760.jpeg,1419,yulya,2024-10-25 17:38:02.443000,KGShop,dbo,2024-11-01 14:34:24.190000,Microsoft SQL Server Management Studio - Query
+1420,130-S4107,16523,0,,\\YulyaFerra\Model\Psc Yaz\S4107.jpeg,1420,yulya,2024-10-25 17:42:11.833000,KGShop,dbo,2024-11-01 14:34:24.193000,Microsoft SQL Server Management Studio - Query
+1421,130-P0107,16531,0,,\\YulyaFerra\Model\Psc Yaz\P0107.jpeg,1421,yulya,2024-10-25 17:43:53.640000,KGShop,dbo,2024-11-01 14:34:24.197000,Microsoft SQL Server Management Studio - Query
+1422,130-S1459,16533,0,,\\YulyaFerra\Model\Psc Yaz\1459.jpeg,1422,yulya,2024-10-25 17:48:13.953000,KGShop,dbo,2024-11-01 14:34:24.200000,Microsoft SQL Server Management Studio - Query
+1423,130-S4115,16523,0,,\\YulyaFerra\Model\Psc Yaz\S4115.jpeg,1423,yulya,2024-10-25 17:51:16.457000,KGShop,dbo,2024-11-01 14:34:24.200000,Microsoft SQL Server Management Studio - Query
+1424,130-564,16548,0,,\\YulyaFerra\Model\Psc Yaz\564.jpeg,1424,yulya,2024-10-25 17:53:57.740000,KGShop,dbo,2024-11-01 14:34:24.203000,Microsoft SQL Server Management Studio - Query
+1425,130-758,16524,0,,\\YulyaFerra\Model\Psc Yaz\758.jpeg,1425,yulya,2024-10-25 17:57:42.220000,KGShop,dbo,2024-11-01 14:34:24.207000,Microsoft SQL Server Management Studio - Query
+1426,130-565,16555,0,,\\YulyaFerra\Model\Psc Yaz\565.jpeg,1426,yulya,2024-10-25 18:01:03.827000,KGShop,dbo,2024-11-01 14:34:24.210000,Microsoft SQL Server Management Studio - Query
+1427,130-3025,16523,0,,\\YulyaFerra\Model\Psc Yaz\3025.jpeg,1427,yulya,2024-10-25 18:04:00.640000,KGShop,dbo,2024-11-01 14:34:24.210000,Microsoft SQL Server Management Studio - Query
+1428,130-S4109,16523,0,,\\YulyaFerra\Model\Psc Yaz\S4109.jpeg,1428,yulya,2024-10-25 18:07:27.850000,KGShop,dbo,2024-11-01 14:34:24.213000,Microsoft SQL Server Management Studio - Query
+1429,130-4109,16533,0,,\\YulyaFerra\Model\Psc Yaz\4109.jpeg,1429,yulya,2024-10-25 18:08:58.927000,KGShop,dbo,2024-11-01 14:34:24.213000,Microsoft SQL Server Management Studio - Query
+1430,130-3020,16548,0,,\\YulyaFerra\Model\Psc Yaz\3020.jpeg,1430,yulya,2024-10-25 18:12:29.903000,KGShop,dbo,2024-11-01 14:34:24.217000,Microsoft SQL Server Management Studio - Query
+1431,130-S4120,16524,0,,\\YulyaFerra\Model\Psc Yaz\S4120.jpeg,1431,yulya,2024-10-25 18:14:17.210000,KGShop,dbo,2024-11-01 14:34:24.220000,Microsoft SQL Server Management Studio - Query
+1432,004-2459,18099,0,,\\YulyaFerra\Model\Desen\2459p.jpeg,1432,yulya,2024-10-29 11:16:54.987000,KGShop,dbo,2024-11-01 14:34:24.223000,Microsoft SQL Server Management Studio - Query
+1433,004-2452,16601,0,,\\YulyaFerra\Model\Desen\2452v.jpeg,1433,yulya,2024-10-29 11:18:53.627000,KGShop,dbo,2024-11-01 14:34:24.227000,Microsoft SQL Server Management Studio - Query
+1434,004-2461,16599,0,,\\YulyaFerra\Model\Desen\2461b.jpeg,1434,yulya,2024-10-29 11:22:18.610000,KGShop,dbo,2024-11-01 14:34:24.230000,Microsoft SQL Server Management Studio - Query
+1435,004-2461,18020,0,,\\YulyaFerra\Model\Desen\2461k.jpeg,1435,yulya,2024-10-29 11:22:18.613000,KGShop,dbo,2024-11-01 14:34:24.233000,Microsoft SQL Server Management Studio - Query
+1436,004-2461,16603,0,,\\YulyaFerra\Model\Desen\2461s.jpeg,1436,yulya,2024-10-29 11:22:18.613000,KGShop,dbo,2024-11-01 14:34:24.233000,Microsoft SQL Server Management Studio - Query
+1437,004-2450,18020,0,,\\YulyaFerra\Model\Desen\2450k.jpeg,1437,yulya,2024-10-29 11:25:08.100000,KGShop,dbo,2024-11-01 14:34:24.237000,Microsoft SQL Server Management Studio - Query
+1438,004-2450,16601,0,,\\YulyaFerra\Model\Desen\2450v.jpeg,1438,yulya,2024-10-29 11:25:08.103000,KGShop,dbo,2024-11-01 14:34:24.240000,Microsoft SQL Server Management Studio - Query
+1439,004-2464,16599,0,,\\YulyaFerra\Model\Desen\2464b.jpeg,1439,yulya,2024-10-29 11:28:51.347000,KGShop,dbo,2024-11-01 14:34:24.240000,Microsoft SQL Server Management Studio - Query
+1440,004-2464,18020,0,,\\YulyaFerra\Model\Desen\2464k.jpeg,1440,yulya,2024-10-29 11:28:51.350000,KGShop,dbo,2024-11-01 14:34:24.243000,Microsoft SQL Server Management Studio - Query
+1441,004-2464,16603,0,,\\YulyaFerra\Model\Desen\2464s.jpeg,1441,yulya,2024-10-29 11:28:51.350000,KGShop,dbo,2024-11-01 14:34:24.247000,Microsoft SQL Server Management Studio - Query
+1442,004-2464,16601,0,,\\YulyaFerra\Model\Desen\2464v.jpeg,1442,yulya,2024-10-29 11:28:51.350000,KGShop,dbo,2024-11-01 14:34:24.247000,Microsoft SQL Server Management Studio - Query
+1443,004-2460,18628,0,,\\YulyaFerra\Model\Desen\2460T.jpeg,1443,yulya,2024-10-29 11:32:54.983000,KGShop,dbo,2024-11-01 14:34:24.250000,Microsoft SQL Server Management Studio - Query
+1444,004-2460,18144,0,,\\YulyaFerra\Model\Desen\2460 M.jpeg,1444,yulya,2024-10-29 11:32:54.990000,KGShop,dbo,2024-11-01 14:34:24.253000,Microsoft SQL Server Management Studio - Query
+1445,004-2460,18100,0,,\\YulyaFerra\Model\Desen\2460SR.jpeg,1445,yulya,2024-10-29 11:32:54.990000,KGShop,dbo,2024-11-01 14:34:24.253000,Microsoft SQL Server Management Studio - Query
+1446,004-2460,17557,0,,\\YulyaFerra\Model\Desen\2460Y.jpeg,1446,yulya,2024-10-29 11:32:54.990000,KGShop,dbo,2024-11-01 14:34:24.257000,Microsoft SQL Server Management Studio - Query
+1447,004-2460,16603,0,,\\YulyaFerra\Model\Desen\2460S.jpeg,1447,yulya,2024-10-29 11:32:54.990000,KGShop,dbo,2024-11-01 14:34:24.260000,Microsoft SQL Server Management Studio - Query
+1448,004-2465,19411,0,,\\YulyaFerra\Model\Desen\2465B.jpeg,1448,yulya,2024-10-29 11:48:13.893000,KGShop,dbo,2024-11-01 14:34:24.260000,Microsoft SQL Server Management Studio - Query
+1449,004-2465,19412,0,,\\YulyaFerra\Model\Desen\2465BJ.jpeg,1449,yulya,2024-10-29 11:48:13.897000,KGShop,dbo,2024-11-01 14:34:24.263000,Microsoft SQL Server Management Studio - Query
+1450,004-2465,16777,0,,\\YulyaFerra\Model\Desen\2465S.jpeg,1450,yulya,2024-10-29 11:48:13.897000,KGShop,dbo,2024-11-01 14:34:24.263000,Microsoft SQL Server Management Studio - Query
+1451,004-2463,16603,0,,\\YulyaFerra\Model\Desen\2463S.jpeg,1451,yulya,2024-10-29 11:54:00.407000,KGShop,dbo,2024-11-01 14:34:24.267000,Microsoft SQL Server Management Studio - Query
+1452,004-2463,18144,0,,\\YulyaFerra\Model\Desen\2463M.jpeg,1452,yulya,2024-10-29 11:54:00.410000,KGShop,dbo,2024-11-01 14:34:24.270000,Microsoft SQL Server Management Studio - Query
+1453,263-300,16523,0,,\\YulyaFerra\Model\NEBESA\300.jpeg,1453,yulya,2024-10-30 11:09:59.893000,KGShop,dbo,2024-11-01 14:34:24.270000,Microsoft SQL Server Management Studio - Query
+1454,263-052,16523,0,,\\YulyaFerra\Model\NEBESA\052.jpeg,1454,yulya,2024-10-30 11:12:55.810000,KGShop,dbo,2024-11-01 14:34:24.273000,Microsoft SQL Server Management Studio - Query
+1455,263-257,16523,0,,\\YulyaFerra\Model\NEBESA\257.jpeg,1455,yulya,2024-10-30 11:14:52.767000,KGShop,dbo,2024-11-01 14:34:24.273000,Microsoft SQL Server Management Studio - Query
+1456,263-303,16523,0,,\\YulyaFerra\Model\NEBESA\051.jpeg,1456,yulya,2024-10-30 11:20:44.613000,KGShop,dbo,2024-11-01 14:34:24.277000,Microsoft SQL Server Management Studio - Query
+1457,263-252,19417,0,,\\YulyaFerra\Model\NEBESA\252.jpeg,1457,yulya,2024-10-30 11:26:29.633000,KGShop,dbo,2024-11-01 14:34:24.280000,Microsoft SQL Server Management Studio - Query
+1458,263-305,16523,0,,\\YulyaFerra\Model\NEBESA\305.jpeg,1458,yulya,2024-10-30 11:32:20.170000,KGShop,dbo,2024-11-01 14:34:24.280000,Microsoft SQL Server Management Studio - Query
+1459,263-20 51,16523,0,,\\YulyaFerra\Model\NEBESA\2051.jpeg,1459,yulya,2024-10-30 11:36:58.983000,KGShop,dbo,2024-11-01 14:34:24.283000,Microsoft SQL Server Management Studio - Query
+1460,263-050,16523,0,,\\YulyaFerra\Model\NEBESA\050.jpeg,1460,yulya,2024-10-30 11:40:51.413000,KGShop,dbo,2024-11-01 14:34:24.287000,Microsoft SQL Server Management Studio - Query
+1461,263-253,17242,0,,\\YulyaFerra\Model\NEBESA\253.jpeg,1461,yulya,2024-10-30 11:50:31.180000,KGShop,dbo,2024-11-01 14:34:24.290000,Microsoft SQL Server Management Studio - Query
+1462,263-255,19417,0,,\\YulyaFerra\Model\NEBESA\255.jpeg,1462,yulya,2024-10-30 11:55:06.397000,KGShop,dbo,2024-11-01 14:34:24.290000,Microsoft SQL Server Management Studio - Query
+1463,263-053,16523,0,,\\YulyaFerra\Model\NEBESA\053.jpeg,1463,yulya,2024-10-30 12:04:28.110000,KGShop,dbo,2024-11-01 14:34:24.293000,Microsoft SQL Server Management Studio - Query
+1464,263-26,16523,0,,\\YulyaFerra\Model\NEBESA\26.jpeg,1464,yulya,2024-10-30 12:07:22.287000,KGShop,dbo,2024-11-01 14:34:24.293000,Microsoft SQL Server Management Studio - Query
+1465,263-302,16547,0,,\\YulyaFerra\Model\NEBESA\302.jpeg,1465,yulya,2024-10-30 12:28:28.737000,KGShop,dbo,2024-11-01 14:34:24.297000,Microsoft SQL Server Management Studio - Query
+1466,263-054,16523,0,,\\YulyaFerra\Model\NEBESA\054.jpeg,1466,yulya,2024-10-30 12:30:59.053000,KGShop,dbo,2024-11-01 14:34:24.300000,Microsoft SQL Server Management Studio - Query
+1467,263-301,16523,0,,\\YulyaFerra\Model\NEBESA\301.jpeg,1467,yulya,2024-10-30 12:35:55.760000,KGShop,dbo,2024-11-01 14:34:24.300000,Microsoft SQL Server Management Studio - Query
+1468,263-20,16523,0,,\\YulyaFerra\Model\NEBESA\20.jpeg,1468,yulya,2024-10-30 12:45:54.767000,KGShop,dbo,2024-11-01 14:34:24.303000,Microsoft SQL Server Management Studio - Query
+1469,263-251,16523,0,,\\YulyaFerra\Model\NEBESA\251.jpeg,1469,yulya,2024-10-30 12:48:52.463000,KGShop,dbo,2024-11-01 14:34:24.303000,Microsoft SQL Server Management Studio - Query
+1470,263-256,16523,0,,\\YulyaFerra\Model\NEBESA\256.jpeg,1470,yulya,2024-10-30 12:52:58.960000,KGShop,dbo,2024-11-01 14:34:24.307000,Microsoft SQL Server Management Studio - Query
+1471,263-35 55,16523,0,,\\YulyaFerra\Model\NEBESA\3555.jpeg,1471,yulya,2024-10-30 12:56:36.800000,KGShop,dbo,2024-11-01 14:34:24.310000,Microsoft SQL Server Management Studio - Query
+1472,263-21,16523,0,,\\YulyaFerra\Model\NEBESA\21.jpeg,1472,yulya,2024-10-30 12:58:40.913000,KGShop,dbo,2024-11-01 14:34:24.310000,Microsoft SQL Server Management Studio - Query
+1473,263-24,16523,0,,\\YulyaFerra\Model\NEBESA\24.jpeg,1473,yulya,2024-10-30 13:01:26.327000,KGShop,dbo,2024-11-01 14:34:24.313000,Microsoft SQL Server Management Studio - Query
+1474,263-29,16523,0,,\\YulyaFerra\Model\NEBESA\29.jpeg,1474,yulya,2024-10-30 13:04:36.020000,KGShop,dbo,2024-11-01 14:34:24.313000,Microsoft SQL Server Management Studio - Query
+1475,263-306,16523,0,,\\YulyaFerra\Model\NEBESA\306.jpeg,1475,yulya,2024-10-30 13:06:31.280000,KGShop,dbo,2024-11-01 14:34:24.317000,Microsoft SQL Server Management Studio - Query
+1476,263-304,16523,0,,\\YulyaFerra\Model\NEBESA\304.jpeg,1476,yulya,2024-10-30 13:09:30.040000,KGShop,dbo,2024-11-01 14:34:24.320000,Microsoft SQL Server Management Studio - Query
+1477,263-029,16523,0,,\\YulyaFerra\Model\NEBESA\029.jpeg,1477,yulya,2024-10-30 13:11:31.277000,KGShop,dbo,2024-11-01 14:34:24.320000,Microsoft SQL Server Management Studio - Query
+1478,263-250,16523,0,,\\YulyaFerra\Model\NEBESA\250.jpeg,1478,yulya,2024-10-30 13:13:48.093000,KGShop,dbo,2024-11-01 14:34:24.323000,Microsoft SQL Server Management Studio - Query
+1479,263-254,16523,0,,\\YulyaFerra\Model\NEBESA\254.jpeg,1479,yulya,2024-10-30 13:23:57.107000,KGShop,dbo,2024-11-01 14:34:24.327000,Microsoft SQL Server Management Studio - Query
+1480,074-6127,16759,0,,\\YulyaFerra\Model\WONDERFULL\6127.jpeg,1480,yulya,2024-10-30 15:05:11.907000,KGShop,dbo,2024-11-01 14:34:24.327000,Microsoft SQL Server Management Studio - Query
+1481,074-6125,16523,0,,\\YulyaFerra\Model\WONDERFULL\6125.jpeg,1481,yulya,2024-10-30 15:07:49.147000,KGShop,dbo,2024-11-01 14:34:24.330000,Microsoft SQL Server Management Studio - Query
+1482,074-6121,16523,0,,\\YulyaFerra\Model\WONDERFULL\6121.jpeg,1482,yulya,2024-10-30 15:09:27.737000,KGShop,dbo,2024-11-01 14:34:24.337000,Microsoft SQL Server Management Studio - Query
+1483,074-6120,16525,0,,\\YulyaFerra\Model\WONDERFULL\6120.jpeg,1483,yulya,2024-10-30 15:11:43.150000,KGShop,dbo,2024-11-01 14:34:24.340000,Microsoft SQL Server Management Studio - Query
+1484,074-6123,16525,0,,\\YulyaFerra\Model\WONDERFULL\6123.jpeg,1484,yulya,2024-10-30 15:13:10.300000,KGShop,dbo,2024-11-01 14:34:24.340000,Microsoft SQL Server Management Studio - Query
+1485,074-6126,16532,0,,\\YulyaFerra\Model\WONDERFULL\6126.jpeg,1485,yulya,2024-10-30 15:15:50.297000,KGShop,dbo,2024-11-01 14:34:24.343000,Microsoft SQL Server Management Studio - Query
+1486,074-6128,16525,0,,\\YulyaFerra\Model\WONDERFULL\6128.jpeg,1486,yulya,2024-10-30 15:18:25.393000,KGShop,dbo,2024-11-01 14:34:24.347000,Microsoft SQL Server Management Studio - Query
+1487,074-6129,16525,0,,\\YulyaFerra\Model\WONDERFULL\6129.jpeg,1487,yulya,2024-10-30 15:20:12.917000,KGShop,dbo,2024-11-01 14:34:24.347000,Microsoft SQL Server Management Studio - Query
+1488,074-6124,16759,0,,\\YulyaFerra\Model\WONDERFULL\6124.jpeg,1488,yulya,2024-10-30 15:22:02.880000,KGShop,dbo,2024-11-01 14:34:24.350000,Microsoft SQL Server Management Studio - Query
+1489,074-6122,16523,0,,\\YulyaFerra\Model\WONDERFULL\6122.jpeg,1489,yulya,2024-10-30 15:23:40.453000,KGShop,dbo,2024-11-01 14:34:24.353000,Microsoft SQL Server Management Studio - Query
+1490,074-267,16525,0,,\\YulyaFerra\Model\WONDERFULL\267.jpeg,1490,yulya,2024-10-30 15:26:57.233000,KGShop,dbo,2024-11-01 14:34:24.353000,Microsoft SQL Server Management Studio - Query
+1491,074-261,16525,0,,\\YulyaFerra\Model\WONDERFULL\261.jpeg,1491,yulya,2024-10-30 15:28:35.320000,KGShop,dbo,2024-11-01 14:34:24.357000,Microsoft SQL Server Management Studio - Query
+1492,074-265,16523,0,,\\YulyaFerra\Model\WONDERFULL\265.jpeg,1492,yulya,2024-10-30 15:30:27.130000,KGShop,dbo,2024-11-01 14:34:24.360000,Microsoft SQL Server Management Studio - Query
+1493,074-262,19424,0,,\\YulyaFerra\Model\WONDERFULL\262.jpeg,1493,yulya,2024-10-30 15:32:23.510000,KGShop,dbo,2024-11-01 14:34:24.363000,Microsoft SQL Server Management Studio - Query
+1494,074-260,16815,0,,\\YulyaFerra\Model\WONDERFULL\260.jpeg,1494,yulya,2024-10-30 15:36:13.140000,KGShop,dbo,2024-11-01 14:34:24.363000,Microsoft SQL Server Management Studio - Query
+1495,074-264,16525,0,,\\YulyaFerra\Model\WONDERFULL\264.jpeg,1495,yulya,2024-10-30 15:37:43.953000,KGShop,dbo,2024-11-01 14:34:24.367000,Microsoft SQL Server Management Studio - Query
+1496,074-263,16523,0,,\\YulyaFerra\Model\WONDERFULL\263.jpeg,1496,yulya,2024-10-30 15:39:41.840000,KGShop,dbo,2024-11-01 14:34:24.370000,Microsoft SQL Server Management Studio - Query
+1497,074-268,16523,0,,\\YulyaFerra\Model\WONDERFULL\268.jpeg,1497,yulya,2024-10-30 15:41:52.400000,KGShop,dbo,2024-11-01 14:34:24.370000,Microsoft SQL Server Management Studio - Query
+1498,074-270,16525,0,,\\YulyaFerra\Model\WONDERFULL\270.jpeg,1498,yulya,2024-10-30 15:43:27.887000,KGShop,dbo,2024-11-01 14:34:24.373000,Microsoft SQL Server Management Studio - Query
+1499,074-7037,16532,0,,\\YulyaFerra\Model\WONDERFULL\7037.jpeg,1499,yulya,2024-10-30 15:50:11.700000,KGShop,dbo,2024-11-01 14:34:24.377000,Microsoft SQL Server Management Studio - Query
+1500,074-7038,16532,0,,\\YulyaFerra\Model\WONDERFULL\7038.jpeg,1500,yulya,2024-10-30 15:51:23.700000,KGShop,dbo,2024-11-01 14:34:24.380000,Microsoft SQL Server Management Studio - Query
+1501,074-7030,16523,0,,\\YulyaFerra\Model\WONDERFULL\7030.jpeg,1501,yulya,2024-10-30 15:52:39.910000,KGShop,dbo,2024-11-01 14:34:24.380000,Microsoft SQL Server Management Studio - Query
+1502,074-7036,16525,0,,\\YulyaFerra\Model\WONDERFULL\7036.jpeg,1502,yulya,2024-10-30 15:55:49.440000,KGShop,dbo,2024-11-01 14:34:24.383000,Microsoft SQL Server Management Studio - Query
+1503,074-7005,16523,0,,\\YulyaFerra\Model\WONDERFULL\7005.jpeg,1503,yulya,2024-10-30 15:57:40.597000,KGShop,dbo,2024-11-01 14:34:24.387000,Microsoft SQL Server Management Studio - Query
+1504,074-7007,16804,0,,\\YulyaFerra\Model\WONDERFULL\7007.jpeg,1504,yulya,2024-10-30 15:59:25.837000,KGShop,dbo,2024-11-01 14:34:24.387000,Microsoft SQL Server Management Studio - Query
+1505,074-7034,16525,0,,\\YulyaFerra\Model\WONDERFULL\7034.jpeg,1505,yulya,2024-10-30 16:01:40.700000,KGShop,dbo,2024-11-01 14:34:24.390000,Microsoft SQL Server Management Studio - Query
+1506,074-7003,16525,0,,\\YulyaFerra\Model\WONDERFULL\7003.jpeg,1506,yulya,2024-10-30 16:03:25.593000,KGShop,dbo,2024-11-01 14:34:24.390000,Microsoft SQL Server Management Studio - Query
+1507,074-7032,16532,0,,\\YulyaFerra\Model\WONDERFULL\7032.jpeg,1507,yulya,2024-10-30 16:07:07.337000,KGShop,dbo,2024-11-01 14:34:24.393000,Microsoft SQL Server Management Studio - Query
+1508,074-7031,16523,0,,\\YulyaFerra\Model\WONDERFULL\7031.jpeg,1508,yulya,2024-10-30 16:08:32.187000,KGShop,dbo,2024-11-01 14:34:24.397000,Microsoft SQL Server Management Studio - Query
+1509,074-7011,16523,0,,\\YulyaFerra\Model\WONDERFULL\7011.jpeg,1509,yulya,2024-10-30 16:11:05.820000,KGShop,dbo,2024-11-01 14:34:24.397000,Microsoft SQL Server Management Studio - Query
+1510,074-7035,16804,0,,\\YulyaFerra\Model\WONDERFULL\7035.jpeg,1510,yulya,2024-10-30 16:12:53.623000,KGShop,dbo,2024-11-01 14:34:24.400000,Microsoft SQL Server Management Studio - Query
+1511,074-7033,16525,0,,\\YulyaFerra\Model\WONDERFULL\7033.jpeg,1511,yulya,2024-10-30 16:15:10.023000,KGShop,dbo,2024-11-01 14:34:24.403000,Microsoft SQL Server Management Studio - Query
+1512,043-151,16792,0,,\\YulyaFerra\Model\liliya bella yaz\151.jpeg,1512,yulya,2024-10-30 18:05:02.343000,KGShop,dbo,2024-11-01 14:34:24.403000,Microsoft SQL Server Management Studio - Query
+1513,043-152,16537,0,,\\YulyaFerra\Model\liliya bella yaz\152.jpeg,1513,yulya,2024-10-30 18:06:53.457000,KGShop,dbo,2024-11-01 14:34:24.407000,Microsoft SQL Server Management Studio - Query
+1514,043-172,19426,0,,\\YulyaFerra\Model\liliya bella yaz\172.jpeg,1514,yulya,2024-10-30 18:08:39.370000,KGShop,dbo,2024-11-01 14:34:24.410000,Microsoft SQL Server Management Studio - Query
+1515,043-121,16792,0,,\\YulyaFerra\Model\liliya bella yaz\121.jpeg,1515,yulya,2024-10-30 18:13:22.610000,KGShop,dbo,2024-11-01 14:34:24.410000,Microsoft SQL Server Management Studio - Query
+1516,043-114,18034,0,,\\YulyaFerra\Model\liliya bella yaz\114.jpeg,1516,yulya,2024-10-30 18:15:06.530000,KGShop,dbo,2024-11-01 14:34:24.410000,Microsoft SQL Server Management Studio - Query
+1517,043-106,16792,0,,\\YulyaFerra\Model\liliya bella yaz\106.jpeg,1517,yulya,2024-10-30 18:17:27.960000,KGShop,dbo,2024-11-01 14:34:24.413000,Microsoft SQL Server Management Studio - Query
+1518,043-116,16864,0,,\\YulyaFerra\Model\liliya bella yaz\116.jpeg,1518,yulya,2024-10-30 18:20:04.933000,KGShop,dbo,2024-11-01 14:34:24.417000,Microsoft SQL Server Management Studio - Query
+1519,043-120,16751,0,,\\YulyaFerra\Model\liliya bella yaz\120.jpeg,1519,yulya,2024-10-30 18:24:25.040000,KGShop,dbo,2024-11-01 14:34:24.420000,Microsoft SQL Server Management Studio - Query
+1520,043-171,17126,0,,\\YulyaFerra\Model\liliya bella yaz\171.jpeg,1520,yulya,2024-10-31 09:51:11.093000,KGShop,dbo,2024-11-01 14:34:24.420000,Microsoft SQL Server Management Studio - Query
+1521,043-150,16751,0,,\\YulyaFerra\Model\liliya bella yaz\150.jpeg,1521,yulya,2024-10-31 09:55:18.330000,KGShop,dbo,2024-11-01 14:34:24.423000,Microsoft SQL Server Management Studio - Query

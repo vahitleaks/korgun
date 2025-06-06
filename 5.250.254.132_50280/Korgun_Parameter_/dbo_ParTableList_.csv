@@ -1,0 +1,175 @@
+TRealName,TCaption,TProtect,DBName
+Par_,<isimsiz>,G,Antrepo20
+Par_Cari_OzKod1,Para Cinsi,G,Antrepo20
+Par_Cari_OzKod10,İşlem Tipi,G,Antrepo20
+Par_Cari_OzKod3,Kategori,G,Antrepo20
+Par_Cari_OzKod4,Müş.Temsilcisi,G,Antrepo20
+Par_Cari_OzKod5,Ortak Cari,G,Antrepo20
+Par_Cari_OzKod9,Ödeme Şekli,G,Antrepo20
+Par_CariTip,Cari Tipi,G,Antrepo20
+Par_Desi,Desi,G,Antrepo20
+Par_Stok_OzKod1,Model,G,Antrepo20
+Par_Stok_OzKod10,KalipBilgisi,G,Antrepo20
+Par_Stok_OzKod11,Taban Yüksekliği,G,Antrepo20
+Par_Stok_OzKod12,Kalıp,G,Antrepo20
+Par_Stok_OzKod13,Aksesuar Bilgisi,G,Antrepo20
+Par_Stok_OzKod14,Bilek Baldır Ölçüsü,G,Antrepo20
+Par_Stok_OzKod15,Bilek Uzunluğu,G,Antrepo20
+Par_Stok_OzKod16,Burun ve Topuk,G,Antrepo20
+Par_Stok_OzKod17,Ürün Boyutu,G,Antrepo20
+Par_Stok_OzKod18,Kapanma Türü,G,Antrepo20
+Par_Stok_OzKod19,Ürün Niteligi,G,Antrepo20
+Par_Stok_OzKod2,Model Yılı,G,Antrepo20
+Par_Stok_OzKod20,Özel Kod 20,G,Antrepo20
+Par_Stok_OzKod3,Sezon,G,Antrepo20
+Par_Stok_OzKod4,Taban Tipi,G,Antrepo20
+Par_Stok_OzKod5,Astar Tipi,G,Antrepo20
+Par_Stok_OzKod6,Dış Özellik,G,Antrepo20
+Par_Stok_OzKod7,Üretim Yeri,G,Antrepo20
+Par_Stok_OzKod8,Web Satış,G,Antrepo20
+Par_UrunAdi,Ürün Adı,G,Antrepo20
+Par_,<isimsiz>,G,Cabani20
+Par_Cari_OzKod1,Para Cinsi,G,Cabani20
+Par_Cari_OzKod10,İşlem Tipi,G,Cabani20
+Par_Cari_OzKod3,Kategori,G,Cabani20
+Par_Cari_OzKod4,Müş.Temsilcisi,G,Cabani20
+Par_Cari_OzKod5,Ortak Cari,G,Cabani20
+Par_Cari_OzKod9,Ödeme Şekli,G,Cabani20
+Par_CariTip,Cari Tipi,G,Cabani20
+Par_Desi,Desi,G,Cabani20
+Par_Stok_OzKod1,Model,G,Cabani20
+Par_Stok_OzKod10,KalipBilgisi,G,Cabani20
+Par_Stok_OzKod11,Taban Yüksekliği,G,Cabani20
+Par_Stok_OzKod12,Kalıp,G,Cabani20
+Par_Stok_OzKod13,Aksesuar Bilgisi,G,Cabani20
+Par_Stok_OzKod14,Bilek Baldır Ölçüsü,G,Cabani20
+Par_Stok_OzKod15,Bilek Uzunluğu,G,Cabani20
+Par_Stok_OzKod16,Burun ve Topuk,G,Cabani20
+Par_Stok_OzKod17,Ürün Boyutu,G,Cabani20
+Par_Stok_OzKod18,Kapanma Türü,G,Cabani20
+Par_Stok_OzKod19,Ürün Niteligi,G,Cabani20
+Par_Stok_OzKod2,Model Yılı,G,Cabani20
+Par_Stok_OzKod20,Özel Kod 20,G,Cabani20
+Par_Stok_OzKod3,Sezon,G,Cabani20
+Par_Stok_OzKod4,Taban Tipi,G,Cabani20
+Par_Stok_OzKod5,Astar Tipi,G,Cabani20
+Par_Stok_OzKod6,Dış Özellik,G,Cabani20
+Par_Stok_OzKod7,Üretim Yeri,G,Cabani20
+Par_Stok_OzKod8,Web Satış,G,Cabani20
+Par_UrunAdi,Ürün Adı,G,Cabani20
+Par_,<isimsiz>,G,KORGUNYAZILIM1910
+Par_Cari_OzKod1,Para Cinsi,G,KORGUNYAZILIM1910
+Par_Cari_OzKod10,İşlem Tipi,G,KORGUNYAZILIM1910
+Par_Cari_OzKod3,Kategori,G,KORGUNYAZILIM1910
+Par_Cari_OzKod4,Müş.Temsilcisi,G,KORGUNYAZILIM1910
+Par_Cari_OzKod5,Ortak Cari,G,KORGUNYAZILIM1910
+Par_Cari_OzKod9,Ödeme Şekli,G,KORGUNYAZILIM1910
+Par_CariTip,Cari Tipi,G,KORGUNYAZILIM1910
+Par_Desi,Desi,G,KORGUNYAZILIM1910
+Par_Stok_OzKod1,Model,G,KORGUNYAZILIM1910
+Par_Stok_OzKod10,KalipBilgisi,G,KORGUNYAZILIM1910
+Par_Stok_OzKod11,Taban Yüksekliği,G,KORGUNYAZILIM1910
+Par_Stok_OzKod12,Kalıp,G,KORGUNYAZILIM1910
+Par_Stok_OzKod13,Aksesuar Bilgisi,G,KORGUNYAZILIM1910
+Par_Stok_OzKod14,Bilek Baldır Ölçüsü,G,KORGUNYAZILIM1910
+Par_Stok_OzKod15,Bilek Uzunluğu,G,KORGUNYAZILIM1910
+Par_Stok_OzKod16,Burun ve Topuk,G,KORGUNYAZILIM1910
+Par_Stok_OzKod17,Ürün Boyutu,G,KORGUNYAZILIM1910
+Par_Stok_OzKod18,Kapanma Türü,G,KORGUNYAZILIM1910
+Par_Stok_OzKod19,Ürün Niteligi,G,KORGUNYAZILIM1910
+Par_Stok_OzKod2,Model Yılı,G,KORGUNYAZILIM1910
+Par_Stok_OzKod20,Özel Kod 20,G,KORGUNYAZILIM1910
+Par_Stok_OzKod3,Sezon,G,KORGUNYAZILIM1910
+Par_Stok_OzKod4,Taban Tipi,G,KORGUNYAZILIM1910
+Par_Stok_OzKod5,Astar Tipi,G,KORGUNYAZILIM1910
+Par_Stok_OzKod6,Dış Özellik,G,KORGUNYAZILIM1910
+Par_Stok_OzKod7,Üretim Yeri,G,KORGUNYAZILIM1910
+Par_Stok_OzKod8,Web Satış,G,KORGUNYAZILIM1910
+Par_UrunAdi,Ürün Adı,G,KORGUNYAZILIM1910
+Par_,<isimsiz>,G,KORGUNYAZILIM2210
+Par_Cari_OzKod1,Para Cinsi,G,KORGUNYAZILIM2210
+Par_Cari_OzKod10,İşlem Tipi,G,KORGUNYAZILIM2210
+Par_Cari_OzKod3,Kategori,G,KORGUNYAZILIM2210
+Par_Cari_OzKod4,Müş.Temsilcisi,G,KORGUNYAZILIM2210
+Par_Cari_OzKod5,Ortak Cari,G,KORGUNYAZILIM2210
+Par_Cari_OzKod9,Ödeme Şekli,G,KORGUNYAZILIM2210
+Par_CariTip,Cari Tipi,G,KORGUNYAZILIM2210
+Par_Desi,Desi,G,KORGUNYAZILIM2210
+Par_Stok_OzKod1,Model,G,KORGUNYAZILIM2210
+Par_Stok_OzKod10,KalipBilgisi,G,KORGUNYAZILIM2210
+Par_Stok_OzKod11,Taban Yüksekliği,G,KORGUNYAZILIM2210
+Par_Stok_OzKod12,Kalıp,G,KORGUNYAZILIM2210
+Par_Stok_OzKod13,Aksesuar Bilgisi,G,KORGUNYAZILIM2210
+Par_Stok_OzKod14,Bilek Baldır Ölçüsü,G,KORGUNYAZILIM2210
+Par_Stok_OzKod15,Bilek Uzunluğu,G,KORGUNYAZILIM2210
+Par_Stok_OzKod16,Burun ve Topuk,G,KORGUNYAZILIM2210
+Par_Stok_OzKod17,Ürün Boyutu,G,KORGUNYAZILIM2210
+Par_Stok_OzKod18,Kapanma Türü,G,KORGUNYAZILIM2210
+Par_Stok_OzKod19,Ürün Niteligi,G,KORGUNYAZILIM2210
+Par_Stok_OzKod2,Model Yılı,G,KORGUNYAZILIM2210
+Par_Stok_OzKod20,Özel Kod 20,G,KORGUNYAZILIM2210
+Par_Stok_OzKod3,Sezon,G,KORGUNYAZILIM2210
+Par_Stok_OzKod4,Taban Tipi,G,KORGUNYAZILIM2210
+Par_Stok_OzKod5,Astar Tipi,G,KORGUNYAZILIM2210
+Par_Stok_OzKod6,Dış Özellik,G,KORGUNYAZILIM2210
+Par_Stok_OzKod7,Üretim Yeri,G,KORGUNYAZILIM2210
+Par_Stok_OzKod8,Web Satış,G,KORGUNYAZILIM2210
+Par_UrunAdi,Ürün Adı,G,KORGUNYAZILIM2210
+Par_,<isimsiz>,G,KORGUNYAZILIM2310
+Par_Cari_OzKod1,Para Cinsi,G,KORGUNYAZILIM2310
+Par_Cari_OzKod10,İşlem Tipi,G,KORGUNYAZILIM2310
+Par_Cari_OzKod3,Kategori,G,KORGUNYAZILIM2310
+Par_Cari_OzKod4,Müş.Temsilcisi,G,KORGUNYAZILIM2310
+Par_Cari_OzKod5,Ortak Cari,G,KORGUNYAZILIM2310
+Par_Cari_OzKod9,Ödeme Şekli,G,KORGUNYAZILIM2310
+Par_CariTip,Cari Tipi,G,KORGUNYAZILIM2310
+Par_Desi,Desi,G,KORGUNYAZILIM2310
+Par_Stok_OzKod1,Model,G,KORGUNYAZILIM2310
+Par_Stok_OzKod10,KalipBilgisi,G,KORGUNYAZILIM2310
+Par_Stok_OzKod11,Taban Yüksekliği,G,KORGUNYAZILIM2310
+Par_Stok_OzKod12,Kalıp,G,KORGUNYAZILIM2310
+Par_Stok_OzKod13,Aksesuar Bilgisi,G,KORGUNYAZILIM2310
+Par_Stok_OzKod14,Bilek Baldır Ölçüsü,G,KORGUNYAZILIM2310
+Par_Stok_OzKod15,Bilek Uzunluğu,G,KORGUNYAZILIM2310
+Par_Stok_OzKod16,Burun ve Topuk,G,KORGUNYAZILIM2310
+Par_Stok_OzKod17,Ürün Boyutu,G,KORGUNYAZILIM2310
+Par_Stok_OzKod18,Kapanma Türü,G,KORGUNYAZILIM2310
+Par_Stok_OzKod19,Ürün Niteligi,G,KORGUNYAZILIM2310
+Par_Stok_OzKod2,Model Yılı,G,KORGUNYAZILIM2310
+Par_Stok_OzKod20,Özel Kod 20,G,KORGUNYAZILIM2310
+Par_Stok_OzKod3,Sezon,G,KORGUNYAZILIM2310
+Par_Stok_OzKod4,Taban Tipi,G,KORGUNYAZILIM2310
+Par_Stok_OzKod5,Astar Tipi,G,KORGUNYAZILIM2310
+Par_Stok_OzKod6,Dış Özellik,G,KORGUNYAZILIM2310
+Par_Stok_OzKod7,Üretim Yeri,G,KORGUNYAZILIM2310
+Par_Stok_OzKod8,Web Satış,G,KORGUNYAZILIM2310
+Par_UrunAdi,Ürün Adı,G,KORGUNYAZILIM2310
+Par_,<isimsiz>,G,Uretim20
+Par_Cari_OzKod1,Para Cinsi,G,Uretim20
+Par_Cari_OzKod10,İşlem Tipi,G,Uretim20
+Par_Cari_OzKod3,Kategori,G,Uretim20
+Par_Cari_OzKod4,Müş.Temsilcisi,G,Uretim20
+Par_Cari_OzKod5,Ortak Cari,G,Uretim20
+Par_Cari_OzKod9,Ödeme Şekli,G,Uretim20
+Par_CariTip,Cari Tipi,G,Uretim20
+Par_Desi,Desi,G,Uretim20
+Par_Stok_OzKod1,Model,G,Uretim20
+Par_Stok_OzKod10,KalipBilgisi,G,Uretim20
+Par_Stok_OzKod11,Taban Yüksekliği,G,Uretim20
+Par_Stok_OzKod12,Kalıp,G,Uretim20
+Par_Stok_OzKod13,Aksesuar Bilgisi,G,Uretim20
+Par_Stok_OzKod14,Bilek Baldır Ölçüsü,G,Uretim20
+Par_Stok_OzKod15,Bilek Uzunluğu,G,Uretim20
+Par_Stok_OzKod16,Burun ve Topuk,G,Uretim20
+Par_Stok_OzKod17,Ürün Boyutu,G,Uretim20
+Par_Stok_OzKod18,Kapanma Türü,G,Uretim20
+Par_Stok_OzKod19,Ürün Niteligi,G,Uretim20
+Par_Stok_OzKod2,Model Yılı,G,Uretim20
+Par_Stok_OzKod20,Özel Kod 20,G,Uretim20
+Par_Stok_OzKod3,Sezon,G,Uretim20
+Par_Stok_OzKod4,Taban Tipi,G,Uretim20
+Par_Stok_OzKod5,Astar Tipi,G,Uretim20
+Par_Stok_OzKod6,Dış Özellik,G,Uretim20
+Par_Stok_OzKod7,Üretim Yeri,G,Uretim20
+Par_Stok_OzKod8,Web Satış,G,Uretim20
+Par_UrunAdi,Ürün Adı,G,Uretim20

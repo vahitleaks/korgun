@@ -1,0 +1,601 @@
+RENK_KOD,Tanim,OzKod1,OzKod2,OzKod3,Tip,DBName
+1,Siyah,,,,,LINDON
+2,Sarı,,,,,LINDON
+3,Nubuk Lacivert,,,,,LINDON
+4,Siyah Siyah,,,,,LINDON
+5,Siyah Kırmızı,,,,,LINDON
+6,Lacivert,,,,,LINDON
+7,Bordo,,,,,LINDON
+8,Füme,,,,,LINDON
+9,Beyaz,,,,,LINDON
+10,Haki,,,,,LINDON
+11,Siyah Beyaz,,,,,LINDON
+12,Siyah Sarı,,,,,LINDON
+13,Kırmızı,,,,,LINDON
+14,Haki Yeşili,,,,,LINDON
+15,Siyah Mavi,,,,,LINDON
+16,Petrol Yeşili,,,,,LINDON
+17,Kahverengi,,,,,LINDON
+18,Siyah Füme,,,,,LINDON
+19,Vizon,,,,,LINDON
+20,Siyah Füme Oranj,,,,,LINDON
+21,Siyah Gümüş,,,,,LINDON
+22,Haki Yeşil,,,,,LINDON
+23,Beyaz Kırmızı,,,,,LINDON
+24,Kırmızı Füme,,,,,LINDON
+25,Füme Siyah,,,,,LINDON
+26,Lacivert Kırmızı,,,,,LINDON
+27,Siyah Siyah1,,,,,LINDON
+28,Haki Siyah 1,,,,,LINDON
+29,Kum Siyah1,,,,,LINDON
+30,Siyah Siyah Kırmızı1,,,,,LINDON
+31,Siyah Füme Kırmızı1,,,,,LINDON
+32,Siyah Kahve Oranj1,,,,,LINDON
+33,Siyah Haki1,,,,,LINDON
+34,Siyah1,,,,,LINDON
+35,Beyaz1,,,,,LINDON
+36,Siyah Taba1,,,,,LINDON
+37,Rugan Siyah1,,,,,LINDON
+38,Mat Siyah1,,,,,LINDON
+39,Kum,,,,,LINDON
+40,Kahverengi1,,,,,LINDON
+41,Domino Siyah,,,,,LINDON
+42,Nubuk Siyah,,,,,LINDON
+43,Nubuk Camel,,,,,LINDON
+44,Siyah Kamuflaj,,,,,LINDON
+45,Hardal,,,,,LINDON
+46,Siyah Cilt,,,,,LINDON
+47,Siyah Süet,,,,,LINDON
+48,Taba,,,,,LINDON
+49,Füme Kırmızı Mavi,,,,,LINDON
+50,Buz Gri Beyaz Sarı,,,,,LINDON
+51,Somon Yeşil Siyah,,,,,LINDON
+52,Beyaz Gümüş,,,,,LINDON
+53,Siyah Fuşya,,,,,LINDON
+54,Pembe Beyaz,,,,,LINDON
+55,Beyaz Mor,,,,,LINDON
+56,Bordo Beyaz,,,,,LINDON
+57,Açık Pembe Beyaz,,,,,LINDON
+58,Füme Beyaz,,,,,LINDON
+59,Lacivert Beyaz,,,,,LINDON
+60,Haki Siyah,,,,,LINDON
+61,Buz Lacivert,,,,,LINDON
+62,Sarı Siyah,,,,,LINDON
+63,Gri Siyah,,,,,LINDON
+64,Kırmızı Siyah,,,,,LINDON
+65,Süet Siyah,,,,,LINDON
+66,Mat Siyah,,,,,LINDON
+67,Rugan Siyah,,,,,LINDON
+68,Buz Beyaz,,,,,LINDON
+69,Lacivert Lacivert,,,,,LINDON
+70,Sumi Buz,,,,,LINDON
+71,Nova Beyaz,,,,,LINDON
+72,Taba Kahve,,,,,LINDON
+73,Taba Beyaz,,,,,LINDON
+74,Siyah Mavi Beyaz,,,,,LINDON
+75,Süet Lacivert,,,,,LINDON
+76,3D Baskılı Siyah Siyah,,,,,LINDON
+77,3D Baskılı Siyah,,,,,LINDON
+78,Beyaz Siyah,,,,,LINDON
+79,Sarı Beyaz,,,,,LINDON
+80,3D Baskılı Beyaz,,,,,LINDON
+81,3D Baskılı Siyah Beyaz,,,,,LINDON
+82,Beyaz Beyaz,,,,,LINDON
+83,Cilt Beyaz Buz,,,,,LINDON
+84,Cilt Siyah Füme,,,,,LINDON
+85,Beyaz Buz,,,,,LINDON
+86,Buz Siyah Kırmızı,,,,,LINDON
+87,Siyah Beyaz Füme,,,,,LINDON
+88,Kırmızı Buz,,,,,LINDON
+89,Beyaz Süet,,,,,LINDON
+90,Taş Siyah Hardal,,,,,LINDON
+91,Buz,,,,,LINDON
+92,Siyah Hardal Taş,,,,,LINDON
+93,Lacivert Gri,,,,,LINDON
+94,Taba Taba,,,,,LINDON
+95,Siyah Gri,,,,,LINDON
+96,Siyah Sax,,,,,LINDON
+97,Siyah Turuncu,,,,,LINDON
+98,Gri,,,,,LINDON
+99,Lacivert Krep Lacivert,,,,,LINDON
+100,Lacivert Beyaz Krep,,,,,LINDON
+101,Siyah Beyaz Krep,,,,,LINDON
+102,Siyah Grafiti,,,,,LINDON
+103,Beyaz Grafiti,,,,,LINDON
+104,Siyah Taba,,,,,LINDON
+105,Beyaz Taba,,,,,LINDON
+106,Siyah Turuncu Siyah,,,,,LINDON
+107,Beyaz Mavi,,,,,LINDON
+108,Füme Pembe,,,,,LINDON
+109,Buz Mor,,,,,LINDON
+110,Lacivert Gümüş,,,,,LINDON
+111,Pudra Pembe,,,,,LINDON
+112,Buz Fuşya,,,,,LINDON
+113,Lacivert Fuşya,,,,,LINDON
+114,Füme Fuşya,,,,,LINDON
+115,Beyaz Yeşil,,,,,LINDON
+116,Kırmızı Beyaz,,,,,LINDON
+117,Mavi Siyah,,,,,LINDON
+118,Petrol Yeşili Vizon,,,,,LINDON
+119,Lacivert Kırmızı Vizon,,,,,LINDON
+120,Lacivert Vizon,,,,,LINDON
+121,Siyah Mavi Vizon,,,,,LINDON
+122,Mavi Vizon,,,,,LINDON
+123,Siyah Vizon,,,,,LINDON
+124,Beyaz Fuşya,,,,,LINDON
+125,Füme Toz Pembe,,,,,LINDON
+126,Siyah Füme Beyaz,,,,,LINDON
+127,Beyaz Lacivert Kırmızı,,,,,LINDON
+128,Haki Beyaz,,,,,LINDON
+129,Pudra Pembe Beyaz,,,,,LINDON
+130,Siyah Siyah Kırmızı,,,,,LINDON
+131,Kırmızı Kırmızı,,,,,LINDON
+132,Mavi Beyaz,,,,,LINDON
+133,Vizon Beyaz,,,,,LINDON
+134,Siyah Kırmızı Füme,,,,,LINDON
+135,Lacivert Gümüş Kırmızı,,,,,LINDON
+136,Siyah Sax Gümüş,,,,,LINDON
+137,Kırmızı Turuncu Gümüş,,,,,LINDON
+138,Beyaz Sax Kırmızı,,,,,LINDON
+139,Siyah Kırmzı,,,,,LINDON
+140,Buz Beyaz Krep,,,,,LINDON
+141,Siyah Kırmızı Krep,,,,,LINDON
+142,Siyah Buz Beyaz,,,,,LINDON
+143,Siyah Buz,,,,,LINDON
+144,Siyah Beyaz Turuncu,,,,,LINDON
+145,Taba Buz,,,,,LINDON
+146,Cilt Siyah,,,,,LINDON
+147,Haki Beyaz Krep,,,,,LINDON
+148,Baskılı Siyah Beyaz,,,,,LINDON
+149,Baskılı Beyaz,,,,,LINDON
+150,Baskılı Taba,,,,,LINDON
+151,Baskılı Haki,,,,,LINDON
+152,Baskılı Siyah Siyah,,,,,LINDON
+153,Siyah Siyah Kadife,,,,,LINDON
+154,Siyah Siyah Cilt,,,,,LINDON
+155,Lacivert Lacivert Rugan,,,,,LINDON
+156,Lacivert Lacivert Kadife,,,,,LINDON
+157,Siyah Siyah Rugan,,,,,LINDON
+158,Lacivert Lacivert Cilt,,,,,LINDON
+159,Siyah Siyah Beyaz,,,,,LINDON
+160,Siyah Mavi Kırmızı,,,,,LINDON
+161,Mavi,,,,,LINDON
+162,Beyaz Beyaz Krep,,,,,LINDON
+163,Bej Siyah,,,,,LINDON
+164,Lacivert Beyaz Kırmızı Çizgili,,,,,LINDON
+165,Siyah Siyah Kırmızı Çizgili,,,,,LINDON
+166,Lacivert Beyaz Beyaz Çizgili,,,,,LINDON
+167,Siyah Siyah Beyaz Çizgili,,,,,LINDON
+168,Taba Siyah,,,,,LINDON
+169,Haki Kamuflaj,,,,,LINDON
+170,Petrol Mavisi,,,,,LINDON
+171,Süet Taba Siyah,,,,,LINDON
+172,Siyah Beyaz1,,,,,LINDON
+173,Haki Siyah1,,,,,LINDON
+174,Lacivert Beyaz1,,,,,LINDON
+175,Siyah Siyah Süet,,,,,LINDON
+176,Taba Siyah Süet,,,,,LINDON
+177,Buz1,,,,,LINDON
+178,Fuşya Beyaz,,,,,LINDON
+179,Siyah Pudra,,,,,LINDON
+180,Siyah Zümrüt,,,,,LINDON
+181,Siyah Kırmızı1,,,,,LINDON
+182,Kum Siyah,,,,,LINDON
+183,Kahverengi Siyah,,,,,LINDON
+184,Gri1,,,,,LINDON
+185,Vizon Siyah,,,,,LINDON
+186,Cilt Beyaz,,,,,LINDON
+187,Cilt Ten Rengi,,,,,LINDON
+188,Süet Taba,,,,,LINDON
+189,Süet Vizon,,,,,LINDON
+190,Rugan Ten Rengi,,,,,LINDON
+191,Süet Kırmızı,,,,,LINDON
+192,Rugan Beyaz,,,,,LINDON
+193,Süet Kahverengi,,,,,LINDON
+194,Parlak Cilt Siyah,,,,,LINDON
+195,Mat Cilt Siyah,,,,,LINDON
+196,Bej,,,,,LINDON
+197,Cilt Taba,,,,,LINDON
+198,Süet Füme,,,,,LINDON
+199,Süet Bej,,,,,LINDON
+200,Cilt Vizon,,,,,LINDON
+201,Cilt Pembe,,,,,LINDON
+202,Gri Beyaz,,,,,LINDON
+203,Kahverengi Beyaz,,,,,LINDON
+204,Kahverengi Desenli,,,,,LINDON
+205,Lacivert Desenli,,,,,LINDON
+206,Siyah Desenli,,,,,LINDON
+207,Vizon Desenli,,,,,LINDON
+208,Rugan Platin,,,,,LINDON
+209,Siyah Sarı1,,,,,LINDON
+210,Haki1,,,,,LINDON
+211,Cilt Kahverengi,,,,,LINDON
+212,Lacivert1,,,,,LINDON
+213,Füme1,,,,,LINDON
+214,Haki Beyaz1,,,,,LINDON
+215,Nubuk Tarçın,,,,,LINDON
+216,Süet Siyah Beyaz,,,,,LINDON
+217,Süet Vizon Siyah,,,,,LINDON
+218,Ten Süet,,,,,LINDON
+219,Taba Süet,,,,,LINDON
+220,Taba Cilt Leopar Desenli,,,,,LINDON
+221,Beyaz Cilt Leopar Desenli,,,,,LINDON
+222,Siyah Cilt Leopar Desenli,,,,,LINDON
+223,Süet Ten,,,,,LINDON
+224,Vizon Süet,,,,,LINDON
+225,Lacivert Füme,,,,,LINDON
+226,Süet Siyah Siyah,,,,,LINDON
+227,Taba Nubuk,,,,,LINDON
+228,Kahverengi Cilt,,,,,LINDON
+229,Taba Cilt,,,,,LINDON
+230,Siyah Cilt Süet Detay,,,,,LINDON
+231,Haki Cilt,,,,,LINDON
+232,Beyaz Cilt,,,,,LINDON
+233,Siyah Rugan,,,,,LINDON
+234,Bej Beyaz,,,,,LINDON
+235,Haki Sarı,,,,,LINDON
+236,Hasır Kahverengi,,,,,LINDON
+237,Süet Nude,,,,,LINDON
+238,Nude,,,,,LINDON
+239,Pudra,,,,,LINDON
+240,Platin,,,,,LINDON
+241,Siyah Simli,,,,,LINDON
+242,Beyaz Pudra,,,,,LINDON
+243,Turkuaz,,,,,LINDON
+244,Gi,,,,,LINDON
+245,Kırık Beyaz,,,,,LINDON
+246,Beyaz Nar,,,,,LINDON
+247,Pudra Turkuaz,,,,,LINDON
+248,Pudra Beyaz,,,,,LINDON
+249,Gümüş Turkuaz,,,,,LINDON
+250,Nude Süet,,,,,LINDON
+251,Kiremit,,,,,LINDON
+252,Lila,,,,,LINDON
+253,Kırmızı Süet,,,,,LINDON
+254,Cute Beyaz,,,,,LINDON
+255,Beyaz Hologram,,,,,LINDON
+256,Beyaz Beyaz Siyah,,,,,LINDON
+257,Beyaz Beyaz Beyaz,,,,,LINDON
+258,Siyah Hologram Beyaz,,,,,LINDON
+259,Siyah Beyaz Beyaz,,,,,LINDON
+260,Beyaz Hologram Kapitone,,,,,LINDON
+261,Beyaz Yılan,,,,,LINDON
+262,Bej Yılan,,,,,LINDON
+263,Siyah Yılan,,,,,LINDON
+264,Siyah Kırışık Rugan Kapitone,,,,,LINDON
+265,Beyaz Kırışık Rugan Kapitone,,,,,LINDON
+266,Beyaz Beyaz Siyah Detay,,,,,LINDON
+267,Turkuaz Siyah,,,,,LINDON
+268,Gri Kırmızı,,,,,LINDON
+269,Kırmızı Gri,,,,,LINDON
+270,Gri Siyah Kırmızı,,,,,LINDON
+271,Hardal Gri Siyah,,,,,LINDON
+272,Kırmızı Gri Siyah,,,,,LINDON
+273,Siyah Hardal,,,,,LINDON
+274,Siyah Kırmızı Beyaz,,,,,LINDON
+275,Siyah Kırmızı Cilt,,,,,LINDON
+276,Siyah Hardal Cilt,,,,,LINDON
+277,Beyaz Siyah Cilt,,,,,LINDON
+278,Pudra Süet,,,,,LINDON
+279,Hardal Süet,,,,,LINDON
+280,Beyaz Keten,,,,,LINDON
+281,Turuncu,,,,,LINDON
+282,Bej Haki,,,,,LINDON
+283,Gri Hologram,,,,,LINDON
+284,Altın Sarısı,,,,,LINDON
+285,Ten Rengi,,,,,LINDON
+286,Mit Yeşil,,,,,LINDON
+287,Camel,,,,,LINDON
+288,Bej Oranj Mavi,,,,,LINDON
+289,Beyaz Su Yeşili,,,,,LINDON
+290,Beyaz Vizon Mavi,,,,,LINDON
+291,Vizon Sarı,,,,,LINDON
+292,Tarçın,,,,,LINDON
+293,Ten,,,,,LINDON
+294,Beyaz Baykuş,,,,,LINDON
+295,Beyaz Panda,,,,,LINDON
+296,Beyaz Kuş,,,,,LINDON
+297,Beyaz Kelebek,,,,,LINDON
+298,Beyaz Kedi,,,,,LINDON
+299,Bakır,,,,,LINDON
+300,Lacivert Kadife,,,,,LINDON
+301,Siyah Kadife,,,,,LINDON
+302,Haki Süet,,,,,LINDON
+303,Siyah Siyah Örme,,,,,LINDON
+304,Lacivert Lacivert Baskılı,,,,,LINDON
+305,Siyah Siyah Baskılı,,,,,LINDON
+306,Siyah Baskılı,,,,,LINDON
+307,Lacivert Baskılı,,,,,LINDON
+308,Siyah Örgülü,,,,,LINDON
+309,Siyah Beyaz Süet,,,,,LINDON
+310,Lacivert Süet,,,,,LINDON
+311,Buz Siyah,,,,,LINDON
+312,Haki Zincir,,,,,LINDON
+313,Haki Turuncu,,,,,LINDON
+314,Buz Lacivert Kırmızı,,,,,LINDON
+315,Lacivert Beyaz Kırmızı,,,,,LINDON
+316,Siyah Beyaz Taba,,,,,LINDON
+317,Siyah Zincir,,,,,LINDON
+318,Siyah Sax Mavi,,,,,LINDON
+319,Siyah Oranj,,,,,LINDON
+320,Buz Oranj,,,,,LINDON
+321,Fuşya,,,,,LINDON
+322,Sax Beyaz,,,,,LINDON
+323,Siyah Bordo,,,,,LINDON
+324,Taş,,,,,LINDON
+325,Haki Siyah Siyah,,,,,LINDON
+326,Kot Mavi,,,,,LINDON
+327,Pembe,,,,,LINDON
+328,Kareli Siyah Beyaz,,,,,LINDON
+329,Siyah Yeşil,,,,,LINDON
+330,Beyaz Oranj,,,,,LINDON
+331,Buz Petrol,,,,,LINDON
+332,Pudra Siyah,,,,,LINDON
+333,Krem,,,,,LINDON
+334,Beyaz Triko,,,,,LINDON
+335,Siyah Triko,,,,,LINDON
+336,Mint Yeşili,,,,,LINDON
+337,Yeşil,,,,,LINDON
+338,Füme Füme,,,,,LINDON
+339,Siyah Siyah Siyah,,,,,LINDON
+340,Buz Buz,,,,,LINDON
+341,Gri Saks,,,,,LINDON
+342,Krem Süet,,,,,LINDON
+343,Kahverengi Süet,,,,,LINDON
+344,Altın Cilt,,,,,LINDON
+345,Platin Cilt,,,,,LINDON
+346,Gümüş Cilt,,,,,LINDON
+347,Taba Desenli,,,,,LINDON
+348,Beyaz Desenli,,,,,LINDON
+349,Kırmızı Desenli,,,,,LINDON
+350,Mercan,,,,,LINDON
+351,Nude Cilt,,,,,LINDON
+352,Altın,,,,,LINDON
+353,Siyah Pudra1,,,,,LINDON
+354,Şeffaf,,,,,LINDON
+355,Leopar,,,,,LINDON
+356,Bej Süet,,,,,LINDON
+357,Mint Mavi,,,,,LINDON
+358,Bakır Cilt,,,,,LINDON
+359,Lila Süet,,,,,LINDON
+360,Mint Mavi Süet,,,,,LINDON
+361,Beyaz Mavi Pudra,,,,,LINDON
+362,Beyaz Buz Pembe,,,,,LINDON
+363,Gri Turuncu,,,,,LINDON
+364,Siyah Saks,,,,,LINDON
+365,Beyaz Pudra Mavi,,,,,LINDON
+366,Beyaz Pudra Lila,,,,,LINDON
+367,Beyaz Lila Pudra,,,,,LINDON
+368,Haki Siyah Beyaz,,,,,LINDON
+369,Kum Süet,,,,,LINDON
+370,Gümüş,,,,,LINDON
+371,Siyah Bej,,,,,LINDON
+372,Mat Siyah Cilt,,,,,LINDON
+373,Füme Turuncu,,,,,LINDON
+374,Buz Turuncu,,,,,LINDON
+375,Buz Mavi,,,,,LINDON
+376,Bej Rugan,,,,,LINDON
+377,Beyaz Rugan,,,,,LINDON
+378,Bej Cilt,,,,,LINDON
+379,Gri Süet,,,,,LINDON
+380,Buz Beyaz Mavi,,,,,LINDON
+381,Buz Yeşil,,,,,LINDON
+382,Beyaz Turuncu,,,,,LINDON
+383,Siyah Siyah Sarı,,,,,LINDON
+384,Baskılı Siyah,,,,,LINDON
+385,Siyah Beyaz Sarı,,,,,LINDON
+386,Siyah Beyaz Kırmızı,,,,,LINDON
+387,Kum Cilt,,,,,LINDON
+388,Siyah Bakır,,,,,LINDON
+389,Kahverengi Taba,,,,,LINDON
+390,Siyah Fermuarsız,,,,,LINDON
+391,Siyah Krep Cilt,,,,,LINDON
+392,Siyah Beyaz Cilt,,,,,LINDON
+393,Füme Cilt,,,,,LINDON
+394,Şeffaf Siyah,,,,,LINDON
+395,Şeffaf Beyaz,,,,,LINDON
+396,Şeffaf Nude,,,,,LINDON
+397,Şeffaf Gümüş,,,,,LINDON
+398,Gül,,,,,LINDON
+399,Siyah Saten,,,,,LINDON
+400,Yeşil Saten,,,,,LINDON
+401,Lila Saten,,,,,LINDON
+402,Bej Saten,,,,,LINDON
+403,Lila Cilt,,,,,LINDON
+404,Siyah Sultan,,,,,LINDON
+405,Gümüş Sultan,,,,,LINDON
+406,Platin Sultan,,,,,LINDON
+407,Rose,,,,,LINDON
+408,Kırmızı Cilt,,,,,LINDON
+409,Siyah Yılan Beyaz,,,,,LINDON
+410,Siyah Rugan Siyah,,,,,LINDON
+411,Taş Yılan,,,,,LINDON
+412,Ekru,,,,,LINDON
+413,Beyaz Ekru Taba,,,,,LINDON
+414,Bej Vizon,,,,,LINDON
+415,Lacivert Buz,,,,,LINDON
+416,Füme Oranj,,,,,LINDON
+417,Buz Mint Mavi,,,,,LINDON
+418,Buz Siyah Oranj,,,,,LINDON
+419,Buz Siyah Saks,,,,,LINDON
+420,Füme Siyah Sarı,,,,,LINDON
+421,Lacivert Buz Kırmızı,,,,,LINDON
+422,Beyaz Buz Pudra,,,,,LINDON
+423,Beyaz Buz Siyah,,,,,LINDON
+424,Bej Lila Sarı,,,,,LINDON
+425,Beyaz Ten Süet,,,,,LINDON
+426,Siyah Lila,,,,,LINDON
+427,Beyaz  Buz,,,,,LINDON
+428,Beyaz Lila,,,,,LINDON
+429,Ten Turuncu,,,,,LINDON
+430,Bej Haki Turuncu,,,,,LINDON
+431,Beyaz Bej,,,,,LINDON
+432,Bej Vizon Turuncu,,,,,LINDON
+433,Siyah Buz Lila,,,,,LINDON
+434,Syah Füme,,,,,LINDON
+435,Beyaz Lacivert,,,,,LINDON
+436,Füme Sarı,,,,,LINDON
+437,Beyaz Füme,,,,,LINDON
+438,Füme Gri,,,,,LINDON
+439,Beyaz Kırmızı Füme,,,,,LINDON
+440,Füme Kırmızı,,,,,LINDON
+441,Buz Sarı,,,,,LINDON
+442,Bej Turuncu,,,,,LINDON
+443,İndigo Mavi,,,,,LINDON
+444,Beyaz Turkuaz,,,,,LINDON
+445,Gri Pembe,,,,,LINDON
+446,Siyah Saks Beyaz,,,,,LINDON
+447,Siyah Beyaz Saks,,,,,LINDON
+448,Hardal Sarısı,,,,,LINDON
+449,Buz Pudra,,,,,LINDON
+450,Vizon Kahverengi,,,,,LINDON
+451,Taba Cilt Süet Detay,,,,,LINDON
+452,Süet Buz,,,,,LINDON
+453,Cilt Siyah Siyah,,,,,LINDON
+454,Siyah Hasır,,,,,LINDON
+455,Ten Cilt,,,,,LINDON
+456,Siyah Bej Süet,,,,,LINDON
+457,Yeşil Süet,,,,,LINDON
+458,Beyaz Saks,,,,,LINDON
+459,Ten Süet Fuşya,,,,,LINDON
+460,Ten Süet Turuncu,,,,,LINDON
+461,Mat Haki,,,,,LINDON
+462,Mat Nude,,,,,LINDON
+463,Mat Bej,,,,,LINDON
+464,Mat Gri,,,,,LINDON
+465,Gri Cilt,,,,,LINDON
+466,Beyaz Gri,,,,,LINDON
+467,Mat Taba,,,,,LINDON
+468,Mat Beyaz,,,,,LINDON
+469,Fuşya Süet,,,,,LINDON
+470,Mavi Süet,,,,,LINDON
+471,Renk,,,,,LINDON
+472,Açık Yeşil Süet,,,,,LINDON
+473,Buz Gri,,,,,LINDON
+474,Beyaz Petrol,,,,,LINDON
+475,Bej Bej,,,,,LINDON
+476,Lacivert Siyah,,,,,LINDON
+477,Ekru Cilt,,,,,LINDON
+478,Yeşil Cilt,,,,,LINDON
+479,Fuşya Cilt,,,,,LINDON
+480,Camel Süet,,,,,LINDON
+481,Ten Saten,,,,,LINDON
+482,Gümüş Saten,,,,,LINDON
+483,Oranj Saten,,,,,LINDON
+484,Saks Saten,,,,,LINDON
+485,Nude Saten,,,,,LINDON
+486,Kırmızı Saten,,,,,LINDON
+487,Sax Mavi,,,,,LINDON
+488,Turuncu Cilt,,,,,LINDON
+489,Oranj Cilt,,,,,LINDON
+490,Altın Sultan,,,,,LINDON
+491,Gri Lila,,,,,LINDON
+492,Bej Hologram,,,,,LINDON
+493,Çimen Yeşil,,,,,LINDON
+494,Saks Mavi,,,,,LINDON
+495,Hardal Cilt,,,,,LINDON
+496,Buz Pembe,,,,,LINDON
+497,Bej Beyaz Süet Detay,,,,,LINDON
+498,Bej Süet Detay,,,,,LINDON
+499,Beyaz Pudra Mavi Bej,,,,,LINDON
+500,Siyah Beyaz Süet Detay,,,,,LINDON
+501,Bej Yeşil Süet Detay,,,,,LINDON
+502,Beyaz Bej Pudra,,,,,LINDON
+503,Bej Taba Süet Detay,,,,,LINDON
+504,Buz Lacivert Turuncu,,,,,LINDON
+505,Füme Sarı Siyah,,,,,LINDON
+506,Siyah Süet Detay,,,,,LINDON
+507,Bej Anorak,,,,,LINDON
+508,Siyah Beyaz Bej Süet Detay,,,,,LINDON
+509,Lacivert Örgülü,,,,,LINDON
+510,Baskılı Beyaz Beyaz,,,,,LINDON
+511,Siyah Siyah Örgülü,,,,,LINDON
+512,Taba Örgülü,,,,,LINDON
+513,Siyah Metalik,,,,,LINDON
+514,Platin Metalik,,,,,LINDON
+515,Rose Metalik,,,,,LINDON
+516,Altın Metalik,,,,,LINDON
+517,Gümüş Metalik,,,,,LINDON
+518,Oranj Metalik,,,,,LINDON
+519,Yeşil Metalik,,,,,LINDON
+520,Fuşya Metalik,,,,,LINDON
+521,Saks Mavi Metalik,,,,,LINDON
+522,Beyaz Yeşil Cilt,,,,,LINDON
+523,Toz Mavi,,,,,LINDON
+524,Safir Mavi,,,,,LINDON
+525,Ekru Taba,,,,,LINDON
+526,Siyah Pudra Mavi,,,,,LINDON
+527,Siyah Beyaz Mavi,,,,,LINDON
+528,Siyah Kırışık Rugan,,,,,LINDON
+529,Beyaz Kırışık Rugan,,,,,LINDON
+530,Gümüş Kırışık Rugan,,,,,LINDON
+531,Platin Kırışık Rugan,,,,,LINDON
+532,Siyah Platin,,,,,LINDON
+533,Buz Somon,,,,,LINDON
+534,Bej Taba,,,,,LINDON
+535,Vizon Cilt,,,,,LINDON
+536,Mat Siyah Rugan,,,,,LINDON
+537,Siyah Kroko,,,,,LINDON
+538,Taba Kroko,,,,,LINDON
+539,Fuşya Desenli,,,,,LINDON
+540,Siyah Desenli Simli,,,,,LINDON
+541,Beyaz Desenli Simli,,,,,LINDON
+542,Fuşya Desenli Simli,,,,,LINDON
+543,Krem Cilt,,,,,LINDON
+544,Turuncu Süet,,,,,LINDON
+545,testreng,,,,,LINDON
+546,Dokulu Siyah,,,,,LINDON
+547,Mat Ten,,,,,LINDON
+548,Ten Rugan,,,,,LINDON
+549,Nude Rugan,,,,,LINDON
+550,Gümüş Kırışık,,,,,LINDON
+551,Rose Kırışık,,,,,LINDON
+552,Altın Kırışık,,,,,LINDON
+553,Altın Saten,,,,,LINDON
+554,Mor Saten,,,,,LINDON
+555,Bordo Saten,,,,,LINDON
+556,Kot,,,,,LINDON
+557,Devetüyü Süet,,,,,LINDON
+558,Siyah Kot,,,,,LINDON
+559,Bej Kot,,,,,LINDON
+560,Lacivert Kot,,,,,LINDON
+561,Bej Oranj,,,,,LINDON
+562,Gümüş Rugan,,,,,LINDON
+563,Fuşya Fuşya,,,,,LINDON
+564,Yeşil Fuşya,,,,,LINDON
+565,Gri Siyah Saks,,,,,LINDON
+566,Bej Füme Taba,,,,,LINDON
+567,Gri Turkuaz,,,,,LINDON
+568,Toprak,,,,,LINDON
+569,Siyah Altın,,,,,LINDON
+570,Beyaz Altın,,,,,LINDON
+571,Vizon Kot,,,,,LINDON
+572,Bordo Rugan,,,,,LINDON
+573,Fuşya Rugan,,,,,LINDON
+574,Yeşil Rugan,,,,,LINDON
+575,Lacivert Rugan,,,,,LINDON
+576,Kırmızı Rugan,,,,,LINDON
+577,Koyu Kot,,,,,LINDON
+578,Ten Kroko,,,,,LINDON
+579,Platin Kroko,,,,,LINDON
+580,Siyah Keten,,,,,LINDON
+581,Ten Keten,,,,,LINDON
+582,Mavi Keten,,,,,LINDON
+583,Kırmızı Keten,,,,,LINDON
+584,Yeşil Keten,,,,,LINDON
+585,Altın Rugan,,,,,LINDON
+586,Platin Rugan,,,,,LINDON
+587,Mint,,,,,LINDON
+588,Siyah Gökkuşağı,,,,,LINDON
+589,Beyaz Gökkuşağı,,,,,LINDON
+590,Bej Gökkuşağı,,,,,LINDON
+591,Vizon Gökkuşağı,,,,,LINDON
+592,Altın Gökkuşağı,,,,,LINDON
+593,Gökkuşağı,,,,,LINDON
+594,Parlak Siyah,,,,,LINDON
+595,Sedef,,,,,LINDON
+596,Bebe Mavi,,,,,LINDON
+597,Açık Gri,,,,,LINDON
+598,Açık Vizon,,,,,LINDON
+599,Füme Beyaz Beyaz,,,,,LINDON
+600,Bej Kroko,,,,,LINDON

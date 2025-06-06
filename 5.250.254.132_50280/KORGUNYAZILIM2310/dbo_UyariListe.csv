@@ -1,0 +1,12 @@
+inx,Tip,Kullanici,Location,P1,P2,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+4,SK,erdal.acinir,CA001,0,,4,,,,,,
+5,AT,sinan.iscan,CA001,3,,5,,,,,,
+6,ST,sinan.iscan,CA001,3,,6,,,,,,
+7,FI,nursal.dereboyu,"CA001,CH001",1,,7,,,,,,
+8,FI,Orbital,"CA001,CA002,CA003,CH001,CS001",1,,8,,,,,,
+9,FI,emine.kuscu,"CA001,CH001,CS001",3,,9,,,,,,
+10,GEF,emine.kuscu,"CA001,CH001,CS001",3,,10,,,,,,
+11,FI,berke.kaban,"CA001,CA002,CA003,CA004,CH001,CS001,CS002",0,,11,,,,,,
+13,TF,samet,CA001,21,,13,Samet,2024-02-28 12:01:23.563000,KGShop,,,
+16,ST,OZKAN,"CA001,CA002,CA003,CA004,CH001,CH002,CS001,CS002",1,,16,OZKAN,2025-03-05 11:55:43.700000,KGShop,,,
+17,SK,OZKAN,"CA001,CA002,CA003,CA004,CH001,CH002,CS001,CS002",0,,17,OZKAN,2025-04-09 10:27:50.077000,KGShop,,,

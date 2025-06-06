@@ -1,0 +1,11 @@
+Bolum,tip,Tanim,ParaCinsi,Taksit,OzKod1,OzKod2,Pasif,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+AF,A02,ALIS FIYATI US,US,0,,,,1,,,,,,
+AF,A03,ALIŞ FİYAT KÜRK US,US,0,,,,2,,,,,,
+AF,A04,ALIŞ FİYAT PELUŞ US,US,0,,,,3,,,,,,
+AF,A05,ALIŞ FİYAT SICAK ASTAR US,US,0,,,,4,,,,,,
+AF,A06,ALIŞ FİYAT SÜET,US,0,,,,9,yulya,2024-11-21 09:58:52.340000,KGShop,,,
+SF,S02,SATIS FIYATI US,US,0,,,,5,,,,,,
+SF,S03,SATIS FİYATI KÜRK US,US,0,,,,6,,,,,,
+SF,S04,SATIS FİYAT PELUS US,US,0,,,,7,,,,,,
+SF,S05,SATIS FİYAT SICAK ASTR US,US,0,,,,8,,,,,,
+SF,S06,SATIŞ FİYAT SÜET,US,0,,,,10,yulya,2024-11-21 10:13:02.893000,KGShop,,,

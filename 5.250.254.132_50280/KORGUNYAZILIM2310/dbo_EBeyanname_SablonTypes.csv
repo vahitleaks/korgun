@@ -1,0 +1,13 @@
+Id,BeyannameType,TypeCode,TypeDefinition,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+219,KGECICI,21,Kanunen Kabul Edilmeyen Giderler,219,dbo,2025-05-27 15:07:09.313000,Update,,,
+220,KGECICI,22,Zarar olsa dahi İndirilecek İstisna ve İndirimler,220,dbo,2025-05-27 15:07:09.320000,Update,,,
+221,KGECICI,23,Kazancın Bulunması Halinde İndirilecek İstisna ve İndirimler,221,dbo,2025-05-27 15:07:09.323000,Update,,,
+222,KGECICI,24,Diğer Parametreler,222,dbo,2025-05-27 15:07:09.323000,Update,,,
+223,KURUMLAR,31,Mahsup Edilecek Vergiler,223,dbo,2025-05-27 15:07:09.327000,Update,,,
+224,KURUMLAR,32,Kazanç ve İlaveler/İlaveler,224,dbo,2025-05-27 15:07:09.330000,Update,,,
+225,KURUMLAR,33,Zarar olsa dahi İndirilecek İstisna ve İndirimler,225,dbo,2025-05-27 15:07:09.333000,Update,,,
+226,KURUMLAR,34,Kazancın Bulunması Halinde İndirilecek İstisna ve İndirimler,226,dbo,2025-05-27 15:07:09.337000,Update,,,
+227,KURUMLAR,37,Kanunen Kabul Edilmeyen Giderler,227,dbo,2025-05-27 15:07:09.340000,Update,,,
+228,KURUMLAR,38,Geçmiş Yıl Zararları,228,dbo,2025-05-27 15:07:09.340000,Update,,,
+229,KURUMLAR,39,Kazanç ve İlaveler/Ek Alanlar,229,dbo,2025-05-27 15:07:09.343000,Update,,,
+230,KURUMLAR,40,Vergi Bildirimi/Ek Alanlar,230,dbo,2025-05-27 15:07:09.347000,Update,,,

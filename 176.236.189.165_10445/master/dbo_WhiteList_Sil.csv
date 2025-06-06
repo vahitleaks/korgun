@@ -1,0 +1,6 @@
+inx,UserName,LoginTime,HostName,ClientHost,AppName,ServerName
+1,,,KorgunWebService-%,,,
+2,,,,,Microsoft SQL Server Management Studio%,
+3,,,,,SQL Server Profiler%,
+4,,,KgShop-%,,,
+5,,,Microsoft SQL Server VSS Writer,,,

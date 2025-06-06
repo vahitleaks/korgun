@@ -1,0 +1,12 @@
+MigrationId,ProductVersion,kgid,insUN,insDT,insApp,updUN,updDT,updApp
+20220929072029_NewColumnsForCountingTables,6.0.9,1,,,,,,
+20221121114800_CreatedByColumnForCountingsTableM,6.0.9,2,,,,,,
+20221208193629_CreatedEToolSendedInvoicesTableForETool,6.0.9,3,,,,,,
+20230110071157_ChangeStringToInvoiceNo,6.0.9,4,,,,,,
+20230127123241_EB_ChangingStocksAndAddedOrUpdatedStockIdTable,6.0.9,5,,,,,,
+20230220141610_SayimTblDAddedNewColumnDate,6.0.9,6,,,,,,
+20230314105308_AddNewColumnOnSayimTblDCreatedSentDate,6.0.9,7,,,,,,
+20230411055321_NewTableForCountingsEB,6.0.9,8,,,,,,
+20230412210925_ChangeNameAndAddNewPropTableForCountingsEB,6.0.9,9,,,,,,
+20230413122755_EBCountingsReceiptsTable,6.0.9,10,,,,,,
+20230605122626_EToolUpdatedInvoices,6.0.9,11,,,,,,

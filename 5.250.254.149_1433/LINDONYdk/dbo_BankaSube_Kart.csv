@@ -1,0 +1,5 @@
+BankaKod,SubeKod,Tanim,Tel,Fax,Adr1,Adr2,Sehir,OzKod1,OzKod2,insUN,insDT,updUN,updDT,Pasif,kgid,insApp,updApp
+B001,IŞIKKENT,IŞIKKENT,,,,,,,,Furkan,2023-01-05 12:10:36.380000,Furkan,2023-01-05 12:10:55.130000,,1,,
+B002,417,IŞIKKENT,,,,,,,,Furkan,2023-01-05 12:11:46.090000,Furkan,2023-01-05 12:11:46.090000,,2,,
+B003,3545,RC,,,İZMİR,,,,,Furkan,2023-03-19 14:26:44.370000,Furkan,2023-03-19 14:26:44.373000,,3,,
+B004,485383-1,,,,,,İZMİR,,,Furkan,2024-03-17 10:50:34.200000,Furkan,2024-03-17 10:50:34.203000,,4,,

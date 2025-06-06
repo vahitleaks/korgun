@@ -1,0 +1,1019 @@
+id,Name,Title,Parentid,kgid,insUN,insDT,insApp,updUN,updDT,updApp,NoLog
+1,akinon_kay,akinon_kay,,1,,,,,,,False
+2,akinon_log,akinon_log,,2,,,,,,,False
+3,Alarm,Alarm,,3,,,,,,,False
+4,Alarm_ChatRooms,Alarm_ChatRooms,,4,,,,,,,False
+5,Alarm_Grup,Alarm_Grup,,5,,,,,,,False
+6,Alarm_History,Alarm_History,,6,,,,,,,False
+7,Alarm_KGTranslate,Alarm_KGTranslate,,7,,,,,,,False
+8,Alarm_Log,Alarm_Log,,8,,,,,,,False
+9,Alarm_Rapor_Params,Alarm_Rapor_Params,,9,,,,,,,False
+10,Alarm_Rapor_Params_Sqls,Alarm_Rapor_Params_Sqls,,10,,,,,,,False
+11,Alarm_Rapor_Tip,Alarm_Rapor_Tip,,11,,,,,,,False
+12,Alarm_Raporlar,Alarm_Raporlar,,12,,,,,,,False
+13,Alarm_sysjobschedules,Alarm_sysjobschedules,,13,,,,,,,False
+14,Alter_CodeBlock,Alter_CodeBlock,,14,,,,,,,False
+15,Alternatif_dKod,Alternatif_dKod,759,15,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+16,Amortisman,Amortisman,,16,,,,,,,False
+17,AsortiBarCode,AsortiBarCode,759,17,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+18,AylikNetSatis,AylikNetSatis,,18,,,,,,,False
+19,BABS_D,BABS_D,,19,,,,,,,False
+20,BABS_M,BABS_M,,20,,,,,,,False
+21,BABS_TMP,BABS_TMP,,21,,,,,,,False
+22,Banka_Dov,Banka_Dov,27,22,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+23,Banka_Har,Banka_Har,27,23,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+24,Banka_Har_Proje_D,Banka_Har_Proje_D,,24,,,,,,,False
+25,Banka_Har_Tmp,Banka_Har_Tmp,,25,,,,,,,False
+26,Banka_Kart,Banka Kartı,,26,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+27,Banka_Kay,Banka_Kay,,27,,,,,,,False
+28,Banka_Kay_Tmp,Banka_Kay_Tmp,,28,,,,,,,False
+29,BankaEntegrasyonIslemTip,BankaEntegrasyonIslemTip,,29,,,,,,,False
+30,BankaEntegrasyonLog,BankaEntegrasyonLog,,30,,,,,,,False
+31,BankaEntegrasyonu_Har,BankaEntegrasyonu_Har,,31,,,,,,,False
+32,BankaEntegrasyonu_Kay,BankaEntegrasyonu_Kay,,32,,,,,,,False
+33,BankaEntegrasyonu_Log,BankaEntegrasyonu_Log,,33,,,,,,,False
+34,BankaSube_Kart,BankaSube Kartı,26,34,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+35,BankaTutar,BankaTutar,,35,,,,,,,True
+36,BankList,BankList,,36,,,,,,,False
+37,BarkodKontrolVisible,BarkodKontrolVisible,,37,,,,,,,False
+38,BSCek_Def,BSCek_Def,,38,,,,,,,False
+39,BSHesap_Kart,BSHesap Kartı,34,39,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+40,BSKredi_Detail,BSKredi_Detail,,40,,,,,,,False
+41,BSKredi_Detail_OdemeBag,BSKredi_Detail_OdemeBag,,41,,,,,,,False
+42,BSKredi_Dov,BSKredi_Dov,,42,,,,,,,False
+43,BSKredi_Kay,BSKredi_Kay,,43,,,,,,,False
+44,BSPos_Kart,BSPos Kartı,,44,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+45,BSube_Yet,BSube_Yet,34,45,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+46,C_Fis_Dov,C_Fis_Dov,50,46,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+47,C_Fis_Har,C_Fis_Har,50,47,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+48,C_Fis_Har_Proje_D,C_Fis_Har_Proje_D,,48,,,,,,,False
+49,C_Fis_Har_Tmp,C_Fis_Har_Tmp,52,49,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+50,C_Fis_Kay,C_Fis_Kay,,50,,,,,,,False
+51,C_Fis_Kay_Proje_D,C_Fis_Kay_Proje_D,,51,,,,,,,False
+52,C_Fis_Kay_Tmp,C_Fis_Kay_Tmp,,52,,,,,,,False
+53,C2CAsortiList,C2CAsortiList,,53,,,,,,,False
+54,C2CBankaFisList,C2CBankaFisList,,54,,,,,,,False
+55,C2CBankaKodList,C2CBankaKodList,,55,,,,,,,False
+56,C2CBKodList,C2CBKodList,,56,,,,,,,False
+57,C2CCariFisList,C2CCariFisList,,57,,,,,,,False
+58,C2CCariKodList,C2CCariKodList,,58,,,,,,,False
+59,C2CCSFisList,C2CCSFisList,,59,,,,,,,False
+60,C2CCSKodList,C2CCSKodList,,60,,,,,,,False
+61,C2CFaturaList,C2CFaturaList,,61,,,,,,,False
+62,C2CGelTip,C2CGelTip,,62,,,,,,,False
+63,C2CGelTipList,C2CGelTipList,,63,,,,,,,False
+64,C2CGidTip,C2CGidTip,,64,,,,,,,False
+65,C2CGidTipList,C2CGidTipList,,65,,,,,,,False
+66,C2CGVirmanFisList,C2CGVirmanFisList,,66,,,,,,,False
+67,C2CHizmetK,C2CHizmetK,,67,,,,,,,False
+68,C2CHizmetKList,C2CHizmetKList,,68,,,,,,,False
+69,C2CKasaFisList,C2CKasaFisList,,69,,,,,,,False
+70,C2CKasaList,C2CKasaList,,70,,,,,,,False
+71,C2CKrKList,C2CKrKList,,71,,,,,,,False
+72,C2CMuhasebeList,C2CMuhasebeList,,72,,,,,,,False
+73,C2CPosList,C2CPosList,,73,,,,,,,False
+74,C2Cquickready,C2Cquickready,,74,,,,,,,False
+75,C2CRKodList,C2CRKodList,,75,,,,,,,False
+76,C2CSiparisList,C2CSiparisList,,76,,,,,,,False
+77,C2CSKodList,C2CSKodList,,77,,,,,,,False
+78,C2CStokFisList,C2CStokFisList,,78,,,,,,,False
+79,C2CTmpBTbl,C2CTmpBTbl,,79,,,,,,,False
+80,Cari_Adres,Cari_Adres,89,80,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+81,Cari_AlterCode_Connect,Cari_AlterCode_Connect,89,81,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+82,Cari_Asorties,Cari_Asorties,89,82,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+83,Cari_BankaKart,CariBanka Kartı,89,83,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+84,Cari_BankaKart_Entegrasyon,Cari_BankaKart_Entegrasyon,,84,,,,,,,False
+85,Cari_Doc,Cari_Doc,89,85,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+86,Cari_Fason,Cari_Fason,89,86,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+87,Cari_FReportsDesign,Cari_FReportsDesign,89,87,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+88,Cari_isks,Cari_isks,89,88,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+89,Cari_Kart,Cari Kartı,,89,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+90,Cari_MutabakatHistory,Cari_MutabakatHistory,89,90,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+91,Cari_OPlan,Cari_OPlan,89,91,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+92,Cari_OzFiyTip,Cari_OzFiyTip,89,92,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+93,Cari_OzFiyTip2,Cari_OzFiyTip2,89,93,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+94,Cari_Proje_D,Cari_Proje_D,89,94,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+95,Cari_Ref,Cari_Ref,89,95,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+96,Cari_Uyari,Cari_Uyari,89,96,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+97,Cari_Yetkili,Cari_Yetkili,89,97,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+98,CariBakiye,CariBakiye,89,98,,,,dbo,2025-05-27 14:46:23.103000,Update,True
+99,CariStokluEkstreFields,CariStokluEkstreFields,,99,,,,,,,False
+100,Cek_Har,Cek_Har,103,100,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+101,Cek_Har_Dovv,Cek_Har_Dovv,,101,,,,,,,False
+102,Cek_Har_Proje_D,Cek_Har_Proje_D,,102,,,,,,,False
+103,cek_Kart,cek Kartı,,103,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+104,Cek_Kart_Dov,Cek_Kart_Dov,,104,,,,,,,False
+105,Cek_Kart_Dovv,Cek_Kart_Dovv,,105,,,,,,,False
+106,cek_Kart_Proje_D,cek_Kart_Proje_D,,106,,,,,,,False
+107,Cek_Par_Har,Cek_Par_Har,,107,,,,,,,False
+108,CekHarTutar,CekHarTutar,466,108,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+109,CekSenKurFarkBag,CekSenKurFarkBag,,109,,,,,,,False
+110,CekTutar,CekTutar,466,110,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+111,Cell_Active,Cell_Active,,111,,,,,,,False
+112,Cell_Block,Cell_Block,,112,,,,,,,False
+113,Cell_Blok_Prop,Cell_Blok_Prop,112,113,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+114,Cell_Detail,Cell_Detail,112,114,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+115,Cell_info,Cell_info,,115,,,,,,,False
+116,Cell_Passive,Cell_Passive,,116,,,,,,,False
+117,Cell_Reserve,Cell_Reserve,,117,,,,,,,False
+118,CFisTutar,CFisTutar,,118,,,,,,,True
+119,ChangedStok,ChangedStok,759,119,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+120,ChangeHistory,ChangeHistory,,120,,,,,,,True
+121,ChangeLog,ChangeLog,,121,,,,,,,True
+122,ChangeLogPreTbl,ChangeLogPreTbl,,122,,,,,,,True
+123,Closed_Con,Closed_Con,,123,,,,,,,False
+124,CoLoBa,CoLoBa,,124,,,,,,,True
+125,CoLoCe,CoLoCe,89,125,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+126,CoLoDb,CoLoDb,,126,,,,,,,True
+127,CoLoGe,CoLoGe,,127,,,,,,,True
+128,CoLoGi,CoLoGi,,128,,,,,,,True
+129,CoLoHi,CoLoHi,229,129,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+130,CoLoMasrafM,CoLoMasrafM,,130,,,,,,,True
+131,CoLoMH,CoLoMH,,131,,,,,,,True
+132,CoLoMo,CoLoMo,436,132,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+133,CoLoSo,CoLoSo,759,133,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+134,CoLoTe,CoLoTe,,134,,,,,,,True
+135,Company,Company,,135,,,,,,,False
+136,CReports,CReports,,136,,,,,,,True
+137,CrossLocationProp,CrossLocationProp,,137,,,,,,,False
+138,Dagitim_Param_D,Dagitim_Param_D,139,138,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+139,Dagitim_Param_M,Dagitim_Param_M,,139,,,,,,,False
+140,DagitimSonuc_D,DagitimSonuc_D,141,140,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+141,DagitimSonuc_M,DagitimSonuc_M,,141,,,,,,,False
+142,DahiliUyari,DahiliUyari,,142,,,,,,,False
+143,Demirbas_Dov,Demirbas_Dov,145,143,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+144,DemirbasHar,DemirbasHar,,144,,,,,,,False
+145,DemirbasKart,Demirbas Kartı,,145,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+146,DevSipCon,DevSipCon,,146,,,,,,,False
+147,DevTakBag,DevTakBag,,147,,,,,,,False
+148,Donem_Mal_Tip,Donem_Mal_Tip,,148,,,,,,,False
+149,Dovizz,Dovizz,,149,,,,,,,False
+150,ED_gchar,ED_gchar,151,150,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+151,ED_Har,ED_Har,152,151,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+152,ED_Kay,ED_Kay,,152,,,,,,,False
+153,ED_XML,ED_XML,152,153,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+154,EF_Gelen,EF_Gelen,,154,,,,,,,False
+155,EF_GelenKontrol,EF_GelenKontrol,,155,,,,,,,False
+156,EF_Log,EF_Log,,156,,,,,,,False
+157,EF_Mukellef,EF_Mukellef,,157,,,,,,,True
+158,EF_Taslak,EF_Taslak,,158,,,,,,,False
+159,EF_Zarf,EF_Zarf,,159,,,,,,,False
+160,EFGelenLog,EFGelenLog,,160,,,,,,,False
+161,EFGelenLogDetail,EFGelenLogDetail,160,161,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+162,EFProduct2Product,EFProduct2Product,,162,,,,,,,False
+163,EIRS_GelenYanit,EIRS_GelenYanit,,163,,,,,,,False
+164,EmaarApiLogInfo,EmaarApiLogInfo,,164,,,,,,,False
+165,Entity_D,Entity_D,166,165,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+166,Entity_M,Entity_M,,166,,,,,,,False
+167,ESMM_Log,ESMM_Log,,167,,,,,,,False
+168,ESMM_Taslak,ESMM_Taslak,,168,,,,,,,False
+169,ETic_PosSat_Kay,ETic_PosSat_Kay,597,169,,,,dbo,2025-04-29 10:32:33.193000,Update,False
+170,ExeBlob,ExeBlob,,170,,,,,,,False
+171,expquery,expquery,,171,,,,,,,False
+172,F_DetFiles,F_DetFiles,,172,,,,,,,False
+173,Fat_Cost,Fat_Cost,197,173,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+174,Fat_Har_KT,Fat_Har_KT,,174,,,,,,,False
+175,Fat_Hiz_Har,Fat_Hiz_Har,,175,,,,,,,False
+176,Fat_Ode_Plan,Fat_Ode_Plan,197,176,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+177,Fat_OzKod1,Fat_OzKod1,,177,,,,,,,False
+178,Fat_OzKod10,Fat_OzKod10,,178,,,,,,,False
+179,Fat_OzKod2,Fat_OzKod2,,179,,,,,,,False
+180,Fat_OzKod3,Fat_OzKod3,,180,,,,,,,False
+181,Fat_OzKod4,Fat_OzKod4,,181,,,,,,,False
+182,Fat_OzKod5,Fat_OzKod5,,182,,,,,,,False
+183,Fat_OzKod6,Fat_OzKod6,,183,,,,,,,False
+184,Fat_OzKod7,Fat_OzKod7,,184,,,,,,,False
+185,Fat_OzKod8,Fat_OzKod8,,185,,,,,,,False
+186,Fat_OzKod9,Fat_OzKod9,,186,,,,,,,False
+187,FatDocInvest,FatDocInvest,,187,,,,,,,False
+188,fatirs,fatirs,,188,,,,,,,True
+189,Fatura_Dov,Fatura_Dov,197,189,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+190,Fatura_FinansCon,Fatura_FinansCon,,190,,,,,,,False
+191,Fatura_Gchar,Fatura_Gchar,193,191,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+192,fatura_getList,fatura_getList,,192,,,,,,,False
+193,Fatura_Har,Fatura_Har,197,193,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+194,Fatura_Har_isk,Fatura_Har_isk,,194,,,,,,,False
+195,Fatura_Iade_Inf,Fatura_Iade_Inf,,195,,,,,,,False
+196,Fatura_isk,Fatura_isk,,196,,,,,,,False
+197,Fatura_Kay,Fatura_Kay,,197,,,,,,,False
+198,FaturaTutar,FaturaTutar,,198,,,,,,,True
+199,FFFatura_Dov,FFFatura_Dov,,199,,,,,,,False
+200,FFFatura_Har,FFFatura_Har,,200,,,,,,,False
+201,FFFatura_Kay,FFFatura_Kay,,201,,,,,,,False
+202,FFFaturaTutar,FFFaturaTutar,466,202,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+203,Fiyat_Tip,Fiyat_Tip,,203,,,,,,,False
+204,FReports,FReports,,204,,,,,,,True
+205,FReports_Det,FReports_Det,204,205,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+206,FReports_History,FReports_History,328,206,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+207,FReports_KGRapor,FReports_KGRapor,,207,,,,,,,True
+208,Gecici,Gecici,,208,,,,,,,False
+209,Gider_GTip,Gider_GTip,,209,,,,,,,False
+210,Global_Adress,Global_Adress,,210,,,,,,,False
+211,Grup_D,Grup_D,,211,,,,,,,False
+212,Grup_M,Grup_M,,212,,,,,,,False
+213,GunlukNetSatis,GunlukNetSatis,,213,,,,,,,False
+214,GVirman_Har,GVirman_Har,216,214,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+215,GVirman_Har_Proje_D,GVirman_Har_Proje_D,,215,,,,,,,False
+216,GVirman_Kay,GVirman_Kay,,216,,,,,,,False
+217,GVirmanTutar,GVirmanTutar,,217,,,,,,,True
+218,H_AlFiy,H_AlFiy,,218,,,,,,,False
+219,H_SatFiy,H_SatFiy,,219,,,,,,,False
+220,HC_Har,HC_Har,,220,,,,,,,False
+221,HC_Kart,HC Kartı,,221,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+222,HesapMuavinRapor,HesapMuavinRapor,,222,,,,,,,False
+223,Hiz_SipOnayCompName,Hiz_SipOnayCompName,,223,,,,,,,False
+224,Hiz_SipOnayKul,Hiz_SipOnayKul,,224,,,,,,,False
+225,HizliRapor_M,HizliRapor_M,328,225,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+226,HizliUrun,HizliUrun,,226,,,,,,,False
+227,Hizmet_GTip,Hizmet_GTip,,227,,,,,,,False
+228,HizmetFatCon,HizmetFatCon,,228,,,,,,,False
+229,HizmetKart,Hizmet Kartı,,229,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+230,HizmetSip_Avans,HizmetSip_Avans,234,230,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+231,HizmetSip_Avans_Con,HizmetSip_Avans_Con,,231,,,,,,,False
+232,HizmetSip_D,HizmetSip_D,,232,,,,,,,False
+233,HizmetSip_Dov,HizmetSip_Dov,234,233,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+234,HizmetSip_M,HizmetSip_M,,234,,,,,,,False
+235,HizmetSipFat_Temp,HizmetSipFat_Temp,,235,,,,,,,False
+236,HR_71,HR_71,,236,,,,,,,False
+237,HR_95,HR_95,,237,,,,,,,False
+238,HR_96,HR_96,,238,,,,,,,False
+239,HR_97,HR_97,,239,,,,,,,False
+240,HR_M,HR_M,,240,,,,,,,False
+241,HS_Ode_Plan,HS_Ode_Plan,234,241,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+242,IDTakibi,IDTakibi,,242,,,,,,,False
+243,IrsFat2CezaDekont,IrsFat2CezaDekont,,243,,,,,,,False
+244,islemOnay,islemOnay,,244,,,,,,,False
+245,K_BarFisAsortiList,K_BarFisAsortiList,,245,,,,,,,False
+246,K_FisAsortiList,K_FisAsortiList,,246,,,,,,,False
+247,k_gchar,k_gchar,,247,,,,,,,False
+248,K_ResAsortiList,K_ResAsortiList,,248,,,,,,,False
+249,K_RezAsortiList,K_RezAsortiList,,249,,,,,,,False
+250,K_Rezerv,K_Rezerv,,250,,,,,,,False
+251,K_RezervAsortiList,K_RezervAsortiList,,251,,,,,,,False
+252,K_SevkAsortiList,K_SevkAsortiList,,252,,,,,,,False
+253,K_SevkAsortiList_Tmp,K_SevkAsortiList_Tmp,,253,,,,,,,False
+254,K_SevkAsortiList_Ydk,K_SevkAsortiList_Ydk,,254,,,,,,,False
+255,K_SipAsortiList,K_SipAsortiList,,255,,,,,,,False
+256,Kamp_Gunler,Kamp_Gunler,264,256,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+257,Kamp_HediyeListe,Kamp_HediyeListe,264,257,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+258,Kamp_Kasa,Kamp_Kasa,264,258,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+259,Kamp_Kasiyer,Kamp_Kasiyer,264,259,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+260,Kamp_Location,Kamp_Location,264,260,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+261,Kamp_OdemeTipi,Kamp_OdemeTipi,264,261,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+262,Kamp_SatisListe,Kamp_SatisListe,264,262,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+263,Kamp_SatTip,Kamp_SatTip,264,263,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+264,Kampanya_M,Kampanya_M,,264,,,,,,,False
+265,KaraListe,KaraListe,,265,,,,,,,False
+266,Kasa,Kasa,,266,,,,,,,False
+267,KasaFoyu_D,KasaFoyu_D,,267,,,,,,,False
+268,KasaFoyu_M,KasaFoyu_M,,268,,,,,,,False
+269,KasaUyari,KasaUyari,,269,,,,,,,False
+270,KayBilgi_Delete,KayBilgi_Delete,,270,,,,,,,True
+271,KDVBeyan_D,KDVBeyan_D,,271,,,,,,,False
+272,KDVBeyan_M,KDVBeyan_M,,272,,,,,,,False
+273,Kefil_kart,Kefil Kartı,436,273,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+274,KGAjanda,KGAjanda,,274,,,,,,,False
+275,KGCep_KulFavRapList,KGCep_KulFavRapList,,275,,,,,,,False
+276,KGCep_KulList,KGCep_KulList,,276,,,,,,,False
+277,KGCep_KulLocList,KGCep_KulLocList,,277,,,,,,,False
+278,KGCep_KulRapList,KGCep_KulRapList,,278,,,,,,,False
+279,KGDahIrsSatirAck,KGDahIrsSatirAck,,279,,,,,,,False
+280,KgDeriPrjTbl,KgDeriPrjTbl,,280,,,,,,,False
+281,KgFieldsException,KgFieldsException,,281,,,,,,,True
+282,KGMessenger_Log,KGMessenger_Log,,282,,,,,,,False
+283,KGMsgList,KGMsgList,,283,,,,,,,False
+284,KGPPRPlan_D,KGPPRPlan_D,285,284,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+285,KGPPRPlan_M,KGPPRPlan_M,,285,,,,,,,False
+286,kgsys,kgsys,,286,,,,,,,False
+287,KGTranslate,KGTranslate,,287,,,,,,,False
+288,KGVitrin_D,KGVitrin_D,289,288,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+289,KGVitrin_M,KGVitrin_M,,289,,,,,,,False
+290,kgws_log,kgws_log,,290,,,,,,,False
+291,KK_Dov,KK_Dov,293,291,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+292,KK_Har,KK_Har,,292,,,,,,,False
+293,KK_Kay,KK_Kay,,293,,,,,,,False
+294,KK_Kay_Proje_D,KK_Kay_Proje_D,,294,,,,,,,False
+295,KKTutar,KKTutar,,295,,,,,,,True
+296,Koli_List,Koli_List,,296,,,,,,,False
+297,Kon_FisAsortiList,Kon_FisAsortiList,,297,,,,,,,False
+298,Kon_GCHar,Kon_GCHar,,298,,,,,,,False
+299,Kons2Irs,Kons2Irs,,299,,,,,,,False
+300,Korgun_Catalog,Korgun_Catalog,,300,,,,,,,False
+301,Korgun_User_AlFiy,Korgun_User_AlFiy,328,301,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+302,Korgun_User_AlFiyisk,Korgun_User_AlFiyisk,328,302,,,,dbo,2024-10-17 14:22:38.940000,Update,False
+303,Korgun_User_BakiyeLocationList,Korgun_User_BakiyeLocationList,328,303,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+304,Korgun_User_BiList,Korgun_User_BiList,328,304,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+305,Korgun_User_CiList,Korgun_User_CiList,328,305,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+306,Korgun_User_DahirsLocationList,Korgun_User_DahirsLocationList,328,306,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+307,Korgun_User_DahSipLocationList,Korgun_User_DahSipLocationList,328,307,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+308,Korgun_User_FatList,Korgun_User_FatList,328,308,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+309,Korgun_User_HRList,Korgun_User_HRList,328,309,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+310,Korgun_User_IrsList,Korgun_User_IrsList,328,310,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+311,Korgun_User_invUreticiList,Korgun_User_invUreticiList,328,311,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+312,Korgun_User_KasaList,Korgun_User_KasaList,328,312,,,,dbo,2024-10-17 14:22:38.940000,Update,False
+313,Korgun_User_KiList,Korgun_User_KiList,328,313,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+314,Korgun_User_LocationList,Korgun_User_LocationList,328,314,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+315,Korgun_User_MailList,Korgun_User_MailList,328,315,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+316,Korgun_User_MevLocationList,Korgun_User_MevLocationList,328,316,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+317,Korgun_User_MsktLocationList,Korgun_User_MsktLocationList,328,317,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+318,Korgun_User_OtherApplications,Korgun_User_OtherApplications,328,318,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+319,Korgun_User_POdeTip,Korgun_User_POdeTip,328,319,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+320,Korgun_User_RKriterList,Korgun_User_RKriterList,328,320,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+321,Korgun_User_SatFiy,Korgun_User_SatFiy,328,321,,,,dbo,2024-10-17 14:22:38.940000,Update,False
+322,Korgun_User_SatFiyisk,Korgun_User_SatFiyisk,328,322,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+323,Korgun_User_SiList,Korgun_User_SiList,328,323,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+324,Korgun_User_TTList,Korgun_User_TTList,328,324,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+325,Korgun_User_UreticiList,Korgun_User_UreticiList,328,325,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+326,Korgun_UserAccess,Korgun_UserAccess,328,326,,,,dbo,2024-10-17 14:22:38.940000,Update,False
+327,Korgun_UserGrup,Korgun_UserGrup,328,327,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+328,Korgun_UserList,Korgun_UserList,,328,,,,,,,False
+329,KriterVisibles,KriterVisibles,,329,,,,,,,False
+330,Location,Location,,330,,,,,,,False
+331,Location_Gider,Location_Gider,330,331,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+332,Location_Hedef,Location_Hedef,330,332,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+333,Location_Level,Location_Level,,333,,,,,,,False
+334,Location_PersCount,Location_PersCount,330,334,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+335,Location_Process,Location_Process,330,335,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+336,Location_Vitrin,Location_Vitrin,330,336,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+337,Lot_Property,Lot_Property,,337,,,,,,,False
+338,M_BABS_D,M_BABS_D,,338,,,,,,,False
+339,M_BABS_M,M_BABS_M,,339,,,,,,,False
+340,M_BANKAACC1,M_BANKAACC1,,340,,,,,,,False
+341,M_CARDACC1,M_CARDACC1,,341,,,,,,,False
+342,M_CEKSENACC1_D,M_CEKSENACC1_D,,342,,,,,,,False
+343,M_CEKSENETACC1,M_CEKSENETACC1,,343,,,,,,,False
+344,M_CODES1,M_CODES1,,344,,,,,,,False
+345,M_CODES1_National,M_CODES1_National,,345,,,,,,,False
+346,M_FICHE_Log,M_FICHE_Log,,346,,,,,,,False
+347,M_FICHE1,M_FICHE1,,347,,,,,,,False
+348,M_FICHEEXCHANGE,M_FICHEEXCHANGE,,348,,,,,,,False
+349,M_FICHELINE1,M_FICHELINE1,347,349,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+350,M_GenGidCreate_D,M_GenGidCreate_D,351,350,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+351,M_GenGidCreate_M,M_GenGidCreate_M,,351,,,,,,,False
+352,M_INTLOG,M_INTLOG,,352,,,,,,,False
+353,M_KASAACC1,M_KASAACC1,,353,,,,,,,False
+354,M_KDVACC1,M_KDVACC1,,354,,,,,,,False
+355,M_KDVBagi,M_KDVBagi,,355,,,,,,,False
+356,M_MALITABLO,M_MALITABLO,,356,,,,,,,False
+357,M_MALITABLOALT,M_MALITABLOALT,,357,,,,,,,False
+358,M_MALITABLOALTS,M_MALITABLOALTS,,358,,,,,,,False
+359,M_MALITABLODIPNOT,M_MALITABLODIPNOT,,359,,,,,,,False
+360,M_MALITABLODIPNOTS,M_MALITABLODIPNOTS,,360,,,,,,,False
+361,M_MALITABLOFILTREALT,M_MALITABLOFILTREALT,,361,,,,,,,False
+362,M_MALITABLOFILTREUST,M_MALITABLOFILTREUST,,362,,,,,,,False
+363,M_Maliyet,M_Maliyet,,363,,,,,,,False
+364,M_Masraf,M_Masraf,,364,,,,,,,False
+365,M_Masraf_Detail,M_Masraf_Detail,,365,,,,,,,False
+366,M_MM1,M_MM1,,366,,,,,,,False
+367,M_OTVACC1,M_OTVACC1,,367,,,,,,,False
+368,M_Per_GenGid_Tmp,M_Per_GenGid_Tmp,,368,,,,,,,False
+369,M_Periyot,M_Periyot,,369,,,,,,,False
+370,M_Pro_GenGid_Tmp,M_Pro_GenGid_Tmp,,370,,,,,,,False
+371,M_SMMACC1,M_SMMACC1,,371,,,,,,,False
+372,M_Stk_GenGid_Tmp,M_Stk_GenGid_Tmp,,372,,,,,,,False
+373,M_STOKKDVACC1,M_STOKKDVACC1,,373,,,,,,,False
+374,M_TEMINATACC1,M_TEMINATACC1,,374,,,,,,,False
+375,M_TEVACC1,M_TEVACC1,,375,,,,,,,False
+376,M_TKDVACC1,M_TKDVACC1,,376,,,,,,,False
+377,M_UserMainParameter,M_UserMainParameter,,377,,,,,,,False
+378,MailEkGelen,MailEkGelen,,378,,,,,,,False
+379,MailEkGiden,MailEkGiden,,379,,,,,,,False
+380,MailGelen,MailGelen,,380,,,,,,,False
+381,MailGiden,MailGiden,,381,,,,,,,False
+382,MakfineReportAuth,MakfineReportAuth,,382,,,,,,,False
+383,MaliyetMuh2StokSekli,MaliyetMuh2StokSekli,,383,,,,,,,False
+384,Mas2Var,Mas2Var,,384,,,,,,,False
+385,Masraf_Detail,Masraf_Detail,,385,,,,,,,False
+386,Masraf_KartDagilim,Masraf_KartDagilim,,386,,,,,,,False
+387,Masraf_M_Kart,MasrafM Kartı,,387,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+388,Masraf_Sablon,Masraf_Sablon,,388,,,,,,,False
+389,Masraf_SablonDetay,Masraf_SablonDetay,,389,,,,,,,False
+390,MasrafFisFatCon,MasrafFisFatCon,,390,,,,,,,False
+391,Migration,Migration,,391,,,,,,,False
+392,Model_APln,Model_APln,,392,,,,,,,False
+393,Model_B2B,Model_B2B,399,393,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+394,Model_Doc,Model_Doc,396,394,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+395,Model_Gider,Model_Gider,397,395,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+396,Model_M,Model_M,,396,,,,,,,False
+397,Model_P,Model_P,396,397,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+398,Model_ParList,Model_ParList,396,398,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+399,Model_PD,Model_PD,397,399,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+400,Model_PDA,Model_PDA,399,400,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+401,Model_PDB,Model_PDB,399,401,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+402,Model_PDM,Model_PDM,399,402,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+403,Model_PDP,Model_PDP,399,403,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+404,Model_PDR,Model_PDR,399,404,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+405,Model_PDS,Model_PDS,399,405,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+406,Model_PDS2R,Model_PDS2R,399,406,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+407,Model_PDS2X,Model_PDS2X,399,407,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+408,Model_PDX,Model_PDX,399,408,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+409,Model_ProDet,Model_ProDet,397,409,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+410,Model_PY,Model_PY,397,410,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+411,Model_PYB2B,Model_PYB2B,410,411,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+412,Model_PYM,Model_PYM,410,412,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+413,Model_PYR,Model_PYR,410,413,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+414,Model_PYR2R,Model_PYR2R,410,414,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+415,Model_PYS,Model_PYS,410,415,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+416,Model_PYS2R,Model_PYS2R,410,416,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+417,Model_PYS2X,Model_PYS2X,410,417,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+418,Model_PYX,Model_PYX,410,418,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+419,Model_R,Model_R,396,419,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+420,Model_R2R,Model_R2R,399,420,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+421,Model_RBO,Model_RBO,,421,,,,,,,False
+422,Model_RPF,Model_RPF,,422,,,,,,,False
+423,Model_WMac,Model_WMac,397,423,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+424,ModulNames,ModulNames,,424,,,,,,,False
+425,ModulParList,ModulParList,,425,,,,,,,False
+426,ModulParListHistory,ModulParListHistory,,426,,,,,,,False
+427,MuavinExcelRapor,MuavinExcelRapor,,427,,,,,,,False
+428,MuhBeyan_D,MuhBeyan_D,,428,,,,,,,False
+429,MuhBeyan_M,MuhBeyan_M,,429,,,,,,,False
+430,MuhCurrencyBalance,MuhCurrencyBalance,,430,,,,,,,False
+431,muhloccodesprofile,muhloccodesprofile,,431,,,,,,,False
+432,MuhVergi_Takvimi,MuhVergi_Takvimi,,432,,,,,,,False
+433,Musteri_Aile,Musteri_Aile,,433,,,,,,,False
+434,Musteri_Doc,Musteri_Doc,436,434,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+435,Musteri_Goz,Musteri_Goz,,435,,,,,,,False
+436,Musteri_Kart,Musteri Kartı,,436,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+437,Musteri_Servis,Musteri_Servis,,437,,,,,,,False
+438,NACE_Kart,NACE Kartı,,438,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+439,Ode_Plan,Ode_Plan,713,439,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+440,Odeme_Tipi,Odeme_Tipi,599,440,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+441,OdemePlanlama_D,OdemePlanlama_D,442,441,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+442,OdemePlanlama_M,OdemePlanlama_M,,442,,,,,,,False
+443,OdEmir_kay,OdEmir_kay,27,443,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+444,OldAsBarCode,OldAsBarCode,,444,,,,,,,False
+445,OldBarCode,OldBarCode,,445,,,,,,,False
+446,OnekList,OnekList,,446,,,,,,,False
+447,OptionMaxTbl,OptionMaxTbl,,447,,,,,,,False
+448,OzKod_Deger,OzKod_Deger,,448,,,,,,,False
+449,P_BarCode_Tip,P_BarCode_Tip,,449,,,,,,,False
+450,P_BarCodeGen_D,P_BarCodeGen_D,,450,,,,,,,False
+451,P_BarCodeGen_M,P_BarCodeGen_M,,451,,,,,,,False
+452,P_Beden_D,P_Beden_D,453,452,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+453,P_Beden_M,P_Beden_M,,453,,,,,,,False
+454,P_Birim_D,P_Birim_D,,454,,,,,,,False
+455,P_Birim_ISO,P_Birim_ISO,,455,,,,,,,False
+456,P_Birim_M,P_Birim_M,,456,,,,,,,False
+457,P_BirimGrup,P_BirimGrup,,457,,,,,,,False
+458,P_Ceki_KoliTip,P_Ceki_KoliTip,,458,,,,,,,False
+459,P_CK_Zorunlu,P_CK_Zorunlu,,459,,,,,,,False
+460,P_CNS_Tip,P_CNS_Tip,,460,,,,,,,False
+461,P_Country_ISO,P_Country_ISO,,461,,,,,,,False
+462,P_Departman_Tip,P_Departman_Tip,,462,,,,,,,False
+463,P_DOV_Gir,P_DOV_Gir,,463,,,,,,,False
+464,P_DOV_ISO,P_DOV_ISO,,464,,,,,,,False
+465,P_Dov_Option,P_Dov_Option,,465,,,,,,,False
+466,P_DOV_Tip,P_DOV_Tip,,466,,,,,,,False
+467,P_FatIrs_iadeNeden,P_FatIrs_iadeNeden,,467,,,,,,,False
+468,P_FatirsOzTip,P_FatirsOzTip,,468,,,,,,,False
+469,P_Gel_Tip,P_Gel_Tip,,469,,,,,,,False
+470,P_Gid_Tip,P_Gid_Tip,,470,,,,,,,False
+471,P_GTip,P_GTip,,471,,,,,,,False
+472,P_HC_MinSatTut,P_HC_MinSatTut,,472,,,,,,,False
+473,P_Kal_Sec_Tip,P_Kal_Sec_Tip,,473,,,,,,,False
+474,P_Kal_Tip_D,P_Kal_Tip_D,,474,,,,,,,False
+475,P_Kal_Tip_M,P_Kal_Tip_M,,475,,,,,,,False
+476,P_Kalip_Tip_D,P_Kalip_Tip_D,,476,,,,,,,False
+477,P_Kalip_Tip_M,P_Kalip_Tip_M,,477,,,,,,,False
+478,P_KKOdTip_D,P_KKOdTip_D,,478,,,,,,,False
+479,P_KKOdTip_M,P_KKOdTip_M,,479,,,,,,,False
+480,P_KOL_Tip_D,P_KOL_Tip_D,,480,,,,,,,False
+481,P_KOL_Tip_M,P_KOL_Tip_M,,481,,,,,,,False
+482,P_Koli_D,P_Koli_D,,482,,,,,,,False
+483,P_Koli_M,P_Koli_M,,483,,,,,,,False
+484,P_KulGrup,P_KulGrup,,484,,,,,,,False
+485,P_MK_Zorunlu,P_MK_Zorunlu,,485,,,,,,,False
+486,P_ODE_Tip,P_ODE_Tip,,486,,,,,,,False
+487,P_OdSekil_D,P_OdSekil_D,,487,,,,,,,False
+488,P_OdSekil_M,P_OdSekil_M,,488,,,,,,,False
+489,P_Ozeliskonto,P_Ozeliskonto,,489,,,,,,,False
+490,P_OzKod_D,P_OzKod_D,,490,,,,,,,False
+491,P_OzKod_M,P_OzKod_M,,491,,,,,,,False
+492,P_Par_Ode_Tip,P_Par_Ode_Tip,,492,,,,,,,False
+493,P_PerPrimParam,P_PerPrimParam,,493,,,,,,,False
+494,P_PerPrimParamOran,P_PerPrimParamOran,,494,,,,,,,False
+495,P_PerPrimTip,P_PerPrimTip,,495,,,,,,,False
+496,P_PerPrimTipHistory,P_PerPrimTipHistory,,496,,,,,,,False
+497,P_Posiade_Tip,P_Posiade_Tip,,497,,,,,,,False
+498,P_PrimGrup_D,P_PrimGrup_D,,498,,,,,,,False
+499,P_PrimGrup_M,P_PrimGrup_M,,499,,,,,,,False
+500,P_Puan_Ek,P_Puan_Ek,,500,,,,,,,False
+501,P_Puan_M,P_Puan_M,599,501,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+502,P_Puan_Servis,P_Puan_Servis,,502,,,,,,,False
+503,P_PuanLog,P_PuanLog,,503,,,,,,,False
+504,P_RapKolPar,P_RapKolPar,,504,,,,,,,False
+505,P_RapParam,P_RapParam,,505,,,,,,,False
+506,P_Reyon,P_Reyon,,506,,,,,,,False
+507,P_RNK_Tip,P_RNK_Tip,,507,,,,,,,False
+508,P_SehirPlaka,P_SehirPlaka,,508,,,,,,,False
+509,P_SFisTip,P_SFisTip,,509,,,,,,,False
+510,P_SK_Zorunlu,P_SK_Zorunlu,,510,,,,,,,False
+511,P_ST_OzKod_B,P_ST_OzKod_B,,511,,,,,,,False
+512,P_ST_OzKod_D,P_ST_OzKod_D,,512,,,,,,,False
+513,P_ST_OzKod_M,P_ST_OzKod_M,,513,,,,,,,False
+514,P_ST_Sehir,P_ST_Sehir,,514,,,,,,,False
+515,P_STK_GRP,P_STK_GRP,,515,,,,,,,False
+516,P_STK_Tip,P_STK_Tip,,516,,,,,,,False
+517,P_Stok_Y,P_Stok_Y,,517,,,,,,,False
+518,P_TT_HarTip,P_TT_HarTip,,518,,,,,,,False
+519,P_TT_iadeNeden,P_TT_iadeNeden,,519,,,,,,,False
+520,P_TT_Magaza,P_TT_Magaza,,520,,,,,,,False
+521,P_Ulke,P_Ulke,,521,,,,,,,False
+522,P_UlkeSehir,P_UlkeSehir,521,522,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+523,P_UlkeSehirilce,P_UlkeSehirilce,522,523,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+524,P_UlkeSehirilceSemt,P_UlkeSehirilceSemt,523,524,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+525,P_URT_MARKA,P_URT_MARKA,,525,,,,,,,False
+526,P_URT_Tip,P_URT_Tip,,526,,,,,,,False
+527,P_Vitrin_M,P_Vitrin_M,,527,,,,,,,False
+528,Par_,Par_,,528,,,,,,,False
+529,Par_Cari_OzKod1,Par_Cari_OzKod1,,529,,,,,,,False
+530,Par_Cari_OzKod10,Par_Cari_OzKod10,,530,,,,,,,False
+531,Par_Cari_OzKod3,Par_Cari_OzKod3,,531,,,,,,,False
+532,Par_Cari_OzKod4,Par_Cari_OzKod4,,532,,,,,,,False
+533,Par_Cari_OzKod5,Par_Cari_OzKod5,,533,,,,,,,False
+534,Par_Cari_OzKod9,Par_Cari_OzKod9,,534,,,,,,,False
+535,Par_CariTip,Par_CariTip,,535,,,,,,,False
+536,Par_DBirim,Par_DBirim,,536,,,,,,,False
+537,Par_Desi,Par_Desi,,537,,,,,,,False
+538,Par_Donem,Par_Donem,,538,,,,,,,False
+539,Par_EF_DeliverytermsType,Par_EF_DeliverytermsType,,539,,,,,,,False
+540,Par_EF_exceptionList,Par_EF_exceptionList,,540,,,,,,,False
+541,Par_EF_PackagingTypeCode,Par_EF_PackagingTypeCode,,541,,,,,,,False
+542,Par_EF_TransportModeCode,Par_EF_TransportModeCode,,542,,,,,,,False
+543,Par_RiskGrubu,Par_RiskGrubu,,543,,,,,,,False
+544,Par_SevkSekil,Par_SevkSekil,,544,,,,,,,False
+545,Par_Sip_OzDur,Par_Sip_OzDur,,545,,,,,,,False
+546,Par_Stok_OzKod1,Par_Stok_OzKod1,,546,,,,,,,False
+547,Par_Stok_OzKod10,Par_Stok_OzKod10,,547,,,,,,,False
+548,Par_Stok_OzKod11,Par_Stok_OzKod11,,548,,,,,,,False
+549,Par_Stok_OzKod12,Par_Stok_OzKod12,,549,,,,,,,False
+550,Par_Stok_OzKod13,Par_Stok_OzKod13,,550,,,,,,,False
+551,Par_Stok_OzKod14,Par_Stok_OzKod14,,551,,,,,,,False
+552,Par_Stok_OzKod15,Par_Stok_OzKod15,,552,,,,,,,False
+553,Par_Stok_OzKod16,Par_Stok_OzKod16,,553,,,,,,,False
+554,Par_Stok_OzKod17,Par_Stok_OzKod17,,554,,,,,,,False
+555,Par_Stok_OzKod18,Par_Stok_OzKod18,,555,,,,,,,False
+556,Par_Stok_OzKod19,Par_Stok_OzKod19,,556,,,,,,,False
+557,Par_Stok_OzKod2,Par_Stok_OzKod2,,557,,,,,,,False
+558,Par_Stok_OzKod20,Par_Stok_OzKod20,,558,,,,,,,False
+559,Par_Stok_OzKod22,Par_Stok_OzKod22,,559,,,,,,,False
+560,Par_Stok_OzKod27,Par_Stok_OzKod27,,560,,,,,,,False
+561,Par_Stok_OzKod3,Par_Stok_OzKod3,,561,,,,,,,False
+562,Par_Stok_OzKod4,Par_Stok_OzKod4,,562,,,,,,,False
+563,Par_Stok_OzKod5,Par_Stok_OzKod5,,563,,,,,,,False
+564,Par_Stok_OzKod6,Par_Stok_OzKod6,,564,,,,,,,False
+565,Par_Stok_OzKod7,Par_Stok_OzKod7,,565,,,,,,,False
+566,Par_Stok_OzKod8,Par_Stok_OzKod8,,566,,,,,,,False
+567,Par_Tedar,Par_Tedar,,567,,,,,,,False
+568,Par_TevKodList,Par_TevKodList,,568,,,,,,,False
+569,Par_UrunAdi,Par_UrunAdi,,569,,,,,,,False
+570,ParOptionList,ParOptionList,,570,,,,,,,False
+571,ParTableList,ParTableList,,571,,,,,,,False
+572,PB_Bordro_Kanun,PB_Bordro_Kanun,,572,,,,,,,False
+573,PB_DS_Puantaj,PB_DS_Puantaj,,573,,,,,,,False
+574,PB_DS_Tahakkuk,PB_DS_Tahakkuk,,574,,,,,,,False
+575,PB_Pers_Bordro,PB_Pers_Bordro,,575,,,,,,,False
+576,PB_Pers_Contact,PB_Pers_Contact,,576,,,,,,,False
+577,PB_Pers_Family,PB_Pers_Family,,577,,,,,,,False
+578,PB_Pers_Kart,PBPers Kartı,,578,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+579,PB_Pers_Kimlik,PB_Pers_Kimlik,,579,,,,,,,False
+580,PB_Pers_Work,PB_Pers_Work,,580,,,,,,,False
+581,Pck_Active,Pck_Active,,581,,,,,,,False
+582,Pck_Barcode,Pck_Barcode,,582,,,,,,,False
+583,Pck_D,Pck_D,585,583,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+584,Pck_Koli,Pck_Koli,587,584,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+585,Pck_M,Pck_M,,585,,,,,,,False
+586,Pck_Passive,Pck_Passive,,586,,,,,,,False
+587,Pck_Siparis,Pck_Siparis,,587,,,,,,,False
+588,Pck_ToEmir,Pck_ToEmir,,588,,,,,,,False
+589,PER_BIL,PER_BIL,,589,,,,,,,False
+590,Per_PDKS,Per_PDKS,,590,,,,,,,False
+591,Periyot,Periyot,,591,,,,,,,False
+592,PeriyotD,PeriyotD,,592,,,,,,,False
+593,PerMuhTransfer,PerMuhTransfer,,593,,,,,,,False
+594,PerOdeTipLocation,PerOdeTipLocation,492,594,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+595,Ping,Ping,,595,,,,,,,False
+596,Possat_Discount,Possat_Discount,,596,,,,,,,False
+597,PosSat_Har,PosSat_Har,599,597,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+598,Possat_HizliOde,Possat_HizliOde,,598,,,,,,,False
+599,PosSat_Kay,PosSat_Kay,,599,,,,,,,False
+600,PosSat_Teslim,PosSat_Teslim,,600,,,,,,,False
+601,PosSat_UpdateReason,PosSat_UpdateReason,,601,,,,,,,False
+602,PosSatTutar,PosSatTutar,466,602,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+603,PosUpdateReason,PosUpdateReason,,603,,,,,,,False
+604,PP_InsertHistory,PP_InsertHistory,,604,,,,,,,False
+605,PP_SecurityCode,PP_SecurityCode,,605,,,,,,,False
+606,PP_UpdateHistory,PP_UpdateHistory,604,606,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+607,Product2Product,Product2Product,,607,,,,,,,False
+608,Proje_D,Proje_D,609,608,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+609,Proje_M,Proje_M,,609,,,,,,,False
+610,Proses_D,Proses_D,,610,,,,,,,False
+611,Proses_M,Proses_M,,611,,,,,,,False
+612,Proses_ProDet,Proses_ProDet,,612,,,,,,,False
+613,PUstu_Tipi,PUstu_Tipi,599,613,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+614,r_gchar,r_gchar,,614,,,,,,,False
+615,ra_gchar,ra_gchar,,615,,,,,,,False
+616,Raf_D,Raf_D,,616,,,,,,,False
+617,Raf_Kontor,Raf_Kontor,,617,,,,,,,False
+618,Raf_Rez,Raf_Rez,,618,,,,,,,False
+619,RafKoli_D,RafKoli_D,,619,,,,,,,False
+620,RafKoli_M,RafKoli_M,,620,,,,,,,False
+621,RaporKriter_D,RaporKriter_D,,621,,,,,,,False
+622,RaporKriter_M,RaporKriter_M,,622,,,,,,,False
+623,RaporOS_Fields,RaporOS_Fields,625,623,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+624,RaporOS_Groups,RaporOS_Groups,,624,,,,,,,False
+625,RaporOS_M,RaporOS_M,,625,,,,,,,False
+626,RaporOSFilters_D,RaporOSFilters_D,627,626,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+627,RaporOSFilters_M,RaporOSFilters_M,625,627,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+628,RDesign_D,RDesign_D,,628,,,,,,,False
+629,RDesign_M,RDesign_M,,629,,,,,,,False
+630,ReadInvoices,ReadInvoices,,630,,,,,,,False
+631,Receive_BankaFis,Receive_BankaFis,,631,,,,,,,False
+632,Receive_CariFis,Receive_CariFis,,632,,,,,,,False
+633,Receive_CekHar,Receive_CekHar,,633,,,,,,,False
+634,Receive_CekList,Receive_CekList,,634,,,,,,,False
+635,Receive_FaturaFis,Receive_FaturaFis,,635,,,,,,,False
+636,Receive_PosSatFis,Receive_PosSatFis,,636,,,,,,,False
+637,Receive_SayimFis,Receive_SayimFis,,637,,,,,,,False
+638,Receive_SiparisFis,Receive_SiparisFis,,638,,,,,,,False
+639,Receive_SiparisFisDetay,Receive_SiparisFisDetay,,639,,,,,,,False
+640,Receive_StokFis,Receive_StokFis,,640,,,,,,,False
+641,Receive_TamirFis,Receive_TamirFis,,641,,,,,,,False
+642,Registry,Registry,328,642,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+643,Res_GCHar,Res_GCHar,,643,,,,,,,False
+644,Results,Results,,644,,,,,,,False
+645,Rezerv_GCHar,Rezerv_GCHar,,645,,,,,,,False
+646,Rezerv_Har,Rezerv_Har,647,646,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+647,Rezerv_Kay,Rezerv_Kay,,647,,,,,,,False
+648,RezervClosedCon,RezervClosedCon,,648,,,,,,,False
+649,rpr,rpr,,649,,,,,,,False
+650,S_Agirlik,S_Agirlik,759,650,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+651,S_AlFiy,S_AlFiy,759,651,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+652,S_AliskFiy,S_AliskFiy,759,652,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+653,S_BarFis_Har,S_BarFis_Har,654,653,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+654,S_BarFis_Kay,S_BarFis_Kay,,654,,,,,,,False
+655,S_BarGCHar,S_BarGCHar,759,655,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+656,S_DetPicture,S_DetPicture,759,656,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+657,S_Fis_Dov,S_Fis_Dov,,657,,,,,,,False
+658,S_Fis_Gchar,S_Fis_Gchar,659,658,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+659,S_Fis_Har,S_Fis_Har,661,659,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+660,S_Fis_Har_ggmd,S_Fis_Har_ggmd,,660,,,,,,,False
+661,S_Fis_Kay,S_Fis_Kay,,661,,,,,,,False
+662,S_GCHar,S_GCHar,,662,,,,,,,True
+663,S_GTip,S_GTip,759,663,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+664,S_KdvOranlari,S_KdvOranlari,759,664,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+665,S_Koli_L,S_Koli_L,,665,,,,,,,False
+666,S_MatCode,S_MatCode,,666,,,,,,,False
+667,S_SatFiy,S_SatFiy,759,667,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+668,S_SatiskFiy,S_SatiskFiy,759,668,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+669,Sablon_M,Sablon_M,,669,,,,,,,False
+670,Sablon_P,Sablon_P,,670,,,,,,,False
+671,Sablon_PD,Sablon_PD,,671,,,,,,,False
+672,Sayim_tbl_D,Sayim_tbl_D,673,672,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+673,Sayim_tbl_M,Sayim_tbl_M,,673,,,,,,,False
+674,Send_BankaFis,Send_BankaFis,,674,,,,,,,False
+675,Send_CariFis,Send_CariFis,,675,,,,,,,False
+676,Send_CekHar,Send_CekHar,,676,,,,,,,False
+677,Send_CekList,Send_CekList,,677,,,,,,,False
+678,Send_FaturaFis,Send_FaturaFis,,678,,,,,,,False
+679,Send_PosSatFis,Send_PosSatFis,,679,,,,,,,False
+680,Send_SiparisFis,Send_SiparisFis,,680,,,,,,,False
+681,Send_StokFis,Send_StokFis,,681,,,,,,,False
+682,SendReceive_Option,SendReceive_Option,,682,,,,,,,False
+683,Seri_Bargchar,Seri_Bargchar,,683,,,,,,,False
+684,Seri_gchar,Seri_gchar,,684,,,,,,,False
+685,Sevk_D,Sevk_D,692,685,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+686,Sevk_D_Ydk,Sevk_D_Ydk,,686,,,,,,,False
+687,Sevk_GCHar,Sevk_GCHar,,687,,,,,,,False
+688,sevk_gchar_Locdistribution,sevk_gchar_Locdistribution,,688,,,,,,,False
+689,Sevk_GCHar_Tmp,Sevk_GCHar_Tmp,,689,,,,,,,False
+690,Sevk_GCHar_Ydk,Sevk_GCHar_Ydk,,690,,,,,,,False
+691,Sevk_GetList,Sevk_GetList,,691,,,,,,,False
+692,Sevk_M,Sevk_M,,692,,,,,,,False
+693,Sevk_M_Ydk,Sevk_M_Ydk,,693,,,,,,,False
+694,SevkKoli,SevkKoli,,694,,,,,,,False
+695,SFisTutar,SFisTutar,,695,,,,,,,True
+696,Si_GCHar,Si_GCHar,759,696,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+697,Sip_Avans,Sip_Avans,713,697,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+698,Sip_Avans_Con,Sip_Avans_Con,,698,,,,,,,False
+699,Sip_OzDur,Sip_OzDur,,699,,,,,,,False
+700,Sip_OzKod1,Sip_OzKod1,,700,,,,,,,False
+701,Sip_OzKod10,Sip_OzKod10,,701,,,,,,,False
+702,Sip_OzKod2,Sip_OzKod2,,702,,,,,,,False
+703,Sip_OzKod3,Sip_OzKod3,,703,,,,,,,False
+704,Sip_OzKod4,Sip_OzKod4,,704,,,,,,,False
+705,Sip_OzKod5,Sip_OzKod5,,705,,,,,,,False
+706,Sip_OzKod6,Sip_OzKod6,,706,,,,,,,False
+707,Sip_OzKod7,Sip_OzKod7,,707,,,,,,,False
+708,Sip_OzKod8,Sip_OzKod8,,708,,,,,,,False
+709,Sip_OzKod9,Sip_OzKod9,,709,,,,,,,False
+710,Siparis_Har,Siparis_Har,713,710,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+711,Siparis_Har_isk,Siparis_Har_isk,710,711,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+712,Siparis_isk,Siparis_isk,,712,,,,,,,False
+713,Siparis_Kay,Siparis_Kay,,713,,,,,,,False
+714,Siparis_Property,Siparis_Property,713,714,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+715,SiparisTutar,SiparisTutar,,715,,,,,,,True
+716,SipOnayCompName,SipOnayCompName,,716,,,,,,,False
+717,SipOnayKul,SipOnayKul,,717,,,,,,,False
+718,SipSkodAlternate,SipSkodAlternate,,718,,,,,,,False
+719,SipTah_D,SipTah_D,,719,,,,,,,False
+720,SipTah_M,SipTah_M,,720,,,,,,,False
+721,SKLokBulYet,SKLokBulYet,759,721,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+722,SKLokMikYet,SKLokMikYet,,722,,,,,,,False
+723,SMS_History,SMS_History,,723,,,,,,,False
+724,SMS_Sablon,SMS_Sablon,,724,,,,,,,False
+725,SoapMessageLog,SoapMessageLog,,725,,,,,,,False
+726,ST_Firma_Gorusme,ST_Firma_Gorusme,,726,,,,,,,False
+727,ST_Firma_Kart,STFirma Kartı,,727,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+728,ST_Firma_Sozlesme,ST_Firma_Sozlesme,,728,,,,,,,False
+729,ST_Firma_Teklif,ST_Firma_Teklif,,729,,,,,,,False
+730,ST_Firma_Urunler,ST_Firma_Urunler,,730,,,,,,,False
+731,ST_Hatirlatma,ST_Hatirlatma,,731,,,,,,,False
+732,ST_Kisi_Aile,ST_Kisi_Aile,734,732,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+733,ST_Kisi_Baglanti,ST_Kisi_Baglanti,,733,,,,,,,False
+734,ST_Kisi_Kart,STKisi Kartı,,734,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+735,ST_OzKod_Deger,ST_OzKod_Deger,,735,,,,,,,False
+736,ST_Servis,ST_Servis,,736,,,,,,,False
+737,ST_Servis_Talep,ST_Servis_Talep,,737,,,,,,,False
+738,Stk_OzKod1,Stk_OzKod1,,738,,,,,,,False
+739,Stk_OzKod2,Stk_OzKod2,,739,,,,,,,False
+740,Stk_OzKod3,Stk_OzKod3,,740,,,,,,,False
+741,Stk_OzKod4,Stk_OzKod4,,741,,,,,,,False
+742,Stk_OzKod5,Stk_OzKod5,,742,,,,,,,False
+743,Stok_Alternatif,Stok_Alternatif,759,743,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+744,Stok_Asortileri,Stok_Asortileri,759,744,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+745,Stok_B2b,Stok_B2b,759,745,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+746,Stok_Birim,Stok_Birim,759,746,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+747,Stok_CariSKod,Stok_CariSKod,759,747,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+748,Stok_DBirim,Stok_DBirim,759,748,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+749,Stok_Doc,Stok_Doc,759,749,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+750,Stok_Kritik,Stok_Kritik,759,750,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+751,Stok_Optimum,Stok_Optimum,759,751,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+752,Stok_Prim,Stok_Prim,759,752,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+753,Stok_Proje_D,Stok_Proje_D,759,753,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+754,Stok_Renk,Stok_Renk,759,754,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+755,Stok_Seviye,Stok_Seviye,759,755,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+756,StokBarCode,StokBarCode,759,756,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+757,StokHareket,StokHareket,759,757,,,,dbo,2025-05-27 14:46:23.113000,Update,True
+758,StokHareketHataLog,StokHareketHataLog,,758,,,,,,,False
+759,StokKart,Stok Kartı,,759,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+760,StokMevcut,StokMevcut,759,760,,,,dbo,2025-05-27 14:46:23.117000,Update,True
+761,StokModel_C,StokModel_C,396,761,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+762,StokSekil,StokSekil,,762,,,,,,,False
+763,StokSonFiy_Tmp,StokSonFiy_Tmp,759,763,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+764,Su_GCHar,Su_GCHar,,764,,,,,,,False
+765,Sue_GCHar,Sue_GCHar,,765,,,,,,,False
+766,Sup_GCHar,Sup_GCHar,826,766,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+767,sysdiagrams,sysdiagrams,,767,,,,,,,False
+768,Takim_Har,Takim_Har,,768,,,,,,,False
+769,Taksit_Har,Taksit_Har,771,769,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+770,Taksit_iade,Taksit_iade,599,770,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+771,Taksit_Kay,Taksit_Kay,599,771,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+772,Taksit_Ode,Taksit_Ode,,772,,,,,,,False
+773,Talep_gch,Talep_gch,,773,,,,,,,False
+774,Tamir_D,Tamir_D,,774,,,,,,,False
+775,Tamir_Dosya,Tamir_Dosya,,775,,,,,,,False
+776,Tamir_Har,Tamir_Har,,776,,,,,,,False
+777,Tamir_iadeNeden,Tamir_iadeNeden,,777,,,,,,,False
+778,Tamir_M,Tamir_M,,778,,,,,,,False
+779,Tamir_Resim,Tamir_Resim,,779,,,,,,,False
+780,TD_AhpProfil,TD_AhpProfil,,780,,,,,,,True
+781,TD_Donem,TD_Donem,,781,,,,,,,True
+782,TD_Kriter_A,TD_Kriter_A,,782,,,,,,,True
+783,TD_Kriter_D,TD_Kriter_D,784,783,,,,dbo,2025-05-27 14:46:23.040000,Update,True
+784,TD_Kriter_M,TD_Kriter_M,,784,,,,,,,True
+785,TD_Kriter_MA,TD_Kriter_MA,,785,,,,,,,True
+786,TD_Profil,TD_Profil,,786,,,,,,,True
+787,TD_Tedarikci,TD_Tedarikci,,787,,,,,,,True
+788,TD_TedKri,TD_TedKri,,788,,,,,,,True
+789,Tedarikci_Sipno,Tedarikci_Sipno,,789,,,,,,,False
+790,TedarikciSiparisMailInfo,TedarikciSiparisMailInfo,,790,,,,,,,False
+791,Teminat_Har,Teminat_Har,,791,,,,,,,False
+792,Teminat_Kart,Teminat Kartı,,792,,,,dbo,2025-05-27 14:46:10.643000,Update,False
+793,Tmp_Fattocom2kg,Tmp_Fattocom2kg,,793,,,,,,,True
+794,tmpClosed_Con,tmpClosed_Con,,794,,,,,,,True
+795,tmpGetAlSatFiyKz,tmpGetAlSatFiyKz,,795,,,,,,,True
+796,tmpGetBeyanMizan,tmpGetBeyanMizan,,796,,,,,,,True
+797,tmpGetRezGMik,tmpGetRezGMik,,797,,,,,,,True
+798,tmpGetRezGMikAsorti,tmpGetRezGMikAsorti,,798,,,,,,,True
+799,tmpGetStkeTicMik,tmpGetStkeTicMik,,799,,,,,,,True
+800,tmpGetStkeTicMikAst,tmpGetStkeTicMikAst,,800,,,,,,,True
+801,tmpGetStkGMik,tmpGetStkGMik,,801,,,,,,,True
+802,tmpGetStkGMikAsorti,tmpGetStkGMikAsorti,,802,,,,,,,True
+803,TmpSevkList,TmpSevkList,,803,,,,,,,True
+804,tmpSipBirles,tmpSipBirles,,804,,,,,,,True
+805,TmpSipDetayList,TmpSipDetayList,,805,,,,,,,True
+806,TuciniAsortiBC,TuciniAsortiBC,,806,,,,,,,False
+807,U_Emir2Emir,U_Emir2Emir,,807,,,,,,,False
+808,U_s_gchar,U_s_gchar,826,808,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+809,U_Use_Ham,U_Use_Ham,826,809,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+810,UniFreeGumrukLog,UniFreeGumrukLog,599,810,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+811,UnifreeLog,UnifreeLog,599,811,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+812,UnqID,UnqID,,812,,,,,,,True
+813,Ups_Area,Ups_Area,,813,,,,,,,False
+814,Ur_CFis_Con,Ur_CFis_Con,,814,,,,,,,False
+815,Ur_FOut_Con,Ur_FOut_Con,,815,,,,,,,False
+816,Ur_Ham_Ted,Ur_Ham_Ted,826,816,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+817,Ur_HFO_Con,Ur_HFO_Con,,817,,,,,,,False
+818,Ur_HFOut_Con,Ur_HFOut_Con,,818,,,,,,,False
+819,Ur_HOut_Con,Ur_HOut_Con,,819,,,,,,,False
+820,Ur_hout_detail,Ur_hout_detail,,820,,,,,,,False
+821,Ur_Out_Con,Ur_Out_Con,,821,,,,,,,False
+822,Ur_PFis_Con,Ur_PFis_Con,,822,,,,,,,False
+823,Ur_Rezerv_Con,Ur_Rezerv_Con,,823,,,,,,,False
+824,Ur_YFOut_Con,Ur_YFOut_Con,,824,,,,,,,False
+825,Ur_YOut_Con,Ur_YOut_Con,,825,,,,,,,False
+826,Uretim_Emir,Uretim_Emir,,826,,,,,,,False
+827,Urt_AnaPlan,Urt_AnaPlan,834,827,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+828,Urt_con_DetDur,Urt_con_DetDur,830,828,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+829,Urt_con_gch,Urt_con_gch,849,829,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+830,Urt_con_gch_Det,Urt_con_gch_Det,829,830,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+831,Urt_con_HizFat,Urt_con_HizFat,,831,,,,,,,False
+832,Urt_con_MasrafDag,Urt_con_MasrafDag,,832,,,,,,,False
+833,Urt_CW_Pinx,Urt_CW_Pinx,,833,,,,,,,False
+834,Urt_Donem_D,Urt_Donem_D,835,834,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+835,Urt_Donem_M,Urt_Donem_M,,835,,,,,,,False
+836,Urt_Dur_Har,Urt_Dur_Har,,836,,,,,,,False
+837,Urt_Durus,Urt_Durus,,837,,,,,,,False
+838,Urt_Em_gch,Urt_Em_gch,849,838,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+839,Urt_Em_Ham,Urt_Em_Ham,849,839,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+840,Urt_Em_HamA,Urt_Em_HamA,849,840,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+841,Urt_Em_HF,Urt_Em_HF,849,841,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+842,Urt_Em_OzDur,Urt_Em_OzDur,,842,,,,,,,False
+843,Urt_Em_Property,Urt_Em_Property,,843,,,,,,,False
+844,Urt_Em_Ter,Urt_Em_Ter,,844,,,,,,,False
+845,Urt_Em_wmac,Urt_Em_wmac,849,845,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+846,Urt_Em_Yan,Urt_Em_Yan,849,846,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+847,Urt_Em2Em,Urt_Em2Em,,847,,,,,,,False
+848,Urt_em2fat2sip,Urt_em2fat2sip,,848,,,,,,,False
+849,Urt_Emir,Urt_Emir,,849,,,,,,,False
+850,Urt_Emir_ProDet,Urt_Emir_ProDet,,850,,,,,,,False
+851,urt_ExtLocation,urt_ExtLocation,,851,,,,,,,False
+852,Urt_fin_gch,Urt_fin_gch,849,852,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+853,Urt_fin_gch_ydk,Urt_fin_gch_ydk,,853,,,,,,,False
+854,Urt_fin_LotSeri,Urt_fin_LotSeri,,854,,,,,,,False
+855,Urt_gch_KT,Urt_gch_KT,,855,,,,,,,False
+856,Urt_GPlan_Detail,Urt_GPlan_Detail,,856,,,,,,,False
+857,Urt_GPlanWMKlp,Urt_GPlanWMKlp,,857,,,,,,,False
+858,Urt_KlpHes1_D,Urt_KlpHes1_D,859,858,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+859,Urt_KlpHes1_M,Urt_KlpHes1_M,,859,,,,,,,False
+860,Urt_KlpHes1_S,Urt_KlpHes1_S,858,860,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+861,Urt_KlpHes2_D,Urt_KlpHes2_D,862,861,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+862,Urt_KlpHes2_M,Urt_KlpHes2_M,,862,,,,,,,False
+863,Urt_KlpHes2_S,Urt_KlpHes2_S,861,863,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+864,Urt_Mod_Parca,Urt_Mod_Parca,,864,,,,,,,False
+865,Urt_Mrp_Crp,Urt_Mrp_Crp,871,865,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+866,Urt_Mrp_gch,Urt_Mrp_gch,871,866,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+867,Urt_Mrp_gcx,Urt_Mrp_gcx,871,867,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+868,Urt_Mrp_GRes,Urt_Mrp_GRes,871,868,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+869,Urt_Mrp_Ham,Urt_Mrp_Ham,866,869,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+870,Urt_Mrp_HRes,Urt_Mrp_HRes,871,870,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+871,Urt_Mrp_M,Urt_Mrp_M,,871,,,,,,,False
+872,Urt_Mrp_YCon,Urt_Mrp_YCon,873,872,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+873,Urt_Mrp_YRes,Urt_Mrp_YRes,871,873,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+874,Urt_Oz_Gider,Urt_Oz_Gider,,874,,,,,,,False
+875,Urt_OzDur,Urt_OzDur,,875,,,,,,,False
+876,Urt_Plan_gch,Urt_Plan_gch,,876,,,,,,,False
+877,Urt_Plan_Model,Urt_Plan_Model,,877,,,,,,,False
+878,Urt_Plan_Model_tmp,Urt_Plan_Model_tmp,,878,,,,,,,False
+879,Urt_Plan_OzDur,Urt_Plan_OzDur,,879,,,,,,,False
+880,Urt_Plan_OzDur_kkk,Urt_Plan_OzDur_kkk,,880,,,,,,,False
+881,Urt_Plan_OzDur_tmp,Urt_Plan_OzDur_tmp,,881,,,,,,,False
+882,Urt_Plan_Pid,Urt_Plan_Pid,,882,,,,,,,False
+883,Urt_Plan_Prinfo,Urt_Plan_Prinfo,877,883,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+884,Urt_Plan_WMak,Urt_Plan_WMak,,884,,,,,,,False
+885,Urt_Plan_WMak_tmp,Urt_Plan_WMak_tmp,,885,,,,,,,False
+886,Urt_Process_Person,Urt_Process_Person,,886,,,,,,,False
+887,Urt_ProDet,Urt_ProDet,,887,,,,,,,False
+888,Urt_Sa_Gider,Urt_Sa_Gider,,888,,,,,,,False
+889,Urt_Sanal_D,Urt_Sanal_D,891,889,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+890,Urt_Sanal_HC,Urt_Sanal_HC,891,890,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+891,Urt_Sanal_M,Urt_Sanal_M,,891,,,,,,,False
+892,Urt_Sanal_MG,Urt_Sanal_MG,891,892,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+893,Urt_Sip2Sip_ast,Urt_Sip2Sip_ast,,893,,,,,,,False
+894,Urt_Sip2Sip_gch,Urt_Sip2Sip_gch,,894,,,,,,,False
+895,Urt_Smi_Gider,Urt_Smi_Gider,898,895,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+896,Urt_Smi_Ham,Urt_Smi_Ham,900,896,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+897,Urt_Smi_HC,Urt_Smi_HC,898,897,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+898,Urt_Smi_Kay,Urt_Smi_Kay,,898,,,,,,,False
+899,Urt_Smi_MG,Urt_Smi_MG,898,899,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+900,Urt_Smi_Ur,Urt_Smi_Ur,898,900,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+901,Urt_TabanPlan_BD,Urt_TabanPlan_BD,,901,,,,,,,False
+902,Urt_TabanPlan_D,Urt_TabanPlan_D,903,902,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+903,Urt_TabanPlan_M,Urt_TabanPlan_M,,903,,,,,,,False
+904,Urt_UMGroup,Urt_UMGroup,906,904,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+905,Urt_UPGDetail,Urt_UPGDetail,904,905,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+906,Urt_UPlan,Urt_UPlan,,906,,,,,,,False
+907,Urt_UseWMak,Urt_UseWMak,,907,,,,,,,False
+908,Urt_Visual_FC,Urt_Visual_FC,,908,,,,,,,False
+909,Urt_Visual_G,Urt_Visual_G,912,909,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+910,Urt_Visual_H,Urt_Visual_H,912,910,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+911,Urt_Visual_HC,Urt_Visual_HC,,911,,,,,,,False
+912,Urt_Visual_M,Urt_Visual_M,,912,,,,,,,False
+913,Urt_Visual_MC,Urt_Visual_MC,,913,,,,,,,False
+914,Urt_Visual_Y,Urt_Visual_Y,912,914,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+915,Urt_Visual_YC,Urt_Visual_YC,,915,,,,,,,False
+916,Urt_wait_gch,Urt_wait_gch,849,916,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+917,Urt_wait_gch_ydk,Urt_wait_gch_ydk,,917,,,,,,,False
+918,Urt_WM_BakimTip,Urt_WM_BakimTip,,918,,,,,,,False
+919,Urt_WMakPlan,Urt_WMakPlan,,919,,,,,,,False
+920,Urt_WMBakimPln,Urt_WMBakimPln,,920,,,,,,,False
+921,Urt_WMCall_D,Urt_WMCall_D,,921,,,,,,,False
+922,Urt_WMCall_H,Urt_WMCall_H,,922,,,,,,,False
+923,Urt_WMCall_M,Urt_WMCall_M,,923,,,,,,,False
+924,Urt_WMDoc,Urt_WMDoc,933,924,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+925,Urt_WMKalip,Urt_WMKalip,933,925,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+926,Urt_WMModel,Urt_WMModel,933,926,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+927,Urt_WMProDet,Urt_WMProDet,933,927,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+928,Urt_WMProses,Urt_WMProses,933,928,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+929,Urt_WMWorkDay,Urt_WMWorkDay,,929,,,,,,,False
+930,Urt_WMWorkTimeDetail,Urt_WMWorkTimeDetail,929,930,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+931,Urt_WMWorkTimeGlobal,Urt_WMWorkTimeGlobal,,931,,,,,,,False
+932,Urt_WorkDay,Urt_WorkDay,,932,,,,,,,False
+933,Urt_WorkMain,Urt_WorkMain,,933,,,,,,,False
+934,Urt_WorkStation,Urt_WorkStation,,934,,,,,,,False
+935,Urt_WorkTimeDetail,Urt_WorkTimeDetail,932,935,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+936,Urt_WorkTimeGlobal,Urt_WorkTimeGlobal,,936,,,,,,,False
+937,Urt_xxx_gch,Urt_xxx_gch,,937,,,,,,,False
+938,UrtPln_myUDayList,UrtPln_myUDayList,,938,,,,,,,False
+939,UrtPln_Resources,UrtPln_Resources,,939,,,,,,,False
+940,UrtPln_Resources_G,UrtPln_Resources_G,,940,,,,,,,False
+941,UrtPln_WorkDetail,UrtPln_WorkDetail,,941,,,,,,,False
+942,UrtPln_WorkPlan,UrtPln_WorkPlan,,942,,,,,,,False
+943,Urtx_con_gch,Urtx_con_gch,951,943,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+944,Urtx_con_gch_Det,Urtx_con_gch_Det,943,944,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+945,Urtx_Em_gch,Urtx_Em_gch,951,945,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+946,Urtx_Em_Ham,Urtx_Em_Ham,951,946,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+947,Urtx_Em_HF,Urtx_Em_HF,951,947,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+948,Urtx_Em_Ter,Urtx_Em_Ter,,948,,,,,,,False
+949,Urtx_Em_wmac,Urtx_Em_wmac,951,949,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+950,Urtx_Em_Yan,Urtx_Em_Yan,951,950,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+951,Urtx_Emir,Urtx_Emir,,951,,,,,,,False
+952,Urtx_Emir_ProDet,Urtx_Emir_ProDet,,952,,,,,,,False
+953,Urtx_fin_gch,Urtx_fin_gch,951,953,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+954,Urtx_fin_gch_ydk,Urtx_fin_gch_ydk,,954,,,,,,,False
+955,Urtx_wait_gch,Urtx_wait_gch,951,955,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+956,Urtx_wait_gch_ydk,Urtx_wait_gch_ydk,,956,,,,,,,False
+957,UyariListe,UyariListe,,957,,,,,,,False
+958,vCountHourly,vCountHourly,,958,,,,,,,False
+959,vCountHourlyGender,vCountHourlyGender,,959,,,,,,,False
+960,VERA_KDV,VERA_KDV,,960,,,,,,,False
+961,VERA_KISIM,VERA_KISIM,960,961,,,,dbo,2025-05-27 14:46:23.040000,Update,False
+962,Vera_RefNo,Vera_RefNo,,962,,,,,,,False
+963,WH_Dah_Kontrol,WH_Dah_Kontrol,,963,,,,,,,False
+964,WR_BCYazPar,WR_BCYazPar,,964,,,,,,,False
+965,WR_Rapor,WR_Rapor,,965,,,,,,,False
+966,WR_Rapor_Param,WR_Rapor_Param,,966,,,,,,,False
+967,WRBCPrintLog,WRBCPrintLog,,967,,,,,,,False
+968,WRH_UEmirhHamFisCon,WRH_UEmirhHamFisCon,,968,,,,,,,False
+969,Zarf_Taslak,Zarf_Taslak,,969,,,,,,,False
+970,zzcaribak,zzcaribak,,970,,,,,,,False
+971,ZZCompanySentinel,ZZCompanySentinel,,971,,,,,,,False
+972,zzFReportimhp,zzFReportimhp,,972,,,,,,,False
+973,zzLocation_1910_Gecis,zzLocation_1910_Gecis,,973,,,,,,,False
+974,EBeyanname_Sablons,EBeyanname_Sablons,,974,dbo,2024-09-11 17:02:27.437000,Update,,,,False
+975,PlannedQueryList,PlannedQueryList,,975,dbo,2024-09-11 17:02:27.437000,Update,,,,False
+976,Fatura_Asorti,Fatura_Asorti,193,976,dbo,2024-10-17 14:12:46.743000,Update,dbo,2025-05-27 14:46:23.040000,Update,False
+977,P_ppr_Fields,P_ppr_Fields,,977,dbo,2024-10-17 14:12:46.743000,Update,,,,False
+978,P_ppr_kDet,P_ppr_kDet,979,978,dbo,2024-10-17 14:12:46.743000,Update,dbo,2025-05-27 14:46:23.040000,Update,False
+979,P_ppr_kMst,P_ppr_kMst,,979,dbo,2024-10-17 14:12:46.743000,Update,,,,False
+980,P_ppr_sDet,P_ppr_sDet,981,980,dbo,2024-10-17 14:12:46.743000,Update,dbo,2025-05-27 14:46:23.040000,Update,False
+981,P_ppr_sMst,P_ppr_sMst,,981,dbo,2024-10-17 14:12:46.743000,Update,,,,False
+982,S_Fis_Asorti,S_Fis_Asorti,659,982,dbo,2024-10-17 14:12:46.743000,Update,dbo,2025-05-27 14:46:23.040000,Update,False
+983,StokHareketYedek,StokHareketYedek,,983,dbo,2024-10-17 14:12:46.743000,Update,,,,False
+984,StokMevcutYedek,StokMevcutYedek,,984,dbo,2024-10-17 14:12:46.743000,Update,,,,False
+985,Raf_Adresleme,Raf_Adresleme,,985,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+986,Raf_Adresleme_rGuid,Raf_Adresleme_rGuid,,986,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+987,Raf_AdreslemeHistory,Raf_AdreslemeHistory,,987,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+988,Raf_D_History,Raf_D_History,,988,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+989,Raf_D_Sanal,Raf_D_Sanal,,989,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+990,Raf_D_SanalDagilim,Raf_D_SanalDagilim,,990,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+991,Raf_Dagitilmayacak,Raf_Dagitilmayacak,,991,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+992,Raf_HucreLog,Raf_HucreLog,,992,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+993,Raf_PaketlemeHucre,Raf_PaketlemeHucre,,993,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+994,Raf_PosDagitim,Raf_PosDagitim,,994,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+995,Raf_PosDagitimYok,Raf_PosDagitimYok,,995,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+996,Raf_PPR_Sezoniadeirs,Raf_PPR_Sezoniadeirs,,996,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+997,Raf_PPRSipNoConn,Raf_PPRSipNoConn,,997,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+998,Raf_PrintList,Raf_PrintList,,998,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+999,Raf_SplitOrders,Raf_SplitOrders,,999,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+1000,TY_Order,TY_Order,,1000,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+1001,TY_OrderLine,TY_OrderLine,,1001,dbo,2024-11-04 12:42:02.157000,Update,,,,False
+1002,EITransportInfo,EITransportInfo,,1002,dbo,2024-11-22 13:43:26.543000,Update,,,,False
+1003,PaabCocinxBarcodeLog,PaabCocinxBarcodeLog,,1003,dbo,2024-11-22 13:43:26.543000,Update,,,,False
+1004,Emaar_Location_Params,Emaar_Location_Params,,1004,dbo,2024-12-02 12:22:04.807000,Update,,,,False
+1005,zz_P_BarCodeGen_d,zz_P_BarCodeGen_d,,1005,dbo,2024-12-02 12:22:04.807000,Update,,,,False
+1006,zz_P_BarCodeGen_M,zz_P_BarCodeGen_M,,1006,dbo,2024-12-02 12:22:04.807000,Update,,,,False
+1007,stok_kartlari_2222222,stok_kartlari_2222222,,1007,dbo,2024-12-25 13:37:55.580000,Update,,,,False
+1008,BlockingSessionsLog,BlockingSessionsLog,,1008,dbo,2025-01-24 11:39:52.140000,Update,,,,False
+1009,OKCihaz,OKCihaz,,1009,dbo,2025-01-30 09:50:08.467000,Update,,,,False
+1010,Stok_Uyari,Stok_Uyari,759,1010,dbo,2025-02-03 18:10:05.633000,Update,dbo,2025-05-27 14:46:23.040000,Update,False
+1011,CariLokasyonNakliyeInfo,CariLokasyonNakliyeInfo,,1011,dbo,2025-02-17 12:36:28.757000,Update,,,,False
+1012,Mob_UrBul_D,Mob_UrBul_D,,1012,dbo,2025-02-17 12:36:28.757000,Update,,,,False
+1013,Mob_UrBul_M,Mob_UrBul_M,,1013,dbo,2025-02-17 12:36:28.757000,Update,,,,False
+1014,Sil,Sil,,1014,dbo,2025-02-17 12:36:28.757000,Update,,,,False
+1015,EBeyanname_SablonTypes,EBeyanname_SablonTypes,,1015,dbo,2025-03-25 12:13:42.360000,Update,,,,False
+1016,EBeyanname_TaxtType,EBeyanname_TaxtType,,1016,dbo,2025-03-25 12:13:42.360000,Update,,,,False
+1017,Kurumlar_GecmisYilZararlar,Kurumlar_GecmisYilZararlar,,1017,dbo,2025-03-25 12:13:42.360000,Update,,,,False
+1018,Urt_Paket_Conn,Urt_Paket_Conn,,1018,dbo,2025-04-17 19:04:26.290000,Update,,,,False
